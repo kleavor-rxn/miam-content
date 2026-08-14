@@ -1,6 +1,7 @@
 from PIL import Image
 
 from tools.process_images import process_images
+from tools.placeholders import generate_placeholders
 
 
 def test_converts_and_resizes(tmp_path, content_repo):
@@ -24,3 +25,16 @@ def test_real_images_remove_placeholder_marker(tmp_path, content_repo):
     Image.new("RGB", (800, 600), "green").save(src / "hero.png")
     process_images(src, content_repo, "france", "fr-test-un")
     assert not (imgdir / ".placeholder").exists()
+
+
+def test_placeholders_created_with_marker(content_repo):
+    imgdir = content_repo / "france" / "images" / "fr-test-un"
+    for f in imgdir.iterdir():
+        f.unlink()
+    written = generate_placeholders(content_repo, "france", "fr-test-un")
+    assert (imgdir / "hero.webp").is_file()
+    assert (imgdir / "step-1.webp").is_file()
+    assert (imgdir / ".placeholder").is_file()
+    assert len(written) == 2
+    hero = Image.open(imgdir / "hero.webp")
+    assert hero.size == (1200, 800)
