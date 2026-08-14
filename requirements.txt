@@ -1,0 +1,4 @@
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+pillow==12.3.0
+pytest==9.1.1
