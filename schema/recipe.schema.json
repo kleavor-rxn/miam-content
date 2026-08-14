@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miam.raxoon.com/schema/recipe.schema.json",
+  "type": "object",
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "required": ["fr", "en", "es", "it"],
+      "properties": {
+        "fr": {"type": "string", "minLength": 1},
+        "en": {"type": "string", "minLength": 1},
+        "es": {"type": "string", "minLength": 1},
+        "it": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "unit": {
+      "enum": ["g", "kg", "ml", "cl", "l", "tbsp", "tsp", "pinch", "piece", "clove", "slice"]
+    }
+  },
+  "required": ["schemaVersion", "id", "title", "summary", "region", "category",
+               "difficulty", "prepMinutes", "cookMinutes", "servings",
+               "heroImage", "tags", "ingredients", "steps"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^(fr|it)-[a-z0-9-]+$"},
+    "title": {"$ref": "#/$defs/localizedText"},
+    "summary": {"$ref": "#/$defs/localizedText"},
+    "region": {"$ref": "#/$defs/localizedText"},
+    "category": {"enum": ["entree", "plat", "dessert", "autre"]},
+    "difficulty": {"type": "integer", "minimum": 1, "maximum": 3},
+    "prepMinutes": {"type": "integer", "minimum": 1},
+    "cookMinutes": {"type": "integer", "minimum": 0},
+    "servings": {"type": "integer", "minimum": 1, "maximum": 12},
+    "heroImage": {"type": "string", "pattern": "^images/[a-z0-9-]+/hero\\.webp$"},
+    "tags": {
+      "type": "array",
+      "items": {"enum": ["airFryer", "vegetarian"]},
+      "uniqueItems": true
+    },
+    "airFryerNotes": {"$ref": "#/$defs/localizedText"},
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["ref", "quantity", "unit"],
+        "properties": {
+          "ref": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "quantity": {"type": ["number", "null"], "exclusiveMinimum": 0},
+          "unit": {"anyOf": [{"$ref": "#/$defs/unit"}, {"type": "null"}]},
+          "optional": {"type": "boolean", "default": false},
+          "substitutes": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["text", "image"],
+        "properties": {
+          "text": {"$ref": "#/$defs/localizedText"},
+          "image": {"type": "string", "pattern": "^images/[a-z0-9-]+/step-[0-9]+\\.webp$"},
+          "timerMinutes": {"type": "integer", "minimum": 1}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

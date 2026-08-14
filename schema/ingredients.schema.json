@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miam.raxoon.com/schema/ingredients.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "ingredients"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "names", "category", "staple"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "names": {"$ref": "recipe.schema.json#/$defs/localizedText"},
+          "category": {"enum": ["legumes", "fruits", "viandes", "poissons",
+                                 "feculents", "produits-laitiers", "epicerie",
+                                 "herbes-epices", "boulangerie", "autres"]},
+          "staple": {"type": "boolean"},
+          "substitutes": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
