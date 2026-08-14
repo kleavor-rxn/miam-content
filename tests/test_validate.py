@@ -17,7 +17,8 @@ def test_schemas_are_valid_jsonschema():
 
 
 def _errors(root):
-    return [e.message for e in validate_country(root, "france")]
+    return [e.message for e in validate_country(root, "france")
+            if e.severity == "error"]
 
 
 def test_valid_repo_has_no_errors(content_repo):
@@ -79,3 +80,31 @@ def test_images_must_live_in_recipe_folder(content_repo):
     bad["heroImage"] = "images/fr-test-un/hero.webp"  # existe, mais mauvais dossier
     write_recipe(content_repo, "france", bad)
     assert any("hors du dossier" in m for m in _errors(content_repo))
+
+
+def test_quantity_and_unit_must_pair(content_repo):
+    bad = make_recipe("fr-bad", ingredients=[
+        {"ref": "carotte", "quantity": 200, "unit": None}])
+    write_recipe(content_repo, "france", bad)
+    assert any("ensemble" in m for m in _errors(content_repo))
+
+
+def test_id_country_prefix_must_match_folder(content_repo):
+    write_recipe(content_repo, "france", make_recipe("it-mauvais-pays"))
+    assert any("ne commence pas par 'fr-'" in m for m in _errors(content_repo))
+
+
+def test_unknown_substitute_in_taxonomy(content_repo):
+    import json
+    tax = json.loads((content_repo / "france" / "ingredients.json").read_text())
+    tax["ingredients"][0]["substitutes"] = ["licorne"]
+    (content_repo / "france" / "ingredients.json").write_text(json.dumps(tax))
+    assert any("licorne" in m for m in _errors(content_repo))
+
+
+def test_index_out_of_sync_detected(content_repo):
+    import json
+    index = {"schemaVersion": 1, "generatedAt": "2026-08-14T00:00:00Z",
+             "recipes": [], "dailyPicks": []}
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert any("désynchronisé" in m for m in _errors(content_repo))
