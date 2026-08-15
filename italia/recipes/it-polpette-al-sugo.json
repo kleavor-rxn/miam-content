@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "it-polpette-al-sugo",
+  "title": {"fr": "Boulettes à la sauce tomate (polpette)", "en": "Meatballs in tomato sauce (polpette)", "es": "Albóndigas en salsa de tomate (polpette)", "it": "Polpette al sugo"},
+  "summary": {
+    "fr": "Les boulettes du dimanche comme dans le Sud de l'Italie : moelleuses au parmesan, longuement mijotées dans une sauce tomate au basilic.",
+    "en": "Sunday meatballs the southern Italian way: tender with parmesan, slowly simmered in a basil-scented tomato sauce.",
+    "es": "Las albóndigas del domingo al estilo del sur de Italia: tiernas con parmesano, guisadas despacio en una salsa de tomate con albahaca.",
+    "it": "Le polpette della domenica come nel Sud Italia: morbide al parmigiano, cotte piano piano in un sugo di pomodoro al basilico."
+  },
+  "region": {"fr": "Italie du Sud", "en": "Southern Italy", "es": "Sur de Italia", "it": "Italia meridionale"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "servings": 4,
+  "heroImage": "images/it-polpette-al-sugo/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Disposez les boulettes en une seule couche dans le panier légèrement huilé et faites-les cuire 12 minutes à 180 °C, en secouant à mi-cuisson : elles dorent sans matière grasse ajoutée. Terminez-les ensuite 10 minutes dans la sauce mijotée pour qu'elles restent moelleuses.",
+    "en": "Arrange the meatballs in a single layer in the lightly oiled basket and cook for 12 minutes at 180 °C, shaking halfway through: they brown with no added fat. Then finish them for 10 minutes in the simmering sauce so they stay tender.",
+    "es": "Coloca las albóndigas en una sola capa en la cesta ligeramente engrasada y cocínalas 12 minutos a 180 °C, agitando a mitad de cocción: se doran sin grasa añadida. Termínalas después 10 minutos en la salsa para que queden jugosas.",
+    "it": "Disponi le polpette in un solo strato nel cestello leggermente unto e cuocile 12 minuti a 180 °C, scuotendo a metà cottura: rosolano senza grassi aggiunti. Falle poi finire 10 minuti nel sugo che sobbolle, così restano morbide."
+  },
+  "ingredients": [
+    {"ref": "manzo-macinato", "quantity": 500, "unit": "g"},
+    {"ref": "pane", "quantity": 2, "unit": "slice"},
+    {"ref": "latte", "quantity": 10, "unit": "cl"},
+    {"ref": "uovo", "quantity": 1, "unit": "piece"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "prezzemolo", "quantity": 2, "unit": "tbsp"},
+    {"ref": "aglio", "quantity": 1, "unit": "clove"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "passata", "quantity": 70, "unit": "cl"},
+    {"ref": "basilico", "quantity": 6, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites tremper la mie de pain dans le lait pendant 10 minutes, puis essorez-la entre vos doigts.", "en": "Soak the bread crumb in the milk for 10 minutes, then squeeze it out between your fingers.", "es": "Remoja la miga de pan en la leche durante 10 minutos y escúrrela apretándola con los dedos.", "it": "Metti la mollica di pane a bagno nel latte per 10 minuti, poi strizzala tra le dita."}, "image": "images/it-polpette-al-sugo/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Mélangez le bœuf haché avec la mie essorée, l'œuf, le parmesan râpé, le persil et l'ail hachés, du sel et du poivre, jusqu'à obtenir une farce homogène.", "en": "Mix the ground beef with the squeezed bread, the egg, the grated parmesan, the chopped parsley and garlic, salt and pepper, until the mixture comes together evenly.", "es": "Mezcla la carne picada con la miga escurrida, el huevo, el parmesano rallado, el perejil y el ajo picados, sal y pimienta, hasta obtener una masa homogénea.", "it": "Impasta il macinato con la mollica strizzata, l'uovo, il parmigiano grattugiato, prezzemolo e aglio tritati, sale e pepe, fino a ottenere un composto omogeneo."}, "image": "images/it-polpette-al-sugo/step-2.webp"},
+    {"text": {"fr": "Avec les mains humides, façonnez une vingtaine de boulettes de la taille d'une noix.", "en": "With damp hands, shape about twenty meatballs the size of a walnut.", "es": "Con las manos húmedas, forma una veintena de albóndigas del tamaño de una nuez.", "it": "Con le mani umide, forma una ventina di polpette grandi come una noce."}, "image": "images/it-polpette-al-sugo/step-3.webp"},
+    {"text": {"fr": "Faites-les dorer sur toutes leurs faces dans 2 cuillères d'huile bien chaude, puis réservez-les sur une assiette.", "en": "Brown them on all sides in 2 tablespoons of hot oil, then set them aside on a plate.", "es": "Dóralas por todos los lados en 2 cucharadas de aceite bien caliente y resérvalas en un plato.", "it": "Falle rosolare su tutti i lati in 2 cucchiai d'olio ben caldo, poi mettile da parte su un piatto."}, "image": "images/it-polpette-al-sugo/step-4.webp", "timerMinutes": 6},
+    {"text": {"fr": "Dans la même cocotte, faites fondre l'oignon finement haché avec le reste d'huile pendant 5 minutes.", "en": "In the same pot, soften the finely chopped onion in the remaining oil for 5 minutes.", "es": "En la misma cazuela, pocha la cebolla picada fina con el resto del aceite durante 5 minutos.", "it": "Nella stessa casseruola, fai appassire la cipolla tritata fine con l'olio rimasto per 5 minuti."}, "image": "images/it-polpette-al-sugo/step-5.webp", "timerMinutes": 5},
+    {"text": {"fr": "Versez la passata, ajoutez la moitié du basilic, salez, et laissez frémir 10 minutes à découvert.", "en": "Pour in the passata, add half the basil, season with salt and let it bubble gently, uncovered, for 10 minutes.", "es": "Vierte la passata, añade la mitad de la albahaca, sala y deja que hierva suavemente 10 minutos sin tapar.", "it": "Versa la passata, aggiungi metà del basilico, sala e lascia sobbollire 10 minuti senza coperchio."}, "image": "images/it-polpette-al-sugo/step-6.webp", "timerMinutes": 10},
+    {"text": {"fr": "Replongez les boulettes dans la sauce, couvrez et laissez mijoter 20 minutes à feu doux, en remuant délicatement à mi-cuisson.", "en": "Return the meatballs to the sauce, cover and simmer over low heat for 20 minutes, stirring gently halfway through.", "es": "Devuelve las albóndigas a la salsa, tapa y cuece a fuego lento 20 minutos, removiendo con cuidado a mitad de cocción.", "it": "Rimetti le polpette nel sugo, copri e lascia sobbollire a fuoco dolce per 20 minuti, mescolando con delicatezza a metà cottura."}, "image": "images/it-polpette-al-sugo/step-7.webp", "timerMinutes": 20},
+    {"text": {"fr": "Servez bien chaud, parsemé du basilic restant, avec du pain de campagne pour saucer.", "en": "Serve piping hot, scattered with the remaining basil, with country bread for mopping up the sauce.", "es": "Sirve bien caliente, con el resto de la albahaca por encima y pan rústico para mojar en la salsa.", "it": "Servi ben caldo, con il basilico rimasto e del pane casereccio per fare la scarpetta."}, "image": "images/it-polpette-al-sugo/step-8.webp"}
+  ]
+}

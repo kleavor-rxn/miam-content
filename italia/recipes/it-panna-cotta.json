@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "it-panna-cotta",
+  "title": {"fr": "Panna cotta", "en": "Panna cotta", "es": "Panna cotta", "it": "Panna cotta"},
+  "summary": {
+    "fr": "Le dessert piémontais par excellence : une crème vanillée à peine prise, tremblotante à souhait, nappée d'un coulis de fruits rouges.",
+    "en": "Piedmont's signature dessert: a barely-set vanilla cream with the perfect wobble, draped in a vivid berry coulis.",
+    "es": "El postre piamontés por excelencia: una crema de vainilla apenas cuajada, con su temblor característico, bañada en un coulis de frutos rojos.",
+    "it": "Il dolce piemontese per eccellenza: una crema alla vaniglia appena rappresa, dal tremolio perfetto, velata da un coulis di frutti di bosco."
+  },
+  "region": {"fr": "Piémont", "en": "Piedmont", "es": "Piamonte", "it": "Piemonte"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 6,
+  "heroImage": "images/it-panna-cotta/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "panna", "quantity": 50, "unit": "cl"},
+    {"ref": "zucchero", "quantity": 110, "unit": "g"},
+    {"ref": "gelatina", "quantity": 8, "unit": "g"},
+    {"ref": "vaniglia", "quantity": 1, "unit": "piece"},
+    {"ref": "frutti-di-bosco", "quantity": 300, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Mettez les feuilles de gélatine à ramollir dans un bol d'eau froide pendant 10 minutes.", "en": "Soak the gelatine sheets in a bowl of cold water for 10 minutes.", "es": "Pon las láminas de gelatina a hidratar en un bol de agua fría durante 10 minutos.", "it": "Metti i fogli di gelatina ad ammollare in una ciotola d'acqua fredda per 10 minuti."}, "image": "images/it-panna-cotta/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Fendez la gousse de vanille, grattez les graines et faites chauffer la crème avec 80 g de sucre, la gousse et les graines jusqu'aux premiers frémissements — sans jamais faire bouillir.", "en": "Split the vanilla pod, scrape out the seeds and heat the cream with 80 g of sugar, the pod and the seeds until it just starts to shiver — never let it boil.", "es": "Abre la vaina de vainilla a lo largo, raspa las semillas y calienta la nata con 80 g de azúcar, la vaina y las semillas hasta que apenas empiece a temblar, sin dejar que hierva.", "it": "Incidi la bacca di vaniglia, raschia i semi e scalda la panna con 80 g di zucchero, la bacca e i semi fino al primo fremito — senza mai farla bollire."}, "image": "images/it-panna-cotta/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, retirez la gousse, essorez la gélatine entre vos mains et faites-la fondre dans la crème chaude en remuant bien.", "en": "Off the heat, remove the pod, squeeze the gelatine dry and stir it into the hot cream until completely dissolved.", "es": "Fuera del fuego, retira la vaina, escurre la gelatina con las manos y disuélvela en la nata caliente removiendo bien.", "it": "Fuori dal fuoco, togli la bacca, strizza la gelatina tra le mani e falla sciogliere nella panna calda mescolando bene."}, "image": "images/it-panna-cotta/step-3.webp"},
+    {"text": {"fr": "Répartissez la crème dans six ramequins légèrement huilés et laissez tiédir à température ambiante.", "en": "Divide the cream between six lightly oiled ramekins and let them cool to room temperature.", "es": "Reparte la crema en seis moldes ligeramente engrasados y deja que se atempere.", "it": "Suddividi la crema in sei stampini leggermente unti e lasciala intiepidire a temperatura ambiente."}, "image": "images/it-panna-cotta/step-4.webp", "timerMinutes": 20},
+    {"text": {"fr": "Couvrez et laissez prendre au réfrigérateur pendant au moins 4 heures : la crème doit être prise mais encore tremblotante.", "en": "Cover and chill for at least 4 hours: the cream should be set but still have a gentle wobble.", "es": "Cubre y deja cuajar en la nevera al menos 4 horas: la crema debe estar firme pero conservar su temblor.", "it": "Copri e lascia rassodare in frigorifero per almeno 4 ore: la crema deve essere soda ma ancora tremolante."}, "image": "images/it-panna-cotta/step-5.webp", "timerMinutes": 240},
+    {"text": {"fr": "Faites compoter les fruits rouges avec les 30 g de sucre restants pendant 5 minutes, puis mixez et passez le coulis au tamis.", "en": "Simmer the berries with the remaining 30 g of sugar for 5 minutes, then blend and push the coulis through a sieve.", "es": "Cuece los frutos rojos con los 30 g de azúcar restantes durante 5 minutos, tritúralos y pasa el coulis por un colador.", "it": "Fai cuocere i frutti di bosco con i 30 g di zucchero rimasti per 5 minuti, poi frulla e passa il coulis al setaccio."}, "image": "images/it-panna-cotta/step-6.webp", "timerMinutes": 5},
+    {"text": {"fr": "Trempez la base des ramequins 5 secondes dans l'eau chaude, démoulez d'un geste sec sur les assiettes et nappez de coulis.", "en": "Dip the base of each ramekin in hot water for 5 seconds, turn out onto plates with one sharp flick and spoon over the coulis.", "es": "Sumerge la base de los moldes 5 segundos en agua caliente, desmolda con un golpe seco sobre los platos y napa con el coulis.", "it": "Immergi la base degli stampini 5 secondi in acqua calda, sforma con un colpo secco sui piatti e completa con il coulis."}, "image": "images/it-panna-cotta/step-7.webp"}
+  ]
+}

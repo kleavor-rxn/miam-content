@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "it-risotto-ai-funghi",
+  "title": {"fr": "Risotto aux cèpes", "en": "Porcini risotto", "es": "Risotto de boletus", "it": "Risotto ai funghi porcini"},
+  "summary": {
+    "fr": "Un grand classique du Nord : riz carnaroli crémeux, cèpes dorés à l'ail et mantecatura finale au beurre et au parmesan.",
+    "en": "A great northern classic: creamy carnaroli rice, porcini seared with garlic, and a final mantecatura of butter and parmesan.",
+    "es": "Un gran clásico del norte: arroz carnaroli cremoso, boletus dorados con ajo y una mantecatura final de mantequilla y parmesano.",
+    "it": "Un grande classico del Nord: riso carnaroli cremoso, porcini rosolati con l'aglio e una mantecatura finale di burro e parmigiano."
+  },
+  "region": {"fr": "Italie du Nord", "en": "Northern Italy", "es": "Norte de Italia", "it": "Italia settentrionale"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "heroImage": "images/it-risotto-ai-funghi/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "riso-carnaroli", "quantity": 320, "unit": "g", "substitutes": ["riso-arborio"]},
+    {"ref": "funghi-porcini", "quantity": 400, "unit": "g", "substitutes": ["champignon"]},
+    {"ref": "brodo-vegetale", "quantity": 1.2, "unit": "l"},
+    {"ref": "vino-bianco", "quantity": 10, "unit": "cl"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "aglio", "quantity": 1, "unit": "clove"},
+    {"ref": "burro", "quantity": 60, "unit": "g"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "prezzemolo", "quantity": 2, "unit": "tbsp"},
+    {"ref": "olio-oliva", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Portez le bouillon de légumes à frémissement et gardez-le chaud sur feu doux pendant toute la cuisson.", "en": "Bring the vegetable stock to a simmer and keep it hot over low heat throughout the cooking.", "es": "Lleva el caldo de verduras a ebullición suave y mantenlo caliente a fuego bajo durante toda la cocción.", "it": "Porta il brodo vegetale a fremito e tienilo in caldo su fuoco basso per tutta la cottura."}, "image": "images/it-risotto-ai-funghi/step-1.webp"},
+    {"text": {"fr": "Nettoyez les cèpes avec un linge humide, émincez-les, puis faites-les dorer 5 minutes à feu vif dans l'huile avec la gousse d'ail écrasée. Salez, retirez l'ail et réservez.", "en": "Wipe the porcini clean with a damp cloth, slice them, then sear them for 5 minutes over high heat in the oil with the crushed garlic clove. Season with salt, discard the garlic and set aside.", "es": "Limpia los boletus con un paño húmedo, lamínalos y dóralos 5 minutos a fuego vivo en el aceite con el diente de ajo aplastado. Sala, retira el ajo y reserva.", "it": "Pulisci i porcini con un panno umido, affettali e falli rosolare 5 minuti a fuoco vivo nell'olio con lo spicchio d'aglio schiacciato. Sala, elimina l'aglio e metti da parte."}, "image": "images/it-risotto-ai-funghi/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Dans une casserole large, faites fondre la moitié du beurre et laissez blondir l'oignon finement haché 3 minutes, sans coloration.", "en": "In a wide saucepan, melt half the butter and soften the finely chopped onion for 3 minutes, without letting it colour.", "es": "En una cazuela amplia, funde la mitad de la mantequilla y pocha la cebolla picada fina 3 minutos, sin que tome color.", "it": "In una casseruola ampia, sciogli metà del burro e fai appassire la cipolla tritata fine per 3 minuti, senza farla colorire."}, "image": "images/it-risotto-ai-funghi/step-3.webp", "timerMinutes": 3},
+    {"text": {"fr": "Versez le riz et faites-le toaster 2 minutes en remuant, jusqu'à ce que les grains deviennent translucides sur les bords.", "en": "Tip in the rice and toast it for 2 minutes, stirring, until the grains turn translucent at the edges.", "es": "Añade el arroz y tuéstalo 2 minutos removiendo, hasta que los granos se vuelvan translúcidos en los bordes.", "it": "Versa il riso e fallo tostare 2 minuti mescolando, finché i chicchi diventano traslucidi sui bordi."}, "image": "images/it-risotto-ai-funghi/step-4.webp", "timerMinutes": 2},
+    {"text": {"fr": "Déglacez avec le vin blanc et laissez-le s'évaporer complètement.", "en": "Deglaze with the white wine and let it evaporate completely.", "es": "Desglasa con el vino blanco y deja que se evapore por completo.", "it": "Sfuma con il vino bianco e lascialo evaporare del tutto."}, "image": "images/it-risotto-ai-funghi/step-5.webp"},
+    {"text": {"fr": "Ajoutez le bouillon louche par louche pendant environ 15 minutes, en remuant souvent : attendez que chaque louche soit absorbée avant de verser la suivante.", "en": "Add the stock one ladleful at a time for about 15 minutes, stirring often: wait until each ladleful is absorbed before adding the next.", "es": "Añade el caldo cucharón a cucharón durante unos 15 minutos, removiendo a menudo: espera a que cada cucharón se absorba antes de añadir el siguiente.", "it": "Aggiungi il brodo un mestolo alla volta per circa 15 minuti, mescolando spesso: aspetta che ogni mestolo sia assorbito prima di versare il successivo."}, "image": "images/it-risotto-ai-funghi/step-6.webp", "timerMinutes": 15},
+    {"text": {"fr": "Incorporez les cèpes et poursuivez la cuisson 3 minutes : le riz doit rester al dente et le risotto bien fluide.", "en": "Fold in the porcini and cook for 3 more minutes: the rice should stay al dente and the risotto nicely loose.", "es": "Incorpora los boletus y prosigue la cocción 3 minutos: el arroz debe quedar al dente y el risotto bien fluido.", "it": "Unisci i porcini e prosegui la cottura per 3 minuti: il riso deve restare al dente e il risotto bello fluido."}, "image": "images/it-risotto-ai-funghi/step-7.webp", "timerMinutes": 3},
+    {"text": {"fr": "Hors du feu, place à la mantecatura : ajoutez le reste de beurre bien froid et le parmesan, remuez énergiquement, couvrez 2 minutes puis servez avec le persil ciselé et un tour de poivre.", "en": "Off the heat, time for the mantecatura: add the remaining cold butter and the parmesan, beat vigorously, cover for 2 minutes, then serve with the chopped parsley and a grind of pepper.", "es": "Fuera del fuego, llega la mantecatura: añade el resto de la mantequilla bien fría y el parmesano, remueve con energía, tapa 2 minutos y sirve con el perejil picado y un toque de pimienta.", "it": "Fuori dal fuoco, via alla mantecatura: aggiungi il burro rimasto ben freddo e il parmigiano, manteca con energia, copri 2 minuti e servi con il prezzemolo tritato e una macinata di pepe."}, "image": "images/it-risotto-ai-funghi/step-8.webp", "timerMinutes": 2}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "it-insalata-caprese",
+  "title": {"fr": "Salade caprese", "en": "Caprese salad", "es": "Ensalada caprese", "it": "Insalata caprese"},
+  "summary": {
+    "fr": "Le tricolore de Capri : tomates mûres, mozzarella crémeuse et basilic frais, simplement relevés d'huile d'olive et de sel.",
+    "en": "Capri's tricolour: ripe tomatoes, creamy mozzarella and fresh basil, dressed with nothing more than olive oil and salt.",
+    "es": "El tricolor de Capri: tomates maduros, mozzarella cremosa y albahaca fresca, aliñados solo con aceite de oliva y sal.",
+    "it": "Il tricolore di Capri: pomodori maturi, mozzarella cremosa e basilico fresco, conditi soltanto con olio d'oliva e sale."
+  },
+  "region": {"fr": "Campanie", "en": "Campania", "es": "Campania", "it": "Campania"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "heroImage": "images/it-insalata-caprese/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "mozzarella", "quantity": 250, "unit": "g"},
+    {"ref": "pomodoro", "quantity": 4, "unit": "piece"},
+    {"ref": "basilico", "quantity": 12, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "origano", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Sortez la mozzarella du réfrigérateur 30 minutes à l'avance : elle doit être à température ambiante pour livrer tout son crémeux.", "en": "Take the mozzarella out of the fridge 30 minutes ahead: it needs to be at room temperature to give up all its creaminess.", "es": "Saca la mozzarella de la nevera 30 minutos antes: debe estar a temperatura ambiente para mostrar toda su cremosidad.", "it": "Tira fuori la mozzarella dal frigorifero 30 minuti prima: deve essere a temperatura ambiente per dare tutta la sua cremosità."}, "image": "images/it-insalata-caprese/step-1.webp", "timerMinutes": 30},
+    {"text": {"fr": "Lavez les tomates et coupez-les en rondelles régulières d'environ un demi-centimètre.", "en": "Wash the tomatoes and cut them into even rounds about half a centimetre thick.", "es": "Lava los tomates y córtalos en rodajas regulares de medio centímetro aproximadamente.", "it": "Lava i pomodori e tagliali a fette regolari di circa mezzo centimetro."}, "image": "images/it-insalata-caprese/step-2.webp"},
+    {"text": {"fr": "Égouttez la mozzarella et détaillez-la en tranches de la même épaisseur.", "en": "Drain the mozzarella and slice it to the same thickness.", "es": "Escurre la mozzarella y córtala en lonchas del mismo grosor.", "it": "Scola la mozzarella e tagliala a fette dello stesso spessore."}, "image": "images/it-insalata-caprese/step-3.webp"},
+    {"text": {"fr": "Sur un grand plat, alternez tomate et mozzarella en faisant légèrement se chevaucher les tranches.", "en": "On a large platter, alternate tomato and mozzarella, overlapping the slices slightly.", "es": "En una fuente grande, alterna tomate y mozzarella superponiendo ligeramente las rodajas.", "it": "Su un piatto grande, alterna pomodoro e mozzarella facendo leggermente sovrapporre le fette."}, "image": "images/it-insalata-caprese/step-4.webp"},
+    {"text": {"fr": "Salez, parsemez d'origan si vous l'utilisez, puis glissez les feuilles de basilic entre les tranches.", "en": "Season with salt, scatter over the oregano if using, then tuck the basil leaves between the slices.", "es": "Sala, espolvorea el orégano si lo usas y desliza las hojas de albahaca entre las rodajas.", "it": "Sala, spolvera con l'origano se lo usi, poi infila le foglie di basilico tra le fette."}, "image": "images/it-insalata-caprese/step-5.webp"},
+    {"text": {"fr": "Arrosez d'un généreux filet d'huile d'olive et servez sans attendre, à température ambiante.", "en": "Drizzle generously with olive oil and serve straight away, at room temperature.", "es": "Riega con un buen chorro de aceite de oliva y sirve sin esperar, a temperatura ambiente.", "it": "Irrora con un giro generoso d'olio d'oliva e servi subito, a temperatura ambiente."}, "image": "images/it-insalata-caprese/step-6.webp"}
+  ]
+}

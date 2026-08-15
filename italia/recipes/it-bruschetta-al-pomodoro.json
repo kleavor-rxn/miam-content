@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "it-bruschetta-al-pomodoro",
+  "title": {"fr": "Bruschetta à la tomate", "en": "Tomato bruschetta", "es": "Bruschetta de tomate", "it": "Bruschetta al pomodoro"},
+  "summary": {
+    "fr": "L'antipasto italien dans toute sa simplicité : du pain grillé frotté à l'ail, des tomates mûres au basilic et un beau filet d'huile d'olive.",
+    "en": "The Italian antipasto at its simplest: grilled bread rubbed with garlic, ripe basil-scented tomatoes and a generous ribbon of olive oil.",
+    "es": "El antipasto italiano en toda su sencillez: pan tostado frotado con ajo, tomates maduros con albahaca y un buen chorro de aceite de oliva.",
+    "it": "L'antipasto italiano in tutta la sua semplicità: pane abbrustolito strofinato con l'aglio, pomodori maturi al basilico e un giro generoso d'olio d'oliva."
+  },
+  "region": {"fr": "Italie centrale", "en": "Central Italy", "es": "Italia central", "it": "Italia centrale"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "servings": 4,
+  "heroImage": "images/it-bruschetta-al-pomodoro/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Faites griller les tranches de pain à 200 °C pendant 3 à 4 minutes, en une seule couche et en les retournant à mi-temps. Frottez-les d'ail dès la sortie du panier, puis garnissez : seule la phase de grillage passe à l'air fryer, la tomate se dépose toujours au dernier moment.",
+    "en": "Toast the bread slices at 200 °C for 3 to 4 minutes, in a single layer, flipping them halfway through. Rub them with garlic as soon as they leave the basket, then top them: only the toasting stage goes in the air fryer — the tomatoes always go on at the last minute.",
+    "es": "Tuesta las rebanadas de pan a 200 °C durante 3 o 4 minutos, en una sola capa y dándoles la vuelta a mitad de tiempo. Frótalas con ajo nada más sacarlas de la cesta y monta la bruschetta: al air fryer solo va el tostado, el tomate se añade siempre en el último momento.",
+    "it": "Fai abbrustolire le fette di pane a 200 °C per 3-4 minuti, in un solo strato, girandole a metà cottura. Strofinale con l'aglio appena escono dal cestello, poi farcisci: nella friggitrice ad aria va solo la tostatura, il pomodoro si aggiunge sempre all'ultimo momento."
+  },
+  "ingredients": [
+    {"ref": "pane", "quantity": 8, "unit": "slice"},
+    {"ref": "pomodoro", "quantity": 5, "unit": "piece"},
+    {"ref": "aglio", "quantity": 2, "unit": "clove"},
+    {"ref": "basilico", "quantity": 10, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 4, "unit": "tbsp"},
+    {"ref": "origano", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez les tomates en petits dés, salez-les légèrement et laissez-les s'égoutter 10 minutes dans une passoire.", "en": "Dice the tomatoes, salt them lightly and leave them to drain in a colander for 10 minutes.", "es": "Corta los tomates en daditos, sálalos ligeramente y déjalos escurrir 10 minutos en un colador.", "it": "Taglia i pomodori a dadini, salali leggermente e lasciali scolare 10 minuti in un colino."}, "image": "images/it-bruschetta-al-pomodoro/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Assaisonnez les dés de tomate avec 2 cuillères d'huile d'olive, le basilic déchiré à la main, du sel et du poivre — et l'origan si vous l'aimez.", "en": "Season the diced tomatoes with 2 tablespoons of olive oil, hand-torn basil, salt and pepper — and the oregano if you like it.", "es": "Aliña el tomate con 2 cucharadas de aceite de oliva, la albahaca troceada con la mano, sal y pimienta, y el orégano si te gusta.", "it": "Condisci i pomodori con 2 cucchiai d'olio, il basilico spezzettato a mano, sale e pepe — e l'origano se ti piace."}, "image": "images/it-bruschetta-al-pomodoro/step-2.webp"},
+    {"text": {"fr": "Faites griller les tranches de pain sous le gril du four, 2 minutes de chaque côté, jusqu'à ce qu'elles soient dorées et croustillantes.", "en": "Toast the bread slices under the grill for 2 minutes per side, until golden and crisp.", "es": "Tuesta las rebanadas de pan bajo el grill del horno, 2 minutos por cada lado, hasta que estén doradas y crujientes.", "it": "Fai abbrustolire le fette di pane sotto il grill del forno, 2 minuti per lato, finché sono dorate e croccanti."}, "image": "images/it-bruschetta-al-pomodoro/step-3.webp", "timerMinutes": 4},
+    {"text": {"fr": "Frottez généreusement chaque tranche encore chaude avec les gousses d'ail coupées en deux.", "en": "Rub each slice, still hot, generously with the halved garlic cloves.", "es": "Frota generosamente cada rebanada aún caliente con los dientes de ajo partidos por la mitad.", "it": "Strofina generosamente ogni fetta ancora calda con gli spicchi d'aglio tagliati a metà."}, "image": "images/it-bruschetta-al-pomodoro/step-4.webp"},
+    {"text": {"fr": "Répartissez les tomates assaisonnées sur les tranches, sans détremper le pain.", "en": "Spoon the seasoned tomatoes over the slices without soaking the bread.", "es": "Reparte el tomate aliñado sobre las rebanadas, sin empapar el pan.", "it": "Distribuisci i pomodori conditi sulle fette, senza inzuppare il pane."}, "image": "images/it-bruschetta-al-pomodoro/step-5.webp"},
+    {"text": {"fr": "Terminez par un filet d'huile d'olive et une feuille de basilic, et servez aussitôt, tant que le pain croque.", "en": "Finish with a thread of olive oil and a basil leaf, and serve straight away, while the bread still crunches.", "es": "Remata con un hilo de aceite de oliva y una hoja de albahaca, y sirve enseguida, mientras el pan aún cruje.", "it": "Completa con un filo d'olio e una foglia di basilico e servi subito, finché il pane è ancora croccante."}, "image": "images/it-bruschetta-al-pomodoro/step-6.webp"}
+  ]
+}
