@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-camembert-roti",
+  "title": {"fr": "Camembert rôti", "en": "Baked Camembert", "es": "Camembert al horno", "it": "Camembert al forno"},
+  "summary": {
+    "fr": "Un camembert entier passé au four dans sa boîte jusqu'à cœur coulant, parfumé d'ail, de miel et de thym — à partager dès la sortie du four avec des mouillettes de baguette.",
+    "en": "A whole Camembert baked in its box until molten, scented with garlic, honey and thyme — for sharing straight from the oven with baguette soldiers.",
+    "es": "Un camembert entero horneado en su caja hasta que el corazón se funde, perfumado con ajo, miel y tomillo: para compartir recién salido del horno con bastones de baguette.",
+    "it": "Un camembert intero cotto al forno nella sua scatola fino a diventare filante, profumato con aglio, miele e timo: da condividere appena sfornato con crostini di baguette."
+  },
+  "region": {"fr": "Normandie", "en": "Normandy", "es": "Normandía", "it": "Normandia"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/fr-camembert-roti/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "C'est l'appareil idéal pour cette recette : posez le camembert préparé dans le fond en bois de sa boîte (jamais le couvercle, et évitez les boîtes collées qui se déferaient) ou dans un petit ramequin, et comptez 8 à 10 minutes à 160 °C sans préchauffage. Le cœur doit trembler quand vous secouez doucement le panier ; prolongez de 2 minutes s'il résiste encore.",
+    "en": "This is the perfect tool for the job: set the prepared Camembert in the wooden base of its box (never the lid, and skip glued boxes that would come apart) or in a small ramekin, and cook for 8 to 10 minutes at 160 °C with no preheating. The centre should wobble when you gently shake the basket; add 2 more minutes if it still feels firm.",
+    "es": "Es el aparato ideal para esta receta: coloca el camembert preparado en la base de madera de su caja (nunca la tapa, y evita las cajas encoladas, que se desmontan) o en un ramequín pequeño, y cuenta de 8 a 10 minutos a 160 °C sin precalentar. El centro debe temblar al agitar suavemente la cesta; añade 2 minutos más si todavía está firme.",
+    "it": "È l'apparecchio ideale per questa ricetta: appoggia il camembert preparato nel fondo di legno della sua scatola (mai il coperchio, ed evita le scatole incollate che si aprirebbero) o in una piccola cocotte, e calcola 8-10 minuti a 160 °C senza preriscaldare. Il cuore deve tremare scuotendo piano il cestello; prosegui 2 minuti se è ancora sodo."
+  },
+  "ingredients": [
+    {"ref": "camembert", "quantity": 1, "unit": "piece"},
+    {"ref": "ail", "quantity": 1, "unit": "clove"},
+    {"ref": "miel", "quantity": 1, "unit": "tbsp"},
+    {"ref": "thym", "quantity": 2, "unit": "piece"},
+    {"ref": "vin-blanc", "quantity": 2, "unit": "cl", "optional": true},
+    {"ref": "baguette", "quantity": 1, "unit": "piece", "substitutes": ["pain"]},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C. Déballez le camembert, retirez son papier et replacez-le dans le fond en bois de sa boîte ou dans un petit plat allant au four.", "en": "Preheat the oven to 180 °C. Unwrap the Camembert, discard its paper and return it to the wooden base of its box, or set it in a small ovenproof dish.", "es": "Precalienta el horno a 180 °C. Desenvuelve el camembert, retira el papel y vuelve a colocarlo en la base de madera de su caja o en una fuente pequeña apta para horno.", "it": "Preriscalda il forno a 180 °C. Togli il camembert dalla confezione, elimina la carta e rimettilo nel fondo di legno della sua scatola o in una piccola pirofila."}, "image": "images/fr-camembert-roti/step-1.webp"},
+    {"text": {"fr": "Incisez le dessus de la croûte en croisillons avec la pointe d'un couteau.", "en": "Score the top rind in a criss-cross pattern with the tip of a knife.", "es": "Haz unos cortes en rejilla en la corteza superior con la punta de un cuchillo.", "it": "Incidi la crosta superiore a losanghe con la punta di un coltello."}, "image": "images/fr-camembert-roti/step-2.webp"},
+    {"text": {"fr": "Glissez les lamelles d'ail dans les incisions, arrosez de miel et du trait de vin blanc, puis effeuillez le thym par-dessus.", "en": "Slip the garlic slivers into the cuts, drizzle over the honey and the splash of white wine, then strip the thyme leaves on top.", "es": "Introduce las láminas de ajo en los cortes, riega con la miel y el chorrito de vino blanco y deshoja el tomillo por encima.", "it": "Infila le lamelle d'aglio nei tagli, irrora con il miele e il goccio di vino bianco, poi sfoglia il timo in superficie."}, "image": "images/fr-camembert-roti/step-3.webp"},
+    {"text": {"fr": "Enfournez 15 minutes, jusqu'à ce que le cœur soit entièrement coulant sous la croûte.", "en": "Bake for 15 minutes, until the centre is completely molten beneath the rind.", "es": "Hornea 15 minutos, hasta que el interior esté completamente fundido bajo la corteza.", "it": "Inforna per 15 minuti, finché il cuore è completamente fuso sotto la crosta."}, "image": "images/fr-camembert-roti/step-4.webp", "timerMinutes": 15},
+    {"text": {"fr": "Pendant ce temps, taillez la baguette en mouillettes et faites-les dorer 5 minutes au four, à côté du camembert.", "en": "Meanwhile, cut the baguette into soldiers and let them toast for 5 minutes in the oven, next to the Camembert.", "es": "Mientras tanto, corta la baguette en bastones y tuéstalos 5 minutos en el horno, junto al camembert.", "it": "Nel frattempo taglia la baguette a bastoncini e falli dorare 5 minuti in forno, accanto al camembert."}, "image": "images/fr-camembert-roti/step-5.webp", "timerMinutes": 5},
+    {"text": {"fr": "Donnez un tour de moulin à poivre et servez aussitôt, chacun trempant sa mouillette dans le cœur coulant.", "en": "Add a grind of black pepper and serve at once, everyone dipping their bread into the molten centre.", "es": "Da una vuelta de molinillo de pimienta y sirve enseguida, para que cada uno moje su pan en el corazón fundido.", "it": "Completa con una macinata di pepe e servi subito: ognuno intinge il suo crostino nel cuore filante."}, "image": "images/fr-camembert-roti/step-6.webp"}
+  ]
+}

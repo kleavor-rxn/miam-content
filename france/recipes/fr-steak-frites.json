@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-steak-frites",
+  "title": {"fr": "Steak frites", "en": "Steak frites", "es": "Entrecot con patatas fritas", "it": "Entrecôte con patatine fritte"},
+  "summary": {
+    "fr": "L'incontournable des bistrots : une entrecôte saisie à feu vif, un beurre maître d'hôtel fondant et de vraies frites croustillantes cuites en deux bains.",
+    "en": "The bistro institution: a rib-eye seared over high heat, melting parsley butter and proper twice-cooked crispy fries.",
+    "es": "El plato estrella de los bistrós: entrecot sellado a fuego vivo, mantequilla maître d'hôtel fundente y auténticas patatas fritas crujientes en doble fritura.",
+    "it": "L'istituzione dei bistrot: un'entrecôte scottata a fuoco vivo, burro alla maître d'hôtel che si scioglie e vere patatine croccanti fritte in due tempi."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 2,
+  "heroImage": "images/fr-steak-frites/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Pour les frites sans bain d'huile : séchez bien les bâtonnets, mélangez-les avec 1 cuillère à soupe d'huile et faites-les cuire 18 à 20 minutes à 200 °C en secouant le panier toutes les 5 minutes, jusqu'à ce qu'elles soient dorées et croustillantes. Gardez la poêle pour l'entrecôte : l'air fryer ne saisit pas assez fort pour former une belle croûte tout en la laissant saignante.",
+    "en": "For fries without a deep-fat bath: dry the sticks well, toss them with 1 tablespoon of oil and cook for 18 to 20 minutes at 200 °C, shaking the basket every 5 minutes, until golden and crisp. Keep the frying pan for the steak: an air fryer can't sear hard enough to build a proper crust while keeping the meat rare.",
+    "es": "Para las patatas sin baño de aceite: seca bien los bastones, mézclalos con 1 cucharada de aceite y cocínalos de 18 a 20 minutos a 200 °C, agitando la cesta cada 5 minutos, hasta que estén dorados y crujientes. Reserva la sartén para el entrecot: la freidora de aire no sella con la fuerza suficiente para formar costra dejando la carne poco hecha.",
+    "it": "Per le patatine senza bagno d'olio: asciuga bene i bastoncini, condiscili con 1 cucchiaio d'olio e cuocili 18-20 minuti a 200 °C, scuotendo il cestello ogni 5 minuti, finché sono dorati e croccanti. Tieni la padella per l'entrecôte: la friggitrice ad aria non rosola abbastanza forte da formare una bella crosta lasciando la carne al sangue."
+  },
+  "ingredients": [
+    {"ref": "entrecote", "quantity": 2, "unit": "piece"},
+    {"ref": "pomme-de-terre", "quantity": 800, "unit": "g"},
+    {"ref": "huile-tournesol", "quantity": 1, "unit": "l"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "persil", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Sortez les entrecôtes du réfrigérateur. Épluchez les pommes de terre, taillez-les en bâtonnets de 1 cm, rincez-les à l'eau froide et séchez-les à fond dans un torchon.", "en": "Take the steaks out of the fridge. Peel the potatoes, cut them into 1 cm sticks, rinse under cold water and dry them thoroughly in a tea towel.", "es": "Saca los entrecots de la nevera. Pela las patatas, córtalas en bastones de 1 cm, acláralas con agua fría y sécalas a conciencia con un paño.", "it": "Togli le entrecôte dal frigorifero. Pela le patate, tagliale a bastoncini di 1 cm, sciacquale sotto l'acqua fredda e asciugale con cura in un canovaccio."}, "image": "images/fr-steak-frites/step-1.webp"},
+    {"text": {"fr": "Chauffez le bain d'huile à 150 °C et faites-y blanchir les frites 7 minutes, sans coloration. Égouttez-les sur du papier absorbant.", "en": "Heat the oil to 150 °C and blanch the fries in it for 7 minutes, without letting them colour. Drain on kitchen paper.", "es": "Calienta el aceite a 150 °C y escalda las patatas 7 minutos, sin que cojan color. Escúrrelas sobre papel de cocina.", "it": "Scalda l'olio a 150 °C e sbianchisci le patatine per 7 minuti, senza farle colorire. Scolale su carta assorbente."}, "image": "images/fr-steak-frites/step-2.webp", "timerMinutes": 7},
+    {"text": {"fr": "Écrasez le beurre mou à la fourchette avec le persil ciselé, une pincée de sel et un tour de moulin à poivre. Réservez ce beurre maître d'hôtel au frais.", "en": "Mash the softened butter with a fork together with the chopped parsley, a pinch of salt and a grind of pepper. Chill this maître d'hôtel butter.", "es": "Aplasta la mantequilla blanda con un tenedor junto con el perejil picado, una pizca de sal y una vuelta de molinillo de pimienta. Reserva esta mantequilla maître d'hôtel en la nevera.", "it": "Schiaccia il burro morbido con una forchetta insieme al prezzemolo tritato, un pizzico di sale e una macinata di pepe. Metti in fresco questo burro alla maître d'hôtel."}, "image": "images/fr-steak-frites/step-3.webp"},
+    {"text": {"fr": "Faites chauffer une poêle en fonte à feu vif. Salez et poivrez les entrecôtes, puis saisissez-les 2 à 3 minutes par face pour une cuisson saignante.", "en": "Heat a cast-iron pan over high heat. Season the steaks with salt and pepper, then sear them for 2 to 3 minutes per side for rare.", "es": "Calienta una sartén de hierro fundido a fuego fuerte. Salpimienta los entrecots y séllalos de 2 a 3 minutos por cada lado para dejarlos poco hechos.", "it": "Scalda una padella di ghisa a fuoco vivo. Sala e pepa le entrecôte, poi scottale 2-3 minuti per lato per una cottura al sangue."}, "image": "images/fr-steak-frites/step-4.webp", "timerMinutes": 3},
+    {"text": {"fr": "Débarrassez la viande sur une assiette tiède et laissez-la reposer 5 minutes sous une feuille d'aluminium.", "en": "Transfer the meat to a warm plate and let it rest for 5 minutes under a sheet of foil.", "es": "Pasa la carne a un plato templado y déjala reposar 5 minutos cubierta con papel de aluminio.", "it": "Trasferisci la carne su un piatto tiepido e lasciala riposare 5 minuti sotto un foglio di alluminio."}, "image": "images/fr-steak-frites/step-5.webp", "timerMinutes": 5},
+    {"text": {"fr": "Montez l'huile à 180 °C et replongez les frites 3 minutes, jusqu'à ce qu'elles soient bien dorées et croustillantes. Égouttez et salez aussitôt.", "en": "Bring the oil up to 180 °C and give the fries a second fry for 3 minutes, until deeply golden and crisp. Drain and salt straight away.", "es": "Sube el aceite a 180 °C y da a las patatas una segunda fritura de 3 minutos, hasta que estén bien doradas y crujientes. Escurre y sala en el acto.", "it": "Porta l'olio a 180 °C e rituffa le patatine per 3 minuti, finché sono ben dorate e croccanti. Scola e sala subito."}, "image": "images/fr-steak-frites/step-6.webp", "timerMinutes": 3},
+    {"text": {"fr": "Servez chaque entrecôte coiffée d'une rondelle de beurre maître d'hôtel, les frites brûlantes à côté.", "en": "Serve each steak topped with a slice of maître d'hôtel butter, the piping-hot fries alongside.", "es": "Sirve cada entrecot coronado con una rodaja de mantequilla maître d'hôtel, con las patatas bien calientes al lado.", "it": "Servi ogni entrecôte con sopra una rondella di burro alla maître d'hôtel e le patatine bollenti accanto."}, "image": "images/fr-steak-frites/step-7.webp"}
+  ]
+}

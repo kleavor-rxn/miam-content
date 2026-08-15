@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-flammekueche",
+  "title": {"fr": "Flammekueche", "en": "Flammekueche", "es": "Flammekueche", "it": "Flammekueche"},
+  "summary": {
+    "fr": "La tarte flambée alsacienne : une pâte fine comme du papier, de la crème mêlée de fromage blanc, des oignons et des lardons, le tout saisi à four très chaud.",
+    "en": "Alsace's tarte flambée: a paper-thin crust spread with cream and fromage blanc, scattered with onions and bacon, blasted in a very hot oven.",
+    "es": "La tarta flambeada alsaciana: una masa fina como el papel, crema mezclada con queso fresco, cebolla y panceta, todo horneado a fuego muy vivo.",
+    "it": "La tarte flambée alsaziana: una sfoglia sottile come la carta, panna mescolata a formaggio fresco, cipolle e pancetta, il tutto cotto in un forno caldissimo."
+  },
+  "region": {"fr": "Alsace", "en": "Alsace", "es": "Alsacia", "it": "Alsazia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/fr-flammekueche/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "eau", "quantity": 12, "unit": "cl"},
+    {"ref": "huile-tournesol", "quantity": 2, "unit": "tbsp"},
+    {"ref": "fromage-blanc", "quantity": 200, "unit": "g", "substitutes": ["creme-fraiche"]},
+    {"ref": "creme-fraiche", "quantity": 100, "unit": "g"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "lardons", "quantity": 200, "unit": "g"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Mélangez la farine, l'eau, l'huile et une bonne pincée de sel, puis pétrissez 5 minutes jusqu'à obtenir une pâte lisse et souple. Couvrez et laissez reposer 30 minutes.", "en": "Mix the flour, water, oil and a good pinch of salt, then knead for 5 minutes until the dough is smooth and supple. Cover and let it rest for 30 minutes.", "es": "Mezcla la harina, el agua, el aceite y una buena pizca de sal, y amasa 5 minutos hasta lograr una masa lisa y elástica. Tapa y deja reposar 30 minutos.", "it": "Mescola farina, acqua, olio e un bel pizzico di sale, poi impasta 5 minuti fino a ottenere un impasto liscio ed elastico. Copri e lascia riposare 30 minuti."}, "image": "images/fr-flammekueche/step-1.webp", "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 250 °C (ou au maximum), avec une plaque à l'intérieur pour qu'elle devienne brûlante.", "en": "Preheat the oven to 250 °C (or as hot as it goes), with a baking sheet inside so it gets blazing hot.", "es": "Precalienta el horno a 250 °C (o al máximo), con una bandeja dentro para que se ponga al rojo.", "it": "Preriscalda il forno a 250 °C (o al massimo), con una teglia all'interno perché diventi rovente."}, "image": "images/fr-flammekueche/step-2.webp"},
+    {"text": {"fr": "Émincez les oignons en fines demi-lunes.", "en": "Slice the onions into thin half-moons.", "es": "Corta las cebollas en medias lunas finas.", "it": "Affetta le cipolle a mezzelune sottili."}, "image": "images/fr-flammekueche/step-3.webp"},
+    {"text": {"fr": "Fouettez le fromage blanc avec la crème fraîche, la muscade, du sel et du poivre.", "en": "Whisk the fromage blanc with the crème fraîche, nutmeg, salt and pepper.", "es": "Bate el queso fresco con la nata, la nuez moscada, sal y pimienta.", "it": "Sbatti il formaggio fresco con la panna, la noce moscata, sale e pepe."}, "image": "images/fr-flammekueche/step-4.webp"},
+    {"text": {"fr": "Divisez la pâte en deux et étalez chaque pâton le plus finement possible en un grand rectangle, sur une feuille de papier cuisson.", "en": "Divide the dough in two and roll each piece out as thinly as you possibly can into a large rectangle, on a sheet of baking paper.", "es": "Divide la masa en dos y estira cada porción lo más fina posible en un rectángulo grande, sobre una hoja de papel de horno.", "it": "Dividi l'impasto in due e stendi ogni panetto il più sottile possibile in un grande rettangolo, su un foglio di carta forno."}, "image": "images/fr-flammekueche/step-5.webp"},
+    {"text": {"fr": "Nappez les fonds de crème jusqu'à 1 cm du bord, puis répartissez les oignons et les lardons.", "en": "Spread the cream mixture over the bases to within 1 cm of the edge, then scatter over the onions and lardons.", "es": "Extiende la mezcla de crema hasta 1 cm del borde y reparte la cebolla y la panceta.", "it": "Spalma la crema sulle basi fino a 1 cm dal bordo, poi distribuisci cipolle e pancetta."}, "image": "images/fr-flammekueche/step-6.webp"},
+    {"text": {"fr": "Faites glisser une première tarte sur la plaque brûlante et enfournez 8 à 10 minutes, jusqu'à ce que les bords soient dorés et croustillants. Répétez avec la seconde.", "en": "Slide the first tart onto the scorching sheet and bake for 8 to 10 minutes, until the edges are browned and crisp. Repeat with the second one.", "es": "Desliza la primera tarta sobre la bandeja ardiendo y hornéala de 8 a 10 minutos, hasta que los bordes estén dorados y crujientes. Repite con la segunda.", "it": "Fai scivolare la prima tarte sulla teglia rovente e cuoci 8-10 minuti, finché i bordi sono dorati e croccanti. Ripeti con la seconda."}, "image": "images/fr-flammekueche/step-7.webp", "timerMinutes": 10},
+    {"text": {"fr": "Découpez en carrés et servez brûlant, directement sur la planche, à la mode des winstubs.", "en": "Cut into squares and serve piping hot, straight from the board, winstub-style.", "es": "Corta en cuadrados y sirve muy caliente, directamente sobre la tabla, al estilo de las winstubs alsacianas.", "it": "Taglia a quadrotti e servi bollente, direttamente sul tagliere, come nelle winstub alsaziane."}, "image": "images/fr-flammekueche/step-8.webp"}
+  ]
+}

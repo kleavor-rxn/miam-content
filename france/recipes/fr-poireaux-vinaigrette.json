@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-poireaux-vinaigrette",
+  "title": {"fr": "Poireaux vinaigrette", "en": "Leeks vinaigrette", "es": "Puerros a la vinagreta", "it": "Porri in vinaigrette"},
+  "summary": {
+    "fr": "L'entrée de bistrot par excellence : des poireaux fondants servis tièdes, nappés d'une vinaigrette moutardée à l'échalote et parsemés d'œuf mimosa.",
+    "en": "The quintessential bistro starter: meltingly tender leeks served warm, coated in a mustardy shallot vinaigrette and showered with egg mimosa.",
+    "es": "La entrada de bistró por excelencia: puerros tiernos servidos templados, bañados en una vinagreta de mostaza y chalota y espolvoreados con huevo mimosa.",
+    "it": "L'antipasto da bistrot per eccellenza: porri fondenti serviti tiepidi, conditi con una vinaigrette alla senape e scalogno e cosparsi di uovo mimosa."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/fr-poireaux-vinaigrette/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Version rôtie, plus concentrée en goût : coupez les blancs en tronçons de 10 cm, enrobez-les d'un filet d'huile et faites-les cuire 15 minutes à 170 °C en les retournant à mi-cuisson, jusqu'à ce qu'ils soient tendres à cœur et légèrement caramélisés. Comptez 3 minutes de plus s'ils sont épais, et nappez-les de vinaigrette encore chauds pour qu'ils s'en imprègnent.",
+    "en": "For a roasted, more concentrated version: cut the whites into 10 cm lengths, coat them with a drizzle of oil and cook for 15 minutes at 170 °C, turning halfway through, until tender to the core and lightly caramelised. Allow 3 extra minutes if they are thick, and dress them with the vinaigrette while still hot so they soak it up.",
+    "es": "Versión asada, de sabor más concentrado: corta la parte blanca en trozos de 10 cm, úntalos con un hilo de aceite y cocínalos 15 minutos a 170 °C dándoles la vuelta a mitad de cocción, hasta que estén tiernos por dentro y ligeramente caramelizados. Cuenta 3 minutos más si son gruesos, y báñalos con la vinagreta aún calientes para que se empapen bien.",
+    "it": "Versione arrostita, dal gusto più concentrato: taglia i bianchi in tronchetti di 10 cm, ungili con un filo d'olio e cuocili 15 minuti a 170 °C girandoli a metà cottura, finché sono teneri al cuore e leggermente caramellati. Calcola 3 minuti in più se sono spessi, e condiscili con la vinaigrette ancora caldi perché se ne impregnino."
+  },
+  "ingredients": [
+    {"ref": "poireau", "quantity": 8, "unit": "piece"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "moutarde", "quantity": 1, "unit": "tbsp"},
+    {"ref": "vinaigre-de-vin", "quantity": 2, "unit": "tbsp"},
+    {"ref": "huile-tournesol", "quantity": 4, "unit": "tbsp", "substitutes": ["huile-olive"]},
+    {"ref": "echalote", "quantity": 1, "unit": "piece"},
+    {"ref": "ciboulette", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Parez les poireaux en gardant surtout les blancs, fendez le vert en croix et lavez-les soigneusement sous l'eau froide pour chasser le sable.", "en": "Trim the leeks, keeping mostly the whites, split the green tops crosswise and wash them thoroughly under cold water to flush out any grit.", "es": "Limpia los puerros conservando sobre todo lo blanco, abre la parte verde en cruz y lávalos a fondo bajo el agua fría para eliminar la arena.", "it": "Pulisci i porri tenendo soprattutto la parte bianca, incidi il verde a croce e lavali con cura sotto l'acqua fredda per eliminare la sabbia."}, "image": "images/fr-poireaux-vinaigrette/step-1.webp"},
+    {"text": {"fr": "Plongez-les dans une grande casserole d'eau bouillante salée et laissez cuire 15 minutes, jusqu'à ce que la pointe d'un couteau les traverse sans résistance.", "en": "Drop them into a large pan of boiling salted water and cook for 15 minutes, until the tip of a knife slides through with no resistance.", "es": "Sumérgelos en una olla grande de agua hirviendo con sal y cuécelos 15 minutos, hasta que la punta de un cuchillo los atraviese sin resistencia.", "it": "Tuffali in una pentola capiente di acqua bollente salata e cuocili 15 minuti, finché la punta di un coltello li attraversa senza resistenza."}, "image": "images/fr-poireaux-vinaigrette/step-2.webp", "timerMinutes": 15},
+    {"text": {"fr": "Pendant ce temps, faites durcir les œufs 9 minutes dans une petite casserole d'eau bouillante, puis rafraîchissez-les et écalez-les.", "en": "Meanwhile, hard-boil the eggs for 9 minutes in a small pan of boiling water, then cool them under cold water and peel.", "es": "Mientras, cuece los huevos 9 minutos en un cazo de agua hirviendo hasta que estén duros, refréscalos bajo el grifo y pélalos.", "it": "Nel frattempo fai rassodare le uova per 9 minuti in un pentolino di acqua bollente, poi raffreddale sotto l'acqua e sgusciale."}, "image": "images/fr-poireaux-vinaigrette/step-3.webp", "timerMinutes": 9},
+    {"text": {"fr": "Égouttez les poireaux et laissez-les tiédir à plat sur un torchon propre : ils doivent rendre toute leur eau.", "en": "Drain the leeks and let them cool flat on a clean tea towel: they need to release all their water.", "es": "Escurre los puerros y déjalos templar extendidos sobre un paño limpio: deben soltar toda el agua.", "it": "Scola i porri e lasciali intiepidire distesi su un canovaccio pulito: devono cedere tutta la loro acqua."}, "image": "images/fr-poireaux-vinaigrette/step-4.webp", "timerMinutes": 10},
+    {"text": {"fr": "Préparez la vinaigrette : délayez la moutarde avec le vinaigre et une pincée de sel, émulsionnez avec l'huile, puis ajoutez l'échalote finement ciselée et du poivre.", "en": "Make the vinaigrette: loosen the mustard with the vinegar and a pinch of salt, whisk in the oil to emulsify, then add the finely chopped shallot and some pepper.", "es": "Prepara la vinagreta: disuelve la mostaza con el vinagre y una pizca de sal, emulsiona con el aceite y añade la chalota picada muy fina y pimienta.", "it": "Prepara la vinaigrette: stempera la senape con l'aceto e un pizzico di sale, emulsiona con l'olio, poi unisci lo scalogno tritato fine e una macinata di pepe."}, "image": "images/fr-poireaux-vinaigrette/step-5.webp"},
+    {"text": {"fr": "Rangez les poireaux tièdes sur un plat et nappez-les généreusement de vinaigrette pour qu'ils s'en imprègnent.", "en": "Arrange the warm leeks on a platter and coat them generously with the vinaigrette so they soak it up.", "es": "Coloca los puerros templados en una fuente y báñalos generosamente con la vinagreta para que se empapen bien.", "it": "Disponi i porri tiepidi su un piatto da portata e condiscili generosamente con la vinaigrette perché se ne impregnino."}, "image": "images/fr-poireaux-vinaigrette/step-6.webp"},
+    {"text": {"fr": "Râpez les œufs durs à la grosse grille ou hachez-les finement, parsemez-en les poireaux avec la ciboulette ciselée et servez tiède.", "en": "Grate the hard-boiled eggs on the coarse side of a grater or chop them finely, scatter them over the leeks with the snipped chives and serve warm.", "es": "Ralla los huevos duros por el lado grueso o pícalos finos, repártelos sobre los puerros con el cebollino picado y sirve templado.", "it": "Grattugia le uova sode con la grattugia a fori larghi o tritale finemente, cospargile sui porri con l'erba cipollina e servi tiepido."}, "image": "images/fr-poireaux-vinaigrette/step-7.webp"}
+  ]
+}
