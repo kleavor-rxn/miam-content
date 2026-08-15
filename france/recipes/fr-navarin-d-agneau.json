@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-navarin-d-agneau",
+  "title": {"fr": "Navarin d'agneau", "en": "Lamb navarin", "es": "Navarín de cordero", "it": "Navarin d'agnello"},
+  "summary": {
+    "fr": "Le ragoût printanier de la cuisine française : de l'épaule d'agneau longuement mijotée avec carottes, navets, pommes de terre et petits pois tout juste croquants.",
+    "en": "France's springtime stew: lamb shoulder slowly simmered with carrots, turnips, potatoes and barely-cooked garden peas.",
+    "es": "El guiso primaveral de la cocina francesa: paletilla de cordero cocida a fuego lento con zanahorias, nabos, patatas y guisantes en su punto.",
+    "it": "Lo stufato primaverile della cucina francese: spalla d'agnello cotta a lungo con carote, rape, patate e piselli ancora croccanti."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 115,
+  "servings": 6,
+  "heroImage": "images/fr-navarin-d-agneau/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "agneau-epaule", "quantity": 1.2, "unit": "kg"},
+    {"ref": "carotte", "quantity": 4, "unit": "piece"},
+    {"ref": "navet", "quantity": 3, "unit": "piece"},
+    {"ref": "pomme-de-terre", "quantity": 500, "unit": "g"},
+    {"ref": "oignon-grelot", "quantity": 12, "unit": "piece", "substitutes": ["oignon"]},
+    {"ref": "petit-pois", "quantity": 150, "unit": "g"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "concentre-de-tomate", "quantity": 1, "unit": "tbsp"},
+    {"ref": "farine", "quantity": 2, "unit": "tbsp"},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece"},
+    {"ref": "bouillon-de-volaille", "quantity": 1, "unit": "l", "substitutes": ["bouillon-de-legumes"]},
+    {"ref": "huile-olive", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez l'épaule d'agneau en morceaux de 5 cm, salez, poivrez, puis faites-les dorer dans l'huile d'olive, en cocotte, sur toutes leurs faces.", "en": "Cut the lamb shoulder into 5 cm pieces, season with salt and pepper, then brown them in the olive oil in a Dutch oven, on all sides.", "es": "Corta la paletilla de cordero en trozos de 5 cm, salpimiéntalos y dóralos en el aceite de oliva, en una cocotte, por todos los lados.", "it": "Taglia la spalla d'agnello a pezzi di 5 cm, sala, pepa e falli rosolare nell'olio d'oliva, in casseruola, su tutti i lati."}, "image": "images/fr-navarin-d-agneau/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Saupoudrez la viande de farine, remuez 2 minutes pour la torréfier, puis incorporez le concentré de tomate et l'ail écrasé.", "en": "Dust the meat with the flour, stir for 2 minutes to toast it, then work in the tomato paste and crushed garlic.", "es": "Espolvorea la carne con la harina, remueve 2 minutos para tostarla e incorpora el concentrado de tomate y el ajo machacado.", "it": "Spolvera la carne con la farina, mescola 2 minuti per tostarla, poi incorpora il concentrato di pomodoro e l'aglio schiacciato."}, "image": "images/fr-navarin-d-agneau/step-2.webp", "timerMinutes": 2},
+    {"text": {"fr": "Versez le bouillon chaud à hauteur, grattez les sucs au fond de la cocotte, ajoutez le bouquet garni, couvrez et laissez mijoter 1 heure à feu doux.", "en": "Pour in enough hot stock to cover, scrape up the browned bits from the bottom, add the bouquet garni, cover and simmer over low heat for 1 hour.", "es": "Vierte el caldo caliente hasta cubrir, despega los jugos del fondo de la cocotte, añade el ramillete de hierbas, tapa y cuece a fuego lento 1 hora.", "it": "Versa il brodo caldo fino a coprire, stacca i succhi dal fondo della casseruola, aggiungi il mazzetto aromatico, copri e lascia sobbollire a fuoco dolce per 1 ora."}, "image": "images/fr-navarin-d-agneau/step-3.webp", "timerMinutes": 60},
+    {"text": {"fr": "Pendant ce temps, épluchez les légumes : coupez les carottes en tronçons, les navets en quartiers et les pommes de terre en deux ; pelez les oignons grelots.", "en": "Meanwhile, peel the vegetables: cut the carrots into chunks, the turnips into quarters and the potatoes in half; peel the pearl onions.", "es": "Mientras tanto, pela las verduras: corta las zanahorias en trozos, los nabos en cuartos y las patatas por la mitad; pela las cebollitas.", "it": "Nel frattempo, pela le verdure: taglia le carote a tocchetti, le rape a spicchi e le patate a metà; sbuccia le cipolline."}, "image": "images/fr-navarin-d-agneau/step-4.webp"},
+    {"text": {"fr": "Ajoutez les légumes et les oignons grelots dans la cocotte et poursuivez la cuisson 30 minutes, toujours à couvert.", "en": "Add the vegetables and pearl onions to the pot and continue cooking, still covered, for 30 minutes.", "es": "Añade las verduras y las cebollitas a la cocotte y prosigue la cocción 30 minutos, siempre tapado.", "it": "Aggiungi le verdure e le cipolline nella casseruola e prosegui la cottura per 30 minuti, sempre coperto."}, "image": "images/fr-navarin-d-agneau/step-5.webp", "timerMinutes": 30},
+    {"text": {"fr": "Incorporez les petits pois et laissez frémir 10 minutes à découvert : la sauce doit napper légèrement la cuillère.", "en": "Stir in the garden peas and let simmer uncovered for 10 minutes: the sauce should lightly coat the back of a spoon.", "es": "Incorpora los guisantes y deja hervir suavemente 10 minutos sin tapar: la salsa debe napar ligeramente la cuchara.", "it": "Unisci i piselli e lascia fremere 10 minuti senza coperchio: la salsa deve velare leggermente il cucchiaio."}, "image": "images/fr-navarin-d-agneau/step-6.webp", "timerMinutes": 10},
+    {"text": {"fr": "Retirez le bouquet garni, goûtez et rectifiez l'assaisonnement en sel et en poivre.", "en": "Remove the bouquet garni, taste and adjust the seasoning with salt and pepper.", "es": "Retira el ramillete de hierbas, prueba y rectifica el punto de sal y pimienta.", "it": "Elimina il mazzetto aromatico, assaggia e regola di sale e pepe."}, "image": "images/fr-navarin-d-agneau/step-7.webp"},
+    {"text": {"fr": "Servez le navarin bien chaud, directement dans la cocotte, avec du pain de campagne pour saucer.", "en": "Serve the navarin piping hot, straight from the pot, with country bread to mop up the sauce.", "es": "Sirve el navarín bien caliente, directamente en la cocotte, con pan de pueblo para mojar en la salsa.", "it": "Servi il navarin ben caldo, direttamente nella casseruola, con pane casereccio per fare la scarpetta."}, "image": "images/fr-navarin-d-agneau/step-8.webp"}
+  ]
+}

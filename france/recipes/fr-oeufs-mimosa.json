@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-oeufs-mimosa",
+  "title": {"fr": "Œufs mimosa", "en": "Eggs mimosa", "es": "Huevos mimosa", "it": "Uova mimosa"},
+  "summary": {
+    "fr": "L'entrée bistrot par excellence : des œufs durs garnis de leur jaune lié à la mayonnaise maison, saupoudrés de « mimosa » et de ciboulette.",
+    "en": "The quintessential bistro starter: hard-boiled eggs filled with their yolks folded into homemade mayonnaise, dusted with 'mimosa' and chives.",
+    "es": "El entrante de bistró por excelencia: huevos duros rellenos de su yema ligada con mayonesa casera, espolvoreados de «mimosa» y cebollino.",
+    "it": "L'antipasto da bistrot per eccellenza: uova sode farcite con il tuorlo legato alla maionese fatta in casa, spolverate di «mimosa» ed erba cipollina."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 4,
+  "heroImage": "images/fr-oeufs-mimosa/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 7, "unit": "piece"},
+    {"ref": "moutarde", "quantity": 1, "unit": "tsp"},
+    {"ref": "huile-tournesol", "quantity": 15, "unit": "cl"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece", "optional": true},
+    {"ref": "ciboulette", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Déposez 6 œufs dans une casserole d'eau froide, portez à ébullition et comptez 9 minutes de cuisson.", "en": "Place 6 eggs in a saucepan of cold water, bring to the boil and cook for 9 minutes.", "es": "Pon 6 huevos en un cazo con agua fría, lleva a ebullición y cuenta 9 minutos de cocción.", "it": "Metti 6 uova in un pentolino di acqua fredda, porta a bollore e calcola 9 minuti di cottura."}, "image": "images/fr-oeufs-mimosa/step-1.webp", "timerMinutes": 9},
+    {"text": {"fr": "Plongez-les aussitôt dans un saladier d'eau glacée, laissez-les refroidir 5 minutes, puis écalez-les.", "en": "Plunge them straight into a bowl of iced water, let them cool for 5 minutes, then peel them.", "es": "Sumérgelos enseguida en un bol de agua helada, deja que se enfríen 5 minutos y pélalos.", "it": "Tuffale subito in una ciotola di acqua ghiacciata, lasciale raffreddare 5 minuti, poi sgusciale."}, "image": "images/fr-oeufs-mimosa/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Préparez la mayonnaise : fouettez le jaune de l'œuf restant avec la moutarde et une pincée de sel, puis versez l'huile en filet sans cesser de fouetter jusqu'à ce qu'elle soit bien ferme. Détendez-la de quelques gouttes de citron.", "en": "Make the mayonnaise: whisk the yolk of the remaining egg with the mustard and a pinch of salt, then pour in the oil in a thin stream, whisking constantly, until thick and glossy. Loosen it with a few drops of lemon juice.", "es": "Prepara la mayonesa: bate la yema del huevo restante con la mostaza y una pizca de sal, y vierte el aceite en un hilo fino sin dejar de batir hasta que quede bien firme. Aligérala con unas gotas de limón.", "it": "Prepara la maionese: sbatti il tuorlo dell'uovo rimasto con la senape e un pizzico di sale, poi versa l'olio a filo senza smettere di montare finché è bella soda. Ammorbidiscila con qualche goccia di limone."}, "image": "images/fr-oeufs-mimosa/step-3.webp"},
+    {"text": {"fr": "Coupez les œufs durs en deux dans la longueur et prélevez délicatement les jaunes sans abîmer les blancs.", "en": "Cut the hard-boiled eggs in half lengthways and carefully scoop out the yolks without damaging the whites.", "es": "Corta los huevos duros por la mitad a lo largo y extrae con cuidado las yemas sin dañar las claras.", "it": "Taglia le uova sode a metà nel senso della lunghezza e preleva delicatamente i tuorli senza rovinare gli albumi."}, "image": "images/fr-oeufs-mimosa/step-4.webp"},
+    {"text": {"fr": "Réservez un jaune pour le décor, écrasez les autres à la fourchette et mélangez-les à la mayonnaise. Poivrez.", "en": "Set one yolk aside for the garnish, mash the others with a fork and fold them into the mayonnaise. Season with pepper.", "es": "Reserva una yema para decorar, aplasta las demás con un tenedor y mézclalas con la mayonesa. Añade pimienta.", "it": "Tieni da parte un tuorlo per la decorazione, schiaccia gli altri con una forchetta e amalgamali alla maionese. Pepa."}, "image": "images/fr-oeufs-mimosa/step-5.webp"},
+    {"text": {"fr": "Garnissez généreusement les demi-blancs de cette crème, à la petite cuillère ou à la poche à douille cannelée.", "en": "Generously fill the egg white halves with the mixture, using a teaspoon or a fluted piping bag.", "es": "Rellena generosamente las mitades de clara con esta crema, con una cucharilla o una manga pastelera rizada.", "it": "Farcisci generosamente i mezzi albumi con questa crema, con un cucchiaino o con una sac à poche rigata."}, "image": "images/fr-oeufs-mimosa/step-6.webp"},
+    {"text": {"fr": "Râpez le jaune réservé au-dessus des œufs pour former le « mimosa », parsemez de ciboulette ciselée et servez bien frais.", "en": "Grate the reserved yolk over the eggs to create the 'mimosa', scatter with snipped chives and serve well chilled.", "es": "Ralla la yema reservada sobre los huevos para formar la «mimosa», esparce el cebollino picado y sirve bien frío.", "it": "Grattugia il tuorlo tenuto da parte sopra le uova per creare la «mimosa», cospargi di erba cipollina tagliuzzata e servi ben freddo."}, "image": "images/fr-oeufs-mimosa/step-7.webp"}
+  ]
+}

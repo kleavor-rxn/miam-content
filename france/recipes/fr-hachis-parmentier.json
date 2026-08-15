@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-hachis-parmentier",
+  "title": {"fr": "Hachis parmentier", "en": "Hachis parmentier", "es": "Hachis parmentier", "it": "Hachis parmentier"},
+  "summary": {
+    "fr": "Le gratin réconfortant par excellence : un hachis de bœuf aux oignons recouvert d'une purée maison bien beurrée, le tout gratiné au four.",
+    "en": "The ultimate French comfort gratin: minced beef with onions under a layer of buttery homemade mash, baked until golden.",
+    "es": "El gratinado reconfortante por excelencia: carne picada con cebolla bajo una capa de puré casero con mantequilla, dorado al horno.",
+    "it": "Il gratin francese più confortante che ci sia: manzo macinato con cipolle sotto uno strato di purè casalingo al burro, gratinato in forno."
+  },
+  "region": {"fr": "Paris", "en": "Paris", "es": "París", "it": "Parigi"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/fr-hachis-parmentier/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Montez le hachis dans un plat à gratin qui tient dans le panier, sur 4 cm d'épaisseur maximum. Si viande et purée sont encore chaudes, comptez 12 minutes à 180 °C puis 3 minutes à 200 °C pour gratiner ; pour un plat monté à l'avance et sorti du réfrigérateur, comptez plutôt 25 minutes à 160 °C avant le coup de chaud final. Le dessus dore plus vite qu'au four : surveillez à mi-cuisson.",
+    "en": "Assemble the hachis in a baking dish that fits the basket, no more than 4 cm deep. If the meat and mash are still warm, cook 12 minutes at 180 °C then 3 minutes at 200 °C to brown the top; for a dish assembled ahead and taken straight from the fridge, allow about 25 minutes at 160 °C before the final blast of heat. The top browns faster than in an oven, so check halfway through.",
+    "es": "Monta el pastel en una fuente que quepa en la cesta, de no más de 4 cm de grosor. Si la carne y el puré aún están calientes, cuenta 12 minutos a 180 °C y luego 3 minutos a 200 °C para gratinar; si lo has montado con antelación y sale de la nevera, calcula unos 25 minutos a 160 °C antes del golpe de calor final. La superficie se dora más rápido que en el horno: vigílala a media cocción.",
+    "it": "Componi il hachis in una pirofila che entri nel cestello, spessa al massimo 4 cm. Se carne e purè sono ancora caldi, calcola 12 minuti a 180 °C più 3 minuti a 200 °C per gratinare; se il piatto è stato preparato in anticipo ed esce dal frigorifero, conta circa 25 minuti a 160 °C prima del colpo di calore finale. La superficie dora più in fretta che in forno: controlla a metà cottura."
+  },
+  "ingredients": [
+    {"ref": "boeuf-hache", "quantity": 600, "unit": "g"},
+    {"ref": "pomme-de-terre", "quantity": 1.2, "unit": "kg"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "concentre-de-tomate", "quantity": 1, "unit": "tbsp"},
+    {"ref": "persil", "quantity": 2, "unit": "tbsp"},
+    {"ref": "beurre", "quantity": 80, "unit": "g"},
+    {"ref": "lait", "quantity": 20, "unit": "cl"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "gruyere", "quantity": 100, "unit": "g", "substitutes": ["comte"]},
+    {"ref": "chapelure", "quantity": 2, "unit": "tbsp", "optional": true},
+    {"ref": "huile-olive", "quantity": 1, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Épluchez les pommes de terre, coupez-les en gros morceaux et faites-les cuire 20 minutes dans une grande casserole d'eau salée, jusqu'à ce qu'elles s'écrasent facilement.", "en": "Peel the potatoes, cut them into large chunks and boil them for 20 minutes in a large pan of salted water, until they mash easily.", "es": "Pela las patatas, córtalas en trozos grandes y cuécelas 20 minutos en una olla grande de agua con sal, hasta que se deshagan con facilidad.", "it": "Pela le patate, tagliale a pezzi grossi e falle bollire 20 minuti in una pentola capiente di acqua salata, finché si schiacciano facilmente."}, "image": "images/fr-hachis-parmentier/step-1.webp", "timerMinutes": 20},
+    {"text": {"fr": "Pendant ce temps, faites revenir les oignons émincés et l'ail haché dans l'huile d'olive, puis ajoutez le bœuf haché et faites-le colorer 8 minutes en l'émiettant à la spatule.", "en": "Meanwhile, sweat the sliced onions and chopped garlic in the olive oil, then add the minced beef and brown it for 8 minutes, breaking it up with a spatula.", "es": "Mientras tanto, sofríe la cebolla en juliana y el ajo picado en el aceite de oliva, añade la carne picada y dórala 8 minutos desmenuzándola con la espátula.", "it": "Nel frattempo, fai appassire le cipolle affettate e l'aglio tritato nell'olio d'oliva, poi unisci il macinato e fallo rosolare 8 minuti sgranandolo con la spatola."}, "image": "images/fr-hachis-parmentier/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Incorporez le concentré de tomate et le persil ciselé, salez, poivrez et laissez mijoter 5 minutes avant de retirer du feu.", "en": "Stir in the tomato paste and chopped parsley, season with salt and pepper and simmer for 5 minutes before taking off the heat.", "es": "Incorpora el concentrado de tomate y el perejil picado, salpimienta y deja cocer 5 minutos antes de retirar del fuego.", "it": "Incorpora il concentrato di pomodoro e il prezzemolo tritato, regola di sale e pepe e lascia sobbollire 5 minuti prima di togliere dal fuoco."}, "image": "images/fr-hachis-parmentier/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Égouttez les pommes de terre et écrasez-les avec le beurre et le lait chaud ; assaisonnez la purée de sel, de poivre et de muscade.", "en": "Drain the potatoes and mash them with the butter and warm milk; season the mash with salt, pepper and nutmeg.", "es": "Escurre las patatas y aplástalas con la mantequilla y la leche caliente; sazona el puré con sal, pimienta y nuez moscada.", "it": "Scola le patate e schiacciale con il burro e il latte caldo; insaporisci il purè con sale, pepe e noce moscata."}, "image": "images/fr-hachis-parmentier/step-4.webp"},
+    {"text": {"fr": "Préchauffez le four à 200 °C et étalez la viande en couche régulière dans un plat à gratin beurré.", "en": "Preheat the oven to 200 °C and spread the meat in an even layer in a buttered gratin dish.", "es": "Precalienta el horno a 200 °C y extiende la carne en una capa uniforme en una fuente de horno untada con mantequilla.", "it": "Preriscalda il forno a 200 °C e stendi la carne in uno strato uniforme in una pirofila imburrata."}, "image": "images/fr-hachis-parmentier/step-5.webp"},
+    {"text": {"fr": "Recouvrez de purée, lissez la surface et tracez des sillons à la fourchette, puis parsemez de gruyère râpé et de chapelure.", "en": "Cover with the mash, smooth the surface and score it with a fork, then scatter over the grated Gruyère and breadcrumbs.", "es": "Cubre con el puré, alisa la superficie y márcala con un tenedor, luego reparte el gruyer rallado y el pan rallado.", "it": "Copri con il purè, liscia la superficie e rigala con una forchetta, poi cospargi con la groviera grattugiata e il pangrattato."}, "image": "images/fr-hachis-parmentier/step-6.webp"},
+    {"text": {"fr": "Enfournez 25 minutes, jusqu'à ce que le dessus soit bien doré, et servez brûlant avec une salade verte.", "en": "Bake for 25 minutes, until the top is nicely golden, and serve piping hot with a green salad.", "es": "Hornea 25 minutos, hasta que la superficie esté bien dorada, y sirve muy caliente con una ensalada verde.", "it": "Inforna per 25 minuti, finché la superficie è ben dorata, e servi bollente con un'insalata verde."}, "image": "images/fr-hachis-parmentier/step-7.webp", "timerMinutes": 25}
+  ]
+}

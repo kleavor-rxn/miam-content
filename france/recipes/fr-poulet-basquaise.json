@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-poulet-basquaise",
+  "title": {"fr": "Poulet basquaise", "en": "Basque chicken", "es": "Pollo a la vasca", "it": "Pollo alla basca"},
+  "summary": {
+    "fr": "Le plat emblème du Pays basque : des morceaux de poulet dorés puis mijotés dans une piperade de poivrons, tomates et oignons relevée au piment d'Espelette.",
+    "en": "The emblem of Basque cooking: chicken pieces browned then simmered in a piperade of peppers, tomatoes and onions, spiked with Espelette pepper.",
+    "es": "El plato insignia del País Vasco francés: pollo dorado y guisado en una piperrada de pimientos, tomates y cebolla, realzada con pimiento de Espelette.",
+    "it": "Il piatto simbolo dei Paesi Baschi: pezzi di pollo rosolati e poi stufati in una piperade di peperoni, pomodori e cipolle, ravvivata dal peperoncino di Espelette."
+  },
+  "region": {"fr": "Pays basque", "en": "Basque Country", "es": "País Vasco", "it": "Paesi Baschi"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 65,
+  "servings": 4,
+  "heroImage": "images/fr-poulet-basquaise/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "poulet-entier", "quantity": 1, "unit": "piece"},
+    {"ref": "poivron", "quantity": 3, "unit": "piece"},
+    {"ref": "tomate", "quantity": 4, "unit": "piece"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 3, "unit": "clove"},
+    {"ref": "vin-blanc", "quantity": 15, "unit": "cl", "substitutes": ["bouillon-de-volaille"]},
+    {"ref": "piment-d-espelette", "quantity": 1, "unit": "tsp"},
+    {"ref": "thym", "quantity": 2, "unit": "piece"},
+    {"ref": "huile-olive", "quantity": 3, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Découpez le poulet en huit morceaux (ou demandez-le à votre boucher), salez-les et poivrez-les sur toutes leurs faces.", "en": "Cut the chicken into eight pieces (or ask your butcher to do it) and season them all over with salt and pepper.", "es": "Corta el pollo en ocho piezas (o pídeselo a tu carnicero) y salpimiéntalas por todos los lados.", "it": "Taglia il pollo in otto pezzi (o chiedilo al tuo macellaio) e condiscili con sale e pepe su tutti i lati."}, "image": "images/fr-poulet-basquaise/step-1.webp"},
+    {"text": {"fr": "Dans une cocotte, faites dorer les morceaux de poulet dans l'huile d'olive 10 minutes en les retournant, puis réservez-les.", "en": "In a Dutch oven, brown the chicken pieces in the olive oil for 10 minutes, turning them, then set aside.", "es": "En una cocotte, dora los trozos de pollo en el aceite de oliva 10 minutos, dándoles la vuelta, y resérvalos.", "it": "In una casseruola, fai rosolare i pezzi di pollo nell'olio d'oliva per 10 minuti, girandoli, poi mettili da parte."}, "image": "images/fr-poulet-basquaise/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Dans la même cocotte, faites fondre 10 minutes les oignons émincés et les poivrons épépinés coupés en lanières.", "en": "In the same pot, soften the sliced onions and the deseeded peppers cut into strips for 10 minutes.", "es": "En la misma cocotte, pocha 10 minutos la cebolla en juliana y los pimientos despepitados cortados en tiras.", "it": "Nella stessa casseruola, fai stufare per 10 minuti le cipolle affettate e i peperoni privati dei semi tagliati a listarelle."}, "image": "images/fr-poulet-basquaise/step-3.webp", "timerMinutes": 10},
+    {"text": {"fr": "Ajoutez l'ail haché et les tomates grossièrement concassées, puis laissez compoter 5 minutes.", "en": "Add the chopped garlic and the roughly crushed tomatoes, then let everything cook down for 5 minutes.", "es": "Añade el ajo picado y los tomates troceados groseramente, y deja que se sofría todo 5 minutos.", "it": "Aggiungi l'aglio tritato e i pomodori grossolanamente spezzettati, poi lascia insaporire 5 minuti."}, "image": "images/fr-poulet-basquaise/step-4.webp", "timerMinutes": 5},
+    {"text": {"fr": "Remettez le poulet dans la cocotte, versez le vin blanc, ajoutez le thym et le piment d'Espelette.", "en": "Return the chicken to the pot, pour in the white wine and add the thyme and Espelette pepper.", "es": "Devuelve el pollo a la cocotte, vierte el vino blanco y añade el tomillo y el pimiento de Espelette.", "it": "Rimetti il pollo nella casseruola, versa il vino bianco e aggiungi il timo e il peperoncino di Espelette."}, "image": "images/fr-poulet-basquaise/step-5.webp"},
+    {"text": {"fr": "Couvrez et laissez mijoter 35 minutes à feu doux, en retournant les morceaux à mi-cuisson.", "en": "Cover and simmer over low heat for 35 minutes, turning the pieces halfway through.", "es": "Tapa y cuece a fuego lento 35 minutos, dando la vuelta a los trozos a media cocción.", "it": "Copri e lascia sobbollire a fuoco dolce per 35 minuti, girando i pezzi a metà cottura."}, "image": "images/fr-poulet-basquaise/step-6.webp", "timerMinutes": 35},
+    {"text": {"fr": "Découvrez et poursuivez la cuisson 5 minutes pour épaissir la sauce, puis goûtez et rectifiez l'assaisonnement. Servez bien chaud avec du riz blanc.", "en": "Uncover and cook for another 5 minutes to thicken the sauce, then taste and adjust the seasoning. Serve piping hot with white rice.", "es": "Destapa y cocina 5 minutos más para que espese la salsa; prueba y rectifica el punto de sal. Sirve bien caliente con arroz blanco.", "it": "Scopri e prosegui la cottura 5 minuti per far restringere la salsa, poi assaggia e regola di sale. Servi ben caldo con riso bianco."}, "image": "images/fr-poulet-basquaise/step-7.webp", "timerMinutes": 5}
+  ]
+}

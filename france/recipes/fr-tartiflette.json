@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-tartiflette",
+  "title": {"fr": "Tartiflette", "en": "Tartiflette", "es": "Tartiflette", "it": "Tartiflette"},
+  "summary": {
+    "fr": "Le gratin savoyard des soirs d'hiver : pommes de terre, lardons et oignons fondus sous un reblochon crémeux, relevés d'un trait de vin blanc.",
+    "en": "The Savoyard gratin for winter nights: potatoes, bacon and melting onions under a whole creamy Reblochon, sharpened with a splash of white wine.",
+    "es": "El gratinado saboyano de las noches de invierno: patatas, panceta y cebolla pochada bajo un reblochon cremoso, con un toque de vino blanco.",
+    "it": "Il gratin savoiardo delle sere d'inverno: patate, pancetta e cipolle stufate sotto un Reblochon cremoso, sfumate con un goccio di vino bianco."
+  },
+  "region": {"fr": "Savoie", "en": "Savoy", "es": "Saboya", "it": "Savoia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 55,
+  "servings": 6,
+  "heroImage": "images/fr-tartiflette/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pomme-de-terre", "quantity": 1.5, "unit": "kg"},
+    {"ref": "reblochon", "quantity": 1, "unit": "piece"},
+    {"ref": "lardons", "quantity": 200, "unit": "g"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "vin-blanc", "quantity": 10, "unit": "cl"},
+    {"ref": "creme-fraiche", "quantity": 2, "unit": "tbsp"},
+    {"ref": "ail", "quantity": 1, "unit": "clove"},
+    {"ref": "beurre", "quantity": 20, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites cuire les pommes de terre avec la peau 20 minutes dans une grande casserole d'eau salée : elles doivent rester légèrement fermes. Égouttez-les et laissez-les tiédir.", "en": "Boil the potatoes in their skins for 20 minutes in a large pan of salted water: they should stay slightly firm. Drain and let them cool a little.", "es": "Cuece las patatas con piel 20 minutos en una olla grande de agua con sal: deben quedar ligeramente firmes. Escúrrelas y deja que se templen.", "it": "Fai bollire le patate con la buccia per 20 minuti in una pentola capiente di acqua salata: devono restare leggermente sode. Scolale e lasciale intiepidire."}, "image": "images/fr-tartiflette/step-1.webp", "timerMinutes": 20},
+    {"text": {"fr": "Pelez les pommes de terre tièdes et coupez-les en rondelles épaisses.", "en": "Peel the potatoes while still warm and cut them into thick rounds.", "es": "Pela las patatas aún templadas y córtalas en rodajas gruesas.", "it": "Pela le patate ancora tiepide e tagliale a rondelle spesse."}, "image": "images/fr-tartiflette/step-2.webp"},
+    {"text": {"fr": "Dans une poêle, faites dorer les lardons avec les oignons émincés pendant 8 minutes, puis versez le vin blanc et laissez-le s'évaporer presque complètement.", "en": "In a frying pan, brown the bacon lardons with the sliced onions for 8 minutes, then pour in the white wine and let it evaporate almost completely.", "es": "En una sartén, dora la panceta con la cebolla en juliana durante 8 minutos, vierte el vino blanco y deja que se evapore casi por completo.", "it": "In una padella, fai rosolare la pancetta con le cipolle affettate per 8 minuti, poi versa il vino bianco e lascialo evaporare quasi del tutto."}, "image": "images/fr-tartiflette/step-3.webp", "timerMinutes": 8},
+    {"text": {"fr": "Préchauffez le four à 200 °C, frottez un plat à gratin avec la gousse d'ail coupée en deux, puis beurrez-le.", "en": "Preheat the oven to 200 °C, rub a gratin dish with the halved garlic clove, then butter it.", "es": "Precalienta el horno a 200 °C, frota una fuente de horno con el diente de ajo partido por la mitad y úntala con mantequilla.", "it": "Preriscalda il forno a 200 °C, strofina una pirofila con lo spicchio d'aglio tagliato a metà, poi imburrala."}, "image": "images/fr-tartiflette/step-4.webp"},
+    {"text": {"fr": "Répartissez la moitié des rondelles dans le plat, couvrez du mélange lardons-oignons et de la crème, puis terminez par le reste de pommes de terre. Poivrez, mais salez à peine : lardons et fromage s'en chargent.", "en": "Spread half the potato rounds in the dish, cover with the bacon and onion mixture and the crème fraîche, then finish with the remaining potatoes. Add pepper, but go easy on the salt: the bacon and cheese take care of it.", "es": "Reparte la mitad de las rodajas en la fuente, cubre con la mezcla de panceta y cebolla y la nata, y termina con el resto de las patatas. Añade pimienta, pero apenas sal: la panceta y el queso ya la aportan.", "it": "Distribuisci metà delle rondelle nella pirofila, copri con il mix di pancetta e cipolle e la panna, poi termina con le patate rimaste. Pepa, ma sala pochissimo: pancetta e formaggio ci pensano già."}, "image": "images/fr-tartiflette/step-5.webp"},
+    {"text": {"fr": "Grattez légèrement la croûte du reblochon, coupez-le en deux dans l'épaisseur et posez les deux moitiés croûte vers le haut sur le gratin.", "en": "Lightly scrape the Reblochon rind, slice the cheese in half horizontally and lay both halves rind side up on the gratin.", "es": "Raspa ligeramente la corteza del reblochon, córtalo por la mitad a lo ancho y coloca las dos mitades con la corteza hacia arriba sobre el gratinado.", "it": "Raschia leggermente la crosta del Reblochon, taglialo a metà nello spessore e adagia le due metà con la crosta verso l'alto sul gratin."}, "image": "images/fr-tartiflette/step-6.webp"},
+    {"text": {"fr": "Enfournez 25 minutes, jusqu'à ce que le fromage soit fondu et la surface bien dorée. Servez brûlant, avec une salade verte croquante.", "en": "Bake for 25 minutes, until the cheese has melted and the top is golden brown. Serve piping hot, with a crisp green salad.", "es": "Hornea 25 minutos, hasta que el queso se funda y la superficie quede bien dorada. Sirve muy caliente, con una ensalada verde crujiente.", "it": "Inforna per 25 minuti, finché il formaggio è fuso e la superficie ben dorata. Servi bollente, con un'insalata verde croccante."}, "image": "images/fr-tartiflette/step-7.webp", "timerMinutes": 25}
+  ]
+}
