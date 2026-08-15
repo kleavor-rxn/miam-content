@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T07:40:13Z",
+  "recipes": [
+    {
+      "id": "fr-blanquette-de-veau",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "c940555387ec36944a3c49c93d9d6fd68c0f21450b3a30836883fd2159996308",
+      "title": {
+        "fr": "Blanquette de veau",
+        "en": "Veal blanquette",
+        "es": "Blanqueta de ternera",
+        "it": "Blanquette di vitello"
+      },
+      "heroImage": "images/fr-blanquette-de-veau/hero.webp",
+      "tags": [],
+      "totalMinutes": 145,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-boeuf-bourguignon",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "303db70dcd19962e0d539ad4a43b8214ab3e0057ec10c8c6394a5d673d903068",
+      "title": {
+        "fr": "Bœuf bourguignon",
+        "en": "Beef bourguignon",
+        "es": "Ternera a la borgoñona",
+        "it": "Manzo alla borgognona"
+      },
+      "heroImage": "images/fr-boeuf-bourguignon/hero.webp",
+      "tags": [],
+      "totalMinutes": 215,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-camembert-roti",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "d819186bbad595e3a09014dc783d4b6bb9e14d91f6ca97ec287dc875f5c3cbfc",
+      "title": {
+        "fr": "Camembert rôti",
+        "en": "Baked Camembert",
+        "es": "Camembert al horno",
+        "it": "Camembert al forno"
+      },
+      "heroImage": "images/fr-camembert-roti/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 25,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-cassoulet",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "5d3e30837daeecb1ea2d26c51b68c47d0c0e3c6f532084faccef115a1465ecc3",
+      "title": {
+        "fr": "Cassoulet",
+        "en": "Cassoulet",
+        "es": "Cassoulet",
+        "it": "Cassoulet"
+      },
+      "heroImage": "images/fr-cassoulet/hero.webp",
+      "tags": [],
+      "totalMinutes": 195,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-clafoutis-aux-cerises",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "202c4215a183c050a2f30dc2f2209e61562d0e7a3142c3fe9191d11bf0c64c92",
+      "title": {
+        "fr": "Clafoutis aux cerises",
+        "en": "Cherry clafoutis",
+        "es": "Clafoutis de cerezas",
+        "it": "Clafoutis alle ciliegie"
+      },
+      "heroImage": "images/fr-clafoutis-aux-cerises/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-coq-au-vin",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "7fd0b62808078fc0b9507bc4cb46d1cc741046290ea0c043389639b73056f3e7",
+      "title": {
+        "fr": "Coq au vin",
+        "en": "Coq au vin",
+        "es": "Gallo al vino tinto",
+        "it": "Gallo al vino rosso"
+      },
+      "heroImage": "images/fr-coq-au-vin/hero.webp",
+      "tags": [],
+      "totalMinutes": 125,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-creme-brulee",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "3d45ec1b2c0a7ebecc811550701ea153782f089fe4a467b7774fba49292f5c2a",
+      "title": {
+        "fr": "Crème brûlée",
+        "en": "Crème brûlée",
+        "es": "Crème brûlée",
+        "it": "Crème brûlée"
+      },
+      "heroImage": "images/fr-creme-brulee/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 70,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-crepes",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "74a360c3d14850719ce37eb8647900893c61fb8ad75963264b450ff48df55912",
+      "title": {
+        "fr": "Crêpes",
+        "en": "French crêpes",
+        "es": "Crêpes",
+        "it": "Crêpes"
+      },
+      "heroImage": "images/fr-crepes/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-croque-monsieur",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "9b7e914bc7a91c85344a6f3c9c7eb2a1b69c4280a25132ec5e9775d1d581adb4",
+      "title": {
+        "fr": "Croque-monsieur",
+        "en": "Croque-monsieur",
+        "es": "Croque-monsieur",
+        "it": "Croque-monsieur"
+      },
+      "heroImage": "images/fr-croque-monsieur/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-far-breton",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "7fa10f64445a85adcbf18e484c6e970ead9f0f4984b40cad935b608c4972625a",
+      "title": {
+        "fr": "Far breton",
+        "en": "Far breton",
+        "es": "Far bretón",
+        "it": "Far bretone"
+      },
+      "heroImage": "images/fr-far-breton/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-flammekueche",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "fde7406bb43c3c8d39f0d787e4e106ad39ba15aa370de42edb866e3275f0584c",
+      "title": {
+        "fr": "Flammekueche",
+        "en": "Flammekueche",
+        "es": "Flammekueche",
+        "it": "Flammekueche"
+      },
+      "heroImage": "images/fr-flammekueche/hero.webp",
+      "tags": [],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-gougeres",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "f10fea08572443066d8c2d12e2f40f5e7c69642a692ab786a90a27c6e7faa59d",
+      "title": {
+        "fr": "Gougères",
+        "en": "Gougères",
+        "es": "Gougères",
+        "it": "Gougères"
+      },
+      "heroImage": "images/fr-gougeres/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 3
+    },
+    {
+      "id": "fr-gratin-dauphinois",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "fff0bab986a478e8e956b9ef5dff9a81fe96dc6ae20e8117ce1b025bc6519802",
+      "title": {
+        "fr": "Gratin dauphinois",
+        "en": "Gratin dauphinois",
+        "es": "Gratén dauphinois",
+        "it": "Gratin dauphinois"
+      },
+      "heroImage": "images/fr-gratin-dauphinois/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 105,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-hachis-parmentier",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "3a00f7db07b88efcbb58a3fd3130aa7abc807963d028db0f0ffb932f265285e0",
+      "title": {
+        "fr": "Hachis parmentier",
+        "en": "Hachis parmentier",
+        "es": "Hachis parmentier",
+        "it": "Hachis parmentier"
+      },
+      "heroImage": "images/fr-hachis-parmentier/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-madeleines",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "8621c7b1ba0fabb71754227356dc63fbbb41e6ae21d0b6fd5d630afe574a15bb",
+      "title": {
+        "fr": "Madeleines",
+        "en": "Madeleines",
+        "es": "Madeleines",
+        "it": "Madeleine"
+      },
+      "heroImage": "images/fr-madeleines/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 32,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-mousse-au-chocolat",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "6893909a207f8fefdf2f3d85d2989018d3473c52f19550a9d7356e5162a34b16",
+      "title": {
+        "fr": "Mousse au chocolat",
+        "en": "Chocolate mousse",
+        "es": "Mousse de chocolate",
+        "it": "Mousse al cioccolato"
+      },
+      "heroImage": "images/fr-mousse-au-chocolat/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 25,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-navarin-d-agneau",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "5fdc2b4d7d3b59936c9cd3a7b28fd5ee55dfc6709aa9b4fff68951af1a287f35",
+      "title": {
+        "fr": "Navarin d'agneau",
+        "en": "Lamb navarin",
+        "es": "Navarín de cordero",
+        "it": "Navarin d'agnello"
+      },
+      "heroImage": "images/fr-navarin-d-agneau/hero.webp",
+      "tags": [],
+      "totalMinutes": 145,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-oeufs-mimosa",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "e6ecff55e46a023ca6aec260b79c5744173881c2b05c76e3797b21424bcb5470",
+      "title": {
+        "fr": "Œufs mimosa",
+        "en": "Eggs mimosa",
+        "es": "Huevos mimosa",
+        "it": "Uova mimosa"
+      },
+      "heroImage": "images/fr-oeufs-mimosa/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-poireaux-vinaigrette",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "c62ba1e409df34baf63d84016162630b8c57e270f4f1ae888f819b6c50abddc7",
+      "title": {
+        "fr": "Poireaux vinaigrette",
+        "en": "Leeks vinaigrette",
+        "es": "Puerros a la vinagreta",
+        "it": "Porri in vinaigrette"
+      },
+      "heroImage": "images/fr-poireaux-vinaigrette/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-pot-au-feu",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "579da2dc9b42098fe0bc2661a4c0d41ed895ffc6906da593fc778f9a037902ff",
+      "title": {
+        "fr": "Pot-au-feu",
+        "en": "Pot-au-feu",
+        "es": "Pot-au-feu",
+        "it": "Pot-au-feu"
+      },
+      "heroImage": "images/fr-pot-au-feu/hero.webp",
+      "tags": [],
+      "totalMinutes": 235,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-poulet-basquaise",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "96b7c470dec69c3cd50cb8cfacbcd7709f62c47e7c3afe21a3009f917afa38e7",
+      "title": {
+        "fr": "Poulet basquaise",
+        "en": "Basque chicken",
+        "es": "Pollo a la vasca",
+        "it": "Pollo alla basca"
+      },
+      "heroImage": "images/fr-poulet-basquaise/hero.webp",
+      "tags": [],
+      "totalMinutes": 85,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-quiche-lorraine",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "edfcff9eeb64d23b2a8730f3c694ae1ce0363dee695cdfa3f5debf7c4d5c975c",
+      "title": {
+        "fr": "Quiche lorraine",
+        "en": "Quiche Lorraine",
+        "es": "Quiche lorena",
+        "it": "Quiche lorraine"
+      },
+      "heroImage": "images/fr-quiche-lorraine/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-ratatouille",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "379231d4804b52d86fdce80c20e7c737893aac6352ca52a6a1f81a20a4dc9177",
+      "title": {
+        "fr": "Ratatouille",
+        "en": "Ratatouille",
+        "es": "Ratatouille",
+        "it": "Ratatouille"
+      },
+      "heroImage": "images/fr-ratatouille/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 95,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-salade-nicoise",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "6016586b849d95b2990daf17a5280f09782fccaa8e1baff84364d755d0beee3d",
+      "title": {
+        "fr": "Salade niçoise",
+        "en": "Salade niçoise",
+        "es": "Ensalada nizarda",
+        "it": "Insalata nizzarda"
+      },
+      "heroImage": "images/fr-salade-nicoise/hero.webp",
+      "tags": [],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "fr-soupe-a-l-oignon",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "eaf187df46bb2cc2bb08051c01be048067e8b737948273aafc9cec82ea392e57",
+      "title": {
+        "fr": "Soupe à l'oignon gratinée",
+        "en": "French onion soup",
+        "es": "Sopa de cebolla gratinada",
+        "it": "Zuppa di cipolle gratinata"
+      },
+      "heroImage": "images/fr-soupe-a-l-oignon/hero.webp",
+      "tags": [],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-steak-frites",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "91dcf8942327f323cff9642db0dc889cee885f39e101d6d03dab984a5f905d2b",
+      "title": {
+        "fr": "Steak frites",
+        "en": "Steak frites",
+        "es": "Entrecot con patatas fritas",
+        "it": "Entrecôte con patatine fritte"
+      },
+      "heroImage": "images/fr-steak-frites/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-tarte-tatin",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "8b6e3b9b1bff649bb25d37a1279ce468cf4b7c12880a19c5d6faaa90144970bb",
+      "title": {
+        "fr": "Tarte Tatin",
+        "en": "Tarte Tatin",
+        "es": "Tarta Tatin",
+        "it": "Tarte Tatin"
+      },
+      "heroImage": "images/fr-tarte-tatin/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-tartiflette",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "9b204c24814a37568553aa7347b383b8d4d51f60987aa43301ee842906f864ed",
+      "title": {
+        "fr": "Tartiflette",
+        "en": "Tartiflette",
+        "es": "Tartiflette",
+        "it": "Tartiflette"
+      },
+      "heroImage": "images/fr-tartiflette/hero.webp",
+      "tags": [],
+      "totalMinutes": 80,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-tomates-farcies",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "f1eee01f36ae687645c6c3a7e186d0398a2391e5dfe0997cacf4bf2e7b69fd3a",
+      "title": {
+        "fr": "Tomates farcies",
+        "en": "Stuffed tomatoes",
+        "es": "Tomates rellenos",
+        "it": "Pomodori ripieni"
+      },
+      "heroImage": "images/fr-tomates-farcies/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "fr-veloute-de-potiron",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "68db64c2e6f3526dc1ab86bc9a923ad1d6b683709301739da54ff0e2712f6182",
+      "title": {
+        "fr": "Velouté de potiron",
+        "en": "Cream of pumpkin soup",
+        "es": "Crema de calabaza",
+        "it": "Vellutata di zucca"
+      },
+      "heroImage": "images/fr-veloute-de-potiron/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 1
+    }
+  ],
+  "dailyPicks": [
+    {
+      "date": "2026-08-15",
+      "recipeID": "fr-crepes"
+    },
+    {
+      "date": "2026-08-16",
+      "recipeID": "fr-far-breton"
+    },
+    {
+      "date": "2026-08-17",
+      "recipeID": "fr-navarin-d-agneau"
+    },
+    {
+      "date": "2026-08-18",
+      "recipeID": "fr-soupe-a-l-oignon"
+    },
+    {
+      "date": "2026-08-19",
+      "recipeID": "fr-madeleines"
+    },
+    {
+      "date": "2026-08-20",
+      "recipeID": "fr-oeufs-mimosa"
+    },
+    {
+      "date": "2026-08-21",
+      "recipeID": "fr-blanquette-de-veau"
+    },
+    {
+      "date": "2026-08-22",
+      "recipeID": "fr-ratatouille"
+    },
+    {
+      "date": "2026-08-23",
+      "recipeID": "fr-gratin-dauphinois"
+    },
+    {
+      "date": "2026-08-24",
+      "recipeID": "fr-boeuf-bourguignon"
+    },
+    {
+      "date": "2026-08-25",
+      "recipeID": "fr-hachis-parmentier"
+    },
+    {
+      "date": "2026-08-26",
+      "recipeID": "fr-pot-au-feu"
+    },
+    {
+      "date": "2026-08-27",
+      "recipeID": "fr-tartiflette"
+    },
+    {
+      "date": "2026-08-28",
+      "recipeID": "fr-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-08-29",
+      "recipeID": "fr-salade-nicoise"
+    },
+    {
+      "date": "2026-08-30",
+      "recipeID": "fr-camembert-roti"
+    },
+    {
+      "date": "2026-08-31",
+      "recipeID": "fr-tomates-farcies"
+    },
+    {
+      "date": "2026-09-01",
+      "recipeID": "fr-soupe-a-l-oignon"
+    },
+    {
+      "date": "2026-09-02",
+      "recipeID": "fr-crepes"
+    },
+    {
+      "date": "2026-09-03",
+      "recipeID": "fr-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-09-04",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-09-05",
+      "recipeID": "fr-creme-brulee"
+    },
+    {
+      "date": "2026-09-06",
+      "recipeID": "fr-ratatouille"
+    },
+    {
+      "date": "2026-09-07",
+      "recipeID": "fr-gougeres"
+    },
+    {
+      "date": "2026-09-08",
+      "recipeID": "fr-oeufs-mimosa"
+    },
+    {
+      "date": "2026-09-09",
+      "recipeID": "fr-pot-au-feu"
+    },
+    {
+      "date": "2026-09-10",
+      "recipeID": "fr-tarte-tatin"
+    },
+    {
+      "date": "2026-09-11",
+      "recipeID": "fr-flammekueche"
+    },
+    {
+      "date": "2026-09-12",
+      "recipeID": "fr-madeleines"
+    },
+    {
+      "date": "2026-09-13",
+      "recipeID": "fr-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-09-14",
+      "recipeID": "fr-hachis-parmentier"
+    }
+  ]
+}

@@ -1,0 +1,628 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T07:40:13Z",
+  "recipes": [
+    {
+      "id": "it-arancini",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "d277e92a7cc96a7c1dc561bf7a3f782b21ef0de21de6722e040a594e2216d8c9",
+      "title": {
+        "fr": "Arancini siciliens",
+        "en": "Sicilian arancini",
+        "es": "Arancini sicilianos",
+        "it": "Arancini di riso"
+      },
+      "heroImage": "images/it-arancini/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 95,
+      "difficulty": 3
+    },
+    {
+      "id": "it-bruschetta-al-pomodoro",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "bbf26d8e550d3ea21303ee4f09378096fb82a717b5324b054ab56e74561ccfe8",
+      "title": {
+        "fr": "Bruschetta à la tomate",
+        "en": "Tomato bruschetta",
+        "es": "Bruschetta de tomate",
+        "it": "Bruschetta al pomodoro"
+      },
+      "heroImage": "images/it-bruschetta-al-pomodoro/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 20,
+      "difficulty": 1
+    },
+    {
+      "id": "it-bucatini-all-amatriciana",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "19d40510ae27896821c5d4624a6d847335a994e329cdf4ea2ad6441cb942e94d",
+      "title": {
+        "fr": "Bucatini all'amatriciana",
+        "en": "Bucatini all'amatriciana",
+        "es": "Bucatini a la amatriciana",
+        "it": "Bucatini all'amatriciana"
+      },
+      "heroImage": "images/it-bucatini-all-amatriciana/hero.webp",
+      "tags": [],
+      "totalMinutes": 35,
+      "difficulty": 2
+    },
+    {
+      "id": "it-crostata-di-marmellata",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "f2787428716647c4a7cb71e2d7a638ed55f790ac4b1e6faff1f6d34048488225",
+      "title": {
+        "fr": "Crostata à la confiture",
+        "en": "Jam crostata",
+        "es": "Crostata de mermelada",
+        "it": "Crostata di marmellata"
+      },
+      "heroImage": "images/it-crostata-di-marmellata/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 60,
+      "difficulty": 2
+    },
+    {
+      "id": "it-focaccia-genovese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "66e84e6c7481bbfb1ff1375c94b0d3d901747c03b9c4283c61b1c891c5a1faf8",
+      "title": {
+        "fr": "Focaccia génoise",
+        "en": "Genoese focaccia",
+        "es": "Focaccia genovesa",
+        "it": "Focaccia genovese"
+      },
+      "heroImage": "images/it-focaccia-genovese/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 2
+    },
+    {
+      "id": "it-frittata-di-zucchine",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "42f3f5ed7038a907e274c86d56f4bb64bdd43186ef4dc903b20e42f4dc65b520",
+      "title": {
+        "fr": "Frittata aux courgettes",
+        "en": "Zucchini frittata",
+        "es": "Frittata de calabacín",
+        "it": "Frittata di zucchine"
+      },
+      "heroImage": "images/it-frittata-di-zucchine/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "it-gnocchi-di-patate",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "1f527ebc16acf5ea818884ef362ff0e04c8bcc4e9055ce82682c28969a2c4999",
+      "title": {
+        "fr": "Gnocchis de pommes de terre",
+        "en": "Potato gnocchi",
+        "es": "Ñoquis de patata",
+        "it": "Gnocchi di patate"
+      },
+      "heroImage": "images/it-gnocchi-di-patate/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "it-insalata-caprese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "db2658efd734691d4545fd13d3633d76c49180486b42b7b8b6321fa5bbc837a1",
+      "title": {
+        "fr": "Salade caprese",
+        "en": "Caprese salad",
+        "es": "Ensalada caprese",
+        "it": "Insalata caprese"
+      },
+      "heroImage": "images/it-insalata-caprese/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 10,
+      "difficulty": 1
+    },
+    {
+      "id": "it-lasagne-alla-bolognese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "b3c869db12a4cc203a09163df1e837d56afbaa62a6a77fc5078de0682f6f7ec2",
+      "title": {
+        "fr": "Lasagnes à la bolognaise",
+        "en": "Lasagne alla bolognese",
+        "es": "Lasaña a la boloñesa",
+        "it": "Lasagne alla bolognese"
+      },
+      "heroImage": "images/it-lasagne-alla-bolognese/hero.webp",
+      "tags": [],
+      "totalMinutes": 210,
+      "difficulty": 2
+    },
+    {
+      "id": "it-melanzane-alla-parmigiana",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "0aad9f72a0bf886c520baf75a1a4e2f32eb8e779eb67ab30cc438ccda2fc4d2f",
+      "title": {
+        "fr": "Parmigiana d'aubergines",
+        "en": "Eggplant Parmigiana",
+        "es": "Parmigiana de berenjenas",
+        "it": "Parmigiana di melanzane"
+      },
+      "heroImage": "images/it-melanzane-alla-parmigiana/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 115,
+      "difficulty": 2
+    },
+    {
+      "id": "it-minestrone",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "b25b9339748424790d0ea0ea53eccc1367de33a5bb87f542c193c71592e7fb3b",
+      "title": {
+        "fr": "Minestrone",
+        "en": "Minestrone",
+        "es": "Minestrone",
+        "it": "Minestrone"
+      },
+      "heroImage": "images/it-minestrone/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 1
+    },
+    {
+      "id": "it-ossobuco-alla-milanese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "be8e8aadb5f5b3872e2694b5828d3e28e9c8e279690fa5dd2f21334ef8b4659d",
+      "title": {
+        "fr": "Osso buco à la milanaise",
+        "en": "Ossobuco alla milanese",
+        "es": "Ossobuco a la milanesa",
+        "it": "Ossobuco alla milanese"
+      },
+      "heroImage": "images/it-ossobuco-alla-milanese/hero.webp",
+      "tags": [],
+      "totalMinutes": 130,
+      "difficulty": 2
+    },
+    {
+      "id": "it-panna-cotta",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "fdf13733f151ce2ccfd399fd77cbbd74f6df291be8878a8ace029b572303edbe",
+      "title": {
+        "fr": "Panna cotta",
+        "en": "Panna cotta",
+        "es": "Panna cotta",
+        "it": "Panna cotta"
+      },
+      "heroImage": "images/it-panna-cotta/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "it-panzanella",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "e6a87605cb8cf04a8f34b394717fb2b56e48ab4307f83fa143e1d1baf95e4041",
+      "title": {
+        "fr": "Panzanella",
+        "en": "Panzanella",
+        "es": "Panzanella",
+        "it": "Panzanella"
+      },
+      "heroImage": "images/it-panzanella/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "it-pasta-al-pomodoro",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "c2ad725de31add3f1225e3dc7c024738740c41a3b409cfe15fc6906300c3d810",
+      "title": {
+        "fr": "Pâtes à la tomate",
+        "en": "Pasta al pomodoro",
+        "es": "Pasta al pomodoro",
+        "it": "Pasta al pomodoro"
+      },
+      "heroImage": "images/it-pasta-al-pomodoro/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "it-pasta-e-fagioli",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "7ffe0dd5d2101c1f6783b707b667fb9e492dae62ee62f82fe32a5b228de0dc91",
+      "title": {
+        "fr": "Pasta e fagioli",
+        "en": "Pasta e fagioli",
+        "es": "Pasta e fagioli",
+        "it": "Pasta e fagioli"
+      },
+      "heroImage": "images/it-pasta-e-fagioli/hero.webp",
+      "tags": [],
+      "totalMinutes": 60,
+      "difficulty": 2
+    },
+    {
+      "id": "it-pesto-alla-genovese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "30ad00766bf55476d1c611ea8e3792191aee242e906927678021da07e3d73064",
+      "title": {
+        "fr": "Pesto génois",
+        "en": "Pesto alla genovese",
+        "es": "Pesto genovés",
+        "it": "Pesto alla genovese"
+      },
+      "heroImage": "images/it-pesto-alla-genovese/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 20,
+      "difficulty": 1
+    },
+    {
+      "id": "it-piadina-romagnola",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "bf36bb0bf4c9dd73b2db4421281c3834ffaf2806baec01b1246b61d0d8d8f7bc",
+      "title": {
+        "fr": "Piadina romagnola",
+        "en": "Piadina romagnola",
+        "es": "Piadina romañola",
+        "it": "Piadina romagnola"
+      },
+      "heroImage": "images/it-piadina-romagnola/hero.webp",
+      "tags": [],
+      "totalMinutes": 35,
+      "difficulty": 2
+    },
+    {
+      "id": "it-pizza-margherita",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "3e37bcfaddc11f6c8712116a0cd91a04d60052ba533201dad9d6ef4f36bd02d1",
+      "title": {
+        "fr": "Pizza margherita",
+        "en": "Margherita pizza",
+        "es": "Pizza margarita",
+        "it": "Pizza Margherita"
+      },
+      "heroImage": "images/it-pizza-margherita/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
+      "id": "it-pizzette-di-sfoglia",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "69e4e26acc39b78c238278f912c5121ca68afa97237eb878d10123a307d259a2",
+      "title": {
+        "fr": "Pizzette feuilletées",
+        "en": "Puff pastry pizzette",
+        "es": "Pizzette de hojaldre",
+        "it": "Pizzette di sfoglia"
+      },
+      "heroImage": "images/it-pizzette-di-sfoglia/hero.webp",
+      "tags": [
+        "vegetarian",
+        "airFryer"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    },
+    {
+      "id": "it-pollo-alla-cacciatora",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "84fcc2d241a131d658b29269d77fc3614939ee92a9b9c9a14b53386eba1bea81",
+      "title": {
+        "fr": "Poulet à la cacciatora",
+        "en": "Chicken cacciatore",
+        "es": "Pollo a la cacciatora",
+        "it": "Pollo alla cacciatora"
+      },
+      "heroImage": "images/it-pollo-alla-cacciatora/hero.webp",
+      "tags": [],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "it-polpette-al-sugo",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "b4e3072b75aa71457a203467d59e94bb7d20a872922848b943977303bc4d6c75",
+      "title": {
+        "fr": "Boulettes à la sauce tomate (polpette)",
+        "en": "Meatballs in tomato sauce (polpette)",
+        "es": "Albóndigas en salsa de tomate (polpette)",
+        "it": "Polpette al sugo"
+      },
+      "heroImage": "images/it-polpette-al-sugo/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "it-risotto-ai-funghi",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "3b803b0b1705b98f788ddb05760cd102d0d15c6f770bddbf3b28d145967bf846",
+      "title": {
+        "fr": "Risotto aux cèpes",
+        "en": "Porcini risotto",
+        "es": "Risotto de boletus",
+        "it": "Risotto ai funghi porcini"
+      },
+      "heroImage": "images/it-risotto-ai-funghi/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
+      "id": "it-risotto-alla-milanese",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "9736dfe2bf0f861e4683f3143798906ac2ff033949d810a14ad30f6b4bac66de",
+      "title": {
+        "fr": "Risotto à la milanaise",
+        "en": "Risotto alla milanese",
+        "es": "Risotto a la milanesa",
+        "it": "Risotto alla milanese"
+      },
+      "heroImage": "images/it-risotto-alla-milanese/hero.webp",
+      "tags": [],
+      "totalMinutes": 40,
+      "difficulty": 2
+    },
+    {
+      "id": "it-saltimbocca-alla-romana",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "416e06212a0df02b055210fb06b114978844273ee924d69c5ed4f6d4eedd1685",
+      "title": {
+        "fr": "Saltimbocca à la romaine",
+        "en": "Saltimbocca alla romana",
+        "es": "Saltimbocca a la romana",
+        "it": "Saltimbocca alla romana"
+      },
+      "heroImage": "images/it-saltimbocca-alla-romana/hero.webp",
+      "tags": [],
+      "totalMinutes": 25,
+      "difficulty": 2
+    },
+    {
+      "id": "it-spaghetti-cacio-e-pepe",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "4e197f50064778cc9db05c4cd98189e8a7ba5347bbcfd78f96a518440e0a4ca4",
+      "title": {
+        "fr": "Spaghettis cacio e pepe",
+        "en": "Spaghetti cacio e pepe",
+        "es": "Espaguetis cacio e pepe",
+        "it": "Spaghetti cacio e pepe"
+      },
+      "heroImage": "images/it-spaghetti-cacio-e-pepe/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 20,
+      "difficulty": 2
+    },
+    {
+      "id": "it-spaghetti-carbonara",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "75a6560c6771939f7c9dd969fe4f8cb61de33f2af9ae090d9bdf40212fb75bfe",
+      "title": {
+        "fr": "Spaghettis à la carbonara",
+        "en": "Spaghetti carbonara",
+        "es": "Espaguetis a la carbonara",
+        "it": "Spaghetti alla carbonara"
+      },
+      "heroImage": "images/it-spaghetti-carbonara/hero.webp",
+      "tags": [],
+      "totalMinutes": 25,
+      "difficulty": 2
+    },
+    {
+      "id": "it-suppli",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "090787f188b88b56e4896cf225b82d64f5d679259b14812780f86a417d59620f",
+      "title": {
+        "fr": "Supplì al telefono",
+        "en": "Supplì al telefono",
+        "es": "Supplì al telefono",
+        "it": "Supplì al telefono"
+      },
+      "heroImage": "images/it-suppli/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "it-tagliatelle-al-ragu",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "6fd25756fd2f3e10a6967670038ae1de0bbcca5c7716df1b9bca49b11616563b",
+      "title": {
+        "fr": "Tagliatelles au ragù bolognais",
+        "en": "Tagliatelle with Bolognese ragù",
+        "es": "Tagliatelle al ragú boloñés",
+        "it": "Tagliatelle al ragù bolognese"
+      },
+      "heroImage": "images/it-tagliatelle-al-ragu/hero.webp",
+      "tags": [],
+      "totalMinutes": 190,
+      "difficulty": 2
+    },
+    {
+      "id": "it-tiramisu",
+      "updatedAt": "2026-08-15T07:40:13Z",
+      "contentHash": "8afee26c0c34b64a5ad5d876ca924e79c8c532c3a92bddb70f2c49a99a283e63",
+      "title": {
+        "fr": "Tiramisu",
+        "en": "Tiramisu",
+        "es": "Tiramisú",
+        "it": "Tiramisù"
+      },
+      "heroImage": "images/it-tiramisu/hero.webp",
+      "tags": [
+        "vegetarian"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    }
+  ],
+  "dailyPicks": [
+    {
+      "date": "2026-08-15",
+      "recipeID": "it-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-08-16",
+      "recipeID": "it-minestrone"
+    },
+    {
+      "date": "2026-08-17",
+      "recipeID": "it-arancini"
+    },
+    {
+      "date": "2026-08-18",
+      "recipeID": "it-bucatini-all-amatriciana"
+    },
+    {
+      "date": "2026-08-19",
+      "recipeID": "it-pizzette-di-sfoglia"
+    },
+    {
+      "date": "2026-08-20",
+      "recipeID": "it-tagliatelle-al-ragu"
+    },
+    {
+      "date": "2026-08-21",
+      "recipeID": "it-frittata-di-zucchine"
+    },
+    {
+      "date": "2026-08-22",
+      "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-08-23",
+      "recipeID": "it-panna-cotta"
+    },
+    {
+      "date": "2026-08-24",
+      "recipeID": "it-pizza-margherita"
+    },
+    {
+      "date": "2026-08-25",
+      "recipeID": "it-pesto-alla-genovese"
+    },
+    {
+      "date": "2026-08-26",
+      "recipeID": "it-suppli"
+    },
+    {
+      "date": "2026-08-27",
+      "recipeID": "it-focaccia-genovese"
+    },
+    {
+      "date": "2026-08-28",
+      "recipeID": "it-saltimbocca-alla-romana"
+    },
+    {
+      "date": "2026-08-29",
+      "recipeID": "it-panzanella"
+    },
+    {
+      "date": "2026-08-30",
+      "recipeID": "it-polpette-al-sugo"
+    },
+    {
+      "date": "2026-08-31",
+      "recipeID": "it-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-09-01",
+      "recipeID": "it-lasagne-alla-bolognese"
+    },
+    {
+      "date": "2026-09-02",
+      "recipeID": "it-minestrone"
+    },
+    {
+      "date": "2026-09-03",
+      "recipeID": "it-bruschetta-al-pomodoro"
+    },
+    {
+      "date": "2026-09-04",
+      "recipeID": "it-pollo-alla-cacciatora"
+    },
+    {
+      "date": "2026-09-05",
+      "recipeID": "it-risotto-alla-milanese"
+    },
+    {
+      "date": "2026-09-06",
+      "recipeID": "it-pasta-al-pomodoro"
+    },
+    {
+      "date": "2026-09-07",
+      "recipeID": "it-bucatini-all-amatriciana"
+    },
+    {
+      "date": "2026-09-08",
+      "recipeID": "it-pesto-alla-genovese"
+    },
+    {
+      "date": "2026-09-09",
+      "recipeID": "it-piadina-romagnola"
+    },
+    {
+      "date": "2026-09-10",
+      "recipeID": "it-tiramisu"
+    },
+    {
+      "date": "2026-09-11",
+      "recipeID": "it-gnocchi-di-patate"
+    },
+    {
+      "date": "2026-09-12",
+      "recipeID": "it-pasta-e-fagioli"
+    },
+    {
+      "date": "2026-09-13",
+      "recipeID": "it-polpette-al-sugo"
+    },
+    {
+      "date": "2026-09-14",
+      "recipeID": "it-insalata-caprese"
+    }
+  ]
+}
