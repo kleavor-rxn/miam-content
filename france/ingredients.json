@@ -1,1 +1,1064 @@
-{"schemaVersion":1,"ingredients":[{"id":"sel","names":{"fr":"Sel","en":"Salt","es":"Sal","it":"Sale"},"category":"epicerie","staple":true}]}
+{
+  "schemaVersion": 1,
+  "ingredients": [
+    {
+      "id": "sel",
+      "names": {
+        "fr": "Sel",
+        "en": "Salt",
+        "es": "Sal",
+        "it": "Sale"
+      },
+      "category": "epicerie",
+      "staple": true
+    },
+    {
+      "id": "poivre",
+      "names": {
+        "fr": "Poivre",
+        "en": "Black pepper",
+        "es": "Pimienta",
+        "it": "Pepe"
+      },
+      "category": "herbes-epices",
+      "staple": true
+    },
+    {
+      "id": "huile-olive",
+      "names": {
+        "fr": "Huile d'olive",
+        "en": "Olive oil",
+        "es": "Aceite de oliva",
+        "it": "Olio d'oliva"
+      },
+      "category": "epicerie",
+      "staple": true
+    },
+    {
+      "id": "huile-tournesol",
+      "names": {
+        "fr": "Huile de tournesol",
+        "en": "Sunflower oil",
+        "es": "Aceite de girasol",
+        "it": "Olio di semi di girasole"
+      },
+      "category": "epicerie",
+      "staple": true,
+      "substitutes": ["huile-olive"]
+    },
+    {
+      "id": "sucre",
+      "names": {
+        "fr": "Sucre",
+        "en": "Sugar",
+        "es": "Azúcar",
+        "it": "Zucchero"
+      },
+      "category": "epicerie",
+      "staple": true
+    },
+    {
+      "id": "farine",
+      "names": {
+        "fr": "Farine",
+        "en": "Flour",
+        "es": "Harina",
+        "it": "Farina"
+      },
+      "category": "epicerie",
+      "staple": true
+    },
+    {
+      "id": "boeuf-a-braiser",
+      "names": {
+        "fr": "Bœuf à braiser",
+        "en": "Braising beef",
+        "es": "Ternera para guisar",
+        "it": "Manzo da brasare"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "boeuf-hache",
+      "names": {
+        "fr": "Bœuf haché",
+        "en": "Ground beef",
+        "es": "Carne picada de ternera",
+        "it": "Macinato di manzo"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "veau-epaule",
+      "names": {
+        "fr": "Épaule de veau",
+        "en": "Veal shoulder",
+        "es": "Espaldilla de ternera lechal",
+        "it": "Spalla di vitello"
+      },
+      "category": "viandes",
+      "staple": false,
+      "substitutes": ["boeuf-a-braiser"]
+    },
+    {
+      "id": "agneau-epaule",
+      "names": {
+        "fr": "Épaule d'agneau",
+        "en": "Lamb shoulder",
+        "es": "Paletilla de cordero",
+        "it": "Spalla d'agnello"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "poulet-entier",
+      "names": {
+        "fr": "Poulet entier",
+        "en": "Whole chicken",
+        "es": "Pollo entero",
+        "it": "Pollo intero"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "blanc-de-poulet",
+      "names": {
+        "fr": "Blanc de poulet",
+        "en": "Chicken breast",
+        "es": "Pechuga de pollo",
+        "it": "Petto di pollo"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "lardons",
+      "names": {
+        "fr": "Lardons",
+        "en": "Bacon lardons",
+        "es": "Panceta en tiras",
+        "it": "Pancetta a dadini"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "saucisse-de-toulouse",
+      "names": {
+        "fr": "Saucisse de Toulouse",
+        "en": "Toulouse sausage",
+        "es": "Salchicha de Toulouse",
+        "it": "Salsiccia di Tolosa"
+      },
+      "category": "viandes",
+      "staple": false,
+      "substitutes": ["boeuf-hache"]
+    },
+    {
+      "id": "jambon-blanc",
+      "names": {
+        "fr": "Jambon blanc",
+        "en": "Cooked ham",
+        "es": "Jamón cocido",
+        "it": "Prosciutto cotto"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "confit-de-canard",
+      "names": {
+        "fr": "Cuisse de canard confite",
+        "en": "Duck leg confit",
+        "es": "Muslo de pato confitado",
+        "it": "Coscia d'anatra confit"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "poitrine-de-porc",
+      "names": {
+        "fr": "Poitrine de porc",
+        "en": "Pork belly",
+        "es": "Panceta de cerdo",
+        "it": "Pancetta di maiale fresca"
+      },
+      "category": "viandes",
+      "staple": false,
+      "substitutes": ["lardons"]
+    },
+    {
+      "id": "os-a-moelle",
+      "names": {
+        "fr": "Os à moelle",
+        "en": "Marrow bone",
+        "es": "Hueso de caña con tuétano",
+        "it": "Osso con midollo"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "poisson-blanc",
+      "names": {
+        "fr": "Poisson blanc",
+        "en": "White fish",
+        "es": "Pescado blanco",
+        "it": "Pesce bianco"
+      },
+      "category": "poissons",
+      "staple": false
+    },
+    {
+      "id": "saumon",
+      "names": {
+        "fr": "Saumon",
+        "en": "Salmon",
+        "es": "Salmón",
+        "it": "Salmone"
+      },
+      "category": "poissons",
+      "staple": false
+    },
+    {
+      "id": "oeuf",
+      "names": {
+        "fr": "Œuf",
+        "en": "Egg",
+        "es": "Huevo",
+        "it": "Uovo"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "beurre",
+      "names": {
+        "fr": "Beurre",
+        "en": "Butter",
+        "es": "Mantequilla",
+        "it": "Burro"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "creme-fraiche",
+      "names": {
+        "fr": "Crème fraîche",
+        "en": "Crème fraîche",
+        "es": "Nata para cocinar",
+        "it": "Panna da cucina"
+      },
+      "category": "produits-laitiers",
+      "staple": false,
+      "substitutes": ["lait"]
+    },
+    {
+      "id": "lait",
+      "names": {
+        "fr": "Lait",
+        "en": "Milk",
+        "es": "Leche",
+        "it": "Latte"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "gruyere",
+      "names": {
+        "fr": "Gruyère",
+        "en": "Gruyère cheese",
+        "es": "Queso gruyer",
+        "it": "Groviera"
+      },
+      "category": "produits-laitiers",
+      "staple": false,
+      "substitutes": ["comte"]
+    },
+    {
+      "id": "comte",
+      "names": {
+        "fr": "Comté",
+        "en": "Comté cheese",
+        "es": "Queso comté",
+        "it": "Formaggio Comté"
+      },
+      "category": "produits-laitiers",
+      "staple": false,
+      "substitutes": ["gruyere"]
+    },
+    {
+      "id": "camembert",
+      "names": {
+        "fr": "Camembert",
+        "en": "Camembert",
+        "es": "Camembert",
+        "it": "Camembert"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "reblochon",
+      "names": {
+        "fr": "Reblochon",
+        "en": "Reblochon cheese",
+        "es": "Queso reblochon",
+        "it": "Formaggio Reblochon"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "chevre",
+      "names": {
+        "fr": "Fromage de chèvre",
+        "en": "Goat cheese",
+        "es": "Queso de cabra",
+        "it": "Formaggio di capra"
+      },
+      "category": "produits-laitiers",
+      "staple": false
+    },
+    {
+      "id": "pomme-de-terre",
+      "names": {
+        "fr": "Pomme de terre",
+        "en": "Potato",
+        "es": "Patata",
+        "it": "Patata"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "carotte",
+      "names": {
+        "fr": "Carotte",
+        "en": "Carrot",
+        "es": "Zanahoria",
+        "it": "Carota"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "oignon",
+      "names": {
+        "fr": "Oignon",
+        "en": "Onion",
+        "es": "Cebolla",
+        "it": "Cipolla"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "ail",
+      "names": {
+        "fr": "Ail",
+        "en": "Garlic",
+        "es": "Ajo",
+        "it": "Aglio"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "echalote",
+      "names": {
+        "fr": "Échalote",
+        "en": "Shallot",
+        "es": "Chalota",
+        "it": "Scalogno"
+      },
+      "category": "legumes",
+      "staple": false,
+      "substitutes": ["oignon"]
+    },
+    {
+      "id": "poireau",
+      "names": {
+        "fr": "Poireau",
+        "en": "Leek",
+        "es": "Puerro",
+        "it": "Porro"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "celeri-branche",
+      "names": {
+        "fr": "Céleri branche",
+        "en": "Celery stalk",
+        "es": "Apio",
+        "it": "Sedano"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "tomate",
+      "names": {
+        "fr": "Tomate",
+        "en": "Tomato",
+        "es": "Tomate",
+        "it": "Pomodoro"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "courgette",
+      "names": {
+        "fr": "Courgette",
+        "en": "Zucchini",
+        "es": "Calabacín",
+        "it": "Zucchina"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "aubergine",
+      "names": {
+        "fr": "Aubergine",
+        "en": "Eggplant",
+        "es": "Berenjena",
+        "it": "Melanzana"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "poivron",
+      "names": {
+        "fr": "Poivron",
+        "en": "Bell pepper",
+        "es": "Pimiento",
+        "it": "Peperone"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "champignon-de-paris",
+      "names": {
+        "fr": "Champignon de Paris",
+        "en": "Button mushroom",
+        "es": "Champiñón",
+        "it": "Champignon"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "haricot-blanc",
+      "names": {
+        "fr": "Haricot blanc",
+        "en": "White bean",
+        "es": "Alubia blanca",
+        "it": "Fagiolo bianco"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "potiron",
+      "names": {
+        "fr": "Potiron",
+        "en": "Pumpkin",
+        "es": "Calabaza",
+        "it": "Zucca"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "haricot-vert",
+      "names": {
+        "fr": "Haricot vert",
+        "en": "Green bean",
+        "es": "Judía verde",
+        "it": "Fagiolino"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "navet",
+      "names": {
+        "fr": "Navet",
+        "en": "Turnip",
+        "es": "Nabo",
+        "it": "Rapa"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "cerise",
+      "names": {
+        "fr": "Cerise",
+        "en": "Cherry",
+        "es": "Cereza",
+        "it": "Ciliegia"
+      },
+      "category": "fruits",
+      "staple": false
+    },
+    {
+      "id": "pomme",
+      "names": {
+        "fr": "Pomme",
+        "en": "Apple",
+        "es": "Manzana",
+        "it": "Mela"
+      },
+      "category": "fruits",
+      "staple": false
+    },
+    {
+      "id": "citron",
+      "names": {
+        "fr": "Citron",
+        "en": "Lemon",
+        "es": "Limón",
+        "it": "Limone"
+      },
+      "category": "fruits",
+      "staple": false
+    },
+    {
+      "id": "pruneau",
+      "names": {
+        "fr": "Pruneau",
+        "en": "Prune",
+        "es": "Ciruela pasa",
+        "it": "Prugna secca"
+      },
+      "category": "fruits",
+      "staple": false
+    },
+    {
+      "id": "poire",
+      "names": {
+        "fr": "Poire",
+        "en": "Pear",
+        "es": "Pera",
+        "it": "Pera"
+      },
+      "category": "fruits",
+      "staple": false
+    },
+    {
+      "id": "pate-brisee",
+      "names": {
+        "fr": "Pâte brisée",
+        "en": "Shortcrust pastry",
+        "es": "Masa quebrada",
+        "it": "Pasta brisée"
+      },
+      "category": "boulangerie",
+      "staple": false,
+      "substitutes": ["pate-feuilletee"]
+    },
+    {
+      "id": "pate-feuilletee",
+      "names": {
+        "fr": "Pâte feuilletée",
+        "en": "Puff pastry",
+        "es": "Hojaldre",
+        "it": "Pasta sfoglia"
+      },
+      "category": "boulangerie",
+      "staple": false,
+      "substitutes": ["pate-brisee"]
+    },
+    {
+      "id": "pain",
+      "names": {
+        "fr": "Pain",
+        "en": "Bread",
+        "es": "Pan",
+        "it": "Pane"
+      },
+      "category": "boulangerie",
+      "staple": false
+    },
+    {
+      "id": "baguette",
+      "names": {
+        "fr": "Baguette",
+        "en": "Baguette",
+        "es": "Baguette",
+        "it": "Baguette"
+      },
+      "category": "boulangerie",
+      "staple": false,
+      "substitutes": ["pain"]
+    },
+    {
+      "id": "chapelure",
+      "names": {
+        "fr": "Chapelure",
+        "en": "Breadcrumbs",
+        "es": "Pan rallado",
+        "it": "Pangrattato"
+      },
+      "category": "boulangerie",
+      "staple": false,
+      "substitutes": ["pain"]
+    },
+    {
+      "id": "riz",
+      "names": {
+        "fr": "Riz",
+        "en": "Rice",
+        "es": "Arroz",
+        "it": "Riso"
+      },
+      "category": "feculents",
+      "staple": false
+    },
+    {
+      "id": "pates",
+      "names": {
+        "fr": "Pâtes",
+        "en": "Pasta",
+        "es": "Pasta",
+        "it": "Pasta"
+      },
+      "category": "feculents",
+      "staple": false
+    },
+    {
+      "id": "vin-rouge",
+      "names": {
+        "fr": "Vin rouge",
+        "en": "Red wine",
+        "es": "Vino tinto",
+        "it": "Vino rosso"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["bouillon-de-boeuf"]
+    },
+    {
+      "id": "vin-blanc",
+      "names": {
+        "fr": "Vin blanc",
+        "en": "White wine",
+        "es": "Vino blanco",
+        "it": "Vino bianco"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["bouillon-de-volaille"]
+    },
+    {
+      "id": "bouillon-de-boeuf",
+      "names": {
+        "fr": "Bouillon de bœuf",
+        "en": "Beef stock",
+        "es": "Caldo de carne",
+        "it": "Brodo di manzo"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["bouillon-de-volaille"]
+    },
+    {
+      "id": "bouillon-de-volaille",
+      "names": {
+        "fr": "Bouillon de volaille",
+        "en": "Chicken stock",
+        "es": "Caldo de pollo",
+        "it": "Brodo di pollo"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["bouillon-de-legumes"]
+    },
+    {
+      "id": "bouillon-de-legumes",
+      "names": {
+        "fr": "Bouillon de légumes",
+        "en": "Vegetable stock",
+        "es": "Caldo de verduras",
+        "it": "Brodo vegetale"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "moutarde",
+      "names": {
+        "fr": "Moutarde",
+        "en": "Mustard",
+        "es": "Mostaza",
+        "it": "Senape"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "cornichon",
+      "names": {
+        "fr": "Cornichon",
+        "en": "Gherkin",
+        "es": "Pepinillo",
+        "it": "Cetriolino"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "chocolat-noir",
+      "names": {
+        "fr": "Chocolat noir",
+        "en": "Dark chocolate",
+        "es": "Chocolate negro",
+        "it": "Cioccolato fondente"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "vanille",
+      "names": {
+        "fr": "Vanille",
+        "en": "Vanilla",
+        "es": "Vainilla",
+        "it": "Vaniglia"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "levure-chimique",
+      "names": {
+        "fr": "Levure chimique",
+        "en": "Baking powder",
+        "es": "Levadura en polvo",
+        "it": "Lievito per dolci"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "concentre-de-tomate",
+      "names": {
+        "fr": "Concentré de tomate",
+        "en": "Tomato paste",
+        "es": "Concentrado de tomate",
+        "it": "Concentrato di pomodoro"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "laurier",
+      "names": {
+        "fr": "Laurier",
+        "en": "Bay leaf",
+        "es": "Laurel",
+        "it": "Alloro"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "thym",
+      "names": {
+        "fr": "Thym",
+        "en": "Thyme",
+        "es": "Tomillo",
+        "it": "Timo"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "persil",
+      "names": {
+        "fr": "Persil",
+        "en": "Parsley",
+        "es": "Perejil",
+        "it": "Prezzemolo"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "bouquet-garni",
+      "names": {
+        "fr": "Bouquet garni",
+        "en": "Bouquet garni",
+        "es": "Ramillete de hierbas",
+        "it": "Mazzetto aromatico"
+      },
+      "category": "herbes-epices",
+      "staple": false,
+      "substitutes": ["thym"]
+    },
+    {
+      "id": "muscade",
+      "names": {
+        "fr": "Noix de muscade",
+        "en": "Nutmeg",
+        "es": "Nuez moscada",
+        "it": "Noce moscata"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "ciboulette",
+      "names": {
+        "fr": "Ciboulette",
+        "en": "Chives",
+        "es": "Cebollino",
+        "it": "Erba cipollina"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "estragon",
+      "names": {
+        "fr": "Estragon",
+        "en": "Tarragon",
+        "es": "Estragón",
+        "it": "Dragoncello"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "clou-de-girofle",
+      "names": {
+        "fr": "Clou de girofle",
+        "en": "Clove",
+        "es": "Clavo de olor",
+        "it": "Chiodo di garofano"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "oignon-grelot",
+      "names": {
+        "fr": "Oignon grelot",
+        "en": "Pearl onion",
+        "es": "Cebollita",
+        "it": "Cipollina"
+      },
+      "category": "legumes",
+      "staple": false,
+      "substitutes": ["oignon"]
+    },
+    {
+      "id": "creme-liquide",
+      "names": {
+        "fr": "Crème liquide entière",
+        "en": "Heavy cream",
+        "es": "Nata líquida para montar",
+        "it": "Panna fresca liquida"
+      },
+      "category": "produits-laitiers",
+      "staple": false,
+      "substitutes": ["creme-fraiche"]
+    },
+    {
+      "id": "cassonade",
+      "names": {
+        "fr": "Cassonade",
+        "en": "Brown sugar",
+        "es": "Azúcar moreno",
+        "it": "Zucchero di canna"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["sucre"]
+    },
+    {
+      "id": "thon",
+      "names": {
+        "fr": "Thon en conserve",
+        "en": "Canned tuna",
+        "es": "Atún en conserva",
+        "it": "Tonno in scatola"
+      },
+      "category": "poissons",
+      "staple": false
+    },
+    {
+      "id": "anchois",
+      "names": {
+        "fr": "Anchois",
+        "en": "Anchovy fillets",
+        "es": "Anchoas",
+        "it": "Acciughe"
+      },
+      "category": "poissons",
+      "staple": false
+    },
+    {
+      "id": "olive-noire",
+      "names": {
+        "fr": "Olive noire",
+        "en": "Black olive",
+        "es": "Aceituna negra",
+        "it": "Oliva nera"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "basilic",
+      "names": {
+        "fr": "Basilic",
+        "en": "Basil",
+        "es": "Albahaca",
+        "it": "Basilico"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "oignon-nouveau",
+      "names": {
+        "fr": "Oignon nouveau",
+        "en": "Spring onion",
+        "es": "Cebolleta",
+        "it": "Cipollotto"
+      },
+      "category": "legumes",
+      "staple": false,
+      "substitutes": ["echalote"]
+    },
+    {
+      "id": "pain-de-mie",
+      "names": {
+        "fr": "Pain de mie",
+        "en": "Sandwich bread",
+        "es": "Pan de molde",
+        "it": "Pane in cassetta"
+      },
+      "category": "boulangerie",
+      "staple": false,
+      "substitutes": ["pain"]
+    },
+    {
+      "id": "piment-d-espelette",
+      "names": {
+        "fr": "Piment d'Espelette",
+        "en": "Espelette pepper",
+        "es": "Pimiento de Espelette",
+        "it": "Peperoncino di Espelette"
+      },
+      "category": "herbes-epices",
+      "staple": false
+    },
+    {
+      "id": "petit-pois",
+      "names": {
+        "fr": "Petit pois",
+        "en": "Garden pea",
+        "es": "Guisante",
+        "it": "Pisello"
+      },
+      "category": "legumes",
+      "staple": false
+    },
+    {
+      "id": "chair-a-saucisse",
+      "names": {
+        "fr": "Chair à saucisse",
+        "en": "Sausage meat",
+        "es": "Carne de salchicha",
+        "it": "Pasta di salsiccia"
+      },
+      "category": "viandes",
+      "staple": false,
+      "substitutes": ["saucisse-de-toulouse", "boeuf-hache"]
+    },
+    {
+      "id": "rhum",
+      "names": {
+        "fr": "Rhum ambré",
+        "en": "Dark rum",
+        "es": "Ron añejo",
+        "it": "Rum ambrato"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "miel",
+      "names": {
+        "fr": "Miel",
+        "en": "Honey",
+        "es": "Miel",
+        "it": "Miele"
+      },
+      "category": "epicerie",
+      "staple": false,
+      "substitutes": ["sucre"]
+    },
+    {
+      "id": "entrecote",
+      "names": {
+        "fr": "Entrecôte de bœuf",
+        "en": "Rib-eye steak",
+        "es": "Entrecot de ternera",
+        "it": "Entrecôte di manzo"
+      },
+      "category": "viandes",
+      "staple": false
+    },
+    {
+      "id": "fromage-blanc",
+      "names": {
+        "fr": "Fromage blanc",
+        "en": "Fromage blanc",
+        "es": "Queso fresco batido",
+        "it": "Formaggio fresco cremoso"
+      },
+      "category": "produits-laitiers",
+      "staple": false,
+      "substitutes": ["creme-fraiche"]
+    },
+    {
+      "id": "vinaigre-de-vin",
+      "names": {
+        "fr": "Vinaigre de vin",
+        "en": "Wine vinegar",
+        "es": "Vinagre de vino",
+        "it": "Aceto di vino"
+      },
+      "category": "epicerie",
+      "staple": false
+    },
+    {
+      "id": "eau",
+      "names": {
+        "fr": "Eau",
+        "en": "Water",
+        "es": "Agua",
+        "it": "Acqua"
+      },
+      "category": "autres",
+      "staple": true
+    }
+  ]
+}
