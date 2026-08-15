@@ -21,6 +21,7 @@ def test_exports_subset_with_filtered_index(content_repo, tmp_path):
     assert not (out / "recipes" / "fr-test-deux.json").exists()
     assert not (out / "images" / "fr-test-un" / ".placeholder").exists()
     assert not (out / "images" / "fr-test-un" / "PROMPTS.md").exists()
+    assert (out / "ingredients.json").is_file()
     seed_index = json.loads((out / "index.json").read_text())
     assert [r["id"] for r in seed_index["recipes"]] == ["fr-test-un"]
     assert all(p["recipeID"] == "fr-test-un" for p in seed_index["dailyPicks"])

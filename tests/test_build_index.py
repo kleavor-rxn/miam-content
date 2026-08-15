@@ -14,7 +14,7 @@ def test_index_lists_all_recipes_with_now_as_updated_at(content_repo):
     assert {r["id"] for r in index["recipes"]} == {"fr-test-un", "fr-test-deux"}
     assert all(r["updatedAt"] == "2026-08-14T10:00:00Z" for r in index["recipes"])
     assert index["recipes"][0]["totalMinutes"] == 30
-    assert len(index["dailyPicks"]) == 31
+    assert len(index["dailyPicks"]) == 61   # today-30 .. today+30
 
 
 def test_unmodified_recipe_keeps_updated_at(content_repo):

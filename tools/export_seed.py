@@ -1,7 +1,8 @@
 """Exporte le seed embarqué par l'app : sous-ensemble de <pays>/seed.txt.
 
-Copie recettes + images et écrit un index.json filtré (même format que l'index
-complet — l'app charge le seed exactement comme un instantané de cache).
+Copie recettes + images + taxonomie et écrit un index.json filtré (même format
+que l'index complet — l'app charge le seed exactement comme un instantané de
+cache, taxonomie comprise pour le frigo hors ligne).
 """
 import json
 import shutil
@@ -37,6 +38,7 @@ def export_seed(root: Path, country: str, out_dir: Path) -> list[str]:
         # exclut l'outillage du bundle app : marqueurs et prompts photo
         shutil.copytree(cdir / "images" / rid, out_dir / "images" / rid,
                         ignore=shutil.ignore_patterns(".placeholder", "PROMPTS.md", ".DS_Store"))
+    shutil.copy2(cdir / "ingredients.json", out_dir / "ingredients.json")
     seed_index = {
         "schemaVersion": index["schemaVersion"],
         "generatedAt": index["generatedAt"],

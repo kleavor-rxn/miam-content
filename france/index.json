@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T07:40:13Z",
+  "generatedAt": "2026-08-15T21:04:38Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -494,6 +494,126 @@
     }
   ],
   "dailyPicks": [
+    {
+      "date": "2026-07-16",
+      "recipeID": "fr-pot-au-feu"
+    },
+    {
+      "date": "2026-07-17",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-07-18",
+      "recipeID": "fr-croque-monsieur"
+    },
+    {
+      "date": "2026-07-19",
+      "recipeID": "fr-flammekueche"
+    },
+    {
+      "date": "2026-07-20",
+      "recipeID": "fr-tomates-farcies"
+    },
+    {
+      "date": "2026-07-21",
+      "recipeID": "fr-oeufs-mimosa"
+    },
+    {
+      "date": "2026-07-22",
+      "recipeID": "fr-madeleines"
+    },
+    {
+      "date": "2026-07-23",
+      "recipeID": "fr-poulet-basquaise"
+    },
+    {
+      "date": "2026-07-24",
+      "recipeID": "fr-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-07-25",
+      "recipeID": "fr-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-07-26",
+      "recipeID": "fr-gougeres"
+    },
+    {
+      "date": "2026-07-27",
+      "recipeID": "fr-far-breton"
+    },
+    {
+      "date": "2026-07-28",
+      "recipeID": "fr-steak-frites"
+    },
+    {
+      "date": "2026-07-29",
+      "recipeID": "fr-creme-brulee"
+    },
+    {
+      "date": "2026-07-30",
+      "recipeID": "fr-quiche-lorraine"
+    },
+    {
+      "date": "2026-07-31",
+      "recipeID": "fr-salade-nicoise"
+    },
+    {
+      "date": "2026-08-01",
+      "recipeID": "fr-ratatouille"
+    },
+    {
+      "date": "2026-08-02",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-08-03",
+      "recipeID": "fr-pot-au-feu"
+    },
+    {
+      "date": "2026-08-04",
+      "recipeID": "fr-poireaux-vinaigrette"
+    },
+    {
+      "date": "2026-08-05",
+      "recipeID": "fr-tartiflette"
+    },
+    {
+      "date": "2026-08-06",
+      "recipeID": "fr-croque-monsieur"
+    },
+    {
+      "date": "2026-08-07",
+      "recipeID": "fr-cassoulet"
+    },
+    {
+      "date": "2026-08-08",
+      "recipeID": "fr-coq-au-vin"
+    },
+    {
+      "date": "2026-08-09",
+      "recipeID": "fr-hachis-parmentier"
+    },
+    {
+      "date": "2026-08-10",
+      "recipeID": "fr-boeuf-bourguignon"
+    },
+    {
+      "date": "2026-08-11",
+      "recipeID": "fr-camembert-roti"
+    },
+    {
+      "date": "2026-08-12",
+      "recipeID": "fr-tomates-farcies"
+    },
+    {
+      "date": "2026-08-13",
+      "recipeID": "fr-creme-brulee"
+    },
+    {
+      "date": "2026-08-14",
+      "recipeID": "fr-gougeres"
+    },
     {
       "date": "2026-08-15",
       "recipeID": "fr-crepes"

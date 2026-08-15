@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T07:40:13Z",
+  "generatedAt": "2026-08-15T21:04:38Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -500,6 +500,126 @@
     }
   ],
   "dailyPicks": [
+    {
+      "date": "2026-07-16",
+      "recipeID": "it-gnocchi-di-patate"
+    },
+    {
+      "date": "2026-07-17",
+      "recipeID": "it-panna-cotta"
+    },
+    {
+      "date": "2026-07-18",
+      "recipeID": "it-lasagne-alla-bolognese"
+    },
+    {
+      "date": "2026-07-19",
+      "recipeID": "it-pesto-alla-genovese"
+    },
+    {
+      "date": "2026-07-20",
+      "recipeID": "it-frittata-di-zucchine"
+    },
+    {
+      "date": "2026-07-21",
+      "recipeID": "it-pasta-al-pomodoro"
+    },
+    {
+      "date": "2026-07-22",
+      "recipeID": "it-spaghetti-cacio-e-pepe"
+    },
+    {
+      "date": "2026-07-23",
+      "recipeID": "it-ossobuco-alla-milanese"
+    },
+    {
+      "date": "2026-07-24",
+      "recipeID": "it-saltimbocca-alla-romana"
+    },
+    {
+      "date": "2026-07-25",
+      "recipeID": "it-bucatini-all-amatriciana"
+    },
+    {
+      "date": "2026-07-26",
+      "recipeID": "it-minestrone"
+    },
+    {
+      "date": "2026-07-27",
+      "recipeID": "it-panzanella"
+    },
+    {
+      "date": "2026-07-28",
+      "recipeID": "it-risotto-alla-milanese"
+    },
+    {
+      "date": "2026-07-29",
+      "recipeID": "it-pasta-e-fagioli"
+    },
+    {
+      "date": "2026-07-30",
+      "recipeID": "it-pizzette-di-sfoglia"
+    },
+    {
+      "date": "2026-07-31",
+      "recipeID": "it-pollo-alla-cacciatora"
+    },
+    {
+      "date": "2026-08-01",
+      "recipeID": "it-bruschetta-al-pomodoro"
+    },
+    {
+      "date": "2026-08-02",
+      "recipeID": "it-polpette-al-sugo"
+    },
+    {
+      "date": "2026-08-03",
+      "recipeID": "it-frittata-di-zucchine"
+    },
+    {
+      "date": "2026-08-04",
+      "recipeID": "it-panna-cotta"
+    },
+    {
+      "date": "2026-08-05",
+      "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-08-06",
+      "recipeID": "it-piadina-romagnola"
+    },
+    {
+      "date": "2026-08-07",
+      "recipeID": "it-gnocchi-di-patate"
+    },
+    {
+      "date": "2026-08-08",
+      "recipeID": "it-suppli"
+    },
+    {
+      "date": "2026-08-09",
+      "recipeID": "it-spaghetti-carbonara"
+    },
+    {
+      "date": "2026-08-10",
+      "recipeID": "it-spaghetti-cacio-e-pepe"
+    },
+    {
+      "date": "2026-08-11",
+      "recipeID": "it-pesto-alla-genovese"
+    },
+    {
+      "date": "2026-08-12",
+      "recipeID": "it-melanzane-alla-parmigiana"
+    },
+    {
+      "date": "2026-08-13",
+      "recipeID": "it-risotto-alla-milanese"
+    },
+    {
+      "date": "2026-08-14",
+      "recipeID": "it-panzanella"
+    },
     {
       "date": "2026-08-15",
       "recipeID": "it-crostata-di-marmellata"

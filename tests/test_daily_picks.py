@@ -8,9 +8,22 @@ TODAY = date(2026, 8, 14)
 
 def test_extends_to_horizon_from_empty():
     picks = extend_daily_picks([], IDS, "france", TODAY)
-    assert picks[0]["date"] == "2026-08-14"
+    assert picks[0]["date"] == "2026-07-15"    # today - 30
+    assert picks[-1]["date"] == "2026-09-13"   # today + 30
+    assert len(picks) == 61
+
+
+def test_backfills_history_window_from_empty():
+    picks = extend_daily_picks([], IDS, "france", TODAY)
+    assert picks[0]["date"] == "2026-07-15"   # today - 30
     assert picks[-1]["date"] == "2026-09-13"  # today + 30
-    assert len(picks) == 31
+    assert len(picks) == 61
+
+
+def test_existing_past_entry_is_preserved():
+    existing = [{"date": "2026-08-01", "recipeID": IDS[3]}]
+    picks = extend_daily_picks(existing, IDS, "france", TODAY)
+    assert {"date": "2026-08-01", "recipeID": IDS[3]} in picks
 
 
 def test_deterministic():
@@ -37,7 +50,7 @@ def test_keeps_existing_and_drops_removed():
 
 def test_small_catalog_does_not_crash():
     picks = extend_daily_picks([], ["fr-a", "fr-b"], "france", TODAY)
-    assert len(picks) == 31  # répétitions autorisées si catalogue < fenêtre
+    assert len(picks) == 61  # répétitions autorisées si catalogue < fenêtre
 
 
 def test_empty_catalog_returns_empty():
