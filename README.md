@@ -44,6 +44,16 @@ Exporte un jeu de données minimal pour le seed d'un environnement de développe
 .venv/bin/python -m tools.export_seed france --out seed/
 ```
 
+## Protocole d'écriture d'une recette
+
+1. **Authenticité.** La recette est un plat authentique du pays, sous son titre consacré (pas d'invention ni de fusion). `region` est la région réelle d'origine. `difficulty` est honnête : 1 = assemblage sans cuisson délicate, 2 = cuisson surveillée, 3 = technique (pâtisserie précise, gestes délicats).
+2. **Étapes.** Entre 5 et 10 étapes, une seule action par étape. `timerMinutes` est renseigné dès qu'une attente existe (cuisson, repos, marinade). Les quantités d'ingrédients sont réalistes pour le nombre de `servings` indiqué.
+3. **Langues.** Les 4 langues (fr, en, es, it) sont rédigées en qualité native : tournures idiomatiques, vocabulaire culinaire juste, jamais de mot-à-mot.
+4. **Tags.** `airFryer` uniquement si la recette s'adapte réellement à la friteuse à air, et alors `airFryerNotes` (4 langues) précise température, durée et ajustements concrets. `vegetarian` si la recette ne contient ni viande ni poisson.
+5. **Taxonomie.** Tout `ref` d'ingrédient vient de `<pays>/ingredients.json`. Si un ingrédient indispensable manque vraiment, l'ajouter à la taxonomie (names en 4 langues, catégorie de l'enum, substituts crédibles) dans le même commit que la recette.
+6. **Validation.** Avant tout commit : `python -m tools.placeholders` (si les photos ne sont pas prêtes) puis `python -m tools.validate` — la sortie doit se terminer par « 0 erreur(s). ».
+7. **Stabilité des fichiers.** Ne JAMAIS reformater en masse les JSON de recettes : `updatedAt` est calculé par hash d'octets, un re-indent global changerait le hash de toutes les fiches et déclencherait une vague de re-téléchargements chez tous les utilisateurs.
+
 ## Protocole d'ajout de recette
 
 1. Créer une branche.

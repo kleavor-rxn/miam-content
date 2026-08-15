@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-boeuf-bourguignon",
+  "title": {"fr": "Bœuf bourguignon", "en": "Beef bourguignon", "es": "Ternera a la borgoñona", "it": "Manzo alla borgognona"},
+  "summary": {
+    "fr": "Le grand classique bourguignon : du bœuf longuement mijoté au vin rouge avec lardons, champignons et carottes.",
+    "en": "The great Burgundy classic: beef slow-braised in red wine with bacon, mushrooms and carrots.",
+    "es": "El gran clásico de Borgoña: ternera guisada lentamente en vino tinto con panceta, champiñones y zanahorias.",
+    "it": "Il grande classico della Borgogna: manzo brasato a lungo nel vino rosso con pancetta, funghi e carote."
+  },
+  "region": {"fr": "Bourgogne", "en": "Burgundy", "es": "Borgoña", "it": "Borgogna"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 185,
+  "servings": 6,
+  "heroImage": "images/fr-boeuf-bourguignon/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "boeuf-a-braiser", "quantity": 1.2, "unit": "kg"},
+    {"ref": "lardons", "quantity": 200, "unit": "g"},
+    {"ref": "carotte", "quantity": 3, "unit": "piece"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "champignon-de-paris", "quantity": 250, "unit": "g"},
+    {"ref": "vin-rouge", "quantity": 75, "unit": "cl", "substitutes": ["bouillon-de-boeuf"]},
+    {"ref": "concentre-de-tomate", "quantity": 1, "unit": "tbsp"},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece"},
+    {"ref": "farine", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null},
+    {"ref": "huile-tournesol", "quantity": 2, "unit": "tbsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez le bœuf en cubes de 4 cm. Salez, poivrez, puis farinez-les légèrement.", "en": "Cut the beef into 4 cm cubes. Season with salt and pepper, then dust lightly with flour.", "es": "Corta la ternera en dados de 4 cm. Salpimienta y enharínalos ligeramente.", "it": "Taglia il manzo a cubetti di 4 cm. Sala, pepa e infarinali leggermente."}, "image": "images/fr-boeuf-bourguignon/step-1.webp"},
+    {"text": {"fr": "Dans une cocotte, faites dorer les lardons dans l'huile, réservez-les, puis saisissez les cubes de bœuf sur toutes leurs faces.", "en": "In a Dutch oven, brown the bacon in the oil, set aside, then sear the beef cubes on all sides.", "es": "En una cocotte, dora la panceta en el aceite, resérvala y sella los dados de ternera por todos los lados.", "it": "In una casseruola, rosola la pancetta nell'olio, mettila da parte, poi rosola i cubetti di manzo su tutti i lati."}, "image": "images/fr-boeuf-bourguignon/step-2.webp"},
+    {"text": {"fr": "Ajoutez les oignons émincés, les carottes en rondelles et l'ail écrasé. Faites revenir 5 minutes.", "en": "Add the sliced onions, carrot rounds and crushed garlic. Sauté for 5 minutes.", "es": "Añade las cebollas en juliana, las zanahorias en rodajas y el ajo machacado. Rehoga 5 minutos.", "it": "Aggiungi le cipolle affettate, le carote a rondelle e l'aglio schiacciato. Fai soffriggere 5 minuti."}, "image": "images/fr-boeuf-bourguignon/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Remettez les lardons, ajoutez le concentré de tomate, versez le vin rouge et complétez d'eau à hauteur. Ajoutez le bouquet garni.", "en": "Return the bacon, add the tomato paste, pour in the red wine and top up with water to cover. Add the bouquet garni.", "es": "Devuelve la panceta, añade el concentrado de tomate, vierte el vino tinto y cubre con agua. Añade el ramillete de hierbas.", "it": "Rimetti la pancetta, aggiungi il concentrato di pomodoro, versa il vino rosso e copri a filo con acqua. Aggiungi il mazzetto aromatico."}, "image": "images/fr-boeuf-bourguignon/step-4.webp"},
+    {"text": {"fr": "Couvrez et laissez mijoter à feu doux pendant 2 h 30, en remuant de temps en temps.", "en": "Cover and simmer over low heat for 2.5 hours, stirring occasionally.", "es": "Tapa y cuece a fuego lento durante 2 horas y media, removiendo de vez en cuando.", "it": "Copri e lascia sobbollire a fuoco dolce per 2 ore e mezza, mescolando ogni tanto."}, "image": "images/fr-boeuf-bourguignon/step-5.webp", "timerMinutes": 150},
+    {"text": {"fr": "Ajoutez les champignons coupés en quatre et poursuivez la cuisson 30 minutes à découvert, jusqu'à ce que la sauce nappe la cuillère.", "en": "Add the quartered mushrooms and cook uncovered for another 30 minutes, until the sauce coats the back of a spoon.", "es": "Añade los champiñones en cuartos y cocina 30 minutos más sin tapar, hasta que la salsa nape la cuchara.", "it": "Aggiungi i funghi tagliati in quattro e prosegui la cottura scoperta per 30 minuti, finché la salsa vela il cucchiaio."}, "image": "images/fr-boeuf-bourguignon/step-6.webp", "timerMinutes": 30}
+  ]
+}
