@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pizzette-di-sfoglia",
+  "title": {"fr": "Pizzette feuilletées", "en": "Puff pastry pizzette", "es": "Pizzette de hojaldre", "it": "Pizzette di sfoglia"},
+  "summary": {
+    "fr": "L'incontournable des goûters d'anniversaire et des apéritifs italiens : des mini-pizzas de pâte feuilletée à la tomate, la mozzarella et l'origan, prêtes en un clin d'œil.",
+    "en": "The staple of Italian birthday parties and aperitivo spreads: puff pastry mini pizzas with tomato, mozzarella and oregano, ready in no time.",
+    "es": "El imprescindible de los cumpleaños y aperitivos italianos: mini pizzas de hojaldre con tomate, mozzarella y orégano, listas en un abrir y cerrar de ojos.",
+    "it": "L'immancabile delle feste di compleanno e degli aperitivi: pizzette di pasta sfoglia con pomodoro, mozzarella e origano, pronte in un batter d'occhio."
+  },
+  "region": {"fr": "Toute l'Italie", "en": "All of Italy", "es": "Toda Italia", "it": "Tutta Italia"},
+  "category": "autre",
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 6,
+  "heroImage": "images/it-pizzette-di-sfoglia/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Faites cuire à 180 °C pendant 8 à 10 minutes, par fournées, sur du papier cuisson perforé et en une seule couche. Inutile de préchauffer longtemps : la sfoglia gonfle vite, surveillez dès 7 minutes. Les bords doivent être bien feuilletés et dorés, la mozzarella à peine fondue.",
+    "en": "Cook at 180 °C (355 °F) for 8 to 10 minutes, in batches, on perforated baking paper and in a single layer. No need for a long preheat — puff pastry rises fast, so keep an eye on them from the 7-minute mark. The edges should be flaky and golden, the mozzarella barely melted.",
+    "es": "Cocina a 180 °C durante 8-10 minutos, por tandas, sobre papel de horno perforado y en una sola capa. No hace falta precalentar mucho: el hojaldre sube rápido, vigila a partir del minuto 7. Los bordes deben quedar bien hojaldrados y dorados, y la mozzarella apenas fundida.",
+    "it": "Cuoci a 180 °C per 8-10 minuti, in più riprese, su carta forno forata e in un solo strato. Non serve un lungo preriscaldamento: la sfoglia gonfia in fretta, controlla dal settimo minuto. I bordi devono essere ben sfogliati e dorati, la mozzarella appena fusa."
+  },
+  "ingredients": [
+    {"ref": "pasta-sfoglia", "quantity": 2, "unit": "piece"},
+    {"ref": "passata", "quantity": 200, "unit": "g"},
+    {"ref": "mozzarella", "quantity": 150, "unit": "g"},
+    {"ref": "origano", "quantity": 1, "unit": "tsp"},
+    {"ref": "olive-nere", "quantity": 40, "unit": "g", "optional": true},
+    {"ref": "olio-oliva", "quantity": 1, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 200 °C. Coupez la mozzarella en petits dés et laissez-les s'égoutter dans une passoire.", "en": "Preheat the oven to 200 °C (390 °F). Dice the mozzarella and leave it to drain in a colander.", "es": "Precalienta el horno a 200 °C. Corta la mozzarella en daditos y déjalos escurrir en un colador.", "it": "Preriscalda il forno a 200 °C. Taglia la mozzarella a dadini e lasciali scolare in un colino."}, "image": "images/it-pizzette-di-sfoglia/step-1.webp"},
+    {"text": {"fr": "Déroulez les pâtes feuilletées et découpez-y des disques de 6 cm à l'emporte-pièce ou au verre. Rassemblez les chutes, étalez-les une fois et découpez les derniers disques.", "en": "Unroll the puff pastry sheets and cut out 6 cm discs with a cutter or a glass. Gather the offcuts, roll them out once and cut the last discs.", "es": "Desenrolla las láminas de hojaldre y corta discos de 6 cm con un cortapastas o un vaso. Junta los recortes, estíralos una vez y corta los últimos discos.", "it": "Srotola le sfoglie e ricava dei dischi da 6 cm con un coppapasta o un bicchiere. Riunisci i ritagli, stendili una volta e ricava gli ultimi dischi."}, "image": "images/it-pizzette-di-sfoglia/step-2.webp"},
+    {"text": {"fr": "Disposez les disques sur des plaques garnies de papier cuisson et piquez leur centre à la fourchette, en épargnant le pourtour pour qu'il gonfle.", "en": "Arrange the discs on baking sheets lined with parchment and prick their centres with a fork, sparing the rim so it can puff up.", "es": "Coloca los discos en bandejas forradas con papel de horno y pincha el centro con un tenedor, respetando el borde para que suba.", "it": "Disponi i dischi su teglie rivestite di carta forno e bucherella il centro con una forchetta, risparmiando il bordo perché possa gonfiarsi."}, "image": "images/it-pizzette-di-sfoglia/step-3.webp"},
+    {"text": {"fr": "Assaisonnez la passata avec l'huile d'olive, l'origan et une pincée de sel, puis déposez une petite cuillerée au centre de chaque disque.", "en": "Season the passata with the olive oil, oregano and a pinch of salt, then spoon a little onto the centre of each disc.", "es": "Condimenta la passata con el aceite de oliva, el orégano y una pizca de sal, y pon una cucharadita en el centro de cada disco.", "it": "Condisci la passata con l'olio, l'origano e un pizzico di sale, poi versane un cucchiaino al centro di ogni disco."}, "image": "images/it-pizzette-di-sfoglia/step-4.webp"},
+    {"text": {"fr": "Répartissez les dés de mozzarella bien égouttés et, si vous en mettez, une rondelle d'olive noire sur chaque pizzetta.", "en": "Scatter the well-drained mozzarella dice over the pizzette and, if using, top each one with a slice of black olive.", "es": "Reparte los daditos de mozzarella bien escurridos y, si las usas, corona cada pizzetta con una rodaja de aceituna negra.", "it": "Distribuisci i dadini di mozzarella ben scolati e, se le usi, completa ogni pizzetta con una rondella di oliva nera."}, "image": "images/it-pizzette-di-sfoglia/step-5.webp"},
+    {"text": {"fr": "Enfournez 15 minutes, jusqu'à ce que les bords soient gonflés et dorés. Servez tiède ou à température ambiante — elles disparaîtront avant.", "en": "Bake for 15 minutes, until the rims are puffed and golden. Serve warm or at room temperature — they will vanish before that.", "es": "Hornea 15 minutos, hasta que los bordes estén hinchados y dorados. Sirve templadas o a temperatura ambiente, aunque desaparecerán antes.", "it": "Inforna per 15 minuti, finché i bordi sono gonfi e dorati. Servi tiepide o a temperatura ambiente — spariranno prima."}, "image": "images/it-pizzette-di-sfoglia/step-6.webp", "timerMinutes": 15}
+  ]
+}

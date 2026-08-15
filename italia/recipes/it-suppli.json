@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "it-suppli",
+  "title": {"fr": "Supplì al telefono", "en": "Supplì al telefono", "es": "Supplì al telefono", "it": "Supplì al telefono"},
+  "summary": {
+    "fr": "La street food romaine par excellence : des croquettes de riz à la tomate au cœur de mozzarella qui file « comme un fil de téléphone » quand on les ouvre.",
+    "en": "Rome's street food icon: tomato rice croquettes with a mozzarella heart that stretches \"like a telephone wire\" when you pull them apart.",
+    "es": "La reina del street food romano: croquetas de arroz al tomate con corazón de mozzarella que se estira \"como un cable de teléfono\" al partirlas.",
+    "it": "Lo street food romano per eccellenza: crocchette di riso al pomodoro con un cuore di mozzarella che fila \"come un filo del telefono\" quando le apri."
+  },
+  "region": {"fr": "Latium", "en": "Lazio", "es": "Lacio", "it": "Lazio"},
+  "category": "autre",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 35,
+  "servings": 4,
+  "heroImage": "images/it-suppli/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Préchauffez la friteuse à air à 200 °C. Vaporisez ou badigeonnez généreusement d'huile les supplì panés et faites-les cuire 12 minutes en une seule couche, sans qu'ils se touchent, en les retournant à mi-cuisson. Comptez 2 à 3 minutes de plus s'ils sortent du réfrigérateur ; la croûte sera un peu moins soufflée qu'en friture, mais le cœur file tout autant.",
+    "en": "Preheat the air fryer to 200 °C (390 °F). Spray or brush the breaded supplì generously with oil and cook for 12 minutes in a single layer, not touching, turning halfway through. Allow 2-3 extra minutes if they go in straight from the fridge; the crust puffs slightly less than deep-fried, but the heart stretches just the same.",
+    "es": "Precalienta la freidora de aire a 200 °C. Pulveriza o pincela generosamente con aceite los supplì empanados y cocínalos 12 minutos en una sola capa, sin que se toquen, dándoles la vuelta a mitad de cocción. Añade 2-3 minutos si van directos de la nevera; la corteza queda algo menos inflada que en fritura, pero el corazón se estira igual.",
+    "it": "Preriscalda la friggitrice ad aria a 200 °C. Spruzza o spennella abbondantemente d'olio i supplì impanati e cuocili 12 minuti in un solo strato, senza che si tocchino, girandoli a metà cottura. Aggiungi 2-3 minuti se escono dal frigorifero; la crosta resta un po' meno gonfia della frittura, ma il cuore fila lo stesso."
+  },
+  "ingredients": [
+    {"ref": "riso-arborio", "quantity": 320, "unit": "g", "substitutes": ["riso-carnaroli"]},
+    {"ref": "passata", "quantity": 400, "unit": "g"},
+    {"ref": "brodo-vegetale", "quantity": 50, "unit": "cl"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "burro", "quantity": 40, "unit": "g"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g", "substitutes": ["pecorino-romano"]},
+    {"ref": "mozzarella", "quantity": 125, "unit": "g"},
+    {"ref": "uovo", "quantity": 2, "unit": "piece"},
+    {"ref": "pangrattato", "quantity": 150, "unit": "g"},
+    {"ref": "olio-semi", "quantity": 1, "unit": "l"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre l'oignon haché dans le beurre, dans une casserole à fond épais, 5 minutes à feu doux, sans coloration.", "en": "Sweat the chopped onion in the butter in a heavy-based saucepan for 5 minutes over low heat, without letting it colour.", "es": "Pocha la cebolla picada en la mantequilla, en una cazuela de fondo grueso, 5 minutos a fuego suave, sin que tome color.", "it": "Fai appassire la cipolla tritata nel burro, in una casseruola dal fondo spesso, 5 minuti a fuoco dolce, senza farla colorire."}, "image": "images/it-suppli/step-1.webp", "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez le riz, nacrez-le 2 minutes, puis versez la passata et le bouillon chaud. Faites cuire 15 minutes en remuant, jusqu'à un risotto rouge, épais et bien sec. Salez, poivrez.", "en": "Add the rice, toast it for 2 minutes, then pour in the passata and hot stock. Cook for 15 minutes, stirring, to a thick, quite dry red risotto. Season with salt and pepper.", "es": "Añade el arroz, nacáralo 2 minutos y vierte la passata y el caldo caliente. Cuece 15 minutos removiendo, hasta un risotto rojo, espeso y bien seco. Salpimienta.", "it": "Unisci il riso, tostalo 2 minuti, poi versa la passata e il brodo caldo. Cuoci 15 minuti mescolando, fino a un risotto rosso, denso e ben asciutto. Regola di sale e pepe."}, "image": "images/it-suppli/step-2.webp", "timerMinutes": 15},
+    {"text": {"fr": "Hors du feu, incorporez le parmesan, puis étalez le riz sur une plaque et laissez-le refroidir complètement, au moins 1 heure.", "en": "Off the heat, stir in the parmesan, then spread the rice on a tray and let it cool completely, at least 1 hour.", "es": "Fuera del fuego, incorpora el parmesano, extiende el arroz en una bandeja y deja que se enfríe por completo, al menos 1 hora.", "it": "Fuori dal fuoco, manteca con il parmigiano, poi stendi il riso su una teglia e lascialo raffreddare completamente, almeno 1 ora."}, "image": "images/it-suppli/step-3.webp", "timerMinutes": 60},
+    {"text": {"fr": "Détaillez la mozzarella en bâtonnets et laissez-les s'égoutter sur du papier absorbant.", "en": "Cut the mozzarella into small sticks and let them drain on kitchen paper.", "es": "Corta la mozzarella en bastoncitos y déjalos escurrir sobre papel de cocina.", "it": "Taglia la mozzarella a bastoncini e lasciali scolare su carta assorbente."}, "image": "images/it-suppli/step-4.webp"},
+    {"text": {"fr": "Les mains humides, prenez une cuillère à soupe bombée de riz, enfermez-y un bâtonnet de mozzarella et façonnez une croquette ovale bien serrée. Formez ainsi une douzaine de supplì.", "en": "With damp hands, take a heaped tablespoon of rice, tuck a stick of mozzarella inside and shape it into a tight oval croquette. Make a dozen supplì this way.", "es": "Con las manos húmedas, coge una cucharada colmada de arroz, encierra dentro un bastoncito de mozzarella y forma una croqueta ovalada bien prieta. Haz así una docena de supplì.", "it": "Con le mani umide, prendi una cucchiaiata abbondante di riso, racchiudici un bastoncino di mozzarella e modella una crocchetta ovale ben compatta. Forma così una dozzina di supplì."}, "image": "images/it-suppli/step-5.webp"},
+    {"text": {"fr": "Passez chaque supplì dans les œufs battus, puis dans la chapelure, en pressant pour bien faire adhérer la panure.", "en": "Roll each supplì in the beaten eggs, then in the breadcrumbs, pressing so the coating sticks well.", "es": "Pasa cada supplì por los huevos batidos y luego por el pan rallado, presionando para que el empanado se adhiera bien.", "it": "Passa ogni supplì nelle uova sbattute e poi nel pangrattato, premendo perché la panatura aderisca bene."}, "image": "images/it-suppli/step-6.webp"},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C et plongez-y les supplì par trois ou quatre. Laissez-les dorer 4 minutes en les retournant, jusqu'à une croûte ambrée.", "en": "Heat the oil to 170 °C (340 °F) and lower in the supplì three or four at a time. Let them fry for 4 minutes, turning, until the crust is amber.", "es": "Calienta el aceite a 170 °C y fríe los supplì de tres en tres o de cuatro en cuatro. Déjalos dorar 4 minutos, girándolos, hasta que la corteza esté ambarina.", "it": "Scalda l'olio a 170 °C e tuffa i supplì tre o quattro alla volta. Falli dorare 4 minuti, girandoli, fino a una crosta ambrata."}, "image": "images/it-suppli/step-7.webp", "timerMinutes": 4},
+    {"text": {"fr": "Égouttez sur du papier absorbant et patientez 2 minutes avant de servir : ouvrez un supplì en deux et étirez le fameux fil de mozzarella.", "en": "Drain on kitchen paper and wait 2 minutes before serving: break a supplì in two and stretch out that famous mozzarella wire.", "es": "Escurre sobre papel de cocina y espera 2 minutos antes de servir: parte un supplì en dos y estira el famoso hilo de mozzarella.", "it": "Scola su carta assorbente e aspetta 2 minuti prima di servire: apri un supplì in due e tira il famoso filo di mozzarella."}, "image": "images/it-suppli/step-8.webp", "timerMinutes": 2}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "it-crostata-di-marmellata",
+  "title": {"fr": "Crostata à la confiture", "en": "Jam crostata", "es": "Crostata de mermelada", "it": "Crostata di marmellata"},
+  "summary": {
+    "fr": "Le goûter des grands-mères italiennes : une pâte sablée dorée croisée de bandes, garnie d'une généreuse couche de confiture — abricot, cerise ou figue.",
+    "en": "The snack of Italian grandmothers: golden shortcrust latticed with pastry strips over a generous layer of jam — apricot, cherry or fig.",
+    "es": "La merienda de las abuelas italianas: una masa quebrada dorada con enrejado de tiras sobre una generosa capa de mermelada, de albaricoque, cereza o higo.",
+    "it": "La merenda delle nonne italiane: una frolla dorata incrociata di strisce, farcita con uno strato generoso di marmellata — albicocca, ciliegia o fichi."
+  },
+  "region": {"fr": "Toute l'Italie", "en": "All of Italy", "es": "Toda Italia", "it": "Tutta Italia"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 35,
+  "servings": 8,
+  "heroImage": "images/it-crostata-di-marmellata/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Utilisez un moule de 18 à 20 cm qui tient dans le panier. Faites cuire à 160 °C pendant 30 à 35 minutes, sans préchauffage prolongé ; si le croisillon colore trop vite, couvrez d'une feuille d'aluminium après 20 minutes. Laissez tiédir 10 minutes dans le panier avant de démouler, la pâte finit d'y prendre.",
+    "en": "Use an 18-20 cm tin that fits in the basket. Bake at 160 °C (320 °F) for 30 to 35 minutes; if the lattice browns too fast, cover with a sheet of foil after 20 minutes. Let the tart cool for 10 minutes in the basket before unmoulding — the pastry finishes setting there.",
+    "es": "Usa un molde de 18-20 cm que quepa en la cesta. Hornea a 160 °C durante 30-35 minutos; si el enrejado se dora demasiado rápido, cúbrelo con una hoja de aluminio a los 20 minutos. Deja templar 10 minutos en la cesta antes de desmoldar: la masa termina de asentarse ahí.",
+    "it": "Usa uno stampo da 18-20 cm che entri nel cestello. Cuoci a 160 °C per 30-35 minuti; se le strisce colorano troppo in fretta, copri con un foglio di alluminio dopo 20 minuti. Lascia intiepidire 10 minuti nel cestello prima di sformare: la frolla finisce lì di rassodarsi."
+  },
+  "ingredients": [
+    {"ref": "farina-00", "quantity": 300, "unit": "g"},
+    {"ref": "burro", "quantity": 150, "unit": "g"},
+    {"ref": "zucchero", "quantity": 130, "unit": "g"},
+    {"ref": "uovo", "quantity": 2, "unit": "piece"},
+    {"ref": "limone", "quantity": 1, "unit": "piece"},
+    {"ref": "marmellata", "quantity": 350, "unit": "g"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Sablez du bout des doigts la farine avec le beurre froid en dés, jusqu'à obtenir une texture de sable grossier.", "en": "Rub the flour and cold diced butter together with your fingertips until the mixture looks like coarse sand.", "es": "Trabaja con la punta de los dedos la harina con la mantequilla fría en dados, hasta lograr una textura de arena gruesa.", "it": "Lavora con la punta delle dita la farina con il burro freddo a dadini, fino a ottenere una consistenza di sabbia grossolana."}, "image": "images/it-crostata-di-marmellata/step-1.webp"},
+    {"text": {"fr": "Ajoutez le sucre, une pincée de sel, le zeste râpé du citron et les œufs, puis pétrissez brièvement, juste assez pour former une boule lisse.", "en": "Add the sugar, a pinch of salt, the grated lemon zest and the eggs, then knead briefly — just enough to bring it together into a smooth ball.", "es": "Añade el azúcar, una pizca de sal, la ralladura del limón y los huevos, y amasa brevemente, lo justo para formar una bola lisa.", "it": "Aggiungi lo zucchero, un pizzico di sale, la scorza grattugiata del limone e le uova, poi impasta brevemente, quel tanto che basta per formare una palla liscia."}, "image": "images/it-crostata-di-marmellata/step-2.webp"},
+    {"text": {"fr": "Aplatissez la pâte en disque, filmez-la et laissez-la reposer 30 minutes au réfrigérateur.", "en": "Flatten the dough into a disc, wrap it in film and let it rest in the fridge for 30 minutes.", "es": "Aplana la masa en forma de disco, envuélvela en film y déjala reposar 30 minutos en la nevera.", "it": "Appiattisci la frolla a disco, avvolgila nella pellicola e lasciala riposare 30 minuti in frigorifero."}, "image": "images/it-crostata-di-marmellata/step-3.webp", "timerMinutes": 30},
+    {"text": {"fr": "Étalez les deux tiers de la pâte sur 4 mm entre deux feuilles de papier cuisson, foncez-en un moule à tarte beurré de 24 cm et piquez le fond à la fourchette.", "en": "Roll out two thirds of the dough to 4 mm between two sheets of baking paper, line a buttered 24 cm tart tin with it and prick the base with a fork.", "es": "Estira dos tercios de la masa a 4 mm entre dos hojas de papel de horno, forra con ella un molde de tarta de 24 cm untado de mantequilla y pincha el fondo con un tenedor.", "it": "Stendi due terzi della frolla a 4 mm tra due fogli di carta forno, fodera uno stampo da crostata imburrato di 24 cm e bucherella il fondo con una forchetta."}, "image": "images/it-crostata-di-marmellata/step-4.webp"},
+    {"text": {"fr": "Étalez la confiture en couche régulière, en laissant un bord libre d'un centimètre.", "en": "Spread the jam in an even layer, leaving a one-centimetre border clear.", "es": "Extiende la mermelada en una capa uniforme, dejando un borde libre de un centímetro.", "it": "Distribuisci la marmellata in uno strato uniforme, lasciando un bordo libero di un centimetro."}, "image": "images/it-crostata-di-marmellata/step-5.webp"},
+    {"text": {"fr": "Étalez le reste de pâte, découpez des bandes d'un bon centimètre et posez-les en croisillons sur la confiture, en soudant les extrémités au bord.", "en": "Roll out the remaining dough, cut strips a good centimetre wide and lay them in a lattice over the jam, pressing the ends onto the rim to seal.", "es": "Estira el resto de la masa, corta tiras de un buen centímetro y colócalas en enrejado sobre la mermelada, sellando los extremos contra el borde.", "it": "Stendi la frolla rimasta, ritaglia strisce di un centimetro abbondante e disponile a griglia sulla marmellata, saldando le estremità al bordo."}, "image": "images/it-crostata-di-marmellata/step-6.webp"},
+    {"text": {"fr": "Enfournez à 180 °C pendant 35 minutes, jusqu'à ce que le croisillon soit uniformément doré et la confiture frémissante.", "en": "Bake at 180 °C (350 °F) for 35 minutes, until the lattice is evenly golden and the jam is bubbling.", "es": "Hornea a 180 °C durante 35 minutos, hasta que el enrejado esté uniformemente dorado y la mermelada burbujee.", "it": "Inforna a 180 °C per 35 minuti, finché la griglia è uniformemente dorata e la marmellata sobbolle."}, "image": "images/it-crostata-di-marmellata/step-7.webp", "timerMinutes": 35},
+    {"text": {"fr": "Laissez refroidir complètement dans le moule, au moins 30 minutes, avant de démouler : la crostata se tient — et se déguste — froide.", "en": "Let it cool completely in the tin, at least 30 minutes, before unmoulding: crostata holds — and tastes — best when cool.", "es": "Deja enfriar por completo en el molde, al menos 30 minutos, antes de desmoldar: la crostata se sostiene, y se disfruta, en frío.", "it": "Lascia raffreddare completamente nello stampo, almeno 30 minuti, prima di sformare: la crostata si tiene — e si gusta — da fredda."}, "image": "images/it-crostata-di-marmellata/step-8.webp", "timerMinutes": 30}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "it-panzanella",
+  "title": {"fr": "Panzanella", "en": "Panzanella", "es": "Panzanella", "it": "Panzanella"},
+  "summary": {
+    "fr": "La salade paysanne toscane qui ressuscite le pain rassis : tomates mûres, oignon rouge, concombre et basilic, le tout relevé d'huile d'olive et de vinaigre.",
+    "en": "Tuscany's peasant salad that brings stale bread back to life: ripe tomatoes, red onion, cucumber and basil, lifted with olive oil and vinegar.",
+    "es": "La ensalada campesina toscana que resucita el pan duro: tomates maduros, cebolla roja, pepino y albahaca, todo avivado con aceite de oliva y vinagre.",
+    "it": "L'insalata contadina toscana che fa rivivere il pane raffermo: pomodori maturi, cipolla rossa, cetriolo e basilico, il tutto ravvivato da olio e aceto."
+  },
+  "region": {"fr": "Toscane", "en": "Tuscany", "es": "Toscana", "it": "Toscana"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 0,
+  "servings": 4,
+  "heroImage": "images/it-panzanella/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "pane", "quantity": 300, "unit": "g"},
+    {"ref": "pomodoro", "quantity": 4, "unit": "piece"},
+    {"ref": "cipolla-rossa", "quantity": 1, "unit": "piece"},
+    {"ref": "cetriolo", "quantity": 1, "unit": "piece"},
+    {"ref": "basilico", "quantity": 12, "unit": "piece"},
+    {"ref": "aceto-di-vino-rosso", "quantity": 3, "unit": "tbsp"},
+    {"ref": "olio-oliva", "quantity": 6, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Émincez l'oignon rouge en fines lamelles et laissez-le tremper 10 minutes dans un bol d'eau froide avec 1 cuillère de vinaigre, pour adoucir son piquant.", "en": "Slice the red onion into thin slivers and soak it for 10 minutes in a bowl of cold water with 1 tablespoon of vinegar to soften its bite.", "es": "Corta la cebolla roja en láminas finas y déjala en remojo 10 minutos en un bol de agua fría con 1 cucharada de vinagre, para suavizar su picor.", "it": "Affetta la cipolla rossa a velo e lasciala in ammollo 10 minuti in una ciotola di acqua fredda con 1 cucchiaio di aceto, per smorzarne il pizzicore."}, "image": "images/it-panzanella/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Coupez le pain rassis en gros morceaux et mettez-le à tremper 10 minutes dans de l'eau froide additionnée d'une cuillère de vinaigre.", "en": "Cut the stale bread into large chunks and soak it for 10 minutes in cold water with a tablespoon of vinegar added.", "es": "Corta el pan duro en trozos grandes y ponlo a remojar 10 minutos en agua fría con una cucharada de vinagre.", "it": "Taglia il pane raffermo a pezzi grossi e mettilo a bagno 10 minuti in acqua fredda con un cucchiaio di aceto."}, "image": "images/it-panzanella/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Pendant ce temps, coupez les tomates en quartiers au-dessus du saladier pour garder leur jus, et le concombre en demi-rondelles.", "en": "Meanwhile, cut the tomatoes into wedges over the salad bowl to catch their juice, and the cucumber into half-moons.", "es": "Mientras tanto, corta los tomates en gajos sobre la ensaladera para aprovechar su jugo, y el pepino en medias lunas.", "it": "Nel frattempo taglia i pomodori a spicchi sopra l'insalatiera per raccoglierne il succo, e il cetriolo a mezzelune."}, "image": "images/it-panzanella/step-3.webp"},
+    {"text": {"fr": "Essorez le pain entre vos mains, poignée par poignée, puis émiettez-le grossièrement dans le saladier.", "en": "Squeeze the bread firmly between your hands, one handful at a time, then crumble it coarsely into the bowl.", "es": "Escurre bien el pan entre las manos, puñado a puñado, y desmenúzalo en trozos gruesos dentro de la ensaladera.", "it": "Strizza bene il pane tra le mani, una manciata alla volta, poi sbriciolalo grossolanamente nell'insalatiera."}, "image": "images/it-panzanella/step-4.webp"},
+    {"text": {"fr": "Ajoutez l'oignon égoutté, le concombre et le basilic déchiré à la main. Assaisonnez avec l'huile d'olive, le reste de vinaigre, du sel et du poivre, et mélangez délicatement.", "en": "Add the drained onion, the cucumber and the hand-torn basil. Dress with the olive oil, the remaining vinegar, salt and pepper, and toss gently.", "es": "Añade la cebolla escurrida, el pepino y la albahaca troceada con la mano. Aliña con el aceite de oliva, el resto del vinagre, sal y pimienta, y mezcla con suavidad.", "it": "Unisci la cipolla scolata, il cetriolo e il basilico spezzettato a mano. Condisci con l'olio, l'aceto rimasto, sale e pepe, e mescola con delicatezza."}, "image": "images/it-panzanella/step-5.webp"},
+    {"text": {"fr": "Laissez reposer 15 minutes au frais avant de servir : le pain doit boire le jus des tomates sans se défaire.", "en": "Let it rest in the fridge for 15 minutes before serving: the bread should drink in the tomato juices without falling apart.", "es": "Deja reposar 15 minutos en la nevera antes de servir: el pan debe beberse el jugo del tomate sin deshacerse.", "it": "Lascia riposare 15 minuti al fresco prima di servire: il pane deve bere il succo dei pomodori senza sfaldarsi."}, "image": "images/it-panzanella/step-6.webp", "timerMinutes": 15}
+  ]
+}

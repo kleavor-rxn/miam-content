@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "it-bucatini-all-amatriciana",
+  "title": {"fr": "Bucatini all'amatriciana", "en": "Bucatini all'amatriciana", "es": "Bucatini a la amatriciana", "it": "Bucatini all'amatriciana"},
+  "summary": {
+    "fr": "La fierté d'Amatrice : guanciale croustillant, tomate et pecorino enrobent de gros spaghetti creux — sans ail ni oignon, comme le veut la tradition.",
+    "en": "The pride of Amatrice: crisp guanciale, tomato and pecorino coating thick hollow spaghetti — no garlic, no onion, just as tradition demands.",
+    "es": "El orgullo de Amatrice: guanciale crujiente, tomate y pecorino envolviendo unos espaguetis gruesos y huecos, sin ajo ni cebolla, como manda la tradición.",
+    "it": "L'orgoglio di Amatrice: guanciale croccante, pomodoro e pecorino avvolgono i bucatini — senza aglio né cipolla, come vuole la tradizione."
+  },
+  "region": {"fr": "Latium", "en": "Lazio", "es": "Lacio", "it": "Lazio"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "servings": 4,
+  "heroImage": "images/it-bucatini-all-amatriciana/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "bucatini", "quantity": 400, "unit": "g", "substitutes": ["spaghetti"]},
+    {"ref": "guanciale", "quantity": 150, "unit": "g", "substitutes": ["pancetta"]},
+    {"ref": "pomodori-pelati", "quantity": 400, "unit": "g", "substitutes": ["passata"]},
+    {"ref": "pecorino-romano", "quantity": 80, "unit": "g"},
+    {"ref": "vino-bianco", "quantity": 5, "unit": "cl"},
+    {"ref": "peperoncino", "quantity": 1, "unit": "piece"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Retirez la couenne du guanciale et détaillez-le en lardons d'un demi-centimètre d'épaisseur.", "en": "Trim the rind off the guanciale and cut it into strips about half a centimetre thick.", "es": "Quita la corteza al guanciale y córtalo en tiras de medio centímetro de grosor.", "it": "Elimina la cotenna del guanciale e taglialo a listarelle spesse mezzo centimetro."}, "image": "images/it-bucatini-all-amatriciana/step-1.webp"},
+    {"text": {"fr": "Faites rissoler le guanciale à sec dans une grande poêle, à feu doux, 5 minutes, jusqu'à ce qu'il soit doré et que son gras soit fondu. Réservez les lardons, gardez le gras dans la poêle.", "en": "Render the guanciale in a dry frying pan over low heat for 5 minutes, until golden and its fat has melted out. Set the strips aside and keep the fat in the pan.", "es": "Dora el guanciale en una sartén grande sin nada de grasa, a fuego suave, 5 minutos, hasta que esté dorado y haya soltado su grasa. Reserva las tiras y deja la grasa en la sartén.", "it": "Fai rosolare il guanciale a secco in una padella ampia, a fuoco dolce, per 5 minuti, finché è dorato e il grasso si è sciolto. Metti da parte le listarelle e lascia il grasso in padella."}, "image": "images/it-bucatini-all-amatriciana/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Déglacez la poêle au vin blanc et laissez-le s'évaporer 2 minutes sur feu vif.", "en": "Deglaze the pan with the white wine and let it evaporate for 2 minutes over high heat.", "es": "Desglasa la sartén con el vino blanco y deja que se evapore 2 minutos a fuego vivo.", "it": "Sfuma con il vino bianco e lascialo evaporare 2 minuti a fiamma vivace."}, "image": "images/it-bucatini-all-amatriciana/step-3.webp", "timerMinutes": 2},
+    {"text": {"fr": "Ajoutez les tomates pelées écrasées à la main et le peperoncino émietté. Salez peu — le guanciale et le pecorino s'en chargeront — et laissez mijoter 10 minutes.", "en": "Add the peeled tomatoes, crushed by hand, and the crumbled peperoncino. Salt sparingly — the guanciale and pecorino will do that job — and simmer for 10 minutes.", "es": "Añade los tomates pelados aplastados con la mano y la guindilla desmenuzada. Sala poco, que el guanciale y el pecorino ya hacen su trabajo, y deja cocer 10 minutos.", "it": "Aggiungi i pelati schiacciati con le mani e il peperoncino sbriciolato. Sala poco — ci pensano guanciale e pecorino — e lascia sobbollire 10 minuti."}, "image": "images/it-bucatini-all-amatriciana/step-4.webp", "timerMinutes": 10},
+    {"text": {"fr": "Pendant ce temps, faites cuire les bucatini dans un grand volume d'eau bouillante salée et égouttez-les 2 minutes avant la fin du temps indiqué, en gardant une louche d'eau de cuisson.", "en": "Meanwhile, cook the bucatini in plenty of boiling salted water and drain them 2 minutes short of the packet time, saving a ladleful of cooking water.", "es": "Mientras tanto, cuece los bucatini en abundante agua hirviendo con sal y escúrrelos 2 minutos antes del tiempo del paquete, reservando un cazo del agua de cocción.", "it": "Intanto cuoci i bucatini in abbondante acqua bollente salata e scolali 2 minuti prima del tempo indicato, tenendo da parte un mestolo di acqua di cottura."}, "image": "images/it-bucatini-all-amatriciana/step-5.webp", "timerMinutes": 7},
+    {"text": {"fr": "Versez les bucatini dans la sauce avec la moitié du guanciale et un peu d'eau de cuisson, et faites-les sauter 2 minutes pour finir la cuisson en les enrobant.", "en": "Tip the bucatini into the sauce with half the guanciale and a splash of cooking water, and toss over the heat for 2 minutes to finish cooking and coat them.", "es": "Pasa los bucatini a la salsa con la mitad del guanciale y un poco de agua de cocción, y saltéalos 2 minutos para terminar la cocción y que queden bien envueltos.", "it": "Versa i bucatini nel sugo con metà del guanciale e poca acqua di cottura, e falli saltare 2 minuti per finire la cottura e mantecarli."}, "image": "images/it-bucatini-all-amatriciana/step-6.webp", "timerMinutes": 2},
+    {"text": {"fr": "Hors du feu, saupoudrez de pecorino râpé et mélangez. Servez aussitôt, couronné du reste de guanciale croustillant et d'un dernier voile de pecorino.", "en": "Off the heat, shower with grated pecorino and toss. Serve at once, crowned with the remaining crisp guanciale and a final dusting of pecorino.", "es": "Fuera del fuego, espolvorea con pecorino rallado y mezcla. Sirve enseguida, coronado con el resto del guanciale crujiente y un último velo de pecorino.", "it": "Fuori dal fuoco, spolvera con il pecorino grattugiato e manteca. Servi subito, con il guanciale croccante rimasto e un'ultima nevicata di pecorino."}, "image": "images/it-bucatini-all-amatriciana/step-7.webp"}
+  ]
+}
