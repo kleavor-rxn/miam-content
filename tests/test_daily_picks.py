@@ -1,16 +1,9 @@
 from datetime import date, timedelta
 
-from tools.daily_picks import extend_daily_picks
+from tools.daily_picks import NO_REPEAT_DAYS, extend_daily_picks
 
 IDS = [f"fr-r{n:02d}" for n in range(20)]
 TODAY = date(2026, 8, 14)
-
-
-def test_extends_to_horizon_from_empty():
-    picks = extend_daily_picks([], IDS, "france", TODAY)
-    assert picks[0]["date"] == "2026-07-15"    # today - 30
-    assert picks[-1]["date"] == "2026-09-13"   # today + 30
-    assert len(picks) == 61
 
 
 def test_backfills_history_window_from_empty():
@@ -65,6 +58,25 @@ def test_refilled_hole_avoids_upcoming_preserved_picks():
     picks = extend_daily_picks(existing, IDS, "france", TODAY)
     today_pick = next(p for p in picks if p["date"] == "2026-08-14")
     assert today_pick["recipeID"] not in {IDS[n] for n in range(1, 14)}
+
+
+def test_backfilled_days_never_collide_with_preserved_future():
+    """Repli gradué : quand `recent` ∪ `ahead` sature le catalogue, un jour rétro-rempli
+    sacrifie la variété du passé — jamais une recette déjà PUBLIÉE dans ses 14 jours
+    suivants (elle, l'utilisateur la verra vraiment)."""
+    ids = [f"fr-r{n:02d}" for n in range(14)]   # catalogue juste assez petit pour saturer
+    existing = [{"date": (TODAY + timedelta(days=n)).isoformat(), "recipeID": ids[n]}
+                for n in range(1, NO_REPEAT_DAYS)]
+    preserved = {p["date"]: p["recipeID"] for p in existing}
+    picks = extend_daily_picks(existing, ids, "france", TODAY)
+    filled = [p for p in picks if p["date"] not in preserved]
+    assert len(filled) == 48   # 61 jours - 13 préservés : tout le reste est généré
+    for p in filled:
+        day = date.fromisoformat(p["date"])
+        ahead = {preserved[k] for k in
+                 ((day + timedelta(days=n)).isoformat() for n in range(1, NO_REPEAT_DAYS))
+                 if k in preserved}
+        assert p["recipeID"] not in ahead, f"{p['date']} duplique un jour déjà publié"
 
 
 def test_past_older_than_60_days_pruned():

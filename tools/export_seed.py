@@ -43,6 +43,11 @@ def export_seed(root: Path, country: str, out_dir: Path) -> list[str]:
         "schemaVersion": index["schemaVersion"],
         "generatedAt": index["generatedAt"],
         "recipes": [r for r in index["recipes"] if r["id"] in set(ids)],
+        # ⚠️ Tant que seed.txt couvre TOUT le catalogue, ce filtre ne retire rien. Dès qu'il
+        # sera un vrai sous-ensemble, le calendrier embarqué deviendra LACUNAIRE et l'app
+        # retombera sur le repli déterministe pour les jours filtrés — exactement le
+        # symptôme que l'amendement C2 corrige. Il faudra alors générer un calendrier dense
+        # SUR le sous-ensemble plutôt que de filtrer celui du catalogue complet.
         "dailyPicks": [p for p in index["dailyPicks"] if p["recipeID"] in set(ids)],
     }
     (out_dir / "index.json").write_text(

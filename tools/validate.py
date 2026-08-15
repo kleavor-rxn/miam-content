@@ -5,12 +5,14 @@ Erreurs -> bloquantes. Warnings (placeholders) -> bloquants seulement avec --rel
 import json
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
 from tools.countries import COUNTRIES
+from tools.daily_picks import NO_REPEAT_DAYS
 
 
 @dataclass
@@ -117,6 +119,25 @@ def validate_country(root: Path, country: str, release: bool = False) -> list[Is
             if pick["recipeID"] not in ids_on_disk:
                 issues.append(Issue(str(index_path.relative_to(root)),
                                     f"dailyPick vers recette inconnue : {pick['recipeID']}"))
+        # Fenêtre anti-répétition (spec §5.4) : la propriété dépend de la taille du catalogue
+        # (0 répétition à 30 ids, 3 à 20) — elle doit être tenue par la CI, pas par une
+        # vérification manuelle ponctuelle après chaque régénération.
+        dated = []
+        for pick in index.get("dailyPicks", []):
+            try:
+                dated.append((date.fromisoformat(pick["date"]), pick["recipeID"]))
+            except ValueError:
+                continue   # date malformée : déjà signalée par le schéma
+        dated.sort()
+        for i, (day, rid) in enumerate(dated):
+            for prev_day, prev_rid in reversed(dated[:i]):
+                if (day - prev_day).days >= NO_REPEAT_DAYS:
+                    break
+                if prev_rid == rid:
+                    issues.append(Issue(str(index_path.relative_to(root)),
+                        f"répétition de {rid} à moins de {NO_REPEAT_DAYS} jours "
+                        f"({prev_day} et {day})"))
+                    break
     return issues
 
 

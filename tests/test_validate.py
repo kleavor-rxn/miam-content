@@ -1,10 +1,12 @@
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 import jsonschema
 
 from tests.conftest import make_recipe, write_recipe
 
+from tools.build_index import build_index
 from tools.validate import validate_country
 
 REPO = Path(__file__).resolve().parents[1]
@@ -108,3 +110,20 @@ def test_index_out_of_sync_detected(content_repo):
              "recipes": [], "dailyPicks": []}
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
     assert any("désynchronisé" in m for m in _errors(content_repo))
+
+
+def test_daily_picks_repeat_within_14_days_detected(content_repo):
+    # 2 recettes pour 61 jours : la fenêtre glissante de 14 jours est forcément violée.
+    index = build_index(content_repo, "france",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert any("répétition" in m for m in _errors(content_repo))
+
+
+def test_daily_picks_without_repeat_is_accepted(content_repo):
+    index = build_index(content_repo, "france",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    index["dailyPicks"] = [{"date": "2026-08-14", "recipeID": "fr-test-un"},
+                           {"date": "2026-08-28", "recipeID": "fr-test-un"}]   # 14 j d'écart : OK
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert not any("répétition" in m for m in _errors(content_repo))
