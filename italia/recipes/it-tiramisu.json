@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "it-tiramisu",
+  "title": {"fr": "Tiramisu", "en": "Tiramisu", "es": "Tiramisú", "it": "Tiramisù"},
+  "summary": {
+    "fr": "Le dessert italien le plus aimé : biscuits imbibés de café, crème onctueuse au mascarpone et voile de cacao amer.",
+    "en": "Italy's best-loved dessert: coffee-soaked ladyfingers, billowy mascarpone cream and a dusting of bitter cocoa.",
+    "es": "El postre italiano más querido: bizcochos empapados en café, crema sedosa de mascarpone y un velo de cacao amargo.",
+    "it": "Il dolce italiano più amato: savoiardi inzuppati nel caffè, crema soffice al mascarpone e un velo di cacao amaro."
+  },
+  "region": {"fr": "Vénétie", "en": "Veneto", "es": "Véneto", "it": "Veneto"},
+  "category": "dessert",
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 0,
+  "servings": 8,
+  "heroImage": "images/it-tiramisu/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "savoiardi", "quantity": 300, "unit": "g"},
+    {"ref": "mascarpone", "quantity": 500, "unit": "g"},
+    {"ref": "uovo", "quantity": 4, "unit": "piece"},
+    {"ref": "zucchero", "quantity": 100, "unit": "g"},
+    {"ref": "caffe", "quantity": 30, "unit": "cl"},
+    {"ref": "cacao-amaro", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préparez le café espresso, sucrez-le légèrement si vous aimez, et laissez-le refroidir complètement dans une assiette creuse.", "en": "Brew the espresso, sweeten it lightly if you like, and let it cool completely in a shallow dish.", "es": "Prepara el café espresso, endúlzalo ligeramente si te gusta y déjalo enfriar por completo en un plato hondo.", "it": "Prepara il caffè espresso, zuccheralo appena se ti piace e lascialo raffreddare completamente in un piatto fondo."}, "image": "images/it-tiramisu/step-1.webp", "timerMinutes": 15},
+    {"text": {"fr": "Séparez les blancs des jaunes, puis fouettez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.", "en": "Separate the eggs, then whisk the yolks with the sugar until the mixture turns pale and fluffy.", "es": "Separa las claras de las yemas y bate las yemas con el azúcar hasta que la mezcla blanquee y esté espumosa.", "it": "Separa gli albumi dai tuorli, poi monta i tuorli con lo zucchero finché il composto diventa chiaro e spumoso."}, "image": "images/it-tiramisu/step-2.webp"},
+    {"text": {"fr": "Incorporez le mascarpone aux jaunes blanchis, en fouettant juste ce qu'il faut pour obtenir une crème lisse.", "en": "Fold the mascarpone into the whipped yolks, whisking just enough to get a smooth cream.", "es": "Incorpora el mascarpone a las yemas blanqueadas, batiendo lo justo para lograr una crema lisa.", "it": "Unisci il mascarpone ai tuorli montati, lavorando quel tanto che basta per ottenere una crema liscia."}, "image": "images/it-tiramisu/step-3.webp"},
+    {"text": {"fr": "Montez les blancs en neige ferme avec une pincée de sel, puis incorporez-les délicatement à la crème, à la spatule, en soulevant la masse.", "en": "Whip the whites to stiff peaks with a pinch of salt, then gently fold them into the cream with a spatula, lifting from underneath.", "es": "Monta las claras a punto de nieve firme con una pizca de sal e incorpóralas con suavidad a la crema, con una espátula y movimientos envolventes.", "it": "Monta gli albumi a neve ferma con un pizzico di sale, poi incorporali delicatamente alla crema con una spatola, dal basso verso l'alto."}, "image": "images/it-tiramisu/step-4.webp"},
+    {"text": {"fr": "Trempez rapidement les savoiardi dans le café — un simple aller-retour, sans les détremper — et tapissez-en le fond d'un plat.", "en": "Dip the ladyfingers briefly in the coffee — a quick in-and-out, without soaking them through — and line the bottom of a dish with them.", "es": "Moja rápidamente los bizcochos en el café — un simple toque, sin empaparlos — y cubre con ellos el fondo de una fuente.", "it": "Inzuppa velocemente i savoiardi nel caffè — un attimo per lato, senza impregnarli — e disponili sul fondo di una pirofila."}, "image": "images/it-tiramisu/step-5.webp"},
+    {"text": {"fr": "Recouvrez de la moitié de la crème au mascarpone, puis répétez : une couche de biscuits imbibés, et le reste de crème lissée à la spatule.", "en": "Cover with half the mascarpone cream, then repeat: a layer of dipped biscuits, and the remaining cream smoothed with a spatula.", "es": "Cubre con la mitad de la crema de mascarpone y repite: una capa de bizcochos mojados y el resto de la crema alisada con la espátula.", "it": "Copri con metà della crema al mascarpone, poi ripeti: uno strato di savoiardi inzuppati e il resto della crema livellata con la spatola."}, "image": "images/it-tiramisu/step-6.webp"},
+    {"text": {"fr": "Filmez le plat et laissez prendre au moins 4 heures au réfrigérateur, idéalement une nuit.", "en": "Cover the dish with cling film and chill for at least 4 hours in the fridge, ideally overnight.", "es": "Cubre la fuente con film y deja cuajar al menos 4 horas en la nevera, idealmente toda la noche.", "it": "Copri la pirofila con la pellicola e lascia rassodare in frigorifero almeno 4 ore, meglio una notte intera."}, "image": "images/it-tiramisu/step-7.webp", "timerMinutes": 240},
+    {"text": {"fr": "Juste avant de servir, saupoudrez généreusement de cacao amer à travers une passoire fine.", "en": "Just before serving, dust generously with bitter cocoa through a fine sieve.", "es": "Justo antes de servir, espolvorea generosamente con cacao amargo a través de un colador fino.", "it": "Poco prima di servire, spolvera generosamente con il cacao amaro usando un colino fine."}, "image": "images/it-tiramisu/step-8.webp"}
+  ]
+}

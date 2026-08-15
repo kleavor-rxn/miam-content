@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "it-lasagne-alla-bolognese",
+  "title": {"fr": "Lasagnes à la bolognaise", "en": "Lasagne alla bolognese", "es": "Lasaña a la boloñesa", "it": "Lasagne alla bolognese"},
+  "summary": {
+    "fr": "Le monument d'Émilie-Romagne : ragù longuement mijoté, béchamel à la muscade et feuilles de lasagnes gratinées au parmesan.",
+    "en": "Emilia-Romagna's crowning glory: slow-simmered ragù, nutmeg-scented besciamella and pasta baked under a parmesan crust.",
+    "es": "El monumento de Emilia-Romaña: ragú cocido a fuego lento, besamel con nuez moscada y placas de pasta gratinadas con parmesano.",
+    "it": "Il monumento dell'Emilia-Romagna: ragù cotto a lungo, besciamella profumata alla noce moscata e sfoglie gratinate al parmigiano."
+  },
+  "region": {"fr": "Émilie-Romagne", "en": "Emilia-Romagna", "es": "Emilia-Romaña", "it": "Emilia-Romagna"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 35,
+  "cookMinutes": 175,
+  "servings": 6,
+  "heroImage": "images/it-lasagne-alla-bolognese/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "lasagne", "quantity": 250, "unit": "g"},
+    {"ref": "manzo-macinato", "quantity": 400, "unit": "g"},
+    {"ref": "pancetta", "quantity": 100, "unit": "g"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "carota", "quantity": 1, "unit": "piece"},
+    {"ref": "sedano", "quantity": 1, "unit": "piece"},
+    {"ref": "vino-bianco", "quantity": 10, "unit": "cl"},
+    {"ref": "concentrato-di-pomodoro", "quantity": 1, "unit": "tbsp"},
+    {"ref": "passata", "quantity": 350, "unit": "g"},
+    {"ref": "latte", "quantity": 70, "unit": "cl"},
+    {"ref": "burro", "quantity": 50, "unit": "g"},
+    {"ref": "farina-00", "quantity": 50, "unit": "g"},
+    {"ref": "noce-moscata", "quantity": 1, "unit": "pinch"},
+    {"ref": "parmigiano", "quantity": 100, "unit": "g"},
+    {"ref": "olio-oliva", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Hachez finement l'oignon, la carotte et le céleri, et coupez la pancetta en petits dés.", "en": "Finely chop the onion, carrot and celery, and dice the pancetta.", "es": "Pica finamente la cebolla, la zanahoria y el apio, y corta la panceta en daditos.", "it": "Trita finemente cipolla, carota e sedano e taglia la pancetta a dadini."}, "image": "images/it-lasagne-alla-bolognese/step-1.webp"},
+    {"text": {"fr": "Dans une cocotte, faites revenir la pancetta dans l'huile d'olive, puis ajoutez le hachis de légumes et laissez-le fondre doucement 8 minutes.", "en": "In a heavy pot, brown the pancetta in the olive oil, then add the chopped vegetables and let them soften gently for 8 minutes.", "es": "En una cazuela, sofríe la panceta en el aceite de oliva, añade el picadillo de verduras y deja que se poche a fuego suave 8 minutos.", "it": "In una casseruola, rosola la pancetta nell'olio, poi aggiungi il trito di verdure e lascialo appassire dolcemente per 8 minuti."}, "image": "images/it-lasagne-alla-bolognese/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Montez le feu, ajoutez le bœuf haché et faites-le bien rissoler en l'émiettant à la cuillère en bois.", "en": "Turn up the heat, add the ground beef and brown it well, breaking it up with a wooden spoon.", "es": "Sube el fuego, añade la carne picada y dórala bien, desmenuzándola con una cuchara de madera.", "it": "Alza la fiamma, aggiungi il macinato e fallo rosolare bene, sgranandolo con un cucchiaio di legno."}, "image": "images/it-lasagne-alla-bolognese/step-3.webp"},
+    {"text": {"fr": "Déglacez au vin blanc et laissez-le s'évaporer, puis incorporez le concentré de tomate, la passata et 20 cl de lait. Salez, poivrez, couvrez à demi et laissez mijoter 2 heures à feu très doux.", "en": "Deglaze with the white wine and let it evaporate, then stir in the tomato paste, the passata and 200 ml of milk. Season with salt and pepper, half-cover and simmer for 2 hours over a very low heat.", "es": "Desglasa con el vino blanco y deja que se evapore; incorpora el concentrado de tomate, la passata y 20 cl de leche. Salpimienta, tapa a medias y deja cocer 2 horas a fuego muy lento.", "it": "Sfuma con il vino bianco e lascialo evaporare, poi unisci il concentrato, la passata e 20 cl di latte. Sala, pepa, copri a metà e lascia sobbollire 2 ore a fuoco dolcissimo."}, "image": "images/it-lasagne-alla-bolognese/step-4.webp", "timerMinutes": 120},
+    {"text": {"fr": "Préparez la béchamel : faites fondre le beurre, ajoutez la farine, laissez cuire 2 minutes, puis versez 50 cl de lait chaud en fouettant jusqu'à épaississement. Assaisonnez de sel et de muscade râpée.", "en": "Make the besciamella: melt the butter, add the flour, cook for 2 minutes, then whisk in 500 ml of hot milk until thickened. Season with salt and grated nutmeg.", "es": "Prepara la besamel: derrite la mantequilla, añade la harina, cuécela 2 minutos y vierte 50 cl de leche caliente batiendo hasta que espese. Sazona con sal y nuez moscada rallada.", "it": "Prepara la besciamella: sciogli il burro, aggiungi la farina, lascia cuocere 2 minuti, poi versa 50 cl di latte caldo sbattendo con la frusta finché si addensa. Regola di sale e profuma con noce moscata."}, "image": "images/it-lasagne-alla-bolognese/step-5.webp"},
+    {"text": {"fr": "Dans un plat beurré, montez les lasagnes : une fine couche de ragù, des feuilles de pâte, ragù, béchamel et parmesan, sur 4 à 5 étages, en terminant par la béchamel et le parmesan.", "en": "In a buttered dish, build the lasagne: a thin layer of ragù, pasta sheets, ragù, besciamella and parmesan, over 4 to 5 layers, finishing with besciamella and parmesan.", "es": "En una fuente enmantequillada, monta la lasaña: una capa fina de ragú, placas de pasta, ragú, besamel y parmesano, en 4 o 5 pisos, terminando con besamel y parmesano.", "it": "In una pirofila imburrata, componi le lasagne: uno strato sottile di ragù, le sfoglie, ragù, besciamella e parmigiano, per 4-5 strati, finendo con besciamella e parmigiano."}, "image": "images/it-lasagne-alla-bolognese/step-6.webp"},
+    {"text": {"fr": "Enfournez 35 minutes à 180 °C, jusqu'à ce que la surface soit gratinée et bouillonnante sur les bords.", "en": "Bake for 35 minutes at 180 °C, until the top is golden and bubbling at the edges.", "es": "Hornea 35 minutos a 180 °C, hasta que la superficie esté gratinada y burbujee por los bordes.", "it": "Inforna per 35 minuti a 180 °C, finché la superficie è gratinata e i bordi sobbollono."}, "image": "images/it-lasagne-alla-bolognese/step-7.webp", "timerMinutes": 35},
+    {"text": {"fr": "Laissez reposer 10 minutes avant de découper : les parts se tiendront bien mieux.", "en": "Let it rest for 10 minutes before cutting: the portions will hold together much better.", "es": "Deja reposar 10 minutos antes de cortar: las porciones se mantendrán mucho mejor.", "it": "Lascia riposare 10 minuti prima di tagliare: le porzioni resteranno molto più compatte."}, "image": "images/it-lasagne-alla-bolognese/step-8.webp", "timerMinutes": 10}
+  ]
+}

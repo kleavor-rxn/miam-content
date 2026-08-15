@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "it-risotto-alla-milanese",
+  "title": {"fr": "Risotto à la milanaise", "en": "Risotto alla milanese", "es": "Risotto a la milanesa", "it": "Risotto alla milanese"},
+  "summary": {
+    "fr": "Le risotto doré au safran, emblème de Milan : crémeux, nacré et généreusement lié au beurre et au parmesan.",
+    "en": "Milan's golden saffron risotto: creamy, glossy and generously finished with butter and parmesan.",
+    "es": "El risotto dorado al azafrán, emblema de Milán: cremoso, brillante y mantecado con mantequilla y parmesano.",
+    "it": "Il risotto giallo allo zafferano, simbolo di Milano: cremoso, lucido e mantecato con burro e parmigiano a volontà."
+  },
+  "region": {"fr": "Lombardie", "en": "Lombardy", "es": "Lombardía", "it": "Lombardia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "servings": 4,
+  "heroImage": "images/it-risotto-alla-milanese/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "riso-carnaroli", "quantity": 320, "unit": "g", "substitutes": ["riso-arborio"]},
+    {"ref": "brodo-di-carne", "quantity": 1.2, "unit": "l", "substitutes": ["brodo-vegetale"]},
+    {"ref": "zafferano", "quantity": 1, "unit": "pinch"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "vino-bianco", "quantity": 10, "unit": "cl"},
+    {"ref": "burro", "quantity": 80, "unit": "g"},
+    {"ref": "parmigiano", "quantity": 80, "unit": "g"},
+    {"ref": "midollo", "quantity": 30, "unit": "g", "optional": true},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Portez le bouillon à frémissement, prélevez-en une louche dans un bol et faites-y infuser les pistils de safran.", "en": "Bring the stock to a gentle simmer, set aside a ladleful in a bowl and let the saffron threads steep in it.", "es": "Lleva el caldo a un hervor suave, aparta un cucharón en un bol y deja infusionar en él las hebras de azafrán.", "it": "Porta il brodo a leggero bollore, preleva un mestolo in una ciotolina e lasciaci in infusione i pistilli di zafferano."}, "image": "images/it-risotto-alla-milanese/step-1.webp"},
+    {"text": {"fr": "Faites fondre la moitié du beurre — avec la moelle, si vous en avez — dans une casserole large, et laissez-y blondir l'oignon finement haché 3 minutes.", "en": "Melt half the butter — with the marrow, if you have it — in a wide saucepan, and let the finely chopped onion turn translucent for 3 minutes.", "es": "Derrite la mitad de la mantequilla — con el tuétano, si lo tienes — en una cazuela amplia y deja que la cebolla picada fina se dore ligeramente 3 minutos.", "it": "Sciogli metà del burro — con il midollo, se ce l'hai — in una casseruola ampia e fai imbiondire la cipolla tritata finemente per 3 minuti."}, "image": "images/it-risotto-alla-milanese/step-2.webp", "timerMinutes": 3},
+    {"text": {"fr": "Versez le riz et faites-le toaster 2 minutes en remuant, jusqu'à ce que les grains soient brûlants et translucides sur les bords.", "en": "Pour in the rice and toast it for 2 minutes, stirring, until the grains are piping hot and translucent at the edges.", "es": "Añade el arroz y tuéstalo 2 minutos sin dejar de remover, hasta que los granos estén muy calientes y translúcidos en los bordes.", "it": "Versa il riso e fallo tostare 2 minuti mescolando, finché i chicchi sono bollenti e traslucidi sui bordi."}, "image": "images/it-risotto-alla-milanese/step-3.webp", "timerMinutes": 2},
+    {"text": {"fr": "Déglacez au vin blanc et laissez-le s'évaporer complètement en remuant.", "en": "Deglaze with the white wine and let it evaporate completely, stirring.", "es": "Desglasa con el vino blanco y deja que se evapore por completo mientras remueves.", "it": "Sfuma con il vino bianco e lascialo evaporare del tutto, mescolando."}, "image": "images/it-risotto-alla-milanese/step-4.webp"},
+    {"text": {"fr": "Ajoutez le bouillon chaud louche par louche pendant 10 minutes, en remuant souvent et en attendant que chaque ajout soit absorbé avant le suivant.", "en": "Add the hot stock a ladleful at a time for 10 minutes, stirring often and waiting for each addition to be absorbed before the next.", "es": "Incorpora el caldo caliente cucharón a cucharón durante 10 minutos, removiendo a menudo y esperando a que cada añadido se absorba antes del siguiente.", "it": "Aggiungi il brodo caldo un mestolo alla volta per 10 minuti, mescolando spesso e aspettando che ogni aggiunta sia assorbita prima della successiva."}, "image": "images/it-risotto-alla-milanese/step-5.webp", "timerMinutes": 10},
+    {"text": {"fr": "Versez la louche au safran et poursuivez la cuisson 8 minutes de la même façon, jusqu'à ce que le riz soit al dente. Rectifiez l'assaisonnement.", "en": "Pour in the saffron-infused ladleful and carry on cooking the same way for 8 minutes, until the rice is al dente. Adjust the seasoning.", "es": "Vierte el cucharón con el azafrán y sigue la cocción 8 minutos más de la misma manera, hasta que el arroz esté al dente. Rectifica de sal y pimienta.", "it": "Versa il mestolo con lo zafferano e prosegui la cottura allo stesso modo per 8 minuti, finché il riso è al dente. Regola di sale e pepe."}, "image": "images/it-risotto-alla-milanese/step-6.webp", "timerMinutes": 8},
+    {"text": {"fr": "Hors du feu, incorporez vivement le reste de beurre bien froid et le parmesan râpé, couvrez 2 minutes, puis servez le risotto bien souple, « all'onda ».", "en": "Off the heat, vigorously beat in the remaining cold butter and the grated parmesan, cover for 2 minutes, then serve the risotto loose and wavy — all'onda.", "es": "Fuera del fuego, incorpora con energía el resto de la mantequilla bien fría y el parmesano rallado, tapa 2 minutos y sirve el risotto fluido, « all'onda ».", "it": "Fuori dal fuoco, manteca con energia con il resto del burro freddo e il parmigiano grattugiato, copri 2 minuti e servi il risotto morbido, all'onda."}, "image": "images/it-risotto-alla-milanese/step-7.webp", "timerMinutes": 2}
+  ]
+}

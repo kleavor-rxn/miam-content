@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pizza-margherita",
+  "title": {"fr": "Pizza margherita", "en": "Margherita pizza", "es": "Pizza margarita", "it": "Pizza Margherita"},
+  "summary": {
+    "fr": "La pizza napolitaine par excellence : pâte levée maison, tomate, mozzarella fondante et basilic frais.",
+    "en": "The quintessential Neapolitan pizza: homemade risen dough, tomato, melting mozzarella and fresh basil.",
+    "es": "La pizza napolitana por excelencia: masa levada en casa, tomate, mozzarella fundente y albahaca fresca.",
+    "it": "La pizza napoletana per eccellenza: impasto lievitato in casa, pomodoro, mozzarella filante e basilico fresco."
+  },
+  "region": {"fr": "Campanie", "en": "Campania", "es": "Campania", "it": "Campania"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/it-pizza-margherita/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "farina-00", "quantity": 500, "unit": "g"},
+    {"ref": "lievito-di-birra", "quantity": 5, "unit": "g"},
+    {"ref": "sale", "quantity": 10, "unit": "g"},
+    {"ref": "passata", "quantity": 250, "unit": "g"},
+    {"ref": "mozzarella", "quantity": 250, "unit": "g"},
+    {"ref": "basilico", "quantity": 12, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Émiettez la levure dans 32 cl d'eau tiède et laissez-la se dissoudre en remuant du bout des doigts.", "en": "Crumble the yeast into 320 ml of lukewarm water and let it dissolve, stirring with your fingertips.", "es": "Desmenuza la levadura en 32 cl de agua tibia y deja que se disuelva removiendo con la punta de los dedos.", "it": "Sbriciola il lievito in 32 cl di acqua tiepida e lascialo sciogliere mescolando con la punta delle dita."}, "image": "images/it-pizza-margherita/step-1.webp"},
+    {"text": {"fr": "Versez la farine dans un grand saladier, incorporez l'eau levurée petit à petit, puis le sel, et pétrissez 10 minutes jusqu'à obtenir une pâte lisse et élastique.", "en": "Pour the flour into a large bowl, work in the yeasted water little by little, then the salt, and knead for 10 minutes until the dough is smooth and elastic.", "es": "Pon la harina en un bol grande, incorpora el agua con la levadura poco a poco, luego la sal, y amasa 10 minutos hasta lograr una masa lisa y elástica.", "it": "Versa la farina in una ciotola capiente, incorpora l'acqua con il lievito poco alla volta, poi il sale, e impasta per 10 minuti fino a ottenere un impasto liscio ed elastico."}, "image": "images/it-pizza-margherita/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Formez une boule, couvrez le saladier d'un linge humide et laissez lever 2 heures à température ambiante, jusqu'au doublement de volume.", "en": "Shape into a ball, cover the bowl with a damp cloth and leave to rise for 2 hours at room temperature, until doubled in size.", "es": "Forma una bola, tapa el bol con un paño húmedo y deja levar 2 horas a temperatura ambiente, hasta que doble su volumen.", "it": "Forma una palla, copri la ciotola con un canovaccio umido e lascia lievitare 2 ore a temperatura ambiente, fino al raddoppio."}, "image": "images/it-pizza-margherita/step-3.webp", "timerMinutes": 120},
+    {"text": {"fr": "Divisez la pâte en deux pâtons, boulez-les et laissez-les se détendre 30 minutes sous le linge.", "en": "Divide the dough into two pieces, shape them into balls and let them relax for 30 minutes under the cloth.", "es": "Divide la masa en dos porciones, boléalas y déjalas reposar 30 minutos bajo el paño.", "it": "Dividi l'impasto in due panetti, arrotondali e lasciali riposare 30 minuti sotto il canovaccio."}, "image": "images/it-pizza-margherita/step-4.webp", "timerMinutes": 30},
+    {"text": {"fr": "Pendant ce temps, préchauffez le four à 250 °C, chaleur maximale, avec une plaque ou une pierre à pizza à l'intérieur.", "en": "Meanwhile, preheat the oven to 250 °C, as hot as it goes, with a baking sheet or pizza stone inside.", "es": "Mientras tanto, precalienta el horno a 250 °C, a máxima potencia, con una bandeja o piedra para pizza dentro.", "it": "Nel frattempo, preriscalda il forno a 250 °C, alla massima potenza, con una teglia o una pietra refrattaria all'interno."}, "image": "images/it-pizza-margherita/step-5.webp"},
+    {"text": {"fr": "Sur un plan fariné, étalez chaque pâton du bout des doigts, du centre vers le bord, en un disque fin bordé d'un bourrelet.", "en": "On a floured surface, stretch each dough ball with your fingertips, from the centre outwards, into a thin disc with a puffy rim.", "es": "Sobre una superficie enharinada, estira cada bola con la punta de los dedos, del centro hacia el borde, en un disco fino con el borde más grueso.", "it": "Su un piano infarinato, stendi ogni panetto con la punta delle dita, dal centro verso l'esterno, in un disco sottile con il cornicione."}, "image": "images/it-pizza-margherita/step-6.webp"},
+    {"text": {"fr": "Répartissez la passata assaisonnée d'une pincée de sel et d'un filet d'huile d'olive, puis parsemez de mozzarella bien égouttée, déchirée en morceaux.", "en": "Spread over the passata seasoned with a pinch of salt and a drizzle of olive oil, then scatter with well-drained mozzarella, torn into pieces.", "es": "Reparte la passata sazonada con una pizca de sal y un hilo de aceite de oliva, y luego distribuye la mozzarella bien escurrida, desgarrada en trozos.", "it": "Distribuisci la passata condita con un pizzico di sale e un filo d'olio, poi aggiungi la mozzarella ben scolata, spezzettata con le mani."}, "image": "images/it-pizza-margherita/step-7.webp"},
+    {"text": {"fr": "Enfournez chaque pizza 7 à 8 minutes sur la plaque brûlante, jusqu'à ce que le bourrelet soit gonflé et doré.", "en": "Bake each pizza for 7 to 8 minutes on the scorching-hot sheet, until the rim is puffed and golden.", "es": "Hornea cada pizza de 7 a 8 minutos sobre la bandeja bien caliente, hasta que el borde esté hinchado y dorado.", "it": "Inforna ogni pizza per 7-8 minuti sulla teglia rovente, finché il cornicione è gonfio e dorato."}, "image": "images/it-pizza-margherita/step-8.webp", "timerMinutes": 8},
+    {"text": {"fr": "À la sortie du four, parsemez de feuilles de basilic frais et terminez par un filet d'huile d'olive.", "en": "Straight out of the oven, scatter with fresh basil leaves and finish with a drizzle of olive oil.", "es": "Recién sacada del horno, esparce unas hojas de albahaca fresca y remata con un hilo de aceite de oliva.", "it": "Appena sfornata, completa con le foglie di basilico fresco e un filo d'olio extravergine."}, "image": "images/it-pizza-margherita/step-9.webp"}
+  ]
+}

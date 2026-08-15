@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "it-spaghetti-carbonara",
+  "title": {"fr": "Spaghettis à la carbonara", "en": "Spaghetti carbonara", "es": "Espaguetis a la carbonara", "it": "Spaghetti alla carbonara"},
+  "summary": {
+    "fr": "La vraie carbonara romaine : guanciale croustillant, crème d'œufs au pecorino et poivre noir — sans un gramme de crème.",
+    "en": "The true Roman carbonara: crispy guanciale, a silky egg-and-pecorino sauce and plenty of black pepper — not a drop of cream.",
+    "es": "La auténtica carbonara romana: guanciale crujiente, crema de huevo con pecorino y pimienta negra, sin nada de nata.",
+    "it": "La vera carbonara romana: guanciale croccante, crema di uova al pecorino e pepe nero — senza un filo di panna."
+  },
+  "region": {"fr": "Latium", "en": "Lazio", "es": "Lacio", "it": "Lazio"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/it-spaghetti-carbonara/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "spaghetti", "quantity": 400, "unit": "g"},
+    {"ref": "guanciale", "quantity": 150, "unit": "g", "substitutes": ["pancetta"]},
+    {"ref": "uovo", "quantity": 4, "unit": "piece"},
+    {"ref": "pecorino-romano", "quantity": 100, "unit": "g"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez le guanciale en lardons d'un demi-centimètre d'épaisseur, en retirant la couenne.", "en": "Cut the guanciale into strips about half a centimetre thick, removing the rind.", "es": "Corta el guanciale en tiras de medio centímetro de grosor, retirando la corteza.", "it": "Taglia il guanciale a listarelle di mezzo centimetro, eliminando la cotenna."}, "image": "images/it-spaghetti-carbonara/step-1.webp"},
+    {"text": {"fr": "Faites rissoler le guanciale à sec dans une grande poêle, à feu doux, 8 à 10 minutes, jusqu'à ce qu'il soit doré et croustillant. Coupez le feu en laissant le gras dans la poêle.", "en": "Dry-fry the guanciale in a large pan over low heat for 8 to 10 minutes, until golden and crisp. Turn off the heat, leaving the fat in the pan.", "es": "Dora el guanciale sin aceite en una sartén grande a fuego suave, de 8 a 10 minutos, hasta que quede dorado y crujiente. Apaga el fuego dejando la grasa en la sartén.", "it": "Fai rosolare il guanciale a secco in una padella capiente, a fuoco dolce, per 8-10 minuti, finché è dorato e croccante. Spegni il fuoco lasciando il grasso in padella."}, "image": "images/it-spaghetti-carbonara/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Dans un saladier, fouettez 3 jaunes et 1 œuf entier avec le pecorino râpé et une généreuse dose de poivre du moulin, jusqu'à obtenir une crème épaisse.", "en": "In a bowl, whisk 3 yolks and 1 whole egg with the grated pecorino and a generous grind of black pepper, until you get a thick cream.", "es": "En un bol, bate 3 yemas y 1 huevo entero con el pecorino rallado y una buena cantidad de pimienta recién molida, hasta obtener una crema espesa.", "it": "In una ciotola, sbatti 3 tuorli e 1 uovo intero con il pecorino grattugiato e una macinata abbondante di pepe, fino a ottenere una crema densa."}, "image": "images/it-spaghetti-carbonara/step-3.webp"},
+    {"text": {"fr": "Faites cuire les spaghettis dans un grand volume d'eau peu salée (le pecorino l'est déjà) et égouttez-les 1 minute avant le temps indiqué sur le paquet, en réservant une louche d'eau de cuisson.", "en": "Cook the spaghetti in plenty of lightly salted water (the pecorino is salty enough) and drain them 1 minute short of the packet time, saving a ladleful of cooking water.", "es": "Cuece los espaguetis en abundante agua poco salada (el pecorino ya aporta sal) y escúrrelos 1 minuto antes del tiempo del paquete, reservando un cucharón del agua de cocción.", "it": "Cuoci gli spaghetti in abbondante acqua poco salata (il pecorino è già sapido) e scolali 1 minuto prima del tempo indicato sulla confezione, tenendo da parte un mestolo di acqua di cottura."}, "image": "images/it-spaghetti-carbonara/step-4.webp", "timerMinutes": 10},
+    {"text": {"fr": "Versez les spaghettis dans la poêle avec le guanciale et son gras, puis mélangez-les 30 secondes sur feu éteint avec un trait d'eau de cuisson.", "en": "Tip the spaghetti into the pan with the guanciale and its fat, then toss for 30 seconds off the heat with a splash of cooking water.", "es": "Pasa los espaguetis a la sartén con el guanciale y su grasa, y saltéalos 30 segundos con el fuego apagado y un chorrito del agua reservada.", "it": "Versa gli spaghetti nella padella con il guanciale e il suo grasso e saltali 30 secondi a fuoco spento con un goccio di acqua di cottura."}, "image": "images/it-spaghetti-carbonara/step-5.webp"},
+    {"text": {"fr": "Hors du feu, versez la crème d'œufs sur les pâtes et mélangez vivement : la chaleur résiduelle doit napper les spaghettis sans coaguler. Détendez avec un peu d'eau de cuisson si besoin.", "en": "Off the heat, pour the egg cream over the pasta and toss briskly: the residual heat should coat the strands without scrambling. Loosen with a little cooking water if needed.", "es": "Fuera del fuego, vierte la crema de huevo sobre la pasta y remueve con energía: el calor residual debe napar los espaguetis sin cuajar. Aligera con un poco de agua de cocción si hace falta.", "it": "Lontano dal fuoco, versa la crema di uova sulla pasta e manteca con energia: il calore residuo deve avvolgere gli spaghetti senza strapazzare le uova. Allunga con poca acqua di cottura se serve."}, "image": "images/it-spaghetti-carbonara/step-6.webp"},
+    {"text": {"fr": "Servez aussitôt dans des assiettes chaudes, avec un supplément de pecorino et un dernier tour de moulin à poivre.", "en": "Serve at once on warm plates, with extra pecorino and a final twist of the pepper mill.", "es": "Sirve enseguida en platos calientes, con más pecorino y una última vuelta de molinillo de pimienta.", "it": "Servi subito in piatti caldi, con altro pecorino e un'ultima macinata di pepe."}, "image": "images/it-spaghetti-carbonara/step-7.webp"}
+  ]
+}
