@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "it-tagliatelle-al-ragu",
+  "title": {"fr": "Tagliatelles au ragù bolognais", "en": "Tagliatelle with Bolognese ragù", "es": "Tagliatelle al ragú boloñés", "it": "Tagliatelle al ragù bolognese"},
+  "summary": {
+    "fr": "Le ragù de Bologne dans les règles de l'art : un soffritto patient, du bœuf, du vin blanc et du lait, mijotés des heures et liés à des tagliatelles.",
+    "en": "Bologna's ragù done properly: a patient soffritto, beef, white wine and milk, simmered for hours and tossed with tagliatelle.",
+    "es": "El ragú de Bolonia como manda la tradición: un sofrito paciente, ternera, vino blanco y leche, cocidos durante horas y ligados con tagliatelle.",
+    "it": "Il ragù bolognese a regola d'arte: un soffritto paziente, manzo, vino bianco e latte, cotti per ore e mantecati con le tagliatelle."
+  },
+  "region": {"fr": "Émilie-Romagne", "en": "Emilia-Romagna", "es": "Emilia-Romaña", "it": "Emilia-Romagna"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 170,
+  "servings": 4,
+  "heroImage": "images/it-tagliatelle-al-ragu/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "tagliatelle", "quantity": 400, "unit": "g"},
+    {"ref": "manzo-macinato", "quantity": 400, "unit": "g"},
+    {"ref": "pancetta", "quantity": 100, "unit": "g"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "carota", "quantity": 1, "unit": "piece"},
+    {"ref": "sedano", "quantity": 1, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 2, "unit": "tbsp"},
+    {"ref": "burro", "quantity": 30, "unit": "g"},
+    {"ref": "vino-bianco", "quantity": 15, "unit": "cl"},
+    {"ref": "concentrato-di-pomodoro", "quantity": 2, "unit": "tbsp"},
+    {"ref": "passata", "quantity": 300, "unit": "g"},
+    {"ref": "brodo-di-carne", "quantity": 30, "unit": "cl"},
+    {"ref": "latte", "quantity": 20, "unit": "cl"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Hachez finement la pancetta et taillez l'oignon, la carotte et le céleri en tout petits dés.", "en": "Finely chop the pancetta and cut the onion, carrot and celery into very small dice.", "es": "Pica fina la panceta y corta la cebolla, la zanahoria y el apio en daditos muy pequeños.", "it": "Trita finemente la pancetta e taglia cipolla, carota e sedano a dadini piccolissimi."}, "image": "images/it-tagliatelle-al-ragu/step-1.webp"},
+    {"text": {"fr": "Dans une cocotte, faites fondre la pancetta dans l'huile et le beurre, ajoutez les légumes et laissez suer 10 minutes à feu doux.", "en": "In a heavy pot, render the pancetta in the oil and butter, add the vegetables and sweat them for 10 minutes over low heat.", "es": "En una cazuela, sofríe la panceta en el aceite y la mantequilla, añade las verduras y póchalas 10 minutos a fuego suave.", "it": "In una casseruola, fai sciogliere la pancetta nell'olio e nel burro, unisci le verdure e falle appassire 10 minuti a fuoco dolce."}, "image": "images/it-tagliatelle-al-ragu/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Montez le feu, ajoutez le bœuf haché et faites-le colorer environ 8 minutes en l'émiettant à la cuillère en bois.", "en": "Turn up the heat, add the ground beef and brown it for about 8 minutes, breaking it up with a wooden spoon.", "es": "Sube el fuego, añade la carne picada y dórala unos 8 minutos desmenuzándola con una cuchara de madera.", "it": "Alza la fiamma, unisci il macinato e fallo rosolare per circa 8 minuti sgranandolo con un cucchiaio di legno."}, "image": "images/it-tagliatelle-al-ragu/step-3.webp", "timerMinutes": 8},
+    {"text": {"fr": "Déglacez au vin blanc et laissez-le s'évaporer complètement, en grattant les sucs du fond.", "en": "Deglaze with the white wine and let it evaporate completely, scraping up the browned bits.", "es": "Desglasa con el vino blanco y deja que se evapore por completo, rascando los jugos del fondo.", "it": "Sfuma con il vino bianco e lascialo evaporare del tutto, staccando i fondi di cottura."}, "image": "images/it-tagliatelle-al-ragu/step-4.webp", "timerMinutes": 3},
+    {"text": {"fr": "Incorporez le concentré de tomate et la passata, mouillez avec le bouillon, salez, poivrez, puis laissez mijoter 2 heures à tout petit frémissement, couvercle entrouvert, en ajoutant un peu de bouillon si le ragù attache.", "en": "Stir in the tomato paste and passata, add the stock, season with salt and pepper, then simmer at the barest bubble for 2 hours, lid ajar, adding a little stock if the ragù starts to catch.", "es": "Incorpora el concentrado de tomate y la passata, moja con el caldo, salpimienta y deja cocer 2 horas a fuego mínimo, con la tapa entreabierta, añadiendo un poco de caldo si el ragú se agarra.", "it": "Unisci il concentrato e la passata, bagna con il brodo, regola di sale e pepe, poi lascia sobbollire appena per 2 ore, con il coperchio socchiuso, aggiungendo poco brodo se il ragù si asciuga troppo."}, "image": "images/it-tagliatelle-al-ragu/step-5.webp", "timerMinutes": 120},
+    {"text": {"fr": "Versez le lait, remuez et poursuivez la cuisson 20 minutes : le ragù doit être onctueux, nappant, sans excès de liquide.", "en": "Pour in the milk, stir and cook for another 20 minutes: the ragù should be silky and coating, with no excess liquid.", "es": "Vierte la leche, remueve y prosigue la cocción 20 minutos: el ragú debe quedar untuoso, envolvente, sin líquido de más.", "it": "Versa il latte, mescola e prosegui la cottura per 20 minuti: il ragù deve risultare cremoso e avvolgente, senza liquido in eccesso."}, "image": "images/it-tagliatelle-al-ragu/step-6.webp", "timerMinutes": 20},
+    {"text": {"fr": "Faites cuire les tagliatelles al dente dans un grand volume d'eau bouillante salée, selon le temps indiqué sur le paquet.", "en": "Cook the tagliatelle until al dente in plenty of boiling salted water, following the packet timing.", "es": "Cuece los tagliatelle al dente en abundante agua hirviendo con sal, según el tiempo del paquete.", "it": "Cuoci le tagliatelle al dente in abbondante acqua bollente salata, seguendo i tempi della confezione."}, "image": "images/it-tagliatelle-al-ragu/step-7.webp", "timerMinutes": 6},
+    {"text": {"fr": "Égouttez-les en réservant une louche d'eau de cuisson, mélangez-les au ragù avec cette eau pour bien les napper, et servez aussitôt avec le parmesan râpé.", "en": "Drain them, keeping back a ladleful of cooking water, toss them through the ragù with that water so every strand is coated, and serve at once with grated parmesan.", "es": "Escúrrelos reservando un cucharón del agua de cocción, mézclalos con el ragú y esa agua para que queden bien napados, y sirve enseguida con el parmesano rallado.", "it": "Scolale tenendo da parte un mestolo di acqua di cottura, mantecale nel ragù con quell'acqua perché si condiscano bene, e servi subito con il parmigiano grattugiato."}, "image": "images/it-tagliatelle-al-ragu/step-8.webp"}
+  ]
+}

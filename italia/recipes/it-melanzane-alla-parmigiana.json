@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "it-melanzane-alla-parmigiana",
+  "title": {"fr": "Parmigiana d'aubergines", "en": "Eggplant Parmigiana", "es": "Parmigiana de berenjenas", "it": "Parmigiana di melanzane"},
+  "summary": {
+    "fr": "Le gratin emblématique du Sud de l'Italie : des aubergines frites, une sauce tomate au basilic, de la mozzarella et du parmesan, superposés et gratinés au four.",
+    "en": "Southern Italy's iconic bake: fried eggplant layered with basil-scented tomato sauce, mozzarella and parmesan, then gratinéed in the oven.",
+    "es": "El gratinado emblemático del sur de Italia: berenjenas fritas en capas con salsa de tomate a la albahaca, mozzarella y parmesano, doradas al horno.",
+    "it": "Il piatto simbolo del Sud: melanzane fritte a strati con salsa di pomodoro al basilico, mozzarella e parmigiano, gratinate in forno."
+  },
+  "region": {"fr": "Italie du Sud", "en": "Southern Italy", "es": "Sur de Italia", "it": "Italia meridionale"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 75,
+  "servings": 6,
+  "heroImage": "images/it-melanzane-alla-parmigiana/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Remplacez la friture : badigeonnez les tranches d'aubergine d'huile d'olive sur les deux faces et faites-les cuire en une seule couche à 200 °C, 10 à 12 minutes en les retournant à mi-cuisson, en plusieurs fournées. Montez ensuite la parmigiana dans un plat qui tient dans le panier et gratinez 20 minutes à 170 °C, en couvrant d'aluminium les 10 premières minutes pour que le dessus ne brûle pas.",
+    "en": "Skip the deep-frying: brush the eggplant slices with olive oil on both sides and cook them in a single layer at 200 °C (390 °F) for 10 to 12 minutes, turning halfway, working in batches. Then assemble the parmigiana in a dish that fits the basket and bake for 20 minutes at 170 °C (340 °F), covering with foil for the first 10 minutes so the top doesn't burn.",
+    "es": "Olvídate de la fritura: pincela las láminas de berenjena con aceite de oliva por ambas caras y cocínalas en una sola capa a 200 °C, de 10 a 12 minutos dándoles la vuelta a media cocción, en varias tandas. Monta luego la parmigiana en una fuente que quepa en la cesta y gratina 20 minutos a 170 °C, cubriendo con papel de aluminio los 10 primeros minutos para que la superficie no se queme.",
+    "it": "Salta la frittura: spennella le fette di melanzana con olio d'oliva su entrambi i lati e cuocile in un solo strato a 200 °C per 10-12 minuti, girandole a metà cottura, in più riprese. Componi poi la parmigiana in una pirofila che entri nel cestello e gratina 20 minuti a 170 °C, coprendo con alluminio i primi 10 minuti perché la superficie non bruci."
+  },
+  "ingredients": [
+    {"ref": "melanzana", "quantity": 3, "unit": "piece"},
+    {"ref": "passata", "quantity": 700, "unit": "g"},
+    {"ref": "aglio", "quantity": 2, "unit": "clove"},
+    {"ref": "basilico", "quantity": 12, "unit": "piece"},
+    {"ref": "mozzarella", "quantity": 400, "unit": "g"},
+    {"ref": "parmigiano", "quantity": 100, "unit": "g"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "olio-semi", "quantity": 50, "unit": "cl"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez les aubergines dans la longueur en tranches d'un centimètre, salez-les sur les deux faces et laissez-les dégorger 30 minutes dans une passoire.", "en": "Cut the eggplants lengthwise into 1 cm slices, salt them on both sides and leave them to drain in a colander for 30 minutes.", "es": "Corta las berenjenas a lo largo en láminas de un centímetro, sálalas por ambas caras y déjalas sudar 30 minutos en un colador.", "it": "Taglia le melanzane per il lungo a fette di un centimetro, salale su entrambi i lati e lasciale spurgare 30 minuti in uno scolapasta."}, "image": "images/it-melanzane-alla-parmigiana/step-1.webp", "timerMinutes": 30},
+    {"text": {"fr": "Pendant ce temps, faites blondir l'ail écrasé dans l'huile d'olive, versez la passata, salez, poivrez et laissez mijoter 20 minutes avec quelques feuilles de basilic.", "en": "Meanwhile, soften the crushed garlic in the olive oil, pour in the passata, season with salt and pepper and simmer for 20 minutes with a few basil leaves.", "es": "Mientras tanto, dora el ajo machacado en el aceite de oliva, vierte la passata, salpimienta y deja cocer 20 minutos con unas hojas de albahaca.", "it": "Nel frattempo, fai imbiondire l'aglio schiacciato nell'olio, versa la passata, regola di sale e pepe e lascia sobbollire 20 minuti con qualche foglia di basilico."}, "image": "images/it-melanzane-alla-parmigiana/step-2.webp", "timerMinutes": 20},
+    {"text": {"fr": "Épongez soigneusement les tranches d'aubergine avec du papier absorbant.", "en": "Pat the eggplant slices thoroughly dry with kitchen paper.", "es": "Seca bien las láminas de berenjena con papel de cocina.", "it": "Tampona con cura le fette di melanzana con carta assorbente."}, "image": "images/it-melanzane-alla-parmigiana/step-3.webp"},
+    {"text": {"fr": "Faites-les frire par fournées dans l'huile bien chaude, 2 à 3 minutes par face, jusqu'à ce qu'elles soient dorées et souples, puis égouttez-les sur du papier absorbant.", "en": "Fry them in batches in hot oil, 2 to 3 minutes per side, until golden and supple, then drain them on kitchen paper.", "es": "Fríelas por tandas en aceite bien caliente, 2 o 3 minutos por cara, hasta que estén doradas y flexibles, y escúrrelas sobre papel de cocina.", "it": "Friggile in più riprese nell'olio ben caldo, 2-3 minuti per lato, finché sono dorate e morbide, poi scolale su carta assorbente."}, "image": "images/it-melanzane-alla-parmigiana/step-4.webp", "timerMinutes": 15},
+    {"text": {"fr": "Dans un plat à gratin, montez les couches : sauce tomate, tranches d'aubergine, dés de mozzarella bien égouttée, parmesan râpé et feuilles de basilic ; répétez jusqu'à épuisement des ingrédients.", "en": "In a baking dish, build the layers: tomato sauce, eggplant slices, well-drained diced mozzarella, grated parmesan and basil leaves; repeat until everything is used up.", "es": "En una fuente de horno, monta las capas: salsa de tomate, láminas de berenjena, dados de mozzarella bien escurrida, parmesano rallado y hojas de albahaca; repite hasta agotar los ingredientes.", "it": "In una pirofila, componi gli strati: salsa di pomodoro, fette di melanzana, dadini di mozzarella ben scolata, parmigiano grattugiato e foglie di basilico; ripeti fino a esaurire gli ingredienti."}, "image": "images/it-melanzane-alla-parmigiana/step-5.webp"},
+    {"text": {"fr": "Terminez par une couche de sauce et une généreuse pluie de parmesan, sans mozzarella en surface pour qu'elle ne brûle pas.", "en": "Finish with a layer of sauce and a generous shower of parmesan, keeping mozzarella off the top so it doesn't scorch.", "es": "Termina con una capa de salsa y una generosa lluvia de parmesano, sin mozzarella en la superficie para que no se queme.", "it": "Termina con uno strato di salsa e un'abbondante spolverata di parmigiano, senza mozzarella in superficie perché non bruci."}, "image": "images/it-melanzane-alla-parmigiana/step-6.webp"},
+    {"text": {"fr": "Enfournez 40 minutes à 180 °C, jusqu'à ce que la surface soit gratinée et que la sauce bouillonne sur les bords.", "en": "Bake for 40 minutes at 180 °C (355 °F), until the top is browned and the sauce bubbles at the edges.", "es": "Hornea 40 minutos a 180 °C, hasta que la superficie esté gratinada y la salsa burbujee en los bordes.", "it": "Inforna per 40 minuti a 180 °C, finché la superficie è gratinata e la salsa sobbolle sui bordi."}, "image": "images/it-melanzane-alla-parmigiana/step-7.webp", "timerMinutes": 40},
+    {"text": {"fr": "Laissez reposer 15 minutes avant de servir : les couches se tiennent et les saveurs se posent.", "en": "Let it rest for 15 minutes before serving — the layers set and the flavours settle.", "es": "Deja reposar 15 minutos antes de servir: las capas se asientan y los sabores se equilibran.", "it": "Lascia riposare 15 minuti prima di servire: gli strati si compattano e i sapori si assestano."}, "image": "images/it-melanzane-alla-parmigiana/step-8.webp", "timerMinutes": 15}
+  ]
+}

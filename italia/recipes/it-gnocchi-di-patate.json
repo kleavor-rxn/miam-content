@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "it-gnocchi-di-patate",
+  "title": {"fr": "Gnocchis de pommes de terre", "en": "Potato gnocchi", "es": "Ñoquis de patata", "it": "Gnocchi di patate"},
+  "summary": {
+    "fr": "Les gnocchis maison comme dans le Nord de l'Italie : pommes de terre, farine et un œuf, roulés à la main et nappés de beurre à la sauge.",
+    "en": "Homemade gnocchi the northern Italian way: potatoes, flour and a single egg, hand-rolled and coated in sage butter.",
+    "es": "Ñoquis caseros al estilo del norte de Italia: patata, harina y un huevo, moldeados a mano y bañados en mantequilla a la salvia.",
+    "it": "Gli gnocchi fatti in casa come nel Nord Italia: patate, farina e un uovo, arrotolati a mano e conditi con burro e salvia."
+  },
+  "region": {"fr": "Italie du Nord", "en": "Northern Italy", "es": "Norte de Italia", "it": "Italia settentrionale"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 35,
+  "servings": 4,
+  "heroImage": "images/it-gnocchi-di-patate/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "patata", "quantity": 1, "unit": "kg"},
+    {"ref": "farina-00", "quantity": 250, "unit": "g"},
+    {"ref": "uovo", "quantity": 1, "unit": "piece"},
+    {"ref": "noce-moscata", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "burro", "quantity": 80, "unit": "g"},
+    {"ref": "salvia", "quantity": 8, "unit": "piece"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites cuire les pommes de terre entières et non pelées, départ eau froide salée, pendant 30 minutes environ, jusqu'à ce que la lame d'un couteau les traverse sans résistance.", "en": "Boil the potatoes whole and unpeeled, starting in cold salted water, for about 30 minutes, until a knife blade slides through without resistance.", "es": "Cuece las patatas enteras y sin pelar, partiendo de agua fría con sal, unos 30 minutos, hasta que un cuchillo las atraviese sin resistencia.", "it": "Lessa le patate intere e con la buccia, partendo da acqua fredda salata, per circa 30 minuti, finché la lama di un coltello le attraversa senza resistenza."}, "image": "images/it-gnocchi-di-patate/step-1.webp", "timerMinutes": 30},
+    {"text": {"fr": "Pelez-les encore chaudes et passez-les au presse-purée directement sur le plan de travail fariné.", "en": "Peel them while still hot and rice them straight onto a floured work surface.", "es": "Pélalas aún calientes y pásalas por el pasapurés directamente sobre la encimera enharinada.", "it": "Pelale ancora calde e passale nello schiacciapatate direttamente sulla spianatoia infarinata."}, "image": "images/it-gnocchi-di-patate/step-2.webp"},
+    {"text": {"fr": "Ajoutez l'œuf battu, la farine, une pincée de sel et un soupçon de muscade, puis amalgamez rapidement, sans pétrir : trop travailler la pâte rendrait les gnocchis élastiques.", "en": "Add the beaten egg, the flour, a pinch of salt and a hint of nutmeg, then bring everything together quickly, without kneading — overworking the dough would make the gnocchi chewy.", "es": "Añade el huevo batido, la harina, una pizca de sal y un toque de nuez moscada, y une la masa rápidamente, sin amasar: trabajarla demasiado haría los ñoquis gomosos.", "it": "Aggiungi l'uovo sbattuto, la farina, un pizzico di sale e una grattata di noce moscata, poi amalgama in fretta, senza impastare: lavorarla troppo renderebbe gli gnocchi gommosi."}, "image": "images/it-gnocchi-di-patate/step-3.webp"},
+    {"text": {"fr": "Divisez la pâte en portions et roulez-les en boudins de 2 cm d'épaisseur sur le plan fariné, puis détaillez-les en tronçons de 2 cm.", "en": "Divide the dough into portions and roll them into ropes 2 cm thick on the floured surface, then cut them into 2 cm pieces.", "es": "Divide la masa en porciones y forma rulos de 2 cm de grosor sobre la superficie enharinada; córtalos luego en trozos de 2 cm.", "it": "Dividi l'impasto in porzioni e forma dei filoncini spessi 2 cm sulla spianatoia infarinata, poi tagliali a tocchetti di 2 cm."}, "image": "images/it-gnocchi-di-patate/step-4.webp"},
+    {"text": {"fr": "Faites rouler chaque gnocchi sur les dents d'une fourchette en appuyant légèrement avec le pouce : les stries retiendront la sauce.", "en": "Roll each gnocco over the tines of a fork, pressing lightly with your thumb — the ridges will hold the sauce.", "es": "Rueda cada ñoqui por los dientes de un tenedor presionando ligeramente con el pulgar: las estrías retendrán la salsa.", "it": "Fai rotolare ogni gnocco sui rebbi di una forchetta premendo leggermente col pollice: le righe tratterranno il condimento."}, "image": "images/it-gnocchi-di-patate/step-5.webp"},
+    {"text": {"fr": "Dans une grande poêle, faites fondre le beurre avec les feuilles de sauge jusqu'à ce qu'il mousse et embaume, puis gardez-le à feu très doux.", "en": "In a large frying pan, melt the butter with the sage leaves until it foams and smells fragrant, then keep it over a very low heat.", "es": "En una sartén grande, funde la mantequilla con las hojas de salvia hasta que espume y perfume, y mantenla a fuego muy suave.", "it": "In una padella ampia, fai sciogliere il burro con le foglie di salvia finché spuma e profuma, poi tienilo a fuoco dolcissimo."}, "image": "images/it-gnocchi-di-patate/step-6.webp", "timerMinutes": 3},
+    {"text": {"fr": "Pochez les gnocchis dans une grande casserole d'eau bouillante salée et sortez-les à l'écumoire au fur et à mesure qu'ils remontent à la surface, après 1 à 2 minutes.", "en": "Poach the gnocchi in a large pan of boiling salted water and lift them out with a slotted spoon as they bob to the surface, after 1 to 2 minutes.", "es": "Cuece los ñoquis en una olla grande de agua hirviendo con sal y sácalos con una espumadera a medida que suban a la superficie, tras 1 o 2 minutos.", "it": "Tuffa gli gnocchi in abbondante acqua bollente salata e scolali con una schiumarola man mano che risalgono in superficie, dopo 1-2 minuti."}, "image": "images/it-gnocchi-di-patate/step-7.webp", "timerMinutes": 2},
+    {"text": {"fr": "Faites-les sauter 1 minute dans le beurre de sauge pour bien les enrober, et servez aussitôt avec le parmesan râpé.", "en": "Toss them in the sage butter for 1 minute to coat them well, and serve at once with grated parmesan.", "es": "Saltéalos 1 minuto en la mantequilla de salvia para envolverlos bien y sírvelos enseguida con el parmesano rallado.", "it": "Saltali 1 minuto nel burro alla salvia perché si insaporiscano bene e servili subito con il parmigiano grattugiato."}, "image": "images/it-gnocchi-di-patate/step-8.webp", "timerMinutes": 1}
+  ]
+}

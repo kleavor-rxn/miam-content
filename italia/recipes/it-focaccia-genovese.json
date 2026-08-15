@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "it-focaccia-genovese",
+  "title": {"fr": "Focaccia génoise", "en": "Genoese focaccia", "es": "Focaccia genovesa", "it": "Focaccia genovese"},
+  "summary": {
+    "fr": "La célèbre fougasse de Gênes : une pâte moelleuse criblée de fossettes, arrosée de saumure à l'huile d'olive et dorée au four.",
+    "en": "Genoa's celebrated flatbread: a pillowy dough dimpled all over, doused in an olive-oil brine and baked to a deep gold.",
+    "es": "El famoso pan plano de Génova: una masa esponjosa llena de hoyuelos, bañada en salmuera de aceite de oliva y dorada al horno.",
+    "it": "La celebre focaccia di Genova: un impasto soffice tutto fossette, bagnato di salamoia all'olio d'oliva e dorato in forno."
+  },
+  "region": {"fr": "Ligurie", "en": "Liguria", "es": "Liguria", "it": "Liguria"},
+  "category": "autre",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 6,
+  "heroImage": "images/it-focaccia-genovese/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Divisez la pâte en deux et procédez en deux fournées, dans un moule huilé d'environ 20 cm qui tient dans le panier. Étalez, creusez les fossettes et versez la saumure comme au four, puis faites cuire 13 à 15 minutes à 180 °C, jusqu'à une surface bien dorée. Si elle colore trop vite, couvrez d'une feuille d'aluminium à mi-cuisson ; prolongez de 2 minutes pour un dessous croustillant.",
+    "en": "Divide the dough in two and bake in two batches, in an oiled 20 cm tin that fits the basket. Stretch, dimple and brine the dough as for the oven, then cook at 180 °C (355 °F) for 13 to 15 minutes, until deeply golden on top. If it browns too fast, cover with foil halfway through; add 2 extra minutes for a crisp base.",
+    "es": "Divide la masa en dos y hornea en dos tandas, en un molde aceitado de unos 20 cm que quepa en la cesta. Estira, marca los hoyuelos y vierte la salmuera como en el horno, y cocina a 180 °C de 13 a 15 minutos, hasta que la superficie esté bien dorada. Si se dora demasiado rápido, cúbrela con papel de aluminio a media cocción; añade 2 minutos más para una base crujiente.",
+    "it": "Dividi l'impasto in due e cuoci in due infornate, in uno stampo oliato di circa 20 cm che entri nel cestello. Stendi, scava le fossette e versa la salamoia come per il forno, poi cuoci a 180 °C per 13-15 minuti, finché la superficie è ben dorata. Se colorisce troppo in fretta, copri con un foglio di alluminio a metà cottura; prolunga di 2 minuti per un fondo croccante."
+  },
+  "ingredients": [
+    {"ref": "farina-00", "quantity": 500, "unit": "g"},
+    {"ref": "lievito-di-birra", "quantity": 12, "unit": "g"},
+    {"ref": "zucchero", "quantity": 1, "unit": "tsp"},
+    {"ref": "olio-oliva", "quantity": 12, "unit": "cl"},
+    {"ref": "sale", "quantity": 12, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Émiettez la levure dans 30 cl d'eau tiède avec le sucre et laissez-la mousser une dizaine de minutes.", "en": "Crumble the yeast into 300 ml of lukewarm water with the sugar and let it turn foamy for about 10 minutes.", "es": "Desmenuza la levadura en 30 cl de agua tibia con el azúcar y deja que espume durante unos 10 minutos.", "it": "Sbriciola il lievito in 30 cl di acqua tiepida con lo zucchero e lascialo schiumare per una decina di minuti."}, "image": "images/it-focaccia-genovese/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, l'eau levurée, 3 cuillères à soupe d'huile d'olive et 10 g de sel, puis pétrissez 10 minutes jusqu'à obtenir une pâte souple et légèrement collante.", "en": "In a large bowl, combine the flour, yeasted water, 3 tablespoons of olive oil and 10 g of salt, then knead for 10 minutes until the dough is supple and slightly sticky.", "es": "En un bol grande, mezcla la harina, el agua con la levadura, 3 cucharadas de aceite de oliva y 10 g de sal, y amasa 10 minutos hasta lograr una masa flexible y un poco pegajosa.", "it": "In una ciotola capiente, unisci la farina, l'acqua con il lievito, 3 cucchiai d'olio e 10 g di sale, poi impasta per 10 minuti fino a ottenere un impasto morbido e leggermente appiccicoso."}, "image": "images/it-focaccia-genovese/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Couvrez d'un linge humide et laissez lever 1 h 30 à température ambiante, jusqu'au doublement de volume.", "en": "Cover with a damp cloth and leave to rise for 1½ hours at room temperature, until doubled in size.", "es": "Tapa con un paño húmedo y deja levar 1 hora y media a temperatura ambiente, hasta que doble su volumen.", "it": "Copri con un canovaccio umido e lascia lievitare 1 ora e mezza a temperatura ambiente, fino al raddoppio."}, "image": "images/it-focaccia-genovese/step-3.webp", "timerMinutes": 90},
+    {"text": {"fr": "Versez 2 cuillères à soupe d'huile sur une plaque à bords, déposez-y la pâte et étirez-la du bout des doigts jusqu'aux angles, en la laissant se détendre 15 minutes si elle résiste.", "en": "Pour 2 tablespoons of oil onto a rimmed baking sheet, tip the dough onto it and stretch it to the corners with your fingertips, letting it relax for 15 minutes if it springs back.", "es": "Vierte 2 cucharadas de aceite en una bandeja con borde, vuelca la masa y estírala con la punta de los dedos hasta las esquinas, dejándola reposar 15 minutos si se resiste.", "it": "Versa 2 cucchiai d'olio su una teglia dai bordi bassi, rovescia l'impasto e stendilo con la punta delle dita fino agli angoli, lasciandolo rilassare 15 minuti se si ritira."}, "image": "images/it-focaccia-genovese/step-4.webp", "timerMinutes": 15},
+    {"text": {"fr": "Enfoncez fermement les doigts dans la pâte, jusqu'à la plaque, pour creuser les fossettes caractéristiques de la focaccia.", "en": "Press your fingers firmly into the dough, right down to the tray, to make focaccia's trademark dimples.", "es": "Hunde los dedos con firmeza en la masa, hasta tocar la bandeja, para marcar los hoyuelos característicos de la focaccia.", "it": "Affonda con decisione le dita nell'impasto, fino alla teglia, per scavare le classiche fossette della focaccia."}, "image": "images/it-focaccia-genovese/step-5.webp"},
+    {"text": {"fr": "Émulsionnez 5 cl d'eau avec 3 cuillères à soupe d'huile et le reste du sel, versez cette saumure sur toute la surface et laissez lever encore 30 minutes, pendant que le four préchauffe à 220 °C.", "en": "Whisk 50 ml of water with 3 tablespoons of oil and the remaining salt, pour this brine over the whole surface and let the dough rise another 30 minutes while the oven heats to 220 °C.", "es": "Emulsiona 5 cl de agua con 3 cucharadas de aceite y el resto de la sal, vierte esta salmuera sobre toda la superficie y deja levar 30 minutos más mientras el horno se calienta a 220 °C.", "it": "Emulsiona 5 cl d'acqua con 3 cucchiai d'olio e il sale rimasto, versa la salamoia su tutta la superficie e lascia lievitare ancora 30 minuti mentre il forno arriva a 220 °C."}, "image": "images/it-focaccia-genovese/step-6.webp", "timerMinutes": 30},
+    {"text": {"fr": "Enfournez 15 minutes, jusqu'à ce que la focaccia soit bien dorée et que la saumure soit absorbée, en flaques brillantes au creux des fossettes.", "en": "Bake for 15 minutes, until the focaccia is golden brown and the brine has been absorbed, leaving glossy pools in the dimples.", "es": "Hornea 15 minutos, hasta que la focaccia esté bien dorada y la salmuera se haya absorbido, dejando charquitos brillantes en los hoyuelos.", "it": "Inforna per 15 minuti, finché la focaccia è ben dorata e la salamoia è stata assorbita, lasciando pozzette lucide nelle fossette."}, "image": "images/it-focaccia-genovese/step-7.webp", "timerMinutes": 15},
+    {"text": {"fr": "À la sortie du four, badigeonnez d'un dernier filet d'huile d'olive et laissez tiédir sur une grille avant de découper.", "en": "Straight out of the oven, brush with a final drizzle of olive oil and let it cool slightly on a rack before cutting.", "es": "Recién salida del horno, pincela con un último hilo de aceite de oliva y deja templar sobre una rejilla antes de cortar.", "it": "Appena sfornata, spennella con un ultimo filo d'olio e lascia intiepidire su una gratella prima di tagliare."}, "image": "images/it-focaccia-genovese/step-8.webp"}
+  ]
+}

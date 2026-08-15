@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "it-minestrone",
+  "title": {"fr": "Minestrone", "en": "Minestrone", "es": "Minestrone", "it": "Minestrone"},
+  "summary": {
+    "fr": "La grande soupe de légumes italienne : un soffritto, des légumes de saison, des haricots borlotti et du parmesan, mijotés sans hâte.",
+    "en": "Italy's great vegetable soup: a soffritto, seasonal vegetables, borlotti beans and parmesan, simmered without haste.",
+    "es": "La gran sopa de verduras italiana: un sofrito, verduras de temporada, alubias borlotti y parmesano, cocidos sin prisa.",
+    "it": "La grande zuppa di verdure italiana: soffritto, verdure di stagione, fagioli borlotti e parmigiano, cotti senza fretta."
+  },
+  "region": {"fr": "Italie du Nord", "en": "Northern Italy", "es": "Norte de Italia", "it": "Italia settentrionale"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 55,
+  "servings": 6,
+  "heroImage": "images/it-minestrone/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "carota", "quantity": 2, "unit": "piece"},
+    {"ref": "sedano", "quantity": 2, "unit": "piece"},
+    {"ref": "patata", "quantity": 2, "unit": "piece"},
+    {"ref": "zucchina", "quantity": 2, "unit": "piece"},
+    {"ref": "pomodoro", "quantity": 3, "unit": "piece", "substitutes": ["passata"]},
+    {"ref": "brodo-vegetale", "quantity": 1.5, "unit": "l"},
+    {"ref": "fagioli-borlotti", "quantity": 250, "unit": "g"},
+    {"ref": "piselli", "quantity": 100, "unit": "g"},
+    {"ref": "basilico", "quantity": 8, "unit": "piece"},
+    {"ref": "parmigiano", "quantity": 40, "unit": "g", "optional": true},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Taillez l'oignon, les carottes, le céleri, les pommes de terre et les courgettes en petits dés réguliers, et concassez les tomates.", "en": "Dice the onion, carrots, celery, potatoes and courgettes into small, even cubes, and roughly chop the tomatoes.", "es": "Corta la cebolla, las zanahorias, el apio, las patatas y los calabacines en daditos regulares, y trocea los tomates.", "it": "Taglia la cipolla, le carote, il sedano, le patate e le zucchine a dadini regolari, e spezzetta i pomodori."}, "image": "images/it-minestrone/step-1.webp"},
+    {"text": {"fr": "Dans une grande marmite, faites suer l'oignon, les carottes et le céleri dans l'huile d'olive pendant 8 minutes, sans coloration.", "en": "In a large pot, sweat the onion, carrots and celery in the olive oil for 8 minutes, without letting them colour.", "es": "En una olla grande, pocha la cebolla, las zanahorias y el apio en el aceite de oliva durante 8 minutos, sin que tomen color.", "it": "In una pentola capiente, fai appassire la cipolla, le carote e il sedano nell'olio per 8 minuti, senza farli colorire."}, "image": "images/it-minestrone/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Ajoutez les pommes de terre, les courgettes et les tomates, et faites-les revenir 5 minutes en remuant.", "en": "Add the potatoes, courgettes and tomatoes, and sauté for 5 minutes, stirring.", "es": "Añade las patatas, los calabacines y los tomates, y rehógalos 5 minutos removiendo.", "it": "Unisci le patate, le zucchine e i pomodori, e falli insaporire 5 minuti mescolando."}, "image": "images/it-minestrone/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Versez le bouillon de légumes chaud, portez à frémissement et laissez mijoter 25 minutes à demi-couvert.", "en": "Pour in the hot vegetable stock, bring to a simmer and cook, half-covered, for 25 minutes.", "es": "Vierte el caldo de verduras caliente, lleva a ebullición suave y deja cocer 25 minutos a medio tapar.", "it": "Versa il brodo vegetale caldo, porta a leggero bollore e lascia sobbollire 25 minuti con il coperchio a metà."}, "image": "images/it-minestrone/step-4.webp", "timerMinutes": 25},
+    {"text": {"fr": "Ajoutez les haricots borlotti égouttés et les petits pois, puis poursuivez la cuisson 15 minutes, jusqu'à ce que tous les légumes soient tendres.", "en": "Add the drained borlotti beans and the peas, then cook for another 15 minutes, until all the vegetables are tender.", "es": "Incorpora las alubias borlotti escurridas y los guisantes, y prosigue la cocción 15 minutos, hasta que todas las verduras estén tiernas.", "it": "Aggiungi i fagioli borlotti scolati e i piselli, e prosegui la cottura per 15 minuti, finché tutte le verdure sono tenere."}, "image": "images/it-minestrone/step-5.webp", "timerMinutes": 15},
+    {"text": {"fr": "Salez, poivrez, ajoutez le basilic ciselé et laissez reposer 5 minutes hors du feu : le minestrone n'en sera que meilleur.", "en": "Season with salt and pepper, stir in the shredded basil and let the soup rest off the heat for 5 minutes — the minestrone only gets better for it.", "es": "Salpimienta, añade la albahaca en juliana y deja reposar 5 minutos fuera del fuego: el minestrone gana con la espera.", "it": "Regola di sale e pepe, unisci il basilico spezzettato e lascia riposare 5 minuti fuori dal fuoco: il minestrone ci guadagna."}, "image": "images/it-minestrone/step-6.webp", "timerMinutes": 5},
+    {"text": {"fr": "Servez bien chaud, avec le parmesan râpé et un filet d'huile d'olive crue.", "en": "Serve piping hot, with grated parmesan and a drizzle of raw olive oil.", "es": "Sirve bien caliente, con el parmesano rallado y un hilo de aceite de oliva en crudo.", "it": "Servi ben caldo, con il parmigiano grattugiato e un filo d'olio a crudo."}, "image": "images/it-minestrone/step-7.webp"}
+  ]
+}
