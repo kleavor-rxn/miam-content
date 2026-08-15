@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "it-saltimbocca-alla-romana",
+  "title": {"fr": "Saltimbocca à la romaine", "en": "Saltimbocca alla romana", "es": "Saltimbocca a la romana", "it": "Saltimbocca alla romana"},
+  "summary": {
+    "fr": "Le classique romain qui « saute en bouche » : de fines escalopes de veau coiffées de jambon cru et de sauge, déglacées au vin blanc.",
+    "en": "The Roman classic that 'jumps into your mouth': thin veal escalopes topped with prosciutto and sage, finished with a white-wine pan sauce.",
+    "es": "El clásico romano que « salta a la boca »: finos escalopes de ternera coronados con prosciutto y salvia, ligados con una salsa de vino blanco.",
+    "it": "Il classico romano che « salta in bocca »: fettine di vitello sottili con prosciutto crudo e salvia, sfumate al vino bianco."
+  },
+  "region": {"fr": "Latium", "en": "Lazio", "es": "Lacio", "it": "Lazio"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "servings": 4,
+  "heroImage": "images/it-saltimbocca-alla-romana/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "scaloppine-vitello", "quantity": 8, "unit": "piece"},
+    {"ref": "prosciutto-crudo", "quantity": 8, "unit": "slice"},
+    {"ref": "salvia", "quantity": 8, "unit": "piece"},
+    {"ref": "farina-00", "quantity": 2, "unit": "tbsp"},
+    {"ref": "burro", "quantity": 50, "unit": "g"},
+    {"ref": "vino-bianco", "quantity": 10, "unit": "cl"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Aplatissez les escalopes entre deux feuilles de papier cuisson jusqu'à environ 5 mm d'épaisseur.", "en": "Flatten the escalopes between two sheets of baking paper until about 5 mm thick.", "es": "Aplana los escalopes entre dos hojas de papel de horno hasta dejarlos de unos 5 mm de grosor.", "it": "Batti le fettine tra due fogli di carta forno fino a uno spessore di circa 5 mm."}, "image": "images/it-saltimbocca-alla-romana/step-1.webp"},
+    {"text": {"fr": "Posez sur chaque escalope une tranche de jambon cru et une feuille de sauge, puis fixez le tout avec un cure-dent. Poivrez, mais ne salez pas : le jambon s'en charge.", "en": "Lay a slice of prosciutto and a sage leaf on each escalope, then secure with a toothpick. Add pepper but no salt — the prosciutto takes care of that.", "es": "Coloca sobre cada escalope una loncha de prosciutto y una hoja de salvia, y sujétalo todo con un palillo. Pon pimienta pero no sal: el jamón ya se encarga.", "it": "Adagia su ogni fettina una fetta di prosciutto crudo e una foglia di salvia, poi ferma il tutto con uno stecchino. Pepa, ma non salare: ci pensa il prosciutto."}, "image": "images/it-saltimbocca-alla-romana/step-2.webp"},
+    {"text": {"fr": "Farinez légèrement la face sans jambon de chaque escalope, en tapotant pour retirer l'excédent.", "en": "Lightly flour the meat side of each escalope, tapping off the excess.", "es": "Enharina ligeramente la cara sin jamón de cada escalope, sacudiendo el exceso.", "it": "Infarina leggermente il lato senza prosciutto di ogni fettina, scuotendo la farina in eccesso."}, "image": "images/it-saltimbocca-alla-romana/step-3.webp"},
+    {"text": {"fr": "Faites mousser la moitié du beurre dans une grande poêle et saisissez les saltimbocca à feu vif, 2 minutes côté viande puis 1 minute côté jambon. Réservez-les au chaud.", "en": "Melt half the butter in a large frying pan until foaming and sear the saltimbocca over high heat, 2 minutes on the meat side then 1 minute on the prosciutto side. Keep them warm.", "es": "Calienta la mitad de la mantequilla en una sartén grande hasta que espume y marca los saltimbocca a fuego vivo, 2 minutos por el lado de la carne y 1 minuto por el del jamón. Resérvalos al calor.", "it": "Fai spumeggiare metà del burro in una padella grande e rosola i saltimbocca a fuoco vivace, 2 minuti dal lato della carne e 1 dal lato del prosciutto. Tienili in caldo."}, "image": "images/it-saltimbocca-alla-romana/step-4.webp", "timerMinutes": 3},
+    {"text": {"fr": "Versez le vin blanc dans la poêle, grattez les sucs et laissez réduire de moitié, puis incorporez le reste du beurre pour lier la sauce.", "en": "Pour the white wine into the pan, scrape up the browned bits and let it reduce by half, then whisk in the remaining butter to bind the sauce.", "es": "Vierte el vino blanco en la sartén, rasca los jugos del fondo y deja reducir a la mitad; después incorpora el resto de la mantequilla para ligar la salsa.", "it": "Versa il vino bianco nella padella, stacca i succhi dal fondo e fai ridurre della metà, poi incorpora il resto del burro per legare la salsa."}, "image": "images/it-saltimbocca-alla-romana/step-5.webp", "timerMinutes": 2},
+    {"text": {"fr": "Remettez les saltimbocca dans la poêle quelques secondes pour les napper de sauce, puis servez sans attendre.", "en": "Return the saltimbocca to the pan for a few seconds to coat them in the sauce, then serve straight away.", "es": "Devuelve los saltimbocca a la sartén unos segundos para naparlos con la salsa y sirve sin esperar.", "it": "Rimetti i saltimbocca in padella per qualche secondo, giusto per velarli di salsa, e servi senza aspettare."}, "image": "images/it-saltimbocca-alla-romana/step-6.webp"}
+  ]
+}

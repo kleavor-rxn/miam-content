@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pasta-al-pomodoro",
+  "title": {"fr": "Pâtes à la tomate", "en": "Pasta al pomodoro", "es": "Pasta al pomodoro", "it": "Pasta al pomodoro"},
+  "summary": {
+    "fr": "La simplicité italienne absolue : des spaghettis nappés d'une sauce tomate mijotée à l'ail et parfumée au basilic frais.",
+    "en": "Italian simplicity at its purest: spaghetti coated in a slow-simmered tomato sauce scented with garlic and fresh basil.",
+    "es": "La sencillez italiana en estado puro: espaguetis envueltos en una salsa de tomate cocida a fuego lento con ajo y albahaca fresca.",
+    "it": "La semplicità italiana per eccellenza: spaghetti avvolti in un sugo di pomodoro cotto piano piano, con aglio e basilico fresco."
+  },
+  "region": {"fr": "Campanie", "en": "Campania", "es": "Campania", "it": "Campania"},
+  "category": "plat",
+  "difficulty": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 25,
+  "servings": 4,
+  "heroImage": "images/it-pasta-al-pomodoro/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "spaghetti", "quantity": 400, "unit": "g"},
+    {"ref": "passata", "quantity": 500, "unit": "g"},
+    {"ref": "aglio", "quantity": 2, "unit": "clove"},
+    {"ref": "basilico", "quantity": 12, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 4, "unit": "tbsp"},
+    {"ref": "zucchero", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "parmigiano", "quantity": 40, "unit": "g", "optional": true},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole, faites blondir doucement les gousses d'ail écrasées dans l'huile d'olive 2 minutes, sans les laisser brunir.", "en": "In a saucepan, gently warm the crushed garlic cloves in the olive oil for 2 minutes, without letting them brown.", "es": "En una cazuela, dora suavemente los dientes de ajo machacados en el aceite de oliva 2 minutos, sin que lleguen a tostarse.", "it": "In una casseruola, fai imbiondire dolcemente gli spicchi d'aglio schiacciati nell'olio d'oliva per 2 minuti, senza farli scurire."}, "image": "images/it-pasta-al-pomodoro/step-1.webp", "timerMinutes": 2},
+    {"text": {"fr": "Versez la passata, salez et ajoutez la pincée de sucre si les tomates sont acides. Laissez mijoter à feu doux 15 minutes, à moitié couvert.", "en": "Pour in the passata, season with salt and add the pinch of sugar if the tomatoes taste sharp. Simmer gently for 15 minutes, half-covered.", "es": "Vierte la passata, sala y añade la pizca de azúcar si el tomate está ácido. Deja cocer a fuego suave 15 minutos, a medio tapar.", "it": "Versa la passata, sala e aggiungi il pizzico di zucchero se il pomodoro è acidulo. Lascia sobbollire a fuoco dolce per 15 minuti, semicoperto."}, "image": "images/it-pasta-al-pomodoro/step-2.webp", "timerMinutes": 15},
+    {"text": {"fr": "Pendant ce temps, portez à ébullition un grand volume d'eau généreusement salée.", "en": "Meanwhile, bring a large pot of generously salted water to the boil.", "es": "Mientras tanto, pon a hervir abundante agua bien salada.", "it": "Nel frattempo, porta a bollore abbondante acqua ben salata."}, "image": "images/it-pasta-al-pomodoro/step-3.webp"},
+    {"text": {"fr": "Plongez-y les spaghettis et faites-les cuire une minute de moins que le temps indiqué sur le paquet. Prélevez une tasse d'eau de cuisson avant d'égoutter.", "en": "Drop in the spaghetti and cook it one minute short of the packet time. Scoop out a cup of the cooking water before draining.", "es": "Echa los espaguetis y cuécelos un minuto menos de lo que indique el paquete. Reserva una taza del agua de cocción antes de escurrir.", "it": "Cala gli spaghetti e cuocili un minuto in meno rispetto al tempo indicato sulla confezione. Tieni da parte una tazza di acqua di cottura prima di scolarli."}, "image": "images/it-pasta-al-pomodoro/step-4.webp", "timerMinutes": 9},
+    {"text": {"fr": "Versez les spaghettis égouttés dans la sauce et faites-les sauter 1 minute à feu vif avec un trait d'eau de cuisson, jusqu'à ce qu'ils soient bien enrobés.", "en": "Tip the drained spaghetti into the sauce and toss for 1 minute over high heat with a splash of the cooking water, until well coated.", "es": "Pasa los espaguetis escurridos a la salsa y saltéalos 1 minuto a fuego vivo con un chorrito del agua de cocción, hasta que queden bien envueltos.", "it": "Trasferisci gli spaghetti scolati nel sugo e saltali per 1 minuto a fuoco vivo con un goccio di acqua di cottura, finché sono ben mantecati."}, "image": "images/it-pasta-al-pomodoro/step-5.webp", "timerMinutes": 1},
+    {"text": {"fr": "Hors du feu, retirez l'ail, ajoutez les feuilles de basilic déchirées et un filet d'huile crue. Servez aussitôt, parmesan à part.", "en": "Off the heat, remove the garlic, add the torn basil leaves and a drizzle of raw olive oil. Serve at once, with the parmesan on the side.", "es": "Fuera del fuego, retira el ajo, añade las hojas de albahaca troceadas con las manos y un hilo de aceite crudo. Sirve enseguida, con el parmesano aparte.", "it": "Fuori dal fuoco, togli l'aglio, aggiungi le foglie di basilico spezzettate a mano e un filo d'olio a crudo. Servi subito, con il parmigiano a parte."}, "image": "images/it-pasta-al-pomodoro/step-6.webp"}
+  ]
+}

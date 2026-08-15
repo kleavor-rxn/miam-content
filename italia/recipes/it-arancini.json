@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "it-arancini",
+  "title": {"fr": "Arancini siciliens", "en": "Sicilian arancini", "es": "Arancini sicilianos", "it": "Arancini di riso"},
+  "summary": {
+    "fr": "Les boulettes de riz au safran de la street food sicilienne, farcies au ragù, petits pois et mozzarella, panées et frites jusqu'à l'or.",
+    "en": "Sicily's iconic street food: saffron rice balls stuffed with meat ragù, peas and mozzarella, breaded and fried to a deep gold.",
+    "es": "El icono callejero de Sicilia: bolas de arroz al azafrán rellenas de ragú, guisantes y mozzarella, empanadas y fritas hasta dorarse.",
+    "it": "Lo street food siciliano per eccellenza: palle di riso allo zafferano ripiene di ragù, piselli e mozzarella, impanate e fritte fino all'oro."
+  },
+  "region": {"fr": "Sicile", "en": "Sicily", "es": "Sicilia", "it": "Sicilia"},
+  "category": "entree",
+  "difficulty": 3,
+  "prepMinutes": 40,
+  "cookMinutes": 55,
+  "servings": 4,
+  "heroImage": "images/it-arancini/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Préchauffez la friteuse à air à 190 °C. Vaporisez ou badigeonnez généreusement d'huile les arancini panés, disposez-les dans le panier sans qu'ils se touchent et faites-les cuire 15 minutes en les retournant à mi-cuisson, jusqu'à une croûte dorée et croustillante. La panure sera un peu moins soufflée qu'en friture ; comptez 2 à 3 minutes de plus s'ils sortent du réfrigérateur.",
+    "en": "Preheat the air fryer to 190 °C (375 °F). Spray or brush the breaded arancini generously with oil, arrange them in the basket without touching and cook for 15 minutes, turning halfway, until the crust is golden and crisp. The coating stays slightly less puffed than deep-fried; allow 2-3 extra minutes if they go in straight from the fridge.",
+    "es": "Precalienta la freidora de aire a 190 °C. Pulveriza o pincela generosamente con aceite los arancini empanados, colócalos en la cesta sin que se toquen y cocínalos 15 minutos, dándoles la vuelta a media cocción, hasta que la corteza quede dorada y crujiente. El rebozado queda algo menos inflado que en fritura; añade 2 o 3 minutos si van directos del frigorífico.",
+    "it": "Preriscalda la friggitrice ad aria a 190 °C. Spruzza o spennella abbondantemente d'olio gli arancini impanati, disponili nel cestello senza che si tocchino e cuocili 15 minuti, girandoli a metà cottura, finché la crosta è dorata e croccante. La panatura resterà un po' meno gonfia rispetto alla frittura; aggiungi 2-3 minuti se li inforni appena usciti dal frigorifero."
+  },
+  "ingredients": [
+    {"ref": "riso-arborio", "quantity": 320, "unit": "g", "substitutes": ["riso-carnaroli"]},
+    {"ref": "brodo-vegetale", "quantity": 75, "unit": "cl"},
+    {"ref": "zafferano", "quantity": 1, "unit": "pinch"},
+    {"ref": "burro", "quantity": 40, "unit": "g"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "manzo-macinato", "quantity": 200, "unit": "g"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "vino-rosso", "quantity": 10, "unit": "cl"},
+    {"ref": "concentrato-di-pomodoro", "quantity": 1, "unit": "tbsp"},
+    {"ref": "passata", "quantity": 200, "unit": "g"},
+    {"ref": "piselli", "quantity": 100, "unit": "g"},
+    {"ref": "mozzarella", "quantity": 100, "unit": "g"},
+    {"ref": "farina-00", "quantity": 80, "unit": "g"},
+    {"ref": "uovo", "quantity": 2, "unit": "piece"},
+    {"ref": "pangrattato", "quantity": 150, "unit": "g"},
+    {"ref": "olio-semi", "quantity": 1, "unit": "l"},
+    {"ref": "olio-oliva", "quantity": null, "unit": null},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites cuire le riz à couvert dans le bouillon safrané, 15 minutes à feu doux, jusqu'à absorption complète. Hors du feu, incorporez le beurre et le parmesan.", "en": "Cook the rice, covered, in the saffron stock for 15 minutes over low heat until fully absorbed. Off the heat, stir in the butter and parmesan.", "es": "Cuece el arroz tapado en el caldo con azafrán, 15 minutos a fuego suave, hasta que lo absorba por completo. Fuera del fuego, incorpora la mantequilla y el parmesano.", "it": "Cuoci il riso coperto nel brodo allo zafferano, 15 minuti a fuoco dolce, finché è completamente assorbito. Fuori dal fuoco, manteca con burro e parmigiano."}, "image": "images/it-arancini/step-1.webp", "timerMinutes": 15},
+    {"text": {"fr": "Étalez le riz sur une plaque, couvrez-le au contact d'un film et laissez-le refroidir complètement, au moins 1 heure.", "en": "Spread the rice on a tray, press a sheet of film onto its surface and let it cool completely, at least 1 hour.", "es": "Extiende el arroz en una bandeja, cúbrelo a piel con film y deja que se enfríe por completo, al menos 1 hora.", "it": "Stendi il riso su una teglia, coprilo a contatto con pellicola e lascialo raffreddare completamente, almeno 1 ora."}, "image": "images/it-arancini/step-2.webp", "timerMinutes": 60},
+    {"text": {"fr": "Préparez le ragù : faites revenir l'oignon haché dans un filet d'huile d'olive, ajoutez le bœuf haché, faites-le colorer en l'émiettant, puis déglacez au vin rouge.", "en": "Make the ragù: sweat the chopped onion in a drizzle of olive oil, add the ground beef, brown it while breaking it up, then deglaze with the red wine.", "es": "Prepara el ragú: sofríe la cebolla picada en un chorrito de aceite de oliva, añade la carne picada, dórala desmenuzándola y desglasa con el vino tinto.", "it": "Prepara il ragù: fai rosolare la cipolla tritata in un filo d'olio d'oliva, unisci il macinato, fallo colorire sgranandolo, poi sfuma con il vino rosso."}, "image": "images/it-arancini/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez le concentré de tomate, la passata et les petits pois, salez, poivrez et laissez mijoter à découvert 25 minutes, jusqu'à un ragù épais et presque sec.", "en": "Add the tomato paste, passata and peas, season, and simmer uncovered for 25 minutes, until the ragù is thick and almost dry.", "es": "Añade el concentrado de tomate, la passata y los guisantes, salpimienta y deja cocer destapado 25 minutos, hasta que el ragú quede espeso y casi seco.", "it": "Aggiungi il concentrato di pomodoro, la passata e i piselli, regola di sale e pepe e lascia sobbollire scoperto per 25 minuti, fino a un ragù denso e quasi asciutto."}, "image": "images/it-arancini/step-4.webp", "timerMinutes": 25},
+    {"text": {"fr": "Les mains humides, prenez une grosse cuillère de riz, creusez-la en coupelle, déposez-y une cuillerée de ragù et un dé de mozzarella, puis refermez en boule bien serrée. Façonnez ainsi 8 arancini.", "en": "With damp hands, take a generous scoop of rice, hollow it into a cup, fill it with a spoonful of ragù and a cube of mozzarella, then close it into a tight ball. Shape 8 arancini this way.", "es": "Con las manos húmedas, coge una buena porción de arroz, ahuécala en forma de cuenco, rellénala con una cucharada de ragú y un dado de mozzarella, y ciérrala en una bola bien prieta. Forma así 8 arancini.", "it": "Con le mani umide, prendi una generosa porzione di riso, scavala a coppetta, farciscila con un cucchiaio di ragù e un dadino di mozzarella, poi richiudila in una palla ben compatta. Forma così 8 arancini."}, "image": "images/it-arancini/step-5.webp"},
+    {"text": {"fr": "Roulez chaque arancino dans la farine, puis dans les œufs battus, puis dans la chapelure, en pressant pour bien faire adhérer la panure.", "en": "Roll each arancino in the flour, then in the beaten eggs, then in the breadcrumbs, pressing so the coating sticks well.", "es": "Pasa cada arancino por la harina, luego por los huevos batidos y por último por el pan rallado, presionando para que el empanado se adhiera bien.", "it": "Passa ogni arancino nella farina, poi nelle uova sbattute e infine nel pangrattato, premendo perché la panatura aderisca bene."}, "image": "images/it-arancini/step-6.webp"},
+    {"text": {"fr": "Faites chauffer l'huile de friture à 170 °C et plongez-y les arancini par trois ou quatre. Laissez-les dorer 4 minutes en les retournant, jusqu'à une belle couleur ambrée.", "en": "Heat the frying oil to 170 °C (340 °F) and lower in the arancini three or four at a time. Let them fry for 4 minutes, turning, until a deep amber colour.", "es": "Calienta el aceite de freír a 170 °C y fríe los arancini de tres en tres o de cuatro en cuatro. Déjalos dorar 4 minutos, girándolos, hasta un bonito color ámbar.", "it": "Scalda l'olio di semi a 170 °C e tuffa gli arancini tre o quattro alla volta. Falli dorare 4 minuti, girandoli, fino a un bel colore ambrato."}, "image": "images/it-arancini/step-7.webp", "timerMinutes": 4},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et laissez-les reposer 5 minutes : le cœur finit de fondre. Servez brûlant.", "en": "Drain them on kitchen paper and let them rest for 5 minutes so the heart finishes melting. Serve piping hot.", "es": "Escúrrelos sobre papel de cocina y déjalos reposar 5 minutos: el corazón termina de fundirse. Sírvelos bien calientes.", "it": "Scolali su carta assorbente e lasciali riposare 5 minuti: il cuore finisce di sciogliersi. Servili bollenti."}, "image": "images/it-arancini/step-8.webp", "timerMinutes": 5}
+  ]
+}

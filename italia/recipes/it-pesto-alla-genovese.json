@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pesto-alla-genovese",
+  "title": {"fr": "Pesto génois", "en": "Pesto alla genovese", "es": "Pesto genovés", "it": "Pesto alla genovese"},
+  "summary": {
+    "fr": "La sauce emblème de la Ligurie, pilée au mortier : basilic, pignons, ail, deux fromages et huile d'olive douce.",
+    "en": "Liguria's emblematic sauce, pounded in a mortar: basil, pine nuts, garlic, two cheeses and mellow olive oil.",
+    "es": "La salsa emblema de Liguria, majada en el mortero: albahaca, piñones, ajo, dos quesos y aceite de oliva suave.",
+    "it": "La salsa simbolo della Liguria, pestata nel mortaio: basilico, pinoli, aglio, due formaggi e olio d'oliva delicato."
+  },
+  "region": {"fr": "Ligurie", "en": "Liguria", "es": "Liguria", "it": "Liguria"},
+  "category": "autre",
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 0,
+  "servings": 4,
+  "heroImage": "images/it-pesto-alla-genovese/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "basilico", "quantity": 50, "unit": "g"},
+    {"ref": "pinoli", "quantity": 20, "unit": "g"},
+    {"ref": "aglio", "quantity": 1, "unit": "clove"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g"},
+    {"ref": "pecorino-romano", "quantity": 20, "unit": "g", "substitutes": ["parmigiano"]},
+    {"ref": "olio-oliva", "quantity": 10, "unit": "cl"},
+    {"ref": "sale", "quantity": 1, "unit": "pinch"}
+  ],
+  "steps": [
+    {"text": {"fr": "Lavez rapidement les feuilles de basilic à l'eau froide et séchez-les délicatement dans un linge, sans les froisser.", "en": "Briefly rinse the basil leaves in cold water and pat them dry very gently in a cloth, without bruising them.", "es": "Lava rápidamente las hojas de albahaca en agua fría y sécalas con delicadeza en un paño, sin magullarlas.", "it": "Lava velocemente le foglie di basilico in acqua fredda e asciugale con delicatezza in un canovaccio, senza ammaccarle."}, "image": "images/it-pesto-alla-genovese/step-1.webp"},
+    {"text": {"fr": "Dans un mortier, écrasez la gousse d'ail avec la pincée de gros sel jusqu'à obtenir une pâte fine.", "en": "In a mortar, crush the garlic clove with the pinch of coarse salt until you have a fine paste.", "es": "En un mortero, maja el diente de ajo con la pizca de sal gruesa hasta obtener una pasta fina.", "it": "Nel mortaio, pesta lo spicchio d'aglio con il pizzico di sale grosso fino a ridurlo in crema."}, "image": "images/it-pesto-alla-genovese/step-2.webp"},
+    {"text": {"fr": "Ajoutez les pignons et pilez jusqu'à obtenir une crème.", "en": "Add the pine nuts and pound them to a cream.", "es": "Añade los piñones y májalos hasta lograr una crema.", "it": "Aggiungi i pinoli e pestali fino a ottenere una crema."}, "image": "images/it-pesto-alla-genovese/step-3.webp"},
+    {"text": {"fr": "Incorporez le basilic poignée par poignée, en écrasant les feuilles contre les parois du mortier d'un mouvement circulaire, jusqu'à une pâte d'un vert éclatant.", "en": "Work in the basil a handful at a time, grinding the leaves against the sides of the mortar with a circular motion, until the paste turns a vivid green.", "es": "Incorpora la albahaca puñado a puñado, aplastando las hojas contra las paredes del mortero con un movimiento circular, hasta lograr una pasta de un verde intenso.", "it": "Unisci il basilico una manciata alla volta, schiacciando le foglie contro le pareti del mortaio con un movimento rotatorio, fino a una crema di un verde brillante."}, "image": "images/it-pesto-alla-genovese/step-4.webp"},
+    {"text": {"fr": "Incorporez les deux fromages râpés en mélangeant au pilon.", "en": "Stir in the two grated cheeses, blending with the pestle.", "es": "Agrega los dos quesos rallados mezclando con la mano del mortero.", "it": "Incorpora i due formaggi grattugiati amalgamando con il pestello."}, "image": "images/it-pesto-alla-genovese/step-5.webp"},
+    {"text": {"fr": "Versez l'huile d'olive en filet en remuant jusqu'à une sauce brillante et homogène. Servez le pesto à froid, détendu d'une cuillerée d'eau de cuisson des pâtes — ne le faites jamais chauffer.", "en": "Stream in the olive oil, stirring until the sauce is glossy and smooth. Use the pesto cold, loosened with a spoonful of pasta cooking water — never heat it.", "es": "Vierte el aceite de oliva en un hilo fino, removiendo hasta lograr una salsa brillante y homogénea. Usa el pesto en frío, aligerado con una cucharada del agua de cocción de la pasta — nunca lo calientes.", "it": "Versa l'olio d'oliva a filo, mescolando fino a una salsa lucida e omogenea. Usa il pesto a freddo, allungato con un cucchiaio di acqua di cottura della pasta — non farlo mai cuocere."}, "image": "images/it-pesto-alla-genovese/step-6.webp"}
+  ]
+}

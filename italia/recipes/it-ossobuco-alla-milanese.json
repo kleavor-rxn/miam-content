@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "it-ossobuco-alla-milanese",
+  "title": {"fr": "Osso buco à la milanaise", "en": "Ossobuco alla milanese", "es": "Ossobuco a la milanesa", "it": "Ossobuco alla milanese"},
+  "summary": {
+    "fr": "Le jarret de veau braisé au vin blanc de la tradition milanaise, réveillé en fin de cuisson par la gremolata au citron.",
+    "en": "Milan's slow-braised veal shank in white wine, lifted at the last minute by a zesty lemon gremolata.",
+    "es": "El jarrete de ternera estofado en vino blanco de la tradición milanesa, avivado al final con la gremolata de limón.",
+    "it": "L'ossobuco brasato nel vino bianco della tradizione milanese, ravvivato a fine cottura dalla gremolada al limone."
+  },
+  "region": {"fr": "Lombardie", "en": "Lombardy", "es": "Lombardía", "it": "Lombardia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 110,
+  "servings": 4,
+  "heroImage": "images/it-ossobuco-alla-milanese/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "vitello-ossobuco", "quantity": 4, "unit": "piece"},
+    {"ref": "farina-00", "quantity": 3, "unit": "tbsp"},
+    {"ref": "burro", "quantity": 60, "unit": "g"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "vino-bianco", "quantity": 15, "unit": "cl"},
+    {"ref": "brodo-di-carne", "quantity": 40, "unit": "cl", "substitutes": ["brodo-vegetale"]},
+    {"ref": "prezzemolo", "quantity": 3, "unit": "tbsp"},
+    {"ref": "limone", "quantity": 1, "unit": "piece"},
+    {"ref": "aglio", "quantity": 1, "unit": "clove"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Incisez en trois ou quatre endroits la membrane qui entoure chaque jarret pour éviter qu'il ne se recroqueville, salez, poivrez, puis farinez légèrement les deux faces.", "en": "Snip the membrane around each shank in three or four places so it doesn't curl up, season with salt and pepper, then dust both sides lightly with flour.", "es": "Haz tres o cuatro cortes en la membrana que rodea cada jarrete para que no se abarquille, salpimienta y enharina ligeramente ambas caras.", "it": "Incidi in tre o quattro punti la pellicina che circonda ogni ossobuco perché non si arricci, sala, pepa e infarina leggermente entrambi i lati."}, "image": "images/it-ossobuco-alla-milanese/step-1.webp"},
+    {"text": {"fr": "Faites mousser le beurre dans une sauteuse large et faites-y dorer les jarrets 4 minutes de chaque côté. Réservez-les sur une assiette.", "en": "Melt the butter in a wide sauté pan until foaming and brown the shanks for 4 minutes on each side. Set them aside on a plate.", "es": "Calienta la mantequilla en una sartén amplia hasta que espume y dora los jarretes 4 minutos por cada lado. Resérvalos en un plato.", "it": "Fai spumeggiare il burro in un tegame ampio e rosola gli ossobuchi 4 minuti per lato. Mettili da parte su un piatto."}, "image": "images/it-ossobuco-alla-milanese/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Dans la même sauteuse, faites fondre l'oignon finement haché 5 minutes à feu doux, en grattant les sucs de cuisson.", "en": "In the same pan, soften the finely chopped onion for 5 minutes over low heat, scraping up the browned bits.", "es": "En la misma sartén, pocha la cebolla picada fina 5 minutos a fuego suave, rascando los jugos caramelizados del fondo.", "it": "Nello stesso tegame, fai appassire la cipolla tritata finemente per 5 minuti a fuoco dolce, staccando i succhi dal fondo."}, "image": "images/it-ossobuco-alla-milanese/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Remettez les jarrets dans la sauteuse, versez le vin blanc et laissez-le réduire de moitié à feu vif.", "en": "Return the shanks to the pan, pour in the white wine and let it reduce by half over high heat.", "es": "Devuelve los jarretes a la sartén, vierte el vino blanco y deja que se reduzca a la mitad a fuego vivo.", "it": "Rimetti gli ossobuchi nel tegame, versa il vino bianco e fallo ridurre della metà a fuoco vivace."}, "image": "images/it-ossobuco-alla-milanese/step-4.webp", "timerMinutes": 3},
+    {"text": {"fr": "Versez le bouillon chaud à mi-hauteur des jarrets, couvrez et laissez braiser à feu très doux 1 h 30, en les retournant délicatement à mi-cuisson.", "en": "Pour in enough hot stock to come halfway up the shanks, cover and braise over very low heat for 1½ hours, turning them gently halfway through.", "es": "Añade caldo caliente hasta media altura de los jarretes, tapa y estofa a fuego muy suave 1 hora y media, dándoles la vuelta con cuidado a media cocción.", "it": "Versa il brodo caldo fino a metà altezza degli ossobuchi, copri e brasa a fuoco dolcissimo per un'ora e mezza, girandoli delicatamente a metà cottura."}, "image": "images/it-ossobuco-alla-milanese/step-5.webp", "timerMinutes": 90},
+    {"text": {"fr": "Préparez la gremolata : hachez finement le persil avec l'ail et le zeste râpé du citron.", "en": "Make the gremolata: finely chop the parsley with the garlic and the grated lemon zest.", "es": "Prepara la gremolata: pica fino el perejil con el ajo y la ralladura de limón.", "it": "Prepara la gremolada: trita finemente il prezzemolo con l'aglio e la scorza grattugiata del limone."}, "image": "images/it-ossobuco-alla-milanese/step-6.webp"},
+    {"text": {"fr": "Parsemez la gremolata sur les jarrets, poursuivez la cuisson 2 minutes à découvert, puis servez bien chaud — à Milan, avec un risotto au safran.", "en": "Scatter the gremolata over the shanks, cook uncovered for 2 more minutes, then serve piping hot — in Milan, alongside a saffron risotto.", "es": "Reparte la gremolata sobre los jarretes, prosigue la cocción 2 minutos destapado y sirve bien caliente — en Milán, con un risotto al azafrán.", "it": "Cospargi gli ossobuchi con la gremolada, prosegui la cottura scoperta per 2 minuti e servi ben caldo — a Milano, con il risotto allo zafferano."}, "image": "images/it-ossobuco-alla-milanese/step-7.webp", "timerMinutes": 2}
+  ]
+}
