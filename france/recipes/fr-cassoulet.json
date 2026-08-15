@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-cassoulet",
+  "title": {"fr": "Cassoulet", "en": "Cassoulet", "es": "Cassoulet", "it": "Cassoulet"},
+  "summary": {
+    "fr": "Le monument du Sud-Ouest : haricots blancs fondants, confit de canard, saucisse de Toulouse et poitrine de porc, gratinés lentement au four.",
+    "en": "The great dish of southwestern France: meltingly soft white beans, duck confit, Toulouse sausage and pork belly, slowly baked to a golden crust.",
+    "es": "El plato emblemático del suroeste de Francia: alubias blancas melosas, confit de pato, salchicha de Toulouse y panceta de cerdo, horneados lentamente hasta formar costra.",
+    "it": "Il piatto monumento del Sud-Ovest francese: fagioli bianchi morbidissimi, confit d'anatra, salsiccia di Tolosa e pancetta di maiale, gratinati lentamente in forno."
+  },
+  "region": {"fr": "Languedoc", "en": "Languedoc", "es": "Languedoc", "it": "Linguadoca"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 165,
+  "servings": 6,
+  "heroImage": "images/fr-cassoulet/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "haricot-blanc", "quantity": 500, "unit": "g"},
+    {"ref": "confit-de-canard", "quantity": 4, "unit": "piece"},
+    {"ref": "saucisse-de-toulouse", "quantity": 4, "unit": "piece"},
+    {"ref": "poitrine-de-porc", "quantity": 300, "unit": "g", "substitutes": ["lardons"]},
+    {"ref": "oignon", "quantity": 1, "unit": "piece"},
+    {"ref": "carotte", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 4, "unit": "clove"},
+    {"ref": "concentre-de-tomate", "quantity": 1, "unit": "tbsp"},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece", "substitutes": ["thym"]},
+    {"ref": "clou-de-girofle", "quantity": 2, "unit": "piece"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "La veille, mettez les haricots secs à tremper dans un grand volume d'eau froide pendant 12 heures.", "en": "The day before, soak the dried beans in a large volume of cold water for 12 hours.", "es": "La víspera, pon las alubias secas en remojo en abundante agua fría durante 12 horas.", "it": "Il giorno prima, metti i fagioli secchi in ammollo in abbondante acqua fredda per 12 ore."}, "image": "images/fr-cassoulet/step-1.webp", "timerMinutes": 720},
+    {"text": {"fr": "Égouttez les haricots, couvrez-les d'eau froide, portez à ébullition 5 minutes, puis égouttez-les de nouveau.", "en": "Drain the beans, cover them with cold water, boil for 5 minutes, then drain again.", "es": "Escurre las alubias, cúbrelas con agua fría, hiérvelas 5 minutos y escúrrelas de nuevo.", "it": "Scola i fagioli, coprili con acqua fredda, falli bollire 5 minuti, poi scolali di nuovo."}, "image": "images/fr-cassoulet/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Dans une cocotte, faites revenir la poitrine de porc coupée en gros lardons, puis ajoutez les carottes en rondelles et l'ail écrasé.", "en": "In a heavy pot, brown the pork belly cut into thick lardons, then add the carrot rounds and crushed garlic.", "es": "En una olla, dora la panceta cortada en tacos gruesos y añade las zanahorias en rodajas y el ajo machacado.", "it": "In una casseruola, rosola la pancetta tagliata a tocchetti spessi, poi aggiungi le carote a rondelle e l'aglio schiacciato."}, "image": "images/fr-cassoulet/step-3.webp"},
+    {"text": {"fr": "Ajoutez les haricots, l'oignon piqué des clous de girofle, le bouquet garni et le concentré de tomate. Couvrez d'eau et laissez mijoter 1 heure.", "en": "Add the beans, the onion studded with the cloves, the bouquet garni and the tomato paste. Cover with water and simmer for 1 hour.", "es": "Incorpora las alubias, la cebolla claveteada con los clavos de olor, el ramillete de hierbas y el concentrado de tomate. Cubre con agua y cuece a fuego lento 1 hora.", "it": "Aggiungi i fagioli, la cipolla steccata con i chiodi di garofano, il mazzetto aromatico e il concentrato di pomodoro. Copri d'acqua e lascia sobbollire per 1 ora."}, "image": "images/fr-cassoulet/step-4.webp", "timerMinutes": 60},
+    {"text": {"fr": "Pendant ce temps, faites dorer à la poêle les saucisses de Toulouse et les cuisses de canard confites, côté peau d'abord.", "en": "Meanwhile, brown the Toulouse sausages and the duck confit legs in a frying pan, skin side first.", "es": "Mientras tanto, dora en una sartén las salchichas de Toulouse y los muslos de pato confitados, empezando por el lado de la piel.", "it": "Nel frattempo fai dorare in padella le salsicce di Tolosa e le cosce d'anatra confit, partendo dal lato della pelle."}, "image": "images/fr-cassoulet/step-5.webp", "timerMinutes": 10},
+    {"text": {"fr": "Retirez l'oignon et le bouquet garni. Dans un grand plat en terre cuite, alternez haricots et viandes en enfouissant ces dernières, puis versez le jus de cuisson à hauteur. Salez peu, poivrez.", "en": "Remove the onion and bouquet garni. In a large earthenware dish, layer the beans and meats, tucking the meats in, then pour in cooking liquid to just cover. Salt lightly, add pepper.", "es": "Retira la cebolla y el ramillete. En una fuente grande de barro, alterna alubias y carnes hundiendo estas últimas, y vierte el caldo de cocción hasta cubrir. Sala con moderación y añade pimienta.", "it": "Togli la cipolla e il mazzetto aromatico. In una grande teglia di coccio alterna fagioli e carni, affondando queste ultime, poi versa il liquido di cottura fino a coprire. Sala poco, pepa."}, "image": "images/fr-cassoulet/step-6.webp"},
+    {"text": {"fr": "Enfournez à 160 °C pendant 1 h 30, en cassant la croûte qui se forme avec une cuillère deux ou trois fois en cours de cuisson.", "en": "Bake at 160 °C for 1.5 hours, breaking the crust that forms with a spoon two or three times during cooking.", "es": "Hornea a 160 °C durante 1 hora y media, rompiendo con una cuchara la costra que se forma dos o tres veces durante la cocción.", "it": "Inforna a 160 °C per 1 ora e mezza, rompendo con un cucchiaio la crosta che si forma due o tre volte durante la cottura."}, "image": "images/fr-cassoulet/step-7.webp", "timerMinutes": 90},
+    {"text": {"fr": "Laissez reposer 15 minutes à la sortie du four et servez directement dans le plat, bien chaud.", "en": "Let it rest for 15 minutes out of the oven and serve straight from the dish, nice and hot.", "es": "Deja reposar 15 minutos al sacarlo del horno y sirve directamente en la fuente, bien caliente.", "it": "Lascia riposare 15 minuti fuori dal forno e servi direttamente nella teglia, ben caldo."}, "image": "images/fr-cassoulet/step-8.webp", "timerMinutes": 15}
+  ]
+}

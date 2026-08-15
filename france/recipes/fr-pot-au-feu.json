@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-pot-au-feu",
+  "title": {"fr": "Pot-au-feu", "en": "Pot-au-feu", "es": "Pot-au-feu", "it": "Pot-au-feu"},
+  "summary": {
+    "fr": "Le plat familial français par excellence : bœuf mijoté des heures dans son bouillon avec carottes, poireaux, navets et os à moelle.",
+    "en": "The quintessential French family dish: beef simmered for hours in its broth with carrots, leeks, turnips and marrow bones.",
+    "es": "El plato familiar francés por excelencia: ternera cocida durante horas en su caldo con zanahorias, puerros, nabos y hueso de tuétano.",
+    "it": "Il piatto di famiglia francese per eccellenza: manzo sobbollito per ore nel suo brodo con carote, porri, rape e ossa con midollo."
+  },
+  "region": {"fr": "Toute la France", "en": "Throughout France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 210,
+  "servings": 6,
+  "heroImage": "images/fr-pot-au-feu/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "boeuf-a-braiser", "quantity": 1.5, "unit": "kg"},
+    {"ref": "os-a-moelle", "quantity": 2, "unit": "piece", "optional": true},
+    {"ref": "carotte", "quantity": 4, "unit": "piece"},
+    {"ref": "poireau", "quantity": 3, "unit": "piece"},
+    {"ref": "navet", "quantity": 3, "unit": "piece"},
+    {"ref": "pomme-de-terre", "quantity": 6, "unit": "piece"},
+    {"ref": "oignon", "quantity": 1, "unit": "piece"},
+    {"ref": "clou-de-girofle", "quantity": 3, "unit": "piece"},
+    {"ref": "celeri-branche", "quantity": 1, "unit": "piece"},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece", "substitutes": ["thym"]},
+    {"ref": "moutarde", "quantity": 2, "unit": "tbsp", "optional": true},
+    {"ref": "cornichon", "quantity": 8, "unit": "piece", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Déposez les morceaux de bœuf dans un grand faitout, couvrez largement d'eau froide et portez doucement à ébullition.", "en": "Place the beef pieces in a large stockpot, cover generously with cold water and bring slowly to the boil.", "es": "Coloca los trozos de ternera en una olla grande, cúbrelos con abundante agua fría y lleva lentamente a ebullición.", "it": "Metti i pezzi di manzo in una pentola capiente, copri abbondantemente con acqua fredda e porta lentamente a ebollizione."}, "image": "images/fr-pot-au-feu/step-1.webp"},
+    {"text": {"fr": "Écumez soigneusement pendant le premier quart d'heure, jusqu'à ce que le bouillon soit clair.", "en": "Skim carefully during the first fifteen minutes, until the broth runs clear.", "es": "Espuma con cuidado durante el primer cuarto de hora, hasta que el caldo quede claro.", "it": "Schiuma con cura durante il primo quarto d'ora, finché il brodo diventa limpido."}, "image": "images/fr-pot-au-feu/step-2.webp", "timerMinutes": 15},
+    {"text": {"fr": "Ajoutez l'oignon piqué des clous de girofle, le céleri, le bouquet garni et une bonne poignée de gros sel. Couvrez à demi et laissez mijoter 2 heures à petits frémissements.", "en": "Add the onion studded with the cloves, the celery, the bouquet garni and a good handful of coarse salt. Half-cover and simmer very gently for 2 hours.", "es": "Añade la cebolla claveteada con los clavos, el apio, el ramillete de hierbas y un buen puñado de sal gruesa. Tapa a medias y cuece a fuego muy suave durante 2 horas.", "it": "Aggiungi la cipolla steccata con i chiodi di garofano, il sedano, il mazzetto aromatico e una bella manciata di sale grosso. Copri a metà e lascia sobbollire dolcemente per 2 ore."}, "image": "images/fr-pot-au-feu/step-3.webp", "timerMinutes": 120},
+    {"text": {"fr": "Pendant ce temps, épluchez les carottes, les navets et les pommes de terre, et ficelez les poireaux en botte.", "en": "Meanwhile, peel the carrots, turnips and potatoes, and tie the leeks into a bundle.", "es": "Mientras tanto, pela las zanahorias, los nabos y las patatas, y ata los puerros en un manojo.", "it": "Nel frattempo pela le carote, le rape e le patate, e lega i porri in un mazzetto."}, "image": "images/fr-pot-au-feu/step-4.webp"},
+    {"text": {"fr": "Plongez les carottes, les navets et les poireaux dans le bouillon et poursuivez la cuisson 45 minutes.", "en": "Add the carrots, turnips and leeks to the broth and continue cooking for 45 minutes.", "es": "Incorpora las zanahorias, los nabos y los puerros al caldo y prosigue la cocción 45 minutos.", "it": "Immergi le carote, le rape e i porri nel brodo e prosegui la cottura per 45 minuti."}, "image": "images/fr-pot-au-feu/step-5.webp", "timerMinutes": 45},
+    {"text": {"fr": "Ajoutez les pommes de terre et les os à moelle, et laissez cuire encore 30 minutes.", "en": "Add the potatoes and the marrow bones, and cook for another 30 minutes.", "es": "Añade las patatas y los huesos de tuétano, y deja cocer 30 minutos más.", "it": "Aggiungi le patate e le ossa con midollo, e lascia cuocere ancora 30 minuti."}, "image": "images/fr-pot-au-feu/step-6.webp", "timerMinutes": 30},
+    {"text": {"fr": "Retirez la viande et les légumes, découpez le bœuf en tranches épaisses et disposez le tout sur un grand plat de service.", "en": "Remove the meat and vegetables, carve the beef into thick slices and arrange everything on a large serving platter.", "es": "Retira la carne y las verduras, corta la ternera en lonchas gruesas y dispón todo en una fuente grande.", "it": "Togli la carne e le verdure, taglia il manzo a fette spesse e disponi il tutto su un grande piatto da portata."}, "image": "images/fr-pot-au-feu/step-7.webp"},
+    {"text": {"fr": "Servez avec un bol de bouillon bien chaud, la moutarde, les cornichons et du gros sel pour la moelle.", "en": "Serve with a bowl of piping hot broth, the mustard, the gherkins and coarse salt for the marrow.", "es": "Sirve con un cuenco de caldo bien caliente, la mostaza, los pepinillos y sal gruesa para el tuétano.", "it": "Servi con una ciotola di brodo bollente, la senape, i cetriolini e sale grosso per il midollo."}, "image": "images/fr-pot-au-feu/step-8.webp"}
+  ]
+}

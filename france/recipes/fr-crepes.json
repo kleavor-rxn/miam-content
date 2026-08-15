@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-crepes",
+  "title": {"fr": "Crêpes", "en": "French crêpes", "es": "Crêpes", "it": "Crêpes"},
+  "summary": {
+    "fr": "Les fines crêpes de froment à la bretonne : une pâte toute simple, une poêle bien chaude, et le tour de main pour les faire sauter.",
+    "en": "Thin Brittany-style wheat crêpes: a simple batter, a hot pan, and the knack for flipping them.",
+    "es": "Las finas crêpes de trigo al estilo bretón: una masa muy sencilla, una sartén bien caliente y la maña para darles la vuelta.",
+    "it": "Le sottili crêpes di frumento alla bretone: una pastella semplicissima, una padella ben calda e il polso giusto per girarle."
+  },
+  "region": {"fr": "Bretagne", "en": "Brittany", "es": "Bretaña", "it": "Bretagna"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/fr-crepes/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "lait", "quantity": 50, "unit": "cl"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "sucre", "quantity": 2, "unit": "tbsp"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, mélangez la farine, le sucre et une pincée de sel. Creusez un puits et cassez-y les œufs.", "en": "In a mixing bowl, combine the flour, sugar and a pinch of salt. Make a well and crack the eggs into it.", "es": "En un bol grande, mezcla la harina, el azúcar y una pizca de sal. Haz un hueco en el centro y casca dentro los huevos.", "it": "In una ciotola capiente mescola la farina, lo zucchero e un pizzico di sale. Forma una fontana e rompici dentro le uova."}, "image": "images/fr-crepes/step-1.webp"},
+    {"text": {"fr": "Versez le lait petit à petit en fouettant depuis le centre pour éviter les grumeaux, puis incorporez le beurre fondu et la vanille.", "en": "Pour in the milk little by little, whisking from the centre outwards to avoid lumps, then stir in the melted butter and the vanilla.", "es": "Vierte la leche poco a poco batiendo desde el centro para evitar grumos, e incorpora la mantequilla derretida y la vainilla.", "it": "Versa il latte poco alla volta sbattendo dal centro verso l'esterno per evitare i grumi, poi incorpora il burro fuso e la vaniglia."}, "image": "images/fr-crepes/step-2.webp"},
+    {"text": {"fr": "Laissez reposer la pâte 30 minutes à température ambiante : elle doit napper la louche comme une crème fluide.", "en": "Let the batter rest for 30 minutes at room temperature: it should coat the ladle like a thin cream.", "es": "Deja reposar la masa 30 minutos a temperatura ambiente: debe cubrir el cucharón como una crema ligera.", "it": "Lascia riposare la pastella 30 minuti a temperatura ambiente: deve velare il mestolo come una crema fluida."}, "image": "images/fr-crepes/step-3.webp", "timerMinutes": 30},
+    {"text": {"fr": "Faites bien chauffer une poêle antiadhésive légèrement beurrée, versez une petite louche de pâte et inclinez aussitôt la poêle pour l'étaler en un voile fin.", "en": "Heat a lightly buttered non-stick pan until hot, pour in a small ladleful of batter and immediately tilt the pan to spread it into a thin veil.", "es": "Calienta bien una sartén antiadherente con un poco de mantequilla, vierte un cacito de masa e inclina enseguida la sartén para extenderla en una capa fina.", "it": "Scalda bene una padella antiaderente leggermente imburrata, versa un piccolo mestolo di pastella e inclina subito la padella per stenderla in un velo sottile."}, "image": "images/fr-crepes/step-4.webp"},
+    {"text": {"fr": "Laissez cuire 2 minutes jusqu'à ce que les bords se décollent et dorent, puis retournez la crêpe d'un coup de spatule — ou faites-la sauter — et cuisez encore 1 minute.", "en": "Cook for 2 minutes until the edges lift and turn golden, then flip the crêpe with a spatula — or toss it — and cook for 1 more minute.", "es": "Deja cocer 2 minutos hasta que los bordes se despeguen y se doren, dale la vuelta con una espátula — o lánzala al aire — y cuece 1 minuto más.", "it": "Lascia cuocere 2 minuti finché i bordi si staccano e dorano, poi gira la crêpe con una spatola — o falla saltare — e cuoci ancora 1 minuto."}, "image": "images/fr-crepes/step-5.webp", "timerMinutes": 2},
+    {"text": {"fr": "Empilez les crêpes sur une assiette au fur et à mesure pour les garder moelleuses, et servez-les tièdes, saupoudrées de sucre.", "en": "Stack the crêpes on a plate as you go to keep them soft, and serve them warm, sprinkled with sugar.", "es": "Ve apilando las crêpes en un plato para que se mantengan tiernas, y sírvelas templadas, espolvoreadas con azúcar.", "it": "Impila le crêpes su un piatto man mano che le cuoci per mantenerle morbide, e servile tiepide, cosparse di zucchero."}, "image": "images/fr-crepes/step-6.webp"}
+  ]
+}

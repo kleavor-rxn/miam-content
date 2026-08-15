@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-soupe-a-l-oignon",
+  "title": {"fr": "Soupe à l'oignon gratinée", "en": "French onion soup", "es": "Sopa de cebolla gratinada", "it": "Zuppa di cipolle gratinata"},
+  "summary": {
+    "fr": "La soupe des Halles de Paris : des oignons longuement caramélisés, un bouillon corsé, des croûtons et une croûte de gruyère gratinée.",
+    "en": "The soup of the old Paris market halls: slowly caramelised onions, a rich broth, croutons and a bubbling Gruyère crust.",
+    "es": "La sopa del antiguo mercado de Les Halles de París: cebollas bien caramelizadas, un caldo sabroso, pan tostado y una corteza de gruyer gratinada.",
+    "it": "La zuppa delle vecchie Halles di Parigi: cipolle caramellate a lungo, un brodo corposo, crostini e una crosta di groviera gratinata."
+  },
+  "region": {"fr": "Île-de-France", "en": "Île-de-France", "es": "Isla de Francia", "it": "Île-de-France"},
+  "category": "entree",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "servings": 4,
+  "heroImage": "images/fr-soupe-a-l-oignon/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "oignon", "quantity": 6, "unit": "piece"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "farine", "quantity": 1, "unit": "tbsp"},
+    {"ref": "vin-blanc", "quantity": 10, "unit": "cl", "substitutes": ["bouillon-de-volaille"]},
+    {"ref": "bouillon-de-boeuf", "quantity": 1.5, "unit": "l", "substitutes": ["bouillon-de-volaille"]},
+    {"ref": "baguette", "quantity": 8, "unit": "slice", "substitutes": ["pain"]},
+    {"ref": "gruyere", "quantity": 150, "unit": "g", "substitutes": ["comte"]},
+    {"ref": "thym", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Épluchez les oignons et émincez-les en fines demi-lunes.", "en": "Peel the onions and slice them into thin half-moons.", "es": "Pela las cebollas y córtalas en medias lunas finas.", "it": "Sbuccia le cipolle e affettale a mezzelune sottili."}, "image": "images/fr-soupe-a-l-oignon/step-1.webp"},
+    {"text": {"fr": "Faites fondre le beurre dans une cocotte et laissez compoter les oignons à feu doux 30 minutes, en remuant souvent, jusqu'à une belle couleur blond foncé.", "en": "Melt the butter in a heavy pot and cook the onions over low heat for 30 minutes, stirring often, until they turn a deep golden colour.", "es": "Derrite la mantequilla en una olla y pocha las cebollas a fuego suave durante 30 minutos, removiendo a menudo, hasta que tomen un bonito color dorado oscuro.", "it": "Sciogli il burro in una casseruola e fai stufare le cipolle a fuoco dolce per 30 minuti, mescolando spesso, finché prendono un bel colore dorato scuro."}, "image": "images/fr-soupe-a-l-oignon/step-2.webp", "timerMinutes": 30},
+    {"text": {"fr": "Saupoudrez de farine et mélangez 2 minutes pour la cuire légèrement.", "en": "Sprinkle in the flour and stir for 2 minutes to cook it lightly.", "es": "Espolvorea la harina y mezcla durante 2 minutos para que se cueza un poco.", "it": "Spolvera con la farina e mescola per 2 minuti per farla leggermente tostare."}, "image": "images/fr-soupe-a-l-oignon/step-3.webp", "timerMinutes": 2},
+    {"text": {"fr": "Déglacez au vin blanc, versez le bouillon chaud, salez, poivrez, ajoutez le thym et laissez mijoter 20 minutes à découvert.", "en": "Deglaze with the white wine, pour in the hot stock, season with salt and pepper, add the thyme and simmer uncovered for 20 minutes.", "es": "Desglasa con el vino blanco, vierte el caldo caliente, salpimienta, añade el tomillo y deja cocer a fuego lento 20 minutos sin tapar.", "it": "Sfuma con il vino bianco, versa il brodo caldo, sala, pepa, aggiungi il timo e lascia sobbollire scoperto per 20 minuti."}, "image": "images/fr-soupe-a-l-oignon/step-4.webp", "timerMinutes": 20},
+    {"text": {"fr": "Pendant ce temps, faites griller les tranches de baguette au four ou au grille-pain.", "en": "Meanwhile, toast the baguette slices in the oven or a toaster.", "es": "Mientras tanto, tuesta las rebanadas de baguette en el horno o en la tostadora.", "it": "Nel frattempo fai tostare le fette di baguette in forno o nel tostapane."}, "image": "images/fr-soupe-a-l-oignon/step-5.webp"},
+    {"text": {"fr": "Répartissez la soupe dans des bols allant au four, posez les croûtons dessus et couvrez généreusement de gruyère râpé.", "en": "Ladle the soup into ovenproof bowls, top with the croutons and cover generously with grated Gruyère.", "es": "Reparte la sopa en cuencos aptos para horno, coloca el pan tostado encima y cubre generosamente con gruyer rallado.", "it": "Distribuisci la zuppa in ciotole da forno, adagia sopra i crostini e copri generosamente con groviera grattugiata."}, "image": "images/fr-soupe-a-l-oignon/step-6.webp"},
+    {"text": {"fr": "Passez les bols sous le gril du four 8 minutes, jusqu'à ce que le fromage soit fondu, doré et bouillonnant. Servez brûlant.", "en": "Place the bowls under the broiler for 8 minutes, until the cheese is melted, golden and bubbling. Serve piping hot.", "es": "Gratina los cuencos bajo el grill del horno 8 minutos, hasta que el queso esté fundido, dorado y burbujeante. Sirve bien caliente.", "it": "Passa le ciotole sotto il grill del forno per 8 minuti, finché il formaggio è fuso, dorato e spumeggiante. Servi bollente."}, "image": "images/fr-soupe-a-l-oignon/step-7.webp", "timerMinutes": 8}
+  ]
+}

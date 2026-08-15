@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-tarte-tatin",
+  "title": {"fr": "Tarte Tatin", "en": "Tarte Tatin", "es": "Tarta Tatin", "it": "Tarte Tatin"},
+  "summary": {
+    "fr": "La célèbre tarte renversée des sœurs Tatin : des pommes confites dans un caramel au beurre, cuites sous une pâte puis retournées d'un geste.",
+    "en": "The famous upside-down tart of the Tatin sisters: apples slowly candied in butter caramel, baked under a pastry lid and flipped in one bold move.",
+    "es": "La célebre tarta invertida de las hermanas Tatin: manzanas confitadas en caramelo de mantequilla, horneadas bajo una masa y volcadas de un solo gesto.",
+    "it": "La celebre torta rovesciata delle sorelle Tatin: mele caramellate nel burro, cotte sotto un disco di pasta e capovolte con un gesto deciso."
+  },
+  "region": {"fr": "Sologne", "en": "Sologne", "es": "Sologne", "it": "Sologne"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/fr-tarte-tatin/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "pomme", "quantity": 8, "unit": "piece"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "beurre", "quantity": 80, "unit": "g"},
+    {"ref": "pate-brisee", "quantity": 1, "unit": "piece", "substitutes": ["pate-feuilletee"]},
+    {"ref": "creme-fraiche", "quantity": 20, "unit": "cl", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Pelez les pommes, coupez-les en quartiers épais et retirez le cœur. Choisissez des pommes qui tiennent à la cuisson, comme la reine des reinettes.", "en": "Peel the apples, cut them into thick quarters and remove the cores. Choose apples that hold their shape when cooked, such as firm heritage varieties.", "es": "Pela las manzanas, córtalas en cuartos gruesos y quítales el corazón. Elige manzanas que aguanten la cocción, como la reineta.", "it": "Sbuccia le mele, tagliale in quarti spessi e togli il torsolo. Scegli mele che tengono la cottura, come la renetta."}, "image": "images/fr-tarte-tatin/step-1.webp"},
+    {"text": {"fr": "Dans un moule à tatin ou une poêle allant au four, faites fondre le sucre et le beurre à feu moyen jusqu'à obtenir un caramel ambré, sans remuer.", "en": "In a tatin tin or ovenproof frying pan, melt the sugar and butter over medium heat until you get an amber caramel, without stirring.", "es": "En un molde de tatin o una sartén apta para horno, funde el azúcar y la mantequilla a fuego medio hasta obtener un caramelo ámbar, sin remover.", "it": "In uno stampo da tatin o una padella adatta al forno, fai sciogliere lo zucchero e il burro a fuoco medio fino a ottenere un caramello ambrato, senza mescolare."}, "image": "images/fr-tarte-tatin/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, rangez les quartiers de pommes bien serrés dans le caramel, face bombée vers le fond du moule.", "en": "Off the heat, arrange the apple quarters snugly in the caramel, rounded side facing the bottom of the tin.", "es": "Fuera del fuego, coloca los cuartos de manzana bien apretados sobre el caramelo, con el lado curvo hacia el fondo del molde.", "it": "Fuori dal fuoco, disponi i quarti di mela ben stretti nel caramello, con il lato bombato verso il fondo dello stampo."}, "image": "images/fr-tarte-tatin/step-3.webp"},
+    {"text": {"fr": "Remettez sur feu doux 15 minutes pour que les pommes s'enrobent de caramel et commencent à confire.", "en": "Return to low heat for 15 minutes so the apples soak up the caramel and begin to soften.", "es": "Vuelve a poner a fuego suave 15 minutos para que las manzanas se impregnen de caramelo y empiecen a confitarse.", "it": "Rimetti su fuoco dolce per 15 minuti perché le mele si avvolgano di caramello e inizino a candirsi."}, "image": "images/fr-tarte-tatin/step-4.webp", "timerMinutes": 15},
+    {"text": {"fr": "Posez la pâte brisée sur les pommes et bordez-la en rentrant les bords à l'intérieur du moule avec le dos d'une cuillère. Piquez-la de quelques coups de fourchette.", "en": "Lay the shortcrust pastry over the apples and tuck the edges down inside the tin with the back of a spoon. Prick it a few times with a fork.", "es": "Cubre las manzanas con la masa quebrada y remete los bordes hacia el interior del molde con el dorso de una cuchara. Pínchala varias veces con un tenedor.", "it": "Adagia la pasta brisée sulle mele e rimbocca i bordi all'interno dello stampo con il dorso di un cucchiaio. Bucherellala con qualche colpo di forchetta."}, "image": "images/fr-tarte-tatin/step-5.webp"},
+    {"text": {"fr": "Enfournez à 180 °C pendant 30 minutes, jusqu'à ce que la pâte soit bien dorée et que le caramel bouillonne sur les bords.", "en": "Bake at 180 °C for 30 minutes, until the pastry is golden brown and the caramel bubbles up around the edges.", "es": "Hornea a 180 °C durante 30 minutos, hasta que la masa esté bien dorada y el caramelo burbujee por los bordes.", "it": "Inforna a 180 °C per 30 minuti, finché la pasta è ben dorata e il caramello sobbolle sui bordi."}, "image": "images/fr-tarte-tatin/step-6.webp", "timerMinutes": 30},
+    {"text": {"fr": "Laissez tiédir 5 minutes, posez un plat de service sur le moule et retournez le tout d'un geste vif et assuré. Servez tiède, avec de la crème fraîche.", "en": "Let it cool for 5 minutes, place a serving plate over the tin and flip the whole thing in one swift, confident move. Serve warm, with crème fraîche.", "es": "Deja templar 5 minutos, coloca un plato de servir sobre el molde y dale la vuelta con un gesto rápido y decidido. Sirve templada, con nata fresca.", "it": "Lascia intiepidire 5 minuti, appoggia un piatto da portata sullo stampo e capovolgi il tutto con un gesto rapido e sicuro. Servi tiepida, con panna fresca."}, "image": "images/fr-tarte-tatin/step-7.webp", "timerMinutes": 5}
+  ]
+}
