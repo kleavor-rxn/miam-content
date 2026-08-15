@@ -62,3 +62,11 @@ def test_check_detects_exhausted_calendar(content_repo):
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
     errors = check_index(content_repo, "france", today=date(2026, 9, 10))
     assert any("7 jours" in e for e in errors)
+
+
+def test_check_detects_orphan_index_entry(content_repo):
+    index = build_index(content_repo, "france", now=T1)
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    (content_repo / "france" / "recipes" / "fr-test-deux.json").unlink()
+    errors = check_index(content_repo, "france", today=date(2026, 8, 14))
+    assert any("absent du disque" in e for e in errors)

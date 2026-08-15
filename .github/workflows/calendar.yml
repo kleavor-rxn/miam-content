@@ -13,9 +13,11 @@ jobs:
         with: {python-version: "3.12", cache: pip}
       - run: pip install -r requirements.txt
       - run: python -m tools.build_index
+      - run: python -m tools.validate
       - run: |
           git config user.name "miam-content-bot"
           git config user.email "bot@raxoon.com"
           git add ./*/index.json
           git diff --cached --quiet || git commit -m "chore: extension du calendrier dailyPicks"
+          git pull --rebase
           git push

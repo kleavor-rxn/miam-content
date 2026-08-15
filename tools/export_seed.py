@@ -8,16 +8,26 @@ import shutil
 import sys
 from pathlib import Path
 
+from tools.countries import COUNTRIES
+
 
 def export_seed(root: Path, country: str, out_dir: Path) -> list[str]:
     cdir = root / country
-    ids = [line.strip() for line in (cdir / "seed.txt").read_text().splitlines()
-           if line.strip() and not line.startswith("#")]
+    lines = [line.strip() for line in (cdir / "seed.txt").read_text().splitlines()]
+    ids = list(dict.fromkeys(l for l in lines if l and not l.startswith("#")))
     index = json.loads((cdir / "index.json").read_text())
     known = {r["id"] for r in index["recipes"]}
     unknown = [i for i in ids if i not in known]
     if unknown:
         raise ValueError(f"ids de seed absents de l'index : {unknown}")
+    out_dir = out_dir.resolve()
+    rroot = root.resolve()
+    forbidden = {rroot, *[(rroot / c) for c in COUNTRIES]}
+    if out_dir in forbidden or out_dir in rroot.parents:
+        raise ValueError(f"dossier de sortie dangereux : {out_dir}")
+    if out_dir.exists() and any(out_dir.iterdir()) and not (
+            (out_dir / "index.json").is_file() and (out_dir / "recipes").is_dir()):
+        raise ValueError(f"refus d'écraser : {out_dir} n'est pas un export précédent")
     if out_dir.exists():
         shutil.rmtree(out_dir)
     (out_dir / "recipes").mkdir(parents=True)
@@ -26,7 +36,7 @@ def export_seed(root: Path, country: str, out_dir: Path) -> list[str]:
         shutil.copy2(cdir / "recipes" / f"{rid}.json", out_dir / "recipes")
         # exclut l'outillage du bundle app : marqueurs et prompts photo
         shutil.copytree(cdir / "images" / rid, out_dir / "images" / rid,
-                        ignore=shutil.ignore_patterns(".placeholder", "PROMPTS.md"))
+                        ignore=shutil.ignore_patterns(".placeholder", "PROMPTS.md", ".DS_Store"))
     seed_index = {
         "schemaVersion": index["schemaVersion"],
         "generatedAt": index["generatedAt"],

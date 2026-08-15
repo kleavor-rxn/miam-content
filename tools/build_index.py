@@ -79,8 +79,17 @@ def check_index(root: Path, country: str, today: date) -> list[str]:
 
 
 def main(argv: list[str]) -> int:
-    check = "--check" in argv
+    flags = [a for a in argv if a.startswith("--")]
+    unknown_flags = [f for f in flags if f != "--check"]
+    if unknown_flags:
+        print(f"option inconnue : {', '.join(unknown_flags)}")
+        return 2
+    check = "--check" in flags
     countries = [a for a in argv if not a.startswith("--")] or list(COUNTRIES)
+    unknown = [c for c in countries if c not in COUNTRIES]
+    if unknown:
+        print(f"pays inconnu : {', '.join(unknown)} (attendus : {', '.join(COUNTRIES)})")
+        return 2
     now = datetime.now(timezone.utc)
     if check:
         errors = []

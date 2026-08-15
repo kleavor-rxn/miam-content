@@ -24,7 +24,7 @@ def extend_daily_picks(existing: list[dict], recipe_ids: list[str],
     start = min([date.fromisoformat(d) for d in valid] + [today])
     picks: list[dict] = []
     day = start
-    while day <= horizon:
+    while day <= horizon:  # les picks préservés au-delà de l'horizon sont tronqués (churn théorique accepté)
         key = day.isoformat()
         if key in valid:
             rid = valid[key]
