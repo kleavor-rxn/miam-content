@@ -22,10 +22,10 @@ Reconstruit `index.json` à partir des fiches recettes présentes sur le disque.
 
 ### `process_images`
 
-Convertit et redimensionne les images sources en `.webp` dans le dossier de la recette.
+Convertit et redimensionne les images sources (`hero.*`, `step-N.*`) d'un dossier vers des `.webp` normalisés dans le dossier de la recette, et retire le marqueur `.placeholder`.
 
 ```bash
-.venv/bin/python -m tools.process_images france fr-poulet-basquaise
+.venv/bin/python -m tools.process_images ~/photos/poulet-basquaise france fr-poulet-basquaise
 ```
 
 ### `placeholders`
@@ -38,10 +38,10 @@ Génère des images de substitution (`.placeholder`) pour une recette dont les p
 
 ### `export_seed`
 
-Exporte un jeu de données minimal pour le seed d'un environnement de développement.
+Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + images + index filtré) vers un dossier de sortie.
 
 ```bash
-.venv/bin/python -m tools.export_seed france --out seed/
+.venv/bin/python -m tools.export_seed france /tmp/miam-seed-fr
 ```
 
 ## Protocole d'écriture d'une recette
