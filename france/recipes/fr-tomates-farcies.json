@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-tomates-farcies",
+  "title": {"fr": "Tomates farcies", "en": "Stuffed tomatoes", "es": "Tomates rellenos", "it": "Pomodori ripieni"},
+  "summary": {
+    "fr": "Le plat familial du dimanche : de grosses tomates garnies de chair à saucisse aux herbes, cuites au four sur un lit de riz qui s'imprègne de tous les sucs.",
+    "en": "The Sunday family classic: big tomatoes filled with herby sausage meat, baked over a bed of rice that soaks up all the juices.",
+    "es": "El plato familiar del domingo: tomates grandes rellenos de carne de salchicha con hierbas, horneados sobre un lecho de arroz que se empapa de todos los jugos.",
+    "it": "Il piatto della domenica in famiglia: grossi pomodori farciti di pasta di salsiccia alle erbe, cotti in forno su un letto di riso che si impregna di tutti i succhi."
+  },
+  "region": {"fr": "Provence", "en": "Provence", "es": "Provenza", "it": "Provenza"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 4,
+  "heroImage": "images/fr-tomates-farcies/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Faites cuire le riz à part : le lit de riz n'est pas possible dans le panier. Préchauffez à 170 °C, déposez 4 tomates farcies sans chapeau, en une seule couche, dans un petit plat ou sur du papier cuisson perforé. Comptez 18 à 20 minutes, en reposant les chapeaux pour les 5 dernières minutes afin qu'ils ne brûlent pas ; ajoutez 2 à 3 minutes si les tomates sont très grosses.",
+    "en": "Cook the rice separately: the rice bed won't work in the basket. Preheat to 170 °C and place 4 stuffed tomatoes without their lids, in a single layer, in a small dish or on perforated parchment. Allow 18 to 20 minutes, putting the lids back on for the last 5 minutes so they don't burn; add 2 to 3 minutes for very large tomatoes.",
+    "es": "Cuece el arroz aparte: el lecho de arroz no es posible en la cesta. Precalienta a 170 °C y coloca 4 tomates rellenos sin sombrerito, en una sola capa, en una fuente pequeña o sobre papel de horno perforado. Calcula de 18 a 20 minutos, volviendo a poner los sombreritos los últimos 5 minutos para que no se quemen; añade 2 o 3 minutos si los tomates son muy grandes.",
+    "it": "Cuoci il riso a parte: il letto di riso non è fattibile nel cestello. Preriscalda a 170 °C e disponi 4 pomodori farciti senza calottina, in un solo strato, in una piccola pirofila o su carta forno forata. Calcola 18-20 minuti, rimettendo le calottine negli ultimi 5 minuti perché non brucino; aggiungi 2-3 minuti se i pomodori sono molto grossi."
+  },
+  "ingredients": [
+    {"ref": "tomate", "quantity": 8, "unit": "piece"},
+    {"ref": "chair-a-saucisse", "quantity": 600, "unit": "g", "substitutes": ["saucisse-de-toulouse"]},
+    {"ref": "oignon", "quantity": 1, "unit": "piece"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "persil", "quantity": 2, "unit": "tbsp"},
+    {"ref": "thym", "quantity": 1, "unit": "tsp"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "chapelure", "quantity": 3, "unit": "tbsp"},
+    {"ref": "riz", "quantity": 150, "unit": "g"},
+    {"ref": "huile-olive", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Découpez un chapeau sur chaque tomate et évidez-les à la cuillère au-dessus d'un bol, en réservant la pulpe. Salez l'intérieur et retournez-les sur une grille 15 minutes pour les faire dégorger.", "en": "Slice a lid off each tomato and hollow them out with a spoon over a bowl, saving the pulp. Salt the insides and turn them upside down on a rack for 15 minutes to drain.", "es": "Corta un sombrerito a cada tomate y vacíalos con una cuchara sobre un cuenco, reservando la pulpa. Sala el interior y ponlos boca abajo sobre una rejilla 15 minutos para que suelten el agua.", "it": "Taglia una calottina da ogni pomodoro e svuotali con un cucchiaio sopra una ciotola, conservando la polpa. Sala l'interno e capovolgili su una griglia per 15 minuti a perdere l'acqua."}, "image": "images/fr-tomates-farcies/step-1.webp", "timerMinutes": 15},
+    {"text": {"fr": "Préchauffez le four à 180 °C. Faites revenir l'oignon haché et l'ail écrasé dans une cuillerée d'huile d'olive pendant 5 minutes, jusqu'à ce qu'ils soient translucides.", "en": "Preheat the oven to 180 °C. Sauté the chopped onion and crushed garlic in a spoonful of olive oil for 5 minutes, until translucent.", "es": "Precalienta el horno a 180 °C. Sofríe la cebolla picada y el ajo machacado en una cucharada de aceite de oliva durante 5 minutos, hasta que estén transparentes.", "it": "Preriscalda il forno a 180 °C. Fai rosolare la cipolla tritata e l'aglio schiacciato in un cucchiaio d'olio d'oliva per 5 minuti, finché diventano traslucidi."}, "image": "images/fr-tomates-farcies/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Dans un saladier, mélangez la chair à saucisse avec l'oignon revenu, le persil ciselé, le thym, l'œuf et la chapelure. Poivrez et salez à peine : la chair est déjà assaisonnée.", "en": "In a mixing bowl, combine the sausage meat with the cooked onion, chopped parsley, thyme, egg and breadcrumbs. Add pepper but go easy on the salt: the sausage meat is already seasoned.", "es": "En un bol, mezcla la carne de salchicha con la cebolla sofrita, el perejil picado, el tomillo, el huevo y el pan rallado. Añade pimienta y muy poca sal: la carne ya viene sazonada.", "it": "In una ciotola, mescola la pasta di salsiccia con la cipolla rosolata, il prezzemolo tritato, il timo, l'uovo e il pangrattato. Pepa e sala appena: la salsiccia è già saporita."}, "image": "images/fr-tomates-farcies/step-3.webp"},
+    {"text": {"fr": "Étalez le riz cru dans un plat à four huilé, versez dessus la pulpe des tomates grossièrement hachée avec son jus, salez et poivrez.", "en": "Spread the raw rice in an oiled baking dish, pour the roughly chopped tomato pulp and its juice over it, then season with salt and pepper.", "es": "Extiende el arroz crudo en una fuente de horno engrasada, vierte encima la pulpa de tomate troceada con su jugo y salpimienta.", "it": "Distribuisci il riso crudo in una pirofila unta d'olio, versaci sopra la polpa dei pomodori tritata grossolanamente con il suo succo, sala e pepa."}, "image": "images/fr-tomates-farcies/step-4.webp"},
+    {"text": {"fr": "Garnissez généreusement les tomates de farce, posez-les sur le riz, coiffez-les de leur chapeau et arrosez le tout du reste d'huile d'olive.", "en": "Fill the tomatoes generously with stuffing, sit them on the rice, put their lids back on and drizzle everything with the remaining olive oil.", "es": "Rellena generosamente los tomates con la farsa, colócalos sobre el arroz, tápalos con sus sombreritos y riega todo con el resto del aceite de oliva.", "it": "Farcisci generosamente i pomodori, adagiali sul riso, richiudili con le loro calottine e irrora il tutto con l'olio d'oliva rimasto."}, "image": "images/fr-tomates-farcies/step-5.webp"},
+    {"text": {"fr": "Enfournez pour 45 minutes : le riz doit avoir absorbé le jus et la farce être bien dorée. Ajoutez un peu d'eau chaude à mi-cuisson si le riz semble sec.", "en": "Bake for 45 minutes: the rice should have absorbed the juices and the stuffing should be nicely browned. Add a splash of hot water halfway through if the rice looks dry.", "es": "Hornea 45 minutos: el arroz debe haber absorbido el jugo y el relleno estar bien dorado. Añade un poco de agua caliente a media cocción si el arroz se ve seco.", "it": "Inforna per 45 minuti: il riso deve aver assorbito il succo e il ripieno risultare ben dorato. Aggiungi un goccio d'acqua calda a metà cottura se il riso sembra asciutto."}, "image": "images/fr-tomates-farcies/step-6.webp", "timerMinutes": 45},
+    {"text": {"fr": "Laissez reposer 5 minutes, puis servez les tomates sur leur lit de riz, parsemées de persil frais.", "en": "Let rest for 5 minutes, then serve the tomatoes on their bed of rice, scattered with fresh parsley.", "es": "Deja reposar 5 minutos y sirve los tomates sobre su lecho de arroz, espolvoreados con perejil fresco.", "it": "Lascia riposare 5 minuti, poi servi i pomodori sul loro letto di riso, cosparsi di prezzemolo fresco."}, "image": "images/fr-tomates-farcies/step-7.webp", "timerMinutes": 5}
+  ]
+}

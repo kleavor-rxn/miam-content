@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-gougeres",
+  "title": {"fr": "Gougères", "en": "Gougères", "es": "Gougères", "it": "Gougères"},
+  "summary": {
+    "fr": "Les bouchées soufflées de Bourgogne : une pâte à choux au comté, dorée et croustillante dehors, moelleuse dedans — irrésistibles à l'apéritif.",
+    "en": "Burgundy's airy cheese puffs: choux pastry laced with Comté, golden and crisp outside, soft within — irresistible with drinks.",
+    "es": "Los bocaditos soplados de Borgoña: masa choux con queso comté, dorada y crujiente por fuera, tierna por dentro; irresistibles en el aperitivo.",
+    "it": "I bocconcini soffiati della Borgogna: pasta choux al Comté, dorata e croccante fuori, morbida dentro — irresistibili per l'aperitivo."
+  },
+  "region": {"fr": "Bourgogne", "en": "Burgundy", "es": "Borgoña", "it": "Borgogna"},
+  "category": "autre",
+  "difficulty": 3,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "servings": 6,
+  "heroImage": "images/fr-gougeres/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Tapissez le panier de papier cuisson perforé et préchauffez à 170 °C. Dressez des gougères un peu plus petites qu'au four, en une seule couche bien espacée, et comptez 12 à 14 minutes par fournée sans ouvrir avant 10 minutes, sous peine de les voir retomber. Elles gonflent et colorent plus vite qu'au four traditionnel : baissez à 160 °C si elles dorent trop. Cuisez en 3 ou 4 fournées.",
+    "en": "Line the basket with perforated parchment and preheat to 170 °C. Pipe slightly smaller gougères than you would for the oven, in a single well-spaced layer, and cook 12 to 14 minutes per batch without opening before the 10-minute mark, or they will collapse. They puff and colour faster than in a conventional oven: drop to 160 °C if they brown too quickly. Cook in 3 or 4 batches.",
+    "es": "Forra la cesta con papel de horno perforado y precalienta a 170 °C. Forma gougères algo más pequeñas que para el horno, en una sola capa bien espaciada, y cuenta de 12 a 14 minutos por tanda sin abrir antes de los 10 minutos, o se desinflarán. Suben y cogen color más rápido que en el horno tradicional: baja a 160 °C si se doran demasiado pronto. Cocina en 3 o 4 tandas.",
+    "it": "Rivesti il cestello con carta forno forata e preriscalda a 170 °C. Forma gougères un po' più piccole rispetto al forno, in un solo strato ben distanziato, e calcola 12-14 minuti a infornata senza aprire prima di 10 minuti, altrimenti si sgonfiano. Gonfiano e prendono colore più in fretta che nel forno tradizionale: scendi a 160 °C se dorano troppo. Cuoci in 3 o 4 riprese."
+  },
+  "ingredients": [
+    {"ref": "eau", "quantity": 25, "unit": "cl"},
+    {"ref": "beurre", "quantity": 80, "unit": "g"},
+    {"ref": "farine", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "comte", "quantity": 120, "unit": "g", "substitutes": ["gruyere"]},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole, portez à ébullition l'eau avec le beurre en morceaux et une bonne pincée de sel.", "en": "In a saucepan, bring the water to the boil with the butter cut into pieces and a good pinch of salt.", "es": "En un cazo, lleva a ebullición el agua con la mantequilla en trozos y una buena pizca de sal.", "it": "In un pentolino, porta a ebollizione l'acqua con il burro a pezzetti e un bel pizzico di sale."}, "image": "images/fr-gougeres/step-1.webp"},
+    {"text": {"fr": "Hors du feu, versez la farine d'un coup et mélangez énergiquement à la spatule jusqu'à ce que la pâte se détache des parois.", "en": "Off the heat, tip in all the flour at once and beat vigorously with a spatula until the dough pulls away from the sides.", "es": "Fuera del fuego, añade toda la harina de golpe y remueve con energía con una espátula hasta que la masa se despegue de las paredes.", "it": "Fuori dal fuoco, versa la farina in un colpo solo e mescola energicamente con una spatola finché l'impasto si stacca dalle pareti."}, "image": "images/fr-gougeres/step-2.webp"},
+    {"text": {"fr": "Remettez la casserole sur feu doux et desséchez la pâte 2 minutes en remuant : elle doit former une boule brillante qui laisse un léger film au fond.", "en": "Return the pan to low heat and dry the dough out for 2 minutes, stirring: it should form a glossy ball that leaves a thin film on the bottom.", "es": "Vuelve a poner el cazo a fuego suave y seca la masa 2 minutos removiendo: debe formar una bola brillante que deje una fina película en el fondo.", "it": "Rimetti il pentolino su fuoco dolce e asciuga l'impasto per 2 minuti mescolando: deve formare una palla lucida che lascia una sottile patina sul fondo."}, "image": "images/fr-gougeres/step-3.webp", "timerMinutes": 2},
+    {"text": {"fr": "Transvasez la pâte dans un saladier, laissez-la tiédir 5 minutes, puis incorporez les œufs un à un en mélangeant bien entre chaque.", "en": "Transfer the dough to a bowl, let it cool for 5 minutes, then beat in the eggs one at a time, mixing well after each addition.", "es": "Pasa la masa a un bol, deja que se temple 5 minutos e incorpora los huevos de uno en uno, mezclando bien entre cada adición.", "it": "Trasferisci l'impasto in una ciotola, lascialo intiepidire 5 minuti, poi incorpora le uova una alla volta, mescolando bene tra un'aggiunta e l'altra."}, "image": "images/fr-gougeres/step-4.webp", "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez le comté râpé, la muscade et un tour de moulin à poivre. La pâte doit être souple et retomber de la spatule en formant un ruban.", "en": "Stir in the grated Comté, the nutmeg and a twist of pepper. The dough should be supple and fall from the spatula in a smooth ribbon.", "es": "Añade el comté rallado, la nuez moscada y un golpe de molinillo de pimienta. La masa debe quedar flexible y caer de la espátula formando una cinta.", "it": "Aggiungi il Comté grattugiato, la noce moscata e una macinata di pepe. L'impasto deve essere morbido e ricadere dalla spatola formando un nastro."}, "image": "images/fr-gougeres/step-5.webp"},
+    {"text": {"fr": "Préchauffez le four à 200 °C. Dressez des petites boules de pâte à la poche ou à la cuillère sur une plaque tapissée de papier cuisson, en les espaçant bien.", "en": "Preheat the oven to 200 °C. Pipe or spoon small balls of dough onto a baking sheet lined with parchment, spacing them well apart.", "es": "Precalienta el horno a 200 °C. Forma bolitas de masa con manga pastelera o con cuchara sobre una bandeja forrada con papel de horno, bien espaciadas.", "it": "Preriscalda il forno a 200 °C. Forma delle palline di impasto con la sac à poche o con un cucchiaio su una teglia rivestita di carta forno, ben distanziate."}, "image": "images/fr-gougeres/step-6.webp"},
+    {"text": {"fr": "Enfournez pour 25 minutes sans jamais ouvrir la porte : les gougères doivent être bien gonflées et dorées. Servez-les tièdes.", "en": "Bake for 25 minutes without ever opening the door: the gougères should be well puffed and golden. Serve them warm.", "es": "Hornea 25 minutos sin abrir la puerta en ningún momento: las gougères deben quedar bien hinchadas y doradas. Sírvelas tibias.", "it": "Inforna per 25 minuti senza mai aprire lo sportello: le gougères devono risultare ben gonfie e dorate. Servile tiepide."}, "image": "images/fr-gougeres/step-7.webp", "timerMinutes": 25}
+  ]
+}

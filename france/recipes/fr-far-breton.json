@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-far-breton",
+  "title": {"fr": "Far breton", "en": "Far breton", "es": "Far bretón", "it": "Far bretone"},
+  "summary": {
+    "fr": "Le flan dense et doré de Bretagne, piqué de pruneaux moelleux imbibés de rhum : une pâte toute simple qui cache un dessert profondément réconfortant.",
+    "en": "Brittany's dense golden custard cake, studded with plump rum-soaked prunes: a very simple batter hiding a deeply comforting dessert.",
+    "es": "El flan denso y dorado de Bretaña, salpicado de ciruelas pasas jugosas embebidas en ron: una masa sencillísima que esconde un postre de lo más reconfortante.",
+    "it": "Il flan denso e dorato della Bretagna, punteggiato di prugne secche morbide imbevute di rum: una pastella semplicissima che nasconde un dolce di grande conforto."
+  },
+  "region": {"fr": "Bretagne", "en": "Brittany", "es": "Bretaña", "it": "Bretagna"},
+  "category": "dessert",
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/fr-far-breton/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "lait", "quantity": 1, "unit": "l"},
+    {"ref": "pruneau", "quantity": 250, "unit": "g"},
+    {"ref": "beurre", "quantity": 30, "unit": "g"},
+    {"ref": "rhum", "quantity": 3, "unit": "tbsp", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Mettez les pruneaux à gonfler 30 minutes dans le rhum allongé d'un peu d'eau tiède (ou dans du thé pour une version sans alcool).", "en": "Soak the prunes for 30 minutes in the rum topped up with a little warm water (or in tea for an alcohol-free version).", "es": "Pon las ciruelas pasas a remojar 30 minutos en el ron alargado con un poco de agua tibia (o en té para una versión sin alcohol).", "it": "Metti le prugne ad ammorbidirsi per 30 minuti nel rum allungato con poca acqua tiepida (o nel tè per una versione analcolica)."}, "image": "images/fr-far-breton/step-1.webp", "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 200 °C et beurrez généreusement un plat à four en terre ou en métal.", "en": "Preheat the oven to 200 °C and generously butter an earthenware or metal baking dish.", "es": "Precalienta el horno a 200 °C y engrasa generosamente con mantequilla una fuente de barro o de metal.", "it": "Preriscalda il forno a 200 °C e imburra generosamente una pirofila di terracotta o di metallo."}, "image": "images/fr-far-breton/step-2.webp"},
+    {"text": {"fr": "Fouettez les œufs avec le sucre et une pincée de sel, puis incorporez la farine sans faire de grumeaux.", "en": "Whisk the eggs with the sugar and a pinch of salt, then work in the flour until lump-free.", "es": "Bate los huevos con el azúcar y una pizca de sal, e incorpora la harina sin que queden grumos.", "it": "Sbatti le uova con lo zucchero e un pizzico di sale, poi incorpora la farina senza formare grumi."}, "image": "images/fr-far-breton/step-3.webp"},
+    {"text": {"fr": "Délayez peu à peu avec le lait, en fouettant jusqu'à obtenir une pâte fluide comme une pâte à crêpes épaisse.", "en": "Gradually whisk in the milk until the batter is as fluid as a thick crêpe batter.", "es": "Añade la leche poco a poco, batiendo hasta obtener una masa fluida como una masa de crêpes espesa.", "it": "Diluisci a poco a poco con il latte, sbattendo fino a ottenere una pastella fluida come quella per crêpe, ma più densa."}, "image": "images/fr-far-breton/step-4.webp"},
+    {"text": {"fr": "Versez la pâte dans le plat, répartissez les pruneaux égouttés et enfournez pour 50 minutes, jusqu'à ce que le dessus soit brun foncé et bombé.", "en": "Pour the batter into the dish, scatter over the drained prunes and bake for 50 minutes, until the top is deep brown and puffed.", "es": "Vierte la masa en la fuente, reparte las ciruelas escurridas y hornea 50 minutos, hasta que la superficie esté bien tostada e hinchada.", "it": "Versa la pastella nella pirofila, distribuisci le prugne scolate e inforna per 50 minuti, finché la superficie è ben brunita e gonfia."}, "image": "images/fr-far-breton/step-5.webp", "timerMinutes": 50},
+    {"text": {"fr": "Laissez tiédir complètement dans le plat : le far retombe et prend sa texture dense caractéristique. Servez-le à température ambiante, coupé en carrés.", "en": "Let it cool completely in the dish: the far will sink and take on its signature dense texture. Serve at room temperature, cut into squares.", "es": "Deja enfriar por completo en la fuente: el far baja y adquiere su característica textura densa. Sírvelo a temperatura ambiente, cortado en cuadrados.", "it": "Lascia raffreddare completamente nella pirofila: il far si assesta e prende la sua tipica consistenza densa. Servilo a temperatura ambiente, tagliato a quadrotti."}, "image": "images/fr-far-breton/step-6.webp", "timerMinutes": 60}
+  ]
+}

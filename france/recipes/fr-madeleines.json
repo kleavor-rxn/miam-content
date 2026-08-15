@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-madeleines",
+  "title": {"fr": "Madeleines", "en": "Madeleines", "es": "Madeleines", "it": "Madeleine"},
+  "summary": {
+    "fr": "Les petits gâteaux coquillage de Commercy, dorés et joliment bombés, parfumés au citron et au miel : le goûter français par excellence.",
+    "en": "The little shell-shaped cakes from Commercy, golden with their signature hump, scented with lemon and honey: the quintessential French teatime treat.",
+    "es": "Los bizcochitos con forma de concha de Commercy, dorados y con su característica joroba, perfumados con limón y miel: la merienda francesa por excelencia.",
+    "it": "I dolcetti a forma di conchiglia di Commercy, dorati e con la loro tipica gobba, profumati al limone e al miele: la merenda francese per eccellenza."
+  },
+  "region": {"fr": "Lorraine", "en": "Lorraine", "es": "Lorena", "it": "Lorena"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 12,
+  "servings": 6,
+  "heroImage": "images/fr-madeleines/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Utilisez un moule à madeleines en silicone qui tient dans le panier. Préchauffez l'air fryer à 180 °C, remplissez les empreintes aux trois quarts avec la pâte sortant du réfrigérateur et comptez 8 minutes par fournée, sans ouvrir avant 6 minutes. Si le dessus dore trop vite, posez un petit morceau de papier cuisson les 2 dernières minutes. Cuisez en 2 ou 3 fournées, en gardant la pâte au frais entre chaque : c'est le froid qui fait la bosse.",
+    "en": "Use a silicone madeleine mould that fits in the basket. Preheat the air fryer to 180 °C, fill the moulds three-quarters full with batter straight from the fridge and cook 8 minutes per batch, without opening before the 6-minute mark. If the tops brown too fast, lay a small piece of parchment over them for the last 2 minutes. Bake in 2 or 3 batches, keeping the batter chilled in between: the cold is what makes the hump.",
+    "es": "Usa un molde de madeleines de silicona que quepa en la cesta. Precalienta la freidora de aire a 180 °C, rellena las cavidades hasta tres cuartos con la masa recién sacada de la nevera y cuenta 8 minutos por tanda, sin abrir antes de los 6 minutos. Si la superficie se dora demasiado rápido, cúbrela con un trocito de papel de horno los últimos 2 minutos. Hornea en 2 o 3 tandas, manteniendo la masa en frío entre una y otra: el frío es lo que hace la joroba.",
+    "it": "Usa uno stampo per madeleine in silicone che entri nel cestello. Preriscalda la friggitrice ad aria a 180 °C, riempi le impronte per tre quarti con l'impasto appena uscito dal frigorifero e calcola 8 minuti a infornata, senza aprire prima di 6 minuti. Se la superficie dora troppo in fretta, appoggia un pezzetto di carta forno negli ultimi 2 minuti. Cuoci in 2 o 3 riprese, tenendo l'impasto in fresco nel frattempo: è il freddo a creare la gobba."
+  },
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "sucre", "quantity": 120, "unit": "g"},
+    {"ref": "miel", "quantity": 1, "unit": "tbsp"},
+    {"ref": "farine", "quantity": 150, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
+    {"ref": "beurre", "quantity": 125, "unit": "g"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre le beurre à feu doux et laissez-le tiédir.", "en": "Melt the butter over low heat and let it cool until lukewarm.", "es": "Derrite la mantequilla a fuego suave y deja que se temple.", "it": "Fai sciogliere il burro a fuoco dolce e lascialo intiepidire."}, "image": "images/fr-madeleines/step-1.webp"},
+    {"text": {"fr": "Fouettez les œufs avec le sucre, le miel et une pincée de sel jusqu'à ce que le mélange blanchisse et mousse.", "en": "Whisk the eggs with the sugar, honey and a pinch of salt until the mixture turns pale and frothy.", "es": "Bate los huevos con el azúcar, la miel y una pizca de sal hasta que la mezcla blanquee y espume.", "it": "Sbatti le uova con lo zucchero, il miele e un pizzico di sale finché il composto schiarisce e diventa spumoso."}, "image": "images/fr-madeleines/step-2.webp"},
+    {"text": {"fr": "Incorporez la farine, la levure et le zeste râpé du citron, puis le beurre fondu tiède. Mélangez juste ce qu'il faut pour lisser la pâte.", "en": "Fold in the flour, baking powder and grated lemon zest, then the lukewarm melted butter. Mix just enough to smooth the batter.", "es": "Incorpora la harina, la levadura y la ralladura del limón, y después la mantequilla fundida templada. Mezcla lo justo para alisar la masa.", "it": "Incorpora la farina, il lievito e la scorza grattugiata del limone, poi il burro fuso tiepido. Mescola quel tanto che basta a lisciare l'impasto."}, "image": "images/fr-madeleines/step-3.webp"},
+    {"text": {"fr": "Couvrez la pâte et placez-la au moins 1 heure au réfrigérateur : c'est le choc thermique qui fera naître la bosse.", "en": "Cover the batter and chill it for at least 1 hour: the thermal shock is what creates the famous hump.", "es": "Tapa la masa y déjala al menos 1 hora en la nevera: el choque térmico es lo que hará nacer la joroba.", "it": "Copri l'impasto e lascialo almeno 1 ora in frigorifero: è lo shock termico a far nascere la gobba."}, "image": "images/fr-madeleines/step-4.webp", "timerMinutes": 60},
+    {"text": {"fr": "Préchauffez le four à 220 °C. Beurrez et farinez les empreintes du moule à madeleines, même s'il est en silicone.", "en": "Preheat the oven to 220 °C. Butter and flour the madeleine moulds, even if they're silicone.", "es": "Precalienta el horno a 220 °C. Engrasa con mantequilla y enharina las cavidades del molde para madeleines, aunque sea de silicona.", "it": "Preriscalda il forno a 220 °C. Imburra e infarina gli stampini per madeleine, anche se sono in silicone."}, "image": "images/fr-madeleines/step-5.webp"},
+    {"text": {"fr": "Remplissez chaque empreinte aux trois quarts avec la pâte bien froide, sans chercher à l'étaler.", "en": "Fill each mould three-quarters full with the well-chilled batter, without trying to spread it.", "es": "Rellena cada cavidad hasta tres cuartos con la masa bien fría, sin intentar extenderla.", "it": "Riempi ogni impronta per tre quarti con l'impasto ben freddo, senza cercare di stenderlo."}, "image": "images/fr-madeleines/step-6.webp"},
+    {"text": {"fr": "Enfournez 4 minutes à 220 °C, puis baissez à 180 °C et poursuivez 6 à 7 minutes, jusqu'à ce que les bosses soient bien dorées.", "en": "Bake for 4 minutes at 220 °C, then lower to 180 °C and continue for 6 to 7 minutes, until the humps are golden.", "es": "Hornea 4 minutos a 220 °C, baja a 180 °C y sigue 6-7 minutos más, hasta que las jorobas estén bien doradas.", "it": "Inforna per 4 minuti a 220 °C, poi abbassa a 180 °C e prosegui per 6-7 minuti, finché le gobbe sono ben dorate."}, "image": "images/fr-madeleines/step-7.webp", "timerMinutes": 11},
+    {"text": {"fr": "Démoulez aussitôt sur une grille et laissez tiédir : les madeleines sont meilleures le jour même.", "en": "Turn out onto a rack straight away and let them cool slightly: madeleines are best eaten the same day.", "es": "Desmolda enseguida sobre una rejilla y deja templar: las madeleines están mejores el mismo día.", "it": "Sforma subito su una gratella e lascia intiepidire: le madeleine danno il meglio il giorno stesso."}, "image": "images/fr-madeleines/step-8.webp"}
+  ]
+}

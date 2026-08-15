@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-veloute-de-potiron",
+  "title": {"fr": "Velouté de potiron", "en": "Cream of pumpkin soup", "es": "Crema de calabaza", "it": "Vellutata di zucca"},
+  "summary": {
+    "fr": "Le velouté d'automne tout en douceur : du potiron fondu au beurre, mouillé de bouillon puis mixé avec une pointe de crème et de muscade.",
+    "en": "The silkiest of autumn soups: pumpkin softened in butter, simmered in stock, then blended with a touch of cream and nutmeg.",
+    "es": "La crema de otoño más suave: calabaza pochada en mantequilla, cocida en caldo y triturada con un toque de nata y nuez moscada.",
+    "it": "La vellutata d'autunno più delicata: zucca stufata nel burro, bagnata con il brodo e frullata con un tocco di panna e noce moscata."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "entree",
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "heroImage": "images/fr-veloute-de-potiron/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "potiron", "quantity": 1, "unit": "kg"},
+    {"ref": "pomme-de-terre", "quantity": 1, "unit": "piece"},
+    {"ref": "oignon", "quantity": 1, "unit": "piece"},
+    {"ref": "beurre", "quantity": 30, "unit": "g"},
+    {"ref": "bouillon-de-legumes", "quantity": 1, "unit": "l"},
+    {"ref": "creme-liquide", "quantity": 10, "unit": "cl", "substitutes": ["creme-fraiche"]},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Épluchez le potiron, retirez les graines et coupez la chair en gros cubes. Épluchez la pomme de terre et l'oignon.", "en": "Peel the pumpkin, remove the seeds and cut the flesh into large cubes. Peel the potato and the onion.", "es": "Pela la calabaza, retira las pepitas y corta la pulpa en dados grandes. Pela la patata y la cebolla.", "it": "Sbuccia la zucca, elimina i semi e taglia la polpa a cubetti grossi. Pela la patata e la cipolla."}, "image": "images/fr-veloute-de-potiron/step-1.webp"},
+    {"text": {"fr": "Dans un faitout, faites fondre le beurre et laissez suer l'oignon émincé 5 minutes, sans coloration.", "en": "In a large pot, melt the butter and sweat the sliced onion for 5 minutes, without letting it brown.", "es": "En una olla, derrite la mantequilla y pocha la cebolla en juliana 5 minutos, sin que coja color.", "it": "In una pentola capiente, sciogli il burro e fai appassire la cipolla affettata per 5 minuti, senza farla colorire."}, "image": "images/fr-veloute-de-potiron/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez les cubes de potiron et la pomme de terre en morceaux, puis faites-les revenir 5 minutes en remuant.", "en": "Add the pumpkin cubes and potato chunks, then sauté for 5 minutes, stirring.", "es": "Añade los dados de calabaza y la patata en trozos, y rehógalos 5 minutos removiendo.", "it": "Aggiungi i cubetti di zucca e la patata a pezzi, poi falli insaporire 5 minuti mescolando."}, "image": "images/fr-veloute-de-potiron/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Versez le bouillon de légumes à hauteur, salez légèrement et laissez mijoter 20 minutes, jusqu'à ce que la pointe d'un couteau traverse le potiron sans résistance.", "en": "Pour in enough vegetable stock to cover, season lightly with salt and simmer for 20 minutes, until the tip of a knife slides through the pumpkin with no resistance.", "es": "Vierte caldo de verduras hasta cubrir, sala ligeramente y deja cocer a fuego lento 20 minutos, hasta que la punta de un cuchillo atraviese la calabaza sin resistencia.", "it": "Versa il brodo vegetale fino a coprire, sala leggermente e lascia sobbollire 20 minuti, finché la punta di un coltello attraversa la zucca senza resistenza."}, "image": "images/fr-veloute-de-potiron/step-4.webp", "timerMinutes": 20},
+    {"text": {"fr": "Mixez finement au mixeur plongeant, incorporez la crème et la muscade, puis rectifiez l'assaisonnement. Détendez avec un peu de bouillon si le velouté est trop épais.", "en": "Blend until completely smooth with an immersion blender, stir in the cream and nutmeg, then adjust the seasoning. Loosen with a little stock if the soup is too thick.", "es": "Tritura con la batidora de mano hasta obtener una crema fina, incorpora la nata y la nuez moscada y rectifica de sal. Aligera con un poco de caldo si queda demasiado espesa.", "it": "Frulla finemente con il frullatore a immersione, incorpora la panna e la noce moscata, poi regola di sale. Allunga con un po' di brodo se la vellutata è troppo densa."}, "image": "images/fr-veloute-de-potiron/step-5.webp"},
+    {"text": {"fr": "Servez bien chaud dans des bols, avec un tour de moulin à poivre et un filet de crème.", "en": "Serve piping hot in bowls, with a twist of the pepper mill and a drizzle of cream.", "es": "Sirve bien caliente en cuencos, con un golpe de molinillo de pimienta y un hilillo de nata.", "it": "Servi ben caldo nelle ciotole, con una macinata di pepe e un filo di panna."}, "image": "images/fr-veloute-de-potiron/step-6.webp"}
+  ]
+}
