@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-croque-monsieur",
+  "title": {"fr": "Croque-monsieur", "en": "Croque-monsieur", "es": "Croque-monsieur", "it": "Croque-monsieur"},
+  "summary": {
+    "fr": "Le croque des cafés parisiens : jambon et gruyère entre deux tranches de pain de mie, nappés de béchamel et gratinés au four.",
+    "en": "The Parisian café classic: ham and Gruyère between slices of soft white bread, topped with béchamel and grilled until bubbling.",
+    "es": "El clásico de los cafés parisinos: jamón y gruyer entre pan de molde, cubierto de bechamel y gratinado hasta burbujear.",
+    "it": "Il classico dei caffè parigini: prosciutto e groviera tra due fette di pancarré, ricoperti di besciamella e gratinati in forno."
+  },
+  "region": {"fr": "Paris", "en": "Paris", "es": "París", "it": "Parigi"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/fr-croque-monsieur/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Préchauffez l'air fryer 3 minutes à 180 °C. Déposez les croques en une seule couche dans le panier (en deux fournées si besoin) et comptez 6 à 8 minutes sans les retourner : le dessus gratine pendant que le pain reste moelleux. Préparez une béchamel un peu plus épaisse pour qu'elle ne coule pas à travers la grille.",
+    "en": "Preheat the air fryer to 180 °C for 3 minutes. Lay the sandwiches in a single layer in the basket (in two batches if needed) and cook for 6 to 8 minutes without flipping: the top browns while the bread stays soft. Make the béchamel slightly thicker so it doesn't drip through the rack.",
+    "es": "Precalienta la freidora de aire a 180 °C durante 3 minutos. Coloca los sándwiches en una sola capa en la cesta (en dos tandas si hace falta) y cuenta de 6 a 8 minutos sin darles la vuelta: la parte de arriba se gratina mientras el pan queda tierno. Prepara la bechamel algo más espesa para que no gotee por la rejilla.",
+    "it": "Preriscalda la friggitrice ad aria a 180 °C per 3 minuti. Disponi i croque in un solo strato nel cestello (in due riprese se serve) e calcola 6-8 minuti senza girarli: la superficie gratina mentre il pane resta morbido. Prepara una besciamella un po' più densa perché non coli attraverso la griglia."
+  },
+  "ingredients": [
+    {"ref": "pain-de-mie", "quantity": 8, "unit": "slice"},
+    {"ref": "jambon-blanc", "quantity": 4, "unit": "slice"},
+    {"ref": "gruyere", "quantity": 150, "unit": "g", "substitutes": ["comte"]},
+    {"ref": "beurre", "quantity": 20, "unit": "g"},
+    {"ref": "farine", "quantity": 20, "unit": "g"},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préparez la béchamel : faites fondre le beurre, ajoutez la farine, cuisez 1 minute, puis versez le lait froid en fouettant jusqu'à épaississement. Salez, poivrez et muscadez.", "en": "Make the béchamel: melt the butter, stir in the flour, cook for 1 minute, then whisk in the cold milk until thickened. Season with salt, pepper and nutmeg.", "es": "Prepara la bechamel: funde la mantequilla, añade la harina, cuécela 1 minuto y vierte la leche fría batiendo hasta que espese. Salpimienta y añade la nuez moscada.", "it": "Prepara la besciamella: sciogli il burro, unisci la farina, cuoci 1 minuto, poi versa il latte freddo mescolando con la frusta finché si addensa. Regola di sale, pepe e noce moscata."}, "image": "images/fr-croque-monsieur/step-1.webp", "timerMinutes": 5},
+    {"text": {"fr": "Préchauffez le four à 200 °C.", "en": "Preheat the oven to 200 °C.", "es": "Precalienta el horno a 200 °C.", "it": "Preriscalda il forno a 200 °C."}, "image": "images/fr-croque-monsieur/step-2.webp"},
+    {"text": {"fr": "Tartinez 4 tranches de pain de mie de béchamel, posez une tranche de jambon sur chacune et la moitié du gruyère râpé.", "en": "Spread 4 slices of bread with béchamel, lay a slice of ham on each and add half of the grated Gruyère.", "es": "Unta 4 rebanadas de pan de molde con bechamel, pon una loncha de jamón en cada una y la mitad del gruyer rallado.", "it": "Spalma 4 fette di pancarré con la besciamella, adagia su ognuna una fetta di prosciutto e metà della groviera grattugiata."}, "image": "images/fr-croque-monsieur/step-3.webp"},
+    {"text": {"fr": "Refermez avec les tranches restantes, nappez le dessus du reste de béchamel et parsemez du reste de fromage.", "en": "Close with the remaining slices, coat the tops with the rest of the béchamel and scatter over the remaining cheese.", "es": "Cierra con las rebanadas restantes, cubre la parte de arriba con el resto de la bechamel y reparte el queso restante.", "it": "Chiudi con le fette rimaste, ricopri la superficie con la besciamella restante e cospargi con il resto del formaggio."}, "image": "images/fr-croque-monsieur/step-4.webp"},
+    {"text": {"fr": "Enfournez 10 à 12 minutes, jusqu'à ce que le dessus soit doré et bouillonnant.", "en": "Bake for 10 to 12 minutes, until the top is golden and bubbling.", "es": "Hornea de 10 a 12 minutos, hasta que la superficie esté dorada y burbujeante.", "it": "Inforna per 10-12 minuti, finché la superficie è dorata e ben gratinata."}, "image": "images/fr-croque-monsieur/step-5.webp", "timerMinutes": 10},
+    {"text": {"fr": "Servez brûlant, avec quelques feuilles de salade verte à peine assaisonnées.", "en": "Serve piping hot, with a few lightly dressed green salad leaves.", "es": "Sirve bien caliente, con unas hojas de ensalada verde apenas aliñadas.", "it": "Servi bollente, con qualche foglia di insalata verde appena condita."}, "image": "images/fr-croque-monsieur/step-6.webp"}
+  ]
+}

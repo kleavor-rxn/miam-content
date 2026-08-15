@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-clafoutis-aux-cerises",
+  "title": {"fr": "Clafoutis aux cerises", "en": "Cherry clafoutis", "es": "Clafoutis de cerezas", "it": "Clafoutis alle ciliegie"},
+  "summary": {
+    "fr": "Le dessert limousin par excellence : des cerises entières prises dans une pâte moelleuse, entre flan et crêpe épaisse.",
+    "en": "The quintessential Limousin dessert: whole cherries baked into a tender batter halfway between flan and thick crêpe.",
+    "es": "El postre lemosín por excelencia: cerezas enteras horneadas en una masa tierna, a medio camino entre el flan y la crêpe gruesa.",
+    "it": "Il dolce simbolo del Limosino: ciliegie intere immerse in una pastella morbida, a metà strada tra flan e crêpe spessa."
+  },
+  "region": {"fr": "Limousin", "en": "Limousin", "es": "Lemosín", "it": "Limosino"},
+  "category": "dessert",
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 6,
+  "heroImage": "images/fr-clafoutis-aux-cerises/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "cerise", "quantity": 500, "unit": "g"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "farine", "quantity": 100, "unit": "g"},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "beurre", "quantity": 20, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C. Beurrez généreusement un plat à gratin et saupoudrez-le d'un voile de sucre prélevé sur les 100 g.", "en": "Preheat the oven to 180 °C. Butter a baking dish generously and dust it with a spoonful taken from the sugar.", "es": "Precalienta el horno a 180 °C. Unta bien de mantequilla una fuente de horno y espolvoréala con una cucharada del azúcar.", "it": "Preriscalda il forno a 180 °C. Imburra generosamente una pirofila e cospargila con un velo di zucchero preso dal totale."}, "image": "images/fr-clafoutis-aux-cerises/step-1.webp"},
+    {"text": {"fr": "Lavez et équeutez les cerises sans les dénoyauter : les noyaux parfument la pâte, comme le veut la tradition limousine.", "en": "Wash and stem the cherries but leave the pits in: they perfume the batter, as Limousin tradition demands.", "es": "Lava y quita el rabito a las cerezas sin deshuesarlas: los huesos perfuman la masa, como manda la tradición del Lemosín.", "it": "Lava le ciliegie e togli i piccioli senza snocciolarle: i noccioli profumano la pastella, come vuole la tradizione del Limosino."}, "image": "images/fr-clafoutis-aux-cerises/step-2.webp"},
+    {"text": {"fr": "Fouettez les œufs avec le reste du sucre, puis incorporez la farine et une pincée de sel.", "en": "Whisk the eggs with the remaining sugar, then stir in the flour and a pinch of salt.", "es": "Bate los huevos con el resto del azúcar e incorpora la harina y una pizca de sal.", "it": "Sbatti le uova con lo zucchero rimasto, poi incorpora la farina e un pizzico di sale."}, "image": "images/fr-clafoutis-aux-cerises/step-3.webp"},
+    {"text": {"fr": "Délayez peu à peu avec le lait jusqu'à obtenir une pâte lisse et fluide, comme une pâte à crêpes.", "en": "Gradually whisk in the milk until you have a smooth, pourable batter, like crêpe batter.", "es": "Añade la leche poco a poco hasta obtener una masa lisa y fluida, como la de crêpes.", "it": "Diluisci poco alla volta con il latte fino a ottenere una pastella liscia e fluida, come quella delle crêpe."}, "image": "images/fr-clafoutis-aux-cerises/step-4.webp"},
+    {"text": {"fr": "Rangez les cerises dans le plat en une seule couche et versez délicatement la pâte dessus.", "en": "Arrange the cherries in the dish in a single layer and gently pour the batter over them.", "es": "Coloca las cerezas en la fuente en una sola capa y vierte la masa por encima con cuidado.", "it": "Disponi le ciliegie nella pirofila in un solo strato e versaci sopra la pastella con delicatezza."}, "image": "images/fr-clafoutis-aux-cerises/step-5.webp"},
+    {"text": {"fr": "Enfournez 35 à 40 minutes, jusqu'à ce que le clafoutis soit gonflé et bien doré.", "en": "Bake for 35 to 40 minutes, until the clafoutis is puffed and golden brown.", "es": "Hornea de 35 a 40 minutos, hasta que el clafoutis esté hinchado y dorado.", "it": "Inforna per 35-40 minuti, finché il clafoutis è gonfio e ben dorato."}, "image": "images/fr-clafoutis-aux-cerises/step-6.webp", "timerMinutes": 35},
+    {"text": {"fr": "Laissez tiédir : le clafoutis retombe un peu, c'est normal. Saupoudrez de sucre et servez tiède.", "en": "Let it cool a little — the clafoutis will deflate slightly, that's normal. Dust with sugar and serve lukewarm.", "es": "Deja templar: el clafoutis se deshincha un poco, es normal. Espolvorea con azúcar y sírvelo tibio.", "it": "Lascia intiepidire: il clafoutis si sgonfia un po', è normale. Spolvera di zucchero e servi tiepido."}, "image": "images/fr-clafoutis-aux-cerises/step-7.webp"}
+  ]
+}

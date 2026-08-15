@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-mousse-au-chocolat",
+  "title": {"fr": "Mousse au chocolat", "en": "Chocolate mousse", "es": "Mousse de chocolate", "it": "Mousse al cioccolato"},
+  "summary": {
+    "fr": "Le dessert fétiche des bistrots : du chocolat noir, des œufs et une pointe de sucre pour une mousse aérienne et intense.",
+    "en": "The bistro favourite: dark chocolate, eggs and a touch of sugar whipped into an airy, intensely chocolatey mousse.",
+    "es": "El postre estrella de los bistrós: chocolate negro, huevos y un toque de azúcar para una mousse aérea e intensa.",
+    "it": "Il dolce simbolo dei bistrot: cioccolato fondente, uova e un tocco di zucchero per una mousse ariosa e intensa."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "servings": 6,
+  "heroImage": "images/fr-mousse-au-chocolat/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "chocolat-noir", "quantity": 200, "unit": "g"},
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "sucre", "quantity": 40, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Cassez le chocolat en morceaux et faites-le fondre doucement au bain-marie. Lissez à la spatule et laissez tiédir.", "en": "Break the chocolate into pieces and melt it gently in a bain-marie. Stir until smooth and let it cool slightly.", "es": "Trocea el chocolate y fúndelo suavemente al baño maría. Remueve hasta que quede liso y deja templar.", "it": "Spezzetta il cioccolato e fallo sciogliere dolcemente a bagnomaria. Mescola finché è liscio e lascia intiepidire."}, "image": "images/fr-mousse-au-chocolat/step-1.webp", "timerMinutes": 5},
+    {"text": {"fr": "Clarifiez les œufs : les blancs dans un grand saladier, les jaunes dans un bol.", "en": "Separate the eggs: whites into a large mixing bowl, yolks into a small one.", "es": "Separa los huevos: las claras en un bol grande, las yemas en uno pequeño.", "it": "Separa le uova: gli albumi in una ciotola capiente, i tuorli in una piccola."}, "image": "images/fr-mousse-au-chocolat/step-2.webp"},
+    {"text": {"fr": "Incorporez les jaunes un à un au chocolat tiède en mélangeant vivement.", "en": "Stir the yolks into the barely warm chocolate one at a time, mixing briskly.", "es": "Incorpora las yemas una a una al chocolate tibio, mezclando con energía.", "it": "Unisci i tuorli uno alla volta al cioccolato tiepido, mescolando con energia."}, "image": "images/fr-mousse-au-chocolat/step-3.webp"},
+    {"text": {"fr": "Montez les blancs en neige ferme avec une pincée de sel, puis serrez-les avec le sucre.", "en": "Whisk the whites to stiff peaks with a pinch of salt, then whisk in the sugar to tighten them.", "es": "Monta las claras a punto de nieve firme con una pizca de sal y añade el azúcar al final para apretarlas.", "it": "Monta gli albumi a neve ben ferma con un pizzico di sale, poi aggiungi lo zucchero per renderli lucidi e sodi."}, "image": "images/fr-mousse-au-chocolat/step-4.webp"},
+    {"text": {"fr": "Incorporez délicatement les blancs au chocolat en trois fois, à la maryse, en soulevant la masse sans la casser.", "en": "Gently fold the whites into the chocolate in three additions with a spatula, lifting the mixture without knocking out the air.", "es": "Incorpora las claras al chocolate en tres veces con una espátula, con movimientos envolventes para que no se bajen.", "it": "Incorpora delicatamente gli albumi al cioccolato in tre volte con una spatola, con movimenti dal basso verso l'alto per non smontarli."}, "image": "images/fr-mousse-au-chocolat/step-5.webp"},
+    {"text": {"fr": "Répartissez la mousse dans des coupes et réfrigérez au moins 3 heures avant de servir.", "en": "Divide the mousse between serving glasses and chill for at least 3 hours before serving.", "es": "Reparte la mousse en copas y refrigera al menos 3 horas antes de servir.", "it": "Distribuisci la mousse in coppette e lasciala rassodare in frigorifero per almeno 3 ore prima di servire."}, "image": "images/fr-mousse-au-chocolat/step-6.webp", "timerMinutes": 180}
+  ]
+}

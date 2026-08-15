@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-salade-nicoise",
+  "title": {"fr": "Salade niçoise", "en": "Salade niçoise", "es": "Ensalada nizarda", "it": "Insalata nizzarda"},
+  "summary": {
+    "fr": "La vraie salade niçoise : tomates, thon, anchois, œufs durs et olives noires, le tout à l'huile d'olive — sans pomme de terre ni haricot vert.",
+    "en": "The real deal from Nice: tomatoes, tuna, anchovies, hard-boiled eggs and black olives, dressed with olive oil alone — no potatoes, no green beans.",
+    "es": "La auténtica ensalada de Niza: tomates, atún, anchoas, huevos duros y aceitunas negras, aliñada solo con aceite de oliva — sin patata ni judías verdes.",
+    "it": "L'autentica insalata di Nizza: pomodori, tonno, acciughe, uova sode e olive nere, condita con solo olio d'oliva — niente patate né fagiolini."
+  },
+  "region": {"fr": "Comté de Nice", "en": "County of Nice", "es": "Condado de Niza", "it": "Contea di Nizza"},
+  "category": "plat",
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 4,
+  "heroImage": "images/fr-salade-nicoise/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "tomate", "quantity": 6, "unit": "piece"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "thon", "quantity": 200, "unit": "g"},
+    {"ref": "anchois", "quantity": 8, "unit": "piece"},
+    {"ref": "olive-noire", "quantity": 100, "unit": "g"},
+    {"ref": "poivron", "quantity": 1, "unit": "piece"},
+    {"ref": "oignon-nouveau", "quantity": 3, "unit": "piece"},
+    {"ref": "basilic", "quantity": 12, "unit": "piece"},
+    {"ref": "ail", "quantity": 1, "unit": "clove"},
+    {"ref": "huile-olive", "quantity": 4, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites durcir les œufs 9 minutes dans l'eau bouillante, rafraîchissez-les sous l'eau froide, écalez-les et coupez-les en quartiers.", "en": "Hard-boil the eggs for 9 minutes, cool them under cold water, then peel and cut into quarters.", "es": "Cuece los huevos 9 minutos en agua hirviendo, refréscalos bajo el grifo, pélalos y córtalos en cuartos.", "it": "Fai rassodare le uova per 9 minuti in acqua bollente, raffreddale sotto l'acqua fredda, sgusciale e tagliale in quarti."}, "image": "images/fr-salade-nicoise/step-1.webp", "timerMinutes": 9},
+    {"text": {"fr": "Frottez le plat de service avec la gousse d'ail coupée en deux.", "en": "Rub the serving platter with the halved garlic clove.", "es": "Frota la fuente de servir con el diente de ajo partido por la mitad.", "it": "Strofina il piatto da portata con lo spicchio d'aglio tagliato a metà."}, "image": "images/fr-salade-nicoise/step-2.webp"},
+    {"text": {"fr": "Coupez les tomates en quartiers et salez-les légèrement. Émincez le poivron en fines lanières et les oignons nouveaux en rondelles.", "en": "Cut the tomatoes into wedges and salt them lightly. Slice the pepper into thin strips and the spring onions into rounds.", "es": "Corta los tomates en gajos y sálalos ligeramente. Corta el pimiento en tiras finas y las cebolletas en rodajas.", "it": "Taglia i pomodori a spicchi e salali leggermente. Affetta il peperone a listarelle sottili e i cipollotti a rondelle."}, "image": "images/fr-salade-nicoise/step-3.webp"},
+    {"text": {"fr": "Disposez tomates, poivron et oignons dans le plat, puis répartissez le thon égoutté en gros morceaux et les filets d'anchois.", "en": "Arrange the tomatoes, pepper and onions on the platter, then scatter over the drained tuna in large chunks and the anchovy fillets.", "es": "Reparte los tomates, el pimiento y las cebolletas en la fuente, y añade el atún escurrido en trozos grandes y los filetes de anchoa.", "it": "Disponi pomodori, peperone e cipollotti nel piatto, poi distribuisci il tonno sgocciolato a pezzi grossi e i filetti di acciuga."}, "image": "images/fr-salade-nicoise/step-4.webp"},
+    {"text": {"fr": "Ajoutez les quartiers d'œufs, les olives et les feuilles de basilic déchirées à la main.", "en": "Add the egg quarters, the olives and the basil leaves, torn by hand.", "es": "Añade los cuartos de huevo, las aceitunas y las hojas de albahaca partidas con la mano.", "it": "Aggiungi gli spicchi d'uovo, le olive e le foglie di basilico spezzettate a mano."}, "image": "images/fr-salade-nicoise/step-5.webp"},
+    {"text": {"fr": "Arrosez d'huile d'olive, donnez quelques tours de moulin à poivre et servez aussitôt — sans vinaigre, comme le veut la tradition niçoise.", "en": "Drizzle with olive oil, add a few grinds of pepper and serve at once — no vinegar, as Niçois tradition demands.", "es": "Riega con el aceite de oliva, da unas vueltas de molinillo de pimienta y sirve enseguida — sin vinagre, como manda la tradición nizarda.", "it": "Condisci con l'olio d'oliva, una macinata di pepe e servi subito — senza aceto, come vuole la tradizione nizzarda."}, "image": "images/fr-salade-nicoise/step-6.webp"}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-creme-brulee",
+  "title": {"fr": "Crème brûlée", "en": "Crème brûlée", "es": "Crème brûlée", "it": "Crème brûlée"},
+  "summary": {
+    "fr": "La crème vanillée cuite tout en douceur, cachée sous une fine croûte de caramel que l'on fait craquer à la cuillère.",
+    "en": "Gently baked vanilla custard hiding under a thin caramel crust made for cracking with the back of a spoon.",
+    "es": "Una crema de vainilla horneada con mimo, escondida bajo una fina costra de caramelo que se rompe con la cucharilla.",
+    "it": "Una crema alla vaniglia cotta dolcemente, nascosta sotto una sottile crosta di caramello da rompere con il cucchiaino."
+  },
+  "region": {"fr": "Île-de-France", "en": "Île-de-France", "es": "Île-de-France", "it": "Île-de-France"},
+  "category": "dessert",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/fr-creme-brulee/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "creme-liquide", "quantity": 60, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "piece"},
+    {"ref": "cassonade", "quantity": 60, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 110 °C. Fendez la gousse de vanille en deux, grattez les graines et faites chauffer le tout avec la crème sans laisser bouillir, puis laissez infuser 10 minutes hors du feu.", "en": "Preheat the oven to 110 °C. Split the vanilla pod lengthwise, scrape out the seeds and warm both with the cream without letting it boil, then leave to infuse off the heat for 10 minutes.", "es": "Precalienta el horno a 110 °C. Abre la vaina de vainilla a lo largo, raspa las semillas y caliéntalo todo con la nata sin que llegue a hervir; deja infusionar 10 minutos fuera del fuego.", "it": "Preriscalda il forno a 110 °C. Incidi la bacca di vaniglia per il lungo, raschia i semi e scaldali con la panna senza farla bollire, poi lascia in infusione 10 minuti fuori dal fuoco."}, "image": "images/fr-creme-brulee/step-1.webp", "timerMinutes": 10},
+    {"text": {"fr": "Clarifiez les œufs et gardez les blancs pour un autre usage. Fouettez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse.", "en": "Separate the eggs, saving the whites for another use. Whisk the yolks with the sugar until pale and creamy.", "es": "Separa los huevos y reserva las claras para otra receta. Bate las yemas con el azúcar hasta que la mezcla blanquee.", "it": "Separa i tuorli dagli albumi e tieni gli albumi per un'altra preparazione. Monta i tuorli con lo zucchero finché il composto non schiarisce."}, "image": "images/fr-creme-brulee/step-2.webp"},
+    {"text": {"fr": "Versez la crème vanillée tiède en filet sur les jaunes, en fouettant doucement pour ne pas faire mousser.", "en": "Pour the warm vanilla cream over the yolks in a thin stream, whisking gently so the mixture doesn't foam.", "es": "Vierte la nata infusionada tibia en un hilo fino sobre las yemas, batiendo con suavidad para que no haga espuma.", "it": "Versa la panna alla vaniglia tiepida a filo sui tuorli, mescolando piano con la frusta per non far schiumare."}, "image": "images/fr-creme-brulee/step-3.webp"},
+    {"text": {"fr": "Filtrez la préparation au chinois et répartissez-la dans six ramequins peu profonds.", "en": "Strain the custard through a fine sieve and divide it between six shallow ramekins.", "es": "Cuela la crema por un colador fino y repártela en seis moldes bajos.", "it": "Filtra il composto con un colino fine e distribuiscilo in sei cocotte basse."}, "image": "images/fr-creme-brulee/step-4.webp"},
+    {"text": {"fr": "Enfournez 50 minutes : la crème doit être prise sur les bords mais encore tremblotante au centre.", "en": "Bake for 50 minutes: the custard should be set at the edges but still wobbly in the centre.", "es": "Hornea 50 minutos: la crema debe estar cuajada en los bordes pero aún temblorosa en el centro.", "it": "Cuoci in forno per 50 minuti: la crema deve essere rappresa ai bordi ma ancora tremolante al centro."}, "image": "images/fr-creme-brulee/step-5.webp", "timerMinutes": 50},
+    {"text": {"fr": "Laissez tiédir, puis réfrigérez au moins 2 heures, idéalement une nuit.", "en": "Let cool to room temperature, then chill for at least 2 hours, ideally overnight.", "es": "Deja templar y refrigera al menos 2 horas, mejor toda la noche.", "it": "Lascia intiepidire, poi metti in frigorifero per almeno 2 ore, meglio una notte intera."}, "image": "images/fr-creme-brulee/step-6.webp", "timerMinutes": 120},
+    {"text": {"fr": "Saupoudrez chaque crème d'une fine couche régulière de cassonade et caramélisez au chalumeau jusqu'à obtenir une croûte ambrée. Servez aussitôt.", "en": "Sprinkle each custard with a thin, even layer of brown sugar and caramelise with a kitchen torch until amber and crisp. Serve at once.", "es": "Espolvorea cada crema con una capa fina y uniforme de azúcar moreno y carameliza con un soplete hasta lograr una costra ámbar. Sirve enseguida.", "it": "Cospargi ogni crema con uno strato sottile e uniforme di zucchero di canna e caramella con il cannello fino a ottenere una crosticina ambrata. Servi subito."}, "image": "images/fr-creme-brulee/step-7.webp"}
+  ]
+}
