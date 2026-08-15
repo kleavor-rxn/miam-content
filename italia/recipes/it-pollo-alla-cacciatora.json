@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pollo-alla-cacciatora",
+  "title": {"fr": "Poulet à la cacciatora", "en": "Chicken cacciatore", "es": "Pollo a la cacciatora", "it": "Pollo alla cacciatora"},
+  "summary": {
+    "fr": "Le poulet « à la chasseresse » de la campagne toscane : morceaux dorés puis mijotés au vin rouge, à la tomate et aux olives noires.",
+    "en": "Tuscany's hunter-style chicken: pieces browned then braised in red wine, tomato and black olives.",
+    "es": "El pollo « a la cazadora » de la campiña toscana: piezas doradas y luego guisadas en vino tinto, tomate y aceitunas negras.",
+    "it": "Il pollo alla cacciatora della campagna toscana: pezzi ben rosolati e poi brasati nel vino rosso, con pomodoro e olive nere."
+  },
+  "region": {"fr": "Toscane", "en": "Tuscany", "es": "Toscana", "it": "Toscana"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "servings": 4,
+  "heroImage": "images/it-pollo-alla-cacciatora/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pollo", "quantity": 1.5, "unit": "kg"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "carota", "quantity": 1, "unit": "piece"},
+    {"ref": "sedano", "quantity": 1, "unit": "piece"},
+    {"ref": "aglio", "quantity": 2, "unit": "clove"},
+    {"ref": "vino-rosso", "quantity": 20, "unit": "cl", "substitutes": ["vino-bianco"]},
+    {"ref": "passata", "quantity": 400, "unit": "ml"},
+    {"ref": "olive-nere", "quantity": 100, "unit": "g"},
+    {"ref": "rosmarino", "quantity": 1, "unit": "piece"},
+    {"ref": "alloro", "quantity": 2, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Découpez le poulet en 8 morceaux, épongez-les avec du papier absorbant, puis salez et poivrez sur toutes les faces.", "en": "Cut the chicken into 8 pieces, pat them dry with kitchen paper, then season with salt and pepper on all sides.", "es": "Corta el pollo en 8 piezas, sécalas con papel de cocina y salpimiéntalas por todos los lados.", "it": "Taglia il pollo in 8 pezzi, tamponali con carta da cucina, poi sala e pepa su tutti i lati."}, "image": "images/it-pollo-alla-cacciatora/step-1.webp"},
+    {"text": {"fr": "Dans une cocotte large, faites dorer les morceaux de poulet dans l'huile d'olive, à feu vif, 8 minutes en les retournant : la peau doit être bien colorée. Réservez-les.", "en": "In a wide braising pan, brown the chicken pieces in the olive oil over high heat for 8 minutes, turning them: the skin should be deeply golden. Set them aside.", "es": "En una cazuela amplia, dora las piezas de pollo en el aceite de oliva a fuego vivo durante 8 minutos, dándoles la vuelta: la piel debe quedar bien dorada. Resérvalas.", "it": "In un tegame largo, fai rosolare i pezzi di pollo nell'olio, a fuoco vivo, per 8 minuti girandoli: la pelle deve essere ben dorata. Mettili da parte."}, "image": "images/it-pollo-alla-cacciatora/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Dans la même cocotte, faites revenir 5 minutes l'oignon, la carotte et le céleri hachés avec l'ail écrasé, en grattant les sucs de cuisson.", "en": "In the same pan, sauté the chopped onion, carrot and celery with the crushed garlic for 5 minutes, scraping up the browned bits.", "es": "En la misma cazuela, sofríe 5 minutos la cebolla, la zanahoria y el apio picados con el ajo machacado, raspando los jugos del fondo.", "it": "Nello stesso tegame, fai soffriggere per 5 minuti cipolla, carota e sedano tritati con l'aglio schiacciato, staccando il fondo di cottura."}, "image": "images/it-pollo-alla-cacciatora/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Remettez le poulet dans la cocotte, versez le vin rouge et laissez-le s'évaporer 2 minutes à feu vif.", "en": "Return the chicken to the pan, pour in the red wine and let it cook off for 2 minutes over high heat.", "es": "Devuelve el pollo a la cazuela, vierte el vino tinto y deja que se evapore 2 minutos a fuego vivo.", "it": "Rimetti il pollo nel tegame, sfuma con il vino rosso e lascialo evaporare 2 minuti a fuoco vivo."}, "image": "images/it-pollo-alla-cacciatora/step-4.webp", "timerMinutes": 2},
+    {"text": {"fr": "Ajoutez la passata, le romarin et le laurier, salez, poivrez et portez à frémissement.", "en": "Add the passata, rosemary and bay leaves, season with salt and pepper and bring to a simmer.", "es": "Añade la passata, el romero y el laurel, salpimienta y lleva a ebullición suave.", "it": "Aggiungi la passata, il rosmarino e l'alloro, regola di sale e pepe e porta a leggero bollore."}, "image": "images/it-pollo-alla-cacciatora/step-5.webp"},
+    {"text": {"fr": "Couvrez et laissez mijoter 35 minutes à feu doux, en retournant les morceaux à mi-cuisson pour qu'ils s'imprègnent de sauce.", "en": "Cover and simmer over low heat for 35 minutes, turning the pieces halfway through so they soak up the sauce.", "es": "Tapa y guisa a fuego lento 35 minutos, dando la vuelta a las piezas a media cocción para que se empapen de salsa.", "it": "Copri e lascia sobbollire a fuoco dolce per 35 minuti, girando i pezzi a metà cottura perché si insaporiscano nel sugo."}, "image": "images/it-pollo-alla-cacciatora/step-6.webp", "timerMinutes": 35},
+    {"text": {"fr": "Ajoutez les olives noires et poursuivez la cuisson 10 minutes à découvert, jusqu'à ce que la sauce épaississe et nappe le poulet.", "en": "Add the black olives and cook uncovered for another 10 minutes, until the sauce thickens and coats the chicken.", "es": "Incorpora las aceitunas negras y cocina 10 minutos más sin tapar, hasta que la salsa espese y nape el pollo.", "it": "Unisci le olive nere e prosegui la cottura scoperta per 10 minuti, finché il sugo si addensa e vela il pollo."}, "image": "images/it-pollo-alla-cacciatora/step-7.webp", "timerMinutes": 10},
+    {"text": {"fr": "Retirez le romarin et le laurier, puis servez bien chaud, nappé de sauce, avec du pain de campagne ou une polenta crémeuse.", "en": "Remove the rosemary and bay leaves, then serve piping hot, spooned with sauce, alongside country bread or creamy polenta.", "es": "Retira el romero y el laurel y sirve bien caliente, napado de salsa, con pan rústico o una polenta cremosa.", "it": "Elimina rosmarino e alloro, poi servi ben caldo, irrorato di sugo, con pane casereccio o una polenta cremosa."}, "image": "images/it-pollo-alla-cacciatora/step-8.webp"}
+  ]
+}

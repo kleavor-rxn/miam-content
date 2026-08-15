@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "it-pasta-e-fagioli",
+  "title": {"fr": "Pasta e fagioli", "en": "Pasta e fagioli", "es": "Pasta e fagioli", "it": "Pasta e fagioli"},
+  "summary": {
+    "fr": "La soupe réconfortante de la cuisine populaire italienne : haricots borlotti mi-mixés, petites pâtes et pancetta, finie d'un filet d'huile d'olive.",
+    "en": "Italy's great comfort soup: half-blended borlotti beans, small pasta and pancetta, finished with a swirl of olive oil.",
+    "es": "La sopa reconfortante de la cocina popular italiana: alubias borlotti medio trituradas, pasta corta y panceta, rematada con un hilo de aceite de oliva.",
+    "it": "La minestra del cuore della cucina povera: fagioli borlotti in parte frullati, pasta corta e pancetta, con un giro d'olio a crudo per finire."
+  },
+  "region": {"fr": "Vénétie", "en": "Veneto", "es": "Véneto", "it": "Veneto"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "servings": 4,
+  "heroImage": "images/it-pasta-e-fagioli/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "fagioli-borlotti", "quantity": 500, "unit": "g"},
+    {"ref": "ditalini", "quantity": 250, "unit": "g"},
+    {"ref": "pancetta", "quantity": 100, "unit": "g"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "carota", "quantity": 1, "unit": "piece"},
+    {"ref": "sedano", "quantity": 1, "unit": "piece"},
+    {"ref": "aglio", "quantity": 1, "unit": "clove"},
+    {"ref": "concentrato-di-pomodoro", "quantity": 1, "unit": "tbsp"},
+    {"ref": "brodo-vegetale", "quantity": 1.5, "unit": "l", "substitutes": ["brodo-di-carne"]},
+    {"ref": "rosmarino", "quantity": 1, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Hachez finement l'oignon, la carotte, le céleri et l'ail, puis détaillez la pancetta en petits dés.", "en": "Finely chop the onion, carrot, celery and garlic, then cut the pancetta into small dice.", "es": "Pica fino la cebolla, la zanahoria, el apio y el ajo, y corta la panceta en daditos.", "it": "Trita finemente cipolla, carota, sedano e aglio, poi taglia la pancetta a dadini."}, "image": "images/it-pasta-e-fagioli/step-1.webp"},
+    {"text": {"fr": "Dans une grande cocotte, faites fondre la pancetta dans 2 cuillères d'huile d'olive, puis ajoutez le hachis de légumes et laissez suer 8 minutes à feu doux, sans coloration.", "en": "In a large pot, render the pancetta in 2 tablespoons of olive oil, then add the chopped vegetables and sweat for 8 minutes over low heat, without browning.", "es": "En una olla grande, sofríe la panceta en 2 cucharadas de aceite de oliva, añade el picadillo de verduras y póchalo 8 minutos a fuego suave, sin que tome color.", "it": "In una pentola capiente, fai sciogliere la pancetta in 2 cucchiai d'olio, poi aggiungi il trito di verdure e lascia appassire 8 minuti a fuoco dolce, senza far colorire."}, "image": "images/it-pasta-e-fagioli/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Ajoutez les haricots borlotti égouttés, le concentré de tomate et la branche de romarin, puis versez le bouillon chaud.", "en": "Add the drained borlotti beans, the tomato paste and the rosemary sprig, then pour in the hot stock.", "es": "Incorpora las alubias borlotti escurridas, el concentrado de tomate y la rama de romero, y vierte el caldo caliente.", "it": "Unisci i fagioli borlotti scolati, il concentrato di pomodoro e il rametto di rosmarino, poi versa il brodo caldo."}, "image": "images/it-pasta-e-fagioli/step-3.webp"},
+    {"text": {"fr": "Portez à frémissement et laissez mijoter 20 minutes à couvert, pour que les saveurs se fondent.", "en": "Bring to a gentle simmer and cook covered for 20 minutes, so the flavours come together.", "es": "Lleva a ebullición suave y cuece tapado 20 minutos, para que los sabores se fundan.", "it": "Porta a leggero bollore e lascia sobbollire coperto per 20 minuti, perché i sapori si amalgamino."}, "image": "images/it-pasta-e-fagioli/step-4.webp", "timerMinutes": 20},
+    {"text": {"fr": "Retirez le romarin, prélevez un tiers de la soupe et mixez-le, puis reversez-le dans la cocotte : le bouillon doit devenir crémeux tout en gardant des haricots entiers.", "en": "Remove the rosemary, ladle out a third of the soup and blend it, then return it to the pot: the broth should turn creamy while keeping whole beans.", "es": "Retira el romero, saca un tercio de la sopa, tritúralo y devuélvelo a la olla: el caldo debe quedar cremoso conservando alubias enteras.", "it": "Elimina il rosmarino, preleva un terzo della minestra e frullalo, poi rimettilo in pentola: il brodo deve risultare cremoso ma con i fagioli interi."}, "image": "images/it-pasta-e-fagioli/step-5.webp"},
+    {"text": {"fr": "Salez, poivrez, puis versez les ditalini dans la soupe frémissante et faites-les cuire directement dedans une dizaine de minutes, en remuant souvent pour qu'ils n'attachent pas.", "en": "Season with salt and pepper, then tip the ditalini into the simmering soup and cook them right in it for about 10 minutes, stirring often so they don't stick.", "es": "Salpimienta, añade los ditalini a la sopa hirviendo a fuego suave y cuécelos directamente en ella unos 10 minutos, removiendo a menudo para que no se peguen.", "it": "Regola di sale e pepe, poi butta i ditalini nella minestra che sobbolle e cuocili direttamente lì per una decina di minuti, mescolando spesso perché non si attacchino."}, "image": "images/it-pasta-e-fagioli/step-6.webp", "timerMinutes": 10},
+    {"text": {"fr": "Coupez le feu et laissez reposer 5 minutes : la soupe doit être onctueuse, ni liquide ni compacte. Servez avec un filet d'huile d'olive et un tour de moulin à poivre.", "en": "Turn off the heat and let it rest for 5 minutes: the soup should be silky, neither thin nor stodgy. Serve with a drizzle of olive oil and a grind of black pepper.", "es": "Apaga el fuego y deja reposar 5 minutos: la sopa debe quedar melosa, ni líquida ni compacta. Sirve con un hilo de aceite de oliva y pimienta recién molida.", "it": "Spegni il fuoco e lascia riposare 5 minuti: la minestra deve essere cremosa, né brodosa né compatta. Servi con un giro d'olio a crudo e una macinata di pepe."}, "image": "images/it-pasta-e-fagioli/step-7.webp", "timerMinutes": 5}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "it-frittata-di-zucchine",
+  "title": {"fr": "Frittata aux courgettes", "en": "Zucchini frittata", "es": "Frittata de calabacín", "it": "Frittata di zucchine"},
+  "summary": {
+    "fr": "L'omelette épaisse et dorée de la cuisine familiale italienne : courgettes fondantes, parmesan et basilic, aussi bonne chaude que froide.",
+    "en": "Italy's thick, golden family-style omelette: tender zucchini, Parmesan and basil, just as good warm as at room temperature.",
+    "es": "La tortilla gruesa y dorada de la cocina casera italiana: calabacín tierno, parmesano y albahaca, tan buena caliente como fría.",
+    "it": "La frittata alta e dorata della cucina di casa: zucchine fondenti, parmigiano e basilico, buona calda quanto fredda."
+  },
+  "region": {"fr": "Toute l'Italie", "en": "All of Italy", "es": "Toda Italia", "it": "Tutta l'Italia"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/it-frittata-di-zucchine/hero.webp",
+  "tags": ["vegetarian", "airFryer"],
+  "airFryerNotes": {
+    "fr": "Versez l'appareil dans un moule à manqué de 20 cm huilé (ou chemisé de papier cuisson) qui tient dans le panier. Faites cuire 15 minutes à 160 °C sans préchauffage, puis 3 minutes à 180 °C pour dorer le dessus. Inutile de retourner la frittata : elle est cuite quand une lame ressort sèche du centre. Faites d'abord revenir les courgettes à la poêle, sinon elles rendront leur eau dans l'appareil.",
+    "en": "Pour the mixture into an oiled 20 cm cake tin (or one lined with baking paper) that fits the basket. Cook for 15 minutes at 160 °C (320 °F) with no preheating, then 3 minutes at 180 °C (355 °F) to brown the top. No need to flip the frittata: it's done when a knife blade comes out clean from the centre. Do sauté the zucchini in a pan first, or they will weep water into the mixture.",
+    "es": "Vierte la mezcla en un molde redondo de 20 cm engrasado (o forrado con papel de hornear) que quepa en la cesta. Cocina 15 minutos a 160 °C sin precalentar y luego 3 minutos a 180 °C para dorar la superficie. No hace falta dar la vuelta a la frittata: está lista cuando un cuchillo sale limpio del centro. Saltea antes el calabacín en la sartén, o soltará su agua en la mezcla.",
+    "it": "Versa il composto in una tortiera da 20 cm oliata (o foderata di carta forno) che entri nel cestello. Cuoci 15 minuti a 160 °C senza preriscaldare, poi 3 minuti a 180 °C per dorare la superficie. Non serve girare la frittata: è pronta quando una lama esce asciutta dal centro. Fai prima saltare le zucchine in padella, altrimenti rilasceranno acqua nel composto."
+  },
+  "ingredients": [
+    {"ref": "uovo", "quantity": 6, "unit": "piece"},
+    {"ref": "zucchina", "quantity": 3, "unit": "piece"},
+    {"ref": "cipolla", "quantity": 1, "unit": "piece"},
+    {"ref": "parmigiano", "quantity": 60, "unit": "g", "substitutes": ["pecorino-romano"]},
+    {"ref": "basilico", "quantity": 10, "unit": "piece"},
+    {"ref": "olio-oliva", "quantity": 3, "unit": "tbsp"},
+    {"ref": "sale", "quantity": null, "unit": null},
+    {"ref": "pepe", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez les courgettes en fines rondelles et émincez l'oignon.", "en": "Cut the zucchini into thin rounds and thinly slice the onion.", "es": "Corta los calabacines en rodajas finas y la cebolla en juliana fina.", "it": "Taglia le zucchine a rondelle sottili e affetta finemente la cipolla."}, "image": "images/it-frittata-di-zucchine/step-1.webp"},
+    {"text": {"fr": "Faites revenir l'oignon et les courgettes dans 2 cuillères d'huile d'olive, à feu moyen, 10 minutes, jusqu'à ce qu'elles soient dorées et aient rendu leur eau. Salez légèrement et laissez tiédir.", "en": "Sauté the onion and zucchini in 2 tablespoons of olive oil over medium heat for 10 minutes, until golden and their moisture has cooked off. Season lightly with salt and let them cool a little.", "es": "Sofríe la cebolla y el calabacín en 2 cucharadas de aceite de oliva a fuego medio durante 10 minutos, hasta que estén dorados y hayan soltado su agua. Sala ligeramente y deja templar.", "it": "Fai saltare cipolla e zucchine in 2 cucchiai d'olio, a fuoco medio, per 10 minuti, finché sono dorate e hanno perso la loro acqua. Sala leggermente e lascia intiepidire."}, "image": "images/it-frittata-di-zucchine/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Dans un saladier, battez les œufs avec le parmesan râpé, le basilic déchiré, du sel et du poivre.", "en": "In a bowl, beat the eggs with the grated Parmesan, the torn basil leaves, salt and pepper.", "es": "En un bol, bate los huevos con el parmesano rallado, la albahaca troceada, sal y pimienta.", "it": "In una ciotola, sbatti le uova con il parmigiano grattugiato, il basilico spezzettato, sale e pepe."}, "image": "images/it-frittata-di-zucchine/step-3.webp"},
+    {"text": {"fr": "Incorporez les courgettes tièdes aux œufs battus et mélangez délicatement.", "en": "Fold the warm zucchini into the beaten eggs and mix gently.", "es": "Incorpora el calabacín templado a los huevos batidos y mezcla con suavidad.", "it": "Unisci le zucchine intiepidite alle uova sbattute e mescola con delicatezza."}, "image": "images/it-frittata-di-zucchine/step-4.webp"},
+    {"text": {"fr": "Versez l'appareil dans la poêle chaude avec le reste d'huile et faites cuire 8 minutes à feu doux, à couvert, jusqu'à ce que les bords soient pris et le centre à peine tremblant.", "en": "Pour the mixture into the hot pan with the remaining oil and cook for 8 minutes over low heat, covered, until the edges are set and the centre barely wobbles.", "es": "Vierte la mezcla en la sartén caliente con el resto del aceite y cuece 8 minutos a fuego suave, tapado, hasta que los bordes cuajen y el centro apenas tiemble.", "it": "Versa il composto nella padella calda con l'olio rimasto e cuoci 8 minuti a fuoco dolce, con il coperchio, finché i bordi sono rappresi e il centro appena tremolante."}, "image": "images/it-frittata-di-zucchine/step-5.webp", "timerMinutes": 8},
+    {"text": {"fr": "Retournez la frittata en vous aidant d'une grande assiette posée sur la poêle, puis faites-la glisser côté cru dessous et poursuivez la cuisson 4 minutes.", "en": "Flip the frittata using a large plate placed over the pan, then slide it back in raw side down and cook for another 4 minutes.", "es": "Da la vuelta a la frittata ayudándote de un plato grande colocado sobre la sartén, deslízala de nuevo con el lado crudo hacia abajo y cuece 4 minutos más.", "it": "Gira la frittata aiutandoti con un piatto grande appoggiato sulla padella, falla scivolare di nuovo con il lato crudo sotto e prosegui la cottura per 4 minuti."}, "image": "images/it-frittata-di-zucchine/step-6.webp", "timerMinutes": 4},
+    {"text": {"fr": "Laissez reposer 5 minutes hors du feu avant de couper en parts : la frittata se tient mieux et gagne en saveur. Servez tiède ou à température ambiante.", "en": "Let it rest off the heat for 5 minutes before cutting into wedges: the frittata holds together better and tastes fuller. Serve warm or at room temperature.", "es": "Deja reposar 5 minutos fuera del fuego antes de cortar en porciones: la frittata se asienta y gana sabor. Sirve templada o a temperatura ambiente.", "it": "Lascia riposare 5 minuti fuori dal fuoco prima di tagliarla a spicchi: la frittata si compatta e guadagna sapore. Servila tiepida o a temperatura ambiente."}, "image": "images/it-frittata-di-zucchine/step-7.webp", "timerMinutes": 5}
+  ]
+}

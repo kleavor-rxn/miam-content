@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "it-piadina-romagnola",
+  "title": {"fr": "Piadina romagnola", "en": "Piadina romagnola", "es": "Piadina romañola", "it": "Piadina romagnola"},
+  "summary": {
+    "fr": "La galette emblématique de la Romagne, cuite à la poêle et garnie à chaud de squacquerone, jambon cru et roquette.",
+    "en": "Romagna's iconic griddled flatbread, filled while still hot with squacquerone cheese, prosciutto and arugula.",
+    "es": "La torta plana emblemática de la Romaña, hecha a la sartén y rellena en caliente con squacquerone, jamón curado y rúcula.",
+    "it": "La piada simbolo della Romagna, cotta sul testo e farcita ancora calda con squacquerone, prosciutto crudo e rucola."
+  },
+  "region": {"fr": "Émilie-Romagne", "en": "Emilia-Romagna", "es": "Emilia-Romaña", "it": "Emilia-Romagna"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/it-piadina-romagnola/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farina-00", "quantity": 500, "unit": "g"},
+    {"ref": "strutto", "quantity": 100, "unit": "g", "substitutes": ["olio-oliva"]},
+    {"ref": "latte", "quantity": 220, "unit": "ml"},
+    {"ref": "sale", "quantity": 1, "unit": "tsp"},
+    {"ref": "squacquerone", "quantity": 250, "unit": "g", "substitutes": ["ricotta"]},
+    {"ref": "prosciutto-crudo", "quantity": 150, "unit": "g"},
+    {"ref": "rucola", "quantity": 80, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, mélangez la farine et le sel, puis incorporez le saindoux du bout des doigts jusqu'à obtenir un sable grossier.", "en": "In a large bowl, mix the flour and salt, then rub in the lard with your fingertips until the mixture looks like coarse crumbs.", "es": "En un bol grande, mezcla la harina con la sal e incorpora la manteca con la punta de los dedos hasta obtener una arena gruesa.", "it": "In una ciotola capiente, mescola farina e sale, poi incorpora lo strutto con la punta delle dita fino a ottenere un composto sabbioso."}, "image": "images/it-piadina-romagnola/step-1.webp"},
+    {"text": {"fr": "Versez le lait petit à petit et pétrissez 5 minutes, jusqu'à obtenir une pâte lisse et souple qui ne colle plus aux mains.", "en": "Pour in the milk a little at a time and knead for 5 minutes, until you have a smooth, supple dough that no longer sticks to your hands.", "es": "Vierte la leche poco a poco y amasa 5 minutos, hasta lograr una masa lisa y elástica que no se pegue a las manos.", "it": "Versa il latte poco alla volta e impasta per 5 minuti, fino ad avere un panetto liscio ed elastico che non si attacca più alle mani."}, "image": "images/it-piadina-romagnola/step-2.webp", "timerMinutes": 5},
+    {"text": {"fr": "Couvrez la pâte d'un linge et laissez-la reposer 30 minutes à température ambiante : elle s'étalera sans se rétracter.", "en": "Cover the dough with a cloth and let it rest for 30 minutes at room temperature: it will roll out without springing back.", "es": "Cubre la masa con un paño y déjala reposar 30 minutos a temperatura ambiente: así se estirará sin encogerse.", "it": "Copri l'impasto con un canovaccio e lascialo riposare 30 minuti a temperatura ambiente: si stenderà senza ritirarsi."}, "image": "images/it-piadina-romagnola/step-3.webp", "timerMinutes": 30},
+    {"text": {"fr": "Divisez la pâte en 4 boules et étalez chacune au rouleau en un disque fin d'environ 24 cm de diamètre et 3 mm d'épaisseur.", "en": "Divide the dough into 4 balls and roll each one into a thin disc, about 24 cm across and 3 mm thick.", "es": "Divide la masa en 4 bolas y estira cada una con el rodillo en un disco fino de unos 24 cm de diámetro y 3 mm de grosor.", "it": "Dividi l'impasto in 4 palline e stendi ognuna col mattarello in un disco sottile di circa 24 cm di diametro e 3 mm di spessore."}, "image": "images/it-piadina-romagnola/step-4.webp"},
+    {"text": {"fr": "Faites cuire chaque piadina dans une poêle bien chaude, sans matière grasse, 2 minutes par face, en la tournant et en piquant les cloques à la fourchette : elle doit se tacheter de brun sans durcir.", "en": "Cook each piadina in a very hot dry pan, 2 minutes per side, rotating it and pricking any bubbles with a fork: it should get brown spots without turning hard.", "es": "Cuece cada piadina en una sartén bien caliente, sin grasa, 2 minutos por cara, girándola y pinchando las burbujas con un tenedor: debe motearse de marrón sin endurecerse.", "it": "Cuoci ogni piadina su una padella ben calda, senza grassi, 2 minuti per lato, ruotandola e bucando le bolle con una forchetta: deve maculare di bruno senza indurirsi."}, "image": "images/it-piadina-romagnola/step-5.webp", "timerMinutes": 4},
+    {"text": {"fr": "Tartinez généreusement chaque piadina encore chaude de squacquerone, puis répartissez le jambon cru et la roquette sur une moitié.", "en": "Spread each piadina generously with squacquerone while still warm, then lay the prosciutto and arugula over one half.", "es": "Unta generosamente cada piadina aún caliente con squacquerone y reparte el jamón y la rúcula sobre una mitad.", "it": "Spalma generosamente ogni piadina ancora calda di squacquerone, poi distribuisci prosciutto crudo e rucola su una metà."}, "image": "images/it-piadina-romagnola/step-6.webp"},
+    {"text": {"fr": "Pliez chaque piadina en deux sur sa garniture et servez aussitôt, tant que le fromage est fondant.", "en": "Fold each piadina in half over its filling and serve right away, while the cheese is still meltingly soft.", "es": "Dobla cada piadina por la mitad sobre el relleno y sírvela enseguida, mientras el queso sigue cremoso.", "it": "Piega ogni piadina a metà sul ripieno e servila subito, finché il formaggio è ancora morbido."}, "image": "images/it-piadina-romagnola/step-7.webp"}
+  ]
+}

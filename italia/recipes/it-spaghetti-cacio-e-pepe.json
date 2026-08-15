@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "it-spaghetti-cacio-e-pepe",
+  "title": {"fr": "Spaghettis cacio e pepe", "en": "Spaghetti cacio e pepe", "es": "Espaguetis cacio e pepe", "it": "Spaghetti cacio e pepe"},
+  "summary": {
+    "fr": "Trois ingrédients et tout l'art de Rome : pecorino romano, poivre noir torréfié et eau de cuisson amidonneuse, émulsionnés en crème soyeuse.",
+    "en": "Three ingredients and all of Rome's craft: Pecorino Romano, toasted black pepper and starchy pasta water, whipped into a silky cream.",
+    "es": "Tres ingredientes y todo el arte de Roma: pecorino romano, pimienta negra tostada y agua de cocción con almidón, emulsionadas en una crema sedosa.",
+    "it": "Tre ingredienti e tutta l'arte di Roma: pecorino romano, pepe nero tostato e acqua di cottura ricca di amido, mantecati in una crema setosa."
+  },
+  "region": {"fr": "Latium", "en": "Lazio", "es": "Lacio", "it": "Lazio"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/it-spaghetti-cacio-e-pepe/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "spaghetti", "quantity": 400, "unit": "g"},
+    {"ref": "pecorino-romano", "quantity": 200, "unit": "g"},
+    {"ref": "pepe", "quantity": 2, "unit": "tsp"},
+    {"ref": "sale", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites griller les grains de poivre 1 minute dans une poêle sèche pour libérer leurs arômes, puis concassez-les grossièrement au mortier.", "en": "Toast the peppercorns in a dry pan for 1 minute to release their aroma, then crush them coarsely in a mortar.", "es": "Tuesta los granos de pimienta 1 minuto en una sartén seca para que liberen su aroma y machácalos groseramente en el mortero.", "it": "Tosta i grani di pepe per 1 minuto in una padella asciutta per sprigionarne gli aromi, poi pestali grossolanamente nel mortaio."}, "image": "images/it-spaghetti-cacio-e-pepe/step-1.webp", "timerMinutes": 1},
+    {"text": {"fr": "Faites cuire les spaghettis dans un volume d'eau réduit et à peine salée (le pecorino l'est déjà) : l'eau, plus concentrée en amidon, fera la liaison de la sauce.", "en": "Cook the spaghetti in less water than usual, barely salted (the pecorino brings plenty): the extra-starchy water is what will bind the sauce.", "es": "Cuece los espaguetis en menos agua de lo habitual y apenas salada (el pecorino ya aporta sal): esa agua, más concentrada en almidón, ligará la salsa.", "it": "Cuoci gli spaghetti in poca acqua appena salata (il pecorino è già sapido): l'acqua, più ricca di amido, servirà a legare la salsa."}, "image": "images/it-spaghetti-cacio-e-pepe/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Pendant ce temps, travaillez le pecorino finement râpé avec une petite louche d'eau de cuisson tiédie, à la fourchette, jusqu'à obtenir une crème épaisse et sans grumeaux.", "en": "Meanwhile, work the finely grated pecorino with a small ladleful of slightly cooled pasta water, using a fork, until you get a thick, lump-free cream.", "es": "Mientras tanto, trabaja el pecorino rallado fino con un cacito de agua de cocción templada, con un tenedor, hasta obtener una crema espesa y sin grumos.", "it": "Nel frattempo, lavora il pecorino grattugiato fine con un piccolo mestolo di acqua di cottura intiepidita, con una forchetta, fino a ottenere una crema densa e senza grumi."}, "image": "images/it-spaghetti-cacio-e-pepe/step-3.webp"},
+    {"text": {"fr": "Dans une grande poêle, faites revenir le poivre concassé 30 secondes avec une louche d'eau de cuisson, puis transférez-y les spaghettis égouttés 2 minutes avant la fin et terminez leur cuisson en remuant.", "en": "In a large pan, warm the crushed pepper for 30 seconds with a ladleful of pasta water, then transfer in the spaghetti, drained 2 minutes early, and finish cooking them while tossing.", "es": "En una sartén grande, calienta la pimienta machacada 30 segundos con un cacito de agua de cocción, pasa los espaguetis escurridos 2 minutos antes de tiempo y termina su cocción removiendo.", "it": "In una padella grande, scalda il pepe pestato per 30 secondi con un mestolo di acqua di cottura, poi trasferisci gli spaghetti scolati 2 minuti prima e porta a termine la cottura saltandoli."}, "image": "images/it-spaghetti-cacio-e-pepe/step-4.webp", "timerMinutes": 2},
+    {"text": {"fr": "Hors du feu, laissez retomber la chaleur 30 secondes, ajoutez la crème de pecorino et mélangez énergiquement en détendant avec un peu d'eau de cuisson : trop chaude, elle filerait en grumeaux.", "en": "Off the heat, let the pan cool for 30 seconds, add the pecorino cream and toss vigorously, loosening with a little pasta water: too much heat and the cheese would seize into clumps.", "es": "Fuera del fuego, deja que baje el calor 30 segundos, añade la crema de pecorino y remueve con energía, aligerando con un poco de agua de cocción: demasiado caliente, el queso se cortaría en grumos.", "it": "Lontano dal fuoco, lascia scendere il calore per 30 secondi, aggiungi la crema di pecorino e manteca con energia, allungando con poca acqua di cottura: troppo caldo, il formaggio impazzirebbe in grumi."}, "image": "images/it-spaghetti-cacio-e-pepe/step-5.webp"},
+    {"text": {"fr": "Servez immédiatement dans des assiettes chaudes, avec une pluie de pecorino et un dernier tour de poivre concassé.", "en": "Serve immediately on warm plates, with a flurry of pecorino and a final sprinkle of crushed pepper.", "es": "Sirve de inmediato en platos calientes, con una lluvia de pecorino y un último toque de pimienta machacada.", "it": "Servi immediatamente in piatti caldi, con una spolverata di pecorino e un'ultima macinata di pepe."}, "image": "images/it-spaghetti-cacio-e-pepe/step-6.webp"}
+  ]
+}
