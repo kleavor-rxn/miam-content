@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-coq-au-vin",
+  "title": {"fr": "Coq au vin", "en": "Coq au vin", "es": "Gallo al vino tinto", "it": "Gallo al vino rosso"},
+  "summary": {
+    "fr": "L'autre monument bourguignon : des morceaux de volaille marinés une nuit puis mijotés dans le vin rouge, avec lardons, oignons grelots et champignons.",
+    "en": "Burgundy's other monument: chicken pieces marinated overnight, then slowly braised in red wine with bacon, pearl onions and mushrooms.",
+    "es": "El otro monumento de Borgoña: trozos de ave marinados toda una noche y luego guisados en vino tinto con panceta, cebollitas y champiñones.",
+    "it": "L'altro monumento della Borgogna: pezzi di pollo marinati una notte e poi stufati nel vino rosso con pancetta, cipolline e funghi."
+  },
+  "region": {"fr": "Bourgogne", "en": "Burgundy", "es": "Borgoña", "it": "Borgogna"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 95,
+  "servings": 6,
+  "heroImage": "images/fr-coq-au-vin/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "poulet-entier", "quantity": 1, "unit": "piece"},
+    {"ref": "lardons", "quantity": 150, "unit": "g"},
+    {"ref": "oignon-grelot", "quantity": 12, "unit": "piece", "substitutes": ["oignon"]},
+    {"ref": "carotte", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "champignon-de-paris", "quantity": 250, "unit": "g"},
+    {"ref": "vin-rouge", "quantity": 75, "unit": "cl", "substitutes": ["bouillon-de-volaille"]},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece"},
+    {"ref": "farine", "quantity": 2, "unit": "tbsp"},
+    {"ref": "beurre", "quantity": 40, "unit": "g"},
+    {"ref": "huile-tournesol", "quantity": 1, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "La veille, coupez le poulet en 8 morceaux et mettez-les dans un saladier avec le vin rouge, les carottes en rondelles, l'ail écrasé et le bouquet garni. Laissez mariner une nuit au frais.", "en": "The day before, cut the chicken into 8 pieces and place them in a large bowl with the red wine, carrot rounds, crushed garlic and the bouquet garni. Leave to marinate overnight in the fridge.", "es": "La víspera, corta el pollo en 8 trozos y ponlos en un bol grande con el vino tinto, las zanahorias en rodajas, el ajo machacado y el ramillete de hierbas. Deja marinar toda la noche en la nevera.", "it": "Il giorno prima, taglia il pollo in 8 pezzi e mettili in una ciotola capiente con il vino rosso, le carote a rondelle, l'aglio schiacciato e il mazzetto aromatico. Lascia marinare una notte in frigorifero."}, "image": "images/fr-coq-au-vin/step-1.webp", "timerMinutes": 720},
+    {"text": {"fr": "Égouttez les morceaux en réservant la marinade, épongez-les bien, salez, poivrez et farinez-les légèrement.", "en": "Drain the chicken pieces, keeping the marinade, pat them dry, season with salt and pepper and dust lightly with flour.", "es": "Escurre los trozos reservando la marinada, sécalos bien, salpimiéntalos y enharínalos ligeramente.", "it": "Scola i pezzi conservando la marinata, asciugali bene, sala, pepa e infarinali leggermente."}, "image": "images/fr-coq-au-vin/step-2.webp"},
+    {"text": {"fr": "Dans une cocotte, faites dorer les lardons dans l'huile et la moitié du beurre, réservez-les, puis faites colorer les morceaux de poulet sur toutes leurs faces.", "en": "In a Dutch oven, brown the bacon in the oil and half the butter, set aside, then brown the chicken pieces on all sides.", "es": "En una cocotte, dora la panceta en el aceite y la mitad de la mantequilla, resérvala y dora los trozos de pollo por todos los lados.", "it": "In una casseruola, rosola la pancetta nell'olio e in metà del burro, mettila da parte, poi fai dorare i pezzi di pollo su tutti i lati."}, "image": "images/fr-coq-au-vin/step-3.webp"},
+    {"text": {"fr": "Remettez les lardons, versez la marinade avec ses légumes et portez à frémissement en grattant les sucs du fond.", "en": "Return the bacon, pour in the marinade with its vegetables and bring to a simmer, scraping up the browned bits from the bottom.", "es": "Devuelve la panceta, vierte la marinada con sus verduras y lleva a fuego suave raspando los jugos del fondo.", "it": "Rimetti la pancetta, versa la marinata con le sue verdure e porta a leggero bollore staccando i succhi dal fondo."}, "image": "images/fr-coq-au-vin/step-4.webp"},
+    {"text": {"fr": "Couvrez et laissez mijoter à feu doux pendant 1 heure, en retournant les morceaux à mi-cuisson.", "en": "Cover and simmer over low heat for 1 hour, turning the pieces halfway through.", "es": "Tapa y cuece a fuego lento durante 1 hora, dando la vuelta a los trozos a media cocción.", "it": "Copri e lascia sobbollire a fuoco dolce per 1 ora, girando i pezzi a metà cottura."}, "image": "images/fr-coq-au-vin/step-5.webp", "timerMinutes": 60},
+    {"text": {"fr": "Pendant ce temps, faites dorer les oignons grelots et les champignons dans le reste de beurre.", "en": "Meanwhile, brown the pearl onions and mushrooms in the remaining butter.", "es": "Mientras tanto, dora las cebollitas y los champiñones en el resto de la mantequilla.", "it": "Nel frattempo, fai dorare le cipolline e i funghi nel burro rimasto."}, "image": "images/fr-coq-au-vin/step-6.webp", "timerMinutes": 10},
+    {"text": {"fr": "Ajoutez-les dans la cocotte et poursuivez la cuisson 15 minutes à couvert.", "en": "Add them to the pot and cook, covered, for another 15 minutes.", "es": "Añádelos a la cocotte y prosigue la cocción 15 minutos con la tapa puesta.", "it": "Aggiungili nella casseruola e prosegui la cottura per altri 15 minuti con il coperchio."}, "image": "images/fr-coq-au-vin/step-7.webp", "timerMinutes": 15},
+    {"text": {"fr": "Retirez les morceaux de poulet, faites réduire la sauce à feu vif jusqu'à ce qu'elle nappe la cuillère, puis remettez-les et servez bien chaud.", "en": "Lift out the chicken pieces, boil the sauce over high heat until it coats the back of a spoon, then return the chicken and serve piping hot.", "es": "Saca los trozos de pollo, reduce la salsa a fuego vivo hasta que nape la cuchara, vuelve a meter el pollo y sirve bien caliente.", "it": "Togli i pezzi di pollo, fai ridurre la salsa a fuoco vivo finché non vela il cucchiaio, poi rimettili dentro e servi ben caldo."}, "image": "images/fr-coq-au-vin/step-8.webp", "timerMinutes": 10}
+  ]
+}

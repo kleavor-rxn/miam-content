@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-quiche-lorraine",
+  "title": {"fr": "Quiche lorraine", "en": "Quiche Lorraine", "es": "Quiche lorena", "it": "Quiche lorraine"},
+  "summary": {
+    "fr": "La tarte salée emblématique de l'Est : une pâte brisée dorée garnie de lardons et d'une migaine crémeuse, sans fromage comme le veut la tradition.",
+    "en": "The iconic savoury tart from eastern France: golden shortcrust filled with bacon and a silky egg-and-cream custard — no cheese, as tradition dictates.",
+    "es": "La tarta salada emblemática del este de Francia: masa quebrada dorada rellena de panceta y una sedosa crema de huevo, sin queso, como manda la tradición.",
+    "it": "La torta salata simbolo dell'est della Francia: pasta brisée dorata farcita di pancetta e un cremoso composto di uova e panna, senza formaggio come vuole la tradizione."
+  },
+  "region": {"fr": "Lorraine", "en": "Lorraine", "es": "Lorena", "it": "Lorena"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "heroImage": "images/fr-quiche-lorraine/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pate-brisee", "quantity": 1, "unit": "piece"},
+    {"ref": "lardons", "quantity": 200, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "creme-fraiche", "quantity": 20, "unit": "cl"},
+    {"ref": "lait", "quantity": 10, "unit": "cl"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 10, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 200 °C. Foncez un moule à tarte beurré avec la pâte brisée et piquez le fond à la fourchette.", "en": "Preheat the oven to 200 °C (390 °F). Line a buttered tart tin with the shortcrust pastry and prick the base with a fork.", "es": "Precalienta el horno a 200 °C. Forra un molde de tarta untado con mantequilla con la masa quebrada y pincha el fondo con un tenedor.", "it": "Preriscalda il forno a 200 °C. Fodera una tortiera imburrata con la pasta brisée e bucherella il fondo con una forchetta."}, "image": "images/fr-quiche-lorraine/step-1.webp"},
+    {"text": {"fr": "Couvrez la pâte de papier cuisson lesté de légumes secs et faites-la précuire 10 minutes à blanc.", "en": "Cover the pastry with baking paper weighed down with dried beans and blind-bake for 10 minutes.", "es": "Cubre la masa con papel de horno y legumbres secas a modo de peso, y hornéala en blanco 10 minutos.", "it": "Copri la pasta con carta forno e legumi secchi come peso e cuocila in bianco per 10 minuti."}, "image": "images/fr-quiche-lorraine/step-2.webp", "timerMinutes": 10},
+    {"text": {"fr": "Faites rissoler les lardons à sec dans une poêle, puis égouttez-les sur du papier absorbant.", "en": "Fry the bacon lardons in a dry pan until golden, then drain them on kitchen paper.", "es": "Sofríe la panceta en una sartén sin grasa hasta que se dore y escúrrela sobre papel de cocina.", "it": "Fai rosolare la pancetta in una padella senza grassi finché non è dorata, poi falla sgocciolare su carta assorbente."}, "image": "images/fr-quiche-lorraine/step-3.webp", "timerMinutes": 5},
+    {"text": {"fr": "Battez les œufs avec la crème et le lait, salez légèrement, poivrez et ajoutez la pincée de muscade râpée : c'est la migaine.", "en": "Beat the eggs with the cream and milk, season lightly with salt, add pepper and the pinch of grated nutmeg — this is the 'migaine'.", "es": "Bate los huevos con la nata y la leche, sala ligeramente, añade pimienta y la pizca de nuez moscada rallada: es la llamada « migaine ».", "it": "Sbatti le uova con la panna e il latte, sala appena, pepa e aggiungi il pizzico di noce moscata grattugiata: è la cosiddetta « migaine »."}, "image": "images/fr-quiche-lorraine/step-4.webp"},
+    {"text": {"fr": "Répartissez les lardons sur le fond de tarte précuit et versez la migaine par-dessus.", "en": "Scatter the lardons over the pre-baked pastry base and pour the custard over them.", "es": "Reparte la panceta sobre el fondo de tarta precocido y vierte la crema por encima.", "it": "Distribuisci la pancetta sul fondo di pasta precotto e versaci sopra il composto."}, "image": "images/fr-quiche-lorraine/step-5.webp"},
+    {"text": {"fr": "Enfournez 30 minutes, jusqu'à ce que la quiche soit gonflée et joliment dorée.", "en": "Bake for 30 minutes, until the quiche is puffed and beautifully golden.", "es": "Hornea 30 minutos, hasta que la quiche esté hinchada y bien dorada.", "it": "Inforna per 30 minuti, finché la quiche non è gonfia e ben dorata."}, "image": "images/fr-quiche-lorraine/step-6.webp", "timerMinutes": 30},
+    {"text": {"fr": "Laissez reposer 5 minutes avant de découper et servez tiède, avec une salade verte.", "en": "Let rest for 5 minutes before slicing and serve warm, with a green salad.", "es": "Deja reposar 5 minutos antes de cortar y sirve templada, con una ensalada verde.", "it": "Lascia riposare 5 minuti prima di tagliare e servi tiepida, con un'insalata verde."}, "image": "images/fr-quiche-lorraine/step-7.webp", "timerMinutes": 5}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-gratin-dauphinois",
+  "title": {"fr": "Gratin dauphinois", "en": "Gratin dauphinois", "es": "Gratén dauphinois", "it": "Gratin dauphinois"},
+  "summary": {
+    "fr": "Des pommes de terre fondantes cuites tout doucement dans le lait et la crème parfumés à l'ail et à la muscade — sans fromage, comme dans le Dauphiné.",
+    "en": "Meltingly tender potatoes baked low and slow in garlic- and nutmeg-scented milk and cream — no cheese, just as they make it in the Dauphiné.",
+    "es": "Patatas fundentes horneadas despacio en leche y nata perfumadas con ajo y nuez moscada, sin queso, como se hace en el Delfinado.",
+    "it": "Patate fondenti cotte lentamente nel latte e nella panna profumati all'aglio e alla noce moscata, senza formaggio, come si usa nel Delfinato."
+  },
+  "region": {"fr": "Dauphiné", "en": "Dauphiné", "es": "Delfinado", "it": "Delfinato"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 85,
+  "servings": 6,
+  "heroImage": "images/fr-gratin-dauphinois/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "pomme-de-terre", "quantity": 1.5, "unit": "kg"},
+    {"ref": "lait", "quantity": 50, "unit": "cl"},
+    {"ref": "creme-fraiche", "quantity": 40, "unit": "cl"},
+    {"ref": "ail", "quantity": 2, "unit": "clove"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 30, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 150 °C. Pelez les pommes de terre et coupez-les en rondelles de 3 mm, sans les rincer pour conserver l'amidon.", "en": "Preheat the oven to 150 °C (300 °F). Peel the potatoes and slice them into 3 mm rounds — do not rinse them, so they keep their starch.", "es": "Precalienta el horno a 150 °C. Pela las patatas y córtalas en rodajas de 3 mm, sin lavarlas para conservar el almidón.", "it": "Preriscalda il forno a 150 °C. Pela le patate e tagliale a fettine di 3 mm, senza sciacquarle per conservare l'amido."}, "image": "images/fr-gratin-dauphinois/step-1.webp"},
+    {"text": {"fr": "Frottez un plat à gratin avec une gousse d'ail coupée en deux, puis beurrez-le généreusement.", "en": "Rub a gratin dish with a garlic clove cut in half, then butter it generously.", "es": "Frota una fuente de horno con un diente de ajo cortado por la mitad y luego úntala generosamente con mantequilla.", "it": "Strofina una pirofila con uno spicchio d'aglio tagliato a metà, poi imburrala generosamente."}, "image": "images/fr-gratin-dauphinois/step-2.webp"},
+    {"text": {"fr": "Portez le lait et la crème à frémissement dans une grande casserole avec l'ail restant haché, du sel, du poivre et la muscade.", "en": "Bring the milk and cream to a simmer in a large saucepan with the remaining garlic, chopped, plus salt, pepper and the nutmeg.", "es": "Lleva la leche y la nata a fuego suave en una cazuela grande con el ajo restante picado, sal, pimienta y la nuez moscada.", "it": "Porta il latte e la panna a leggero bollore in una pentola capiente con l'aglio rimasto tritato, sale, pepe e la noce moscata."}, "image": "images/fr-gratin-dauphinois/step-3.webp"},
+    {"text": {"fr": "Plongez-y les rondelles de pommes de terre et laissez frémir 10 minutes en remuant délicatement.", "en": "Add the potato slices and let them simmer for 10 minutes, stirring gently.", "es": "Incorpora las rodajas de patata y deja cocer a fuego suave 10 minutos, removiendo con delicadeza.", "it": "Immergi le fettine di patata e lascia sobbollire per 10 minuti, mescolando delicatamente."}, "image": "images/fr-gratin-dauphinois/step-4.webp", "timerMinutes": 10},
+    {"text": {"fr": "Versez le tout dans le plat, égalisez les couches et enfoncez les rondelles pour que la crème affleure. Parsemez du reste de beurre.", "en": "Pour everything into the dish, even out the layers and press the slices down so the cream just covers them. Dot with the remaining butter.", "es": "Vierte todo en la fuente, iguala las capas y presiona las rodajas para que la crema apenas las cubra. Reparte el resto de la mantequilla en trocitos.", "it": "Versa tutto nella pirofila, livella gli strati e premi le fettine perché la panna affiori appena. Distribuisci il burro rimasto a fiocchetti."}, "image": "images/fr-gratin-dauphinois/step-5.webp"},
+    {"text": {"fr": "Enfournez 75 minutes, jusqu'à ce que la lame d'un couteau s'enfonce sans résistance et que le dessus soit bien doré.", "en": "Bake for 75 minutes, until the blade of a knife slides in without resistance and the top is nicely golden.", "es": "Hornea 75 minutos, hasta que la hoja de un cuchillo entre sin resistencia y la superficie esté bien dorada.", "it": "Inforna per 75 minuti, finché la lama di un coltello non affonda senza resistenza e la superficie è ben dorata."}, "image": "images/fr-gratin-dauphinois/step-6.webp", "timerMinutes": 75},
+    {"text": {"fr": "Laissez reposer 10 minutes à la sortie du four pour que le gratin se tienne, puis servez.", "en": "Let the gratin rest for 10 minutes out of the oven so it sets, then serve.", "es": "Deja reposar el gratén 10 minutos fuera del horno para que se asiente y sírvelo.", "it": "Lascia riposare il gratin per 10 minuti fuori dal forno perché si compatti, poi servi."}, "image": "images/fr-gratin-dauphinois/step-7.webp", "timerMinutes": 10}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-blanquette-de-veau",
+  "title": {"fr": "Blanquette de veau", "en": "Veal blanquette", "es": "Blanqueta de ternera", "it": "Blanquette di vitello"},
+  "summary": {
+    "fr": "Le plat du dimanche par excellence : du veau poché tout doucement, nappé d'une sauce blanche veloutée liée aux jaunes d'œufs et à la crème.",
+    "en": "The ultimate French Sunday dish: gently poached veal folded into a silky white sauce enriched with egg yolks and cream.",
+    "es": "El plato dominical francés por excelencia: ternera pochada a fuego muy suave, napada con una sedosa salsa blanca ligada con yemas y nata.",
+    "it": "Il piatto della domenica per eccellenza: vitello cotto dolcemente, avvolto in una vellutata salsa bianca legata con tuorli e panna."
+  },
+  "region": {"fr": "Île-de-France", "en": "Île-de-France", "es": "Isla de Francia", "it": "Île-de-France"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 115,
+  "servings": 6,
+  "heroImage": "images/fr-blanquette-de-veau/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "veau-epaule", "quantity": 1.2, "unit": "kg"},
+    {"ref": "carotte", "quantity": 3, "unit": "piece"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "clou-de-girofle", "quantity": 2, "unit": "piece"},
+    {"ref": "poireau", "quantity": 1, "unit": "piece"},
+    {"ref": "bouquet-garni", "quantity": 1, "unit": "piece"},
+    {"ref": "champignon-de-paris", "quantity": 250, "unit": "g"},
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 40, "unit": "g"},
+    {"ref": "creme-fraiche", "quantity": 20, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece"},
+    {"ref": "riz", "quantity": 300, "unit": "g", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez l'épaule de veau en morceaux de 4 cm, placez-les dans une cocotte et couvrez-les d'eau froide. Portez à ébullition et écumez soigneusement.", "en": "Cut the veal shoulder into 4 cm chunks, place them in a Dutch oven and cover with cold water. Bring to the boil and skim carefully.", "es": "Corta la espaldilla de ternera en trozos de 4 cm, ponlos en una olla y cúbrelos con agua fría. Lleva a ebullición y retira la espuma con cuidado.", "it": "Taglia la spalla di vitello a pezzi di 4 cm, mettili in una casseruola e coprili d'acqua fredda. Porta a bollore ed elimina con cura la schiuma."}, "image": "images/fr-blanquette-de-veau/step-1.webp"},
+    {"text": {"fr": "Ajoutez les carottes en tronçons, le poireau, l'oignon piqué des clous de girofle, le second oignon et le bouquet garni. Salez, couvrez et laissez frémir 1 h 30 à feu doux.", "en": "Add the carrots cut into chunks, the leek, the onion studded with the cloves, the second onion and the bouquet garni. Season with salt, cover and simmer gently for 1½ hours.", "es": "Añade las zanahorias en trozos, el puerro, la cebolla claveteada con los clavos de olor, la segunda cebolla y el ramillete de hierbas. Sala, tapa y deja cocer a fuego suave 1 hora y media.", "it": "Aggiungi le carote a tocchetti, il porro, la cipolla steccata con i chiodi di garofano, la seconda cipolla e il mazzetto aromatico. Sala, copri e lascia sobbollire a fuoco dolce per un'ora e mezza."}, "image": "images/fr-blanquette-de-veau/step-2.webp", "timerMinutes": 90},
+    {"text": {"fr": "Pendant ce temps, faites sauter les champignons coupés en quatre dans une noix de beurre jusqu'à légère coloration, puis réservez-les.", "en": "Meanwhile, sauté the quartered mushrooms in a knob of butter until lightly golden, then set them aside.", "es": "Mientras tanto, saltea los champiñones en cuartos con una nuez de mantequilla hasta que se doren ligeramente y resérvalos.", "it": "Nel frattempo, salta i funghi tagliati in quattro con una noce di burro finché non sono leggermente dorati, poi mettili da parte."}, "image": "images/fr-blanquette-de-veau/step-3.webp", "timerMinutes": 10},
+    {"text": {"fr": "Retirez la viande et les légumes à l'écumoire, filtrez le bouillon et gardez-en 75 cl bien chaud.", "en": "Lift out the meat and vegetables with a slotted spoon, strain the broth and keep 75 cl of it hot.", "es": "Saca la carne y las verduras con una espumadera, cuela el caldo y reserva 75 cl bien caliente.", "it": "Togli la carne e le verdure con una schiumarola, filtra il brodo e tienine 75 cl ben caldi."}, "image": "images/fr-blanquette-de-veau/step-4.webp"},
+    {"text": {"fr": "Dans une casserole, faites fondre le reste de beurre, ajoutez la farine et laissez cuire ce roux 2 minutes en remuant, sans coloration.", "en": "In a saucepan, melt the remaining butter, add the flour and cook this roux for 2 minutes, stirring, without letting it colour.", "es": "En un cazo, derrite el resto de la mantequilla, añade la harina y cuece este roux 2 minutos removiendo, sin que tome color.", "it": "In un pentolino, sciogli il burro rimasto, aggiungi la farina e cuoci questo roux per 2 minuti mescolando, senza farlo colorire."}, "image": "images/fr-blanquette-de-veau/step-5.webp", "timerMinutes": 2},
+    {"text": {"fr": "Versez le bouillon chaud petit à petit en fouettant, puis laissez épaissir la sauce 10 minutes à frémissement, jusqu'à ce qu'elle nappe la cuillère.", "en": "Gradually whisk in the hot broth, then let the sauce thicken at a simmer for 10 minutes, until it coats the back of a spoon.", "es": "Vierte el caldo caliente poco a poco sin dejar de batir y deja espesar la salsa 10 minutos a fuego suave, hasta que nape la cuchara.", "it": "Versa il brodo caldo poco alla volta sbattendo con la frusta, poi lascia addensare la salsa per 10 minuti a fuoco dolce, finché non vela il cucchiaio."}, "image": "images/fr-blanquette-de-veau/step-6.webp", "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, mélangez la crème, les jaunes d'œufs et le jus du demi-citron, puis incorporez cette liaison à la sauce sans plus la faire bouillir.", "en": "Off the heat, mix the cream, egg yolks and the juice of the half lemon, then stir this liaison into the sauce — do not let it boil again.", "es": "Fuera del fuego, mezcla la nata, las yemas y el zumo del medio limón, e incorpora esta mezcla a la salsa sin dejar que vuelva a hervir.", "it": "Fuori dal fuoco, mescola la panna, i tuorli e il succo del mezzo limone, poi incorpora questo composto alla salsa senza farla più bollire."}, "image": "images/fr-blanquette-de-veau/step-7.webp"},
+    {"text": {"fr": "Remettez le veau et les champignons dans la sauce, réchauffez 5 minutes à feu très doux, rectifiez l'assaisonnement et servez avec un riz blanc.", "en": "Return the veal and mushrooms to the sauce, warm through for 5 minutes over very low heat, adjust the seasoning and serve with plain white rice.", "es": "Devuelve la ternera y los champiñones a la salsa, calienta 5 minutos a fuego muy suave, rectifica de sal y sirve con arroz blanco.", "it": "Rimetti il vitello e i funghi nella salsa, scalda 5 minuti a fuoco dolcissimo, aggiusta di sale e servi con riso bianco."}, "image": "images/fr-blanquette-de-veau/step-8.webp", "timerMinutes": 5}
+  ]
+}

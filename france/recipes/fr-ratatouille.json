@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "fr-ratatouille",
+  "title": {"fr": "Ratatouille", "en": "Ratatouille", "es": "Ratatouille", "it": "Ratatouille"},
+  "summary": {
+    "fr": "Le soleil de Provence en cocotte : aubergines, courgettes, poivrons et tomates revenus séparément puis longuement compotés ensemble.",
+    "en": "Provence in a pot: eggplant, zucchini, peppers and tomatoes sautéed separately, then gently stewed together until meltingly soft.",
+    "es": "El sol de Provenza en una cazuela: berenjenas, calabacines, pimientos y tomates salteados por separado y luego estofados juntos a fuego lento.",
+    "it": "Il sole della Provenza in casseruola: melanzane, zucchine, peperoni e pomodori saltati separatamente e poi stufati insieme a fuoco dolce."
+  },
+  "region": {"fr": "Provence", "en": "Provence", "es": "Provenza", "it": "Provenza"},
+  "category": "plat",
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 70,
+  "servings": 6,
+  "heroImage": "images/fr-ratatouille/hero.webp",
+  "tags": ["vegetarian"],
+  "ingredients": [
+    {"ref": "aubergine", "quantity": 2, "unit": "piece"},
+    {"ref": "courgette", "quantity": 3, "unit": "piece"},
+    {"ref": "poivron", "quantity": 2, "unit": "piece"},
+    {"ref": "tomate", "quantity": 6, "unit": "piece"},
+    {"ref": "oignon", "quantity": 2, "unit": "piece"},
+    {"ref": "ail", "quantity": 3, "unit": "clove"},
+    {"ref": "thym", "quantity": 2, "unit": "piece"},
+    {"ref": "laurier", "quantity": 1, "unit": "piece"},
+    {"ref": "huile-olive", "quantity": 6, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "poivre", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Taillez les aubergines et les courgettes en dés, les poivrons en lanières, les tomates en quartiers et émincez les oignons.", "en": "Dice the eggplants and zucchini, cut the peppers into strips, quarter the tomatoes and slice the onions.", "es": "Corta las berenjenas y los calabacines en dados, los pimientos en tiras, los tomates en cuartos y las cebollas en juliana.", "it": "Taglia le melanzane e le zucchine a dadi, i peperoni a listarelle, i pomodori a spicchi e affetta le cipolle."}, "image": "images/fr-ratatouille/step-1.webp"},
+    {"text": {"fr": "Dans une grande sauteuse, faites dorer les dés d'aubergine dans 2 cuillères d'huile d'olive, puis réservez-les.", "en": "In a large sauté pan, brown the eggplant cubes in 2 tablespoons of olive oil, then set them aside.", "es": "En una sartén amplia, dora los dados de berenjena en 2 cucharadas de aceite de oliva y resérvalos.", "it": "In un'ampia padella, fai dorare i dadi di melanzana in 2 cucchiai d'olio d'oliva, poi mettili da parte."}, "image": "images/fr-ratatouille/step-2.webp", "timerMinutes": 8},
+    {"text": {"fr": "Faites dorer les courgettes de la même façon avec un filet d'huile, puis réservez-les avec les aubergines.", "en": "Brown the zucchini the same way with a drizzle of oil, then set them aside with the eggplant.", "es": "Dora los calabacines de la misma manera con un chorrito de aceite y resérvalos con las berenjenas.", "it": "Fai dorare le zucchine allo stesso modo con un filo d'olio, poi mettile da parte con le melanzane."}, "image": "images/fr-ratatouille/step-3.webp", "timerMinutes": 6},
+    {"text": {"fr": "Faites fondre les oignons et les poivrons dans le reste d'huile, sans coloration.", "en": "Soften the onions and peppers in the remaining oil, without letting them brown.", "es": "Pocha las cebollas y los pimientos en el resto del aceite, sin que lleguen a dorarse.", "it": "Fai appassire le cipolle e i peperoni nell'olio rimasto, senza farli colorire."}, "image": "images/fr-ratatouille/step-4.webp", "timerMinutes": 8},
+    {"text": {"fr": "Ajoutez les tomates, l'ail écrasé, le thym et le laurier. Salez et poivrez.", "en": "Add the tomatoes, crushed garlic, thyme and bay leaf. Season with salt and pepper.", "es": "Añade los tomates, el ajo machacado, el tomillo y el laurel. Salpimienta.", "it": "Aggiungi i pomodori, l'aglio schiacciato, il timo e l'alloro. Sala e pepa."}, "image": "images/fr-ratatouille/step-5.webp"},
+    {"text": {"fr": "Remettez les aubergines et les courgettes, couvrez et laissez compoter à feu doux 40 minutes en remuant de temps en temps.", "en": "Return the eggplant and zucchini, cover and stew over low heat for 40 minutes, stirring from time to time.", "es": "Devuelve las berenjenas y los calabacines, tapa y deja estofar a fuego lento 40 minutos, removiendo de vez en cuando.", "it": "Rimetti le melanzane e le zucchine, copri e lascia stufare a fuoco dolce per 40 minuti, mescolando ogni tanto."}, "image": "images/fr-ratatouille/step-6.webp", "timerMinutes": 40},
+    {"text": {"fr": "Découvrez et poursuivez la cuisson 10 minutes pour faire évaporer l'excédent de jus, puis rectifiez l'assaisonnement.", "en": "Uncover and cook for another 10 minutes to let the excess juices evaporate, then adjust the seasoning.", "es": "Destapa y cocina 10 minutos más para que se evapore el exceso de jugo, y rectifica de sal.", "it": "Scopri e prosegui la cottura per 10 minuti per far evaporare il liquido in eccesso, poi aggiusta di sale."}, "image": "images/fr-ratatouille/step-7.webp", "timerMinutes": 10}
+  ]
+}
