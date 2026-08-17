@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T21:04:38Z",
+  "generatedAt": "2026-08-17T05:29:41Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -737,6 +737,14 @@
     {
       "date": "2026-09-14",
       "recipeID": "fr-hachis-parmentier"
+    },
+    {
+      "date": "2026-09-15",
+      "recipeID": "fr-tomates-farcies"
+    },
+    {
+      "date": "2026-09-16",
+      "recipeID": "fr-camembert-roti"
     }
   ]
 }

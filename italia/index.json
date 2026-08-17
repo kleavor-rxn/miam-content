@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T21:04:38Z",
+  "generatedAt": "2026-08-17T05:29:41Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -743,6 +743,14 @@
     {
       "date": "2026-09-14",
       "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-09-15",
+      "recipeID": "it-pizzette-di-sfoglia"
+    },
+    {
+      "date": "2026-09-16",
+      "recipeID": "it-ossobuco-alla-milanese"
     }
   ]
 }
