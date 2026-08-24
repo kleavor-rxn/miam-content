@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T05:29:41Z",
+  "generatedAt": "2026-08-24T05:33:04Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -751,6 +751,34 @@
     {
       "date": "2026-09-16",
       "recipeID": "it-ossobuco-alla-milanese"
+    },
+    {
+      "date": "2026-09-17",
+      "recipeID": "it-bruschetta-al-pomodoro"
+    },
+    {
+      "date": "2026-09-18",
+      "recipeID": "it-frittata-di-zucchine"
+    },
+    {
+      "date": "2026-09-19",
+      "recipeID": "it-spaghetti-cacio-e-pepe"
+    },
+    {
+      "date": "2026-09-20",
+      "recipeID": "it-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-09-21",
+      "recipeID": "it-pasta-al-pomodoro"
+    },
+    {
+      "date": "2026-09-22",
+      "recipeID": "it-risotto-alla-milanese"
+    },
+    {
+      "date": "2026-09-23",
+      "recipeID": "it-saltimbocca-alla-romana"
     }
   ]
 }
