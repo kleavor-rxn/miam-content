@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T09:53:25Z",
+  "generatedAt": "2026-09-14T10:15:45Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -835,6 +835,34 @@
     {
       "date": "2026-10-07",
       "recipeID": "it-focaccia-genovese"
+    },
+    {
+      "date": "2026-10-08",
+      "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-10-09",
+      "recipeID": "it-panzanella"
+    },
+    {
+      "date": "2026-10-10",
+      "recipeID": "it-ossobuco-alla-milanese"
+    },
+    {
+      "date": "2026-10-11",
+      "recipeID": "it-pollo-alla-cacciatora"
+    },
+    {
+      "date": "2026-10-12",
+      "recipeID": "it-arancini"
+    },
+    {
+      "date": "2026-10-13",
+      "recipeID": "it-tagliatelle-al-ragu"
+    },
+    {
+      "date": "2026-10-14",
+      "recipeID": "it-frittata-di-zucchine"
     }
   ]
 }

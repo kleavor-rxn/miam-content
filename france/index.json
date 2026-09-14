@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T09:53:25Z",
+  "generatedAt": "2026-09-14T10:15:45Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -829,6 +829,34 @@
     {
       "date": "2026-10-07",
       "recipeID": "fr-blanquette-de-veau"
+    },
+    {
+      "date": "2026-10-08",
+      "recipeID": "fr-far-breton"
+    },
+    {
+      "date": "2026-10-09",
+      "recipeID": "fr-camembert-roti"
+    },
+    {
+      "date": "2026-10-10",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-10-11",
+      "recipeID": "fr-soupe-a-l-oignon"
+    },
+    {
+      "date": "2026-10-12",
+      "recipeID": "fr-poireaux-vinaigrette"
+    },
+    {
+      "date": "2026-10-13",
+      "recipeID": "fr-navarin-d-agneau"
+    },
+    {
+      "date": "2026-10-14",
+      "recipeID": "fr-tarte-tatin"
     }
   ]
 }
