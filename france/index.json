@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T10:15:45Z",
+  "generatedAt": "2026-09-21T10:21:02Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -495,34 +495,6 @@
   ],
   "dailyPicks": [
     {
-      "date": "2026-07-16",
-      "recipeID": "fr-pot-au-feu"
-    },
-    {
-      "date": "2026-07-17",
-      "recipeID": "fr-veloute-de-potiron"
-    },
-    {
-      "date": "2026-07-18",
-      "recipeID": "fr-croque-monsieur"
-    },
-    {
-      "date": "2026-07-19",
-      "recipeID": "fr-flammekueche"
-    },
-    {
-      "date": "2026-07-20",
-      "recipeID": "fr-tomates-farcies"
-    },
-    {
-      "date": "2026-07-21",
-      "recipeID": "fr-oeufs-mimosa"
-    },
-    {
-      "date": "2026-07-22",
-      "recipeID": "fr-madeleines"
-    },
-    {
       "date": "2026-07-23",
       "recipeID": "fr-poulet-basquaise"
     },
@@ -857,6 +829,34 @@
     {
       "date": "2026-10-14",
       "recipeID": "fr-tarte-tatin"
+    },
+    {
+      "date": "2026-10-15",
+      "recipeID": "fr-crepes"
+    },
+    {
+      "date": "2026-10-16",
+      "recipeID": "fr-oeufs-mimosa"
+    },
+    {
+      "date": "2026-10-17",
+      "recipeID": "fr-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-10-18",
+      "recipeID": "fr-gratin-dauphinois"
+    },
+    {
+      "date": "2026-10-19",
+      "recipeID": "fr-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-10-20",
+      "recipeID": "fr-hachis-parmentier"
+    },
+    {
+      "date": "2026-10-21",
+      "recipeID": "fr-gougeres"
     }
   ]
 }
