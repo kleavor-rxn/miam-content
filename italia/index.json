@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T10:21:02Z",
+  "generatedAt": "2026-09-28T11:23:12Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -501,34 +501,6 @@
   ],
   "dailyPicks": [
     {
-      "date": "2026-07-23",
-      "recipeID": "it-ossobuco-alla-milanese"
-    },
-    {
-      "date": "2026-07-24",
-      "recipeID": "it-saltimbocca-alla-romana"
-    },
-    {
-      "date": "2026-07-25",
-      "recipeID": "it-bucatini-all-amatriciana"
-    },
-    {
-      "date": "2026-07-26",
-      "recipeID": "it-minestrone"
-    },
-    {
-      "date": "2026-07-27",
-      "recipeID": "it-panzanella"
-    },
-    {
-      "date": "2026-07-28",
-      "recipeID": "it-risotto-alla-milanese"
-    },
-    {
-      "date": "2026-07-29",
-      "recipeID": "it-pasta-e-fagioli"
-    },
-    {
       "date": "2026-07-30",
       "recipeID": "it-pizzette-di-sfoglia"
     },
@@ -863,6 +835,34 @@
     {
       "date": "2026-10-21",
       "recipeID": "it-panna-cotta"
+    },
+    {
+      "date": "2026-10-22",
+      "recipeID": "it-lasagne-alla-bolognese"
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": "it-spaghetti-carbonara"
+    },
+    {
+      "date": "2026-10-24",
+      "recipeID": "it-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-10-25",
+      "recipeID": "it-panzanella"
+    },
+    {
+      "date": "2026-10-26",
+      "recipeID": "it-ossobuco-alla-milanese"
+    },
+    {
+      "date": "2026-10-27",
+      "recipeID": "it-bruschetta-al-pomodoro"
+    },
+    {
+      "date": "2026-10-28",
+      "recipeID": "it-pizzette-di-sfoglia"
     }
   ]
 }
