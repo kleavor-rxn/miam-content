@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:23:12Z",
+  "generatedAt": "2026-10-05T11:59:07Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -501,34 +501,6 @@
   ],
   "dailyPicks": [
     {
-      "date": "2026-07-30",
-      "recipeID": "it-pizzette-di-sfoglia"
-    },
-    {
-      "date": "2026-07-31",
-      "recipeID": "it-pollo-alla-cacciatora"
-    },
-    {
-      "date": "2026-08-01",
-      "recipeID": "it-bruschetta-al-pomodoro"
-    },
-    {
-      "date": "2026-08-02",
-      "recipeID": "it-polpette-al-sugo"
-    },
-    {
-      "date": "2026-08-03",
-      "recipeID": "it-frittata-di-zucchine"
-    },
-    {
-      "date": "2026-08-04",
-      "recipeID": "it-panna-cotta"
-    },
-    {
-      "date": "2026-08-05",
-      "recipeID": "it-insalata-caprese"
-    },
-    {
       "date": "2026-08-06",
       "recipeID": "it-piadina-romagnola"
     },
@@ -863,6 +835,34 @@
     {
       "date": "2026-10-28",
       "recipeID": "it-pizzette-di-sfoglia"
+    },
+    {
+      "date": "2026-10-29",
+      "recipeID": "it-pasta-al-pomodoro"
+    },
+    {
+      "date": "2026-10-30",
+      "recipeID": "it-risotto-ai-funghi"
+    },
+    {
+      "date": "2026-10-31",
+      "recipeID": "it-piadina-romagnola"
+    },
+    {
+      "date": "2026-11-01",
+      "recipeID": "it-melanzane-alla-parmigiana"
+    },
+    {
+      "date": "2026-11-02",
+      "recipeID": "it-pollo-alla-cacciatora"
+    },
+    {
+      "date": "2026-11-03",
+      "recipeID": "it-suppli"
+    },
+    {
+      "date": "2026-11-04",
+      "recipeID": "it-gnocchi-di-patate"
     }
   ]
 }

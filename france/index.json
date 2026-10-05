@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:23:12Z",
+  "generatedAt": "2026-10-05T11:59:07Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -495,34 +495,6 @@
   ],
   "dailyPicks": [
     {
-      "date": "2026-07-30",
-      "recipeID": "fr-quiche-lorraine"
-    },
-    {
-      "date": "2026-07-31",
-      "recipeID": "fr-salade-nicoise"
-    },
-    {
-      "date": "2026-08-01",
-      "recipeID": "fr-ratatouille"
-    },
-    {
-      "date": "2026-08-02",
-      "recipeID": "fr-veloute-de-potiron"
-    },
-    {
-      "date": "2026-08-03",
-      "recipeID": "fr-pot-au-feu"
-    },
-    {
-      "date": "2026-08-04",
-      "recipeID": "fr-poireaux-vinaigrette"
-    },
-    {
-      "date": "2026-08-05",
-      "recipeID": "fr-tartiflette"
-    },
-    {
       "date": "2026-08-06",
       "recipeID": "fr-croque-monsieur"
     },
@@ -857,6 +829,34 @@
     {
       "date": "2026-10-28",
       "recipeID": "fr-tarte-tatin"
+    },
+    {
+      "date": "2026-10-29",
+      "recipeID": "fr-soupe-a-l-oignon"
+    },
+    {
+      "date": "2026-10-30",
+      "recipeID": "fr-boeuf-bourguignon"
+    },
+    {
+      "date": "2026-10-31",
+      "recipeID": "fr-tartiflette"
+    },
+    {
+      "date": "2026-11-01",
+      "recipeID": "fr-flammekueche"
+    },
+    {
+      "date": "2026-11-02",
+      "recipeID": "fr-navarin-d-agneau"
+    },
+    {
+      "date": "2026-11-03",
+      "recipeID": "fr-gratin-dauphinois"
+    },
+    {
+      "date": "2026-11-04",
+      "recipeID": "fr-poireaux-vinaigrette"
     }
   ]
 }
