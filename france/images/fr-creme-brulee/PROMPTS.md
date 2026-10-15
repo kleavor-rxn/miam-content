@@ -1,7 +1,7 @@
 rustic French bistro food photography, natural light, shallow depth of field, linen tablecloth
 
 ## hero.webp
-A shallow white porcelain ramekin of crème brûlée on a linen tablecloth, glassy amber caramel crust cracked open by a small silver spoon revealing pale vanilla custard flecked with vanilla seeds, a second untouched ramekin and a kitchen torch blurred in the background.
+A shallow white porcelain ramekin of crème brûlée on a linen tablecloth, glassy amber caramel crust cracked open by a small silver spoon revealing pale vanilla custard flecked with vanilla seeds, a second untouched ramekin blurred in the background.
 
 ## step-1.webp
 A split vanilla pod and its scraped seeds in a saucepan of cream warming gently on the stove, faint steam rising, no boiling, the empty pod halves floating on the pale surface, small paring knife on the counter beside.

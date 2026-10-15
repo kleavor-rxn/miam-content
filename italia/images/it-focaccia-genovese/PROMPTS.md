@@ -1,6 +1,6 @@
 Italian trattoria food photography, warm light, wooden table, rustic ceramic
 
-- **hero**: golden Genoese focaccia on a wooden board, deep dimples glistening with olive oil and flakes of coarse salt, one strip cut away showing the airy open crumb, small bowl of olive oil and rosemary sprig in the background
+- **hero**: a flat rectangular slab of golden Genoese focaccia, only two fingers thick, in a low rectangular baking tray on a wooden board, deep finger dimples all over the surface glistening with olive oil and flakes of coarse salt, one strip cut away showing the airy open crumb, small bowl of olive oil and rosemary sprig in the background
 - **step-1**: fresh baker's yeast crumbled into a bowl of lukewarm water with sugar, the surface turning creamy and foamy, fingertips stirring
 - **step-2**: a supple, slightly sticky dough being kneaded in a large ceramic bowl, flour dusting the rim, olive oil bottle and small pile of salt beside
 - **step-3**: a ball of dough doubled in size inside a bowl, a damp linen cloth lifted at one corner to reveal the risen dome

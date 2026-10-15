@@ -1,7 +1,7 @@
 rustic French bistro food photography, natural light, shallow depth of field, linen tablecloth
 
 ## hero.webp
-A large serving platter of pot-au-feu: thick slices of tender braised beef surrounded by whole carrots, turnips, leek bundles and potatoes, two marrow bones standing upright, a bowl of clear golden broth steaming beside the platter, small dishes of mustard and gherkins on a linen tablecloth.
+A large serving platter of pot-au-feu: thick slices of tender braised beef surrounded by whole carrots, turnips, leek bundles and potatoes, two short round slices of marrow bone, a bowl of clear golden broth steaming beside the platter, small dishes of mustard and gherkins on a linen tablecloth.
 
 ## step-1.webp
 Large raw pieces of beef for braising resting in a tall stockpot being covered with cold water from a jug, whole pieces of chuck and shank visible, stove not yet lit.

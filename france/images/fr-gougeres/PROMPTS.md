@@ -1,7 +1,7 @@
 rustic French bistro food photography, natural light, shallow depth of field, linen tablecloth
 
 ## hero.webp
-A rustic ceramic bowl piled with golden puffed gougères on a linen tablecloth, crisp cheese-flecked crusts, one torn open showing the airy moist interior, small glass of white Burgundy wine and a wedge of Comté with a grater in the background, apéritif mood.
+A rustic ceramic bowl piled with golden puffed gougères on a linen tablecloth, crisp cheese-flecked crusts, one torn open showing the airy moist interior, a small glass of white Burgundy wine blurred in the background, apéritif mood.
 
 ## step-1.webp
 A saucepan of water with cubes of butter melting into it coming to a rolling boil, pinch of salt being added, steam rising, wooden spatula ready beside.

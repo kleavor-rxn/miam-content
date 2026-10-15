@@ -1,7 +1,7 @@
 rustic French bistro food photography, natural light, shallow depth of field, linen tablecloth
 
 ## hero.webp
-A large earthenware cassole of cassoulet straight from the oven, deep golden-brown crust broken in one spot to reveal creamy white beans, a duck confit leg and a browned Toulouse sausage nestled in the beans, steam rising, served on a linen tablecloth with a rustic bread loaf blurred behind.
+A wide glazed terracotta cassole of cassoulet straight from the oven, seen from slightly above, covered by a thick crackled golden-brown crust broken open in one spot to reveal creamy white beans, a whole crisp duck confit leg and coils of browned Toulouse sausage half-buried in the beans, steam rising, on a linen tablecloth, a few slices of plain country bread blurred in the background.
 
 ## step-1.webp
 Dried white beans soaking in a large glass bowl of cold water on a kitchen counter, some beans plumped, water slightly cloudy, evening kitchen light.

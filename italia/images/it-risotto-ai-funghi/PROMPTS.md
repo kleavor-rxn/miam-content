@@ -1,6 +1,6 @@
 Italian trattoria food photography, warm light, wooden table, rustic ceramic
 
-- **hero**: a wide rustic ceramic plate of creamy porcini risotto spread in a soft wave, golden seared porcini slices crowning the top, chopped parsley and parmesan shavings scattered, a spoon resting at the rim, glass of white wine blurred behind
+- **hero**: a wide rustic ceramic plate of creamy porcini risotto with clearly visible individual plump arborio rice grains, spread in a soft wave, golden seared porcini slices crowning the top, chopped parsley and parmesan shavings scattered, a spoon resting at the rim, glass of white wine blurred behind
 - **step-1**: a pot of vegetable stock at a gentle simmer on the stove, ladle resting against the rim, wisps of steam in warm light
 - **step-2**: thick slices of fresh porcini mushrooms searing golden in olive oil with a crushed garlic clove in a hot pan, edges caramelising
 - **step-3**: finely chopped onion melting in butter in a wide saucepan, turning translucent over gentle heat, wooden spoon mid-stir

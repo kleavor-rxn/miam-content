@@ -1,6 +1,6 @@
 Italian trattoria food photography, warm light, wooden table, rustic ceramic
 
-- **hero**: a square portion of lasagne alla bolognese lifted onto a rustic ceramic plate, distinct layers of pasta, rich meat ragù and creamy besciamella, golden gratinated parmesan crust on top, steam rising, the baking dish with the rest of the lasagne blurred behind
+- **hero**: a neat square slab of lasagne alla bolognese standing alone on a plain rustic ceramic plate, seen from the side, distinct stacked layers of flat wide pasta sheets, rich meat ragù and creamy besciamella, golden gratinated parmesan crust on top, steam rising, the baking dish with the rest of the lasagne blurred behind
 - **step-1**: finely chopped onion, carrot and celery in neat piles on a wooden cutting board next to small cubes of pancetta, a chef's knife resting alongside
 - **step-2**: pancetta cubes sizzling in olive oil in a heavy enameled pot, the chopped vegetable soffritto being added from a board and starting to soften and glisten
 - **step-3**: ground beef browning in the pot over high heat, a wooden spoon breaking the meat into crumbles among the soffritto, edges caramelising
