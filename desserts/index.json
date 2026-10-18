@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T21:24:33Z",
+  "generatedAt": "2026-10-18T21:31:51Z",
   "recipes": [
     {
       "id": "ds-clafoutis-aux-cerises",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "28fefc714b9208e8e38cf0bac830b559f09ece3b94127733f687b2a86abd720c",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "03b7e24316499733a5d0a8097afdc9aaa2f62732932d90cd439984f4abec0d6b",
       "title": {
         "fr": "Clafoutis aux cerises",
         "en": "Cherry clafoutis",
@@ -19,8 +19,8 @@
     },
     {
       "id": "ds-creme-brulee",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "57a00d989d08fd1fa9305172f3887f6a3b5f4d4d73649c77b00eed3c39a90b6e",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "40ab95dc110a0b7e0f69acdebc9e3783cc85e3c5e02bccc0c622075c3b11b657",
       "title": {
         "fr": "Crème brûlée",
         "en": "Crème brûlée",
@@ -49,8 +49,8 @@
     },
     {
       "id": "ds-crostata-di-marmellata",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "b2f2b51c356b2010a997dd65febede53657e7bd7c7c640dc063cbf646990ed48",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "173c6891b34545425052ac0612df16ac3d347de566b0d6515a341cef03e9eee8",
       "title": {
         "fr": "Crostata à la confiture",
         "en": "Jam crostata",
@@ -81,8 +81,8 @@
     },
     {
       "id": "ds-madeleines",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "e19db7f3409e9db1531e55809879114aef5f34b1db05faeddd198e0ae2078b69",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "dafafd17b3952561a5be217b8fce414eadd914e22002f7e94da354f020d109d3",
       "title": {
         "fr": "Madeleines",
         "en": "Madeleines",
@@ -115,8 +115,8 @@
     },
     {
       "id": "ds-panna-cotta",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "e1aab86eaf69e4b0088022168e3882e09bff47167dc97f57011610a674d6c490",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "7d61db9a3e1ef74dcb1bd0f219678e5cd4e9841fa7be46ed584abefe77c81142",
       "title": {
         "fr": "Panna cotta",
         "en": "Panna cotta",
@@ -132,8 +132,8 @@
     },
     {
       "id": "ds-tarte-tatin",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "eccb3e921758e6ddaa07be32df887a2e536263a0daf938ce6392774d4e4b80b8",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "b532cb69b160375d8101d947f801c94f2e15caef607b5c8b8d641c4705b6b4bd",
       "title": {
         "fr": "Tarte Tatin",
         "en": "Tarte Tatin",
@@ -147,8 +147,8 @@
     },
     {
       "id": "ds-tiramisu",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "dd9f120f7f1b708fb72764a40d70907e93548ed29a833de85ef9677bfe3897e0",
+      "updatedAt": "2026-10-18T21:31:51Z",
+      "contentHash": "483b1524cc3ff60f1b1c17a15769fdacb03706c876c64045186a630cdbaa8adc",
       "title": {
         "fr": "Tiramisu",
         "en": "Tiramisu",
@@ -164,9 +164,9 @@
     }
   ],
   "files": {
-    "ingredients.json": "8d3de19bab444199dcac9046f7688689deb7f26a87f60713b5c0f037f2d2b256",
-    "origins.json": "fd45b25509c143fe13fddf6692e4aef4a8de68ead8f866b128bfaf8133f4d44d",
-    "occasions.json": "fe927877cfb11fcf6c6c3f639fd02ed8c6fc608701279ab000d37f8d9b6d0ea1"
+    "ingredients.json": "2cc616394dffec104157ba3aa598d589b4a4b893acd9c3299a7f6878afb86298",
+    "origins.json": "d513e983aa6e1dfd747972dca2446f6d6e2c41f2a686520471dce417817bdd70",
+    "occasions.json": "cb062dbaae1fc7b182dbf15459e5af8169e2070cd0fe54da6220c2962b5f7014"
   },
   "dailyPicks": [
     {

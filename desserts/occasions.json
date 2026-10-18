@@ -30,7 +30,7 @@
     },
     {
       "id": "chandeleur",
-      "names": {"fr": "Chandeleur", "en": "Candlemas", "es": "La Candelaria", "it": "Candelora"},
+      "names": {"fr": "Chandeleur", "en": "Candlemas", "es": "Candelaria", "it": "Candelora"},
       "windows": [
         {"start": "2026-01-25", "end": "2026-02-02"},
         {"start": "2027-01-25", "end": "2027-02-02"},

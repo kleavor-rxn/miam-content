@@ -9,7 +9,7 @@
     {"id": "asie-sud", "names": {"fr": "Asie du Sud", "en": "South Asia", "es": "Asia del Sur", "it": "Asia meridionale"}},
     {"id": "asie-est", "names": {"fr": "Asie de l'Est", "en": "East Asia", "es": "Asia oriental", "it": "Asia orientale"}},
     {"id": "asie-sud-est", "names": {"fr": "Asie du Sud-Est", "en": "Southeast Asia", "es": "Sudeste asiático", "it": "Sud-est asiatico"}},
-    {"id": "amerique-nord", "names": {"fr": "Amérique du Nord", "en": "North America", "es": "América del Norte", "it": "Nord America"}},
+    {"id": "amerique-nord", "names": {"fr": "Amérique du Nord", "en": "North America", "es": "América del Norte", "it": "America del Nord"}},
     {"id": "amerique-latine-caraibes", "names": {"fr": "Amérique latine et Caraïbes", "en": "Latin America and the Caribbean", "es": "América Latina y el Caribe", "it": "America Latina e Caraibi"}},
     {"id": "oceanie", "names": {"fr": "Océanie", "en": "Oceania", "es": "Oceanía", "it": "Oceania"}}
   ],

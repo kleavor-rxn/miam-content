@@ -6,7 +6,7 @@
     {"id": "sel", "names": {"fr": "Sel", "en": "Salt", "es": "Sal", "it": "Sale"}, "category": "epicerie", "staple": true, "contains": [], "animal": false},
 
     {"id": "farine", "names": {"fr": "Farine", "en": "Flour", "es": "Harina", "it": "Farina"}, "category": "epicerie", "staple": false, "contains": ["gluten"], "animal": false},
-    {"id": "levure-chimique", "names": {"fr": "Levure chimique", "en": "Baking powder", "es": "Levadura en polvo", "it": "Lievito per dolci"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
+    {"id": "levure-chimique", "names": {"fr": "Levure chimique", "en": "Baking powder", "es": "Levadura en polvo", "it": "Lievito per dolci"}, "category": "epicerie", "staple": false, "contains": ["gluten"], "animal": false},
     {"id": "cassonade", "names": {"fr": "Cassonade", "en": "Brown sugar", "es": "Azúcar moreno", "it": "Zucchero di canna"}, "category": "epicerie", "staple": false, "substitutes": ["sucre"], "contains": [], "animal": false},
     {"id": "gelatine", "names": {"fr": "Gélatine en feuilles", "en": "Gelatine sheets", "es": "Gelatina en láminas", "it": "Gelatina in fogli (colla di pesce)"}, "category": "epicerie", "staple": false, "contains": [], "animal": true},
     {"id": "confiture", "names": {"fr": "Confiture", "en": "Jam", "es": "Mermelada", "it": "Marmellata"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
@@ -27,7 +27,7 @@
     {"id": "fromage-blanc", "names": {"fr": "Fromage blanc", "en": "Fromage blanc", "es": "Queso fresco batido", "it": "Formaggio fresco cremoso"}, "category": "produits-laitiers", "staple": false, "substitutes": ["creme-fraiche"], "contains": ["lait"], "animal": true},
     {"id": "fromage-frais-a-tartiner", "names": {"fr": "Fromage frais à tartiner", "en": "Cream cheese", "es": "Queso crema", "it": "Formaggio fresco spalmabile"}, "category": "produits-laitiers", "staple": false, "contains": ["lait"], "animal": true},
 
-    {"id": "chocolat-noir", "names": {"fr": "Chocolat noir", "en": "Dark chocolate", "es": "Chocolate negro", "it": "Cioccolato fondente"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
+    {"id": "chocolat-noir", "names": {"fr": "Chocolat noir", "en": "Dark chocolate", "es": "Chocolate negro", "it": "Cioccolato fondente"}, "category": "epicerie", "staple": false, "contains": ["lait"], "animal": false},
     {"id": "chocolat-au-lait", "names": {"fr": "Chocolat au lait", "en": "Milk chocolate", "es": "Chocolate con leche", "it": "Cioccolato al latte"}, "category": "epicerie", "staple": false, "contains": ["lait"], "animal": true},
     {"id": "chocolat-blanc", "names": {"fr": "Chocolat blanc", "en": "White chocolate", "es": "Chocolate blanco", "it": "Cioccolato bianco"}, "category": "epicerie", "staple": false, "contains": ["lait"], "animal": true},
     {"id": "cacao", "names": {"fr": "Cacao amer en poudre", "en": "Unsweetened cocoa powder", "es": "Cacao puro en polvo", "it": "Cacao amaro in polvere"}, "category": "epicerie", "staple": false, "substitutes": ["chocolat-noir"], "contains": [], "animal": false},

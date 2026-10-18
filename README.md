@@ -64,7 +64,7 @@ Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + imag
 - `images/ds-<slug>/hero.webp` : photo principale seule. Les étapes n'ont pas d'image (`steps[].image` absent) ; la page d'étape affiche le texte et le minuteur.
 - `ingredients.json` : taxonomie, ids en français. Staples : `sucre`, `eau`, `sel` (la farine n'en est pas un). Chaque ingrédient porte `contains` (allergènes parmi `gluten`, `oeuf`, `lait`, `fruits-a-coque`, `arachide`) et `animal` (œufs, produits laitiers, miel, gélatine…). Le bloc `featured` liste les ingrédients vedettes (nom, emoji, `members`) par lesquels on parcourt l'app.
 - `origins.json` : les 11 régions du monde et les pays (code ISO 3166-1 alpha-2, région, latitude/longitude pour la carte). Ajouter un pays = une ligne ici.
-- `occasions.json` : occasions datées (fenêtres `start`/`end` explicites, `YYYY-MM-DD`) et sans date (`anniversaire`, `gouter`). Les fêtes mobiles (Pâques, Ramadan et Aïd, Nouvel an lunaire, Diwali, Hanoucca) sont écrites à la main, vérifiées dans deux sources ; le validateur échoue s'il reste moins de 12 mois de fenêtres pour une occasion utilisée : les prolonger au moins un an à l'avance.
+- `occasions.json` : occasions datées (fenêtres `start`/`end` explicites, `YYYY-MM-DD`) et sans date (`anniversaire`, `gouter`). Les fêtes mobiles (Pâques, Ramadan et Aïd, Nouvel an lunaire, Diwali, Hanoucca) sont écrites à la main, vérifiées dans deux sources ; le validateur échoue s'il reste moins de 12 mois de fenêtres pour une occasion utilisée : les écrire deux ans à l'avance.
 - `seed.txt` : tout le catalogue (le calendrier embarqué doit rester complet). `index.json` : généré par `build_index`, avec l'empreinte des fichiers annexes (`files`).
 
 **Champs obligatoires dans une fiche dessert** (facultatifs ailleurs) :
@@ -76,7 +76,7 @@ Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + imag
 
 **Tags.** `noBake` quand le dessert ne passe pas au four (une cuisson sur le feu est permise) ; `airFryer` + `airFryerNotes` comme ailleurs ; jamais `vegetarian`.
 
-**Allergènes et régimes dérivés.** Les fiches ne déclarent ni « sans gluten » ni « végétalien » : l'app les dérive des ingrédients non facultatifs (`contains`, `animal` de la taxonomie) et rappelle de vérifier les étiquettes. Un ingrédient ajouté à la taxonomie doit donc avoir des `contains` et `animal` justes — c'est d'eux que dépend l'information donnée aux personnes allergiques.
+**Allergènes et régimes dérivés.** Les fiches ne déclarent ni « sans gluten » ni « végétalien » : l'app les dérive des ingrédients non facultatifs (`contains`, `animal` de la taxonomie) et rappelle de vérifier les étiquettes. Un ingrédient ajouté à la taxonomie doit donc avoir des `contains` et `animal` justes — c'est d'eux que dépend l'information donnée aux personnes allergiques. Règle de prudence : dans le doute (amidon de blé fréquent dans la levure chimique, matière grasse lactique ou traces de lait dans le chocolat noir…), on déclare l'allergène. Un « contient » de trop est acceptable, un « sans » faux ne l'est pas.
 
 **Équilibre.** `validate` signale en alerte (non bloquante) les régions sous 6 desserts, les vedettes sous 5 et les types sous 5, ainsi que deux jours de suite du même pays ou de la même région dans le calendrier.
 
