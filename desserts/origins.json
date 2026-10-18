@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "regions": [
+    {"id": "europe-ouest", "names": {"fr": "Europe de l'Ouest", "en": "Western Europe", "es": "Europa occidental", "it": "Europa occidentale"}},
+    {"id": "europe-sud", "names": {"fr": "Europe du Sud", "en": "Southern Europe", "es": "Europa del Sur", "it": "Europa meridionale"}},
+    {"id": "europe-nord-est", "names": {"fr": "Europe du Nord et de l'Est", "en": "Northern and Eastern Europe", "es": "Europa del Norte y del Este", "it": "Europa settentrionale e orientale"}},
+    {"id": "afrique-nord-moyen-orient", "names": {"fr": "Afrique du Nord et Moyen-Orient", "en": "North Africa and the Middle East", "es": "Norte de África y Oriente Medio", "it": "Nord Africa e Medio Oriente"}},
+    {"id": "afrique-subsaharienne", "names": {"fr": "Afrique subsaharienne", "en": "Sub-Saharan Africa", "es": "África subsahariana", "it": "Africa subsahariana"}},
+    {"id": "asie-sud", "names": {"fr": "Asie du Sud", "en": "South Asia", "es": "Asia del Sur", "it": "Asia meridionale"}},
+    {"id": "asie-est", "names": {"fr": "Asie de l'Est", "en": "East Asia", "es": "Asia oriental", "it": "Asia orientale"}},
+    {"id": "asie-sud-est", "names": {"fr": "Asie du Sud-Est", "en": "Southeast Asia", "es": "Sudeste asiático", "it": "Sud-est asiatico"}},
+    {"id": "amerique-nord", "names": {"fr": "Amérique du Nord", "en": "North America", "es": "América del Norte", "it": "Nord America"}},
+    {"id": "amerique-latine-caraibes", "names": {"fr": "Amérique latine et Caraïbes", "en": "Latin America and the Caribbean", "es": "América Latina y el Caribe", "it": "America Latina e Caraibi"}},
+    {"id": "oceanie", "names": {"fr": "Océanie", "en": "Oceania", "es": "Oceanía", "it": "Oceania"}}
+  ],
+  "countries": [
+    {"code": "FR", "names": {"fr": "France", "en": "France", "es": "Francia", "it": "Francia"}, "region": "europe-ouest", "latitude": 46.6, "longitude": 2.4},
+    {"code": "IT", "names": {"fr": "Italie", "en": "Italy", "es": "Italia", "it": "Italia"}, "region": "europe-sud", "latitude": 42.8, "longitude": 12.5}
+  ]
+}

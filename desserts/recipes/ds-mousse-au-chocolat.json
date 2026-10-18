@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mousse-au-chocolat",
+  "title": {"fr": "Mousse au chocolat", "en": "Chocolate mousse", "es": "Mousse de chocolate", "it": "Mousse al cioccolato"},
+  "summary": {
+    "fr": "Le dessert fétiche des bistrots : du chocolat noir, des œufs et une pointe de sucre pour une mousse aérienne et intense.",
+    "en": "The bistro favourite: dark chocolate, eggs and a touch of sugar whipped into an airy, intensely chocolatey mousse.",
+    "es": "El postre estrella de los bistrós: chocolate negro, huevos y un toque de azúcar para una mousse aérea e intensa.",
+    "it": "Il dolce simbolo dei bistrot: cioccolato fondente, uova e un tocco di zucchero per una mousse ariosa e intensa."
+  },
+  "story": {
+    "fr": "Le nom « mousse de chocolat » apparaît dès 1755 chez le cuisinier Menon, à une époque où il désignait aussi l'écume des boissons au chocolat. Dans sa forme la plus simple, celle de cette recette, elle ne demande que du chocolat noir, des œufs et un peu de sucre, et ne passe pas au four. Classique des bistrots et des repas de famille, elle se prépare la veille ou le matin pour être bien prise au moment du dessert.",
+    "en": "The name 'mousse de chocolat' appears as early as 1755 in the work of the cook Menon, at a time when it also referred to the froth on chocolate drinks. In its simplest form, the one given here, it needs nothing but dark chocolate, eggs and a little sugar, and never goes in the oven. A staple of bistros and family meals, it is made the day before or in the morning so that it has set by dessert time.",
+    "es": "El nombre «mousse de chocolat» aparece ya en 1755 en la obra del cocinero Menon, en una época en la que también designaba la espuma de las bebidas de chocolate. En su forma más sencilla, la de esta receta, solo pide chocolate negro, huevos y un poco de azúcar, y no pasa por el horno. Clásico de los bistrós y de las comidas familiares, se prepara la víspera o por la mañana para que esté bien cuajada a la hora del postre.",
+    "it": "Il nome «mousse de chocolat» compare già nel 1755 nell'opera del cuoco Menon, in un'epoca in cui indicava anche la schiuma delle bevande al cioccolato. Nella sua forma più semplice, quella di questa ricetta, richiede solo cioccolato fondente, uova e un po' di zucchero, e non passa dal forno. Classico dei bistrot e dei pranzi in famiglia, si prepara il giorno prima o al mattino perché sia ben rappresa all'ora del dessert."
+  },
+  "region": {"fr": "Toute la France", "en": "All of France", "es": "Toda Francia", "it": "Tutta la Francia"},
+  "origin": {"countries": ["FR"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "servings": 6,
+  "heroImage": "images/ds-mousse-au-chocolat/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "chocolat-noir", "quantity": 200, "unit": "g"},
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "sucre", "quantity": 40, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Cassez le chocolat en morceaux et faites-le fondre doucement au bain-marie. Lissez à la spatule et laissez tiédir.", "en": "Break the chocolate into pieces and melt it gently in a bain-marie. Stir until smooth and let it cool slightly.", "es": "Trocea el chocolate y fúndelo suavemente al baño maría. Remueve hasta que quede liso y deja templar.", "it": "Spezzetta il cioccolato e fallo sciogliere dolcemente a bagnomaria. Mescola finché è liscio e lascia intiepidire."}, "timerMinutes": 5},
+    {"text": {"fr": "Clarifiez les œufs : les blancs dans un grand saladier, les jaunes dans un bol.", "en": "Separate the eggs: whites into a large mixing bowl, yolks into a small one.", "es": "Separa los huevos: las claras en un bol grande, las yemas en uno pequeño.", "it": "Separa le uova: gli albumi in una ciotola capiente, i tuorli in una piccola."}},
+    {"text": {"fr": "Incorporez les jaunes un à un au chocolat tiède en mélangeant vivement.", "en": "Stir the yolks into the barely warm chocolate one at a time, mixing briskly.", "es": "Incorpora las yemas una a una al chocolate tibio, mezclando con energía.", "it": "Unisci i tuorli uno alla volta al cioccolato tiepido, mescolando con energia."}},
+    {"text": {"fr": "Montez les blancs en neige ferme avec une pincée de sel, puis serrez-les avec le sucre.", "en": "Whisk the whites to stiff peaks with a pinch of salt, then whisk in the sugar to tighten them.", "es": "Monta las claras a punto de nieve firme con una pizca de sal y añade el azúcar al final para apretarlas.", "it": "Monta gli albumi a neve ben ferma con un pizzico di sale, poi aggiungi lo zucchero per renderli lucidi e sodi."}},
+    {"text": {"fr": "Incorporez délicatement les blancs au chocolat en trois fois, à la maryse, en soulevant la masse sans la casser.", "en": "Gently fold the whites into the chocolate in three additions with a spatula, lifting the mixture without knocking out the air.", "es": "Incorpora las claras al chocolate en tres veces con una espátula, con movimientos envolventes para que no se bajen.", "it": "Incorpora delicatamente gli albumi al cioccolato in tre volte con una spatola, con movimenti dal basso verso l'alto per non smontarli."}},
+    {"text": {"fr": "Répartissez la mousse dans des coupes et réfrigérez au moins 3 heures avant de servir.", "en": "Divide the mousse between serving glasses and chill for at least 3 hours before serving.", "es": "Reparte la mousse en copas y refrigera al menos 3 horas antes de servir.", "it": "Distribuisci la mousse in coppette e lasciala rassodare in frigorifero per almeno 3 ore prima di servire."}, "timerMinutes": 180}
+  ]
+}

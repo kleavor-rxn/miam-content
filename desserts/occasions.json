@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "occasions": [
+    {
+      "id": "noel",
+      "names": {"fr": "Noël", "en": "Christmas", "es": "Navidad", "it": "Natale"},
+      "windows": [
+        {"start": "2026-12-01", "end": "2026-12-26"},
+        {"start": "2027-12-01", "end": "2027-12-26"},
+        {"start": "2028-12-01", "end": "2028-12-26"}
+      ]
+    },
+    {
+      "id": "nouvel-an",
+      "names": {"fr": "Nouvel an", "en": "New Year", "es": "Año Nuevo", "it": "Capodanno"},
+      "windows": [
+        {"start": "2026-12-26", "end": "2027-01-02"},
+        {"start": "2027-12-26", "end": "2028-01-02"},
+        {"start": "2028-12-26", "end": "2029-01-02"}
+      ]
+    },
+    {
+      "id": "nouvel-an-lunaire",
+      "names": {"fr": "Nouvel an lunaire", "en": "Lunar New Year", "es": "Año Nuevo lunar", "it": "Capodanno lunare"},
+      "windows": [
+        {"start": "2026-02-09", "end": "2026-03-03"},
+        {"start": "2027-01-29", "end": "2027-02-20"},
+        {"start": "2028-01-18", "end": "2028-02-09"}
+      ]
+    },
+    {
+      "id": "chandeleur",
+      "names": {"fr": "Chandeleur", "en": "Candlemas", "es": "La Candelaria", "it": "Candelora"},
+      "windows": [
+        {"start": "2026-01-25", "end": "2026-02-02"},
+        {"start": "2027-01-25", "end": "2027-02-02"},
+        {"start": "2028-01-25", "end": "2028-02-02"}
+      ]
+    },
+    {
+      "id": "paques",
+      "names": {"fr": "Pâques", "en": "Easter", "es": "Pascua", "it": "Pasqua"},
+      "windows": [
+        {"start": "2026-03-29", "end": "2026-04-06"},
+        {"start": "2027-03-21", "end": "2027-03-29"},
+        {"start": "2028-04-09", "end": "2028-04-17"}
+      ]
+    },
+    {
+      "id": "ramadan-aid",
+      "names": {"fr": "Ramadan et Aïd", "en": "Ramadan and Eid", "es": "Ramadán y Eid", "it": "Ramadan ed Eid"},
+      "windows": [
+        {"start": "2026-02-18", "end": "2026-03-22"},
+        {"start": "2027-02-08", "end": "2027-03-12"},
+        {"start": "2028-01-28", "end": "2028-02-29"}
+      ]
+    },
+    {
+      "id": "diwali",
+      "names": {"fr": "Diwali", "en": "Diwali", "es": "Diwali", "it": "Diwali"},
+      "windows": [
+        {"start": "2026-11-06", "end": "2026-11-11"},
+        {"start": "2027-10-27", "end": "2027-10-31"},
+        {"start": "2028-10-15", "end": "2028-10-19"}
+      ]
+    },
+    {
+      "id": "hanoucca",
+      "names": {"fr": "Hanoucca", "en": "Hanukkah", "es": "Janucá", "it": "Hanukkah"},
+      "windows": [
+        {"start": "2026-12-04", "end": "2026-12-12"},
+        {"start": "2027-12-24", "end": "2028-01-01"},
+        {"start": "2028-12-12", "end": "2028-12-20"}
+      ]
+    },
+    {
+      "id": "halloween",
+      "names": {"fr": "Halloween", "en": "Halloween", "es": "Halloween", "it": "Halloween"},
+      "windows": [
+        {"start": "2026-10-24", "end": "2026-10-31"},
+        {"start": "2027-10-24", "end": "2027-10-31"},
+        {"start": "2028-10-24", "end": "2028-10-31"}
+      ]
+    },
+    {
+      "id": "ete",
+      "names": {"fr": "Été", "en": "Summer", "es": "Verano", "it": "Estate"},
+      "windows": [
+        {"start": "2026-06-21", "end": "2026-08-31"},
+        {"start": "2027-06-21", "end": "2027-08-31"},
+        {"start": "2028-06-21", "end": "2028-08-31"}
+      ]
+    },
+    {"id": "anniversaire", "names": {"fr": "Anniversaire", "en": "Birthday", "es": "Cumpleaños", "it": "Compleanno"}},
+    {"id": "gouter", "names": {"fr": "Goûter", "en": "Afternoon snack", "es": "Merienda", "it": "Merenda"}}
+  ]
+}

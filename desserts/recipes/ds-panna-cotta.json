@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-panna-cotta",
+  "title": {"fr": "Panna cotta", "en": "Panna cotta", "es": "Panna cotta", "it": "Panna cotta"},
+  "summary": {
+    "fr": "Le dessert piémontais par excellence : une crème vanillée à peine prise, tremblotante à souhait, nappée d'un coulis de fruits rouges.",
+    "en": "Piedmont's signature dessert: a barely-set vanilla cream with the perfect wobble, draped in a vivid berry coulis.",
+    "es": "El postre piamontés por excelencia: una crema de vainilla apenas cuajada, con su temblor característico, bañada en un coulis de frutos rojos.",
+    "it": "Il dolce piemontese per eccellenza: una crema alla vaniglia appena rappresa, dal tremolio perfetto, velata da un coulis di frutti di bosco."
+  },
+  "story": {
+    "fr": "Son nom signifie simplement « crème cuite » en italien. Le Piémont la revendique comme l'une de ses spécialités, et elle est devenue en quelques décennies un classique des restaurants italiens du monde entier. On la sert froide et démoulée, nature ou avec un coulis de fruits rouges, une sauce au caramel ou au chocolat.",
+    "en": "Its name simply means 'cooked cream' in Italian. Piedmont claims it as one of its specialities, and within a few decades it has become a fixture of Italian restaurants all over the world. It is served chilled and turned out of its mould, plain or with a berry coulis, caramel or chocolate sauce.",
+    "es": "Su nombre significa sencillamente «nata cocida» en italiano. El Piamonte la reivindica como una de sus especialidades, y en pocas décadas se ha convertido en un clásico de los restaurantes italianos de todo el mundo. Se sirve fría y desmoldada, sola o con un coulis de frutos rojos, salsa de caramelo o de chocolate.",
+    "it": "Il nome dice già tutto: panna, appena cotta e addensata. Il Piemonte la rivendica come una delle sue specialità, e in pochi decenni è diventata un classico dei ristoranti italiani di tutto il mondo. Si serve fredda e sformata, al naturale o con un coulis di frutti di bosco, una salsa al caramello o al cioccolato."
+  },
+  "region": {"fr": "Piémont", "en": "Piedmont", "es": "Piamonte", "it": "Piemonte"},
+  "origin": {"countries": ["IT"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 6,
+  "heroImage": "images/ds-panna-cotta/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "creme-liquide", "quantity": 50, "unit": "cl"},
+    {"ref": "sucre", "quantity": 110, "unit": "g"},
+    {"ref": "gelatine", "quantity": 8, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "piece"},
+    {"ref": "fruits-rouges", "quantity": 300, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Mettez les feuilles de gélatine à ramollir dans un bol d'eau froide pendant 10 minutes.", "en": "Soak the gelatine sheets in a bowl of cold water for 10 minutes.", "es": "Pon las láminas de gelatina a hidratar en un bol de agua fría durante 10 minutos.", "it": "Metti i fogli di gelatina ad ammollare in una ciotola d'acqua fredda per 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Fendez la gousse de vanille, grattez les graines et faites chauffer la crème avec 80 g de sucre, la gousse et les graines jusqu'aux premiers frémissements — sans jamais faire bouillir.", "en": "Split the vanilla pod, scrape out the seeds and heat the cream with 80 g of sugar, the pod and the seeds until it just starts to shiver — never let it boil.", "es": "Abre la vaina de vainilla a lo largo, raspa las semillas y calienta la nata con 80 g de azúcar, la vaina y las semillas hasta que apenas empiece a temblar, sin dejar que hierva.", "it": "Incidi la bacca di vaniglia, raschia i semi e scalda la panna con 80 g di zucchero, la bacca e i semi fino al primo fremito — senza mai farla bollire."}, "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, retirez la gousse, essorez la gélatine entre vos mains et faites-la fondre dans la crème chaude en remuant bien.", "en": "Off the heat, remove the pod, squeeze the gelatine dry and stir it into the hot cream until completely dissolved.", "es": "Fuera del fuego, retira la vaina, escurre la gelatina con las manos y disuélvela en la nata caliente removiendo bien.", "it": "Fuori dal fuoco, togli la bacca, strizza la gelatina tra le mani e falla sciogliere nella panna calda mescolando bene."}},
+    {"text": {"fr": "Répartissez la crème dans six ramequins légèrement huilés et laissez tiédir à température ambiante.", "en": "Divide the cream between six lightly oiled ramekins and let them cool to room temperature.", "es": "Reparte la crema en seis moldes ligeramente engrasados y deja que se atempere.", "it": "Suddividi la crema in sei stampini leggermente unti e lasciala intiepidire a temperatura ambiente."}, "timerMinutes": 20},
+    {"text": {"fr": "Couvrez et laissez prendre au réfrigérateur pendant au moins 4 heures : la crème doit être prise mais encore tremblotante.", "en": "Cover and chill for at least 4 hours: the cream should be set but still have a gentle wobble.", "es": "Cubre y deja cuajar en la nevera al menos 4 horas: la crema debe estar firme pero conservar su temblor.", "it": "Copri e lascia rassodare in frigorifero per almeno 4 ore: la crema deve essere soda ma ancora tremolante."}, "timerMinutes": 240},
+    {"text": {"fr": "Faites compoter les fruits rouges avec les 30 g de sucre restants pendant 5 minutes, puis mixez et passez le coulis au tamis.", "en": "Simmer the berries with the remaining 30 g of sugar for 5 minutes, then blend and push the coulis through a sieve.", "es": "Cuece los frutos rojos con los 30 g de azúcar restantes durante 5 minutos, tritúralos y pasa el coulis por un colador.", "it": "Fai cuocere i frutti di bosco con i 30 g di zucchero rimasti per 5 minuti, poi frulla e passa il coulis al setaccio."}, "timerMinutes": 5},
+    {"text": {"fr": "Trempez la base des ramequins 5 secondes dans l'eau chaude, démoulez d'un geste sec sur les assiettes et nappez de coulis.", "en": "Dip the base of each ramekin in hot water for 5 seconds, turn out onto plates with one sharp flick and spoon over the coulis.", "es": "Sumerge la base de los moldes 5 segundos en agua caliente, desmolda con un golpe seco sobre los platos y napa con el coulis.", "it": "Immergi la base degli stampini 5 secondi in acqua calda, sforma con un colpo secco sui piatti e completa con il coulis."}}
+  ]
+}

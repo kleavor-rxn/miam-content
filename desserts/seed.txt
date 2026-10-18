@@ -1,0 +1,11 @@
+# seed v1
+ds-clafoutis-aux-cerises
+ds-creme-brulee
+ds-crepes
+ds-crostata-di-marmellata
+ds-far-breton
+ds-madeleines
+ds-mousse-au-chocolat
+ds-panna-cotta
+ds-tarte-tatin
+ds-tiramisu

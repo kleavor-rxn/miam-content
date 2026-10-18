@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-18T21:24:33Z",
+  "recipes": [
+    {
+      "id": "ds-clafoutis-aux-cerises",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "28fefc714b9208e8e38cf0bac830b559f09ece3b94127733f687b2a86abd720c",
+      "title": {
+        "fr": "Clafoutis aux cerises",
+        "en": "Cherry clafoutis",
+        "es": "Clafoutis de cerezas",
+        "it": "Clafoutis alle ciliegie"
+      },
+      "heroImage": "images/ds-clafoutis-aux-cerises/hero.webp",
+      "tags": [],
+      "totalMinutes": 55,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-creme-brulee",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "57a00d989d08fd1fa9305172f3887f6a3b5f4d4d73649c77b00eed3c39a90b6e",
+      "title": {
+        "fr": "Crème brûlée",
+        "en": "Crème brûlée",
+        "es": "Crème brûlée",
+        "it": "Crème brûlée"
+      },
+      "heroImage": "images/ds-creme-brulee/hero.webp",
+      "tags": [],
+      "totalMinutes": 70,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-crepes",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "e079d1f6ef6971175575f43b96ffacf0a3ff6f82c51145f1600693cd290ede95",
+      "title": {
+        "fr": "Crêpes",
+        "en": "French crêpes",
+        "es": "Crêpes",
+        "it": "Crêpes"
+      },
+      "heroImage": "images/ds-crepes/hero.webp",
+      "tags": [],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-crostata-di-marmellata",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "b2f2b51c356b2010a997dd65febede53657e7bd7c7c640dc063cbf646990ed48",
+      "title": {
+        "fr": "Crostata à la confiture",
+        "en": "Jam crostata",
+        "es": "Crostata de mermelada",
+        "it": "Crostata di marmellata"
+      },
+      "heroImage": "images/ds-crostata-di-marmellata/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 60,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-far-breton",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "6a2dc9f891f13ed1a05558bf20ad8ed9c496f1d90a4da1f8336ec1bd29232c6f",
+      "title": {
+        "fr": "Far breton",
+        "en": "Far breton",
+        "es": "Far bretón",
+        "it": "Far bretone"
+      },
+      "heroImage": "images/ds-far-breton/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-madeleines",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "e19db7f3409e9db1531e55809879114aef5f34b1db05faeddd198e0ae2078b69",
+      "title": {
+        "fr": "Madeleines",
+        "en": "Madeleines",
+        "es": "Madeleines",
+        "it": "Madeleine"
+      },
+      "heroImage": "images/ds-madeleines/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 32,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-mousse-au-chocolat",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "e5e67f2b62f7dd011151291a71ed82faaa31de21b47984cf6e1afd00a1d29bea",
+      "title": {
+        "fr": "Mousse au chocolat",
+        "en": "Chocolate mousse",
+        "es": "Mousse de chocolate",
+        "it": "Mousse al cioccolato"
+      },
+      "heroImage": "images/ds-mousse-au-chocolat/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 25,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-panna-cotta",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "e1aab86eaf69e4b0088022168e3882e09bff47167dc97f57011610a674d6c490",
+      "title": {
+        "fr": "Panna cotta",
+        "en": "Panna cotta",
+        "es": "Panna cotta",
+        "it": "Panna cotta"
+      },
+      "heroImage": "images/ds-panna-cotta/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-tarte-tatin",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "eccb3e921758e6ddaa07be32df887a2e536263a0daf938ce6392774d4e4b80b8",
+      "title": {
+        "fr": "Tarte Tatin",
+        "en": "Tarte Tatin",
+        "es": "Tarta Tatin",
+        "it": "Tarte Tatin"
+      },
+      "heroImage": "images/ds-tarte-tatin/hero.webp",
+      "tags": [],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-tiramisu",
+      "updatedAt": "2026-10-18T21:24:03Z",
+      "contentHash": "dd9f120f7f1b708fb72764a40d70907e93548ed29a833de85ef9677bfe3897e0",
+      "title": {
+        "fr": "Tiramisu",
+        "en": "Tiramisu",
+        "es": "Tiramisú",
+        "it": "Tiramisù"
+      },
+      "heroImage": "images/ds-tiramisu/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 30,
+      "difficulty": 1
+    }
+  ],
+  "files": {
+    "ingredients.json": "8d3de19bab444199dcac9046f7688689deb7f26a87f60713b5c0f037f2d2b256",
+    "origins.json": "fd45b25509c143fe13fddf6692e4aef4a8de68ead8f866b128bfaf8133f4d44d",
+    "occasions.json": "fe927877cfb11fcf6c6c3f639fd02ed8c6fc608701279ab000d37f8d9b6d0ea1"
+  },
+  "dailyPicks": [
+    {
+      "date": "2026-09-18",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-09-19",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-09-20",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-09-21",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-09-22",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-09-23",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-09-24",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-09-25",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-09-26",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-09-27",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-09-28",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-09-29",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-09-30",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-10-01",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-10-02",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-10-03",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-10-04",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-10-05",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-10-06",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-10-07",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-10-08",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-10-09",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-10-10",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-10-11",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-10-12",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-10-13",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-10-14",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-10-15",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-10-16",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-10-17",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-10-18",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-10-19",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-10-20",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-10-21",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-10-22",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-10-23",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-10-24",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-10-25",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-10-26",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-10-27",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-10-28",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-10-29",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-10-30",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-10-31",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-11-01",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-11-02",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-11-03",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-11-04",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-11-05",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-11-06",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-11-07",
+      "recipeID": "ds-far-breton"
+    },
+    {
+      "date": "2026-11-08",
+      "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-11-09",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-11-10",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-11-11",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-11-12",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-11-13",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-11-14",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-11-15",
+      "recipeID": "ds-crepes"
+    },
+    {
+      "date": "2026-11-16",
+      "recipeID": "ds-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-11-17",
+      "recipeID": "ds-far-breton"
+    }
+  ]
+}

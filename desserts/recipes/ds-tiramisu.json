@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-tiramisu",
+  "title": {"fr": "Tiramisu", "en": "Tiramisu", "es": "Tiramisú", "it": "Tiramisù"},
+  "summary": {
+    "fr": "Le dessert italien le plus aimé : biscuits imbibés de café, crème onctueuse au mascarpone et voile de cacao amer.",
+    "en": "Italy's best-loved dessert: coffee-soaked ladyfingers, billowy mascarpone cream and a dusting of bitter cocoa.",
+    "es": "El postre italiano más querido: bizcochos empapados en café, crema sedosa de mascarpone y un velo de cacao amargo.",
+    "it": "Il dolce italiano più amato: savoiardi inzuppati nel caffè, crema soffice al mascarpone e un velo di cacao amaro."
+  },
+  "story": {
+    "fr": "Son nom vient du vénitien tiramesù, « tire-moi vers le haut », autrement dit « remonte-moi », que l'on comprend d'ordinaire comme une allusion à ses vertus revigorantes. Deux régions s'en disputent la paternité : la Vénétie, où le restaurant Alle Beccherie de Trévise l'aurait mis au point à la fin des années 1960, et le Frioul-Vénétie Julienne, qui avance des menus et des additions des années 1950. Le ministère italien de l'Agriculture l'a inscrit parmi les produits traditionnels des deux régions, en 2017 pour le Frioul et en 2024 pour la Vénétie.",
+    "en": "Its name comes from the Venetian tiramesù, 'pull me up' — in other words 'pick me up', usually taken as a nod to its restorative powers. Two regions claim it as their own: the Veneto, where the Alle Beccherie restaurant in Treviso is said to have created it in the late 1960s, and Friuli Venezia Giulia, which points to menus and bills from the 1950s. Italy's Ministry of Agriculture has listed it as a traditional product of both regions, Friuli in 2017 and the Veneto in 2024.",
+    "es": "Su nombre viene del véneto tiramesù, «tírame hacia arriba», es decir, «levántame el ánimo», que se suele entender como una alusión a sus virtudes reconstituyentes. Dos regiones se disputan su paternidad: el Véneto, donde el restaurante Alle Beccherie de Treviso lo habría creado a finales de los años sesenta, y Friuli-Venecia Julia, que aporta menús y cuentas de los años cincuenta. El Ministerio de Agricultura italiano lo ha incluido entre los productos tradicionales de ambas regiones: Friuli en 2017 y el Véneto en 2024.",
+    "it": "Il nome viene dal veneto tiramesù, cioè «tirami su», di solito inteso come un richiamo alle sue virtù ricostituenti. Due regioni se ne contendono la paternità: il Veneto, dove il ristorante Alle Beccherie di Treviso lo avrebbe messo a punto alla fine degli anni Sessanta, e il Friuli-Venezia Giulia, che porta a sostegno menù e conti degli anni Cinquanta. Il Ministero dell'Agricoltura lo ha iscritto tra i prodotti agroalimentari tradizionali di entrambe le regioni, nel 2017 per il Friuli e nel 2024 per il Veneto."
+  },
+  "region": {"fr": "Vénétie", "en": "Veneto", "es": "Véneto", "it": "Veneto"},
+  "origin": {"countries": ["IT"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 0,
+  "servings": 8,
+  "heroImage": "images/ds-tiramisu/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "biscuits-a-la-cuiller", "quantity": 300, "unit": "g"},
+    {"ref": "mascarpone", "quantity": 500, "unit": "g"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "cafe", "quantity": 30, "unit": "cl"},
+    {"ref": "cacao", "quantity": 2, "unit": "tbsp"},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Préparez le café espresso, sucrez-le légèrement si vous aimez, et laissez-le refroidir complètement dans une assiette creuse.", "en": "Brew the espresso, sweeten it lightly if you like, and let it cool completely in a shallow dish.", "es": "Prepara el café espresso, endúlzalo ligeramente si te gusta y déjalo enfriar por completo en un plato hondo.", "it": "Prepara il caffè espresso, zuccheralo appena se ti piace e lascialo raffreddare completamente in un piatto fondo."}, "timerMinutes": 15},
+    {"text": {"fr": "Séparez les blancs des jaunes, puis fouettez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.", "en": "Separate the eggs, then whisk the yolks with the sugar until the mixture turns pale and fluffy.", "es": "Separa las claras de las yemas y bate las yemas con el azúcar hasta que la mezcla blanquee y esté espumosa.", "it": "Separa gli albumi dai tuorli, poi monta i tuorli con lo zucchero finché il composto diventa chiaro e spumoso."}},
+    {"text": {"fr": "Incorporez le mascarpone aux jaunes blanchis, en fouettant juste ce qu'il faut pour obtenir une crème lisse.", "en": "Fold the mascarpone into the whipped yolks, whisking just enough to get a smooth cream.", "es": "Incorpora el mascarpone a las yemas blanqueadas, batiendo lo justo para lograr una crema lisa.", "it": "Unisci il mascarpone ai tuorli montati, lavorando quel tanto che basta per ottenere una crema liscia."}},
+    {"text": {"fr": "Montez les blancs en neige ferme avec une pincée de sel, puis incorporez-les délicatement à la crème, à la spatule, en soulevant la masse.", "en": "Whip the whites to stiff peaks with a pinch of salt, then gently fold them into the cream with a spatula, lifting from underneath.", "es": "Monta las claras a punto de nieve firme con una pizca de sal e incorpóralas con suavidad a la crema, con una espátula y movimientos envolventes.", "it": "Monta gli albumi a neve ferma con un pizzico di sale, poi incorporali delicatamente alla crema con una spatola, dal basso verso l'alto."}},
+    {"text": {"fr": "Trempez rapidement les savoiardi dans le café — un simple aller-retour, sans les détremper — et tapissez-en le fond d'un plat.", "en": "Dip the ladyfingers briefly in the coffee — a quick in-and-out, without soaking them through — and line the bottom of a dish with them.", "es": "Moja rápidamente los bizcochos en el café — un simple toque, sin empaparlos — y cubre con ellos el fondo de una fuente.", "it": "Inzuppa velocemente i savoiardi nel caffè — un attimo per lato, senza impregnarli — e disponili sul fondo di una pirofila."}},
+    {"text": {"fr": "Recouvrez de la moitié de la crème au mascarpone, puis répétez : une couche de biscuits imbibés, et le reste de crème lissée à la spatule.", "en": "Cover with half the mascarpone cream, then repeat: a layer of dipped biscuits, and the remaining cream smoothed with a spatula.", "es": "Cubre con la mitad de la crema de mascarpone y repite: una capa de bizcochos mojados y el resto de la crema alisada con la espátula.", "it": "Copri con metà della crema al mascarpone, poi ripeti: uno strato di savoiardi inzuppati e il resto della crema livellata con la spatola."}},
+    {"text": {"fr": "Filmez le plat et laissez prendre au moins 4 heures au réfrigérateur, idéalement une nuit.", "en": "Cover the dish with cling film and chill for at least 4 hours in the fridge, ideally overnight.", "es": "Cubre la fuente con film y deja cuajar al menos 4 horas en la nevera, idealmente toda la noche.", "it": "Copri la pirofila con la pellicola e lascia rassodare in frigorifero almeno 4 ore, meglio una notte intera."}, "timerMinutes": 240},
+    {"text": {"fr": "Juste avant de servir, saupoudrez généreusement de cacao amer à travers une passoire fine.", "en": "Just before serving, dust generously with bitter cocoa through a fine sieve.", "es": "Justo antes de servir, espolvorea generosamente con cacao amargo a través de un colador fino.", "it": "Poco prima di servire, spolvera generosamente con il cacao amaro usando un colino fine."}}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-far-breton",
+  "title": {"fr": "Far breton", "en": "Far breton", "es": "Far bretón", "it": "Far bretone"},
+  "summary": {
+    "fr": "Le flan dense et doré de Bretagne, piqué de pruneaux moelleux imbibés de rhum : une pâte toute simple qui cache un dessert profondément réconfortant.",
+    "en": "Brittany's dense golden custard cake, studded with plump rum-soaked prunes: a very simple batter hiding a deeply comforting dessert.",
+    "es": "El flan denso y dorado de Bretaña, salpicado de ciruelas pasas jugosas embebidas en ron: una masa sencillísima que esconde un postre de lo más reconfortante.",
+    "it": "Il flan denso e dorato della Bretagna, punteggiato di prugne secche morbide imbevute di rum: una pastella semplicissima che nasconde un dolce di grande conforto."
+  },
+  "story": {
+    "fr": "Son nom vient du latin far, qui désignait le blé et les céréales. Au XVIIIe siècle, le far était encore une bouillie salée de sarrasin, proche de celle que l'on sert aujourd'hui avec le kig ha farz ; la version sucrée cuite au four, le farz forn en breton, s'est imposée au XIXe siècle. Vendu dans toutes les boulangeries bretonnes, il se garnit le plus souvent de pruneaux, parfois de raisins secs, et se déguste tiède ou froid.",
+    "en": "Its name comes from the Latin far, a word for wheat and grain. In the 18th century, far was still a savoury buckwheat porridge, much like the one served today with kig ha farz, a Breton boiled dinner; the sweet baked version, farz forn in Breton, took over in the 19th century. Sold in every bakery in Brittany, it is most often studded with prunes, sometimes with raisins, and eaten lukewarm or cold.",
+    "es": "Su nombre viene del latín far, que designaba el trigo y los cereales. En el siglo XVIII, el far aún era unas gachas saladas de trigo sarraceno, parecidas a las que hoy acompañan el kig ha farz, un cocido bretón; la versión dulce horneada, farz forn en bretón, se impuso en el siglo XIX. Se vende en todas las panaderías de Bretaña, casi siempre con ciruelas pasas, a veces con uvas pasas, y se come templado o frío.",
+    "it": "Il nome viene dal latino far, che indicava il frumento e i cereali. Nel Settecento il far era ancora una polentina salata di grano saraceno, simile a quella che oggi accompagna il kig ha farz, un bollito bretone; la versione dolce cotta al forno, il farz forn in bretone, si è affermata nell'Ottocento. In vendita in tutte le panetterie della Bretagna, si arricchisce per lo più di prugne secche, a volte di uvetta, e si gusta tiepido o freddo."
+  },
+  "region": {"fr": "Bretagne", "en": "Brittany", "es": "Bretaña", "it": "Bretagna"},
+  "origin": {"countries": ["FR"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/ds-far-breton/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "lait", "quantity": 1, "unit": "l"},
+    {"ref": "pruneau", "quantity": 250, "unit": "g"},
+    {"ref": "beurre", "quantity": 30, "unit": "g"},
+    {"ref": "rhum", "quantity": 3, "unit": "tbsp", "optional": true},
+    {"ref": "sel", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Mettez les pruneaux à gonfler 30 minutes dans le rhum allongé d'un peu d'eau tiède (ou dans du thé pour une version sans alcool).", "en": "Soak the prunes for 30 minutes in the rum topped up with a little warm water (or in tea for an alcohol-free version).", "es": "Pon las ciruelas pasas a remojar 30 minutos en el ron alargado con un poco de agua tibia (o en té para una versión sin alcohol).", "it": "Metti le prugne ad ammorbidirsi per 30 minuti nel rum allungato con poca acqua tiepida (o nel tè per una versione analcolica)."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 200 °C et beurrez généreusement un plat à four en terre ou en métal.", "en": "Preheat the oven to 200 °C and generously butter an earthenware or metal baking dish.", "es": "Precalienta el horno a 200 °C y engrasa generosamente con mantequilla una fuente de barro o de metal.", "it": "Preriscalda il forno a 200 °C e imburra generosamente una pirofila di terracotta o di metallo."}},
+    {"text": {"fr": "Fouettez les œufs avec le sucre et une pincée de sel, puis incorporez la farine sans faire de grumeaux.", "en": "Whisk the eggs with the sugar and a pinch of salt, then work in the flour until lump-free.", "es": "Bate los huevos con el azúcar y una pizca de sal, e incorpora la harina sin que queden grumos.", "it": "Sbatti le uova con lo zucchero e un pizzico di sale, poi incorpora la farina senza formare grumi."}},
+    {"text": {"fr": "Délayez peu à peu avec le lait, en fouettant jusqu'à obtenir une pâte fluide comme une pâte à crêpes épaisse.", "en": "Gradually whisk in the milk until the batter is as fluid as a thick crêpe batter.", "es": "Añade la leche poco a poco, batiendo hasta obtener una masa fluida como una masa de crêpes espesa.", "it": "Diluisci a poco a poco con il latte, sbattendo fino a ottenere una pastella fluida come quella per crêpe, ma più densa."}},
+    {"text": {"fr": "Versez la pâte dans le plat, répartissez les pruneaux égouttés et enfournez pour 50 minutes, jusqu'à ce que le dessus soit brun foncé et bombé.", "en": "Pour the batter into the dish, scatter over the drained prunes and bake for 50 minutes, until the top is deep brown and puffed.", "es": "Vierte la masa en la fuente, reparte las ciruelas escurridas y hornea 50 minutos, hasta que la superficie esté bien tostada e hinchada.", "it": "Versa la pastella nella pirofila, distribuisci le prugne scolate e inforna per 50 minuti, finché la superficie è ben brunita e gonfia."}, "timerMinutes": 50},
+    {"text": {"fr": "Laissez tiédir complètement dans le plat : le far retombe et prend sa texture dense caractéristique. Servez-le à température ambiante, coupé en carrés.", "en": "Let it cool completely in the dish: the far will sink and take on its signature dense texture. Serve at room temperature, cut into squares.", "es": "Deja enfriar por completo en la fuente: el far baja y adquiere su característica textura densa. Sírvelo a temperatura ambiente, cortado en cuadrados.", "it": "Lascia raffreddare completamente nella pirofila: il far si assesta e prende la sua tipica consistenza densa. Servilo a temperatura ambiente, tagliato a quadrotti."}, "timerMinutes": 60}
+  ]
+}
