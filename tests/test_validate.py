@@ -1,5 +1,5 @@
 import json
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import jsonschema
@@ -157,8 +157,31 @@ def test_daily_picks_without_repeat_is_accepted(content_repo):
     index = build_index(content_repo, "france",
                         now=datetime(2026, 8, 14, tzinfo=timezone.utc))
     index["dailyPicks"] = [{"date": "2026-08-14", "recipeID": "fr-test-un"},
-                           {"date": "2026-08-28", "recipeID": "fr-test-un"}]   # 14 j d'écart : OK
+                           {"date": "2026-08-28", "recipeID": "fr-test-un"}]   # 14 j d'écart : OK (fenêtre = 2 avec 2 fiches, bien plus large ici)
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert not any("répétition" in m for m in _errors(content_repo))
+
+
+def _france_with_14_recipes_and_picks(content_repo, gap_days):
+    """14 fiches sur disque (fenêtre = 14) ; fr-test-un publiée deux fois, `gap_days` jours d'écart."""
+    for n in range(12):
+        write_recipe(content_repo, "france", make_recipe(f"fr-test-extra{n:02d}"))
+    index = build_index(content_repo, "france",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    assert len(index["recipes"]) == 14
+    second = (date(2026, 8, 14) + timedelta(days=gap_days)).isoformat()
+    index["dailyPicks"] = [{"date": "2026-08-14", "recipeID": "fr-test-un"},
+                           {"date": second, "recipeID": "fr-test-un"}]
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+
+
+def test_daily_picks_repeat_at_13_days_is_error_with_full_window(content_repo):
+    _france_with_14_recipes_and_picks(content_repo, 13)
+    assert any("répétition" in m and "14 jours" in m for m in _errors(content_repo))
+
+
+def test_daily_picks_repeat_at_14_days_is_accepted_with_full_window(content_repo):
+    _france_with_14_recipes_and_picks(content_repo, 14)
     assert not any("répétition" in m for m in _errors(content_repo))
 
 
