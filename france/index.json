@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:39:39Z",
+  "generatedAt": "2026-10-18T21:02:17Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -493,31 +493,10 @@
       "difficulty": 1
     }
   ],
+  "files": {
+    "ingredients.json": "175adf055a464140706d1ce1740a51e9eaac219cec9a47081ef0f3cf65b35380"
+  },
   "dailyPicks": [
-    {
-      "date": "2026-08-13",
-      "recipeID": "fr-creme-brulee"
-    },
-    {
-      "date": "2026-08-14",
-      "recipeID": "fr-gougeres"
-    },
-    {
-      "date": "2026-08-15",
-      "recipeID": "fr-crepes"
-    },
-    {
-      "date": "2026-08-16",
-      "recipeID": "fr-far-breton"
-    },
-    {
-      "date": "2026-08-17",
-      "recipeID": "fr-navarin-d-agneau"
-    },
-    {
-      "date": "2026-08-18",
-      "recipeID": "fr-soupe-a-l-oignon"
-    },
     {
       "date": "2026-08-19",
       "recipeID": "fr-madeleines"
@@ -857,6 +836,30 @@
     {
       "date": "2026-11-11",
       "recipeID": "fr-tarte-tatin"
+    },
+    {
+      "date": "2026-11-12",
+      "recipeID": "fr-pot-au-feu"
+    },
+    {
+      "date": "2026-11-13",
+      "recipeID": "fr-gougeres"
+    },
+    {
+      "date": "2026-11-14",
+      "recipeID": "fr-creme-brulee"
+    },
+    {
+      "date": "2026-11-15",
+      "recipeID": "fr-cassoulet"
+    },
+    {
+      "date": "2026-11-16",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-11-17",
+      "recipeID": "fr-crepes"
     }
   ]
 }

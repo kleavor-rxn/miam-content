@@ -11,6 +11,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
+from tools.build_index import annex_fingerprint_errors
 from tools.countries import COUNTRIES
 from tools.daily_picks import NO_REPEAT_DAYS
 
@@ -243,6 +244,8 @@ def validate_country(root: Path, country: str, release: bool = False,
             issues.append(Issue(str(index_path.relative_to(root)),
                 f"index désynchronisé (disque - index : {sorted(ids_on_disk - ids_in_index)}, "
                 f"index - disque : {sorted(ids_in_index - ids_on_disk)}) — relancer build_index"))
+        for msg in annex_fingerprint_errors(cdir, index.get("files", {})):
+            issues.append(Issue(str(index_path.relative_to(root)), msg))
         for pick in index.get("dailyPicks", []):
             if pick["recipeID"] not in ids_on_disk:
                 issues.append(Issue(str(index_path.relative_to(root)),

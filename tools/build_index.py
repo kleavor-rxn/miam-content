@@ -1,7 +1,8 @@
-"""Génère <pays>/index.json : summaries (updatedAt par hash) + dailyPicks.
+"""Génère <pays>/index.json : summaries (updatedAt par hash), empreintes des
+fichiers annexes + dailyPicks.
 
 `--check` (CI) : vérifie sans rien écrire que l'index committé est à jour
-(hash de chaque fiche) et que le calendrier couvre ≥ 7 jours d'avance.
+(hash de chaque fiche et de chaque annexe) et que le calendrier couvre ≥ 7 jours d'avance.
 """
 import hashlib
 import json
@@ -11,6 +12,11 @@ from pathlib import Path
 
 from tools.countries import COUNTRIES
 from tools.daily_picks import extend_daily_picks
+
+
+# Fichiers de référence d'une collection : la sync les détecte par leur empreinte
+# (un changement de taxonomie seule ne touche aucune fiche).
+ANNEX_FILES = ("ingredients.json", "origins.json", "occasions.json")
 
 
 def _iso(dt: datetime) -> str:
@@ -50,8 +56,23 @@ def build_index(root: Path, country: str, now: datetime) -> dict:
 
     picks = extend_daily_picks(prev_picks, [s["id"] for s in summaries],
                                country, now.astimezone(timezone.utc).date())
+    files = {name: hashlib.sha256((cdir / name).read_bytes()).hexdigest()
+             for name in ANNEX_FILES if (cdir / name).is_file()}
     return {"schemaVersion": 1, "generatedAt": _iso(now),
-            "recipes": summaries, "dailyPicks": picks}
+            "recipes": summaries, "files": files, "dailyPicks": picks}
+
+
+def annex_fingerprint_errors(cdir: Path, files: dict) -> list[str]:
+    """Écarts entre les empreintes de l'index (`files`) et les annexes sur disque."""
+    errors = []
+    for name in ANNEX_FILES:
+        path = cdir / name
+        if name in files:
+            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != files[name]:
+                errors.append(f"empreinte périmée : {name} — relancer build_index")
+        elif path.is_file():
+            errors.append(f"empreinte manquante : {name} — relancer build_index")
+    return errors
 
 
 def check_index(root: Path, country: str, today: date) -> list[str]:
@@ -72,6 +93,10 @@ def check_index(root: Path, country: str, today: date) -> list[str]:
             errors.append(f"{country}: index périmé pour {rp.stem} — relancer build_index")
     for extra in sorted(set(by_id) - on_disk):
         errors.append(f"{country}: {extra} dans l'index mais absent du disque")
+    if "files" not in index:
+        errors.append(f"{country}: index à régénérer (empreintes des annexes absentes) — relancer build_index")
+    else:
+        errors += [f"{country}: {m}" for m in annex_fingerprint_errors(cdir, index["files"])]
     last = max((p["date"] for p in index.get("dailyPicks", [])), default="")
     if last < (today + timedelta(days=7)).isoformat():
         errors.append(f"{country}: dailyPicks couvre moins de 7 jours d'avance")

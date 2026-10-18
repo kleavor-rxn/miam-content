@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:39:39Z",
+  "generatedAt": "2026-10-18T21:02:17Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -499,31 +499,10 @@
       "difficulty": 1
     }
   ],
+  "files": {
+    "ingredients.json": "24edcd363cb2d67eb2452abbffa451927cfa4d3293008cc3d5c798e20e4ee5b2"
+  },
   "dailyPicks": [
-    {
-      "date": "2026-08-13",
-      "recipeID": "it-risotto-alla-milanese"
-    },
-    {
-      "date": "2026-08-14",
-      "recipeID": "it-panzanella"
-    },
-    {
-      "date": "2026-08-15",
-      "recipeID": "it-crostata-di-marmellata"
-    },
-    {
-      "date": "2026-08-16",
-      "recipeID": "it-minestrone"
-    },
-    {
-      "date": "2026-08-17",
-      "recipeID": "it-arancini"
-    },
-    {
-      "date": "2026-08-18",
-      "recipeID": "it-bucatini-all-amatriciana"
-    },
     {
       "date": "2026-08-19",
       "recipeID": "it-pizzette-di-sfoglia"
@@ -863,6 +842,30 @@
     {
       "date": "2026-11-11",
       "recipeID": "it-minestrone"
+    },
+    {
+      "date": "2026-11-12",
+      "recipeID": "it-polpette-al-sugo"
+    },
+    {
+      "date": "2026-11-13",
+      "recipeID": "it-tagliatelle-al-ragu"
+    },
+    {
+      "date": "2026-11-14",
+      "recipeID": "it-pasta-e-fagioli"
+    },
+    {
+      "date": "2026-11-15",
+      "recipeID": "it-risotto-ai-funghi"
+    },
+    {
+      "date": "2026-11-16",
+      "recipeID": "it-pollo-alla-cacciatora"
+    },
+    {
+      "date": "2026-11-17",
+      "recipeID": "it-insalata-caprese"
     }
   ]
 }

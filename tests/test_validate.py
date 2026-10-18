@@ -158,3 +158,24 @@ def test_daily_picks_without_repeat_is_accepted(content_repo):
                            {"date": "2026-08-28", "recipeID": "fr-test-un"}]   # 14 j d'écart : OK
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
     assert not any("répétition" in m for m in _errors(content_repo))
+
+
+def test_validate_detects_stale_annex_fingerprint(content_repo):
+    # index écrit, puis ingredients.json modifié sans rebuild
+    index = build_index(content_repo, "france",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert not any("empreinte" in m for m in _errors(content_repo))
+    tax_path = content_repo / "france" / "ingredients.json"
+    tax = json.loads(tax_path.read_text())
+    tax["ingredients"][0]["names"]["fr"] = "Carotte modifiée"
+    tax_path.write_text(json.dumps(tax))
+    assert any("empreinte périmée : ingredients.json" in m for m in _errors(content_repo))
+
+
+def test_validate_detects_annex_missing_from_files(content_repo):
+    index = build_index(content_repo, "france",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    index["files"] = {}
+    (content_repo / "france" / "index.json").write_text(json.dumps(index))
+    assert any("empreinte manquante : ingredients.json" in m for m in _errors(content_repo))
