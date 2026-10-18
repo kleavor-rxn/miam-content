@@ -72,3 +72,85 @@ def content_repo(tmp_path):
     write_recipe(tmp_path, "france", make_recipe("fr-test-un"))
     write_recipe(tmp_path, "france", make_recipe("fr-test-deux"))
     return tmp_path
+
+
+def make_dessert(rid, **overrides):
+    """Fiche dessert valide : origine, type, histoire, occasions, sans image d'étape."""
+    r = make_recipe(
+        rid,
+        ingredients=[
+            {"ref": "sucre", "quantity": None, "unit": None},
+            {"ref": "chocolat-noir", "quantity": 200, "unit": "g"},
+            {"ref": "beurre", "quantity": 100, "unit": "g"},
+            {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+        ],
+    )
+    r["category"] = "dessert"
+    r["steps"] = [{"text": _lt("Étape 1")}]
+    r["origin"] = {"countries": ["FR"]}
+    r["dessertType"] = "gateau"
+    r["occasions"] = ["gouter"]
+    r["story"] = _lt("Histoire")
+    r.update(overrides)
+    return r
+
+
+DESSERTS_TAXONOMY = {
+    "schemaVersion": 1,
+    "ingredients": [
+        {"id": "sucre", "names": _lt("Sucre"), "category": "epicerie",
+         "staple": True, "contains": [], "animal": False},
+        {"id": "chocolat-noir", "names": _lt("Chocolat noir"), "category": "epicerie",
+         "staple": False, "contains": [], "animal": False},
+        {"id": "beurre", "names": _lt("Beurre"), "category": "produits-laitiers",
+         "staple": False, "contains": ["lait"], "animal": True},
+        {"id": "oeuf", "names": _lt("Oeuf"), "category": "produits-laitiers",
+         "staple": False, "contains": ["oeuf"], "animal": True},
+    ],
+    "featured": [
+        {"id": "chocolat", "names": _lt("Chocolat"), "emoji": "🍫",
+         "members": ["chocolat-noir"]},
+    ],
+}
+
+DESSERTS_ORIGINS = {
+    "schemaVersion": 1,
+    "regions": [
+        {"id": "europe-ouest", "names": _lt("Europe de l'Ouest")},
+        {"id": "europe-sud", "names": _lt("Europe du Sud")},
+    ],
+    "countries": [
+        {"code": "FR", "names": _lt("France"), "region": "europe-ouest",
+         "latitude": 46.2, "longitude": 2.2},
+        {"code": "IT", "names": _lt("Italie"), "region": "europe-sud",
+         "latitude": 41.9, "longitude": 12.6},
+    ],
+}
+
+DESSERTS_OCCASIONS = {
+    "schemaVersion": 1,
+    "occasions": [
+        {"id": "noel", "names": _lt("Noël"),
+         "windows": [{"start": "2027-12-01", "end": "2027-12-26"},
+                     {"start": "2028-12-01", "end": "2028-12-26"}]},
+        {"id": "gouter", "names": _lt("Goûter")},
+    ],
+}
+
+
+@pytest.fixture
+def desserts_repo(tmp_path):
+    """Mini-repo : schémas réels + collection 'desserts' valide (2 fiches ds-*)."""
+    shutil.copytree(REPO / "schema", tmp_path / "schema")
+    d = tmp_path / "desserts"
+    d.mkdir()
+    for name, data in (("ingredients", DESSERTS_TAXONOMY),
+                       ("origins", DESSERTS_ORIGINS),
+                       ("occasions", DESSERTS_OCCASIONS)):
+        (d / f"{name}.json").write_text(json.dumps(data, ensure_ascii=False))
+    write_recipe(tmp_path, "desserts",
+                 make_dessert("ds-test-un", occasions=["noel", "gouter"]))
+    write_recipe(tmp_path, "desserts",
+                 make_dessert("ds-test-deux", origin={"countries": ["IT"]},
+                              dessertType="tarte"))
+    return tmp_path

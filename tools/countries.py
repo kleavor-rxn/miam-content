@@ -3,4 +3,5 @@
 COUNTRIES = {
     "france": "fr",
     "italia": "it",
+    "desserts": "ds",
 }

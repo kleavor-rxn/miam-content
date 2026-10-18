@@ -5,7 +5,7 @@ Erreurs -> bloquantes. Warnings (placeholders) -> bloquants seulement avec --rel
 import json
 import sys
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
@@ -34,7 +34,115 @@ def _load_schemas(root: Path):
             for name, s in schemas.items()}
 
 
-def validate_country(root: Path, country: str, release: bool = False) -> list[Issue]:
+MIN_PER_REGION = 6
+MIN_PER_FEATURED = 5
+MIN_PER_TYPE = 5
+OCCASION_HORIZON_DAYS = 365
+
+
+def _load_checked(root: Path, path: Path, validator, label: str):
+    """Lit un JSON de référence et le valide par schéma -> (données, erreurs)."""
+    rel = str(path.relative_to(root))
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError) as e:
+        return None, [Issue(rel, f"{label} illisible : {e}")]
+    errs = [Issue(rel, f"schéma {label} : {e.message}") for e in validator.iter_errors(data)]
+    return (None if errs else data), errs
+
+
+def _desserts_rules(root: Path, cdir: Path, recipes: list, taxonomy: dict,
+                    origins: dict, occasions: dict, dessert_types: list,
+                    today: date) -> list[Issue]:
+    """Règles propres à la collection desserts (spec §5.2). `recipes` : [(chemin relatif, fiche)]."""
+    issues: list[Issue] = []
+    tax_rel = str((cdir / "ingredients.json").relative_to(root))
+    occ_rel = str((cdir / "occasions.json").relative_to(root))
+    known_ids = {i["id"] for i in taxonomy["ingredients"]}
+
+    for ing in taxonomy["ingredients"]:
+        if "contains" not in ing or "animal" not in ing:
+            issues.append(Issue(tax_rel, f"contains/animal manquant : {ing['id']}"))
+    featured = taxonomy.get("featured", [])
+    for group in featured:
+        for member in group["members"]:
+            if member not in known_ids:
+                issues.append(Issue(tax_rel, f"membre vedette inconnu : {member}"))
+
+    region_ids = {r["id"] for r in origins["regions"]}
+    country_region = {}
+    for c in origins["countries"]:
+        country_region[c["code"]] = c["region"]
+        if c["region"] not in region_ids:
+            issues.append(Issue(str((cdir / "origins.json").relative_to(root)),
+                                f"région inconnue : {c['region']} (pays {c['code']})"))
+
+    occ_by_id = {o["id"]: o for o in occasions["occasions"]}
+    valid_windows: dict[str, list[date]] = {}   # occasion -> dates de fin exploitables
+    for o in occasions["occasions"]:
+        for w in o.get("windows", []):
+            try:
+                start, end = date.fromisoformat(w["start"]), date.fromisoformat(w["end"])
+            except ValueError:
+                issues.append(Issue(occ_rel, f"fenêtre invalide : {o['id']} {w['start']} → {w['end']}"))
+                continue
+            if start > end:
+                issues.append(Issue(occ_rel, f"fenêtre invalide : {o['id']} {w['start']} → {w['end']}"))
+                continue
+            valid_windows.setdefault(o["id"], []).append(end)
+
+    used_occasions: set[str] = set()
+    by_region: dict[str, set[str]] = {r: set() for r in region_ids}
+    by_featured: dict[str, set[str]] = {g["id"]: set() for g in featured}
+    by_type: dict[str, set[str]] = {t: set() for t in dessert_types}
+    for rel, recipe in recipes:
+        rid = recipe["id"]
+        for field in ("origin", "dessertType", "story"):
+            if field not in recipe:
+                issues.append(Issue(rel, f"champ requis pour desserts : {field}"))
+        for code in recipe.get("origin", {}).get("countries", []):
+            if code not in country_region:
+                issues.append(Issue(rel, f"pays inconnu : {code}"))
+        for oc in recipe.get("occasions", []):
+            if oc not in occ_by_id:
+                issues.append(Issue(rel, f"occasion inconnue : {oc}"))
+            else:
+                used_occasions.add(oc)
+        # équilibre : une fiche compte une fois par région / vedette / type
+        for code in recipe.get("origin", {}).get("countries", []):
+            if country_region.get(code) in by_region:
+                by_region[country_region[code]].add(rid)
+        for group in featured:
+            members = set(group["members"])
+            if any(i["ref"] in members for i in recipe["ingredients"] if not i.get("optional")):
+                by_featured[group["id"]].add(rid)
+        if recipe.get("dessertType") in by_type:
+            by_type[recipe["dessertType"]].add(rid)
+
+    horizon = today + timedelta(days=OCCASION_HORIZON_DAYS)
+    for oc in sorted(used_occasions):
+        ends = valid_windows.get(oc)
+        if ends is None:
+            continue   # occasion sans date (gouter, anniversaire) ou fenêtres invalides déjà signalées
+        if max(ends) < horizon:
+            issues.append(Issue(occ_rel,
+                f"occasion {oc} : couverture de moins de 12 mois (dernière fenêtre finit le "
+                f"{max(ends)}, il faut au moins {horizon})"))
+
+    bal_rel = str(cdir.relative_to(root))
+    for label, minimum, groups in (("région", MIN_PER_REGION, by_region),
+                                   ("vedette", MIN_PER_FEATURED, by_featured),
+                                   ("type", MIN_PER_TYPE, by_type)):
+        for key in sorted(groups):
+            if len(groups[key]) < minimum:
+                issues.append(Issue(bal_rel,
+                    f"équilibre : {label} {key} a {len(groups[key])} desserts (minimum {minimum})",
+                    severity="warning"))
+    return issues
+
+
+def validate_country(root: Path, country: str, release: bool = False,
+                     today: date | None = None) -> list[Issue]:
     if country not in COUNTRIES:
         return [Issue(country, f"pays inconnu : {country} (attendus : {', '.join(COUNTRIES)})")]
 
@@ -58,6 +166,15 @@ def validate_country(root: Path, country: str, release: bool = False) -> list[Is
             if sub not in known:
                 issues.append(Issue(str(tax_path.relative_to(root)), f"substitut inconnu : {sub}"))
 
+    origins = occasions = None
+    if country == "desserts":
+        today = today or date.today()
+        origins, o_errs = _load_checked(root, cdir / "origins.json", validators["origins"], "origins")
+        occasions, c_errs = _load_checked(root, cdir / "occasions.json", validators["occasions"], "occasions")
+        if o_errs or c_errs:
+            return issues + o_errs + c_errs
+    dessert_recipes: list = []
+
     for rp in sorted((cdir / "recipes").glob("*.json")):
         rel = str(rp.relative_to(root))
         try:
@@ -70,6 +187,7 @@ def validate_country(root: Path, country: str, release: bool = False) -> list[Is
             issues += [Issue(rel, f"schéma recette : {e.message}") for e in schema_errs]
             continue  # règles référentielles inapplicables sur une fiche schéma-invalide
         rid = recipe["id"]
+        dessert_recipes.append((rel, recipe))
         if rid != rp.stem:
             issues.append(Issue(rel, f"id '{rid}' != nom de fichier '{rp.stem}'"))
         if not rid.startswith(f"{prefix}-"):
@@ -108,6 +226,11 @@ def validate_country(root: Path, country: str, release: bool = False) -> list[Is
                 issues.append(Issue(rel, f"placeholder interdit en release : {msg}"))
             else:
                 issues.append(Issue(rel, msg, severity="warning"))
+
+    if country == "desserts":
+        types = validators["recipe"].schema["properties"]["dessertType"]["enum"]
+        issues += _desserts_rules(root, cdir, dessert_recipes, taxonomy, origins,
+                                  occasions, types, today)
 
     index_path = cdir / "index.json"
     if index_path.exists():
