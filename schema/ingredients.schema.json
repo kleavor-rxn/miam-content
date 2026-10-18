@@ -18,7 +18,27 @@
                                  "feculents", "produits-laitiers", "epicerie",
                                  "herbes-epices", "boulangerie", "autres"]},
           "staple": {"type": "boolean"},
-          "substitutes": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+          "substitutes": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+          "contains": {
+            "type": "array",
+            "items": {"enum": ["gluten", "oeuf", "lait", "fruits-a-coque", "arachide"]},
+            "uniqueItems": true
+          },
+          "animal": {"type": "boolean"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "featured": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "names", "emoji", "members"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "names": {"$ref": "recipe.schema.json#/$defs/localizedText"},
+          "emoji": {"type": "string", "minLength": 1},
+          "members": {"type": "array", "items": {"type": "string"}, "minItems": 1}
         },
         "additionalProperties": false
       }

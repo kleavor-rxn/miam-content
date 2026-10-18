@@ -23,7 +23,7 @@
                "heroImage", "tags", "ingredients", "steps"],
   "properties": {
     "schemaVersion": {"const": 1},
-    "id": {"type": "string", "pattern": "^(fr|it)-[a-z0-9-]+$"},
+    "id": {"type": "string", "pattern": "^(fr|it|ds)-[a-z0-9-]+$"},
     "title": {"$ref": "#/$defs/localizedText"},
     "summary": {"$ref": "#/$defs/localizedText"},
     "region": {"$ref": "#/$defs/localizedText"},
@@ -35,10 +35,34 @@
     "heroImage": {"type": "string", "pattern": "^images/[a-z0-9-]+/hero\\.webp$"},
     "tags": {
       "type": "array",
-      "items": {"enum": ["airFryer", "vegetarian"]},
+      "items": {"enum": ["airFryer", "vegetarian", "noBake"]},
       "uniqueItems": true
     },
     "airFryerNotes": {"$ref": "#/$defs/localizedText"},
+    "origin": {
+      "type": "object",
+      "required": ["countries"],
+      "properties": {
+        "countries": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[A-Z]{2}$"},
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "dessertType": {
+      "enum": ["gateau", "tarte", "creme", "glace", "biscuit",
+               "beignet", "crepe", "brioche", "confiserie", "fruit"]
+    },
+    "occasions": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+      "uniqueItems": true
+    },
+    "story": {"$ref": "#/$defs/localizedText"},
     "ingredients": {
       "type": "array",
       "minItems": 1,
@@ -60,7 +84,7 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["text", "image"],
+        "required": ["text"],
         "properties": {
           "text": {"$ref": "#/$defs/localizedText"},
           "image": {"type": "string", "pattern": "^images/[a-z0-9-]+/step-[0-9]+\\.webp$"},

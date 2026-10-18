@@ -90,7 +90,12 @@ def validate_country(root: Path, country: str, release: bool = False) -> list[Is
                 issues.append(Issue(rel, f"quantité requise pour non-staple : {ref}"))
             if (ing.get("quantity") is None) != (ing.get("unit") is None):
                 issues.append(Issue(rel, f"quantité et unité doivent être renseignées ensemble : {ref}"))
-        images = [recipe["heroImage"]] + [s["image"] for s in recipe["steps"]]
+        if country != "desserts":
+            for s in recipe["steps"]:
+                if "image" not in s:
+                    issues.append(Issue(rel, "image d'étape manquante (requise hors desserts)"))
+        # étape sans image (desserts) : seules les images présentes sont contrôlées
+        images = [recipe["heroImage"]] + [s["image"] for s in recipe["steps"] if "image" in s]
         for img in images:
             if not img.startswith(f"images/{rid}/"):
                 issues.append(Issue(rel, f"image hors du dossier de la recette : {img}"))

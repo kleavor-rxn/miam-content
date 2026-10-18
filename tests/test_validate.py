@@ -4,18 +4,49 @@ from pathlib import Path
 
 import jsonschema
 
-from tests.conftest import make_recipe, write_recipe
+from tests.conftest import _lt, make_recipe, write_recipe
 
 from tools.build_index import build_index
-from tools.validate import validate_country
+from tools.validate import _load_schemas, validate_country
 
 REPO = Path(__file__).resolve().parents[1]
 
 
 def test_schemas_are_valid_jsonschema():
-    for name in ["recipe", "ingredients", "index"]:
+    for name in ["recipe", "ingredients", "index", "origins", "occasions"]:
         schema = json.loads((REPO / "schema" / f"{name}.schema.json").read_text())
         jsonschema.Draft202012Validator.check_schema(schema)
+
+
+def _validator(name):
+    return _load_schemas(REPO)[name]
+
+
+def test_recipe_schema_accepts_dessert_fields():
+    v = _validator("recipe")
+    r = make_recipe("ds-brigadeiro")
+    r |= {"origin": {"countries": ["BR"]}, "dessertType": "confiserie",
+          "occasions": ["anniversaire"], "story": _lt("Histoire"), "tags": ["noBake"]}
+    del r["steps"][0]["image"]
+    assert list(v.iter_errors(r)) == []
+
+
+def test_recipe_schema_rejects_bad_origin():
+    v = _validator("recipe")
+    for countries in [[], ["br"], ["BR", "PT", "ES", "FR"], ["BR", "BR"]]:
+        r = make_recipe("ds-x") | {"origin": {"countries": countries}}
+        assert list(v.iter_errors(r)), countries
+
+
+def test_recipe_schema_rejects_unknown_dessert_type():
+    r = make_recipe("ds-x") | {"dessertType": "tourte"}
+    assert list(_validator("recipe").iter_errors(r))
+
+
+def test_country_recipe_still_requires_step_image(content_repo):
+    r = make_recipe("fr-sans-image"); del r["steps"][0]["image"]
+    write_recipe(content_repo, "france", r)
+    assert any("image d'étape" in m for m in _errors(content_repo))
 
 
 def _errors(root):

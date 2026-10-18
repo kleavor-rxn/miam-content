@@ -25,6 +25,10 @@
         "additionalProperties": false
       }
     },
+    "files": {
+      "type": "object",
+      "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+    },
     "dailyPicks": {
       "type": "array",
       "items": {

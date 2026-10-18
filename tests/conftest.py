@@ -57,7 +57,8 @@ def write_recipe(root, country, recipe):
     imgdir.mkdir(parents=True, exist_ok=True)
     (imgdir / "hero.webp").write_bytes(b"x")
     for s in recipe["steps"]:
-        (imgdir / Path(s["image"]).name).write_bytes(b"x")
+        if "image" in s:   # les desserts n'ont pas d'image d'étape
+            (imgdir / Path(s["image"]).name).write_bytes(b"x")
     return p
 
 
