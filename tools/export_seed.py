@@ -1,14 +1,17 @@
 """Exporte le seed embarqué par l'app : sous-ensemble de <pays>/seed.txt.
 
-Copie recettes + images + taxonomie et écrit un index.json filtré (même format
-que l'index complet — l'app charge le seed exactement comme un instantané de
-cache, taxonomie comprise pour le frigo hors ligne).
+Copie recettes + images + fichiers annexes (taxonomie, origines, occasions) et
+écrit un index.json filtré (même format que l'index complet — l'app charge le
+seed exactement comme un instantané de cache, taxonomie comprise pour le frigo
+hors ligne ; `files` est conservé pour que la sync ne retélécharge pas des
+annexes déjà embarquées).
 """
 import json
 import shutil
 import sys
 from pathlib import Path
 
+from tools.build_index import ANNEX_FILES
 from tools.countries import COUNTRIES
 
 
@@ -38,11 +41,14 @@ def export_seed(root: Path, country: str, out_dir: Path) -> list[str]:
         # exclut l'outillage du bundle app : marqueurs et prompts photo
         shutil.copytree(cdir / "images" / rid, out_dir / "images" / rid,
                         ignore=shutil.ignore_patterns(".placeholder", "PROMPTS.md", ".DS_Store"))
-    shutil.copy2(cdir / "ingredients.json", out_dir / "ingredients.json")
+    for name in ANNEX_FILES:
+        if (cdir / name).is_file():
+            shutil.copy2(cdir / name, out_dir / name)
     seed_index = {
         "schemaVersion": index["schemaVersion"],
         "generatedAt": index["generatedAt"],
         "recipes": [r for r in index["recipes"] if r["id"] in set(ids)],
+        "files": index.get("files", {}),
         # ⚠️ Tant que seed.txt couvre TOUT le catalogue, ce filtre ne retire rien. Dès qu'il
         # sera un vrai sous-ensemble, le calendrier embarqué deviendra LACUNAIRE et l'app
         # retombera sur le repli déterministe pour les jours filtrés — exactement le

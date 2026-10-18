@@ -64,3 +64,15 @@ def test_seed_txt_comments_and_duplicates(content_repo, tmp_path):
         "  # commentaire indenté\nfr-test-un\nfr-test-un\n")
     ids = export_seed(content_repo, "france", tmp_path / "seed")
     assert ids == ["fr-test-un"]
+
+
+def test_export_copies_annex_files(desserts_repo, tmp_path):
+    index = build_index(desserts_repo, "desserts",
+                        now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    (desserts_repo / "desserts" / "index.json").write_text(json.dumps(index))
+    (desserts_repo / "desserts" / "seed.txt").write_text("ds-test-un\n")
+    out = tmp_path / "seed"
+    export_seed(desserts_repo, "desserts", out)
+    for name in ("ingredients.json", "origins.json", "occasions.json"):
+        assert (out / name).read_bytes() == (desserts_repo / "desserts" / name).read_bytes()
+    assert json.loads((out / "index.json").read_text())["files"] == index["files"]
