@@ -34,6 +34,12 @@ def build_index(root: Path, country: str, now: datetime) -> dict:
         prev_picks = prev.get("dailyPicks", [])
 
     summaries = []
+    origins: dict[str, tuple[str, str]] = {}
+    country_region = {}
+    origins_path = cdir / "origins.json"
+    if country == "desserts" and origins_path.is_file():
+        country_region = {c["code"]: c["region"]
+                          for c in json.loads(origins_path.read_text())["countries"]}
     for rp in sorted((cdir / "recipes").glob("*.json")):
         raw = rp.read_bytes()
         recipe = json.loads(raw)
@@ -43,6 +49,9 @@ def build_index(root: Path, country: str, now: datetime) -> dict:
             updated_at = prev_entry["updatedAt"]
         else:
             updated_at = _iso(now)
+        main_country = (recipe.get("origin", {}).get("countries") or [None])[0]
+        if main_country in country_region:
+            origins[recipe["id"]] = (main_country, country_region[main_country])
         summaries.append({
             "id": recipe["id"],
             "updatedAt": updated_at,
@@ -55,7 +64,8 @@ def build_index(root: Path, country: str, now: datetime) -> dict:
         })
 
     picks = extend_daily_picks(prev_picks, [s["id"] for s in summaries],
-                               country, now.astimezone(timezone.utc).date())
+                               country, now.astimezone(timezone.utc).date(),
+                               origins=origins or None)
     files = {name: hashlib.sha256((cdir / name).read_bytes()).hexdigest()
              for name in ANNEX_FILES if (cdir / name).is_file()}
     return {"schemaVersion": 1, "generatedAt": _iso(now),

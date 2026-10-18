@@ -143,10 +143,12 @@ def test_index_out_of_sync_detected(content_repo):
     assert any("désynchronisé" in m for m in _errors(content_repo))
 
 
-def test_daily_picks_repeat_within_14_days_detected(content_repo):
-    # 2 recettes pour 61 jours : la fenêtre glissante de 14 jours est forcément violée.
+def test_daily_picks_repeat_within_window_detected(content_repo):
+    # 2 recettes : fenêtre de 2 jours ; la même recette deux jours de suite la viole.
     index = build_index(content_repo, "france",
                         now=datetime(2026, 8, 14, tzinfo=timezone.utc))
+    index["dailyPicks"] = [{"date": "2026-08-14", "recipeID": "fr-test-un"},
+                           {"date": "2026-08-15", "recipeID": "fr-test-un"}]
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
     assert any("répétition" in m for m in _errors(content_repo))
 

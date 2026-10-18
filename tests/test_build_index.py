@@ -2,7 +2,7 @@ import hashlib
 import json
 from datetime import date, datetime, timezone
 
-from tests.conftest import make_recipe, write_recipe
+from tests.conftest import make_dessert, make_recipe, write_recipe
 
 from tools.build_index import build_index, check_index
 
@@ -133,3 +133,16 @@ def test_check_index_flags_legacy_index_without_files(content_repo):
     (content_repo / "france" / "index.json").write_text(json.dumps(index))
     errors = check_index(content_repo, "france", today=date(2026, 8, 14))
     assert any("index à régénérer" in e for e in errors)
+
+
+def test_desserts_calendar_alternates_main_country(desserts_repo):
+    # 2 fiches FR + 2 fiches IT : seul `origins` (pays principal via origins.json) force l'alternance
+    write_recipe(desserts_repo, "desserts", make_dessert("ds-test-trois"))
+    write_recipe(desserts_repo, "desserts",
+                 make_dessert("ds-test-quatre", origin={"countries": ["IT", "FR"]}))
+    index = build_index(desserts_repo, "desserts", now=T1)
+    country = {"ds-test-un": "FR", "ds-test-trois": "FR",
+               "ds-test-deux": "IT", "ds-test-quatre": "IT"}
+    picks = [country[p["recipeID"]] for p in index["dailyPicks"]]
+    assert len(picks) == 61
+    assert all(a != b for a, b in zip(picks, picks[1:]))

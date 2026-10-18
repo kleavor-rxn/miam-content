@@ -1,9 +1,10 @@
 import copy
 import json
-from datetime import date
+from datetime import date, datetime, timezone
 
 from tests.conftest import (DESSERTS_ORIGINS, DESSERTS_OCCASIONS, DESSERTS_TAXONOMY,
                             make_dessert, write_recipe)
+from tools.build_index import build_index
 from tools.validate import validate_country
 
 
@@ -158,3 +159,53 @@ def test_non_utf8_origins_file_gives_issue_not_crash(desserts_repo):
     (desserts_repo / "desserts" / "origins.json").write_bytes(b"\xff\xfe\x00{")
     errs = _errors(desserts_repo)
     assert len(errs) == 1 and "origins" in errs[0]
+
+
+def _write_index(root, picks):
+    """index.json réel (schéma, empreintes) dont le calendrier est remplacé par `picks`."""
+    index = build_index(root, "desserts", now=datetime(2027, 6, 1, tzinfo=timezone.utc))
+    index["dailyPicks"] = [{"date": d, "recipeID": r} for d, r in picks]
+    (root / "desserts" / "index.json").write_text(json.dumps(index, ensure_ascii=False))
+
+
+def _warnings(root, **kw):
+    return [i.message for i in _issues(root, **kw) if i.severity == "warning"]
+
+
+def test_validator_warns_same_country_consecutive(desserts_repo):
+    write_recipe(desserts_repo, "desserts", make_dessert("ds-test-trois"))   # FR comme ds-test-un
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-02", "ds-test-trois"),
+                                 ("2027-06-03", "ds-test-deux")])
+    assert any("même pays" in m and "2027-06-02" in m for m in _warnings(desserts_repo))
+    assert _errors(desserts_repo) == []
+
+
+def test_validator_warns_same_region_consecutive(desserts_repo):
+    origins = copy.deepcopy(DESSERTS_ORIGINS)
+    origins["countries"][1]["region"] = "europe-ouest"   # IT dans la région de FR
+    _rewrite(desserts_repo, "origins", origins)
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-02", "ds-test-deux")])
+    warnings = _warnings(desserts_repo)
+    assert any("même région" in m for m in warnings) and not any("même pays" in m for m in warnings)
+    assert _errors(desserts_repo) == []
+
+
+def test_validator_no_origin_warning_when_alternating(desserts_repo):
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-02", "ds-test-deux"),
+                                 ("2027-06-03", "ds-test-un")])
+    assert not any("deux jours de suite" in m for m in _warnings(desserts_repo))
+
+
+def test_validator_origin_check_skips_gaps_between_days(desserts_repo):
+    write_recipe(desserts_repo, "desserts", make_dessert("ds-test-trois"))
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-03", "ds-test-trois")])
+    assert not any("deux jours de suite" in m for m in _warnings(desserts_repo))
+
+
+def test_validator_repeat_window_scales_with_catalogue(desserts_repo):
+    # 2 fiches : fenêtre de 2 jours (et non 14)
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-02", "ds-test-deux"),
+                                 ("2027-06-03", "ds-test-un")])   # 2 jours d'écart : OK
+    assert not any("répétition" in m for m in _errors(desserts_repo))
+    _write_index(desserts_repo, [("2027-06-01", "ds-test-un"), ("2027-06-02", "ds-test-un")])
+    assert any("répétition" in m and "2 jours" in m for m in _errors(desserts_repo))

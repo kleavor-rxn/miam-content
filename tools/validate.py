@@ -13,7 +13,7 @@ from referencing import Registry, Resource
 
 from tools.build_index import annex_fingerprint_errors
 from tools.countries import COUNTRIES
-from tools.daily_picks import NO_REPEAT_DAYS
+from tools.daily_picks import no_repeat_window
 
 
 @dataclass
@@ -168,12 +168,14 @@ def validate_country(root: Path, country: str, release: bool = False,
                 issues.append(Issue(str(tax_path.relative_to(root)), f"substitut inconnu : {sub}"))
 
     origins = occasions = None
+    country_region: dict[str, str] = {}
     if country == "desserts":
         today = today or date.today()
         origins, o_errs = _load_checked(root, cdir / "origins.json", validators["origins"], "origins")
         occasions, c_errs = _load_checked(root, cdir / "occasions.json", validators["occasions"], "occasions")
         if o_errs or c_errs:
             return issues + o_errs + c_errs
+        country_region = {c["code"]: c["region"] for c in origins["countries"]}
     dessert_recipes: list = []
 
     for rp in sorted((cdir / "recipes").glob("*.json")):
@@ -252,7 +254,9 @@ def validate_country(root: Path, country: str, release: bool = False,
                                     f"dailyPick vers recette inconnue : {pick['recipeID']}"))
         # Fenêtre anti-répétition (spec §5.4) : la propriété dépend de la taille du catalogue
         # (0 répétition à 30 ids, 3 à 20) — elle doit être tenue par la CI, pas par une
-        # vérification manuelle ponctuelle après chaque régénération.
+        # vérification manuelle ponctuelle après chaque régénération. La fenêtre est celle
+        # du générateur : 14 jours, ou le nombre de fiches si le catalogue est plus petit.
+        window = no_repeat_window(len(ids_on_disk))
         dated = []
         for pick in index.get("dailyPicks", []):
             try:
@@ -262,13 +266,30 @@ def validate_country(root: Path, country: str, release: bool = False,
         dated.sort()
         for i, (day, rid) in enumerate(dated):
             for prev_day, prev_rid in reversed(dated[:i]):
-                if (day - prev_day).days >= NO_REPEAT_DAYS:
+                if (day - prev_day).days >= window:
                     break
                 if prev_rid == rid:
                     issues.append(Issue(str(index_path.relative_to(root)),
-                        f"répétition de {rid} à moins de {NO_REPEAT_DAYS} jours "
+                        f"répétition de {rid} à moins de {window} jours "
                         f"({prev_day} et {day})"))
                     break
+        if country == "desserts":
+            # Alternance pays / région : tenue par le générateur avec repli, mais impossible
+            # à garantir sur un petit catalogue (7 desserts français sur 10) : alerte seulement.
+            main_country = {r["id"]: (r.get("origin", {}).get("countries") or [None])[0]
+                            for _, r in dessert_recipes}
+            for (prev_day, prev_rid), (day, rid) in zip(dated, dated[1:]):
+                if (day - prev_day).days != 1:
+                    continue
+                a, b = main_country.get(prev_rid), main_country.get(rid)
+                if a is None or b is None:
+                    continue
+                if a == b or (a in country_region and b in country_region
+                              and country_region[a] == country_region[b]):
+                    kind = "pays" if a == b else "région"
+                    issues.append(Issue(str(index_path.relative_to(root)),
+                        f"même {kind} deux jours de suite ({day} : {prev_rid}, {rid})",
+                        severity="warning"))
     return issues
 
 
