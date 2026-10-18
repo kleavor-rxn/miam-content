@@ -7,7 +7,13 @@ from tests.conftest import (DESSERTS_ORIGINS, DESSERTS_OCCASIONS, DESSERTS_TAXON
 from tools.validate import validate_country
 
 
+# Date figée : sans elle, la couverture 12 mois des occasions de la fixture (fenêtres
+# jusqu'en 2028-12-26) expirerait avec le temps réel et ferait échouer les tests.
+PINNED_TODAY = date(2027, 6, 1)
+
+
 def _issues(root, **kw):
+    kw.setdefault("today", PINNED_TODAY)
     return validate_country(root, "desserts", **kw)
 
 
@@ -92,17 +98,17 @@ def _short_noel(root):
 def test_used_dated_occasion_needs_12_months(desserts_repo):
     _short_noel(desserts_repo)
     assert any("moins de 12 mois" in m
-               for m in _errors(desserts_repo, today=date(2027, 6, 1)))
+               for m in _errors(desserts_repo))
 
 
 def test_used_dated_occasion_ok_with_12_months(desserts_repo):
-    assert _errors(desserts_repo, today=date(2027, 6, 1)) == []
+    assert _errors(desserts_repo) == []
 
 
 def test_unused_dated_occasion_is_not_checked(desserts_repo):
     _short_noel(desserts_repo)
     write_recipe(desserts_repo, "desserts", make_dessert("ds-test-un"))
-    assert _errors(desserts_repo, today=date(2027, 6, 1)) == []
+    assert _errors(desserts_repo) == []
 
 
 def test_balance_is_warning_only(desserts_repo):
@@ -144,5 +150,11 @@ def test_country_collections_ignore_dessert_rules(content_repo):
 
 def test_invalid_origins_file_stops_early(desserts_repo):
     (desserts_repo / "desserts" / "origins.json").write_text("{pas du json")
+    errs = _errors(desserts_repo)
+    assert len(errs) == 1 and "origins" in errs[0]
+
+
+def test_non_utf8_origins_file_gives_issue_not_crash(desserts_repo):
+    (desserts_repo / "desserts" / "origins.json").write_bytes(b"\xff\xfe\x00{")
     errs = _errors(desserts_repo)
     assert len(errs) == 1 and "origins" in errs[0]

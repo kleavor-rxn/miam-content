@@ -45,7 +45,7 @@ def _load_checked(root: Path, path: Path, validator, label: str):
     rel = str(path.relative_to(root))
     try:
         data = json.loads(path.read_text())
-    except (OSError, json.JSONDecodeError) as e:
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as e:
         return None, [Issue(rel, f"{label} illisible : {e}")]
     errs = [Issue(rel, f"schéma {label} : {e.message}") for e in validator.iter_errors(data)]
     return (None if errs else data), errs
