@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T21:31:51Z",
+  "generatedAt": "2026-10-18T21:34:08Z",
   "recipes": [
     {
       "id": "ds-clafoutis-aux-cerises",
-      "updatedAt": "2026-10-18T21:31:51Z",
-      "contentHash": "03b7e24316499733a5d0a8097afdc9aaa2f62732932d90cd439984f4abec0d6b",
+      "updatedAt": "2026-10-18T21:34:08Z",
+      "contentHash": "a700512d27eed3a683b29fa36cbf830d05c3e2c59d7fc19314f8563516a4efb2",
       "title": {
         "fr": "Clafoutis aux cerises",
         "en": "Cherry clafoutis",
@@ -49,8 +49,8 @@
     },
     {
       "id": "ds-crostata-di-marmellata",
-      "updatedAt": "2026-10-18T21:31:51Z",
-      "contentHash": "173c6891b34545425052ac0612df16ac3d347de566b0d6515a341cef03e9eee8",
+      "updatedAt": "2026-10-18T21:34:08Z",
+      "contentHash": "68c811398cd5c8e444b4ed06117d90554bd3badb8ed0bd2dd06312eada5110f3",
       "title": {
         "fr": "Crostata à la confiture",
         "en": "Jam crostata",
