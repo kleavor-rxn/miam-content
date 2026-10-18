@@ -3,5 +3,5 @@ __pycache__/
 .pytest_cache/
 
 # Doublons créés par iCloud Drive (« fichier 2.ext ») : jamais du vrai contenu
-* 2
-* 2.*
+* [0-9]
+* [0-9].*
