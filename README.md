@@ -98,7 +98,7 @@ Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + imag
 Commandes (depuis la racine du repo) :
 
 - `python -m tools.catalogue check` : structure (schéma, ids uniques, références connues, fiches et entrées en correspondance). Tourne en CI.
-- `python -m tools.catalogue check --targets` : ajoute l'équilibre visé pour 120 desserts actifs (ni réserve ni rejetés) : au moins 120 au total, 40 pays, la cible de chaque région (par pays principal), 5 par vedette, 5 par type, 8 `FR` au plus, et 2 réserves par région. Pas en CI tant que la liste n'est pas complète.
+- `python -m tools.catalogue check --targets` : ajoute l'équilibre visé pour 120 desserts actifs (ni réserve ni rejetés) : au moins 120 au total, 40 pays principaux distincts, la cible de chaque région (par pays principal), 5 par vedette, 5 par type, 8 `FR` au plus, et 2 réserves par région. Pas en CI tant que la liste n'est pas complète.
 - `python -m tools.catalogue status` : tableau région × lot des entrées actives, avec les réserves.
 
 ## Protocole d'ajout de recette

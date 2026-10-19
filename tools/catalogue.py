@@ -39,7 +39,8 @@ def check(root: Path, targets: bool = False) -> list[Issue]:
         data, errs = _load_checked(root, cdir / f"{name}.json", validators[name], name)
         loaded[name] = data
         issues += errs
-    if loaded["catalogue"] is None:   # les messages de schéma n'indiquent pas l'entrée fautive : on la précise
+    if any(i.message.startswith("schéma catalogue") for i in issues):
+        # fichier lu mais hors schéma : les messages de schéma n'indiquent pas l'entrée fautive
         issues = [i for i in issues if not i.message.startswith("schéma catalogue")]
         data = json.loads((cdir / "catalogue.json").read_text())
         for e in validators["catalogue"].iter_errors(data):
@@ -98,7 +99,7 @@ def _targets(rel, entries, country_region, dessert_types, featured_ids) -> list[
 
     countries = {e["countries"][0] for e in active}
     if len(countries) < MIN_COUNTRIES:
-        issues.append(Issue(rel, f"{len(countries)} pays distincts (minimum {MIN_COUNTRIES})"))
+        issues.append(Issue(rel, f"{len(countries)} pays principaux distincts (minimum {MIN_COUNTRIES})"))
 
     by_region = Counter(_principal_region(e, country_region) for e in active)
     reserves = Counter(_principal_region(e, country_region) for e in entries if _is_live_reserve(e))

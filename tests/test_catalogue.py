@@ -201,6 +201,21 @@ def test_structure_check_ignores_targets(small_repo):
     assert _errors(small_repo, targets=True) != []
 
 
+def test_unreadable_catalogue_reports_one_error(small_repo, capsys):
+    (small_repo / "desserts" / "catalogue.json").write_text("{bad")
+    issues = check(small_repo)
+    assert len(issues) == 1 and issues[0].severity == "error"
+    assert "illisible" in issues[0].message
+    assert catalogue.main(["check"], root=small_repo) == 1
+    assert "1 erreur(s)." in capsys.readouterr().out
+
+
+def test_missing_catalogue_reports_one_error(small_repo):
+    (small_repo / "desserts" / "catalogue.json").unlink()
+    issues = check(small_repo)
+    assert len(issues) == 1 and "illisible" in issues[0].message
+
+
 # --- cibles ----------------------------------------------------------------
 
 def test_balanced_repo_passes_targets(balanced):
@@ -262,7 +277,7 @@ def test_too_few_countries_fails(balanced):
                                                         e["countries"][0])]
     _write_catalogue(root, new)
     errs = _errors(root, targets=True)
-    assert any("pays distincts" in m and "12" in m for m in errs)   # 11 régions + FR
+    assert any("pays principaux distincts" in m and "12" in m for m in errs)   # 11 régions + FR
 
 
 def test_featured_and_type_minimums(balanced):
