@@ -106,6 +106,37 @@ def test_used_dated_occasion_ok_with_12_months(desserts_repo):
     assert _errors(desserts_repo) == []
 
 
+def _noel_windows(root, *windows):
+    occ = copy.deepcopy(DESSERTS_OCCASIONS)
+    occ["occasions"][0]["windows"] = [{"start": a, "end": b} for a, b in windows]
+    _rewrite(root, "occasions", occ)
+
+
+def _coverage_warnings(root):
+    return [m for m in _warnings(root) if "occasion noel" in m]
+
+
+def test_occasion_warns_under_18_months(desserts_repo):
+    # dernière fenêtre finissant ~15 mois après PINNED_TODAY : une alerte, 0 erreur
+    _noel_windows(desserts_repo, ("2028-08-15", "2028-09-01"))
+    assert _errors(desserts_repo) == []
+    warns = _coverage_warnings(desserts_repo)
+    assert len(warns) == 1
+    assert "moins de 18 mois" in warns[0]
+
+
+def test_occasion_no_warning_from_18_months(desserts_repo):
+    # fenêtre finissant à la limite exacte des 18 mois (548 jours) : aucune alerte
+    _noel_windows(desserts_repo, ("2028-11-15", "2028-11-30"))
+    assert _errors(desserts_repo) == []
+    assert _coverage_warnings(desserts_repo) == []
+
+
+def test_occasion_under_12_months_is_error_without_warning(desserts_repo):
+    _short_noel(desserts_repo)
+    assert _coverage_warnings(desserts_repo) == []
+
+
 def test_unused_dated_occasion_is_not_checked(desserts_repo):
     _short_noel(desserts_repo)
     write_recipe(desserts_repo, "desserts", make_dessert("ds-test-un"))

@@ -39,6 +39,7 @@ MIN_PER_REGION = 6
 MIN_PER_FEATURED = 5
 MIN_PER_TYPE = 5
 OCCASION_HORIZON_DAYS = 365
+OCCASION_WARNING_DAYS = 548   # ~18 mois : alerte avant que la couverture ne devienne une erreur
 
 
 def _load_checked(root: Path, path: Path, validator, label: str):
@@ -121,6 +122,7 @@ def _desserts_rules(root: Path, cdir: Path, recipes: list, taxonomy: dict,
             by_type[recipe["dessertType"]].add(rid)
 
     horizon = today + timedelta(days=OCCASION_HORIZON_DAYS)
+    warning_horizon = today + timedelta(days=OCCASION_WARNING_DAYS)
     for oc in sorted(used_occasions):
         ends = valid_windows.get(oc)
         if ends is None:
@@ -129,6 +131,11 @@ def _desserts_rules(root: Path, cdir: Path, recipes: list, taxonomy: dict,
             issues.append(Issue(occ_rel,
                 f"occasion {oc} : couverture de moins de 12 mois (dernière fenêtre finit le "
                 f"{max(ends)}, il faut au moins {horizon})"))
+        elif max(ends) < warning_horizon:
+            issues.append(Issue(occ_rel,
+                f"occasion {oc} : couverture de moins de 18 mois (dernière fenêtre finit le "
+                f"{max(ends)}, prévoir au moins {warning_horizon})",
+                severity="warning"))
 
     bal_rel = str(cdir.relative_to(root))
     for label, minimum, groups in (("région", MIN_PER_REGION, by_region),
