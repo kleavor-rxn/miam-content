@@ -80,6 +80,27 @@ Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + imag
 
 **Équilibre.** `validate` signale en alerte (non bloquante) les régions sous 6 desserts, les vedettes sous 5 et les types sous 5, ainsi que deux jours de suite du même pays ou de la même région dans le calendrier.
 
+### Liste du catalogue desserts
+
+`desserts/catalogue.json` est la liste prévue des desserts, écrite avant les fiches : elle sert à garder le catalogue équilibré (régions, pays, vedettes, types). Une entrée par dessert :
+
+```json
+{"id": "ds-mochi", "title": "Mochi", "countries": ["JP"], "type": "confiserie",
+ "featured": ["riz"], "occasions": ["nouvel-an-lunaire"],
+ "lot": 3, "reserve": false, "status": "planned"}
+```
+
+- `id` en `ds-*`, `countries` (1 à 3 codes de `origins.json`, le premier est le pays principal), `type` (énumération `dessertType`), `featured` (ids du bloc `featured` de la taxonomie) et `occasions` (ids de `occasions.json`) suivent les mêmes règles que dans une fiche.
+- `status` : `planned` (prévu), `written` (la fiche `recipes/<id>.json` existe, et réciproquement : une fiche sans entrée est une erreur) ou `rejected` (écarté, avec `reason` obligatoire ; l'entrée reste dans la liste pour garder la trace).
+- `reserve` : `true` pour une réserve, un dessert de rechange hors équilibre qui remplace une entrée rejetée. Une réserve ne compte pas dans les cibles. Il en faut 2 par région.
+- `lot` : entier de 0 (les desserts déjà écrits) à 6, ou `m-AAAA-MM` pour un ajout mensuel.
+
+Commandes (depuis la racine du repo) :
+
+- `python -m tools.catalogue check` : structure (schéma, ids uniques, références connues, fiches et entrées en correspondance). Tourne en CI.
+- `python -m tools.catalogue check --targets` : ajoute l'équilibre visé pour 120 desserts actifs (ni réserve ni rejetés) : au moins 120 au total, 40 pays, la cible de chaque région (par pays principal), 5 par vedette, 5 par type, 8 `FR` au plus, et 2 réserves par région. Pas en CI tant que la liste n'est pas complète.
+- `python -m tools.catalogue status` : tableau région × lot des entrées actives, avec les réserves.
+
 ## Protocole d'ajout de recette
 
 1. Créer une branche.

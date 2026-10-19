@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {"id": "ds-clafoutis-aux-cerises", "title": "Clafoutis aux cerises", "countries": ["FR"], "type": "gateau", "featured": ["fruits-rouges"], "occasions": ["ete"], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-creme-brulee", "title": "Crème brûlée", "countries": ["FR"], "type": "creme", "featured": ["vanille"], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-crepes", "title": "Crêpes", "countries": ["FR"], "type": "crepe", "featured": [], "occasions": ["chandeleur"], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-crostata-di-marmellata", "title": "Crostata à la confiture", "countries": ["IT"], "type": "tarte", "featured": ["agrumes"], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-far-breton", "title": "Far breton", "countries": ["FR"], "type": "gateau", "featured": [], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-madeleines", "title": "Madeleines", "countries": ["FR"], "type": "biscuit", "featured": ["agrumes", "miel"], "occasions": ["gouter"], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-mousse-au-chocolat", "title": "Mousse au chocolat", "countries": ["FR"], "type": "creme", "featured": ["chocolat"], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-panna-cotta", "title": "Panna cotta", "countries": ["IT"], "type": "creme", "featured": ["vanille", "fruits-rouges"], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-tarte-tatin", "title": "Tarte Tatin", "countries": ["FR"], "type": "tarte", "featured": ["pomme-poire"], "occasions": [], "lot": 0, "reserve": false, "status": "written"},
+    {"id": "ds-tiramisu", "title": "Tiramisu", "countries": ["IT"], "type": "creme", "featured": ["chocolat", "cafe", "fromage-frais"], "occasions": [], "lot": 0, "reserve": false, "status": "written"}
+  ]
+}

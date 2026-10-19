@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miam.raxoon.com/schema/catalogue.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "entries"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "countries", "type", "featured", "occasions",
+                     "lot", "reserve", "status"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^ds-[a-z0-9-]+$"},
+          "title": {"type": "string", "minLength": 1},
+          "countries": {"type": "array", "minItems": 1, "maxItems": 3,
+                        "items": {"type": "string", "pattern": "^[A-Z]{2}$"}},
+          "type": {"type": "string"},
+          "featured": {"type": "array", "items": {"type": "string"}},
+          "occasions": {"type": "array", "items": {"type": "string"}},
+          "lot": {
+            "oneOf": [
+              {"type": "integer", "minimum": 0, "maximum": 6},
+              {"type": "string", "pattern": "^m-[0-9]{4}-(0[1-9]|1[0-2])$"}
+            ]
+          },
+          "reserve": {"type": "boolean"},
+          "status": {"enum": ["planned", "written", "rejected"]},
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "if": {"properties": {"status": {"const": "rejected"}}, "required": ["status"]},
+        "then": {"required": ["reason"]},
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

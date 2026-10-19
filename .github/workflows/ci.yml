@@ -12,4 +12,5 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest -q
       - run: python -m tools.validate
+      - run: python -m tools.catalogue check
       - run: python -m tools.build_index --check
