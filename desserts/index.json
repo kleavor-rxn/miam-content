@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T05:53:16Z",
+  "generatedAt": "2026-10-19T06:01:58Z",
   "recipes": [
     {
       "id": "ds-clafoutis-aux-cerises",
@@ -164,7 +164,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "2cc616394dffec104157ba3aa598d589b4a4b893acd9c3299a7f6878afb86298",
+    "ingredients.json": "77e2c247fe19e7188adab0e10246f9170ec0676609b0bc0641b8d2d5623410eb",
     "origins.json": "d513e983aa6e1dfd747972dca2446f6d6e2c41f2a686520471dce417817bdd70",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },
