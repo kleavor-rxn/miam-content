@@ -38,3 +38,12 @@ def test_placeholders_created_with_marker(content_repo):
     assert len(written) == 2
     hero = Image.open(imgdir / "hero.webp")
     assert hero.size == (1200, 800)
+
+
+def test_placeholders_dessert_without_step_images(desserts_repo):
+    imgdir = desserts_repo / "desserts" / "images" / "ds-test-un"
+    for f in imgdir.iterdir():
+        f.unlink()
+    written = generate_placeholders(desserts_repo, "desserts", "ds-test-un")
+    assert written == [imgdir / "hero.webp"]
+    assert sorted(f.name for f in imgdir.iterdir()) == [".placeholder", "hero.webp"]

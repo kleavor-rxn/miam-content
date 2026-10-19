@@ -21,7 +21,8 @@ def generate_placeholders(root: Path, country: str, recipe_id: str) -> list[Path
     out_dir.mkdir(parents=True, exist_ok=True)
     color = _color(recipe_id)
     targets = [("hero.webp", (1200, 800))]
-    targets += [(Path(s["image"]).name, (800, 600)) for s in recipe["steps"]]
+    # Les desserts n'ont pas d'image d'étape : seules les étapes illustrées en ont une.
+    targets += [(Path(s["image"]).name, (800, 600)) for s in recipe["steps"] if "image" in s]
     written = []
     for name, size in targets:
         out = out_dir / name
