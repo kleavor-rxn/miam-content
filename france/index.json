@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T21:02:17Z",
+  "generatedAt": "2026-10-19T10:26:46Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -498,10 +498,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-08-19",
-      "recipeID": "fr-madeleines"
-    },
-    {
       "date": "2026-08-20",
       "recipeID": "fr-oeufs-mimosa"
     },
@@ -860,6 +856,10 @@
     {
       "date": "2026-11-17",
       "recipeID": "fr-crepes"
+    },
+    {
+      "date": "2026-11-18",
+      "recipeID": "fr-ratatouille"
     }
   ]
 }

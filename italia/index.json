@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T21:02:17Z",
+  "generatedAt": "2026-10-19T10:26:46Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -504,10 +504,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-08-19",
-      "recipeID": "it-pizzette-di-sfoglia"
-    },
-    {
       "date": "2026-08-20",
       "recipeID": "it-tagliatelle-al-ragu"
     },
@@ -866,6 +862,10 @@
     {
       "date": "2026-11-17",
       "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-11-18",
+      "recipeID": "it-spaghetti-cacio-e-pepe"
     }
   ]
 }
