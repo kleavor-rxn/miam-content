@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T13:32:35Z",
+  "generatedAt": "2026-10-23T18:40:41Z",
   "recipes": [
     {
       "id": "ds-clafoutis-aux-cerises",
@@ -164,7 +164,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "bfba5bdb4c42e7899d928f942df93b35b853469b09cb53a99e622cc1ef252b73",
+    "ingredients.json": "21dd55a0f4e84143c1ae5d08da688a886edf226f753775aa0cf3eb2845d6a90a",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },
@@ -432,74 +432,6 @@
     {
       "date": "2026-11-22",
       "recipeID": "ds-crostata-di-marmellata"
-    },
-    {
-      "date": "2026-11-23",
-      "recipeID": "ds-clafoutis-aux-cerises"
-    },
-    {
-      "date": "2026-11-24",
-      "recipeID": "ds-creme-brulee"
-    },
-    {
-      "date": "2026-11-25",
-      "recipeID": "ds-crepes"
-    },
-    {
-      "date": "2026-11-26",
-      "recipeID": "ds-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-11-27",
-      "recipeID": "ds-far-breton"
-    },
-    {
-      "date": "2026-11-28",
-      "recipeID": "ds-tiramisu"
-    },
-    {
-      "date": "2026-11-29",
-      "recipeID": "ds-tarte-tatin"
-    },
-    {
-      "date": "2026-11-30",
-      "recipeID": "ds-panna-cotta"
-    },
-    {
-      "date": "2026-12-01",
-      "recipeID": "ds-madeleines"
-    },
-    {
-      "date": "2026-12-02",
-      "recipeID": "ds-crostata-di-marmellata"
-    },
-    {
-      "date": "2026-12-03",
-      "recipeID": "ds-clafoutis-aux-cerises"
-    },
-    {
-      "date": "2026-12-04",
-      "recipeID": "ds-creme-brulee"
-    },
-    {
-      "date": "2026-12-05",
-      "recipeID": "ds-crepes"
-    },
-    {
-      "date": "2026-12-06",
-      "recipeID": "ds-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-12-07",
-      "recipeID": "ds-far-breton"
-    },
-    {
-      "date": "2026-12-08",
-      "recipeID": "ds-tiramisu"
-    },
-    {
-      "date": "2026-12-09",
-      "recipeID": "ds-tarte-tatin"
     }
   ]
 }
