@@ -181,8 +181,8 @@
     },
     {
       "id": "ds-chebakia",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "0b713f0bc14adcfbf195b61b17e6b3e1809ad90ee8bac637f471decc1b5482b7",
+      "updatedAt": "2026-10-23T19:26:41Z",
+      "contentHash": "d5c0b80bdc1d96a70d6dbdf8417a7224af4839d0974d778aefd22258ec3acb98",
       "title": {
         "fr": "Chebakia",
         "en": "Chebakia",
@@ -193,7 +193,7 @@
       "tags": [
         "noBake"
       ],
-      "totalMinutes": 105,
+      "totalMinutes": 115,
       "difficulty": 3
     },
     {
@@ -644,8 +644,8 @@
     },
     {
       "id": "ds-mango-pomelo-sago",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "1bcbcb26b1e5d81391ca6b3f60dca109b457f5cb59d005241b3359f1ac36cff4",
+      "updatedAt": "2026-10-23T19:26:41Z",
+      "contentHash": "8fa06cb9966d93bf63ec6b45402110ec49eeeff807222860c72c36a2d982df7d",
       "title": {
         "fr": "Mango pomelo sago",
         "en": "Mango pomelo sago",
@@ -757,8 +757,8 @@
     },
     {
       "id": "ds-nanaimo-bars",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "2a17228ebf057ad3bb19c6aa8ae2ac4e8608a068e864f9798cb576d3ed0f0e12",
+      "updatedAt": "2026-10-23T19:26:41Z",
+      "contentHash": "ce587db9b1c988d5193aceaac95affe9cb6755f30c697c5e7345955f37153947",
       "title": {
         "fr": "Nanaimo bars",
         "en": "Nanaimo bars",
@@ -789,8 +789,8 @@
     },
     {
       "id": "ds-nian-gao",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "36b7d253560148453951299e4761c31b9173b736a7d8f49f0aa6382d675ef339",
+      "updatedAt": "2026-10-23T19:26:41Z",
+      "contentHash": "e30c7e4e3944f742aac003a86250b604fce8cc9f31869a71bf2a76423140949f",
       "title": {
         "fr": "Nian gao",
         "en": "Nian gao",
@@ -821,8 +821,8 @@
     },
     {
       "id": "ds-panettone",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "05dd3381342b6e1ddebb70cfe5bd078ffb85c5f0430e3f2d1c5c44a71e08a049",
+      "updatedAt": "2026-10-23T19:26:41Z",
+      "contentHash": "eba3d73c2619e335a8d749181bd50949c290c6e506e4ae93d997f15963d57ca3",
       "title": {
         "fr": "Panettone",
         "en": "Panettone",
