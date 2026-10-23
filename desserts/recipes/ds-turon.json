@@ -3,10 +3,10 @@
   "id": "ds-turon",
   "title": {"fr": "Turon", "en": "Turon", "es": "Turon", "it": "Turon"},
   "summary": {
-    "fr": "Le rouleau croustillant des rues philippines : une banane saba roulée dans une fine feuille de lumpia, frite puis enrobée d'un caramel de sucre roux.",
-    "en": "The crunchy roll of Philippine street stalls: a saba banana wrapped in a thin lumpia wrapper, fried, then glazed in brown-sugar caramel.",
-    "es": "El rollito crujiente de los puestos callejeros filipinos: un plátano saba envuelto en una fina hoja de lumpia, frito y bañado en caramelo de azúcar moreno.",
-    "it": "L'involtino croccante delle bancarelle filippine: una banana saba avvolta in una sottile sfoglia per lumpia, fritta e poi glassata con un caramello di zucchero di canna."
+    "fr": "Le rouleau croustillant des rues philippines : de la banane plantain roulée dans une fine feuille de lumpia, frite puis enrobée d'un caramel de sucre roux.",
+    "en": "The crunchy roll of Philippine street stalls: plantain wrapped in a thin lumpia wrapper, fried, then glazed in brown-sugar caramel.",
+    "es": "El rollito crujiente de los puestos callejeros filipinos: plátano macho envuelto en una fina hoja de lumpia, frito y bañado en caramelo de azúcar moreno.",
+    "it": "L'involtino croccante delle bancarelle filippine: del platano avvolto in una sottile sfoglia per lumpia, fritta e poi glassata con un caramello di zucchero di canna."
   },
   "story": {
     "fr": "Le turon, aussi appelé turon na saging ou lumpiang saging, est l'une des collations (merienda) les plus populaires des Philippines. Il se prépare avec la saba, une banane à cuire courte et ferme très cultivée dans l'archipel, à laquelle on ajoute souvent une lanière de jacquier (langka). Les marchands ambulants le vendent dans la rue l'après-midi, à côté du banana cue, des bananes caramélisées en brochette.",
@@ -26,7 +26,7 @@
   "heroImage": "images/ds-turon/hero.webp",
   "tags": ["noBake"],
   "ingredients": [
-    {"ref": "banane-plantain", "quantity": 6, "unit": "piece", "substitutes": ["banane"]},
+    {"ref": "banane-plantain", "quantity": 3, "unit": "piece", "substitutes": ["banane"]},
     {"ref": "cassonade", "quantity": 150, "unit": "g"},
     {"ref": "feuille-de-lumpia", "quantity": 12, "unit": "piece", "substitutes": ["pate-filo"]},
     {"ref": "jacquier", "quantity": 150, "unit": "g", "optional": true},
@@ -34,7 +34,7 @@
     {"ref": "huile-de-tournesol", "quantity": 50, "unit": "cl"}
   ],
   "steps": [
-    {"text": {"fr": "Épluchez les bananes saba et coupez-les en deux dans la longueur ; avec des plantains bien mûrs, plus grands, prenez-en 3 et coupez chacun en 4 morceaux.", "en": "Peel the saba bananas and halve them lengthways; if you are using very ripe plantains, which are larger, take 3 and cut each into 4 pieces.", "es": "Pela los plátanos saba y córtalos por la mitad a lo largo; si usas plátanos macho muy maduros, que son más grandes, toma 3 y corta cada uno en 4 trozos.", "it": "Sbuccia le banane saba e tagliale a metà nel senso della lunghezza; se usi platani ben maturi, più grandi, prendine 3 e taglia ciascuno in 4 pezzi."}},
+    {"text": {"fr": "Épluchez les bananes plantain bien mûres et coupez chacune dans la longueur en 4 lanières, pour 12 rouleaux ; avec des bananes saba, plus petites, prenez-en 6 et coupez-les en deux dans la longueur.", "en": "Peel the very ripe plantains and cut each one lengthways into 4 strips, to make 12 rolls; if you are using saba bananas, which are smaller, take 6 and halve them lengthways.", "es": "Pela los plátanos macho muy maduros y corta cada uno a lo largo en 4 tiras, para 12 rollitos; si usas plátanos saba, más pequeños, toma 6 y córtalos por la mitad a lo largo.", "it": "Sbuccia i platani ben maturi e taglia ciascuno nel senso della lunghezza in 4 listarelle, per 12 involtini; se usi banane saba, più piccole, prendine 6 e tagliale a metà nel senso della lunghezza."}},
     {"text": {"fr": "Étalez 50 g de cassonade sur une assiette et roulez-y chaque morceau de banane.", "en": "Spread 50 g of the brown sugar on a plate and roll each piece of banana in it.", "es": "Extiende 50 g del azúcar moreno en un plato y reboza en él cada trozo de plátano.", "it": "Distribuisci 50 g dello zucchero di canna su un piatto e passaci ogni pezzo di banana."}},
     {"text": {"fr": "Posez un morceau de banane en biais près d'un coin d'une feuille de lumpia, ajoutez si vous le souhaitez une lanière de jacquier égoutté, puis roulez en rabattant les côtés et soudez la pointe avec un peu d'eau.", "en": "Lay a piece of banana diagonally near one corner of a lumpia wrapper, add a strip of drained jackfruit if you like, then roll up, folding in the sides, and seal the tip with a little water.", "es": "Coloca un trozo de plátano en diagonal cerca de una esquina de una hoja de lumpia, añade si quieres una tira de yaca escurrida, enrolla doblando los lados hacia dentro y pega la punta con un poco de agua.", "it": "Adagia un pezzo di banana in diagonale vicino a un angolo di una sfoglia per lumpia, aggiungi se ti va una striscia di jackfruit sgocciolato, poi arrotola ripiegando i lati verso l'interno e sigilla la punta con un po' d'acqua."}},
     {"text": {"fr": "Versez l'huile dans une grande sauteuse sur environ 1 cm de hauteur et faites-la chauffer à 170 °C.", "en": "Pour the oil into a large, deep frying pan to a depth of about 1 cm and heat it to 170 °C.", "es": "Vierte el aceite en una sartén grande y honda hasta una altura de 1 cm aproximadamente y caliéntalo a 170 °C.", "it": "Versa l'olio in una padella larga e profonda per un'altezza di circa 1 cm e scaldalo a 170 °C."}, "timerMinutes": 8},
