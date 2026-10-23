@@ -110,9 +110,9 @@ Le catalogue de lancement (120 desserts) est écrit ; on y ajoute ensuite une di
 3. **Écriture** : un agent par groupe d'environ 5 fiches. Règles clés : une seule action par étape ; une seule ligne par `ref` (les étapes répartissent la quantité) ; un ingrédient `optional` est formulé comme facultatif dans les étapes ; une `story` de faits vérifiables (une légende est présentée comme telle, pas d'anecdote inventée).
 4. **Relecture** par deux agents distincts : (a) authenticité et cohérence, puis (b) langues (fr, en, es, it). Verdict par fiche : OK, corrigée ou rejetée.
 5. **Photos** FLUX en local : `images/<id>/PROMPTS.md` (aspect réel du dessert), `python -m tools.generate_photos`, planche contact relue, variantes `@2` et `@3` en cas d'échec ; trois échecs : rejet « photo » et une réserve de la même région prend la place. Puis `python -m tools.process_images`.
-6. **Finalisation** : `status: "written"`, `python -m tools.build_index desserts`, puis `validate desserts`, `build_index --check`, `catalogue check`, les tests, et `validate desserts --release` (aucun placeholder sur les fiches du mois).
+6. **Finalisation** : `status: "written"`, `python -m tools.build_index desserts`, puis `validate desserts`, `build_index --check`, `catalogue check`, `python -m tools.catalogue check --targets`, les tests, et `validate desserts --release` (aucun placeholder sur les fiches du mois).
 
-Un dessert rejeté est remplacé (`status: "rejected"` + `reason`, une réserve passe en actif), jamais « arrangé » pour passer la relecture.
+Un dessert rejeté est remplacé (`status: "rejected"` + `reason`, une réserve passe en actif ; ajouter alors une nouvelle réserve de la même région dans `desserts/catalogue.json`, `check --targets` exige 2 réserves par région), jamais « arrangé » pour passer la relecture.
 
 ## Protocole d'ajout de recette
 
