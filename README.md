@@ -98,8 +98,21 @@ Exporte le bundle seed embarqué par l'app (recettes de `<pays>/seed.txt` + imag
 Commandes (depuis la racine du repo) :
 
 - `python -m tools.catalogue check` : structure (schéma, ids uniques, références connues, fiches et entrées en correspondance). Tourne en CI.
-- `python -m tools.catalogue check --targets` : ajoute l'équilibre visé pour 120 desserts actifs (ni réserve ni rejetés) : au moins 120 au total, 40 pays principaux distincts, la cible de chaque région (par pays principal), 5 par vedette, 5 par type, 8 `FR` au plus, et 2 réserves par région. Pas en CI tant que la liste n'est pas complète.
+- `python -m tools.catalogue check --targets` : ajoute l'équilibre visé pour 120 desserts actifs (ni réserve ni rejetés) : au moins 120 au total, 40 pays principaux distincts, la cible de chaque région (par pays principal), 5 par vedette, 5 par type, 8 `FR` au plus, et 2 réserves par région. Pas en CI (la CI ne lance que `check`) : à lancer à la main avant chaque lot.
 - `python -m tools.catalogue status` : tableau région × lot des entrées actives, avec les réserves.
+
+### Ajouter un dessert
+
+Le catalogue de lancement (120 desserts) est écrit ; on y ajoute ensuite une dizaine de desserts par mois, avec la même procédure à l'échelle du mois.
+
+1. **Entrée.** Ajouter dans `desserts/catalogue.json` une entrée avec `lot` = `"m-AAAA-MM"` (ex. `"m-2027-03"`), `reserve: false`, `status: "planned"`. `TOTAL` et les cibles par région sont des minimums : `catalogue check --targets` reste vert, et l'équilibre (pays, vedettes, types, 8 `FR` au plus) est à surveiller.
+2. **Taxonomie d'abord** (un seul agent) : ingrédients manquants dans `ingredients.json` (`contains` et `animal` justes, rattachement au groupe vedette). Les rédacteurs ne la touchent pas.
+3. **Écriture** : un agent par groupe d'environ 5 fiches. Règles clés : une seule action par étape ; une seule ligne par `ref` (les étapes répartissent la quantité) ; un ingrédient `optional` est formulé comme facultatif dans les étapes ; une `story` de faits vérifiables (une légende est présentée comme telle, pas d'anecdote inventée).
+4. **Relecture** par deux agents distincts : (a) authenticité et cohérence, puis (b) langues (fr, en, es, it). Verdict par fiche : OK, corrigée ou rejetée.
+5. **Photos** FLUX en local : `images/<id>/PROMPTS.md` (aspect réel du dessert), `python -m tools.generate_photos`, planche contact relue, variantes `@2` et `@3` en cas d'échec ; trois échecs : rejet « photo » et une réserve de la même région prend la place. Puis `python -m tools.process_images`.
+6. **Finalisation** : `status: "written"`, `python -m tools.build_index desserts`, puis `validate desserts`, `build_index --check`, `catalogue check`, les tests, et `validate desserts --release` (aucun placeholder sur les fiches du mois).
+
+Un dessert rejeté est remplacé (`status: "rejected"` + `reason`, une réserve passe en actif), jamais « arrangé » pour passer la relecture.
 
 ## Protocole d'ajout de recette
 
