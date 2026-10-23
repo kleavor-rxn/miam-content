@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-panipopo",
+  "title": {"fr": "Panipopo", "en": "Panipopo", "es": "Panipopo", "it": "Panipopo"},
+  "summary": {
+    "fr": "Les petits pains samoans à la noix de coco : des brioches moelleuses cuites dans un bain de lait de coco sucré qui se transforme en sauce onctueuse.",
+    "en": "Samoa's coconut buns: soft, sweet rolls baked in a bath of sweetened coconut milk that turns into a rich, silky sauce.",
+    "es": "Los panecillos samoanos de coco: bollos tiernos horneados en un baño de leche de coco azucarada que se convierte en una salsa untuosa.",
+    "it": "I panini samoani al cocco: soffici brioche cotte in un bagno di latte di cocco zuccherato che si trasforma in una salsa vellutata."
+  },
+  "story": {
+    "fr": "Dans panipopo, popo désigne en samoan la noix de coco mûre, et pani le petit pain. Le cocotier est au cœur de la cuisine des Samoa, où le lait de coco sert aussi bien aux plats salés qu'aux douceurs. Les petits pains lèvent serrés dans un plat, puis cuisent au four noyés dans un lait de coco sucré qui épaissit en sauce ; on les mange tièdes, arrosés de cette sauce.",
+    "en": "In panipopo, popo is the Samoan word for a mature coconut and pani means a bun. The coconut palm lies at the heart of Samoan cooking, where coconut milk goes into savoury dishes and sweets alike. The buns rise snugly in a dish, then bake submerged in sweetened coconut milk that thickens into a sauce; they are eaten warm, with the sauce spooned over.",
+    "es": "En panipopo, popo es en samoano el coco maduro y pani, el panecillo. El cocotero está en el centro de la cocina de Samoa, donde la leche de coco se usa tanto en platos salados como en dulces. Los panecillos levan muy juntos en una fuente y luego se hornean sumergidos en leche de coco azucarada, que espesa hasta volverse salsa; se comen templados, bañados con ella.",
+    "it": "In panipopo, popo è in samoano la noce di cocco matura e pani il panino. La palma da cocco è al centro della cucina delle Samoa, dove il latte di cocco finisce nei piatti salati come nei dolci. I panini lievitano vicini in una pirofila, poi cuociono in forno immersi nel latte di cocco zuccherato, che si addensa in una salsa; si mangiano tiepidi, irrorati con la salsa."
+  },
+  "region": {"fr": "Samoa", "en": "Samoa", "es": "Samoa", "it": "Samoa"},
+  "origin": {"countries": ["WS"]},
+  "category": "dessert",
+  "dessertType": "brioche",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 35,
+  "servings": 12,
+  "heroImage": "images/ds-panipopo/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "lait-de-coco", "quantity": 60, "unit": "cl"}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre 50 g de beurre à feu doux, ajoutez le lait et laissez tiédir jusqu'à 37 °C : le mélange doit être à peine tiède au doigt.", "en": "Melt 50 g of the butter over a low heat, add the milk and let it cool to 37 °C — just lukewarm to the touch.", "es": "Derrite 50 g de la mantequilla a fuego suave, añade la leche y deja que se temple hasta 37 °C: apenas tibia al tacto.", "it": "Fai fondere 50 g di burro a fuoco dolce, aggiungi il latte e lascia intiepidire fino a 37 °C: appena tiepido al tatto."}, "timerMinutes": 5},
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, la levure sèche de boulanger, 50 g de sucre et le sel.", "en": "In a large bowl, mix the flour, dried yeast, 50 g of the sugar and the salt.", "es": "En un bol grande, mezcla la harina, la levadura seca de panadería, 50 g del azúcar y la sal.", "it": "In una ciotola capiente mescola la farina, il lievito di birra secco, 50 g di zucchero e il sale."}},
+    {"text": {"fr": "Ajoutez le mélange de lait et de beurre tiède et l'œuf, puis pétrissez 10 minutes, jusqu'à obtenir une pâte lisse et souple.", "en": "Add the warm milk and butter mixture and the egg, then knead for 10 minutes until the dough is smooth and supple.", "es": "Añade la mezcla templada de leche y mantequilla y el huevo, y amasa 10 minutos, hasta obtener una masa lisa y elástica.", "it": "Aggiungi il latte tiepido con il burro e l'uovo, poi impasta per 10 minuti, fino a ottenere un impasto liscio ed elastico."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte double de volume.", "en": "Cover with a tea towel and leave to rise in a warm place for 1 hour, until doubled in size.", "es": "Cubre con un paño y deja levar 1 hora en un lugar templado, hasta que la masa doble su volumen.", "it": "Copri con un canovaccio e lascia lievitare per 1 ora in un luogo tiepido, finché l'impasto raddoppia di volume."}, "timerMinutes": 60},
+    {"text": {"fr": "Divisez la pâte en 12 boules lisses et rangez-les côte à côte dans un plat d'environ 23 × 33 cm beurré avec les 10 g de beurre restants.", "en": "Divide the dough into 12 smooth balls and arrange them side by side in a roughly 23 × 33 cm dish greased with the remaining 10 g of butter.", "es": "Divide la masa en 12 bolas lisas y colócalas una junto a otra en una fuente de unos 23 × 33 cm untada con los 10 g de mantequilla restantes.", "it": "Dividi l'impasto in 12 palline lisce e sistemale una accanto all'altra in una pirofila di circa 23 × 33 cm imburrata con i 10 g di burro rimasti."}},
+    {"text": {"fr": "Couvrez et laissez lever encore 30 minutes ; pendant ce temps, préchauffez le four à 180 °C.", "en": "Cover and leave to rise for another 30 minutes; meanwhile, preheat the oven to 180 °C.", "es": "Cubre y deja levar otros 30 minutos; mientras tanto, precalienta el horno a 180 °C.", "it": "Copri e lascia lievitare per altri 30 minuti; nel frattempo preriscalda il forno a 180 °C."}, "timerMinutes": 30},
+    {"text": {"fr": "Fouettez le lait de coco avec les 150 g de sucre restants jusqu'à ce que le sucre soit dissous.", "en": "Whisk the coconut milk with the remaining 150 g of sugar until the sugar has dissolved.", "es": "Bate la leche de coco con los 150 g de azúcar restantes hasta que el azúcar se disuelva.", "it": "Sbatti il latte di cocco con i 150 g di zucchero rimasti finché lo zucchero si è sciolto."}},
+    {"text": {"fr": "Versez la sauce coco sur et autour des petits pains : elle doit arriver à mi-hauteur.", "en": "Pour the coconut sauce over and around the buns: it should come halfway up their sides.", "es": "Vierte la salsa de coco por encima y alrededor de los panecillos: debe llegarles a media altura.", "it": "Versa la salsa al cocco sopra e intorno ai panini: deve arrivare a metà altezza."}},
+    {"text": {"fr": "Enfournez 30 à 35 minutes, jusqu'à ce que les petits pains soient bien dorés et la sauce épaissie et bouillonnante.", "en": "Bake for 30 to 35 minutes, until the buns are deep golden and the sauce has thickened and is bubbling.", "es": "Hornea de 30 a 35 minutos, hasta que los panecillos estén bien dorados y la salsa se haya espesado y burbujee.", "it": "Inforna per 30-35 minuti, finché i panini sono ben dorati e la salsa si è addensata e sobbolle."}, "timerMinutes": 35},
+    {"text": {"fr": "Laissez reposer 10 minutes, puis servez tiède, en nappant chaque petit pain de sauce coco.", "en": "Leave to rest for 10 minutes, then serve warm, spooning the coconut sauce over each bun.", "es": "Deja reposar 10 minutos y sírvelos templados, napando cada panecillo con la salsa de coco.", "it": "Lascia riposare 10 minuti, poi servili tiepidi, irrorando ogni panino con la salsa al cocco."}, "timerMinutes": 10}
+  ]
+}

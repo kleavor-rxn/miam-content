@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-cascos-de-guayaba",
+  "title": {"fr": "Cascos de guayaba con queso", "en": "Cascos de guayaba con queso", "es": "Cascos de guayaba con queso", "it": "Cascos de guayaba con queso"},
+  "summary": {
+    "fr": "Le grand classique cubain : des demi-goyaves vidées de leurs graines, confites lentement dans un sirop parfumé, servies bien froides avec une tranche de fromage frais.",
+    "en": "A great Cuban classic: guava halves scooped free of their seeds, slowly poached in a fragrant syrup and served well chilled with a slice of fresh cheese.",
+    "es": "El gran clásico cubano: mitades de guayaba sin semillas, confitadas a fuego lento en un almíbar perfumado y servidas bien frías con una loncha de queso fresco.",
+    "it": "Il grande classico cubano: mezze guave svuotate dei semi, cotte lentamente in uno sciroppo profumato e servite ben fredde con una fetta di formaggio fresco."
+  },
+  "story": {
+    "fr": "En espagnol, « casco » désigne une coque : ici la demi-goyave débarrassée de sa pulpe à pépins, qui confit doucement dans un sirop de sucre. La goyave, originaire de l'Amérique tropicale, pousse partout à Cuba, où ses cascos au sirop sont l'un des desserts les plus courants, préparés à la maison mais aussi vendus en conserve. On les sert froids avec une tranche de fromage, le même accord sucré-salé que la pâte de goyave au fromage, très appréciée dans toute l'Amérique latine.",
+    "en": "In Spanish, 'casco' means a shell: here, the guava half emptied of its seedy pulp and gently candied in sugar syrup. Native to tropical America, the guava grows all over Cuba, where its cascos in syrup are one of the most common desserts, made at home and also sold in tins. They are served cold with a slice of cheese, the same sweet-and-salty pairing as guava paste with cheese, a favourite throughout Latin America.",
+    "es": "En español, «casco» designa una cáscara: aquí, la mitad de guayaba sin la pulpa con semillas, que se confita despacio en un almíbar. La guayaba, originaria de la América tropical, crece por toda Cuba, donde los cascos en almíbar son uno de los postres más habituales, hechos en casa y también vendidos en lata. Se sirven fríos con una loncha de queso, la misma combinación dulce y salada que la pasta de guayaba con queso, muy apreciada en toda América Latina.",
+    "it": "In spagnolo «casco» indica un guscio: qui la mezza guava privata della polpa con i semi, che si candisce lentamente in uno sciroppo di zucchero. Originaria dell'America tropicale, la guava cresce ovunque a Cuba, dove i cascos sciroppati sono uno dei dolci più comuni, fatti in casa ma anche venduti in scatola. Si servono freddi con una fetta di formaggio, lo stesso abbinamento dolce-salato della pasta di guava con il formaggio, amatissima in tutta l'America Latina."
+  },
+  "region": {"fr": "Cuba", "en": "Cuba", "es": "Cuba", "it": "Cuba"},
+  "origin": {"countries": ["CU"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 45,
+  "servings": 6,
+  "heroImage": "images/ds-cascos-de-guayaba/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "goyave", "quantity": 1, "unit": "kg"},
+    {"ref": "sucre", "quantity": 400, "unit": "g"},
+    {"ref": "eau", "quantity": 750, "unit": "ml"},
+    {"ref": "cannelle", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "clou-de-girofle", "quantity": 3, "unit": "piece", "optional": true},
+    {"ref": "citron-vert", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "fromage-frais-a-tartiner", "quantity": 250, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Rincez les goyaves (une dizaine, mûres mais encore fermes), coupez-en les extrémités et pelez-les très finement au couteau économe. À défaut de goyaves fraîches, les cascos en conserve au sirop sont un raccourci courant à Cuba : égouttez-les à moitié et passez directement à l'étape 6.", "en": "Rinse the guavas (about ten, ripe but still firm), trim off the ends and peel them very thinly with a vegetable peeler. If you cannot find fresh guavas, tinned cascos in syrup are a common shortcut in Cuba: half-drain them and go straight to step 6.", "es": "Lava las guayabas (unas diez, maduras pero todavía firmes), córtales los extremos y pélalas muy finamente con un pelador. Si no encuentras guayabas frescas, los cascos en almíbar de lata son un atajo habitual en Cuba: escúrrelos a medias y pasa directamente al paso 6.", "it": "Sciacqua le guave (una decina, mature ma ancora sode), elimina le estremità e sbucciale molto sottilmente con un pelapatate. Se non trovi guave fresche, i cascos sciroppati in scatola sono una scorciatoia comune a Cuba: scolali a metà e passa direttamente al punto 6."}},
+    {"text": {"fr": "Coupez chaque goyave en deux et évidez-la à la petite cuillère pour retirer la pulpe et les pépins, et ne garder que la coque de chair ferme (gardez la pulpe pour un jus ou une confiture).", "en": "Halve each guava and scoop out the seedy pulp with a teaspoon, keeping only the firm shell of flesh (save the pulp for a juice or a jam).", "es": "Parte cada guayaba por la mitad y retira con una cucharilla la pulpa y las semillas, para quedarte solo con la cáscara de carne firme (guarda la pulpa para un zumo o una mermelada).", "it": "Taglia ogni guava a metà ed elimina con un cucchiaino la polpa e i semi, tenendo solo il guscio sodo (conserva la polpa per un succo o una confettura)."}},
+    {"text": {"fr": "Dans une large casserole, portez à ébullition l'eau et le sucre, avec, si vous le souhaitez, le bâton de cannelle et les clous de girofle, en remuant jusqu'à ce que le sucre soit dissous.", "en": "In a wide saucepan, bring the water and sugar to the boil with the cinnamon stick and cloves, if using, stirring until the sugar has dissolved.", "es": "En una cacerola ancha, lleva a ebullición el agua con el azúcar, removiendo hasta que se disuelva, y añade, si quieres, la rama de canela y los clavos.", "it": "In una casseruola larga porta a bollore l'acqua con lo zucchero e, se ti va, la stecca di cannella e i chiodi di garofano, mescolando finché lo zucchero si scioglie."}, "timerMinutes": 5},
+    {"text": {"fr": "Plongez les cascos dans le sirop et laissez-les frémir à feu doux, sans remuer, pendant 40 minutes environ, jusqu'à ce qu'ils soient tendres et brillants et que le sirop ait épaissi.", "en": "Slip the cascos into the syrup and leave them to simmer gently, without stirring, for about 40 minutes, until they are tender and glossy and the syrup has thickened.", "es": "Echa los cascos en el almíbar y déjalos cocer a fuego suave, sin remover, unos 40 minutos, hasta que estén tiernos y brillantes y el almíbar haya espesado.", "it": "Immergi i cascos nello sciroppo e lasciali sobbollire a fuoco dolce, senza mescolare, per circa 40 minuti, finché sono teneri e lucidi e lo sciroppo si è addensato."}, "timerMinutes": 40},
+    {"text": {"fr": "Hors du feu, ajoutez si vous le souhaitez le jus du citron vert, puis laissez refroidir les cascos dans leur sirop.", "en": "Off the heat, stir in the lime juice if you like, then leave the cascos to cool in their syrup.", "es": "Fuera del fuego, añade si quieres el zumo de la lima y deja que los cascos se enfríen en su almíbar.", "it": "Fuori dal fuoco aggiungi, se ti va, il succo del lime, poi lascia raffreddare i cascos nel loro sciroppo."}, "timerMinutes": 60},
+    {"text": {"fr": "Couvrez et placez au réfrigérateur pendant au moins 2 heures.", "en": "Cover and chill for at least 2 hours.", "es": "Tapa y mete en la nevera al menos 2 horas.", "it": "Copri e metti in frigorifero per almeno 2 ore."}, "timerMinutes": 120},
+    {"text": {"fr": "Retirez les épices si vous en avez mis, puis servez trois ou quatre cascos par personne dans des coupelles, nappés de sirop, avec une tranche de queso crema bien froid (fromage frais à tartiner ; à Cuba, on prend aussi du queso blanco, plus ferme et plus salé).", "en": "Remove the spices, if used, then serve three or four cascos per person in small bowls, with syrup spooned over, alongside a slice of well-chilled queso crema (cream cheese; in Cuba, the firmer, saltier queso blanco is also used).", "es": "Retira las especias, si las has usado, y sirve tres o cuatro cascos por persona en cuencos, bañados con almíbar, con una loncha de queso crema bien frío (en Cuba también se usa queso blanco, más firme y salado).", "it": "Togli le spezie, se le hai usate, poi servi tre o quattro cascos a persona in coppette, irrorati di sciroppo, con una fetta di queso crema ben freddo (formaggio fresco spalmabile; a Cuba si usa anche il queso blanco, più sodo e salato)."}}
+  ]
+}

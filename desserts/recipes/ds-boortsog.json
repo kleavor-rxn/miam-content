@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-boortsog",
+  "title": {"fr": "Boortsog", "en": "Boortsog", "es": "Boortsog", "it": "Boortsog"},
+  "summary": {
+    "fr": "Les petits beignets mongols du Nouvel An lunaire : une pâte au lait et au beurre à peine sucrée, découpée en losanges, frite jusqu'à être dorée et croustillante.",
+    "en": "Mongolia's little Lunar New Year fritters: a lightly sweetened milk-and-butter dough cut into diamonds and fried until golden and crisp.",
+    "es": "Los buñuelitos mongoles del Año Nuevo lunar: una masa de leche y mantequilla apenas dulce, cortada en rombos y frita hasta quedar dorada y crujiente.",
+    "it": "Le frittelline mongole del Capodanno lunare: un impasto al latte e burro appena zuccherato, tagliato a rombi e fritto finché è dorato e croccante."
+  },
+  "story": {
+    "fr": "Le boortsog est le beignet de tous les jours des familles nomades de Mongolie, traditionnellement frit dans de la graisse de mouton, et on le retrouve sous le nom de baursak chez les Kazakhs et les Kirghiz. Pour Tsagaan Sar, le Nouvel An lunaire mongol, on en prépare de grandes quantités pour recevoir les visiteurs, et on les sert avec le thé au lait salé (suutei tsai), dans lequel on aime les tremper. La forme des boortsog varie d'une famille à l'autre : losanges, rectangles fendus et retournés, petites tresses.",
+    "en": "Boortsog is the everyday fried pastry of Mongolia's nomadic families, traditionally cooked in mutton fat, and it turns up as baursak among the Kazakhs and Kyrgyz. For Tsagaan Sar, the Mongolian Lunar New Year, families make large batches to welcome visitors, and serve them with salted milk tea (suutei tsai) for dipping. The shape of boortsog varies from family to family: diamonds, slit and twisted rectangles, little braids.",
+    "es": "El boortsog es el buñuelo de diario de las familias nómadas de Mongolia, frito tradicionalmente en grasa de cordero, y se encuentra con el nombre de baursak entre los kazajos y los kirguises. Para el Tsagaan Sar, el Año Nuevo lunar mongol, se preparan grandes cantidades para recibir a las visitas, y se sirven con el té con leche salado (suutei tsai), en el que se suelen mojar. La forma del boortsog cambia de una familia a otra: rombos, rectángulos con un corte y dados la vuelta, pequeñas trenzas.",
+    "it": "Il boortsog è la frittella di tutti i giorni delle famiglie nomadi della Mongolia, fritta tradizionalmente nel grasso di montone, e si ritrova con il nome di baursak presso kazaki e kirghisi. Per lo Tsagaan Sar, il Capodanno lunare mongolo, se ne preparano grandi quantità per accogliere gli ospiti, e si servono con il tè al latte salato (suutei tsai), in cui si ama inzupparli. La forma del boortsog cambia da una famiglia all'altra: rombi, rettangoli incisi e rigirati, piccole trecce."
+  },
+  "region": {"fr": "Mongolie", "en": "Mongolia", "es": "Mongolia", "it": "Mongolia"},
+  "origin": {"countries": ["MN"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": ["nouvel-an-lunaire"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 25,
+  "servings": 10,
+  "heroImage": "images/ds-boortsog/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "sucre", "quantity": 80, "unit": "g"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "lait", "quantity": 250, "unit": "ml"},
+    {"ref": "huile-de-tournesol", "quantity": 1000, "unit": "ml"}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites tiédir le lait avec le beurre à feu doux, juste jusqu'à ce que le beurre fonde.", "en": "Warm the milk with the butter over a low heat, just until the butter melts.", "es": "Calienta la leche con la mantequilla a fuego suave, solo hasta que la mantequilla se derrita.", "it": "Scalda il latte con il burro a fuoco dolce, solo finché il burro si scioglie."}, "timerMinutes": 5},
+    {"text": {"fr": "Dans un saladier, mélangez la farine, 50 g de sucre, ½ cuillerée à café de sel et, si vous le souhaitez, la levure chimique, qui rend les boortsog un peu plus légers.", "en": "In a mixing bowl, combine the flour, 50 g of the sugar, ½ teaspoon of salt and, if you like, the baking powder, which makes the boortsog a little lighter.", "es": "En un bol, mezcla la harina, 50 g de azúcar, ½ cucharadita de sal y, si quieres, la levadura en polvo, que hace los boortsog algo más ligeros.", "it": "In una ciotola mescola la farina, 50 g di zucchero, ½ cucchiaino di sale e, se ti va, il lievito per dolci, che rende i boortsog un po' più leggeri."}},
+    {"text": {"fr": "Versez le lait au beurre tiède sur le mélange de farine, puis pétrissez 5 minutes, jusqu'à obtenir une pâte ferme et lisse.", "en": "Pour in the lukewarm buttery milk, then knead for 5 minutes, until the dough is firm and smooth.", "es": "Vierte sobre la harina la leche con la mantequilla, ya tibia, y amasa 5 minutos, hasta obtener una masa firme y lisa.", "it": "Versa sulla farina il latte al burro, ormai tiepido, poi impasta per 5 minuti, finché la pasta è soda e liscia."}, "timerMinutes": 5},
+    {"text": {"fr": "Couvrez la pâte d'un torchon et laissez-la reposer 30 minutes.", "en": "Cover the dough with a tea towel and leave it to rest for 30 minutes.", "es": "Cubre la masa con un paño y déjala reposar 30 minutos.", "it": "Copri l'impasto con un canovaccio e lascialo riposare per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Abaissez la pâte au rouleau sur 1 cm d'épaisseur et découpez-la en losanges ou en rectangles d'environ 3 × 6 cm ; pour la forme tressée, fendez le centre de chaque rectangle et faites-y passer une extrémité.", "en": "Roll the dough out to 1 cm thick and cut it into diamonds or rectangles of about 3 × 6 cm; for the twisted shape, slit the centre of each rectangle and pull one end through the slit.", "es": "Estira la masa con el rodillo hasta 1 cm de grosor y córtala en rombos o rectángulos de unos 3 × 6 cm; para la forma trenzada, haz un corte en el centro de cada rectángulo y pasa un extremo por él.", "it": "Stendi la pasta con il mattarello a 1 cm di spessore e tagliala a rombi o rettangoli di circa 3 × 6 cm; per la forma intrecciata, incidi il centro di ogni rettangolo e fai passare un'estremità nel taglio."}},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C dans une casserole à fond épais.", "en": "Heat the oil to 170 °C in a heavy-based saucepan.", "es": "Calienta el aceite a 170 °C en una cacerola de fondo grueso.", "it": "Scalda l'olio a 170 °C in una casseruola dal fondo spesso."}, "timerMinutes": 10},
+    {"text": {"fr": "Faites frire les boortsog par petites fournées pendant 3 à 4 minutes, en les retournant, jusqu'à ce qu'ils soient gonflés et bien dorés.", "en": "Fry the boortsog in small batches for 3 to 4 minutes, turning them, until puffed and deep golden.", "es": "Fríe los boortsog en tandas pequeñas de 3 a 4 minutos, dándoles la vuelta, hasta que estén hinchados y bien dorados.", "it": "Friggi i boortsog pochi alla volta per 3-4 minuti, girandoli, finché sono gonfi e ben dorati."}, "timerMinutes": 4},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et saupoudrez-les, encore tièdes, des 30 g de sucre restants.", "en": "Drain them on kitchen paper and, while still warm, sprinkle with the remaining 30 g of sugar.", "es": "Escúrrelos sobre papel absorbente y espolvoréalos, todavía tibios, con los 30 g de azúcar restantes.", "it": "Scolali su carta assorbente e, ancora tiepidi, cospargili con i 30 g di zucchero rimasti."}}
+  ]
+}

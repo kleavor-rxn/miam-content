@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-barmbrack",
+  "title": {"fr": "Barmbrack", "en": "Barmbrack", "es": "Barmbrack", "it": "Barmbrack"},
+  "summary": {
+    "fr": "Le pain d'Halloween irlandais : une pâte levée épicée à la cannelle et à la muscade, truffée de raisins secs gonflés toute une nuit dans du thé noir.",
+    "en": "Ireland's Halloween bread: a yeasted dough spiced with cinnamon and nutmeg, packed with dried fruit plumped overnight in black tea.",
+    "es": "El pan de Halloween irlandés: una masa levada especiada con canela y nuez moscada, repleta de pasas hinchadas toda la noche en té negro.",
+    "it": "Il pane irlandese di Halloween: un impasto lievitato speziato con cannella e noce moscata, ricco di uvetta lasciata gonfiare tutta la notte nel tè nero."
+  },
+  "story": {
+    "fr": "Le nom barmbrack viendrait de l'irlandais báirín breac, « pain moucheté », à cause des fruits secs qui parsèment la mie. Le barmbrack est étroitement lié à Halloween, fête née de l'ancienne Samhain celtique : la coutume veut qu'on cache dans la pâte de petits objets qui prédisent l'avenir de celui qui les trouve, avant tout un anneau, promesse de mariage dans l'année. Les bracks vendus en Irlande à l'approche du 31 octobre en contiennent encore souvent un. Ce pain se mange en tranches, volontiers grillées et beurrées, avec une tasse de thé.",
+    "en": "The name barmbrack is thought to come from the Irish báirín breac, 'speckled loaf', after the dried fruit scattered through the crumb. Barmbrack is closely tied to Halloween, which grew out of the ancient Celtic festival of Samhain: by custom, small objects are hidden in the loaf to foretell the future of whoever finds them, above all a ring, the promise of a wedding within the year. The bracks sold in Ireland in the run-up to 31 October still often contain one. The loaf is eaten in slices, typically toasted and buttered, with a cup of tea.",
+    "es": "El nombre barmbrack vendría del irlandés báirín breac, «pan moteado», por las frutas secas que salpican la miga. El barmbrack está muy ligado a Halloween, fiesta nacida del antiguo Samhain celta: la costumbre manda esconder en la masa pequeños objetos que predicen el futuro de quien los encuentra, sobre todo un anillo, promesa de boda antes de un año. Los bracks que se venden en Irlanda en vísperas del 31 de octubre todavía suelen llevar uno. Este pan se come en rebanadas, a menudo tostadas y untadas de mantequilla, con una taza de té.",
+    "it": "Il nome barmbrack deriverebbe dall'irlandese báirín breac, «pane screziato», per la frutta secca che punteggia la mollica. Il barmbrack è legato a doppio filo a Halloween, festa nata dall'antico Samhain celtico: secondo l'usanza nell'impasto si nascondono piccoli oggetti che predicono il futuro di chi li trova, soprattutto un anello, promessa di nozze entro l'anno. I brack venduti in Irlanda all'avvicinarsi del 31 ottobre ne contengono ancora spesso uno. Questo pane si mangia a fette, magari tostate e imburrate, con una tazza di tè."
+  },
+  "region": {"fr": "Irlande", "en": "Ireland", "es": "Irlanda", "it": "Irlanda"},
+  "origin": {"countries": ["IE"]},
+  "category": "dessert",
+  "dessertType": "brioche",
+  "occasions": ["halloween"],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 45,
+  "servings": 10,
+  "heroImage": "images/ds-barmbrack/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "the", "quantity": 300, "unit": "ml"},
+    {"ref": "raisins-secs", "quantity": 350, "unit": "g"},
+    {"ref": "ecorces-d-orange-confites", "quantity": 50, "unit": "g", "optional": true},
+    {"ref": "lait", "quantity": 200, "unit": "ml"},
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 450, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "gingembre", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "eau", "quantity": 30, "unit": "ml"}
+  ],
+  "steps": [
+    {"text": {"fr": "La veille, mettez les raisins secs (un mélange de raisins et de sultanines) et, si vous le souhaitez, les écorces d'orange confites hachées à tremper dans les 300 ml de thé noir infusé fort et refroidi ; couvrez et laissez gonfler toute la nuit.", "en": "The day before, put the raisins (a mix of raisins and sultanas) and, if you like, the chopped candied orange peel to soak in the 300 ml of strong, cooled black tea; cover and leave to plump up overnight.", "es": "La víspera, pon a remojo las pasas (una mezcla de pasas y sultanas) y, si quieres, la piel de naranja confitada picada en los 300 ml de té negro bien cargado y frío; tapa y deja que se hinchen toda la noche.", "it": "Il giorno prima metti a bagno l'uvetta (un misto di uvetta e sultanina) e, se ti va, le scorze d'arancia candite tritate nei 300 ml di tè nero forte e raffreddato; copri e lascia gonfiare tutta la notte."}, "timerMinutes": 720},
+    {"text": {"fr": "Égouttez les fruits en les pressant légèrement et gardez le thé de trempage.", "en": "Drain the fruit, pressing it lightly, and keep the soaking tea.", "es": "Escurre la fruta presionándola ligeramente y guarda el té del remojo.", "it": "Scola la frutta premendola leggermente e conserva il tè dell'ammollo."}},
+    {"text": {"fr": "Faites tiédir le lait avec le beurre dans une casserole, juste jusqu'à ce que le beurre fonde : le mélange doit être tiède, pas chaud.", "en": "Warm the milk with the butter in a saucepan, just until the butter melts: the mixture should be lukewarm, not hot.", "es": "Calienta la leche con la mantequilla en un cazo, solo hasta que la mantequilla se derrita: la mezcla debe quedar tibia, no caliente.", "it": "Scalda il latte con il burro in un pentolino, solo finché il burro si scioglie: il composto deve essere tiepido, non caldo."}, "timerMinutes": 5},
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, la levure sèche de boulanger, 50 g de sucre, le sel, la cannelle, la muscade râpée et, si vous le souhaitez, le gingembre moulu, puis ajoutez le lait au beurre et l'œuf battu et pétrissez 10 minutes, jusqu'à obtenir une pâte souple et élastique ; si elle est trop sèche, ajoutez-y un peu du thé gardé.", "en": "In a large mixing bowl, combine the flour, dried yeast, 50 g of the sugar, the salt, cinnamon, grated nutmeg and, if you like, the ground ginger, then add the buttery milk and the beaten egg and knead for 10 minutes, until soft and elastic; if the dough feels dry, work in a little of the reserved tea.", "es": "En un bol grande, mezcla la harina, la levadura seca de panadería, 50 g de azúcar, la sal, la canela, la nuez moscada rallada y, si quieres, el jengibre molido; añade la leche con la mantequilla y el huevo batido y amasa 10 minutos, hasta obtener una masa blanda y elástica; si está demasiado seca, añádele un poco del té reservado.", "it": "In una ciotola capiente mescola la farina, il lievito di birra secco, 50 g di zucchero, il sale, la cannella, la noce moscata grattugiata e, se ti va, lo zenzero in polvere, poi aggiungi il latte al burro e l'uovo sbattuto e impasta per 10 minuti, fino a ottenere una pasta morbida ed elastica; se è troppo asciutta, aggiungi un po' del tè conservato."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez et laissez lever dans un endroit tiède pendant 1 heure à 1 heure 30, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover and leave to rise somewhere warm for 1 to 1½ hours, until doubled in size.", "es": "Tapa y deja levar en un lugar templado de 1 hora a 1 hora y media, hasta que la masa doble su volumen.", "it": "Copri e lascia lievitare in un luogo tiepido da 1 ora a 1 ora e mezza, finché l'impasto è raddoppiato."}, "timerMinutes": 90},
+    {"text": {"fr": "Dégazez la pâte et incorporez-y les fruits égouttés en pétrissant doucement, juste assez pour bien les répartir.", "en": "Knock back the dough and work in the drained fruit, kneading gently, just enough to distribute it evenly.", "es": "Desgasifica la masa e incorpora la fruta escurrida amasando con suavidad, lo justo para repartirla bien.", "it": "Sgonfia l'impasto e incorpora la frutta scolata lavorandolo delicatamente, quanto basta per distribuirla bene."}},
+    {"text": {"fr": "Façonnez la pâte en boudin, déposez-la dans un moule à cake d'environ 23 × 13 cm chemisé de papier cuisson et laissez-la lever 25 minutes.", "en": "Shape the dough into a log, place it in a loaf tin of about 23 × 13 cm lined with baking paper and leave it to rise for 25 minutes.", "es": "Forma un cilindro con la masa, colócalo en un molde rectangular de unos 23 × 13 cm forrado con papel de horno y deja levar 25 minutos.", "it": "Forma un filone con l'impasto, mettilo in uno stampo da plumcake di circa 23 × 13 cm foderato di carta forno e lascialo lievitare per 25 minuti."}, "timerMinutes": 25},
+    {"text": {"fr": "Préchauffez le four à 190 °C pendant que la pâte finit de lever, encore 20 minutes environ, jusqu'à ce qu'elle arrive au bord du moule.", "en": "Preheat the oven to 190 °C while the dough finishes rising, about 20 minutes more, until it reaches the rim of the tin.", "es": "Precalienta el horno a 190 °C mientras la masa termina de levar, unos 20 minutos más, hasta que llegue al borde del molde.", "it": "Preriscalda il forno a 190 °C mentre l'impasto finisce di lievitare, ancora 20 minuti circa, finché arriva al bordo dello stampo."}, "timerMinutes": 20},
+    {"text": {"fr": "Faites cuire 45 minutes environ, jusqu'à ce que le pain soit brun doré et sonne creux quand on tapote dessous ; couvrez-le d'une feuille d'aluminium s'il colore trop vite.", "en": "Bake for about 45 minutes, until deep golden brown and hollow-sounding when tapped underneath; cover loosely with foil if it browns too quickly.", "es": "Hornea unos 45 minutos, hasta que el pan esté bien dorado y suene hueco al golpearlo por debajo; cúbrelo con papel de aluminio si se dora demasiado deprisa.", "it": "Inforna per circa 45 minuti, finché il pane è ben dorato e suona vuoto se picchiettato sotto; coprilo con un foglio di alluminio se si colora troppo in fretta."}, "timerMinutes": 45},
+    {"text": {"fr": "Dès la sortie du four, badigeonnez le dessus d'un sirop fait des 10 g de sucre restants dissous dans 30 ml d'eau bouillante, puis démoulez et laissez refroidir sur une grille au moins 1 heure avant de trancher.", "en": "As soon as it comes out of the oven, brush the top with a glaze of the remaining 10 g of sugar dissolved in 30 ml of boiling water, then turn out and leave to cool on a wire rack for at least 1 hour before slicing.", "es": "Nada más sacarlo del horno, pincela la superficie con un almíbar hecho con los 10 g de azúcar restantes disueltos en 30 ml de agua hirviendo; desmolda y deja enfriar sobre una rejilla al menos 1 hora antes de cortar.", "it": "Appena sfornato, spennella la superficie con uno sciroppo fatto con i 10 g di zucchero rimasti sciolti in 30 ml di acqua bollente, poi sforma e lascia raffreddare su una gratella per almeno 1 ora prima di affettare."}, "timerMinutes": 60}
+  ]
+}

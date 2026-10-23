@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-coffee-jelly",
+  "title": {"fr": "Coffee jelly", "en": "Coffee jelly", "es": "Coffee jelly", "it": "Coffee jelly"},
+  "summary": {
+    "fr": "Le grand classique des cafés japonais : une gelée de café noir à peine sucrée, taillée en dés et nappée de crème légèrement fouettée.",
+    "en": "A staple of Japanese coffee shops: a lightly sweetened black coffee jelly, cut into cubes and topped with softly whipped cream.",
+    "es": "Un clásico de las cafeterías japonesas: una gelatina de café solo apenas azucarada, cortada en dados y cubierta de nata ligeramente montada.",
+    "it": "Un grande classico dei caffè giapponesi: una gelatina di caffè nero appena zuccherata, tagliata a cubetti e coperta di panna leggermente montata."
+  },
+  "story": {
+    "fr": "Des recettes de gelée de café figuraient déjà dans des livres de cuisine britanniques et américains au XIXe siècle, mais c'est au Japon que ce dessert est devenu un classique au cours du XXe siècle. On l'a d'abord servi dans les kissaten, les cafés traditionnels, avant qu'il ne gagne les supérettes, les rayons des supermarchés et les chaînes de restauration. Taillée en dés dans un verre, la gelée se mange à la cuillère, adoucie de crème ou de lait sucré, surtout pendant l'été.",
+    "en": "Recipes for coffee jelly already appeared in British and American cookery books in the 19th century, but it was in Japan that the dessert became a classic during the 20th century. It was first served in kissaten, the traditional coffee houses, before spreading to convenience stores, supermarket shelves and restaurant chains. Cut into cubes in a glass, the jelly is eaten with a spoon, softened with cream or sweetened milk, especially in summer.",
+    "es": "Las recetas de gelatina de café ya figuraban en libros de cocina británicos y estadounidenses del siglo XIX, pero fue en Japón donde este postre se convirtió en un clásico a lo largo del siglo XX. Primero se sirvió en los kissaten, las cafeterías tradicionales, y después llegó a las tiendas 24 horas, a los supermercados y a las cadenas de restauración. Cortada en dados en un vaso, la gelatina se come con cuchara, suavizada con nata o leche azucarada, sobre todo en verano.",
+    "it": "Ricette di gelatina al caffè comparivano già nei libri di cucina britannici e americani dell'Ottocento, ma è in Giappone che questo dessert è diventato un classico nel corso del Novecento. Servito dapprima nei kissaten, i caffè tradizionali, si è poi diffuso nei minimarket, sugli scaffali dei supermercati e nelle catene di ristorazione. Tagliata a cubetti in un bicchiere, la gelatina si mangia al cucchiaio, addolcita con panna o latte zuccherato, soprattutto d'estate."
+  },
+  "region": {"fr": "Japon", "en": "Japan", "es": "Japón", "it": "Giappone"},
+  "origin": {"countries": ["JP"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "servings": 4,
+  "heroImage": "images/ds-coffee-jelly/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "gelatine", "quantity": 10, "unit": "g"},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "cafe", "quantity": 500, "unit": "ml"},
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "creme-liquide", "quantity": 150, "unit": "ml"}
+  ],
+  "steps": [
+    {"text": {"fr": "Mettez les feuilles de gélatine à ramollir dans un bol d'eau froide pendant 10 minutes.", "en": "Soak the gelatine sheets in a bowl of cold water for 10 minutes.", "es": "Pon las láminas de gelatina a hidratar en un bol de agua fría durante 10 minutos.", "it": "Metti i fogli di gelatina ad ammollare in una ciotola d'acqua fredda per 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Préparez 500 ml de café bien corsé, espresso allongé ou café filtre très fort, et versez-le chaud dans un pichet.", "en": "Make 500 ml of very strong coffee (long espresso or extra-strong filter coffee) and pour it into a jug while still hot.", "es": "Prepara 500 ml de café bien cargado, espresso alargado o café de filtro muy fuerte, y viértelo caliente en una jarra.", "it": "Prepara 500 ml di caffè molto forte, espresso allungato o caffè filtro bello carico, e versalo ancora caldo in una caraffa."}, "timerMinutes": 5},
+    {"text": {"fr": "Faites fondre 50 g de sucre dans le café chaud, puis essorez la gélatine entre vos mains et faites-la fondre à son tour en remuant bien.", "en": "Dissolve 50 g of the sugar in the hot coffee, then squeeze the gelatine dry and stir it in until completely dissolved.", "es": "Disuelve 50 g de azúcar en el café caliente, escurre la gelatina con las manos y disuélvela también removiendo bien.", "it": "Sciogli 50 g di zucchero nel caffè caldo, poi strizza la gelatina tra le mani e falla sciogliere a sua volta mescolando bene."}},
+    {"text": {"fr": "Versez le café dans un plat rectangulaire d'environ 20 × 15 cm et laissez-le tiédir à température ambiante.", "en": "Pour the coffee into a rectangular dish of about 20 × 15 cm and leave it to cool to room temperature.", "es": "Vierte el café en una fuente rectangular de unos 20 × 15 cm y deja que se atempere.", "it": "Versa il caffè in una pirofila rettangolare di circa 20 × 15 cm e lascialo intiepidire a temperatura ambiente."}, "timerMinutes": 20},
+    {"text": {"fr": "Couvrez et laissez prendre au réfrigérateur pendant au moins 4 heures, jusqu'à ce que la gelée soit ferme.", "en": "Cover and chill for at least 4 hours, until the jelly is firm.", "es": "Cubre y deja cuajar en la nevera al menos 4 horas, hasta que la gelatina esté firme.", "it": "Copri e lascia rapprendere in frigorifero per almeno 4 ore, finché la gelatina è soda."}, "timerMinutes": 240},
+    {"text": {"fr": "Juste avant de servir, fouettez la crème bien froide avec les 10 g de sucre restants jusqu'à ce qu'elle épaississe tout en restant coulante.", "en": "Just before serving, whip the well-chilled cream with the remaining 10 g of sugar until it thickens but still flows.", "es": "Justo antes de servir, monta un poco la nata muy fría con los 10 g de azúcar restantes, hasta que espese pero siga fluida.", "it": "Poco prima di servire, monta la panna ben fredda con i 10 g di zucchero rimasti finché si addensa ma resta fluida."}},
+    {"text": {"fr": "Taillez la gelée en dés de 1,5 cm avec un couteau trempé dans l'eau chaude, répartissez-les dans quatre verres et nappez-les de crème.", "en": "Cut the jelly into 1.5 cm cubes with a knife dipped in hot water, divide them between four glasses and spoon the cream over the top.", "es": "Corta la gelatina en dados de 1,5 cm con un cuchillo mojado en agua caliente, repártelos en cuatro vasos y cúbrelos con la nata.", "it": "Taglia la gelatina a cubetti di 1,5 cm con un coltello immerso nell'acqua calda, distribuiscili in quattro bicchieri e coprili con la panna."}}
+  ]
+}

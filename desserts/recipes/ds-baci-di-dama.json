@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-baci-di-dama",
+  "title": {"fr": "Baci di dama", "en": "Baci di dama", "es": "Baci di dama", "it": "Baci di dama"},
+  "summary": {
+    "fr": "Les petits biscuits piémontais aux noisettes : deux demi-sphères de pâte sablée fondante, unies par une goutte de chocolat noir.",
+    "en": "Piedmont's little hazelnut biscuits: two melt-in-the-mouth shortbread domes joined by a drop of dark chocolate.",
+    "es": "Las pastitas piamontesas de avellana: dos semiesferas de masa que se deshacen en la boca, unidas por una gota de chocolate negro.",
+    "it": "I piccoli biscotti piemontesi alle nocciole: due semisfere di frolla friabile unite da una goccia di cioccolato fondente."
+  },
+  "story": {
+    "fr": "Les baci di dama, « baisers de dame », sont des biscuits du Piémont associés en particulier à Tortone, dans la province d'Alexandrie. Leurs deux demi-sphères collées par le chocolat évoquent deux lèvres qui s'embrassent, d'où leur nom. La pâte repose sur des parts égales de noisettes, de farine, de beurre et de sucre, et l'on y emploie volontiers la noisette du Piémont, qui bénéficie d'une indication géographique protégée. On les sert avec le café ou en fin de repas.",
+    "en": "Baci di dama, 'lady's kisses', are biscuits from Piedmont associated above all with Tortona, in the province of Alessandria. Their two domes stuck together with chocolate are said to look like a pair of lips kissing, hence the name. The dough is made from equal weights of hazelnuts, flour, butter and sugar, and Piedmont hazelnuts, which carry a protected geographical indication, are the nuts of choice. They are served with coffee or at the end of a meal.",
+    "es": "Los baci di dama, «besos de dama», son unas pastas del Piamonte asociadas sobre todo a Tortona, en la provincia de Alessandria. Sus dos semiesferas pegadas con chocolate recuerdan dos labios que se besan, de ahí su nombre. La masa lleva el mismo peso de avellanas, harina, mantequilla y azúcar, y se suele elaborar con avellana del Piamonte, que cuenta con indicación geográfica protegida. Se sirven con el café o al final de la comida.",
+    "it": "I baci di dama sono biscotti piemontesi legati soprattutto a Tortona, in provincia di Alessandria. Le due semisfere unite dal cioccolato ricordano due labbra che si baciano, da cui il nome. L'impasto si basa su pesi uguali di nocciole, farina, burro e zucchero, e si prepara volentieri con la Nocciola Piemonte, che gode dell'indicazione geografica protetta. Si servono con il caffè o a fine pasto."
+  },
+  "region": {"fr": "Piémont", "en": "Piedmont", "es": "Piamonte", "it": "Piemonte"},
+  "origin": {"countries": ["IT"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 50,
+  "cookMinutes": 30,
+  "servings": 8,
+  "heroImage": "images/ds-baci-di-dama/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "noisette", "quantity": 100, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "farine", "quantity": 100, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 100, "unit": "g"},
+    {"ref": "chocolat-noir", "quantity": 50, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Mixez les noisettes grillées et mondées avec le sucre par à-coups, jusqu'à obtenir une poudre fine, sans laisser chauffer le mélange, pour qu'il ne devienne pas gras.", "en": "Blitz the toasted, skinned hazelnuts with the sugar in short bursts to a fine powder, without letting it heat up, or it will turn oily.", "es": "Tritura las avellanas tostadas y peladas con el azúcar con pulsaciones cortas hasta obtener un polvo fino, sin dejar que se caliente, para que no suelte aceite.", "it": "Trita le nocciole tostate e pelate con lo zucchero a scatti, fino a ottenere una polvere fine, senza farla scaldare perché non diventi oleosa."}},
+    {"text": {"fr": "Dans un saladier, mélangez cette poudre avec la farine et le sel, ajoutez le beurre froid coupé en dés et travaillez rapidement du bout des doigts jusqu'à ce que la pâte forme une boule lisse.", "en": "In a mixing bowl, combine the powder with the flour and salt, add the cold diced butter and work it in quickly with your fingertips until the dough comes together in a smooth ball.", "es": "En un bol grande, mezcla ese polvo con la harina y la sal, añade la mantequilla fría en dados y trabaja rápidamente con la punta de los dedos hasta que la masa forme una bola lisa.", "it": "In una ciotola capiente mescola la polvere con la farina e il sale, aggiungi il burro freddo a cubetti e lavora velocemente con la punta delle dita finché l'impasto forma una palla liscia."}},
+    {"text": {"fr": "Aplatissez la pâte en disque, enveloppez-la de film alimentaire et laissez-la raffermir 1 heure au réfrigérateur.", "en": "Flatten the dough into a disc, wrap it in cling film and chill for 1 hour to firm up.", "es": "Aplana la masa en forma de disco, envuélvela en film transparente y déjala endurecer 1 hora en la nevera.", "it": "Schiaccia l'impasto a disco, avvolgilo nella pellicola e lascialo rassodare in frigorifero per 1 ora."}, "timerMinutes": 60},
+    {"text": {"fr": "Préchauffez le four à 160 °C et tapissez deux plaques de papier cuisson.", "en": "Preheat the oven to 160 °C and line two baking trays with baking paper.", "es": "Precalienta el horno a 160 °C y forra dos bandejas con papel de horno.", "it": "Preriscalda il forno a 160 °C e fodera due teglie con carta forno."}},
+    {"text": {"fr": "Prélevez des morceaux de pâte de 6 g, de la taille d'une noisette, roulez-les en billes entre vos paumes et posez-les sur les plaques en les espaçant de 2 cm : vous devez en obtenir une soixantaine, en nombre pair.", "en": "Pinch off 6 g pieces of dough, the size of a hazelnut, roll them into balls between your palms and set them on the trays 2 cm apart: you should get about sixty, an even number.", "es": "Toma porciones de masa de 6 g, del tamaño de una avellana, forma bolitas entre las palmas y colócalas en las bandejas separadas 2 cm: deben salir unas sesenta, en número par.", "it": "Preleva pezzetti d'impasto da 6 g, grandi come una nocciola, arrotolali in palline tra i palmi e disponili sulle teglie distanziati di 2 cm: dovrebbero venirne una sessantina, in numero pari."}},
+    {"text": {"fr": "Faites cuire 15 minutes, une plaque à la fois, jusqu'à ce que les biscuits soient à peine dorés à la base : en cuisant, les billes s'aplatissent dessous et prennent leur forme de dôme.", "en": "Bake one tray at a time for 15 minutes, until the biscuits are just golden at the base: as they bake, the balls flatten underneath into their dome shape.", "es": "Hornea una bandeja cada vez durante 15 minutos, hasta que las pastas estén apenas doradas por la base: al cocerse, las bolitas se aplanan por debajo y toman su forma de cúpula.", "it": "Cuoci una teglia alla volta per 15 minuti, finché i biscotti sono appena dorati alla base: in cottura le palline si appiattiscono sotto e prendono la loro forma a cupola."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez refroidir complètement les biscuits sur la plaque sans y toucher : chauds, ils se brisent.", "en": "Leave the biscuits to cool completely on the tray without touching them: they are fragile while still warm.", "es": "Deja que las pastas se enfríen por completo en la bandeja sin tocarlas: en caliente se rompen.", "it": "Lascia raffreddare completamente i biscotti sulla teglia senza toccarli: da caldi si rompono."}, "timerMinutes": 30},
+    {"text": {"fr": "Faites fondre le chocolat noir au bain-marie, puis laissez-le tiédir jusqu'à ce qu'il épaississe légèrement.", "en": "Melt the dark chocolate in a bowl over a pan of simmering water, then let it cool until slightly thickened.", "es": "Derrite el chocolate negro al baño maría y deja que se temple hasta que espese ligeramente.", "it": "Fai sciogliere il cioccolato fondente a bagnomaria, poi lascialo intiepidire finché si addensa leggermente."}, "timerMinutes": 5},
+    {"text": {"fr": "Déposez une petite goutte de chocolat sur le côté plat d'un biscuit, posez dessus un second biscuit côté plat et pressez doucement ; laissez prendre 30 minutes à température ambiante avant de servir.", "en": "Put a small drop of chocolate on the flat side of one biscuit, press a second biscuit on top, flat side down, and leave to set for 30 minutes at room temperature before serving.", "es": "Pon una gotita de chocolate en la cara plana de una pasta, coloca encima otra por su cara plana y presiona suavemente; deja que cuaje 30 minutos a temperatura ambiente antes de servir.", "it": "Metti una gocciolina di cioccolato sul lato piatto di un biscotto, appoggiaci sopra un secondo biscotto dal lato piatto e premi delicatamente; lascia rapprendere per 30 minuti a temperatura ambiente prima di servire."}, "timerMinutes": 30}
+  ]
+}

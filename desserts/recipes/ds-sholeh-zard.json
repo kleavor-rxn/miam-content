@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-sholeh-zard",
+  "title": {"fr": "Sholeh zard", "en": "Sholeh zard", "es": "Sholeh zard", "it": "Sholeh zard"},
+  "summary": {
+    "fr": "Le riz au safran iranien : un entremets de riz fondant, d'un jaune d'or, parfumé à l'eau de rose et décoré de motifs de cannelle.",
+    "en": "Iran's saffron rice pudding: meltingly soft rice turned golden yellow, scented with rose water and decorated with patterns of cinnamon.",
+    "es": "El arroz con azafrán iraní: un postre de arroz meloso, de un amarillo dorado, perfumado con agua de rosas y decorado con dibujos de canela.",
+    "it": "Il riso allo zafferano iraniano: un budino di riso morbidissimo, giallo oro, profumato all'acqua di rose e decorato in superficie con disegni di cannella."
+  },
+  "story": {
+    "fr": "Le sholeh zard, littéralement « sholeh jaune », tient sa couleur et son parfum du safran, dont l'Iran est de loin le premier producteur mondial ; le sholeh désigne en persan un plat de riz longuement cuit, épais et presque crémeux. C'est l'un des grands plats de nazri, ces offrandes que l'on prépare en grande quantité pour accomplir un vœu et que l'on distribue aux voisins et aux passants, notamment pendant le mois de muharram et le ramadan. On le décore de cannelle moulue en lignes, en motifs géométriques ou en calligraphies, souvent avec des amandes effilées et des pistaches.",
+    "en": "Sholeh zard, literally 'yellow sholeh', owes its colour and fragrance to saffron, of which Iran is by far the world's largest producer; in Persian, sholeh is a long-cooked rice dish, thick and almost creamy. It is one of the great nazri dishes, offerings made in large quantities to fulfil a vow and shared out among neighbours and passers-by, especially during the month of Muharram and during Ramadan. It is decorated with ground cinnamon in lines, geometric patterns or calligraphy, often with flaked almonds and pistachios.",
+    "es": "El sholeh zard, literalmente «sholeh amarillo», debe su color y su aroma al azafrán, del que Irán es con diferencia el primer productor mundial; en persa, el sholeh es un plato de arroz de larga cocción, espeso y casi cremoso. Es uno de los grandes platos de nazri, las ofrendas que se preparan en gran cantidad para cumplir una promesa y se reparten entre vecinos y transeúntes, sobre todo durante el mes de muharram y el ramadán. Se decora con canela molida en líneas, motivos geométricos o caligrafías, a menudo con almendra laminada y pistachos.",
+    "it": "Lo sholeh zard, letteralmente «sholeh giallo», deve colore e profumo allo zafferano, di cui l'Iran è di gran lunga il primo produttore al mondo; in persiano lo sholeh è un piatto di riso a lunga cottura, denso e quasi cremoso. È uno dei grandi piatti del nazri, le offerte preparate in grande quantità per sciogliere un voto e distribuite a vicini e passanti, in particolare durante il mese di Muharram e il Ramadan. Lo si decora con cannella in polvere a righe, a motivi geometrici o in calligrafia, spesso con mandorle a lamelle e pistacchi."
+  },
+  "region": {"fr": "Iran", "en": "Iran", "es": "Irán", "it": "Iran"},
+  "origin": {"countries": ["IR"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 90,
+  "servings": 8,
+  "heroImage": "images/ds-sholeh-zard/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "riz", "quantity": 200, "unit": "g"},
+    {"ref": "eau", "quantity": 2000, "unit": "ml"},
+    {"ref": "safran", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "sucre", "quantity": 300, "unit": "g"},
+    {"ref": "eau-de-rose", "quantity": 100, "unit": "ml"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "cardamome", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "amande", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "pistache", "quantity": 20, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Rincez le riz, rond ou basmati, à l'eau froide jusqu'à ce qu'elle soit claire, puis laissez-le tremper 1 heure dans un bol d'eau froide.", "en": "Rinse the rice, short-grain or basmati, in cold water until it runs clear, then leave it to soak in a bowl of cold water for 1 hour.", "es": "Lava el arroz, redondo o basmati, con agua fría hasta que el agua salga clara y déjalo en remojo 1 hora en un bol de agua fría.", "it": "Sciacqua il riso, tondo o basmati, in acqua fredda finché l'acqua non esce limpida, poi lascialo in ammollo per 1 ora in una ciotola d'acqua fredda."}, "timerMinutes": 60},
+    {"text": {"fr": "Égouttez le riz, mettez-le dans une grande casserole à fond épais avec 1 900 ml d'eau, portez à ébullition en écumant, puis laissez cuire à petits frémissements 40 minutes en remuant de temps en temps, jusqu'à ce que les grains éclatent et soient très tendres.", "en": "Drain the rice and put it in a large heavy-based pan with 1,900 ml of the water; bring to the boil, skimming, then simmer gently for 40 minutes, stirring from time to time, until the grains burst and are very tender.", "es": "Escurre el arroz y ponlo en una cazuela grande de fondo grueso con 1900 ml de agua; llévalo a ebullición espumando y deja que cueza a fuego suave 40 minutos, removiendo de vez en cuando, hasta que los granos se abran y estén muy tiernos.", "it": "Scola il riso e mettilo in una casseruola capiente dal fondo spesso con 1900 ml d'acqua; porta a bollore schiumando, poi lascia sobbollire per 40 minuti mescolando di tanto in tanto, finché i chicchi si aprono e sono tenerissimi."}, "timerMinutes": 40},
+    {"text": {"fr": "Pendant ce temps, pilez le safran au mortier avec une pincée de sucre, puis versez dessus les 100 ml d'eau restants, portés à ébullition, et laissez infuser 10 minutes.", "en": "Meanwhile, grind the saffron in a mortar with a pinch of the sugar, then pour over the remaining 100 ml of water, freshly boiled, and leave to infuse for 10 minutes.", "es": "Mientras tanto, machaca el azafrán en el mortero con una pizca de azúcar y viértele encima los 100 ml de agua restantes, recién hervida, y deja infusionar 10 minutos.", "it": "Nel frattempo pesta lo zafferano nel mortaio con un pizzico di zucchero, poi versaci sopra i 100 ml d'acqua rimasti, appena bollita, e lascia in infusione per 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Ajoutez le reste du sucre au riz et laissez cuire 15 minutes à feu doux en remuant souvent, jusqu'à ce que le mélange épaississe.", "en": "Add the rest of the sugar to the rice and cook over a low heat for 15 minutes, stirring often, until the mixture thickens.", "es": "Añade el resto del azúcar al arroz y deja que cueza 15 minutos a fuego lento removiendo a menudo, hasta que la mezcla espese.", "it": "Aggiungi al riso il resto dello zucchero e lascia cuocere per 15 minuti a fuoco basso mescolando spesso, finché il composto si addensa."}, "timerMinutes": 15},
+    {"text": {"fr": "Incorporez l'infusion de safran, l'eau de rose, le beurre et, si vous le souhaitez, la cardamome moulue.", "en": "Stir in the saffron infusion, the rose water, the butter and the ground cardamom, if you like.", "es": "Incorpora la infusión de azafrán, el agua de rosas, la mantequilla y, si quieres, el cardamomo molido.", "it": "Incorpora l'infusione di zafferano, l'acqua di rose, il burro e, se ti va, il cardamomo in polvere."}},
+    {"text": {"fr": "Couvrez la casserole d'un couvercle enveloppé dans un torchon et laissez cuire à feu très doux 30 minutes, jusqu'à ce que le sholeh zard soit épais, brillant et d'un jaune d'or.", "en": "Cover the pan with a lid wrapped in a tea towel and cook over a very low heat for 30 minutes, until the sholeh zard is thick, glossy and golden yellow.", "es": "Cubre la cazuela con una tapa envuelta en un paño de cocina y deja que cueza a fuego muy lento 30 minutos, hasta que el sholeh zard esté espeso, brillante y de un amarillo dorado.", "it": "Copri la casseruola con un coperchio avvolto in un canovaccio e lascia cuocere a fuoco bassissimo per 30 minuti, finché lo sholeh zard è denso, lucido e giallo oro."}, "timerMinutes": 30},
+    {"text": {"fr": "Versez-le dans un plat de service ou dans des coupelles, lissez la surface et laissez refroidir à température ambiante.", "en": "Pour it into a serving dish or small bowls, smooth the surface and leave to cool to room temperature.", "es": "Viértelo en una fuente de servir o en cuencos pequeños, alisa la superficie y deja que se enfríe a temperatura ambiente.", "it": "Versalo in un piatto da portata o in coppette, livella la superficie e lascia raffreddare a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Dessinez sur le dessus des lignes ou des motifs de cannelle moulue, en la faisant tomber en filet entre vos doigts, puis parsemez si vous le souhaitez d'amandes effilées et de pistaches hachées.", "en": "Draw lines or patterns of ground cinnamon over the top, letting it fall in a thin trickle from between your fingers, then scatter over flaked almonds and chopped pistachios, if you like.", "es": "Dibuja en la superficie líneas o motivos de canela molida, dejándola caer en un hilo fino entre los dedos, y esparce por encima, si quieres, almendra laminada y pistachos picados.", "it": "Disegna sulla superficie righe o motivi di cannella in polvere, facendola cadere a filo tra le dita, poi cospargi, se ti va, di mandorle a lamelle e pistacchi tritati."}},
+    {"text": {"fr": "Servez à température ambiante ou réservez au moins 2 heures au réfrigérateur pour le servir frais : il se raffermit en refroidissant.", "en": "Serve at room temperature, or chill for at least 2 hours to serve cold: it firms up as it cools.", "es": "Sírvelo a temperatura ambiente o guárdalo al menos 2 horas en la nevera para tomarlo frío: gana firmeza al enfriarse.", "it": "Servilo a temperatura ambiente oppure tienilo in frigorifero per almeno 2 ore per gustarlo fresco: si rassoda raffreddandosi."}, "timerMinutes": 120}
+  ]
+}

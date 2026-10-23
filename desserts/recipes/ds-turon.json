@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-turon",
+  "title": {"fr": "Turon", "en": "Turon", "es": "Turon", "it": "Turon"},
+  "summary": {
+    "fr": "Le rouleau croustillant des rues philippines : une banane saba roulée dans une fine feuille de lumpia, frite puis enrobée d'un caramel de sucre roux.",
+    "en": "The crunchy roll of Philippine street stalls: a saba banana wrapped in a thin lumpia wrapper, fried, then glazed in brown-sugar caramel.",
+    "es": "El rollito crujiente de los puestos callejeros filipinos: un plátano saba envuelto en una fina hoja de lumpia, frito y bañado en caramelo de azúcar moreno.",
+    "it": "L'involtino croccante delle bancarelle filippine: una banana saba avvolta in una sottile sfoglia per lumpia, fritta e poi glassata con un caramello di zucchero di canna."
+  },
+  "story": {
+    "fr": "Le turon, aussi appelé turon na saging ou lumpiang saging, est l'une des collations (merienda) les plus populaires des Philippines. Il se prépare avec la saba, une banane à cuire courte et ferme très cultivée dans l'archipel, à laquelle on ajoute souvent une lanière de jacquier (langka). Les marchands ambulants le vendent dans la rue l'après-midi, à côté du banana cue, des bananes caramélisées en brochette.",
+    "en": "Turon, also called turon na saging or lumpiang saging, is one of the most popular snacks (merienda) in the Philippines. It is made with saba, a short, firm cooking banana grown widely across the archipelago, often with a strip of jackfruit (langka). Street vendors sell it in the afternoon alongside banana cue, caramelised bananas on skewers.",
+    "es": "El turon, también llamado turon na saging o lumpiang saging, es uno de los tentempiés (merienda) más extendidos de Filipinas. Se prepara con saba, un plátano para cocinar corto y firme muy cultivado en el archipiélago, a menudo con una tira de yaca (langka). Los vendedores ambulantes lo venden por la tarde en la calle, junto al banana cue, plátanos caramelizados en brocheta.",
+    "it": "Il turon, chiamato anche turon na saging o lumpiang saging, è uno degli spuntini (merienda) più diffusi delle Filippine. Si prepara con la saba, una banana da cuocere corta e soda molto coltivata nell'arcipelago, spesso con una striscia di jackfruit (langka). I venditori ambulanti lo vendono per strada il pomeriggio, accanto al banana cue, banane caramellate allo spiedo."
+  },
+  "region": {"fr": "Philippines", "en": "Philippines", "es": "Filipinas", "it": "Filippine"},
+  "origin": {"countries": ["PH"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 25,
+  "servings": 6,
+  "heroImage": "images/ds-turon/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "banane-plantain", "quantity": 6, "unit": "piece", "substitutes": ["banane"]},
+    {"ref": "cassonade", "quantity": 150, "unit": "g"},
+    {"ref": "feuille-de-lumpia", "quantity": 12, "unit": "piece", "substitutes": ["pate-filo"]},
+    {"ref": "jacquier", "quantity": 150, "unit": "g", "optional": true},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "huile-de-tournesol", "quantity": 50, "unit": "cl"}
+  ],
+  "steps": [
+    {"text": {"fr": "Épluchez les bananes saba et coupez-les en deux dans la longueur ; avec des plantains bien mûrs, plus grands, prenez-en 3 et coupez chacun en 4 morceaux.", "en": "Peel the saba bananas and halve them lengthways; if you are using very ripe plantains, which are larger, take 3 and cut each into 4 pieces.", "es": "Pela los plátanos saba y córtalos por la mitad a lo largo; si usas plátanos macho muy maduros, que son más grandes, toma 3 y corta cada uno en 4 trozos.", "it": "Sbuccia le banane saba e tagliale a metà nel senso della lunghezza; se usi platani ben maturi, più grandi, prendine 3 e taglia ciascuno in 4 pezzi."}},
+    {"text": {"fr": "Étalez 50 g de cassonade sur une assiette et roulez-y chaque morceau de banane.", "en": "Spread 50 g of the brown sugar on a plate and roll each piece of banana in it.", "es": "Extiende 50 g del azúcar moreno en un plato y reboza en él cada trozo de plátano.", "it": "Distribuisci 50 g dello zucchero di canna su un piatto e passaci ogni pezzo di banana."}},
+    {"text": {"fr": "Posez un morceau de banane en biais près d'un coin d'une feuille de lumpia, ajoutez si vous le souhaitez une lanière de jacquier égoutté, puis roulez en rabattant les côtés et soudez la pointe avec un peu d'eau.", "en": "Lay a piece of banana diagonally near one corner of a lumpia wrapper, add a strip of drained jackfruit if you like, then roll up, folding in the sides, and seal the tip with a little water.", "es": "Coloca un trozo de plátano en diagonal cerca de una esquina de una hoja de lumpia, añade si quieres una tira de yaca escurrida, enrolla doblando los lados hacia dentro y pega la punta con un poco de agua.", "it": "Adagia un pezzo di banana in diagonale vicino a un angolo di una sfoglia per lumpia, aggiungi se ti va una striscia di jackfruit sgocciolato, poi arrotola ripiegando i lati verso l'interno e sigilla la punta con un po' d'acqua."}},
+    {"text": {"fr": "Versez l'huile dans une grande sauteuse sur environ 1 cm de hauteur et faites-la chauffer à 170 °C.", "en": "Pour the oil into a large, deep frying pan to a depth of about 1 cm and heat it to 170 °C.", "es": "Vierte el aceite en una sartén grande y honda hasta una altura de 1 cm aproximadamente y caliéntalo a 170 °C.", "it": "Versa l'olio in una padella larga e profonda per un'altezza di circa 1 cm e scaldalo a 170 °C."}, "timerMinutes": 8},
+    {"text": {"fr": "Faites frire les rouleaux quatre par quatre pendant 3 à 4 minutes, en les retournant, jusqu'à ce qu'ils soient dorés et croustillants.", "en": "Fry the rolls four at a time for 3 to 4 minutes, turning them, until golden and crisp.", "es": "Fríe los rollitos de cuatro en cuatro de 3 a 4 minutos, dándoles la vuelta, hasta que estén dorados y crujientes.", "it": "Friggi gli involtini quattro alla volta per 3-4 minuti, girandoli, finché sono dorati e croccanti."}, "timerMinutes": 4},
+    {"text": {"fr": "Parsemez un tiers de la cassonade restante dans l'huile autour des rouleaux et roulez-les 1 à 2 minutes dans le sucre qui fond et caramélise, jusqu'à ce qu'ils soient enrobés d'une couche brune et brillante.", "en": "Sprinkle a third of the remaining brown sugar into the oil around the rolls and turn them for 1 to 2 minutes in the sugar as it melts and caramelises, until coated in a glossy brown layer.", "es": "Espolvorea un tercio del azúcar moreno restante en el aceite alrededor de los rollitos y dales vueltas de 1 a 2 minutos en el azúcar que se funde y carameliza, hasta que queden cubiertos de una capa marrón y brillante.", "it": "Cospargi un terzo dello zucchero di canna rimasto nell'olio intorno agli involtini e rigirali per 1-2 minuti nello zucchero che si scioglie e caramella, finché sono ricoperti da uno strato bruno e lucido."}, "timerMinutes": 2},
+    {"text": {"fr": "Déposez-les sur une plaque tapissée de papier sulfurisé, à distance les uns des autres pour qu'ils ne collent pas, puis faites frire et caraméliser les deux fournées suivantes de la même façon.", "en": "Lift them onto a tray lined with baking paper, spaced apart so they don't stick, then fry and caramelise the next two batches in the same way.", "es": "Pásalos a una bandeja forrada con papel de horno, separados para que no se peguen, y fríe y carameliza las dos tandas siguientes de la misma manera.", "it": "Trasferiscili su una teglia foderata di carta da forno, distanziati perché non si attacchino, poi friggi e caramella allo stesso modo gli altri involtini, in due riprese."}},
+    {"text": {"fr": "Laissez reposer 5 minutes, le temps que le caramel durcisse, et servez tiède.", "en": "Leave to rest for 5 minutes, until the caramel has hardened, and serve warm.", "es": "Déjalos reposar 5 minutos, hasta que el caramelo se endurezca, y sírvelos templados.", "it": "Lasciali riposare 5 minuti, finché il caramello si indurisce, e servili tiepidi."}, "timerMinutes": 5}
+  ]
+}
