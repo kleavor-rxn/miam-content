@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:26:49Z",
+  "generatedAt": "2026-10-23T19:26:50Z",
   "recipes": [
     {
       "id": "ds-aebleskiver",
@@ -66,8 +66,8 @@
     },
     {
       "id": "ds-apple-crumble",
-      "updatedAt": "2026-10-23T18:49:52Z",
-      "contentHash": "410a98f5670433deed61fd9bdd140e730051253c8104c6962a3e6c745fc4866a",
+      "updatedAt": "2026-10-23T19:26:50Z",
+      "contentHash": "a223e7e585d84f3e22d989d441e0bb1050388c0057b334fcf8e5619fa90ac672",
       "title": {
         "fr": "Crumble aux pommes",
         "en": "Apple crumble",
@@ -706,8 +706,8 @@
     },
     {
       "id": "ds-kransekake",
-      "updatedAt": "2026-10-23T18:49:52Z",
-      "contentHash": "3688708bc756849b6405d233908923bf15078cb6ae0d53819dbf71b8da559698",
+      "updatedAt": "2026-10-23T19:26:50Z",
+      "contentHash": "191caa7e571e1dc69daf3fc5cb2caf07d2ba71d0a39ddfc07066f2864a432ca9",
       "title": {
         "fr": "Kransekake",
         "en": "Kransekake",
@@ -1218,8 +1218,8 @@
     },
     {
       "id": "ds-prekmurska-gibanica",
-      "updatedAt": "2026-10-23T18:49:52Z",
-      "contentHash": "de64cb1af1b3e19ba0fe6af84177ff5bd10157defadeeb3c22a4160d615adeac",
+      "updatedAt": "2026-10-23T19:26:50Z",
+      "contentHash": "ada0b1f879239bb02028412a2d23e7ae62e10afd0d7b9cc7c76fc6187ca305f3",
       "title": {
         "fr": "Prekmurska gibanica",
         "en": "Prekmurska gibanica",
@@ -1433,8 +1433,8 @@
     },
     {
       "id": "ds-zuger-kirschtorte",
-      "updatedAt": "2026-10-23T18:49:52Z",
-      "contentHash": "04db0a8c5719707210dbc2257ad6a79f13364995611cea7df909de5a9ffcdba3",
+      "updatedAt": "2026-10-23T19:26:50Z",
+      "contentHash": "1d1666f0765accd33a875b39d48eddcff8f3802f1d7a479444b4053fb81ecefe",
       "title": {
         "fr": "Zuger Kirschtorte",
         "en": "Zuger Kirschtorte",
