@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T18:40:42Z",
+  "generatedAt": "2026-10-23T18:40:57Z",
   "recipes": [
     {
       "id": "ds-baklava",
@@ -486,112 +486,92 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-09-18",
-      "recipeID": "ds-far-breton"
-    },
-    {
-      "date": "2026-09-19",
-      "recipeID": "ds-tiramisu"
-    },
-    {
-      "date": "2026-09-20",
-      "recipeID": "ds-tarte-tatin"
-    },
-    {
-      "date": "2026-09-21",
-      "recipeID": "ds-panna-cotta"
-    },
-    {
-      "date": "2026-09-22",
-      "recipeID": "ds-madeleines"
-    },
-    {
       "date": "2026-09-23",
-      "recipeID": "ds-crostata-di-marmellata"
+      "recipeID": "ds-mango-sticky-rice"
     },
     {
       "date": "2026-09-24",
-      "recipeID": "ds-clafoutis-aux-cerises"
+      "recipeID": "ds-mousse-au-chocolat"
     },
     {
       "date": "2026-09-25",
-      "recipeID": "ds-creme-brulee"
+      "recipeID": "ds-tres-leches"
     },
     {
       "date": "2026-09-26",
-      "recipeID": "ds-crepes"
+      "recipeID": "ds-madeleines"
     },
     {
       "date": "2026-09-27",
-      "recipeID": "ds-mousse-au-chocolat"
+      "recipeID": "ds-panna-cotta"
     },
     {
       "date": "2026-09-28",
-      "recipeID": "ds-far-breton"
+      "recipeID": "ds-kulfi"
     },
     {
       "date": "2026-09-29",
-      "recipeID": "ds-tiramisu"
+      "recipeID": "ds-knafeh"
     },
     {
       "date": "2026-09-30",
-      "recipeID": "ds-tarte-tatin"
-    },
-    {
-      "date": "2026-10-01",
-      "recipeID": "ds-panna-cotta"
-    },
-    {
-      "date": "2026-10-02",
-      "recipeID": "ds-madeleines"
-    },
-    {
-      "date": "2026-10-03",
-      "recipeID": "ds-crostata-di-marmellata"
-    },
-    {
-      "date": "2026-10-04",
-      "recipeID": "ds-clafoutis-aux-cerises"
-    },
-    {
-      "date": "2026-10-05",
-      "recipeID": "ds-creme-brulee"
-    },
-    {
-      "date": "2026-10-06",
-      "recipeID": "ds-crepes"
-    },
-    {
-      "date": "2026-10-07",
-      "recipeID": "ds-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-10-08",
-      "recipeID": "ds-far-breton"
-    },
-    {
-      "date": "2026-10-09",
       "recipeID": "ds-tiramisu"
     },
     {
-      "date": "2026-10-10",
-      "recipeID": "ds-tarte-tatin"
+      "date": "2026-10-01",
+      "recipeID": "ds-halo-halo"
     },
     {
-      "date": "2026-10-11",
-      "recipeID": "ds-panna-cotta"
+      "date": "2026-10-02",
+      "recipeID": "ds-crepes"
     },
     {
-      "date": "2026-10-12",
-      "recipeID": "ds-madeleines"
+      "date": "2026-10-03",
+      "recipeID": "ds-gateau-de-lune"
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-04",
+      "recipeID": "ds-paris-brest"
+    },
+    {
+      "date": "2026-10-05",
+      "recipeID": "ds-kanelbullar"
+    },
+    {
+      "date": "2026-10-06",
+      "recipeID": "ds-cornes-de-gazelle"
+    },
+    {
+      "date": "2026-10-07",
       "recipeID": "ds-crostata-di-marmellata"
     },
     {
+      "date": "2026-10-08",
+      "recipeID": "ds-melktert"
+    },
+    {
+      "date": "2026-10-09",
+      "recipeID": "ds-mochi"
+    },
+    {
+      "date": "2026-10-10",
+      "recipeID": "ds-pavlova"
+    },
+    {
+      "date": "2026-10-11",
+      "recipeID": "ds-foret-noire"
+    },
+    {
+      "date": "2026-10-12",
+      "recipeID": "ds-brownies"
+    },
+    {
+      "date": "2026-10-13",
+      "recipeID": "ds-knafeh"
+    },
+    {
       "date": "2026-10-14",
-      "recipeID": "ds-clafoutis-aux-cerises"
+      "recipeID": "ds-kulfi"
     },
     {
       "date": "2026-10-15",
@@ -599,139 +579,139 @@
     },
     {
       "date": "2026-10-16",
-      "recipeID": "ds-crepes"
+      "recipeID": "ds-mango-sticky-rice"
     },
     {
       "date": "2026-10-17",
-      "recipeID": "ds-mousse-au-chocolat"
+      "recipeID": "ds-tres-leches"
     },
     {
       "date": "2026-10-18",
-      "recipeID": "ds-far-breton"
+      "recipeID": "ds-pasteis-de-nata"
     },
     {
       "date": "2026-10-19",
-      "recipeID": "ds-tiramisu"
+      "recipeID": "ds-madeleines"
     },
     {
       "date": "2026-10-20",
-      "recipeID": "ds-tarte-tatin"
+      "recipeID": "ds-churros-con-chocolate"
     },
     {
       "date": "2026-10-21",
-      "recipeID": "ds-panna-cotta"
+      "recipeID": "ds-paris-brest"
     },
     {
       "date": "2026-10-22",
-      "recipeID": "ds-madeleines"
+      "recipeID": "ds-medovik"
     },
     {
       "date": "2026-10-23",
-      "recipeID": "ds-crostata-di-marmellata"
+      "recipeID": "ds-tarte-tatin"
     },
     {
       "date": "2026-10-24",
-      "recipeID": "ds-clafoutis-aux-cerises"
+      "recipeID": "ds-halo-halo"
     },
     {
       "date": "2026-10-25",
-      "recipeID": "ds-creme-brulee"
+      "recipeID": "ds-brigadeiro"
     },
     {
       "date": "2026-10-26",
-      "recipeID": "ds-crepes"
+      "recipeID": "ds-cornes-de-gazelle"
     },
     {
       "date": "2026-10-27",
-      "recipeID": "ds-mousse-au-chocolat"
+      "recipeID": "ds-panna-cotta"
     },
     {
       "date": "2026-10-28",
-      "recipeID": "ds-far-breton"
+      "recipeID": "ds-gulab-jamun"
     },
     {
       "date": "2026-10-29",
-      "recipeID": "ds-tiramisu"
+      "recipeID": "ds-creme-brulee"
     },
     {
       "date": "2026-10-30",
-      "recipeID": "ds-tarte-tatin"
+      "recipeID": "ds-brownies"
     },
     {
       "date": "2026-10-31",
-      "recipeID": "ds-panna-cotta"
+      "recipeID": "ds-mango-sticky-rice"
     },
     {
       "date": "2026-11-01",
-      "recipeID": "ds-madeleines"
+      "recipeID": "ds-pavlova"
     },
     {
       "date": "2026-11-02",
-      "recipeID": "ds-crostata-di-marmellata"
+      "recipeID": "ds-mousse-au-chocolat"
     },
     {
       "date": "2026-11-03",
-      "recipeID": "ds-clafoutis-aux-cerises"
+      "recipeID": "ds-knafeh"
     },
     {
       "date": "2026-11-04",
-      "recipeID": "ds-creme-brulee"
+      "recipeID": "ds-melktert"
     },
     {
       "date": "2026-11-05",
-      "recipeID": "ds-crepes"
-    },
-    {
-      "date": "2026-11-06",
-      "recipeID": "ds-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-11-07",
-      "recipeID": "ds-far-breton"
-    },
-    {
-      "date": "2026-11-08",
-      "recipeID": "ds-tiramisu"
-    },
-    {
-      "date": "2026-11-09",
-      "recipeID": "ds-tarte-tatin"
-    },
-    {
-      "date": "2026-11-10",
-      "recipeID": "ds-panna-cotta"
-    },
-    {
-      "date": "2026-11-11",
       "recipeID": "ds-madeleines"
     },
     {
-      "date": "2026-11-12",
-      "recipeID": "ds-crostata-di-marmellata"
+      "date": "2026-11-06",
+      "recipeID": "ds-tres-leches"
     },
     {
-      "date": "2026-11-13",
-      "recipeID": "ds-clafoutis-aux-cerises"
+      "date": "2026-11-07",
+      "recipeID": "ds-halo-halo"
     },
     {
-      "date": "2026-11-14",
-      "recipeID": "ds-creme-brulee"
-    },
-    {
-      "date": "2026-11-15",
-      "recipeID": "ds-crepes"
-    },
-    {
-      "date": "2026-11-16",
-      "recipeID": "ds-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-11-17",
+      "date": "2026-11-08",
       "recipeID": "ds-far-breton"
     },
     {
-      "date": "2026-11-18",
+      "date": "2026-11-09",
+      "recipeID": "ds-kanelbullar"
+    },
+    {
+      "date": "2026-11-10",
+      "recipeID": "ds-pasteis-de-nata"
+    },
+    {
+      "date": "2026-11-11",
+      "recipeID": "ds-baklava"
+    },
+    {
+      "date": "2026-11-12",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-11-13",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-11-14",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-11-15",
       "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-11-16",
+      "recipeID": "ds-kulfi"
+    },
+    {
+      "date": "2026-11-17",
+      "recipeID": "ds-gateau-de-lune"
+    },
+    {
+      "date": "2026-11-18",
+      "recipeID": "ds-brigadeiro"
     },
     {
       "date": "2026-11-19",
@@ -739,15 +719,15 @@
     },
     {
       "date": "2026-11-20",
-      "recipeID": "ds-panna-cotta"
+      "recipeID": "ds-knafeh"
     },
     {
       "date": "2026-11-21",
-      "recipeID": "ds-madeleines"
+      "recipeID": "ds-crostata-di-marmellata"
     },
     {
       "date": "2026-11-22",
-      "recipeID": "ds-crostata-di-marmellata"
+      "recipeID": "ds-gulab-jamun"
     }
   ]
 }
