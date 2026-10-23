@@ -178,13 +178,18 @@
     {"id": "jus-de-raisin", "names": {"fr": "Jus de raisin (moût)", "en": "Grape juice (must)", "es": "Mosto de uva", "it": "Succo d'uva (mosto)"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
     {"id": "manioc", "names": {"fr": "Manioc", "en": "Cassava", "es": "Yuca", "it": "Manioca"}, "category": "legumes", "staple": false, "contains": [], "animal": false},
     {"id": "sirop-de-dattes", "names": {"fr": "Sirop de dattes (dibs)", "en": "Date syrup", "es": "Sirope de dátiles", "it": "Sciroppo di datteri"}, "category": "epicerie", "staple": false, "substitutes": ["miel"], "contains": [], "animal": false},
-    {"id": "petales-de-mais", "names": {"fr": "Pétales de maïs (corn flakes)", "en": "Cornflakes", "es": "Copos de maíz (corn flakes)", "it": "Fiocchi di mais (corn flakes)"}, "category": "epicerie", "staple": false, "contains": ["gluten"], "animal": true}
+    {"id": "petales-de-mais", "names": {"fr": "Pétales de maïs (corn flakes)", "en": "Cornflakes", "es": "Copos de maíz (corn flakes)", "it": "Fiocchi di mais (corn flakes)"}, "category": "epicerie", "staple": false, "contains": ["gluten"], "animal": true},
+    {"id": "confiture-de-groseille", "names": {"fr": "Confiture de groseilles", "en": "Redcurrant jam", "es": "Mermelada de grosella", "it": "Confettura di ribes"}, "category": "epicerie", "staple": false, "substitutes": ["confiture-de-framboise"], "contains": [], "animal": false},
+    {"id": "courge-confite", "names": {"fr": "Courge confite (puhul dosi)", "en": "Candied ash pumpkin (puhul dosi)", "es": "Calabaza confitada (puhul dosi)", "it": "Zucca candita (puhul dosi)"}, "category": "epicerie", "staple": false, "substitutes": ["ecorces-d-orange-confites", "cedrat-confit"], "contains": [], "animal": false},
+    {"id": "poire-nashi", "names": {"fr": "Poire nashi", "en": "Asian pear (nashi)", "es": "Pera nashi", "it": "Pera nashi"}, "category": "fruits", "staple": false, "substitutes": ["poire"], "contains": [], "animal": false},
+    {"id": "poivre-noir", "names": {"fr": "Poivre noir en grains", "en": "Black peppercorns", "es": "Pimienta negra en grano", "it": "Pepe nero in grani"}, "category": "herbes-epices", "staple": false, "contains": [], "animal": false},
+    {"id": "pignon-de-pin", "names": {"fr": "Pignons de pin", "en": "Pine nuts", "es": "Piñones", "it": "Pinoli"}, "category": "epicerie", "staple": false, "contains": ["fruits-a-coque"], "animal": false}
   ],
   "featured": [
     {"id": "chocolat", "names": {"fr": "Chocolat", "en": "Chocolate", "es": "Chocolate", "it": "Cioccolato"}, "emoji": "🍫", "members": ["chocolat-noir", "chocolat-au-lait", "chocolat-blanc", "cacao", "vermicelles-chocolat"]},
     {"id": "vanille", "names": {"fr": "Vanille", "en": "Vanilla", "es": "Vainilla", "it": "Vaniglia"}, "emoji": "🌼", "members": ["vanille"]},
-    {"id": "pomme-poire", "names": {"fr": "Pomme et poire", "en": "Apple and pear", "es": "Manzana y pera", "it": "Mela e pera"}, "emoji": "🍎", "members": ["pomme", "poire"]},
-    {"id": "fruits-rouges", "names": {"fr": "Fruits rouges", "en": "Berries and cherries", "es": "Frutos rojos", "it": "Frutti rossi"}, "emoji": "🍓", "members": ["fruits-rouges", "fraise", "framboise", "cerise", "griotte", "confiture-de-griottes", "confiture-de-fraise", "confiture-de-framboise", "myrtille"]},
+    {"id": "pomme-poire", "names": {"fr": "Pomme et poire", "en": "Apple and pear", "es": "Manzana y pera", "it": "Mela e pera"}, "emoji": "🍎", "members": ["pomme", "poire", "poire-nashi"]},
+    {"id": "fruits-rouges", "names": {"fr": "Fruits rouges", "en": "Berries and cherries", "es": "Frutos rojos", "it": "Frutti rossi"}, "emoji": "🍓", "members": ["fruits-rouges", "fraise", "framboise", "cerise", "griotte", "confiture-de-griottes", "confiture-de-fraise", "confiture-de-framboise", "myrtille", "confiture-de-groseille"]},
     {"id": "agrumes", "names": {"fr": "Agrumes", "en": "Citrus", "es": "Cítricos", "it": "Agrumi"}, "emoji": "🍋", "members": ["citron", "citron-vert", "orange", "pomelo", "ecorces-d-orange-confites", "cedrat-confit"]},
     {"id": "fruits-exotiques", "names": {"fr": "Fruits exotiques", "en": "Tropical fruit", "es": "Frutas tropicales", "it": "Frutta esotica"}, "emoji": "🥭", "members": ["mangue", "ananas", "fruit-de-la-passion", "kiwi", "jacquier", "goyave"]},
     {"id": "banane", "names": {"fr": "Banane", "en": "Banana", "es": "Plátano", "it": "Banana"}, "emoji": "🍌", "members": ["banane", "banane-plantain"]},
@@ -196,7 +201,7 @@
     {"id": "miel", "names": {"fr": "Miel", "en": "Honey", "es": "Miel", "it": "Miele"}, "emoji": "🍯", "members": ["miel"]},
     {"id": "caramel", "names": {"fr": "Caramel", "en": "Caramel", "es": "Caramelo", "it": "Caramello"}, "emoji": "🍬", "members": ["caramel", "confiture-de-lait", "sucre-pour-caramel"]},
     {"id": "cafe", "names": {"fr": "Café et thé", "en": "Coffee & tea", "es": "Café y té", "it": "Caffè e tè"}, "emoji": "☕", "members": ["cafe", "the", "matcha"]},
-    {"id": "epices", "names": {"fr": "Épices", "en": "Spices", "es": "Especias", "it": "Spezie"}, "emoji": "🫚", "members": ["cannelle", "cardamome", "gingembre", "muscade", "clou-de-girofle", "anis-etoile", "safran", "mahaleb", "anis-vert", "graines-de-nigelle"]},
+    {"id": "epices", "names": {"fr": "Épices", "en": "Spices", "es": "Especias", "it": "Spezie"}, "emoji": "🫚", "members": ["cannelle", "cardamome", "gingembre", "muscade", "clou-de-girofle", "anis-etoile", "safran", "mahaleb", "anis-vert", "graines-de-nigelle", "poivre-noir"]},
     {"id": "riz", "names": {"fr": "Riz", "en": "Rice", "es": "Arroz", "it": "Riso"}, "emoji": "🍚", "members": ["riz", "riz-gluant", "farine-de-riz-gluant", "farine-de-riz"]},
     {"id": "fromage-frais", "names": {"fr": "Fromage frais", "en": "Soft cheese", "es": "Queso fresco", "it": "Formaggio fresco"}, "emoji": "🧀", "members": ["mascarpone", "ricotta", "fromage-blanc", "fromage-frais-a-tartiner", "chhena", "tvorog"]},
     {"id": "lait-concentre", "names": {"fr": "Lait concentré", "en": "Condensed milk", "es": "Leche condensada", "it": "Latte condensato"}, "emoji": "🥫", "members": ["lait-concentre-sucre", "lait-concentre-non-sucre"]}
