@@ -29,7 +29,7 @@
     {"ref": "eau", "quantity": 125, "unit": "ml"},
     {"ref": "lait", "quantity": 425, "unit": "ml"},
     {"ref": "beurre", "quantity": 260, "unit": "g"},
-    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
     {"ref": "sucre", "quantity": 75, "unit": "g"},
     {"ref": "farine", "quantity": 140, "unit": "g"},
     {"ref": "oeuf", "quantity": 8, "unit": "piece"},
