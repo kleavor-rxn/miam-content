@@ -179,6 +179,16 @@ def test_lot_accepts_monthly_string_and_rejects_garbage(small_repo):
         assert (_errors(small_repo) == []) is ok, lot
 
 
+def test_monthly_lot_label_accepted(small_repo):
+    base = [_entry("ds-test-un", status="written"),
+            _entry("ds-test-deux", "IT", status="written")]
+    _write_catalogue(small_repo, base + [_entry("ds-mensuel", "IT", lot="m-2027-03")])
+    assert _errors(small_repo) == []
+    for bad in ("m-2027-13", "2027-03"):
+        _write_catalogue(small_repo, base + [_entry("ds-mensuel", "IT", lot=bad)])
+        assert _errors(small_repo) != [], bad
+
+
 def test_written_entry_without_fiche_fails(small_repo):
     (small_repo / "desserts" / "recipes" / "ds-test-un.json").unlink()
     assert any("ds-test-un" in m and "fiche" in m for m in _errors(small_repo))
