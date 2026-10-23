@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-bibingka",
+  "title": {"fr": "Bibingka", "en": "Bibingka", "es": "Bibingka", "it": "Bibingka"},
+  "summary": {
+    "fr": "Le gâteau de riz de Noël des Philippines : une pâte à la farine de riz et au lait de coco cuite sur feuille de bananier, moelleuse et dorée, badigeonnée de beurre et sucrée à la sortie du four.",
+    "en": "The Philippines' Christmas rice cake: a rice-flour and coconut-milk batter baked on banana leaf until soft and golden, then brushed with butter and sprinkled with sugar straight from the oven.",
+    "es": "El pastel de arroz navideño de Filipinas: una masa de harina de arroz y leche de coco horneada sobre hoja de plátano, tierna y dorada, pincelada con mantequilla y espolvoreada de azúcar al salir del horno.",
+    "it": "La torta di riso natalizia delle Filippine: una pastella di farina di riso e latte di cocco cotta su foglia di banano, soffice e dorata, spennellata di burro e cosparsa di zucchero appena sfornata."
+  },
+  "story": {
+    "fr": "La bibingka est un gâteau de riz philippin que l'on cuit traditionnellement dans un pot en terre tapissé de feuilles de bananier, entre des braises posées dessous et dessus. Elle est indissociable de la saison de Noël : on la vend devant les églises à la sortie de la Simbang Gabi, la neuvaine de messes célébrées à l'aube du 16 au 24 décembre, souvent avec le puto bumbong, un autre gâteau de riz. On la mange chaude, couverte de beurre, de sucre et de noix de coco râpée, et volontiers garnie de tranches d'œuf de cane salé et de fromage.",
+    "en": "Bibingka is a Filipino rice cake traditionally baked in a clay pot lined with banana leaves, with hot coals both underneath and on top. It is inseparable from the Christmas season: it is sold outside churches after Simbang Gabi, the novena of dawn masses held from 16 to 24 December, often alongside puto bumbong, another rice cake. It is eaten hot, topped with butter, sugar and grated coconut, and frequently with slices of salted duck egg and cheese.",
+    "es": "La bibingka es un pastel de arroz filipino que tradicionalmente se cuece en una olla de barro forrada con hojas de plátano, entre brasas colocadas debajo y encima. Es inseparable de la temporada navideña: se vende delante de las iglesias a la salida de la Simbang Gabi, la novena de misas que se celebran al amanecer del 16 al 24 de diciembre, a menudo junto al puto bumbong, otro pastel de arroz. Se come caliente, cubierta de mantequilla, azúcar y coco rallado, y muchas veces con rodajas de huevo de pato salado y queso.",
+    "it": "La bibingka è una torta di riso filippina che tradizionalmente si cuoce in una pentola di terracotta foderata di foglie di banano, tra braci poste sotto e sopra. È inseparabile dal periodo natalizio: si vende davanti alle chiese all'uscita della Simbang Gabi, la novena di messe celebrate all'alba dal 16 al 24 dicembre, spesso insieme al puto bumbong, un'altra torta di riso. Si mangia calda, coperta di burro, zucchero e cocco grattugiato, e non di rado guarnita con fette di uovo d'anatra salato e formaggio."
+  },
+  "region": {"fr": "Philippines", "en": "Philippines", "es": "Filipinas", "it": "Filippine"},
+  "origin": {"countries": ["PH"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 25,
+  "servings": 6,
+  "heroImage": "images/ds-bibingka/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "feuille-de-bananier", "quantity": 2, "unit": "piece"},
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "lait-de-coco", "quantity": 300, "unit": "ml"},
+    {"ref": "farine-de-riz", "quantity": 200, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 2, "unit": "tsp"},
+    {"ref": "sel", "quantity": 0.25, "unit": "tsp"},
+    {"ref": "oeuf-de-cane-sale", "quantity": 2, "unit": "piece", "optional": true},
+    {"ref": "edam", "quantity": 60, "unit": "g", "optional": true},
+    {"ref": "noix-de-coco-rapee", "quantity": 30, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 190 °C.", "en": "Preheat the oven to 190 °C.", "es": "Precalienta el horno a 190 °C.", "it": "Preriscalda il forno a 190 °C."}},
+    {"text": {"fr": "Faites fondre le beurre à feu doux, puis laissez-le tiédir.", "en": "Melt the butter over a low heat, then let it cool slightly.", "es": "Derrite la mantequilla a fuego suave y deja que se temple.", "it": "Fai sciogliere il burro a fuoco dolce, poi lascialo intiepidire."}, "timerMinutes": 3},
+    {"text": {"fr": "Passez rapidement les feuilles de bananier à la flamme pour les assouplir, puis chemisez-en six moules à tartelette de 12 cm, face brillante vers le haut (à défaut, utilisez du papier cuisson).", "en": "Pass the banana leaves quickly over a flame to soften them, then use them to line six 12 cm tartlet tins, shiny side up (failing that, use baking paper).", "es": "Pasa rápidamente las hojas de plátano por la llama para ablandarlas y forra con ellas seis moldes de tartaleta de 12 cm, con la cara brillante hacia arriba (si no tienes, usa papel de horno).", "it": "Passa velocemente le foglie di banano sulla fiamma per ammorbidirle, poi usale per foderare sei stampini da crostatina da 12 cm, con il lato lucido verso l'alto (in mancanza, usa carta forno)."}},
+    {"text": {"fr": "Dans un saladier, fouettez les œufs avec 120 g de sucre jusqu'à ce que le mélange blanchisse.", "en": "In a mixing bowl, whisk the eggs with 120 g of the sugar until pale.", "es": "En un bol grande, bate los huevos con 120 g de azúcar hasta que blanqueen.", "it": "In una ciotola capiente sbatti le uova con 120 g di zucchero finché il composto diventa chiaro."}},
+    {"text": {"fr": "Incorporez au fouet le lait de coco et 40 g de beurre fondu, puis la farine de riz, la levure chimique et le sel, jusqu'à obtenir une pâte lisse et fluide.", "en": "Whisk in the coconut milk and 40 g of the melted butter, then the rice flour, baking powder and salt, until you have a smooth, pourable batter.", "es": "Incorpora con las varillas la leche de coco y 40 g de la mantequilla derretida, y después la harina de arroz, la levadura y la sal, hasta obtener una masa lisa y fluida.", "it": "Incorpora con la frusta il latte di cocco e 40 g di burro fuso, poi la farina di riso, il lievito e il sale, fino a ottenere una pastella liscia e fluida."}},
+    {"text": {"fr": "Répartissez la pâte dans les moules chemisés et posez-les sur une plaque.", "en": "Divide the batter between the lined tins and set them on a baking tray.", "es": "Reparte la masa en los moldes forrados y colócalos sobre una bandeja de horno.", "it": "Distribuisci la pastella negli stampini foderati e disponili su una teglia."}},
+    {"text": {"fr": "Enfournez 15 minutes, jusqu'à ce que les gâteaux aient gonflé et que le dessus soit pris.", "en": "Bake for 15 minutes, until the cakes have risen and the tops have set.", "es": "Hornea 15 minutos, hasta que los pasteles hayan subido y la superficie esté cuajada.", "it": "Inforna per 15 minuti, finché le tortine si sono gonfiate e la superficie si è rappresa."}, "timerMinutes": 15},
+    {"text": {"fr": "Si vous le souhaitez, garnissez chaque gâteau de quelques tranches d'œuf de cane salé cuit dur et d'édam râpé (le queso de bola des Philippins), ou de kesong puti émietté.", "en": "If you like, top each cake with a few slices of hard-boiled salted duck egg and some grated Edam (the Filipino queso de bola), or crumbled kesong puti.", "es": "Si quieres, cubre cada pastel con unas rodajas de huevo de pato salado cocido y un poco de queso de bola (edam) rallado, o de kesong puti desmenuzado.", "it": "Se ti va, guarnisci ogni tortina con qualche fetta di uovo d'anatra salato sodo e un po' di edam grattugiato (il queso de bola filippino), oppure di kesong puti sbriciolato."}},
+    {"text": {"fr": "Remettez au four 10 minutes, jusqu'à ce que le dessus soit bien doré et qu'une lame plantée au centre ressorte sèche.", "en": "Return to the oven for 10 minutes, until the tops are a deep golden brown and a knife inserted in the centre comes out clean.", "es": "Vuelve a hornear 10 minutos, hasta que la superficie esté bien dorada y un cuchillo clavado en el centro salga limpio.", "it": "Rimetti in forno per 10 minuti, finché la superficie è ben dorata e uno stecchino infilato al centro esce asciutto."}, "timerMinutes": 10},
+    {"text": {"fr": "À la sortie du four, badigeonnez les gâteaux des 20 g de beurre fondu restants, saupoudrez-les des 30 g de sucre restants et, si vous le souhaitez, de noix de coco râpée, puis servez chaud.", "en": "Straight out of the oven, brush the cakes with the remaining 20 g of melted butter, sprinkle with the remaining 30 g of sugar and, if you like, some grated coconut, then serve hot.", "es": "Nada más sacarlos del horno, pincela los pasteles con los 20 g de mantequilla derretida restantes, espolvoréalos con los 30 g de azúcar restantes y, si quieres, con coco rallado, y sírvelos calientes.", "it": "Appena sfornate, spennella le tortine con i 20 g di burro fuso rimasti, cospargile con i 30 g di zucchero rimasti e, se ti va, con un po' di cocco grattugiato, poi servile calde."}}
+  ]
+}

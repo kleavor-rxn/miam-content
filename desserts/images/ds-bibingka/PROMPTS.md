@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+Two small round Filipino rice cakes, each about 12 cm across and 2.5 cm thick, each sitting on its own round of glossy dark green banana leaf on a plain white plate, the leaf edges slightly scorched and curling up around the cake. The domed tops are puffed and deep golden brown, darker and almost charred in spots near the rim, glistening with melted butter and sprinkled with sparkling granulated sugar and a little fine white grated coconut. A few thin slices of salted duck egg, with a pale white rim and a bright orange-red yolk, and a scattering of pale yellow grated cheese are baked into the top. One cake has a wedge cut out, showing a soft, springy, fine-textured off-white crumb.

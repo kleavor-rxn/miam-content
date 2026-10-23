@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-granita-al-caffe",
+  "title": {"fr": "Granita al caffè", "en": "Granita al caffè", "es": "Granita al caffè", "it": "Granita al caffè"},
+  "summary": {
+    "fr": "La granita sicilienne au café : un espresso sucré pris au congélateur et gratté à la fourchette jusqu'à former des cristaux fins et fondants.",
+    "en": "Sicily's coffee granita: sweetened espresso frozen and raked with a fork into fine, melting crystals.",
+    "es": "La granita siciliana de café: un espresso endulzado que se congela y se rasca con un tenedor hasta formar cristales finos que se deshacen en la boca.",
+    "it": "La granita siciliana al caffè: un espresso zuccherato rappreso in freezer e grattato con la forchetta fino a ottenere cristalli fini e fondenti."
+  },
+  "story": {
+    "fr": "La granita est née en Sicile, où l'on récoltait autrefois la neige de l'Etna et des monts Nebrodi pour la conserver dans des fosses, les neviere, et la vendre l'été en ville. Mêlée à des sirops, cette neige donnait des rafraîchissements glacés, ancêtres de la granita ; on rattache souvent cette tradition aux sorbets de l'époque arabe. Dans l'est de l'île, à Catane et à Messine notamment, la granita se mange au petit déjeuner en été, et celle au café se sert volontiers coiffée de crème fouettée, avec une brioche ronde à chapeau, la brioscia col tuppo, que l'on trempe dedans.",
+    "en": "Granita was born in Sicily, where snow was once gathered on Mount Etna and in the Nebrodi mountains, stored in pits known as neviere and sold in the towns in summer. Mixed with syrups, that snow made iced refreshments, the forerunners of granita, a tradition often linked to the sorbets of the Arab period. In the east of the island, in Catania and Messina especially, granita is a summer breakfast, and the coffee version is often topped with whipped cream and eaten with a round, topknotted brioche, the brioscia col tuppo, which is dunked into it.",
+    "es": "La granita nació en Sicilia, donde antiguamente se recogía la nieve del Etna y de los montes Nebrodi para conservarla en fosas, las neviere, y venderla en verano en las ciudades. Mezclada con jarabes, esa nieve se convertía en postres helados, antepasados de la granita, una tradición que a menudo se relaciona con los sorbetes de la época árabe. En el este de la isla, sobre todo en Catania y Mesina, la granita se toma para desayunar en verano, y la de café suele servirse con nata montada por encima y con un brioche redondo con copete, la brioscia col tuppo, que se moja en ella.",
+    "it": "La granita è nata in Sicilia, dove un tempo si raccoglieva la neve dell'Etna e dei Nebrodi per conservarla nelle neviere e venderla d'estate in città. Mescolata con gli sciroppi, quella neve diventava un refrigerio ghiacciato, antenato della granita, una tradizione che spesso si collega ai sorbetti dell'epoca araba. Nella Sicilia orientale, a Catania e a Messina soprattutto, la granita è la colazione dell'estate, e quella al caffè si serve volentieri con la panna montata e con la brioscia col tuppo, da inzuppare."
+  },
+  "region": {"fr": "Sicile", "en": "Sicily", "es": "Sicilia", "it": "Sicilia"},
+  "origin": {"countries": ["IT"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": ["ete"],
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "servings": 4,
+  "heroImage": "images/ds-granita-al-caffe/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "cafe", "quantity": 300, "unit": "ml"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "eau", "quantity": 200, "unit": "ml"},
+    {"ref": "creme-liquide", "quantity": 200, "unit": "ml", "optional": true},
+    {"ref": "brioche", "quantity": 4, "unit": "piece", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préparez 300 ml de café espresso bien serré, à la machine ou à la cafetière italienne.", "en": "Make 300 ml of strong espresso, in a machine or a stovetop moka pot.", "es": "Prepara 300 ml de café espresso bien cargado, en cafetera exprés o en cafetera italiana.", "it": "Prepara 300 ml di caffè espresso ben ristretto, con la macchina o con la moka."}, "timerMinutes": 5},
+    {"text": {"fr": "Pendant que le café est encore chaud, faites-y fondre le sucre en remuant, puis ajoutez l'eau froide.", "en": "While the coffee is still hot, stir in the sugar until dissolved, then add the cold water.", "es": "Con el café todavía caliente, disuelve en él el azúcar removiendo y añade después el agua fría.", "it": "Con il caffè ancora caldo, scioglici lo zucchero mescolando, poi aggiungi l'acqua fredda."}},
+    {"text": {"fr": "Laissez refroidir complètement à température ambiante.", "en": "Leave to cool completely at room temperature.", "es": "Deja que se enfríe por completo a temperatura ambiente.", "it": "Lascia raffreddare completamente a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Versez le café dans un plat en métal peu profond et placez-le au congélateur jusqu'à ce que des cristaux se forment sur les bords, environ 1 heure.", "en": "Pour the coffee into a shallow metal dish and put it in the freezer until crystals form around the edges, about 1 hour.", "es": "Vierte el café en una fuente metálica poco profunda y métela en el congelador hasta que se formen cristales en los bordes, alrededor de 1 hora.", "it": "Versa il caffè in una teglia di metallo bassa e mettila in freezer finché si formano dei cristalli sui bordi, circa 1 ora."}, "timerMinutes": 60},
+    {"text": {"fr": "Toutes les 30 minutes pendant environ 2 h 30, sortez le plat et grattez le café à la fourchette en ramenant les cristaux des bords vers le centre, jusqu'à obtenir une granita fine et homogène.", "en": "Every 30 minutes for about 2½ hours, take the dish out and rake the coffee with a fork, drawing the crystals from the edges into the centre, until the granita is fine and even.", "es": "Cada 30 minutos, durante unas 2 horas y media, saca la fuente y rasca el café con un tenedor llevando los cristales de los bordes hacia el centro, hasta obtener una granita fina y homogénea.", "it": "Ogni 30 minuti, per circa 2 ore e mezza, tira fuori la teglia e gratta il caffè con una forchetta portando i cristalli dai bordi verso il centro, finché la granita è fine e omogenea."}, "timerMinutes": 150},
+    {"text": {"fr": "Juste avant de servir, si vous le souhaitez, fouettez la crème bien froide jusqu'à ce qu'elle forme des pics souples.", "en": "Just before serving, whip the well-chilled cream to soft peaks, if you like.", "es": "Justo antes de servir, si quieres, monta la nata bien fría hasta que forme picos suaves.", "it": "Poco prima di servire, se ti va, monta la panna ben fredda finché è morbida e soffice."}},
+    {"text": {"fr": "Répartissez la granita dans des verres froids et, si vous le souhaitez, coiffez-la de crème fouettée et servez-la avec une brioche à tremper dedans, comme en Sicile.", "en": "Spoon the granita into chilled glasses and, if you like, top it with whipped cream and serve it with a brioche for dunking, as they do in Sicily.", "es": "Reparte la granita en vasos fríos y, si quieres, corónala con nata montada y sírvela con un brioche para mojar, como en Sicilia.", "it": "Distribuisci la granita in bicchieri freddi e, se ti va, completala con la panna montata e servila con una brioscia da inzuppare, come in Sicilia."}}
+  ]
+}

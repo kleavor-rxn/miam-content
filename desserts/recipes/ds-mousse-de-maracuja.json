@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mousse-de-maracuja",
+  "title": {"fr": "Mousse de maracujá", "en": "Mousse de maracujá", "es": "Mousse de maracujá", "it": "Mousse de maracujá"},
+  "summary": {
+    "fr": "La mousse brésilienne au fruit de la passion, faite au blender avec du lait concentré sucré et de la crème, acidulée et onctueuse sous son nappage de pulpe et de graines.",
+    "en": "Brazil's passion fruit mousse, whizzed up in a blender with sweetened condensed milk and cream, tangy and silky beneath a glaze of pulp and seeds.",
+    "es": "La mousse brasileña de maracuyá, hecha en la batidora con leche condensada y nata, ácida y untuosa bajo su cobertura de pulpa y pepitas.",
+    "it": "La mousse brasiliana al frutto della passione, preparata nel frullatore con latte condensato e panna, acidula e vellutata sotto la sua copertura di polpa e semi."
+  },
+  "story": {
+    "fr": "Le Brésil est le premier producteur mondial de fruits de la passion (maracujá en portugais), dont la variété jaune, très acidulée, se vend partout dans le pays. La mousse de maracujá y est l'un des desserts familiaux les plus répandus : elle ne cuit pas, et l'acidité du jus suffit à faire épaissir le mélange de lait concentré sucré et de crème. Préparée à l'avance pour le déjeuner du dimanche ou un repas de fête, elle se sert bien froide, dans un grand plat ou en coupes.",
+    "en": "Brazil is the world's leading producer of passion fruit, or maracujá, whose very tart yellow variety is sold all over the country. Mousse de maracujá is one of Brazil's most popular family desserts: it needs no cooking, and the acidity of the juice is enough to thicken the blend of sweetened condensed milk and cream. Made ahead for Sunday lunch or a family celebration, it is served well chilled, in one large dish or in individual glasses.",
+    "es": "Brasil es el primer productor mundial de maracuyá, cuya variedad amarilla, muy ácida, se vende en todo el país. La mousse de maracuyá es uno de los postres caseros más extendidos en Brasil: no necesita cocción, y la acidez del zumo basta para espesar la mezcla de leche condensada y nata. Preparada con antelación para la comida del domingo o una celebración familiar, se sirve muy fría, en una fuente grande o en copas.",
+    "it": "Il Brasile è il primo produttore mondiale di frutto della passione, il maracujá, la cui varietà gialla, molto acidula, si vende in tutto il paese. La mousse de maracujá è uno dei dolci di casa più diffusi in Brasile: non richiede cottura, e l'acidità del succo basta ad addensare il composto di latte condensato e panna. Preparata in anticipo per il pranzo della domenica o una festa in famiglia, si serve ben fredda, in una grande pirofila o in coppette."
+  },
+  "region": {"fr": "Brésil", "en": "Brazil", "es": "Brasil", "it": "Brasile"},
+  "origin": {"countries": ["BR"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "servings": 6,
+  "heroImage": "images/ds-mousse-de-maracuja/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "fruit-de-la-passion", "quantity": 14, "unit": "piece"},
+    {"ref": "lait-concentre-sucre", "quantity": 395, "unit": "g"},
+    {"ref": "creme-liquide", "quantity": 200, "unit": "ml"},
+    {"ref": "sucre", "quantity": 30, "unit": "g"},
+    {"ref": "eau", "quantity": 50, "unit": "ml"}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez 12 fruits de la passion en deux, videz la pulpe dans le bol du blender et mixez quelques secondes par à-coups, juste assez pour détacher les graines sans les briser.", "en": "Halve 12 of the passion fruit, scoop the pulp into a blender and pulse for a few seconds, just enough to loosen the seeds without breaking them.", "es": "Corta 12 maracuyás por la mitad, vacía la pulpa en el vaso de la batidora y tritura unos segundos con pulsaciones cortas, solo lo justo para soltar las pepitas sin romperlas.", "it": "Taglia a metà 12 frutti della passione, svuota la polpa nel boccale del frullatore e frulla a impulsi per qualche secondo, quanto basta per staccare i semi senza romperli."}},
+    {"text": {"fr": "Passez la pulpe au tamis en pressant bien avec le dos d'une cuillère pour recueillir environ 200 ml de jus, puis jetez les graines et rincez le blender.", "en": "Press the pulp through a sieve with the back of a spoon to collect about 200 ml of juice, then discard the seeds and rinse out the blender.", "es": "Pasa la pulpa por un colador apretando bien con el dorso de una cuchara para obtener unos 200 ml de zumo; desecha las pepitas y enjuaga la batidora.", "it": "Passa la polpa al colino premendo bene con il dorso di un cucchiaio per ricavare circa 200 ml di succo, poi elimina i semi e sciacqua il frullatore."}},
+    {"text": {"fr": "Mixez le lait concentré sucré et la crème au blender pendant 1 minute.", "en": "Blend the sweetened condensed milk and the cream for 1 minute.", "es": "Tritura la leche condensada y la nata en la batidora durante 1 minuto.", "it": "Frulla il latte condensato e la panna per 1 minuto."}, "timerMinutes": 1},
+    {"text": {"fr": "Ajoutez le jus de fruit de la passion et mixez encore 3 minutes, jusqu'à ce que la mousse soit épaisse et onctueuse.", "en": "Add the passion fruit juice and blend for 3 more minutes, until the mousse is thick and silky.", "es": "Añade el zumo de maracuyá y tritura 3 minutos más, hasta que la mousse esté espesa y untuosa.", "it": "Aggiungi il succo di frutto della passione e frulla per altri 3 minuti, finché la mousse è densa e vellutata."}, "timerMinutes": 3},
+    {"text": {"fr": "Versez la mousse dans un plat de service en verre ou dans six coupes, couvrez et laissez prendre au réfrigérateur au moins 4 heures.", "en": "Pour the mousse into a glass serving dish or six individual glasses, cover and chill for at least 4 hours to set.", "es": "Vierte la mousse en una fuente de cristal o en seis copas, tápala y deja que cuaje en la nevera al menos 4 horas.", "it": "Versa la mousse in una pirofila di vetro o in sei coppette, copri e lascia rassodare in frigorifero per almeno 4 ore."}, "timerMinutes": 240},
+    {"text": {"fr": "Pour le nappage, videz la pulpe des 2 fruits de la passion restants, graines comprises, dans une petite casserole avec le sucre et l'eau, et laissez frémir 5 minutes, jusqu'à obtenir un sirop légèrement épais.", "en": "For the glaze, scoop the pulp of the remaining 2 passion fruit, seeds and all, into a small pan with the sugar and water, and simmer for 5 minutes until lightly syrupy.", "es": "Para la cobertura, vacía la pulpa de los 2 maracuyás restantes, con sus pepitas, en un cazo pequeño con el azúcar y el agua, y deja que hierva suavemente 5 minutos, hasta obtener un almíbar ligeramente espeso.", "it": "Per la copertura, svuota la polpa dei 2 frutti della passione rimasti, semi compresi, in un pentolino con lo zucchero e l'acqua, e lascia sobbollire per 5 minuti, finché diventa uno sciroppo leggermente denso."}, "timerMinutes": 5},
+    {"text": {"fr": "Laissez refroidir complètement le nappage.", "en": "Leave the glaze to cool completely.", "es": "Deja que la cobertura se enfríe por completo.", "it": "Lascia raffreddare completamente la copertura."}, "timerMinutes": 30},
+    {"text": {"fr": "Au moment de servir, étalez le nappage sur la mousse bien froide.", "en": "Just before serving, spread the glaze over the well-chilled mousse.", "es": "En el momento de servir, extiende la cobertura sobre la mousse bien fría.", "it": "Al momento di servire, stendi la copertura sulla mousse ben fredda."}}
+  ]
+}

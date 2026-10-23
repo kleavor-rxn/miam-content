@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-apple-crumble",
+  "title": {"fr": "Crumble aux pommes", "en": "Apple crumble", "es": "Crumble de manzana", "it": "Crumble di mele"},
+  "summary": {
+    "fr": "Le grand dessert familial britannique, servi brûlant : des pommes acidulées et fondantes sous une couche croustillante de farine, de beurre et de sucre roux émiettés.",
+    "en": "The great British family pudding, served piping hot: soft, tangy apples under a crisp layer of rubbed-in flour, butter and brown sugar.",
+    "es": "El gran postre familiar británico, que se sirve muy caliente: manzanas ácidas y tiernas bajo una capa crujiente de harina, mantequilla y azúcar moreno desmigados.",
+    "it": "Il grande dolce di famiglia britannico, da servire bollente: mele acidule e morbide sotto uno strato croccante di farina, burro e zucchero di canna sbriciolati."
+  },
+  "story": {
+    "fr": "Le crumble, des fruits cuits au four sous une couche de farine, de beurre et de sucre travaillés en miettes, est un grand classique des desserts familiaux britanniques, notamment au déjeuner du dimanche. On attribue souvent son essor au rationnement de la Seconde Guerre mondiale, car il demande moins de farine, de matière grasse et de sucre qu'une tourte. La version aux pommes se fait de préférence avec la Bramley, une pomme à cuire anglaise très acidulée qui s'effondre à la cuisson, et se sert chaude avec de la crème custard, de la crème ou de la glace.",
+    "en": "Crumble, fruit baked under a layer of flour, butter and sugar rubbed together into crumbs, is one of Britain's best-loved family puddings, especially at Sunday lunch. Its rise is often put down to rationing during the Second World War, as it needs less flour, fat and sugar than a pie. The apple version is best made with Bramley apples, a very sharp English cooking variety that collapses as it cooks, and is served hot with custard, cream or ice cream.",
+    "es": "El crumble, fruta horneada bajo una capa de harina, mantequilla y azúcar trabajados hasta formar migas, es un gran clásico de los postres familiares británicos, sobre todo en la comida del domingo. Su auge suele atribuirse al racionamiento de la Segunda Guerra Mundial, porque necesita menos harina, grasa y azúcar que una tarta cubierta de masa. La versión de manzana se hace preferentemente con la Bramley, una manzana inglesa para cocinar muy ácida que se deshace al cocerse, y se sirve caliente con natillas, nata o helado.",
+    "it": "Il crumble, frutta cotta in forno sotto uno strato di farina, burro e zucchero lavorati a briciole, è un grande classico dei dolci di famiglia britannici, soprattutto per il pranzo della domenica. Il suo successo viene spesso attribuito al razionamento della Seconda guerra mondiale, perché richiede meno farina, grassi e zucchero di una torta ricoperta di pasta. La versione alle mele si prepara preferibilmente con la Bramley, una mela inglese da cuocere molto acidula che si disfa in cottura, e si serve calda con crema custard, panna o gelato."
+  },
+  "region": {"fr": "Royaume-Uni", "en": "United Kingdom", "es": "Reino Unido", "it": "Regno Unito"},
+  "origin": {"countries": ["GB"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "servings": 6,
+  "heroImage": "images/ds-apple-crumble/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pomme", "quantity": 1, "unit": "kg"},
+    {"ref": "sucre", "quantity": 75, "unit": "g"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece", "optional": true},
+    {"ref": "cannelle", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "farine", "quantity": 200, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 125, "unit": "g"},
+    {"ref": "cassonade", "quantity": 100, "unit": "g"},
+    {"ref": "poudre-a-flan", "quantity": 25, "unit": "g", "optional": true, "substitutes": ["fecule-de-mais"]},
+    {"ref": "lait", "quantity": 600, "unit": "ml", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 190 °C.", "en": "Preheat the oven to 190 °C.", "es": "Precalienta el horno a 190 °C.", "it": "Preriscalda il forno a 190 °C."}},
+    {"text": {"fr": "Pelez et évidez les pommes, puis coupez-les en morceaux d'environ 2 cm : des Bramley si vous en trouvez, sinon des pommes acidulées comme la Granny Smith.", "en": "Peel and core the apples, then cut them into chunks of about 2 cm: Bramleys if you can find them, otherwise a tart apple such as Granny Smith.", "es": "Pela las manzanas, quítales el corazón y córtalas en trozos de unos 2 cm: Bramley si las encuentras y, si no, manzanas ácidas como la Granny Smith.", "it": "Sbuccia le mele, togli il torsolo e tagliale a pezzi di circa 2 cm: Bramley se le trovi, altrimenti mele acidule come la Granny Smith."}},
+    {"text": {"fr": "Dans un plat à four d'environ 20 × 25 cm, mélangez les pommes avec 60 g de sucre et, si vous le souhaitez, le jus du demi-citron et la cannelle, puis étalez-les en une couche régulière.", "en": "In a baking dish of about 20 × 25 cm, toss the apples with 60 g of the sugar and, if you like, the juice of the half lemon and the cinnamon, then spread them out evenly.", "es": "En una fuente de horno de unos 20 × 25 cm, mezcla las manzanas con 60 g de azúcar y, si quieres, con el zumo del medio limón y la canela, y extiéndelas en una capa uniforme.", "it": "In una pirofila di circa 20 × 25 cm mescola le mele con 60 g di zucchero e, se ti va, con il succo del mezzo limone e la cannella, poi stendile in uno strato uniforme."}},
+    {"text": {"fr": "Dans un saladier, sablez du bout des doigts la farine, le sel, la cassonade (de la demerara, idéalement) et le beurre froid en dés, jusqu'à obtenir une chapelure grossière avec quelques grumeaux plus gros qui donneront du croquant.", "en": "In a mixing bowl, rub the flour, salt, brown sugar (demerara, ideally) and cold diced butter together with your fingertips until the mixture looks like coarse breadcrumbs, with a few bigger lumps for crunch.", "es": "En un bol grande, arena con la yema de los dedos la harina, la sal, el azúcar moreno (demerara, a ser posible) y la mantequilla fría en dados, hasta obtener unas migas gruesas con algunos grumos más grandes que darán el toque crujiente.", "it": "In una ciotola capiente lavora con la punta delle dita la farina, il sale, lo zucchero di canna (meglio se demerara) e il burro freddo a dadini, fino a ottenere grosse briciole con qualche grumo più grande che darà croccantezza."}},
+    {"text": {"fr": "Parsemez le crumble sur les pommes en une couche régulière, sans le tasser.", "en": "Scatter the crumble evenly over the apples without pressing it down.", "es": "Reparte el crumble sobre las manzanas en una capa uniforme, sin apretarlo.", "it": "Distribuisci il crumble sulle mele in uno strato uniforme, senza schiacciarlo."}},
+    {"text": {"fr": "Enfournez 40 minutes, jusqu'à ce que le dessus soit bien doré et que le jus des pommes bouillonne sur les bords.", "en": "Bake for 40 minutes, until the top is a deep golden brown and the apple juices are bubbling up at the edges.", "es": "Hornea 40 minutos, hasta que la superficie esté bien dorada y el jugo de las manzanas borbotee por los bordes.", "it": "Inforna per 40 minuti, finché la superficie è ben dorata e il succo delle mele sobbolle ai bordi."}, "timerMinutes": 40},
+    {"text": {"fr": "Pendant la cuisson, si vous souhaitez servir le crumble avec de la crème custard, délayez dans un bol la poudre à flan et 15 g de sucre avec 3 cuillerées à soupe de lait prises sur les 600 ml, jusqu'à obtenir une pâte lisse.", "en": "While it bakes, if you would like to serve the crumble with custard, mix the custard powder and 15 g of the sugar in a bowl with 3 tablespoons of the milk to a smooth paste.", "es": "Mientras tanto, si quieres servir el crumble con natillas, disuelve en un bol los polvos para natillas y 15 g de azúcar con 3 cucharadas de la leche, hasta obtener una pasta lisa.", "it": "Durante la cottura, se ti va di servire il crumble con la crema custard, stempera in una ciotola il preparato per custard e 15 g di zucchero con 3 cucchiai di latte presi dai 600 ml, fino a ottenere una pasta liscia."}},
+    {"text": {"fr": "Faites chauffer le reste du lait dans une casserole jusqu'au frémissement.", "en": "Heat the rest of the milk in a saucepan until it is just simmering.", "es": "Calienta el resto de la leche en un cazo hasta que empiece a hervir.", "it": "Scalda il resto del latte in un pentolino fino al primo bollore."}, "timerMinutes": 4},
+    {"text": {"fr": "Versez le lait chaud sur la pâte en fouettant, remettez le tout dans la casserole et faites épaissir 1 à 2 minutes à feu moyen sans cesser de remuer.", "en": "Pour the hot milk onto the paste, whisking, then return it all to the pan and stir over a medium heat for 1 to 2 minutes until thickened.", "es": "Vierte la leche caliente sobre la pasta batiendo, vuelve a ponerlo todo en el cazo y deja espesar de 1 a 2 minutos a fuego medio sin dejar de remover.", "it": "Versa il latte caldo sulla pasta mescolando con la frusta, rimetti tutto nel pentolino e fai addensare per 1-2 minuti a fuoco medio senza smettere di mescolare."}, "timerMinutes": 2},
+    {"text": {"fr": "Laissez reposer le crumble 5 minutes, puis servez-le chaud, nappé de crème custard bien chaude si vous l'avez préparée.", "en": "Let the crumble rest for 5 minutes, then serve it hot, with the hot custard poured over if you have made it.", "es": "Deja reposar el crumble 5 minutos y sírvelo caliente, cubierto con las natillas bien calientes si las has preparado.", "it": "Lascia riposare il crumble 5 minuti, poi servilo caldo, irrorato con la crema custard bollente se l'hai preparata."}, "timerMinutes": 5}
+  ]
+}

@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+A plain white rectangular ceramic baking dish of freshly baked apple crumble, with one generous portion already spooned out into a plain white shallow bowl in front of it. The topping is a thick, uneven layer of coarse, buttery golden-brown crumbs with crunchy darker brown sugar bits, and around the edges of the dish some sticky pale amber apple juice has bubbled up and caramelised. In the bowl, soft pale-gold chunks of cooked apple, partly collapsed into a purée, sit under the crumbs, with thick, smooth, glossy pale yellow custard poured over and pooling around them. A small plain white jug of custard stands beside the bowl.

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-napolitaines",
+  "title": {"fr": "Napolitaines", "en": "Napolitaines", "es": "Napolitaines", "it": "Napolitaines"},
+  "summary": {
+    "fr": "Le petit gâteau fétiche de l'île Maurice : deux sablés au beurre fondants, réunis par une couche de confiture de fraises et nappés d'un glaçage rose vif.",
+    "en": "Mauritius's much-loved little cake: two melt-in-the-mouth butter shortbreads sandwiched with strawberry jam and topped with bright pink icing.",
+    "es": "El pastelito más querido de la isla Mauricio: dos pastas de mantequilla que se deshacen en la boca, unidas con mermelada de fresa y cubiertas de un glaseado rosa intenso.",
+    "it": "Il dolcetto del cuore di Mauritius: due frollini al burro friabilissimi, uniti da uno strato di confettura di fragole e ricoperti di una glassa rosa acceso."
+  },
+  "story": {
+    "fr": "Les napolitaines sont un classique de la pâtisserie mauricienne, vendu dans les pâtisseries, les boulangeries et les boutiques de quartier de toute l'île. Elles se composent de deux disques de pâte sablée au beurre, peu sucrée, réunis par de la confiture et nappés d'un glaçage rose. Leur nom évoque Naples, mais leur origine reste obscure. On les savoure volontiers l'après-midi, avec une tasse de thé.",
+    "en": "Napolitaines are a classic of Mauritian baking, sold in pastry shops, bakeries and corner shops all over the island. They are made of two discs of lightly sweetened butter shortbread, sandwiched with jam and topped with pink icing. Their name evokes Naples, but their origins are obscure. They are a favourite afternoon treat with a cup of tea.",
+    "es": "Las napolitaines son un clásico de la repostería mauriciana y se venden en pastelerías, panaderías y tiendas de barrio de toda la isla. Están hechas con dos discos de masa quebrada de mantequilla, poco dulce, unidos con mermelada y cubiertos con un glaseado rosa. Su nombre evoca Nápoles, pero su origen es incierto. Se suelen tomar por la tarde, con una taza de té.",
+    "it": "Le napolitaines sono un classico della pasticceria mauriziana e si trovano in pasticcerie, panetterie e botteghe di quartiere in tutta l'isola. Sono fatte di due dischi di frolla al burro poco zuccherata, uniti con la confettura e ricoperti di una glassa rosa. Il nome evoca Napoli, ma la loro origine è incerta. Si gustano volentieri nel pomeriggio, con una tazza di tè."
+  },
+  "region": {"fr": "Île Maurice", "en": "Mauritius", "es": "Isla Mauricio", "it": "Mauritius"},
+  "origin": {"countries": ["MU"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 30,
+  "servings": 12,
+  "heroImage": "images/ds-napolitaines/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "sucre-glace", "quantity": 220, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 170, "unit": "g"},
+    {"ref": "confiture-de-fraise", "quantity": 120, "unit": "g"},
+    {"ref": "eau", "quantity": 3, "unit": "tbsp"},
+    {"ref": "colorant-alimentaire-rouge", "quantity": 0.25, "unit": "tsp", "substitutes": ["betterave"]}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, sablez du bout des doigts la farine, 20 g de sucre glace, le sel et le beurre froid en dés, puis rassemblez la pâte en boule sans la pétrir.", "en": "In a mixing bowl, rub the flour, 20 g of the icing sugar, the salt and the cold diced butter together with your fingertips, then gather the dough into a ball without kneading it.", "es": "En un bol grande, arena con la yema de los dedos la harina, 20 g de azúcar glas, la sal y la mantequilla fría en dados, y reúne la masa en una bola sin amasarla.", "it": "In una ciotola capiente lavora con la punta delle dita la farina, 20 g di zucchero a velo, il sale e il burro freddo a dadini fino a ottenere un composto sabbioso, poi compattalo in una palla senza impastarlo."}},
+    {"text": {"fr": "Aplatissez la boule en disque, filmez-la et laissez-la reposer 30 minutes au réfrigérateur.", "en": "Flatten the ball into a disc, wrap it in cling film and chill for 30 minutes.", "es": "Aplana la bola en forma de disco, envuélvela en film y déjala reposar 30 minutos en la nevera.", "it": "Appiattisci la palla in un disco, avvolgilo nella pellicola e lascialo riposare in frigorifero per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 170 °C et chemisez deux plaques de papier cuisson.", "en": "Preheat the oven to 170 °C and line two baking trays with baking paper.", "es": "Precalienta el horno a 170 °C y forra dos bandejas con papel de horno.", "it": "Preriscalda il forno a 170 °C e fodera due teglie con carta forno."}},
+    {"text": {"fr": "Abaissez la pâte sur 5 mm d'épaisseur sur le plan de travail fariné, découpez-y 24 disques à l'emporte-pièce de 6 cm, en rassemblant les chutes pour une seconde abaisse, et disposez-les sur les plaques.", "en": "Roll the dough out to 5 mm thick on a floured work surface, stamp out 24 rounds with a 6 cm cutter, gathering up the trimmings for a second rolling, and lay them on the trays.", "es": "Estira la masa sobre la encimera enharinada hasta dejarla de 5 mm de grosor, corta 24 discos con un cortapastas de 6 cm, reuniendo los recortes para estirarlos de nuevo, y colócalos en las bandejas.", "it": "Stendi la pasta sul piano di lavoro infarinato a 5 mm di spessore, ricava 24 dischi con un coppapasta da 6 cm, reimpastando i ritagli per una seconda sfoglia, e disponili sulle teglie."}},
+    {"text": {"fr": "Faites cuire une plaque à la fois 12 à 15 minutes, jusqu'à ce que les sablés soient cuits mais encore pâles, à peine blonds sur les bords.", "en": "Bake one tray at a time for 12 to 15 minutes, until the shortbreads are cooked through but still pale, barely golden at the edges.", "es": "Hornea las bandejas de una en una de 12 a 15 minutos, hasta que las pastas estén hechas pero todavía pálidas, apenas doradas por los bordes.", "it": "Cuoci una teglia alla volta per 12-15 minuti, finché i frollini sono cotti ma ancora chiari, appena dorati ai bordi."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez refroidir complètement les sablés sur une grille.", "en": "Leave the shortbreads to cool completely on a wire rack.", "es": "Deja que las pastas se enfríen por completo sobre una rejilla.", "it": "Lascia raffreddare completamente i frollini su una gratella."}, "timerMinutes": 20},
+    {"text": {"fr": "Étalez une cuillerée à café de confiture sur la moitié des disques, puis couvrez-les avec les autres disques, face lisse vers le haut.", "en": "Spread a teaspoon of jam over half of the rounds, then sandwich them with the remaining rounds, smooth side up.", "es": "Unta una cucharadita de mermelada sobre la mitad de los discos y cúbrelos con los demás, con la cara lisa hacia arriba.", "it": "Spalma un cucchiaino di confettura su metà dei dischi, poi coprili con gli altri, con il lato liscio verso l'alto."}},
+    {"text": {"fr": "Dans un bol, mélangez les 200 g de sucre glace restants avec les 3 cuillerées à soupe d'eau, ajoutées une à une, puis le colorant rouge goutte à goutte (¼ de cuillerée à café au plus), jusqu'à obtenir un glaçage rose vif, épais mais nappant ; à défaut de colorant, remplacez une cuillerée d'eau par du jus de betterave cuite.", "en": "In a bowl, mix the remaining 200 g of icing sugar with the 3 tablespoons of water, added one at a time, then the red food colouring drop by drop (¼ teaspoon at most), until you have a bright pink icing that is thick but spreadable; if you have no colouring, replace one spoonful of the water with cooked beetroot juice.", "es": "En un bol, mezcla los 200 g de azúcar glas restantes con las 3 cucharadas de agua, añadidas de una en una, y después el colorante rojo gota a gota (¼ de cucharadita como máximo), hasta obtener un glaseado rosa intenso, espeso pero que cubra bien; si no tienes colorante, sustituye una cucharada de agua por zumo de remolacha cocida.", "it": "In una ciotola mescola i 200 g di zucchero a velo rimasti con i 3 cucchiai d'acqua, aggiunti uno alla volta, poi il colorante rosso goccia a goccia (¼ di cucchiaino al massimo), fino a ottenere una glassa rosa acceso, densa ma spalmabile; se non hai il colorante, sostituisci un cucchiaio d'acqua con succo di barbabietola cotta."}},
+    {"text": {"fr": "Posez les napolitaines sur une grille et nappez le dessus de chacune d'une cuillerée de glaçage, en le laissant couler un peu sur les bords.", "en": "Set the napolitaines on a wire rack and spoon some icing over the top of each one, letting it run a little way down the sides.", "es": "Coloca las napolitaines sobre una rejilla y cubre la parte de arriba de cada una con una cucharada de glaseado, dejando que caiga un poco por los bordes.", "it": "Disponi le napolitaines su una gratella e ricopri la superficie di ciascuna con un cucchiaio di glassa, lasciandola colare un po' sui bordi."}},
+    {"text": {"fr": "Laissez le glaçage durcir 1 heure à température ambiante avant de servir.", "en": "Leave the icing to set for 1 hour at room temperature before serving.", "es": "Deja que el glaseado se endurezca 1 hora a temperatura ambiente antes de servir.", "it": "Lascia rassodare la glassa per 1 ora a temperatura ambiente prima di servire."}, "timerMinutes": 60}
+  ]
+}

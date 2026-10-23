@@ -165,8 +165,8 @@
     {"id": "sirop-de-glucose", "names": {"fr": "Sirop de glucose (corn syrup)", "en": "Glucose syrup (light corn syrup)", "es": "Jarabe de glucosa (jarabe de maíz)", "it": "Sciroppo di glucosio (sciroppo di mais)"}, "category": "epicerie", "staple": false, "substitutes": ["sirop-de-sucre-inverti"], "contains": [], "animal": false},
     {"id": "biscuits-vanille", "names": {"fr": "Petits biscuits à la vanille (vanilla wafers)", "en": "Vanilla wafers", "es": "Galletas de vainilla", "it": "Biscottini alla vaniglia"}, "category": "boulangerie", "staple": false, "substitutes": ["biscuits-a-la-cuiller"], "contains": ["gluten", "oeuf", "lait"], "animal": true},
     {"id": "graines-de-nigelle", "names": {"fr": "Graines de nigelle", "en": "Nigella seeds", "es": "Semillas de neguilla", "it": "Semi di nigella"}, "category": "herbes-epices", "staple": false, "contains": [], "animal": false},
-    {"id": "peche-sechee", "names": {"fr": "Pêches séchées (huesillos)", "en": "Dried peaches (huesillos)", "es": "Huesillos (duraznos deshidratados)", "it": "Pesche essiccate (huesillos)"}, "category": "fruits", "staple": false, "contains": [], "animal": false},
-    {"id": "mote-de-ble", "names": {"fr": "Mote (blé mondé)", "en": "Mote (husked wheat)", "es": "Mote de trigo", "it": "Mote (grano decorticato)"}, "category": "feculents", "staple": false, "contains": ["gluten"], "animal": false}
+    {"id": "peche-sechee", "names": {"fr": "Pêches séchées (huesillos)", "en": "Dried peaches (huesillos)", "es": "Huesillos (melocotones secos)", "it": "Pesche essiccate (huesillos)"}, "category": "fruits", "staple": false, "contains": [], "animal": false},
+    {"id": "mote-de-ble", "names": {"fr": "Mote (blé mondé)", "en": "Mote (husked wheat)", "es": "Mote (trigo pelado)", "it": "Mote (grano decorticato)"}, "category": "feculents", "staple": false, "contains": ["gluten"], "animal": false}
   ],
   "featured": [
     {"id": "chocolat", "names": {"fr": "Chocolat", "en": "Chocolate", "es": "Chocolate", "it": "Cioccolato"}, "emoji": "🍫", "members": ["chocolat-noir", "chocolat-au-lait", "chocolat-blanc", "cacao", "vermicelles-chocolat"]},

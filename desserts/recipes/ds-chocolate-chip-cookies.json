@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-chocolate-chip-cookies",
+  "title": {"fr": "Cookies aux pépites de chocolat", "en": "Chocolate chip cookies", "es": "Galletas con pepitas de chocolate", "it": "Cookies con gocce di cioccolato"},
+  "summary": {
+    "fr": "Le grand classique américain : des biscuits dorés et croustillants sur les bords, moelleux au centre, parfumés à la vanille et à la cassonade et constellés de pépites de chocolat noir.",
+    "en": "The great American classic: cookies that are golden and crisp at the edges, soft in the middle, flavoured with vanilla and brown sugar and studded with dark chocolate chips.",
+    "es": "El gran clásico estadounidense: galletas doradas y crujientes por los bordes, tiernas por dentro, con aroma de vainilla y azúcar moreno y salpicadas de pepitas de chocolate negro.",
+    "it": "Il grande classico americano: biscotti dorati e croccanti ai bordi, morbidi al centro, profumati alla vaniglia e allo zucchero di canna e punteggiati di gocce di cioccolato fondente."
+  },
+  "story": {
+    "fr": "Les cookies aux pépites de chocolat ont été mis au point dans les années 1930 par Ruth Wakefield, qui tenait avec son mari le Toll House Inn, une auberge de Whitman, dans le Massachusetts ; elle ajoutait à sa pâte une tablette de chocolat mi-amer coupée en morceaux. La recette, publiée en 1938 dans son livre de cuisine, a ensuite été imprimée sur les emballages du chocolatier Nestlé, qui a lancé ses pépites de chocolat peu après. Le Massachusetts en a fait son biscuit officiel en 1997.",
+    "en": "Chocolate chip cookies were created in the 1930s by Ruth Wakefield, who ran the Toll House Inn with her husband in Whitman, Massachusetts; she stirred a bar of semi-sweet chocolate, chopped into pieces, into her dough. The recipe, published in her cookbook in 1938, was then printed on Nestlé's packaging, and the company brought out its chocolate chips soon afterwards. In 1997, Massachusetts adopted the chocolate chip cookie as its official state cookie.",
+    "es": "Las galletas con pepitas de chocolate las ideó en los años treinta Ruth Wakefield, que regentaba con su marido el Toll House Inn, una posada de Whitman, en Massachusetts; añadía a la masa una tableta de chocolate semiamargo cortada en trozos. La receta, publicada en su libro de cocina en 1938, se imprimió después en los envoltorios de Nestlé, que poco más tarde lanzó sus pepitas de chocolate. En 1997 pasaron a ser la galleta oficial del estado de Massachusetts.",
+    "it": "I cookies con gocce di cioccolato furono messi a punto negli anni Trenta da Ruth Wakefield, che gestiva con il marito il Toll House Inn, una locanda di Whitman, nel Massachusetts; all'impasto aggiungeva una tavoletta di cioccolato semiamaro tagliata a pezzetti. La ricetta, pubblicata nel suo libro di cucina nel 1938, fu poi stampata sulle confezioni del cioccolato Nestlé, che poco dopo lanciò le sue gocce di cioccolato. Nel 1997 il Massachusetts ne ha fatto il biscotto ufficiale dello Stato."
+  },
+  "region": {"fr": "Massachusetts", "en": "Massachusetts", "es": "Massachusetts", "it": "Massachusetts"},
+  "origin": {"countries": ["US"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": ["gouter"],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 22,
+  "servings": 12,
+  "heroImage": "images/ds-chocolate-chip-cookies/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 140, "unit": "g"},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "beurre", "quantity": 115, "unit": "g"},
+    {"ref": "sucre", "quantity": 75, "unit": "g"},
+    {"ref": "cassonade", "quantity": 80, "unit": "g"},
+    {"ref": "vanille", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "chocolat-noir", "quantity": 170, "unit": "g"},
+    {"ref": "noix", "quantity": 60, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 190 °C et chemisez deux plaques de papier cuisson.", "en": "Preheat the oven to 190 °C and line two baking trays with baking paper.", "es": "Precalienta el horno a 190 °C y forra dos bandejas con papel de horno.", "it": "Preriscalda il forno a 190 °C e fodera due teglie con carta forno."}},
+    {"text": {"fr": "Dans un bol, mélangez la farine, le bicarbonate et le sel.", "en": "In a bowl, mix the flour, bicarbonate of soda and salt.", "es": "En un bol, mezcla la harina, el bicarbonato y la sal.", "it": "In una ciotola mescola la farina, il bicarbonato e il sale."}},
+    {"text": {"fr": "Dans un saladier, battez le beurre mou avec le sucre, la cassonade et l'extrait de vanille jusqu'à obtenir un mélange crémeux.", "en": "In a mixing bowl, beat the softened butter with the caster sugar, brown sugar and vanilla extract until creamy.", "es": "En un bol grande, bate la mantequilla blanda con el azúcar, el azúcar moreno y el extracto de vainilla hasta obtener una mezcla cremosa.", "it": "In una ciotola capiente lavora il burro morbido con lo zucchero semolato, lo zucchero di canna e l'estratto di vaniglia fino a ottenere un composto cremoso."}},
+    {"text": {"fr": "Incorporez l'œuf en battant bien.", "en": "Beat in the egg thoroughly.", "es": "Incorpora el huevo y bate bien.", "it": "Incorpora l'uovo sbattendo bene."}},
+    {"text": {"fr": "Ajoutez le mélange de farine en deux fois et mélangez juste assez pour qu'il ne reste plus de traces de farine.", "en": "Add the flour mixture in two goes and mix just until no streaks of flour remain.", "es": "Añade la mezcla de harina en dos veces y mezcla solo hasta que no queden restos de harina.", "it": "Aggiungi il composto di farina in due riprese e mescola solo finché non restano tracce di farina."}},
+    {"text": {"fr": "Incorporez à la spatule les pépites de chocolat noir (ou une tablette hachée grossièrement) et, si vous le souhaitez, les noix hachées.", "en": "Fold in the dark chocolate chips (or a bar, roughly chopped) and, if you like, the chopped walnuts.", "es": "Incorpora con una espátula las pepitas de chocolate negro (o una tableta troceada) y, si quieres, las nueces picadas.", "it": "Incorpora con una spatola le gocce di cioccolato fondente (o una tavoletta tritata grossolanamente) e, se ti va, le noci tritate."}},
+    {"text": {"fr": "Déposez la pâte sur les plaques en 24 petits tas d'une cuillerée à soupe bombée, en les espaçant de 5 cm.", "en": "Drop the dough onto the trays in 24 heaped tablespoons, spacing them 5 cm apart.", "es": "Reparte la masa en las bandejas en 24 montoncitos de una cucharada colmada, separados 5 cm entre sí.", "it": "Disponi l'impasto sulle teglie in 24 mucchietti da un cucchiaio colmo, distanziati di 5 cm."}},
+    {"text": {"fr": "Faites cuire une plaque à la fois 9 à 11 minutes, jusqu'à ce que les bords soient dorés et que le centre soit encore pâle et tendre.", "en": "Bake one tray at a time for 9 to 11 minutes, until golden at the edges but still pale and soft in the centre.", "es": "Hornea las bandejas de una en una de 9 a 11 minutos, hasta que los bordes estén dorados y el centro siga pálido y tierno.", "it": "Cuoci una teglia alla volta per 9-11 minuti, finché i bordi sono dorati e il centro è ancora chiaro e morbido."}, "timerMinutes": 11},
+    {"text": {"fr": "Laissez les cookies reposer 2 minutes sur la plaque, puis faites-les glisser sur une grille pour qu'ils refroidissent.", "en": "Leave the cookies on the tray for 2 minutes, then slide them onto a wire rack to cool.", "es": "Deja reposar las galletas 2 minutos en la bandeja y pásalas a una rejilla para que se enfríen.", "it": "Lascia riposare i cookies 2 minuti sulla teglia, poi trasferiscili su una gratella a raffreddare."}, "timerMinutes": 2}
+  ]
+}

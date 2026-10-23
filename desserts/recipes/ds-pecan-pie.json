@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-pecan-pie",
+  "title": {"fr": "Tarte aux noix de pécan", "en": "Pecan pie", "es": "Tarta de nueces pecanas", "it": "Pecan pie"},
+  "summary": {
+    "fr": "La tarte du Sud des États-Unis : une pâte brisée au beurre garnie de noix de pécan, prises dans une crème fondante au sirop et à la cassonade.",
+    "en": "The great pie of the American South: a buttery crust filled with pecans set in a gooey brown-sugar and syrup custard.",
+    "es": "La tarta del sur de Estados Unidos: una masa quebrada de mantequilla rellena de nueces pecanas, envueltas en una crema melosa de sirope y azúcar moreno.",
+    "it": "La torta del Sud degli Stati Uniti: una pasta brisée al burro farcita di noci pecan, immerse in una crema morbida di sciroppo e zucchero di canna."
+  },
+  "story": {
+    "fr": "Le pacanier est originaire du sud des États-Unis et du nord du Mexique, et sa noix est cultivée de longue date en Géorgie, au Texas ou au Nouveau-Mexique. Des tartes aux noix de pécan liées au sirop apparaissent dans les livres de cuisine américains à la fin du XIXe siècle, et la recette s'est répandue au XXe siècle, notamment grâce à un grand fabricant de sirop de maïs, qui l'imprimait sur ses étiquettes. Cette tarte reste l'un des desserts incontournables de Thanksgiving et des fêtes de fin d'année.",
+    "en": "The pecan tree is native to the southern United States and northern Mexico, and its nuts have long been grown in Georgia, Texas and New Mexico. Syrup-bound pecan pies appeared in American cookbooks in the late 19th century, and the recipe spread in the 20th century, helped along by a major corn syrup maker, which printed it on its labels. Pecan pie remains a fixture of Thanksgiving and the end-of-year holidays.",
+    "es": "El pacano es originario del sur de Estados Unidos y del norte de México, y su nuez se cultiva desde hace mucho en Georgia, Texas o Nuevo México. Las tartas de nueces pecanas ligadas con sirope aparecen en los libros de cocina estadounidenses a finales del siglo XIX, y la receta se difundió en el siglo XX, en parte gracias a un gran fabricante de jarabe de maíz, que la imprimía en sus etiquetas. Esta tarta sigue siendo uno de los postres imprescindibles de Acción de Gracias y de las fiestas de fin de año.",
+    "it": "Il pecan è originario del sud degli Stati Uniti e del nord del Messico, e le sue noci si coltivano da tempo in Georgia, Texas o Nuovo Messico. Torte di noci pecan legate con lo sciroppo compaiono nei ricettari americani alla fine dell'Ottocento, e la ricetta si è diffusa nel Novecento, anche grazie a un grande produttore di sciroppo di mais, che la stampava sulle sue etichette. La pecan pie resta uno dei dolci immancabili del Ringraziamento e delle feste di fine anno."
+  },
+  "region": {"fr": "Sud des États-Unis", "en": "Southern United States", "es": "Sur de Estados Unidos", "it": "Sud degli Stati Uniti"},
+  "origin": {"countries": ["US"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 55,
+  "servings": 8,
+  "heroImage": "images/ds-pecan-pie/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 180, "unit": "g"},
+    {"ref": "sucre", "quantity": 10, "unit": "g"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "beurre", "quantity": 155, "unit": "g"},
+    {"ref": "eau", "quantity": 60, "unit": "ml"},
+    {"ref": "noix-de-pecan", "quantity": 200, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "sirop-de-glucose", "quantity": 250, "unit": "g", "substitutes": ["sirop-de-sucre-inverti"]},
+    {"ref": "cassonade", "quantity": 150, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Sablez du bout des doigts la farine, le sucre, ¼ de cuillerée à café de sel et 115 g de beurre très froid en dés, en gardant des morceaux de beurre gros comme des petits pois.", "en": "Rub the flour, sugar, ¼ teaspoon of the salt and 115 g of very cold diced butter together with your fingertips, leaving pea-sized pieces of butter.", "es": "Arena con la punta de los dedos la harina, el azúcar, ¼ de cucharadita de sal y 115 g de mantequilla muy fría en dados, dejando trozos de mantequilla del tamaño de un guisante.", "it": "Lavora con la punta delle dita la farina, lo zucchero, ¼ di cucchiaino di sale e 115 g di burro freddissimo a dadini, fino a ottenere un composto sabbioso con pezzetti di burro grandi come piselli."}},
+    {"text": {"fr": "Ajoutez l'eau glacée cuillerée par cuillerée, en mélangeant à la fourchette, juste jusqu'à ce que la pâte se tienne quand on la presse.", "en": "Add the iced water a spoonful at a time, stirring with a fork, just until the dough holds together when pressed.", "es": "Añade el agua helada cucharada a cucharada, mezclando con un tenedor, solo hasta que la masa se mantenga unida al apretarla.", "it": "Aggiungi l'acqua ghiacciata un cucchiaio alla volta, mescolando con una forchetta, solo finché l'impasto sta insieme quando lo premi."}},
+    {"text": {"fr": "Aplatissez la pâte en disque, filmez-la et laissez-la reposer 1 heure au réfrigérateur.", "en": "Flatten the dough into a disc, wrap it in cling film and chill for 1 hour.", "es": "Aplana la masa en forma de disco, envuélvela en film transparente y déjala reposar 1 hora en la nevera.", "it": "Schiaccia l'impasto a disco, avvolgilo nella pellicola e lascialo riposare 1 ora in frigorifero."}, "timerMinutes": 60},
+    {"text": {"fr": "Abaissez la pâte en un cercle de 30 cm, foncez-en un moule à tarte de 23 cm, repliez le bord qui dépasse et cannelez-le entre vos doigts, puis réservez 30 minutes au réfrigérateur.", "en": "Roll the dough out into a 30 cm circle, use it to line a 23 cm pie dish, tuck the overhang under and crimp the edge with your fingers, then chill for 30 minutes.", "es": "Estira la masa en un círculo de 30 cm, forra con ella un molde para tarta de 23 cm, dobla hacia dentro el borde sobrante y ondúlalo con los dedos; después, déjala 30 minutos en la nevera.", "it": "Stendi la pasta in un cerchio di 30 cm, usala per foderare una tortiera da 23 cm, ripiega verso l'interno il bordo in eccesso e pizzicalo con le dita per decorarlo, poi metti in frigorifero per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Pendant ce temps, préchauffez le four à 180 °C.", "en": "Meanwhile, preheat the oven to 180 °C.", "es": "Mientras tanto, precalienta el horno a 180 °C.", "it": "Nel frattempo, preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Faites fondre les 40 g de beurre restants et laissez-le tiédir.", "en": "Melt the remaining 40 g of butter and leave it to cool slightly.", "es": "Derrite los 40 g de mantequilla restantes y deja que se temple.", "it": "Fai fondere i 40 g di burro rimasti e lascialo intiepidire."}, "timerMinutes": 5},
+    {"text": {"fr": "Dans un saladier, fouettez les œufs, puis ajoutez le sirop de glucose (le corn syrup américain), la cassonade, le beurre fondu, l'extrait de vanille et le ¼ de cuillerée à café de sel restant, et fouettez juste jusqu'à ce que le mélange soit lisse, sans le faire mousser.", "en": "In a large bowl, whisk the eggs, then add the glucose syrup (American light corn syrup), the brown sugar, melted butter, vanilla extract and the remaining ¼ teaspoon of salt, and whisk just until smooth, without making it froth.", "es": "En un bol grande, bate los huevos y añade el jarabe de glucosa (el corn syrup estadounidense), el azúcar moreno, la mantequilla derretida, el extracto de vainilla y el ¼ de cucharadita de sal restante; bate solo hasta que la mezcla quede lisa, sin que haga espuma.", "it": "In una ciotola sbatti le uova, poi aggiungi lo sciroppo di glucosio (il corn syrup americano), lo zucchero di canna, il burro fuso, l'estratto di vaniglia e il ¼ di cucchiaino di sale rimasto, e mescola con la frusta solo finché il composto è liscio, senza farlo schiumare."}},
+    {"text": {"fr": "Répartissez les noix de pécan dans le fond de tarte, puis versez la garniture par-dessus : les noix remontent à la surface.", "en": "Scatter the pecans over the pastry case, then pour the filling over them: the nuts will float to the top.", "es": "Reparte las nueces pecanas sobre la base de masa y vierte el relleno por encima: las nueces subirán a la superficie.", "it": "Distribuisci le noci pecan nel guscio di pasta, poi versaci sopra il ripieno: le noci risaliranno in superficie."}},
+    {"text": {"fr": "Faites cuire 50 à 55 minutes, jusqu'à ce que la garniture soit gonflée et prise sur les bords mais encore légèrement tremblotante au centre ; couvrez le bord d'une feuille d'aluminium s'il colore trop vite.", "en": "Bake for 50 to 55 minutes, until the filling has puffed up and set at the edges but still has a slight wobble in the centre; cover the crust edge with foil if it browns too quickly.", "es": "Hornea de 50 a 55 minutos, hasta que el relleno se haya hinchado y esté cuajado en los bordes pero aún tiemble ligeramente en el centro; cubre el borde con papel de aluminio si se dora demasiado deprisa.", "it": "Inforna per 50-55 minuti, finché il ripieno si è gonfiato ed è rappreso sui bordi ma ancora leggermente tremolante al centro; copri il bordo con un foglio di alluminio se si colora troppo in fretta."}, "timerMinutes": 55},
+    {"text": {"fr": "Laissez refroidir au moins 2 heures sur une grille pour que la garniture se raffermisse, puis servez à température ambiante.", "en": "Leave to cool on a wire rack for at least 2 hours so the filling can set, then serve at room temperature.", "es": "Deja enfriar sobre una rejilla al menos 2 horas para que el relleno se asiente y sírvela a temperatura ambiente.", "it": "Lascia raffreddare su una gratella per almeno 2 ore perché il ripieno si rassodi, poi servi a temperatura ambiente."}, "timerMinutes": 120}
+  ]
+}
