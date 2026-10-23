@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-alfajores",
+  "title": {"fr": "Alfajores", "en": "Alfajores", "es": "Alfajores", "it": "Alfajores"},
+  "summary": {
+    "fr": "Deux sablés fondants à la fécule de maïs, soudés par une généreuse couche de confiture de lait et roulés dans la noix de coco : le biscuit qui accompagne le maté sur les deux rives du Río de la Plata.",
+    "en": "Two melt-in-the-mouth cornflour biscuits sandwiched with a generous layer of dulce de leche and rolled in coconut: the treat that goes with mate on both banks of the Río de la Plata.",
+    "es": "Dos galletas tiernas de maicena unidas por una generosa capa de dulce de leche y rebozadas en coco: el bocado que acompaña al mate en las dos orillas del Río de la Plata.",
+    "it": "Due frollini friabilissimi all'amido di mais uniti da un generoso strato di dulce de leche e passati nel cocco: il dolcetto che accompagna il mate sulle due sponde del Río de la Plata."
+  },
+  "story": {
+    "fr": "Le mot alfajor vient de l'arabe andalou, et l'Espagne connaît encore des alfajores très différents, à base de miel, d'amandes et d'épices, comme ceux de Medina Sidonia, en Andalousie. Sur les deux rives du Río de la Plata, l'Argentine et l'Uruguay partagent la tradition d'un alfajor devenu biscuit double fourré de confiture de lait, décliné en d'innombrables versions artisanales et industrielles. L'alfajor de maicena, à la fécule de maïs et bordé de noix de coco râpée, est le classique fait maison, qu'on sert au goûter avec un maté ou un café.",
+    "en": "The word alfajor comes from Andalusian Arabic, and Spain still makes very different alfajores, based on honey, almonds and spices, such as those of Medina Sidonia in Andalusia. On both banks of the Río de la Plata, Argentina and Uruguay share the tradition of an alfajor that became a sandwich biscuit filled with dulce de leche, made in countless homemade and factory versions. The alfajor de maicena, made with cornflour and edged with desiccated coconut, is the homemade classic, served in the afternoon with mate or coffee.",
+    "es": "La palabra alfajor viene del árabe andalusí, y en España todavía se elaboran alfajores muy distintos, de miel, almendra y especias, como los de Medina Sidonia, en Andalucía. En las dos orillas del Río de la Plata, Argentina y Uruguay comparten la tradición de un alfajor convertido en dos galletas unidas con dulce de leche, con innumerables versiones caseras e industriales. El alfajor de maicena, con su borde de coco rallado, es el clásico casero que se sirve a la hora de la merienda con un mate o un café.",
+    "it": "La parola alfajor viene dall'arabo andaluso, e in Spagna si preparano ancora alfajores molto diversi, a base di miele, mandorle e spezie, come quelli di Medina Sidonia, in Andalusia. Sulle due sponde del Río de la Plata, Argentina e Uruguay condividono la tradizione di un alfajor diventato doppio biscotto farcito di dulce de leche, in innumerevoli versioni casalinghe e industriali. L'alfajor de maicena, all'amido di mais e con il bordo di cocco grattugiato, è il classico fatto in casa, servito a merenda con un mate o un caffè."
+  },
+  "region": {"fr": "Río de la Plata", "en": "Río de la Plata", "es": "Río de la Plata", "it": "Río de la Plata"},
+  "origin": {"countries": ["AR", "UY"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 20,
+  "servings": 12,
+  "heroImage": "images/ds-alfajores/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 200, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "cognac", "quantity": 1, "unit": "tbsp", "optional": true, "substitutes": ["rhum"]},
+    {"ref": "fecule-de-mais", "quantity": 300, "unit": "g"},
+    {"ref": "farine", "quantity": 200, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 2, "unit": "tsp"},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "confiture-de-lait", "quantity": 500, "unit": "g"},
+    {"ref": "noix-de-coco-rapee", "quantity": 60, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Fouettez le beurre mou avec le sucre jusqu'à obtenir une crème pâle et légère.", "en": "Beat the soft butter with the sugar until pale and fluffy.", "es": "Bate la mantequilla blanda con el azúcar hasta obtener una crema clara y esponjosa.", "it": "Lavora il burro morbido con lo zucchero fino a ottenere una crema chiara e spumosa."}},
+    {"text": {"fr": "Incorporez les 3 jaunes d'œufs un à un, puis l'extrait de vanille, le zeste râpé du citron et, si vous le souhaitez, le cognac.", "en": "Beat in the 3 egg yolks one at a time, then the vanilla extract, the grated lemon zest and, if you like, the brandy.", "es": "Incorpora las 3 yemas de una en una y, después, el extracto de vainilla, la ralladura del limón y, si quieres, el coñac.", "it": "Incorpora i 3 tuorli uno alla volta, poi l'estratto di vaniglia, la scorza grattugiata del limone e, se ti va, il brandy."}},
+    {"text": {"fr": "Tamisez par-dessus la fécule de maïs, la farine, la levure chimique et le bicarbonate, puis mélangez juste assez pour obtenir une pâte souple et homogène, sans la travailler.", "en": "Sift the cornflour, flour, baking powder and bicarbonate of soda over the top and mix just until you have a soft, even dough, without overworking it.", "es": "Tamiza encima la maicena, la harina, la levadura en polvo y el bicarbonato, y mezcla lo justo para obtener una masa suave y homogénea, sin trabajarla de más.", "it": "Setaccia sopra l'amido di mais, la farina, il lievito per dolci e il bicarbonato e mescola quanto basta per ottenere un impasto morbido e omogeneo, senza lavorarlo troppo."}},
+    {"text": {"fr": "Aplatissez la pâte en disque, filmez-la et laissez-la reposer 30 minutes au réfrigérateur.", "en": "Flatten the dough into a disc, wrap it in cling film and chill for 30 minutes.", "es": "Aplana la masa en forma de disco, envuélvela en film transparente y déjala reposar 30 minutos en la nevera.", "it": "Appiattisci l'impasto a disco, avvolgilo nella pellicola e lascialo riposare 30 minuti in frigorifero."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 170 °C.", "en": "Preheat the oven to 170 °C.", "es": "Precalienta el horno a 170 °C.", "it": "Preriscalda il forno a 170 °C."}},
+    {"text": {"fr": "Abaissez la pâte sur 5 mm d'épaisseur entre deux feuilles de papier cuisson, détaillez des disques de 5 cm à l'emporte-pièce en réabaissant les chutes, et posez-les sur deux plaques chemisées.", "en": "Roll the dough out 5 mm thick between two sheets of baking paper, stamp out 5 cm rounds with a cutter, re-rolling the trimmings, and lay them on two lined baking trays.", "es": "Estira la masa a 5 mm de grosor entre dos hojas de papel de horno, corta discos de 5 cm con un cortapastas, volviendo a estirar los recortes, y colócalos en dos bandejas forradas.", "it": "Stendi l'impasto a 5 mm di spessore tra due fogli di carta forno, ricava dei dischi di 5 cm con un coppapasta, reimpastando i ritagli, e disponili su due teglie rivestite."}},
+    {"text": {"fr": "Faites cuire une plaque à la fois 8 à 10 minutes : les biscuits doivent rester pâles, à peine blonds dessous.", "en": "Bake one tray at a time for 8 to 10 minutes: the biscuits should stay pale, only just golden underneath.", "es": "Hornea las bandejas de una en una de 8 a 10 minutos: las galletas deben quedar pálidas, apenas doradas por debajo.", "it": "Inforna una teglia alla volta per 8-10 minuti: i biscotti devono restare chiari, appena dorati sotto."}, "timerMinutes": 10},
+    {"text": {"fr": "Laissez-les refroidir complètement sur la plaque, car ils sont très friables tant qu'ils sont chauds.", "en": "Leave them to cool completely on the tray, as they are very crumbly while warm.", "es": "Déjalas enfriar por completo en la bandeja, porque en caliente se rompen con facilidad.", "it": "Lasciali raffreddare completamente sulla teglia, perché da caldi sono molto friabili."}, "timerMinutes": 20},
+    {"text": {"fr": "Étalez une bonne cuillerée de confiture de lait sur la moitié des biscuits et recouvrez-les des autres en appuyant légèrement, pour que la garniture affleure au bord.", "en": "Spread a generous spoonful of dulce de leche on half the biscuits and top with the rest, pressing gently so the filling reaches the edge.", "es": "Unta una buena cucharada de dulce de leche en la mitad de las galletas y cúbrelas con las demás, apretando un poco para que el relleno asome por el borde.", "it": "Spalma un bel cucchiaio di dulce de leche su metà dei biscotti e coprili con gli altri premendo appena, perché il ripieno arrivi al bordo."}},
+    {"text": {"fr": "Roulez le tour de chaque alfajor dans la noix de coco râpée, puis servez.", "en": "Roll the edge of each alfajor in the desiccated coconut, then serve.", "es": "Haz rodar el borde de cada alfajor sobre el coco rallado y sírvelos.", "it": "Fai rotolare il bordo di ogni alfajor nel cocco grattugiato, poi servi."}}
+  ]
+}

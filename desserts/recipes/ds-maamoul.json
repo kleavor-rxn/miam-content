@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-maamoul",
+  "title": {"fr": "Maamoul", "en": "Maamoul", "es": "Maamoul", "it": "Maamoul"},
+  "summary": {
+    "fr": "Les petits gâteaux de semoule du Levant, sablés au ghee et parfumés à la fleur d'oranger, fourrés de noix à l'eau de rose, pressés dans un moule puis poudrés de sucre glace.",
+    "en": "The Levant's little semolina pastries, made short with ghee and scented with orange blossom, filled with rose-scented walnuts, pressed into a mould and dusted with icing sugar.",
+    "es": "Los pastelitos de sémola del Levante, arenosos gracias al ghee y perfumados con agua de azahar, rellenos de nueces con agua de rosas, prensados en un molde y espolvoreados con azúcar glas.",
+    "it": "I dolcetti di semolino del Levante, friabili grazie al ghee e profumati all'acqua di fiori d'arancio, ripieni di noci all'acqua di rose, pressati nello stampo e spolverati di zucchero a velo."
+  },
+  "story": {
+    "fr": "Le maamoul est un petit gâteau fourré que l'on prépare dans tout le Levant, de la Syrie au Liban et à la Palestine. On le farcit de dattes, de noix ou de pistaches, et chaque farce a sa forme, imprimée dans un moule en bois sculpté ; les maamoul aux noix et aux pistaches sont souvent couverts de sucre glace. Les familles le confectionnent en grandes quantités pour l'Aïd el-Fitr, qui clôt le ramadan, et pour l'Aïd el-Adha, tandis que les chrétiens de la région le préparent pour Pâques.",
+    "en": "Maamoul are small filled pastries made right across the Levant, from Syria to Lebanon and Palestine. They are filled with dates, walnuts or pistachios, and each filling has its own shape, pressed into a carved wooden mould; the walnut and pistachio ones are often blanketed in icing sugar. Families bake them in large batches for Eid al-Fitr, which marks the end of Ramadan, and for Eid al-Adha, while the region's Christians make them for Easter.",
+    "es": "El maamoul es un pastelito relleno que se prepara en todo el Levante, de Siria al Líbano y Palestina. Se rellena de dátiles, nueces o pistachos, y cada relleno tiene su forma, impresa con un molde de madera tallada; los maamoul de nueces y pistachos suelen cubrirse de azúcar glas. Las familias los preparan en grandes cantidades para el Eid al-Fitr, que pone fin al ramadán, y para el Eid al-Adha, mientras que los cristianos de la región los hacen por Pascua.",
+    "it": "Il maamoul è un dolcetto ripieno che si prepara in tutto il Levante, dalla Siria al Libano e alla Palestina. Si farcisce di datteri, noci o pistacchi, e ogni ripieno ha la sua forma, impressa con uno stampo di legno intagliato; i maamoul alle noci e ai pistacchi sono spesso ricoperti di zucchero a velo. Le famiglie li preparano in grandi quantità per l'Eid al-Fitr, che chiude il Ramadan, e per l'Eid al-Adha, mentre i cristiani della regione li fanno per Pasqua."
+  },
+  "region": {"fr": "Levant", "en": "Levant", "es": "Levante", "it": "Levante"},
+  "origin": {"countries": ["SY", "LB", "PS"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": ["ramadan-aid", "paques"],
+  "difficulty": 2,
+  "prepMinutes": 60,
+  "cookMinutes": 20,
+  "servings": 12,
+  "heroImage": "images/ds-maamoul/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "semoule-de-ble", "quantity": 400, "unit": "g"},
+    {"ref": "ghee", "quantity": 200, "unit": "g", "substitutes": ["beurre"]},
+    {"ref": "sucre", "quantity": 90, "unit": "g"},
+    {"ref": "mahaleb", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 3, "unit": "tbsp"},
+    {"ref": "eau-de-rose", "quantity": 3, "unit": "tbsp"},
+    {"ref": "lait", "quantity": 50, "unit": "ml"},
+    {"ref": "noix", "quantity": 200, "unit": "g"},
+    {"ref": "cannelle", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "sucre-glace", "quantity": 50, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une petite casserole, faites fondre le ghee jusqu'à ce qu'il soit bien chaud.", "en": "In a small saucepan, melt the ghee until it is good and hot.", "es": "En un cazo pequeño, derrite el ghee hasta que esté bien caliente.", "it": "In un pentolino fai sciogliere il ghee finché è ben caldo."}, "timerMinutes": 3},
+    {"text": {"fr": "Dans un grand saladier, mélangez la semoule (idéalement moitié fine, moitié moyenne), 40 g de sucre et, si vous le souhaitez, le mahaleb, puis versez le ghee chaud et frottez le tout entre vos paumes jusqu'à ce que chaque grain soit enrobé de gras.", "en": "In a large bowl, combine the semolina (ideally half fine, half medium), 40 g of the sugar and the mahlab if you like, then pour in the hot ghee and rub everything between your palms until every grain is coated in fat.", "es": "En un bol grande, mezcla la sémola (a ser posible, mitad fina y mitad media), 40 g de azúcar y, si quieres, el mahlab; vierte el ghee caliente y frota todo entre las palmas hasta que cada grano quede impregnado de grasa.", "it": "In una ciotola capiente mescola il semolino (idealmente metà fine e metà medio), 40 g di zucchero e, se ti va, il mahlab, poi versa il ghee caldo e strofina il tutto tra i palmi finché ogni granello è ben unto."}},
+    {"text": {"fr": "Couvrez et laissez reposer une nuit à température ambiante : la semoule s'imprègne de ghee et la pâte sera plus friable.", "en": "Cover and leave overnight at room temperature: the semolina soaks up the ghee, which makes the pastry more crumbly.", "es": "Tapa y deja reposar toda la noche a temperatura ambiente: la sémola se impregna de ghee y la masa quedará más arenosa.", "it": "Copri e lascia riposare una notte a temperatura ambiente: il semolino si impregna di ghee e l'impasto risulterà più friabile."}, "timerMinutes": 480},
+    {"text": {"fr": "Pour la farce, hachez grossièrement les noix et mélangez-les avec 50 g de sucre, 1 cuillerée à soupe d'eau de rose et, si vous le souhaitez, la cannelle.", "en": "For the filling, roughly chop the walnuts and mix them with 50 g of sugar, 1 tablespoon of rose water and the cinnamon if you like.", "es": "Para el relleno, pica las nueces en trozos gruesos y mézclalas con 50 g de azúcar, 1 cucharada de agua de rosas y, si quieres, la canela.", "it": "Per il ripieno, trita grossolanamente le noci e mescolale con 50 g di zucchero, 1 cucchiaio di acqua di rose e, se ti va, la cannella."}},
+    {"text": {"fr": "Ajoutez à la semoule l'eau de fleur d'oranger, les 2 cuillerées à soupe d'eau de rose restantes et le lait, puis pétrissez juste assez pour que la pâte se tienne ; couvrez et laissez reposer 30 minutes.", "en": "Add the orange blossom water, the remaining 2 tablespoons of rose water and the milk to the semolina, then knead just enough for the dough to hold together; cover and leave to rest for 30 minutes.", "es": "Añade a la sémola el agua de azahar, las 2 cucharadas de agua de rosas restantes y la leche, y amasa lo justo para que la masa se ligue; tapa y deja reposar 30 minutos.", "it": "Aggiungi al semolino l'acqua di fiori d'arancio, i 2 cucchiai di acqua di rose rimasti e il latte, poi impasta quanto basta perché l'impasto stia insieme; copri e lascia riposare 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Prélevez environ 30 g de pâte, creusez-la en coupelle dans le creux de la main, garnissez-la d'une cuillerée à café bombée de farce et refermez-la en boule. Recommencez avec le reste de la pâte (environ 24 pièces).", "en": "Take about 30 g of dough, hollow it into a little cup in the palm of your hand, fill it with a heaped teaspoon of the walnut mixture and close it into a ball. Repeat with the rest of the dough (about 24 pastries).", "es": "Toma unos 30 g de masa, ahuécala en forma de cuenco en la palma de la mano, rellénala con una cucharadita colmada de relleno y ciérrala en forma de bola. Repite con el resto de la masa (unas 24 piezas).", "it": "Preleva circa 30 g di impasto, scavalo a coppetta nel palmo della mano, farciscilo con un cucchiaino colmo di ripieno e richiudilo a palla. Ripeti con il resto dell'impasto (circa 24 pezzi)."}},
+    {"text": {"fr": "Pressez chaque boule dans le moule à maamoul et démoulez-la sur une plaque d'un coup sec ; sans moule, aplatissez légèrement les boules sur la plaque et décorez le dessus à la pince à pâtisserie.", "en": "Press each ball into the maamoul mould and knock it out onto a baking tray with a sharp tap; without a mould, flatten the balls slightly on the tray and pinch a pattern on top with pastry tweezers.", "es": "Presiona cada bola en el molde de maamoul y desmóldala sobre una bandeja de horno con un golpe seco; si no tienes molde, aplana un poco las bolas sobre la bandeja y decora la superficie con unas pinzas de repostería.", "it": "Premi ogni pallina nello stampo per maamoul e sformala su una teglia con un colpo secco; senza stampo, appiattisci leggermente le palline sulla teglia e decora la superficie con una pinzetta da pasticceria."}},
+    {"text": {"fr": "Enfournez 15 à 20 minutes : le dessous doit être doré et le dessus rester pâle.", "en": "Bake for 15 to 20 minutes: the bases should be golden and the tops still pale.", "es": "Hornea de 15 a 20 minutos: la base debe quedar dorada y la superficie, pálida.", "it": "Inforna per 15-20 minuti: la base deve essere dorata e la superficie restare chiara."}, "timerMinutes": 20},
+    {"text": {"fr": "Laissez refroidir complètement sur la plaque, car encore chauds ils sont très fragiles, puis poudrez généreusement de sucre glace avant de servir. Les maamoul se conservent deux semaines dans une boîte hermétique.", "en": "Leave to cool completely on the tray, as they are very fragile while still warm, then dust generously with icing sugar before serving. Maamoul keep for two weeks in an airtight tin.", "es": "Déjalos enfriar por completo en la bandeja, porque en caliente son muy frágiles, y espolvoréalos generosamente con azúcar glas antes de servir. Los maamoul se conservan dos semanas en una caja hermética.", "it": "Lasciali raffreddare completamente sulla teglia, perché da caldi sono molto fragili, poi spolverali generosamente di zucchero a velo prima di servire. I maamoul si conservano due settimane in una scatola ermetica."}, "timerMinutes": 30}
+  ]
+}

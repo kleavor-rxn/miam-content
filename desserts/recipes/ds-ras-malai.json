@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-ras-malai",
+  "title": {"fr": "Ras malai", "en": "Ras malai", "es": "Ras malai", "it": "Ras malai"},
+  "summary": {
+    "fr": "Des disques de caillé frais pochés dans un sirop bouillant, puis baignés de lait réduit au safran et à la cardamome : la douceur bengalie qui se savoure bien froide.",
+    "en": "Discs of fresh curd cheese poached in boiling syrup, then bathed in reduced milk scented with saffron and cardamom: a Bengali sweet best eaten well chilled.",
+    "es": "Discos de cuajada fresca cocidos en almíbar hirviendo y bañados después en leche reducida con azafrán y cardamomo: el dulce bengalí que se toma bien frío.",
+    "it": "Dischetti di cagliata fresca cotti in uno sciroppo bollente, poi immersi nel latte ridotto allo zafferano e al cardamomo: il dolce bengalese da gustare ben freddo."
+  },
+  "story": {
+    "fr": "Son nom réunit ras, le jus ou le sirop, et malai, la crème. Douceur du Bengale, le ras malai est revendiqué des deux côtés de la frontière : au Bangladesh, la ville de Comilla en a fait sa spécialité la plus célèbre, tandis qu'à Calcutta, en Inde, une famille de confiseurs affirme l'avoir inventé, et son origine reste disputée. Ses disques sont faits de chhena, le caillé frais obtenu en faisant tourner du lait au jus de citron, la même base que les rasgulla. On le sert bien froid pour les fêtes et les mariages, au Bangladesh comme en Inde.",
+    "en": "Its name combines ras, juice or syrup, and malai, cream. A Bengali sweet, ras malai is claimed on both sides of the border: in Bangladesh the town of Comilla has made it its most famous speciality, while in Kolkata, in India, a family of confectioners claims to have invented it, so its origin remains disputed. The discs are made of chhena, fresh curd obtained by splitting milk with lemon juice, the same base as rasgulla. It is served well chilled at festivals and weddings, in Bangladesh and India alike.",
+    "es": "Su nombre une ras, el jugo o almíbar, y malai, la nata. Este dulce de Bengala se lo disputan a ambos lados de la frontera: en Bangladés, la ciudad de Comilla lo ha convertido en su especialidad más famosa, mientras que en Calcuta, en la India, una familia de confiteros asegura haberlo inventado, de modo que su origen sigue siendo discutido. Los discos se hacen con chhena, la cuajada fresca que se obtiene cortando la leche con zumo de limón, la misma base que los rasgulla. Se sirve bien frío en fiestas y bodas, tanto en Bangladés como en la India.",
+    "it": "Il nome unisce ras, il succo o lo sciroppo, e malai, la panna. Dolce del Bengala, il ras malai è rivendicato da entrambi i lati del confine: in Bangladesh la città di Comilla ne ha fatto la sua specialità più celebre, mentre a Calcutta, in India, una famiglia di pasticcieri sostiene di averlo inventato, e la sua origine resta contesa. I dischetti sono fatti di chhena, la cagliata fresca che si ottiene facendo coagulare il latte con il succo di limone, la stessa base dei rasgulla. Si serve ben freddo in occasione di feste e matrimoni, in Bangladesh come in India."
+  },
+  "region": {"fr": "Bengale", "en": "Bengal", "es": "Bengala", "it": "Bengala"},
+  "origin": {"countries": ["BD", "IN"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 3,
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "heroImage": "images/ds-ras-malai/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 1000, "unit": "ml"},
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "cardamome", "quantity": 4, "unit": "piece"},
+    {"ref": "safran", "quantity": 1, "unit": "pinch"},
+    {"ref": "chhena", "quantity": 250, "unit": "g", "substitutes": ["ricotta"]},
+    {"ref": "fecule-de-mais", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "eau", "quantity": 1000, "unit": "ml"},
+    {"ref": "pistache", "quantity": 30, "unit": "g"},
+    {"ref": "amande", "quantity": 20, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une grande casserole à fond épais, portez le lait à ébullition, puis laissez-le frémir en remuant souvent et en raclant le fond et les parois, jusqu'à ce qu'il ait réduit de moitié.", "en": "In a large heavy-based pan, bring the milk to the boil, then let it simmer, stirring often and scraping the bottom and sides, until reduced by half.", "es": "En una cazuela grande de fondo grueso, lleva la leche a ebullición y déjala hervir suavemente, removiendo a menudo y rascando el fondo y las paredes, hasta que se reduzca a la mitad.", "it": "In una casseruola grande dal fondo spesso porta a bollore il latte, poi lascialo sobbollire mescolando spesso e raschiando fondo e pareti, finché si è ridotto della metà."}, "timerMinutes": 40},
+    {"text": {"fr": "Ajoutez 60 g de sucre, les graines de cardamome écrasées et le safran, laissez frémir 5 minutes, puis retirez du feu et laissez refroidir.", "en": "Add 60 g of sugar, the crushed cardamom seeds and the saffron, simmer for 5 minutes, then take off the heat and leave to cool.", "es": "Añade 60 g de azúcar, las semillas de cardamomo machacadas y el azafrán, deja hervir suavemente 5 minutos, retira del fuego y deja enfriar.", "it": "Aggiungi 60 g di zucchero, i semi di cardamomo pestati e lo zafferano, lascia sobbollire 5 minuti, poi togli dal fuoco e lascia raffreddare."}, "timerMinutes": 5},
+    {"text": {"fr": "Émiettez le chhena dans un grand plat (acheté en épicerie indienne, ou préparé vous-même : lait entier bouillant caillé au jus de citron, égoutté une demi-heure dans une mousseline), puis pétrissez-le de la paume, avec la fécule si vous le souhaitez, jusqu'à ce qu'il soit lisse, souple et légèrement gras, sans aucun grain.", "en": "Crumble the chhena into a large dish (buy it from an Indian grocer, or make your own: whole milk brought to the boil, split with lemon juice and drained in muslin for half an hour), then knead it with the heel of your hand, adding the cornflour if you like, until smooth, supple and slightly greasy, with no graininess left.", "es": "Desmenuza el chhena en una fuente grande (cómpralo en una tienda de alimentación india o prepáralo tú: leche entera hirviendo cortada con zumo de limón y escurrida media hora en una gasa) y amásalo con la base de la mano, con la maicena si quieres, hasta que quede liso, flexible y ligeramente graso, sin ningún grumo.", "it": "Sbriciola il chhena in un piatto grande (si trova nei negozi di alimentari indiani, oppure preparalo tu: latte intero bollente cagliato con succo di limone e scolato per mezz'ora in una garza), poi lavoralo con il palmo della mano, aggiungendo se ti va l'amido di mais, finché è liscio, morbido e leggermente untuoso, senza più granuli."}, "timerMinutes": 10},
+    {"text": {"fr": "Divisez-le en 12 boules, puis aplatissez chacune en un disque de 4 à 5 cm, aux bords bien lisses et sans fissure.", "en": "Divide it into 12 balls, then flatten each one into a 4 to 5 cm disc with smooth, crack-free edges.", "es": "Divídelo en 12 bolitas y aplana cada una en un disco de 4 a 5 cm, con los bordes bien lisos y sin grietas.", "it": "Dividilo in 12 palline, poi schiaccia ognuna in un dischetto di 4-5 cm, dai bordi ben lisci e senza crepe."}},
+    {"text": {"fr": "Dans une large casserole munie d'un couvercle, portez à gros bouillons 200 g de sucre et l'eau, en remuant jusqu'à ce que le sucre soit dissous.", "en": "In a wide pan with a lid, bring 200 g of sugar and the water to a rolling boil, stirring until the sugar dissolves.", "es": "En una cazuela ancha con tapa, lleva a ebullición fuerte 200 g de azúcar y el agua, removiendo hasta que el azúcar se disuelva.", "it": "In una casseruola larga con coperchio porta a bollore vivace 200 g di zucchero e l'acqua, mescolando finché lo zucchero si scioglie."}},
+    {"text": {"fr": "Glissez les disques dans le sirop bouillant, couvrez et laissez cuire 15 minutes à gros bouillons : ils doivent doubler de volume.", "en": "Slide the discs into the boiling syrup, cover and cook at a rolling boil for 15 minutes: they should double in size.", "es": "Echa los discos en el almíbar hirviendo, tapa y deja cocer 15 minutos a borbotones: deben doblar su tamaño.", "it": "Fai scivolare i dischetti nello sciroppo bollente, copri e lascia cuocere 15 minuti a bollore vivace: devono raddoppiare di volume."}, "timerMinutes": 15},
+    {"text": {"fr": "Retirez-les à l'écumoire et laissez-les tiédir 10 minutes dans un plat.", "en": "Lift them out with a slotted spoon and leave them to cool for 10 minutes in a dish.", "es": "Sácalos con una espumadera y déjalos templar 10 minutos en una fuente.", "it": "Scolali con una schiumarola e lasciali intiepidire 10 minuti in un piatto."}, "timerMinutes": 10},
+    {"text": {"fr": "Pressez délicatement chaque disque entre vos paumes pour en exprimer le sirop, sans le briser, et plongez-le dans le lait refroidi.", "en": "Gently press each disc between your palms to squeeze out the syrup without breaking it, and slip it into the cooled milk.", "es": "Presiona con suavidad cada disco entre las palmas para escurrir el almíbar sin romperlo y sumérgelo en la leche ya fría.", "it": "Premi delicatamente ogni dischetto tra i palmi per far uscire lo sciroppo senza romperlo, e immergilo nel latte ormai freddo."}},
+    {"text": {"fr": "Couvrez et laissez s'imprégner au réfrigérateur pendant au moins 4 heures.", "en": "Cover and leave to soak in the fridge for at least 4 hours.", "es": "Tapa y deja que se empapen en la nevera al menos 4 horas.", "it": "Copri e lascia insaporire in frigorifero per almeno 4 ore."}, "timerMinutes": 240},
+    {"text": {"fr": "Servez bien froid, deux disques par personne avec leur lait, parsemés de pistaches hachées et, si vous le souhaitez, d'amandes effilées.", "en": "Serve well chilled, two discs per person with plenty of the milk, scattered with chopped pistachios and slivered almonds if you like.", "es": "Sirve bien frío, dos discos por persona con su leche, con pistachos picados por encima y, si quieres, almendras fileteadas.", "it": "Servi ben freddo, due dischetti a testa con il loro latte, cosparsi di pistacchi tritati e, se ti va, di mandorle a lamelle."}}
+  ]
+}

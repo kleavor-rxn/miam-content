@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-turron",
+  "title": {"fr": "Turrón", "en": "Turrón", "es": "Turrón", "it": "Turrón"},
+  "summary": {
+    "fr": "Le turrón d'Alicante, la version dure du nougat espagnol : du miel et du blanc d'œuf monté, cuits jusqu'à devenir craquants, truffés d'amandes entières grillées et pris entre deux feuilles de papier azyme.",
+    "en": "Turrón de Alicante, the hard version of Spanish nougat: honey and whipped egg white cooked until brittle and packed with whole toasted almonds, between two sheets of wafer paper.",
+    "es": "El turrón de Alicante, el turrón duro por excelencia: miel y clara montada, cocidas hasta volverse crujientes y repletas de almendras enteras tostadas, entre dos láminas de oblea.",
+    "it": "Il turrón de Alicante, la versione dura del torrone spagnolo: miele e albume montato, cotti fino a diventare croccanti e fitti di mandorle intere tostate, tra due fogli di carta ostia."
+  },
+  "story": {
+    "fr": "Le turrón est la grande confiserie de Noël en Espagne, où il partage la table des fêtes avec les polvorones et le massepain. Il vient de la région de Jijona (Xixona), dans la province d'Alicante, où on le fabrique depuis des siècles avec du miel et des amandes. On y produit ses deux versions classiques, protégées par une indication géographique : le turrón d'Alicante, dur, aux amandes entières, et le turrón de Jijona, tendre, dont les mêmes ingrédients sont broyés en pâte.",
+    "en": "Turrón is Spain's great Christmas confection, sharing the festive table with polvorones and marzipan. It comes from the area around Jijona (Xixona), in the province of Alicante, where it has been made from honey and almonds for centuries. Both classic styles are produced there and protected by a geographical indication: hard turrón de Alicante, with whole almonds, and soft turrón de Jijona, in which the same ingredients are ground to a paste.",
+    "es": "El turrón es el gran dulce navideño de España, donde comparte la mesa de las fiestas con los polvorones y el mazapán. Procede de la zona de Jijona (Xixona), en la provincia de Alicante, donde se elabora desde hace siglos con miel y almendras. Allí se producen sus dos versiones clásicas, amparadas por una indicación geográfica: el turrón de Alicante, duro, con almendras enteras, y el de Jijona, blando, en el que los mismos ingredientes se muelen hasta formar una pasta.",
+    "it": "Il turrón è il grande dolce natalizio della Spagna, dove divide la tavola delle feste con i polvorones e il marzapane. Viene dalla zona di Jijona (Xixona), in provincia di Alicante, dove si prepara da secoli con miele e mandorle. Qui si producono le sue due versioni classiche, tutelate da un'indicazione geografica: il turrón de Alicante, duro, con le mandorle intere, e il turrón de Jijona, morbido, in cui gli stessi ingredienti vengono macinati fino a formare una pasta."
+  },
+  "region": {"fr": "Jijona (Alicante)", "en": "Jijona (Alicante)", "es": "Jijona (Alicante)", "it": "Jijona (Alicante)"},
+  "origin": {"countries": ["ES"]},
+  "category": "dessert",
+  "dessertType": "confiserie",
+  "occasions": ["noel"],
+  "difficulty": 3,
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "servings": 12,
+  "heroImage": "images/ds-turron/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "amande", "quantity": 500, "unit": "g"},
+    {"ref": "miel", "quantity": 200, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "papier-azyme", "quantity": 2, "unit": "piece", "optional": true},
+    {"ref": "citron", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "eau", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une grande poêle à sec, faites griller les amandes mondées 8 à 10 minutes à feu moyen, en remuant souvent, jusqu'à ce qu'elles soient blondes et parfumées ; réservez-les hors du feu.", "en": "Toast the blanched almonds in a large dry frying pan over a medium heat for 8 to 10 minutes, stirring often, until golden and fragrant; set aside off the heat.", "es": "Tuesta las almendras peladas en una sartén grande sin aceite, a fuego medio, de 8 a 10 minutos, removiendo a menudo, hasta que estén doradas y aromáticas; resérvalas fuera del fuego.", "it": "Tosta le mandorle pelate in una grande padella senza grassi, a fuoco medio, per 8-10 minuti, mescolando spesso, finché sono dorate e profumate; tienile da parte fuori dal fuoco."}, "timerMinutes": 10},
+    {"text": {"fr": "Tapissez de papier cuisson un moule rectangulaire d'environ 20 × 15 cm, puis, si vous le souhaitez, posez au fond une feuille de papier azyme coupée à sa taille.", "en": "Line a rectangular tin of about 20 × 15 cm with baking paper then, if you like, lay a sheet of wafer paper cut to size in the base.", "es": "Forra con papel de horno un molde rectangular de unos 20 × 15 cm y, si quieres, coloca en el fondo una lámina de oblea cortada a su medida.", "it": "Fodera con carta forno uno stampo rettangolare di circa 20 × 15 cm, poi, se ti va, adagia sul fondo un foglio di carta ostia tagliato su misura."}},
+    {"text": {"fr": "Dans un grand saladier, montez le blanc d'œuf en neige ferme.", "en": "In a large bowl, whisk the egg white to stiff peaks.", "es": "En un bol grande, monta la clara a punto de nieve firme.", "it": "In una ciotola capiente monta l'albume a neve ferma."}},
+    {"text": {"fr": "Dans une casserole à fond épais, faites chauffer le miel et le sucre à feu moyen, en remuant jusqu'à ce que le sucre soit dissous, puis laissez cuire jusqu'à 140 °C au thermomètre de cuisson.", "en": "In a heavy-based saucepan, heat the honey and sugar over a medium heat, stirring until the sugar dissolves, then cook to 140 °C on a sugar thermometer.", "es": "En un cazo de fondo grueso, calienta la miel y el azúcar a fuego medio, removiendo hasta que el azúcar se disuelva, y deja cocer hasta 140 °C en el termómetro de cocina.", "it": "In una casseruola dal fondo spesso scalda il miele e lo zucchero a fuoco medio, mescolando finché lo zucchero si scioglie, poi cuoci fino a 140 °C al termometro da zucchero."}, "timerMinutes": 10},
+    {"text": {"fr": "Versez le sirop brûlant en mince filet sur le blanc en neige, sans cesser de fouetter.", "en": "Pour the hot syrup in a thin stream onto the egg white, whisking constantly.", "es": "Vierte el almíbar caliente en un hilo fino sobre la clara montada, sin dejar de batir.", "it": "Versa lo sciroppo bollente a filo sull'albume montato, senza smettere di montare."}},
+    {"text": {"fr": "Reversez le mélange dans la casserole et faites-le cuire à feu très doux 15 minutes, en remuant sans cesse à la spatule en bois, jusqu'à ce qu'il soit épais et qu'une goutte versée dans un verre d'eau froide durcisse et casse net.", "en": "Return the mixture to the saucepan and cook over a very low heat for 15 minutes, stirring constantly with a wooden spoon, until thick and a little of it dropped into a glass of cold water sets hard and snaps cleanly.", "es": "Vuelve a pasar la mezcla al cazo y cuécela a fuego muy suave 15 minutos, removiendo sin parar con una cuchara de madera, hasta que esté espesa y una gota echada en un vaso de agua fría se endurezca y se quiebre limpiamente.", "it": "Rimetti il composto nella casseruola e cuocilo a fuoco bassissimo per 15 minuti, mescolando di continuo con un cucchiaio di legno, finché è denso e una goccia versata in un bicchiere d'acqua fredda indurisce e si spezza di netto."}, "timerMinutes": 15},
+    {"text": {"fr": "Hors du feu, incorporez rapidement les amandes et, si vous le souhaitez, le zeste râpé du citron.", "en": "Off the heat, quickly stir in the almonds and, if you like, the grated lemon zest.", "es": "Fuera del fuego, incorpora rápidamente las almendras y, si quieres, la ralladura del limón.", "it": "Fuori dal fuoco incorpora rapidamente le mandorle e, se ti va, la scorza grattugiata del limone."}},
+    {"text": {"fr": "Versez aussitôt la masse dans le moule, couvrez-la de la seconde feuille de papier azyme si vous en utilisez, ou de papier cuisson, puis tassez-la fermement sous une planche lestée.", "en": "Immediately tip the mixture into the tin, cover with the second sheet of wafer paper if using, or with baking paper, then press it down firmly under a weighted board.", "es": "Vierte enseguida la masa en el molde, cúbrela con la segunda lámina de oblea si la usas, o con papel de horno, y presiónala con fuerza bajo una tabla con peso encima.", "it": "Versa subito l'impasto nello stampo, coprilo con il secondo foglio di carta ostia se lo usi, o con carta forno, poi pressalo con forza sotto un tagliere appesantito."}},
+    {"text": {"fr": "Laissez durcir au moins 6 heures à température ambiante, puis démoulez.", "en": "Leave to harden at room temperature for at least 6 hours, then turn out.", "es": "Deja que se endurezca al menos 6 horas a temperatura ambiente y desmóldalo.", "it": "Lascia indurire a temperatura ambiente per almeno 6 ore, poi sforma."}, "timerMinutes": 360},
+    {"text": {"fr": "Coupez en barres puis en morceaux avec un grand couteau-scie, et conservez dans une boîte hermétique, à l'abri de l'humidité.", "en": "Cut into bars, then into pieces, with a large serrated knife, and store in an airtight tin, away from moisture.", "es": "Córtalo en barras y luego en trozos con un cuchillo grande de sierra, y guárdalo en una caja hermética, protegido de la humedad.", "it": "Taglialo a barrette e poi a pezzi con un grande coltello seghettato, e conservalo in una scatola ermetica, al riparo dall'umidità."}}
+  ]
+}

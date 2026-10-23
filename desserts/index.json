@@ -3,6 +3,68 @@
   "generatedAt": "2026-10-23T18:41:24Z",
   "recipes": [
     {
+      "id": "ds-aebleskiver",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "a36f92f2249e7c782d327aa9bea26014300e7ad9e7d86f2d0c200c73bbce66af",
+      "title": {
+        "fr": "Æbleskiver",
+        "en": "Æbleskiver",
+        "es": "Æbleskiver",
+        "it": "Æbleskiver"
+      },
+      "heroImage": "images/ds-aebleskiver/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-alfajores",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "b33c4bd942d39c39af062b5bdba7820778a7ac3ab00c444af4fd5ea7e4391f6b",
+      "title": {
+        "fr": "Alfajores",
+        "en": "Alfajores",
+        "es": "Alfajores",
+        "it": "Alfajores"
+      },
+      "heroImage": "images/ds-alfajores/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-apfelstrudel",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "af2c34ff1fb43cc201880998b626f1adad1f668868800db46b5771ff7c20910a",
+      "title": {
+        "fr": "Apfelstrudel",
+        "en": "Apple strudel",
+        "es": "Strudel de manzana",
+        "it": "Strudel di mele"
+      },
+      "heroImage": "images/ds-apfelstrudel/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-apple-pie",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "ab919b5034525152d7f37aa42822c998153b52b1c7688e65f2ea6b3b2a37d4e0",
+      "title": {
+        "fr": "Apple pie",
+        "en": "Apple pie",
+        "es": "Apple pie",
+        "it": "Apple pie"
+      },
+      "heroImage": "images/ds-apple-pie/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 2
+    },
+    {
       "id": "ds-baklava",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "498bd60d5cbeb6e0be3e76acfaf5ce89cd6af2a38df0e0702847aac59c238dc8",
@@ -50,6 +112,23 @@
       ],
       "totalMinutes": 50,
       "difficulty": 1
+    },
+    {
+      "id": "ds-cendol",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "ee888f8cb9879e9a8deece791016bbeeb88eeadd3391d94c5dc3adb294b26064",
+      "title": {
+        "fr": "Cendol",
+        "en": "Cendol",
+        "es": "Cendol",
+        "it": "Cendol"
+      },
+      "heroImage": "images/ds-cendol/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
     },
     {
       "id": "ds-churros-con-chocolate",
@@ -146,6 +225,38 @@
       "difficulty": 2
     },
     {
+      "id": "ds-dobos-torta",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "a5325213993ca79e51b88415c3469b5e945e0a1d5bcd05f9d5e11a0d78b890aa",
+      "title": {
+        "fr": "Dobos torta",
+        "en": "Dobos torte",
+        "es": "Tarta Dobos",
+        "it": "Torta Dobos"
+      },
+      "heroImage": "images/ds-dobos-torta/hero.webp",
+      "tags": [],
+      "totalMinutes": 115,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-dorayaki",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "90cc396363d96206ec565ec80cef71a15c7980cf65d01b94391a58cdf4270897",
+      "title": {
+        "fr": "Dorayaki",
+        "en": "Dorayaki",
+        "es": "Dorayaki",
+        "it": "Dorayaki"
+      },
+      "heroImage": "images/ds-dorayaki/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
       "id": "ds-far-breton",
       "updatedAt": "2026-10-18T21:24:03Z",
       "contentHash": "6a2dc9f891f13ed1a05558bf20ad8ed9c496f1d90a4da1f8336ec1bd29232c6f",
@@ -161,6 +272,21 @@
       "difficulty": 1
     },
     {
+      "id": "ds-flan",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "244f8eb76ef68121d117f54294d0965de6689aada4ab81e862abc28f09e7b8fc",
+      "title": {
+        "fr": "Flan",
+        "en": "Flan",
+        "es": "Flan",
+        "it": "Flan"
+      },
+      "heroImage": "images/ds-flan/hero.webp",
+      "tags": [],
+      "totalMinutes": 90,
+      "difficulty": 2
+    },
+    {
       "id": "ds-foret-noire",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "841489ff6e94ebb35fea432661e9b0476206ae205347e7ee08f9967fc93ef07a",
@@ -174,6 +300,21 @@
       "tags": [],
       "totalMinutes": 100,
       "difficulty": 3
+    },
+    {
+      "id": "ds-galaktoboureko",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "85918b04cb92ffb3745726ea5d09980c834abdffb07b8402a60c57b6c2dfb083",
+      "title": {
+        "fr": "Galaktoboureko",
+        "en": "Galaktoboureko",
+        "es": "Galaktoboureko",
+        "it": "Galaktoboureko"
+      },
+      "heroImage": "images/ds-galaktoboureko/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 2
     },
     {
       "id": "ds-gateau-de-lune",
@@ -240,6 +381,40 @@
       "difficulty": 2
     },
     {
+      "id": "ds-kheer",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "d17cc655b41ed45a0fc4bd71d7a5898924eda617f1c2899798b92c196f781f40",
+      "title": {
+        "fr": "Kheer",
+        "en": "Kheer",
+        "es": "Kheer",
+        "it": "Kheer"
+      },
+      "heroImage": "images/ds-kheer/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 80,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-klepon",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "39f13716e18e91c946f1d0321259f2dcf5447e26f90a3e5a3c05fb5d8d77f6c2",
+      "title": {
+        "fr": "Klepon",
+        "en": "Klepon",
+        "es": "Klepon",
+        "it": "Klepon"
+      },
+      "heroImage": "images/ds-klepon/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
+    },
+    {
       "id": "ds-knafeh",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "39e1862403a4a1b8b62be77462fe25c13da86751f08a92e5fe3e1ba0e26ba429",
@@ -269,6 +444,53 @@
         "noBake"
       ],
       "totalMinutes": 120,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-lamington",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "cde9196573f04736b401fc52a0157da4ba6532ab501a3f0d28a73c22820229ce",
+      "title": {
+        "fr": "Lamington",
+        "en": "Lamington",
+        "es": "Lamington",
+        "it": "Lamington"
+      },
+      "heroImage": "images/ds-lamington/hero.webp",
+      "tags": [],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-loukoum",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "ed00f52f460bfd9cec9df28cd995a186aeb5f7fa42c96cabf91c516aa6336829",
+      "title": {
+        "fr": "Loukoum",
+        "en": "Turkish delight",
+        "es": "Lokum",
+        "it": "Lokum"
+      },
+      "heroImage": "images/ds-loukoum/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 135,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-maamoul",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "e8c2dda93580d1f56e96cbd1be488428ad64861ad7e3417c8a9364131f0121ba",
+      "title": {
+        "fr": "Maamoul",
+        "en": "Maamoul",
+        "es": "Maamoul",
+        "it": "Maamoul"
+      },
+      "heroImage": "images/ds-maamoul/hero.webp",
+      "tags": [],
+      "totalMinutes": 80,
       "difficulty": 2
     },
     {
@@ -370,6 +592,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-new-york-cheesecake",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "77940cf36e2b76ad86d921431e7f663f5c3e2103ddffba23372c72f9acf26697",
+      "title": {
+        "fr": "Cheesecake new-yorkais",
+        "en": "New York cheesecake",
+        "es": "Tarta de queso neoyorquina",
+        "it": "Cheesecake newyorkese"
+      },
+      "heroImage": "images/ds-new-york-cheesecake/hero.webp",
+      "tags": [],
+      "totalMinutes": 110,
+      "difficulty": 2
+    },
+    {
       "id": "ds-panna-cotta",
       "updatedAt": "2026-10-18T21:31:51Z",
       "contentHash": "7d61db9a3e1ef74dcb1bd0f219678e5cd4e9841fa7be46ed584abefe77c81142",
@@ -417,6 +654,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-patbingsu",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "ceefd04bd7551cf5368352a7c8224b34356056f6325bebcd7ad3c26db524a884",
+      "title": {
+        "fr": "Patbingsu",
+        "en": "Patbingsu",
+        "es": "Patbingsu",
+        "it": "Patbingsu"
+      },
+      "heroImage": "images/ds-patbingsu/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 35,
+      "difficulty": 1
+    },
+    {
       "id": "ds-pavlova",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "e3d05babe09826d3a0a0eb8bc4ef4da81202f1ee82d1a770bfe76eb323fd48f6",
@@ -432,6 +686,40 @@
       "difficulty": 2
     },
     {
+      "id": "ds-puff-puff",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "0ec82f6687c1b8f497937c1972d0c969eb683a9ac0294e91f87b08bca61f64d9",
+      "title": {
+        "fr": "Puff-puff",
+        "en": "Puff-puff",
+        "es": "Puff-puff",
+        "it": "Puff-puff"
+      },
+      "heroImage": "images/ds-puff-puff/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-ras-malai",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "7abd4b074ca8306d031378350f4756f850dfcfc70399840a4798608fa776c335",
+      "title": {
+        "fr": "Ras malai",
+        "en": "Ras malai",
+        "es": "Ras malai",
+        "it": "Ras malai"
+      },
+      "heroImage": "images/ds-ras-malai/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 90,
+      "difficulty": 3
+    },
+    {
       "id": "ds-tarte-tatin",
       "updatedAt": "2026-10-18T21:31:51Z",
       "contentHash": "b532cb69b160375d8101d947f801c94f2e15caef607b5c8b8d641c4705b6b4bd",
@@ -445,6 +733,23 @@
       "tags": [],
       "totalMinutes": 75,
       "difficulty": 2
+    },
+    {
+      "id": "ds-thiakry",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "395b2195c60667609f8a1f03b89dd04c1177a5bcaccf29da61a9363f538b9225",
+      "title": {
+        "fr": "Thiakry",
+        "en": "Thiakry",
+        "es": "Thiakry",
+        "it": "Thiakry"
+      },
+      "heroImage": "images/ds-thiakry/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 1
     },
     {
       "id": "ds-tiramisu",
@@ -477,10 +782,27 @@
       "tags": [],
       "totalMinutes": 55,
       "difficulty": 2
+    },
+    {
+      "id": "ds-turron",
+      "updatedAt": "2026-10-23T17:38:49Z",
+      "contentHash": "2ca72a14bb16aec26ebed95b0db8ea35853bd8fa9df0de6f97d3758ff140bba4",
+      "title": {
+        "fr": "Turrón",
+        "en": "Turrón",
+        "es": "Turrón",
+        "it": "Turrón"
+      },
+      "heroImage": "images/ds-turron/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 3
     }
   ],
   "files": {
-    "ingredients.json": "355d946ca2445cbefb20427d189397d3afd93fe1737cacd74d43edcac892584b",
+    "ingredients.json": "fc90971f143503ca8be3059aadf9070d276675144d75a74af73a5911e4f85b3a",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },

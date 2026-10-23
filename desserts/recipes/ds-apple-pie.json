@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-apple-pie",
+  "title": {"fr": "Apple pie", "en": "Apple pie", "es": "Apple pie", "it": "Apple pie"},
+  "summary": {
+    "fr": "La grande tarte américaine à double croûte, souvent servie avec une boule de glace à la vanille : une pâte brisée au beurre, feuilletée et croustillante, qui enferme des pommes fondantes à la cannelle.",
+    "en": "America's great double-crust pie: flaky, crisp all-butter pastry enclosing tender cinnamon apples, often served with a scoop of vanilla ice cream.",
+    "es": "La gran tarta americana de doble masa, que suele servirse con una bola de helado de vainilla: una masa quebrada de mantequilla, hojaldrada y crujiente, que encierra manzanas tiernas con canela.",
+    "it": "La grande torta americana a doppia crosta, spesso servita con una pallina di gelato alla vaniglia: una pasta brisée al burro, friabile e sfogliata, che racchiude mele morbide alla cannella."
+  },
+  "story": {
+    "fr": "Ni la pomme ni la tourte ne sont nées en Amérique : les pommiers y ont été plantés par les colons européens, et les recettes anglaises de tourtes aux pommes remontent au Moyen Âge. La tarte à double croûte est pourtant devenue un tel emblème que l'expression « as American as apple pie » (« aussi américain que l'apple pie ») qualifie tout ce qui est typiquement américain. On la sert volontiers « à la mode », c'est-à-dire avec une boule de glace à la vanille, et elle a sa place sur les tables de Thanksgiving.",
+    "en": "Neither the apple nor the pie was born in America: apple trees were planted there by European settlers, and English recipes for apple pies date back to the Middle Ages. Yet the double-crust pie has become such a symbol that the phrase 'as American as apple pie' describes anything quintessentially American. It is often served 'à la mode', meaning with a scoop of vanilla ice cream, and it has its place on the Thanksgiving table.",
+    "es": "Ni la manzana ni el pastel nacieron en América: los manzanos los plantaron allí los colonos europeos, y las recetas inglesas de pastel de manzana se remontan a la Edad Media. Aun así, esta tarta de doble masa se ha convertido en tal emblema que la expresión «as American as apple pie» («tan americano como el apple pie») designa todo lo típicamente estadounidense. Se sirve a menudo «à la mode», es decir, con una bola de helado de vainilla, y tiene su sitio en la mesa de Acción de Gracias.",
+    "it": "Né la mela né la torta sono nate in America: i meli vi furono piantati dai coloni europei e le ricette inglesi di torte di mele risalgono al Medioevo. Eppure questa torta a doppia crosta è diventata un tale simbolo che l'espressione «as American as apple pie» («americano come l'apple pie») indica tutto ciò che è tipicamente americano. Si serve spesso «à la mode», cioè con una pallina di gelato alla vaniglia, e ha il suo posto sulla tavola del giorno del Ringraziamento."
+  },
+  "region": {"fr": "États-Unis", "en": "United States", "es": "Estados Unidos", "it": "Stati Uniti"},
+  "origin": {"countries": ["US"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 60,
+  "servings": 8,
+  "heroImage": "images/ds-apple-pie/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 360, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "sucre", "quantity": 115, "unit": "g"},
+    {"ref": "beurre", "quantity": 245, "unit": "g"},
+    {"ref": "eau", "quantity": 12, "unit": "cl"},
+    {"ref": "pomme", "quantity": 1.3, "unit": "kg"},
+    {"ref": "cassonade", "quantity": 50, "unit": "g"},
+    {"ref": "cannelle", "quantity": 1.5, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.25, "unit": "tsp"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "glace-vanille", "quantity": 8, "unit": "piece", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Sablez du bout des doigts 330 g de farine, le sel, 15 g de sucre et 225 g de beurre très froid en dés, en gardant des morceaux de beurre gros comme des petits pois.", "en": "Rub 330 g of the flour, the salt, 15 g of the sugar and 225 g of very cold diced butter together with your fingertips, leaving pea-sized pieces of butter.", "es": "Arena con la punta de los dedos 330 g de harina, la sal, 15 g de azúcar y 225 g de mantequilla muy fría en dados, dejando trozos de mantequilla del tamaño de un guisante.", "it": "Lavora con la punta delle dita 330 g di farina, il sale, 15 g di zucchero e 225 g di burro freddissimo a dadini fino a ottenere un composto sabbioso con pezzetti di burro grandi come piselli."}},
+    {"text": {"fr": "Ajoutez l'eau glacée cuillerée par cuillerée, en mélangeant à la fourchette, juste jusqu'à ce que la pâte se tienne quand on la presse.", "en": "Add the iced water a spoonful at a time, stirring with a fork, just until the dough holds together when pressed.", "es": "Añade el agua helada cucharada a cucharada, mezclando con un tenedor, solo hasta que la masa se mantenga unida al apretarla.", "it": "Aggiungi l'acqua ghiacciata un cucchiaio alla volta, mescolando con una forchetta, solo finché l'impasto sta insieme quando lo premi."}},
+    {"text": {"fr": "Partagez la pâte en deux disques aplatis, filmez-les et laissez-les reposer 1 heure au réfrigérateur.", "en": "Divide the dough into two flattened discs, wrap them in cling film and chill for 1 hour.", "es": "Divide la masa en dos discos aplanados, envuélvelos en film transparente y déjalos reposar 1 hora en la nevera.", "it": "Dividi l'impasto in due dischi schiacciati, avvolgili nella pellicola e lasciali riposare 1 ora in frigorifero."}, "timerMinutes": 60},
+    {"text": {"fr": "Préchauffez le four à 220 °C, une plaque posée sur la grille du bas.", "en": "Preheat the oven to 220 °C with a baking tray on the bottom shelf.", "es": "Precalienta el horno a 220 °C con una bandeja en la rejilla de abajo.", "it": "Preriscalda il forno a 220 °C con una teglia sul ripiano più basso."}},
+    {"text": {"fr": "Pelez, évidez et émincez les pommes en lamelles de 5 mm, puis mélangez-les dans un saladier avec les 100 g de sucre restants, la cassonade, la cannelle, la muscade, le jus du demi-citron et les 30 g de farine restants.", "en": "Peel, core and slice the apples 5 mm thick, then toss them in a bowl with the remaining 100 g of sugar, the brown sugar, cinnamon, nutmeg, the juice of the half lemon and the remaining 30 g of flour.", "es": "Pela las manzanas, quítales el corazón y córtalas en láminas de 5 mm; mézclalas en un bol con los 100 g de azúcar restantes, el azúcar moreno, la canela, la nuez moscada, el zumo del medio limón y los 30 g de harina restantes.", "it": "Sbuccia le mele, elimina il torsolo e tagliale a fettine di 5 mm, poi mescolale in una ciotola con i 100 g di zucchero rimasti, lo zucchero di canna, la cannella, la noce moscata, il succo del mezzo limone e i 30 g di farina rimasti."}},
+    {"text": {"fr": "Abaissez un disque de pâte en un cercle de 30 cm et foncez-en un moule à tarte de 23 cm, en laissant dépasser la pâte.", "en": "Roll out one disc of dough into a 30 cm circle and use it to line a 23 cm pie dish, leaving the excess hanging over the edge.", "es": "Estira un disco de masa en un círculo de 30 cm y forra con él un molde para tarta de 23 cm, dejando que la masa sobresalga del borde.", "it": "Stendi un disco di pasta in un cerchio di 30 cm e fodera una tortiera da 23 cm, lasciando sporgere la pasta in eccesso dal bordo."}},
+    {"text": {"fr": "Versez les pommes et leur jus en les tassant en dôme, puis parsemez des 20 g de beurre restants en noisettes.", "en": "Tip in the apples and their juices, mounding them up in the middle, then dot with the remaining 20 g of butter.", "es": "Vierte las manzanas con su jugo formando una cúpula y reparte encima los 20 g de mantequilla restantes en trocitos.", "it": "Versa le mele con il loro succo disponendole a cupola, poi distribuisci sopra i 20 g di burro rimasti a fiocchetti."}},
+    {"text": {"fr": "Abaissez le second disque, posez-le sur les pommes, repliez ensemble les bords des deux pâtes, soudez-les en les pinçant entre les doigts, entaillez le couvercle de quelques fentes et badigeonnez-le d'œuf battu.", "en": "Roll out the second disc, lay it over the apples, fold the edges of both pastry layers under together, crimp them with your fingers, cut a few slits in the lid and brush it with the beaten egg.", "es": "Estira el segundo disco, colócalo sobre las manzanas, dobla juntos los bordes de las dos masas, séllalos pellizcándolos con los dedos, haz unos cortes en la tapa y píntala con el huevo batido.", "it": "Stendi il secondo disco, adagialo sulle mele, ripiega insieme i bordi delle due paste, sigillali pizzicandoli con le dita, pratica qualche taglio sul coperchio e spennellalo con l'uovo sbattuto."}},
+    {"text": {"fr": "Enfournez sur la plaque chaude et faites cuire 20 minutes, puis baissez à 190 °C et poursuivez 40 minutes, jusqu'à ce que la croûte soit bien dorée et que le jus bouillonne par les fentes.", "en": "Bake on the hot tray for 20 minutes, then turn down to 190 °C and bake for a further 40 minutes, until the crust is deep golden and the juices are bubbling through the slits.", "es": "Hornea sobre la bandeja caliente 20 minutos, baja a 190 °C y sigue 40 minutos más, hasta que la masa esté bien dorada y el jugo burbujee por los cortes.", "it": "Inforna sulla teglia calda per 20 minuti, poi abbassa a 190 °C e prosegui per altri 40 minuti, finché la crosta è ben dorata e il succo sobbolle dai tagli."}, "timerMinutes": 60},
+    {"text": {"fr": "Laissez refroidir au moins 2 heures pour que la garniture se raffermisse, puis servez tiède ou à température ambiante, avec une boule de glace à la vanille si vous le souhaitez.", "en": "Leave to cool for at least 2 hours so the filling can set, then serve warm or at room temperature, with a scoop of vanilla ice cream if you like.", "es": "Deja enfriar al menos 2 horas para que el relleno se asiente y sirve templada o a temperatura ambiente, con una bola de helado de vainilla si quieres.", "it": "Lascia raffreddare almeno 2 ore perché il ripieno si rassodi, poi servi tiepida o a temperatura ambiente, con una pallina di gelato alla vaniglia, se ti va."}, "timerMinutes": 120}
+  ]
+}
