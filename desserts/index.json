@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:26:50Z",
+  "generatedAt": "2026-10-23T19:26:51Z",
   "recipes": [
     {
       "id": "ds-aebleskiver",
@@ -1776,7 +1776,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "125e52a4dea2f567e77a4dc730100d1e9ea7e96b258a241e888270c70b33322b",
+    "ingredients.json": "cfb3a002ac7b03e0abee7b4674650d2523d89fbf941beb0d1cadc65872800853",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },
