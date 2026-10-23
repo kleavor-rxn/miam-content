@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-dorayaki",
+  "title": {"fr": "Dorayaki", "en": "Dorayaki", "es": "Dorayaki", "it": "Dorayaki"},
+  "summary": {
+    "fr": "Deux petites crêpes épaisses et moelleuses au miel, d'un brun doré bien uniforme, refermées sur une généreuse couche de pâte de haricots rouges sucrée : un classique du goûter japonais.",
+    "en": "Two small, thick, fluffy honey pancakes, evenly browned, sandwiched around a generous layer of sweet red bean paste: a classic Japanese teatime treat.",
+    "es": "Dos pequeñas tortitas gruesas y esponjosas con miel, de un dorado uniforme, unidas por una generosa capa de pasta dulce de judías azuki: un clásico de la merienda japonesa.",
+    "it": "Due piccoli pancake spessi e soffici al miele, dalla doratura uniforme, che racchiudono un generoso strato di pasta dolce di fagioli azuki: un classico della merenda giapponese."
+  },
+  "story": {
+    "fr": "Son nom vient de dora, le gong (銅鑼), dont les deux disques dorés rappellent la forme ; une légende raconte que le moine-guerrier Benkei oublia son gong chez un paysan, qui s'en servit pour cuire les premières galettes. La forme actuelle, deux crêpes enfermant l'anko, est généralement attribuée à la pâtisserie Usagiya, dans le quartier d'Ueno à Tokyo, au début du XXe siècle. C'est l'un des wagashi (douceurs japonaises) les plus courants, vendu aussi bien chez les pâtissiers qu'en supérette, et on le mange au goûter avec un thé vert.",
+    "en": "Its name comes from dora, the gong (銅鑼), whose shape the two golden rounds recall; legend has it that the warrior monk Benkei left his gong at a farmer's house, and the farmer used it to cook the first pancakes. The present form, two pancakes enclosing anko, is generally credited to Usagiya, a confectioner in Tokyo's Ueno district, in the early twentieth century. It is one of the most common wagashi (Japanese sweets), sold in confectioners' shops and convenience stores alike, and eaten in the afternoon with a cup of green tea.",
+    "es": "Su nombre viene de dora, el gong (銅鑼), cuya forma recuerdan los dos discos dorados; cuenta una leyenda que el monje guerrero Benkei olvidó su gong en casa de un campesino, que lo usó para cocer las primeras tortitas. La forma actual, dos tortitas que encierran el anko, se atribuye por lo general a la confitería Usagiya, en el barrio de Ueno, en Tokio, a principios del siglo XX. Es uno de los wagashi (dulces japoneses) más habituales, que se vende tanto en pastelerías como en tiendas de conveniencia, y se toma a media tarde con un té verde.",
+    "it": "Il nome viene da dora, il gong (銅鑼), di cui i due dischi dorati ricordano la forma; secondo una leggenda il monaco guerriero Benkei dimenticò il suo gong a casa di un contadino, che lo usò per cuocere le prime frittelle. La forma attuale, due pancake che racchiudono l'anko, è generalmente attribuita alla pasticceria Usagiya, nel quartiere di Ueno a Tokyo, all'inizio del Novecento. È uno dei wagashi (dolci giapponesi) più diffusi, venduto sia in pasticceria sia nei minimarket, e si mangia a merenda con un tè verde."
+  },
+  "region": {"fr": "Japon", "en": "Japan", "es": "Japón", "it": "Giappone"},
+  "origin": {"countries": ["JP"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 8,
+  "heroImage": "images/ds-dorayaki/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 120, "unit": "g"},
+    {"ref": "miel", "quantity": 2, "unit": "tbsp"},
+    {"ref": "farine", "quantity": 160, "unit": "g"},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "eau", "quantity": 2, "unit": "tbsp"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "tbsp"},
+    {"ref": "pate-de-haricots-rouges", "quantity": 400, "unit": "g", "substitutes": ["haricot-azuki"]}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, fouettez les 4 œufs avec le sucre et le miel pendant 3 à 4 minutes, jusqu'à ce que le mélange soit pâle et mousseux et que le sucre soit dissous.", "en": "In a mixing bowl, whisk the 4 eggs with the sugar and honey for 3 to 4 minutes, until pale and frothy and the sugar has dissolved.", "es": "En un bol grande, bate los 4 huevos con el azúcar y la miel durante 3 o 4 minutos, hasta que la mezcla esté pálida y espumosa y el azúcar se haya disuelto.", "it": "In una ciotola capiente sbatti le 4 uova con lo zucchero e il miele per 3-4 minuti, finché il composto è chiaro e spumoso e lo zucchero si è sciolto."}, "timerMinutes": 4},
+    {"text": {"fr": "Tamisez la farine au-dessus du saladier et incorporez-la délicatement au fouet, juste jusqu'à ce qu'il ne reste plus de grumeaux.", "en": "Sift the flour into the bowl and fold it in gently with the whisk, just until no lumps remain.", "es": "Tamiza la harina sobre el bol e incorpórala con suavidad con las varillas, solo hasta que no queden grumos.", "it": "Setaccia la farina nella ciotola e incorporala delicatamente con la frusta, solo finché non restano grumi."}},
+    {"text": {"fr": "Délayez le bicarbonate dans les 2 cuillerées à soupe d'eau, puis incorporez-le à la pâte : elle doit napper la cuillère et retomber en ruban épais.", "en": "Dissolve the bicarbonate of soda in the 2 tablespoons of water, then stir it into the batter: it should coat the spoon and fall back in a thick ribbon.", "es": "Disuelve el bicarbonato en las 2 cucharadas de agua e incorpóralo a la masa: debe napar la cuchara y caer formando una cinta espesa.", "it": "Sciogli il bicarbonato nei 2 cucchiai d'acqua, poi incorporalo alla pastella: deve velare il cucchiaio e ricadere a nastro denso."}},
+    {"text": {"fr": "Couvrez et laissez reposer la pâte 30 minutes au réfrigérateur.", "en": "Cover and leave the batter to rest in the fridge for 30 minutes.", "es": "Tapa la masa y déjala reposar 30 minutos en la nevera.", "it": "Copri e lascia riposare la pastella in frigorifero per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Faites chauffer une poêle antiadhésive à feu doux-moyen, graissez-la avec un papier absorbant imbibé d'huile, puis essuyez-la : il ne doit rester qu'un voile de gras, pour une couleur bien uniforme.", "en": "Heat a non-stick frying pan over a medium-low heat, grease it with kitchen paper dipped in the oil, then wipe it: only the faintest film should remain, so the pancakes colour evenly.", "es": "Calienta una sartén antiadherente a fuego medio-bajo, engrásala con papel de cocina empapado en el aceite y luego sécala: solo debe quedar una película finísima, para que el dorado sea uniforme.", "it": "Scalda una padella antiaderente a fuoco medio-basso, ungila con carta da cucina imbevuta d'olio, poi asciugala: deve restare solo un velo sottilissimo, perché la doratura sia uniforme."}},
+    {"text": {"fr": "Versez d'un seul coup une petite louche de pâte (environ 30 g) pour obtenir un disque de 9 cm ; faites cuire 2 minutes environ, jusqu'à ce que des bulles crèvent à la surface, retournez et laissez cuire encore 30 secondes. Recommencez pour obtenir 16 crêpes.", "en": "Pour in a small ladleful of batter (about 30 g) in one go to make a 9 cm round; cook for about 2 minutes, until bubbles burst on the surface, then flip and cook for 30 seconds more. Repeat to make 16 pancakes.", "es": "Vierte de una vez un cucharón pequeño de masa (unos 30 g) para formar un disco de 9 cm; cuécelo unos 2 minutos, hasta que en la superficie aparezcan burbujas que revientan, dale la vuelta y déjalo 30 segundos más. Repite hasta tener 16 tortitas.", "it": "Versa in un colpo solo un mestolino di pastella (circa 30 g) per ottenere un disco di 9 cm; cuoci per circa 2 minuti, finché in superficie si formano bolle che scoppiano, poi gira e cuoci ancora 30 secondi. Ripeti fino a ottenere 16 pancake."}, "timerMinutes": 3},
+    {"text": {"fr": "Au fur et à mesure, empilez les crêpes sous un torchon humide et laissez-les tiédir : elles restent ainsi souples.", "en": "As you go, stack the pancakes under a damp tea towel and leave them to cool to lukewarm: this keeps them soft.", "es": "A medida que las hagas, apila las tortitas bajo un paño húmedo y deja que se templen: así se mantienen flexibles.", "it": "Man mano che sono pronti, impila i pancake sotto un canovaccio umido e lasciali intiepidire: così restano morbidi."}, "timerMinutes": 10},
+    {"text": {"fr": "Étalez 50 g de pâte de haricots rouges sur la face la plus pâle d'une crêpe, en dôme au centre, couvrez d'une seconde crêpe et pressez doucement les bords. Faites de même avec les autres.", "en": "Spread 50 g of red bean paste on the paler side of one pancake, mounding it in the centre, top with a second pancake and press the edges together gently. Repeat with the rest.", "es": "Extiende 50 g de pasta de judías azuki sobre la cara más clara de una tortita, formando una cúpula en el centro, cúbrela con otra tortita y presiona suavemente los bordes. Repite con el resto.", "it": "Spalma 50 g di pasta di fagioli azuki sul lato più chiaro di un pancake, a cupola al centro, copri con un secondo pancake e premi delicatamente i bordi. Ripeti con gli altri."}}
+  ]
+}

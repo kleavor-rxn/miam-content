@@ -51,7 +51,7 @@
     {"id": "ds-turron", "title": "Turrón", "countries": ["ES"], "type": "confiserie", "featured": ["amande", "miel"], "occasions": ["noel"], "lot": 2, "reserve": false, "status": "planned"},
     {"id": "ds-flan", "title": "Flan", "countries": ["MX", "ES"], "type": "creme", "featured": ["caramel", "lait-concentre", "vanille"], "occasions": [], "lot": 2, "reserve": false, "status": "planned"},
     {"id": "ds-maamoul", "title": "Maamoul", "countries": ["SY", "LB", "PS"], "type": "biscuit", "featured": ["noix-et-pecan"], "occasions": ["ramadan-aid", "paques"], "lot": 2, "reserve": false, "status": "planned"},
-    {"id": "ds-kheer", "title": "Kheer", "countries": ["IN"], "type": "creme", "featured": ["riz", "epices"], "occasions": [], "lot": 2, "reserve": false, "status": "planned"},
+    {"id": "ds-kheer", "title": "Kheer", "countries": ["IN"], "type": "creme", "featured": ["riz", "epices"], "occasions": ["diwali"], "lot": 2, "reserve": false, "status": "planned"},
     {"id": "ds-klepon", "title": "Klepon", "countries": ["ID"], "type": "confiserie", "featured": ["riz", "noix-de-coco"], "occasions": [], "lot": 2, "reserve": false, "status": "planned"},
     {"id": "ds-galaktoboureko", "title": "Galaktoboureko", "countries": ["GR"], "type": "tarte", "featured": ["agrumes"], "occasions": [], "lot": 2, "reserve": false, "status": "planned"},
     {"id": "ds-stroopwafels", "title": "Stroopwafels", "countries": ["NL"], "type": "biscuit", "featured": ["caramel", "epices"], "occasions": [], "lot": 2, "reserve": true, "status": "planned"},

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-galaktoboureko",
+  "title": {"fr": "Galaktoboureko", "en": "Galaktoboureko", "es": "Galaktoboureko", "it": "Galaktoboureko"},
+  "summary": {
+    "fr": "Un grand classique des pâtisseries grecques : une crème à la semoule vanillée et citronnée, cuite entre des feuilles de filo beurrées puis arrosée d'un sirop froid au citron.",
+    "en": "A great classic of Greek pastry shops: a vanilla and lemon semolina custard baked between buttery sheets of filo, then soaked in a cold lemon syrup.",
+    "es": "Un gran clásico de las pastelerías griegas: una crema de sémola con vainilla y limón, horneada entre láminas de masa filo con mantequilla y bañada después en un almíbar frío de limón.",
+    "it": "Un grande classico delle pasticcerie greche: una crema di semolino alla vaniglia e al limone, cotta tra fogli di pasta fillo imburrati e poi bagnata con uno sciroppo freddo al limone."
+  },
+  "story": {
+    "fr": "Son nom réunit le grec gala, « lait », et boureki, mot venu du turc börek, qui désigne une pâte farcie. On trouve le galaktoboureko dans toute la Grèce, aussi bien dans les zacharoplasteia, les pâtisseries de quartier, que dans les cuisines familiales, et la Turquie en connaît un proche parent, le laz böreği des bords de la mer Noire. On le coupe en carrés et on le mange tiède ou à température ambiante, une fois le sirop bien absorbé.",
+    "en": "Its name combines the Greek gala, 'milk', with boureki, a word that comes from the Turkish börek, a filled pastry. Galaktoboureko is found all over Greece, in the zacharoplasteia, the neighbourhood pastry shops, as well as in family kitchens, and Turkey has a close relative in laz böreği from the Black Sea coast. It is cut into squares and eaten warm or at room temperature, once the syrup has been fully absorbed.",
+    "es": "Su nombre une el griego gala, «leche», y boureki, palabra que procede del turco börek, una masa rellena. El galaktoboureko se encuentra en toda Grecia, tanto en las zacharoplasteia, las pastelerías de barrio, como en las cocinas familiares, y Turquía tiene un pariente cercano en el laz böreği de la costa del mar Negro. Se corta en cuadrados y se come templado o a temperatura ambiente, una vez que ha absorbido bien el almíbar.",
+    "it": "Il nome unisce il greco gala, «latte», e boureki, parola che viene dal turco börek, una pasta ripiena. Il galaktoboureko si trova in tutta la Grecia, sia nelle zacharoplasteia, le pasticcerie di quartiere, sia nelle cucine di casa, e la Turchia ne conosce uno stretto parente, il laz böreği della costa del Mar Nero. Si taglia a quadrotti e si mangia tiepido o a temperatura ambiente, quando ha assorbito bene lo sciroppo."
+  },
+  "region": {"fr": "Grèce", "en": "Greece", "es": "Grecia", "it": "Grecia"},
+  "origin": {"countries": ["GR"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 65,
+  "servings": 12,
+  "heroImage": "images/ds-galaktoboureko/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "sucre", "quantity": 580, "unit": "g"},
+    {"ref": "eau", "quantity": 300, "unit": "ml"},
+    {"ref": "citron", "quantity": 2, "unit": "piece"},
+    {"ref": "cannelle", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "lait", "quantity": 1000, "unit": "ml"},
+    {"ref": "semoule-de-ble", "quantity": 150, "unit": "g"},
+    {"ref": "beurre", "quantity": 250, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "pate-filo", "quantity": 450, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Portez à ébullition 400 g de sucre et l'eau avec un long ruban de zeste prélevé sur l'un des citrons et, si vous le souhaitez, le bâton de cannelle ; laissez bouillir 5 minutes, ajoutez le jus de ce citron, puis laissez refroidir complètement ce sirop.", "en": "Bring 400 g of the sugar and the water to the boil with a long strip of zest pared from one of the lemons and the cinnamon stick if you like; boil for 5 minutes, add the juice of that lemon, then leave the syrup to cool completely.", "es": "Lleva a ebullición 400 g de azúcar y el agua con una tira larga de piel de uno de los limones y, si quieres, la rama de canela; deja hervir 5 minutos, añade el zumo de ese limón y deja que el almíbar se enfríe por completo.", "it": "Porta a bollore 400 g di zucchero con l'acqua, una lunga striscia di scorza di uno dei limoni e, se ti va, la stecca di cannella; lascia bollire 5 minuti, aggiungi il succo di quel limone, poi lascia raffreddare completamente lo sciroppo."}, "timerMinutes": 5},
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Portez le lait à frémissement avec les 180 g de sucre restants, versez la semoule en pluie sans cesser de fouetter et laissez épaissir 5 minutes à feu doux, en remuant, jusqu'à la consistance d'une bouillie épaisse.", "en": "Bring the milk to a simmer with the remaining 180 g of sugar, rain in the semolina, whisking constantly, and cook over a low heat for 5 minutes, stirring, until it is as thick as porridge.", "es": "Calienta la leche con los 180 g de azúcar restantes hasta que empiece a hervir, añade la sémola en forma de lluvia sin dejar de batir y deja que espese 5 minutos a fuego suave, removiendo, hasta que tenga la consistencia de unas gachas espesas.", "it": "Porta il latte a sobbollire con i 180 g di zucchero rimasti, versa il semolino a pioggia senza smettere di mescolare con la frusta e lascia addensare per 5 minuti a fuoco dolce, mescolando, fino a ottenere la consistenza di una pappa densa."}, "timerMinutes": 5},
+    {"text": {"fr": "Retirez du feu et laissez tiédir 10 minutes, en remuant de temps en temps.", "en": "Take off the heat and leave to cool for 10 minutes, stirring now and then.", "es": "Retira del fuego y deja que se temple 10 minutos, removiendo de vez en cuando.", "it": "Togli dal fuoco e lascia intiepidire per 10 minuti, mescolando di tanto in tanto."}, "timerMinutes": 10},
+    {"text": {"fr": "Incorporez au fouet 50 g de beurre, la vanille, le zeste râpé du second citron et les œufs battus.", "en": "Whisk in 50 g of the butter, the vanilla, the grated zest of the second lemon and the beaten eggs.", "es": "Incorpora con las varillas 50 g de mantequilla, la vainilla, la ralladura del otro limón y los huevos batidos.", "it": "Incorpora con la frusta 50 g di burro, la vaniglia, la scorza grattugiata del secondo limone e le uova sbattute."}},
+    {"text": {"fr": "Faites fondre les 200 g de beurre restants.", "en": "Melt the remaining 200 g of butter.", "es": "Derrite los 200 g de mantequilla restantes.", "it": "Fai fondere i 200 g di burro rimasti."}, "timerMinutes": 3},
+    {"text": {"fr": "Badigeonnez de beurre fondu un plat à four d'environ 30 × 23 cm, puis tapissez-le de la moitié des feuilles de filo, une à une, en beurrant chaque feuille et en les laissant déborder.", "en": "Brush a baking dish of about 30 × 23 cm with melted butter, then line it with half the filo sheets, one at a time, brushing each with butter and letting them hang over the sides.", "es": "Pinta con mantequilla derretida una fuente de horno de unos 30 × 23 cm y fórrala con la mitad de las láminas de filo, una a una, pintando cada lámina con mantequilla y dejando que sobresalgan por los bordes.", "it": "Spennella di burro fuso una teglia di circa 30 × 23 cm, poi foderala con metà dei fogli di fillo, uno alla volta, imburrando ogni foglio e lasciandoli debordare."}},
+    {"text": {"fr": "Versez la crème sur la filo, rabattez les bords qui dépassent et recouvrez du reste des feuilles en les beurrant généreusement une à une, y compris la dernière ; rentrez les bords le long des parois, puis incisez les feuilles du dessus en 12 parts au couteau bien aiguisé, sans atteindre la crème.", "en": "Pour the custard over the filo, fold in the overhanging edges and cover with the remaining sheets, brushing each one generously with butter, including the last; tuck the edges down the sides, then score the top sheets into 12 portions with a sharp knife, without cutting down into the custard.", "es": "Vierte la crema sobre la filo, dobla hacia dentro los bordes que sobresalen y cubre con el resto de las láminas, pintando bien cada una con mantequilla, también la última; remete los bordes por los lados y marca las láminas de arriba en 12 porciones con un cuchillo bien afilado, sin llegar a la crema.", "it": "Versa la crema sulla fillo, ripiega verso l'interno i bordi che debordano e copri con i fogli rimasti, imburrandoli generosamente uno per uno, compreso l'ultimo; rimbocca i bordi lungo le pareti, poi incidi i fogli superiori in 12 porzioni con un coltello ben affilato, senza arrivare alla crema."}},
+    {"text": {"fr": "Enfournez 45 à 50 minutes, jusqu'à ce que la filo soit bien dorée et la crème prise.", "en": "Bake for 45 to 50 minutes, until the filo is deep golden and the custard has set.", "es": "Hornea de 45 a 50 minutos, hasta que la filo esté bien dorada y la crema haya cuajado.", "it": "Inforna per 45-50 minuti, finché la fillo è ben dorata e la crema si è rassodata."}, "timerMinutes": 50},
+    {"text": {"fr": "Dès la sortie du four, versez lentement le sirop froid sur le galaktoboureko brûlant, puis laissez-le reposer au moins 2 heures, le temps qu'il l'absorbe, avant de le découper.", "en": "As soon as it comes out of the oven, slowly pour the cold syrup over the piping-hot galaktoboureko, then leave it to stand for at least 2 hours so that it soaks up the syrup before cutting.", "es": "Nada más sacarlo del horno, vierte despacio el almíbar frío sobre el galaktoboureko aún muy caliente y déjalo reposar al menos 2 horas, para que lo absorba, antes de cortarlo.", "it": "Appena sfornato, versa lentamente lo sciroppo freddo sul galaktoboureko bollente, poi lascialo riposare almeno 2 ore perché lo assorba prima di tagliarlo."}, "timerMinutes": 120}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-puff-puff",
+  "title": {"fr": "Puff-puff", "en": "Puff-puff", "es": "Puff-puff", "it": "Puff-puff"},
+  "summary": {
+    "fr": "Des beignets ronds et dorés, à la mie moelleuse et légèrement sucrée, faits d'une simple pâte levée lâchée dans l'huile chaude : l'en-cas préféré des rues et des fêtes du Nigeria.",
+    "en": "Round golden doughnuts with a soft, lightly sweet crumb, made from a simple yeasted batter dropped into hot oil: Nigeria's favourite street snack and party treat.",
+    "es": "Buñuelos redondos y dorados, de miga tierna y ligeramente dulce, hechos con una sencilla masa fermentada que se deja caer en el aceite caliente: el tentempié favorito de las calles y las fiestas de Nigeria.",
+    "it": "Frittelle rotonde e dorate, dalla mollica soffice e appena dolce, fatte con una semplice pastella lievitata lasciata cadere nell'olio bollente: lo spuntino preferito delle strade e delle feste nigeriane."
+  },
+  "story": {
+    "fr": "Le puff-puff est l'un des en-cas les plus populaires du Nigeria : on l'achète dans la rue, encore chaud, en petits sachets, et il figure presque toujours parmi les « small chops », les bouchées servies aux mariages et aux fêtes, aux côtés des samoussas et des nems. Sa pâte de farine, de sucre, de levure et d'eau, parfois relevée de muscade, se façonne traditionnellement à la main : on la fait sortir du poing entre le pouce et l'index, au-dessus de l'huile. Des beignets cousins se préparent dans toute l'Afrique de l'Ouest et centrale, comme le bofrot du Ghana ou les beignets du Cameroun.",
+    "en": "Puff-puff is one of Nigeria's most popular snacks: it is bought warm from street vendors in small bags, and it almost always features among the 'small chops', the bite-sized nibbles served at weddings and parties alongside samosas and spring rolls. The batter of flour, sugar, yeast and water, sometimes spiced with nutmeg, is traditionally shaped by hand, squeezed out between thumb and forefinger over the hot oil. Close cousins are made right across West and Central Africa, such as Ghana's bofrot and Cameroon's beignets.",
+    "es": "El puff-puff es uno de los tentempiés más populares de Nigeria: se compra en la calle, todavía caliente, en bolsitas, y casi nunca falta entre los «small chops», los bocaditos que se sirven en bodas y fiestas junto a samosas y rollitos de primavera. Su masa de harina, azúcar, levadura y agua, a veces aromatizada con nuez moscada, se forma tradicionalmente a mano, apretándola entre el pulgar y el índice sobre el aceite caliente. En toda África occidental y central existen buñuelos parecidos, como el bofrot de Ghana o los beignets de Camerún.",
+    "it": "Il puff-puff è uno degli spuntini più popolari della Nigeria: si compra per strada, ancora caldo, in piccoli sacchetti, e non manca quasi mai tra gli «small chops», gli stuzzichini serviti a matrimoni e feste insieme a samosa e involtini primavera. La pastella di farina, zucchero, lievito e acqua, a volte profumata con noce moscata, si modella tradizionalmente a mano, spremendola tra pollice e indice sopra l'olio bollente. Frittelle simili si preparano in tutta l'Africa occidentale e centrale, come il bofrot del Ghana o i beignets del Camerun."
+  },
+  "region": {"fr": "Nigeria", "en": "Nigeria", "es": "Nigeria", "it": "Nigeria"},
+  "origin": {"countries": ["NG"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 8,
+  "heroImage": "images/ds-puff-puff/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "eau", "quantity": 40, "unit": "cl"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "l"},
+    {"ref": "sucre-glace", "quantity": 2, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, le sucre, la levure sèche de boulanger, le sel et, si vous le souhaitez, la muscade râpée.", "en": "In a large bowl, mix the flour, sugar, dried yeast, salt and, if you like, the grated nutmeg.", "es": "En un bol grande, mezcla la harina, el azúcar, la levadura seca de panadería, la sal y, si quieres, la nuez moscada rallada.", "it": "In una ciotola capiente mescola la farina, lo zucchero, il lievito di birra secco, il sale e, se ti va, la noce moscata grattugiata."}},
+    {"text": {"fr": "Versez l'eau tiède petit à petit en mélangeant à la main ou à la cuillère en bois, puis battez 5 minutes, jusqu'à obtenir une pâte épaisse, lisse, collante et élastique.", "en": "Gradually pour in the lukewarm water, mixing with your hand or a wooden spoon, then beat for 5 minutes until you have a thick, smooth, sticky and stretchy batter.", "es": "Vierte el agua tibia poco a poco mientras mezclas con la mano o con una cuchara de madera y luego bate 5 minutos, hasta obtener una masa espesa, lisa, pegajosa y elástica.", "it": "Versa l'acqua tiepida poco alla volta mescolando con la mano o con un cucchiaio di legno, poi sbatti per 5 minuti, fino a ottenere una pastella densa, liscia, appiccicosa ed elastica."}, "timerMinutes": 5},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume et soit pleine de bulles.", "en": "Cover with a tea towel and leave to rise in a warm place for 1 hour, until the batter has doubled in size and is full of bubbles.", "es": "Cubre con un paño y deja levar 1 hora en un lugar templado, hasta que la masa doble su volumen y esté llena de burbujas.", "it": "Copri con un canovaccio e lascia lievitare 1 ora in un luogo tiepido, finché la pastella è raddoppiata e piena di bolle."}, "timerMinutes": 60},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C dans une casserole à bords hauts ou une friteuse.", "en": "Heat the oil to 170 °C in a deep saucepan or a deep-fat fryer.", "es": "Calienta el aceite a 170 °C en un cazo hondo o en una freidora.", "it": "Scalda l'olio a 170 °C in una casseruola dai bordi alti o in una friggitrice."}, "timerMinutes": 10},
+    {"text": {"fr": "Prenez une poignée de pâte, serrez le poing pour la faire sortir entre le pouce et l'index, et laissez tomber dans l'huile des boules d'environ 3 cm, une dizaine à la fois (deux cuillères à soupe font aussi l'affaire).", "en": "Take a handful of batter, close your fist to squeeze it out between thumb and forefinger, and drop balls of about 3 cm into the oil, around ten at a time (two tablespoons work too).", "es": "Toma un puñado de masa, cierra el puño para que salga entre el pulgar y el índice y deja caer en el aceite bolas de unos 3 cm, unas diez cada vez (también sirven dos cucharas).", "it": "Prendi una manciata di pastella, chiudi il pugno per farla uscire tra pollice e indice e lascia cadere nell'olio palline di circa 3 cm, una decina alla volta (vanno bene anche due cucchiai)."}},
+    {"text": {"fr": "Faites-les frire 4 à 5 minutes en les retournant souvent, jusqu'à ce qu'elles soient gonflées et bien dorées de tous côtés.", "en": "Fry for 4 to 5 minutes, turning them often, until puffed up and deep golden all over.", "es": "Fríelas de 4 a 5 minutos, dándoles la vuelta a menudo, hasta que estén hinchadas y bien doradas por todos lados.", "it": "Friggile per 4-5 minuti girandole spesso, finché sono gonfie e ben dorate su tutti i lati."}, "timerMinutes": 5},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et poursuivez avec le reste de la pâte, en gardant l'huile à 170 °C.", "en": "Drain on kitchen paper and carry on with the rest of the batter, keeping the oil at 170 °C.", "es": "Escúrrelas sobre papel absorbente y sigue con el resto de la masa, manteniendo el aceite a 170 °C.", "it": "Scolale su carta assorbente e continua con il resto della pastella, mantenendo l'olio a 170 °C."}},
+    {"text": {"fr": "Servez-les tièdes, nature ou saupoudrées de sucre glace si vous le souhaitez.", "en": "Serve warm, plain or dusted with icing sugar if you like.", "es": "Sírvelas templadas, solas o espolvoreadas con azúcar glas si quieres.", "it": "Servile tiepide, al naturale o spolverate di zucchero a velo, se ti va."}}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-lamington",
+  "title": {"fr": "Lamington", "en": "Lamington", "es": "Lamington", "it": "Lamington"},
+  "summary": {
+    "fr": "Des carrés de génoise trempés dans un glaçage au cacao puis roulés dans la noix de coco râpée : le gâteau des goûters et des kermesses australiennes.",
+    "en": "Squares of sponge dipped in cocoa icing and rolled in desiccated coconut: the cake of every Australian morning tea and school fête.",
+    "es": "Cuadrados de bizcocho bañados en un glaseado de cacao y rebozados en coco rallado: el pastel de las meriendas y los mercadillos benéficos australianos.",
+    "it": "Quadrotti di pan di Spagna immersi in una glassa al cacao e passati nella farina di cocco: il dolce delle merende e delle feste di beneficenza australiane."
+  },
+  "story": {
+    "fr": "Le lamington porterait le nom de Lord Lamington, gouverneur du Queensland de 1896 à 1901. Il est devenu le gâteau des goûters australiens et des « lamington drives », ces ventes où écoles, clubs sportifs et associations caritatives en préparent des centaines pour financer leurs projets. Certains le coupent en deux et le fourrent de confiture ou de crème, mais la version classique s'en tient à la génoise, au chocolat et à la noix de coco.",
+    "en": "The lamington is thought to be named after Lord Lamington, Governor of Queensland from 1896 to 1901. It has become the cake of Australian morning teas and of 'lamington drives', sales at which schools, sports clubs and charities make hundreds of them to raise funds. Some people split and fill them with jam or cream, but the classic version keeps to sponge, chocolate and coconut.",
+    "es": "El lamington debe su nombre, al parecer, a lord Lamington, gobernador de Queensland entre 1896 y 1901. Se ha convertido en el pastel de las meriendas australianas y de los «lamington drives», ventas en las que colegios, clubes deportivos y asociaciones benéficas preparan cientos de ellos para recaudar fondos. Hay quien los abre por la mitad y los rellena de mermelada o nata, pero la versión clásica se limita al bizcocho, el chocolate y el coco.",
+    "it": "Il lamington prenderebbe il nome da Lord Lamington, governatore del Queensland dal 1896 al 1901. È diventato il dolce delle merende australiane e dei «lamington drives», vendite in cui scuole, club sportivi e associazioni di beneficenza ne preparano centinaia per raccogliere fondi. C'è chi lo taglia a metà e lo farcisce di marmellata o di panna, ma la versione classica si limita a pan di Spagna, cioccolato e cocco."
+  },
+  "region": {"fr": "Australie", "en": "Australia", "es": "Australia", "it": "Australia"},
+  "origin": {"countries": ["AU"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 50,
+  "cookMinutes": 25,
+  "servings": 12,
+  "heroImage": "images/ds-lamington/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "lait", "quantity": 125, "unit": "ml"},
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 200, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 2, "unit": "tsp"},
+    {"ref": "sucre-glace", "quantity": 400, "unit": "g"},
+    {"ref": "cacao", "quantity": 40, "unit": "g"},
+    {"ref": "beurre", "quantity": 20, "unit": "g"},
+    {"ref": "lait", "quantity": 160, "unit": "ml"},
+    {"ref": "noix-de-coco-rapee", "quantity": 250, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C et chemisez de papier cuisson un moule rectangulaire de 20 x 30 cm.", "en": "Preheat the oven to 180 °C and line a 20 x 30 cm rectangular tin with baking paper.", "es": "Precalienta el horno a 180 °C y forra con papel de horno un molde rectangular de 20 x 30 cm.", "it": "Preriscalda il forno a 180 °C e fodera di carta forno una teglia rettangolare da 20 x 30 cm."}},
+    {"text": {"fr": "Fouettez les œufs, le sucre et l'extrait de vanille au batteur pendant 8 à 10 minutes, jusqu'à ce que le mélange blanchisse, triple de volume et forme le ruban.", "en": "Whisk the eggs, sugar and vanilla extract with an electric mixer for 8 to 10 minutes, until pale, tripled in volume and thick enough to leave a ribbon trail.", "es": "Bate los huevos, el azúcar y el extracto de vainilla con las varillas eléctricas de 8 a 10 minutos, hasta que la mezcla blanquee, triplique su volumen y forme una cinta al caer.", "it": "Monta le uova, lo zucchero e l'estratto di vaniglia con le fruste elettriche per 8-10 minuti, finché il composto diventa chiaro, triplica di volume e scrive a nastro."}, "timerMinutes": 10},
+    {"text": {"fr": "Faites chauffer 125 ml de lait avec 60 g de beurre jusqu'à ce que le beurre soit fondu.", "en": "Heat 125 ml of the milk with 60 g of the butter until the butter has melted.", "es": "Calienta 125 ml de leche con 60 g de mantequilla hasta que la mantequilla se derrita.", "it": "Scalda 125 ml di latte con 60 g di burro finché il burro si è sciolto."}},
+    {"text": {"fr": "Tamisez la farine et la levure au-dessus des œufs et incorporez-les délicatement à la spatule, en soulevant la pâte.", "en": "Sift the flour and baking powder over the eggs and fold them in gently with a spatula.", "es": "Tamiza la harina y la levadura sobre los huevos e incorpóralas con cuidado con una espátula, con movimientos envolventes.", "it": "Setaccia la farina e il lievito sulle uova e incorporali delicatamente con una spatola, con movimenti dal basso verso l'alto."}},
+    {"text": {"fr": "Versez le lait chaud et le beurre fondu le long de la paroi du saladier et mélangez délicatement, juste assez pour l'incorporer.", "en": "Pour the hot milk and butter down the side of the bowl and fold in gently until just combined.", "es": "Vierte la leche caliente con la mantequilla por el borde del bol y mezcla con suavidad, solo hasta que se integre.", "it": "Versa il latte caldo con il burro lungo il bordo della ciotola e mescola delicatamente, quanto basta per incorporarlo."}},
+    {"text": {"fr": "Versez la pâte dans le moule et enfournez 25 minutes, jusqu'à ce que la génoise soit dorée et reprenne sa forme sous le doigt.", "en": "Pour the batter into the tin and bake for 25 minutes, until golden and springy to the touch.", "es": "Vierte la masa en el molde y hornea 25 minutos, hasta que el bizcocho esté dorado y recupere su forma al presionarlo con el dedo.", "it": "Versa l'impasto nella teglia e inforna per 25 minuti, finché il pan di Spagna è dorato e torna su se premuto con un dito."}, "timerMinutes": 25},
+    {"text": {"fr": "Démoulez sur une grille, laissez refroidir, puis gardez la génoise filmée jusqu'au lendemain, ou au moins 2 heures au réfrigérateur : un peu rassise, elle s'émiette moins au trempage.", "en": "Turn out onto a wire rack and leave to cool, then keep the sponge wrapped until the next day, or for at least 2 hours in the fridge: a slightly stale sponge crumbles less when dipped.", "es": "Desmolda sobre una rejilla, deja enfriar y guarda el bizcocho envuelto en film hasta el día siguiente, o al menos 2 horas en la nevera: si está algo reposado, se desmiga menos al bañarlo.", "it": "Sforma su una gratella, lascia raffreddare, poi conserva il pan di Spagna avvolto nella pellicola fino al giorno dopo, o almeno 2 ore in frigorifero: un po' raffermo, si sbriciola meno quando lo immergi."}, "timerMinutes": 120},
+    {"text": {"fr": "Dans un saladier posé sur une casserole d'eau frémissante, mélangez le sucre glace tamisé, le cacao, 20 g de beurre et 160 ml de lait jusqu'à obtenir un glaçage lisse et fluide ; laissez-le sur l'eau chaude.", "en": "In a heatproof bowl set over a pan of simmering water, stir the sifted icing sugar, cocoa, 20 g of butter and 160 ml of milk into a smooth, runny icing; leave it over the hot water.", "es": "En un bol colocado sobre un cazo con agua a punto de hervir, mezcla el azúcar glas tamizado, el cacao, 20 g de mantequilla y 160 ml de leche hasta obtener un glaseado liso y fluido; déjalo sobre el agua caliente.", "it": "In una ciotola appoggiata su una pentola d'acqua che sobbolle, mescola lo zucchero a velo setacciato, il cacao, 20 g di burro e 160 ml di latte fino a ottenere una glassa liscia e fluida; lasciala sull'acqua calda."}},
+    {"text": {"fr": "Coupez la génoise en 24 carrés d'environ 5 cm.", "en": "Cut the sponge into 24 squares of about 5 cm.", "es": "Corta el bizcocho en 24 cuadrados de unos 5 cm.", "it": "Taglia il pan di Spagna in 24 quadrotti di circa 5 cm."}},
+    {"text": {"fr": "À l'aide de deux fourchettes, trempez chaque carré dans le glaçage, laissez égoutter l'excédent, roulez-le dans la noix de coco et posez-le sur une grille ; laissez prendre 1 heure avant de servir.", "en": "Using two forks, dip each square in the icing, let the excess drip off, roll it in the coconut and set it on a wire rack; leave to set for 1 hour before serving.", "es": "Con dos tenedores, baña cada cuadrado en el glaseado, deja escurrir el exceso, rebózalo en el coco y colócalo sobre una rejilla; deja que se asiente 1 hora antes de servir.", "it": "Con due forchette, immergi ogni quadrotto nella glassa, lascia sgocciolare l'eccesso, passalo nel cocco e appoggialo su una gratella; lascia rapprendere 1 ora prima di servire."}, "timerMinutes": 60}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-kheer",
+  "title": {"fr": "Kheer", "en": "Kheer", "es": "Kheer", "it": "Kheer"},
+  "summary": {
+    "fr": "Le riz au lait de l'Inde : du riz basmati cuit longuement dans du lait entier qui réduit et devient crémeux, parfumé à la cardamome et parsemé d'amandes et de pistaches.",
+    "en": "India's rice pudding: basmati rice simmered slowly in whole milk until it reduces to a creamy, cardamom-scented pudding scattered with almonds and pistachios.",
+    "es": "El arroz con leche de la India: arroz basmati cocido a fuego lento en leche entera, que reduce hasta volverse cremosa, perfumado con cardamomo y salpicado de almendras y pistachos.",
+    "it": "Il riso al latte dell'India: riso basmati cotto a lungo nel latte intero, che si riduce fino a diventare cremoso, profumato al cardamomo e cosparso di mandorle e pistacchi."
+  },
+  "story": {
+    "fr": "Le kheer, du riz cuit dans du lait sucré, compte parmi les plus anciens desserts de l'Inde ; son nom est généralement rattaché au sanskrit kshira, « lait ». Il accompagne les fêtes religieuses et familiales, des mariages à Diwali et à l'Aïd, et il est souvent offert dans les temples hindous. Dans le Sud, son proche cousin s'appelle payasam et se sucre volontiers au jaggery.",
+    "en": "Kheer, rice cooked in sweetened milk, is among India's oldest desserts; its name is generally traced to the Sanskrit kshira, 'milk'. It appears at religious and family celebrations, from weddings to Diwali and Eid, and is often offered in Hindu temples. In the south its close cousin is called payasam and is often sweetened with jaggery.",
+    "es": "El kheer, arroz cocido en leche azucarada, es uno de los postres más antiguos de la India; su nombre suele vincularse al sánscrito kshira, «leche». Está presente en las fiestas religiosas y familiares, de las bodas a Diwali y al Eid, y se ofrece a menudo en los templos hindúes. En el sur, su pariente cercano se llama payasam y suele endulzarse con jaggery.",
+    "it": "Il kheer, riso cotto nel latte zuccherato, è tra i dolci più antichi dell'India; il suo nome viene di solito ricondotto al sanscrito kshira, «latte». Accompagna le feste religiose e familiari, dai matrimoni a Diwali e all'Eid, e viene spesso offerto nei templi induisti. Nel Sud il suo stretto parente si chiama payasam e viene spesso addolcito con il jaggery."
+  },
+  "region": {"fr": "Inde", "en": "India", "es": "India", "it": "India"},
+  "origin": {"countries": ["IN"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": ["diwali"],
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 65,
+  "servings": 6,
+  "heroImage": "images/ds-kheer/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "riz", "quantity": 75, "unit": "g"},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "lait", "quantity": 1.5, "unit": "l"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "cardamome", "quantity": 6, "unit": "piece"},
+    {"ref": "amande", "quantity": 20, "unit": "g"},
+    {"ref": "pistache", "quantity": 20, "unit": "g"},
+    {"ref": "safran", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "ghee", "quantity": 1, "unit": "tbsp", "optional": true, "substitutes": ["beurre"]},
+    {"ref": "noix-de-cajou", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "raisins-secs", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "eau-de-rose", "quantity": 1, "unit": "tsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Rincez le riz à l'eau froide jusqu'à ce qu'elle soit claire, puis laissez-le tremper 30 minutes dans un bol d'eau froide.", "en": "Rinse the rice in cold water until it runs clear, then leave it to soak in a bowl of cold water for 30 minutes.", "es": "Lava el arroz con agua fría hasta que salga clara y déjalo en remojo 30 minutos en un bol de agua fría.", "it": "Sciacqua il riso in acqua fredda finché esce limpida, poi lascialo in ammollo per 30 minuti in una ciotola d'acqua fredda."}, "timerMinutes": 30},
+    {"text": {"fr": "Portez le lait à ébullition dans une grande casserole à fond épais, en remuant pour qu'il n'attache pas.", "en": "Bring the milk to the boil in a large, heavy-based pan, stirring so that it does not catch.", "es": "Lleva la leche a ebullición en una cazuela grande de fondo grueso, removiendo para que no se pegue.", "it": "Porta il latte a ebollizione in una casseruola grande dal fondo spesso, mescolando perché non attacchi."}, "timerMinutes": 10},
+    {"text": {"fr": "Égouttez le riz, versez-le dans le lait et laissez cuire à petits frémissements 45 minutes, en remuant souvent et en raclant le fond, jusqu'à ce que le riz soit très tendre et le lait réduit et crémeux.", "en": "Drain the rice, add it to the milk and cook at a gentle simmer for 45 minutes, stirring often and scraping the bottom, until the rice is very soft and the milk has reduced and turned creamy.", "es": "Escurre el arroz, échalo a la leche y deja que cueza a fuego suave 45 minutos, removiendo a menudo y raspando el fondo, hasta que el arroz esté muy tierno y la leche se haya reducido y vuelto cremosa.", "it": "Scola il riso, versalo nel latte e lascia cuocere a fuoco dolce per 45 minuti, mescolando spesso e raschiando il fondo, finché il riso è molto tenero e il latte si è ridotto ed è diventato cremoso."}, "timerMinutes": 45},
+    {"text": {"fr": "Pendant ce temps, ouvrez les gousses de cardamome et pilez finement les graines au mortier.", "en": "Meanwhile, split the cardamom pods and grind the seeds finely in a mortar.", "es": "Mientras tanto, abre las vainas de cardamomo y maja las semillas finamente en el mortero.", "it": "Nel frattempo apri i baccelli di cardamomo e pesta finemente i semi nel mortaio."}},
+    {"text": {"fr": "Effilez les amandes et hachez grossièrement les pistaches.", "en": "Cut the almonds into slivers and roughly chop the pistachios.", "es": "Corta las almendras en láminas finas y pica en trozos gruesos los pistachos.", "it": "Taglia le mandorle a lamelle e trita grossolanamente i pistacchi."}},
+    {"text": {"fr": "Ajoutez le sucre, la cardamome pilée et, si vous le souhaitez, le safran, puis laissez cuire encore 10 minutes en remuant.", "en": "Add the sugar, the ground cardamom and the saffron if you like, then cook for 10 more minutes, stirring.", "es": "Añade el azúcar, el cardamomo majado y, si quieres, el azafrán, y deja cocer 10 minutos más sin dejar de remover.", "it": "Aggiungi lo zucchero, il cardamomo pestato e, se ti va, lo zafferano, poi lascia cuocere ancora 10 minuti mescolando."}, "timerMinutes": 10},
+    {"text": {"fr": "Si vous le souhaitez, faites dorer les noix de cajou dans le ghee à feu moyen, puis ajoutez les raisins secs et retirez du feu dès qu'ils gonflent.", "en": "If you like, fry the cashews in the ghee over a medium heat until golden, then add the raisins and take off the heat as soon as they plump up.", "es": "Si quieres, dora los anacardos en el ghee a fuego medio, añade las pasas y retira del fuego en cuanto se hinchen.", "it": "Se ti va, fai dorare gli anacardi nel ghee a fuoco medio, poi aggiungi l'uvetta e togli dal fuoco appena si gonfia."}, "timerMinutes": 3},
+    {"text": {"fr": "Hors du feu, incorporez au kheer la moitié des amandes et des pistaches, ainsi que les noix de cajou, les raisins et l'eau de rose si vous en utilisez.", "en": "Off the heat, stir half the almonds and pistachios into the kheer, along with the cashews, raisins and rose water if you are using them.", "es": "Fuera del fuego, incorpora al kheer la mitad de las almendras y los pistachos, junto con los anacardos, las pasas y el agua de rosas si los usas.", "it": "Fuori dal fuoco incorpora al kheer metà delle mandorle e dei pistacchi, insieme agli anacardi, all'uvetta e all'acqua di rose, se li usi."}},
+    {"text": {"fr": "Laissez reposer au moins 15 minutes pour le servir tiède, ou réfrigérez-le 2 heures pour le servir froid : le kheer épaissit en refroidissant.", "en": "Leave to stand for at least 15 minutes to serve it warm, or chill it for 2 hours to serve it cold: kheer thickens as it cools.", "es": "Déjalo reposar al menos 15 minutos para servirlo templado, o refrigéralo 2 horas para servirlo frío: el kheer espesa al enfriarse.", "it": "Lascialo riposare almeno 15 minuti per servirlo tiepido, oppure mettilo in frigorifero per 2 ore per servirlo freddo: il kheer si addensa raffreddandosi."}, "timerMinutes": 15},
+    {"text": {"fr": "Répartissez le kheer dans des bols et parsemez du reste des amandes et des pistaches.", "en": "Spoon the kheer into bowls and scatter over the rest of the almonds and pistachios.", "es": "Reparte el kheer en cuencos y espolvorea por encima el resto de las almendras y los pistachos.", "it": "Distribuisci il kheer nelle ciotole e cospargi con il resto delle mandorle e dei pistacchi."}}
+  ]
+}
