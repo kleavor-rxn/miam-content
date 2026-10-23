@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-nanaimo-bars",
+  "title": {"fr": "Nanaimo bars", "en": "Nanaimo bars", "es": "Nanaimo bars", "it": "Nanaimo bars"},
+  "summary": {
+    "fr": "Les barres canadiennes à trois étages, sans cuisson : une base croquante au chocolat, au biscuit et à la noix de coco, une crème au beurre à la poudre à flan et une fine couche de chocolat noir.",
+    "en": "Canada's three-layer no-bake bars: a crunchy chocolate, biscuit and coconut base, a custard-powder buttercream and a thin layer of dark chocolate.",
+    "es": "Las barritas canadienses de tres capas, sin horno: una base crujiente de chocolate, galleta y coco, una crema de mantequilla con polvos para natillas y una fina capa de chocolate negro.",
+    "it": "Le barrette canadesi a tre strati, senza forno: una base croccante di cioccolato, biscotto e cocco, una crema al burro con il preparato per budino e un sottile strato di cioccolato fondente."
+  },
+  "story": {
+    "fr": "Les Nanaimo bars portent le nom de Nanaimo, une ville de l'île de Vancouver, en Colombie-Britannique. Les plus anciennes recettes imprimées connues de ces carrés à trois étages apparaissent au début des années 1950, dans des livres de recettes de la région. En 1986, la ville a organisé un concours pour désigner la meilleure version, qu'elle diffuse depuis comme sa recette officielle. On les trouve aujourd'hui dans les cafés et les ventes de gâteaux de tout le Canada, et ils figurent souvent parmi les douceurs de Noël.",
+    "en": "Nanaimo bars are named after Nanaimo, a city on Vancouver Island, in British Columbia. The oldest known printed recipes for these three-layer squares appear in the early 1950s, in local community cookbooks. In 1986 the city held a contest to choose the best version, which it has shared ever since as its official recipe. Today they are found in coffee shops and at bake sales all over Canada, and they often feature among the Christmas treats.",
+    "es": "Las Nanaimo bars deben su nombre a Nanaimo, una ciudad de la isla de Vancouver, en la Columbia Británica. Las recetas impresas más antiguas que se conocen de estos cuadrados de tres capas aparecen a principios de los años cincuenta, en recetarios de la zona. En 1986 la ciudad organizó un concurso para elegir la mejor versión, que desde entonces difunde como su receta oficial. Hoy se encuentran en las cafeterías y en las ventas benéficas de pasteles de todo Canadá, y a menudo forman parte de los dulces de Navidad.",
+    "it": "Le Nanaimo bars prendono il nome da Nanaimo, una città dell'isola di Vancouver, nella Columbia Britannica. Le più antiche ricette stampate conosciute di questi quadrotti a tre strati compaiono all'inizio degli anni Cinquanta, in ricettari della zona. Nel 1986 la città ha indetto un concorso per scegliere la versione migliore, che da allora diffonde come sua ricetta ufficiale. Oggi si trovano nei caffè e alle vendite di dolci di beneficenza di tutto il Canada, e spesso compaiono tra i dolci di Natale."
+  },
+  "region": {"fr": "Nanaimo, Colombie-Britannique", "en": "Nanaimo, British Columbia", "es": "Nanaimo, Columbia Británica", "it": "Nanaimo, Columbia Britannica"},
+  "origin": {"countries": ["CA"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 12,
+  "heroImage": "images/ds-nanaimo-bars/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 260, "unit": "g"},
+    {"ref": "sucre", "quantity": 50, "unit": "g"},
+    {"ref": "cacao", "quantity": 5, "unit": "tbsp"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "biscuits-digestifs", "quantity": 160, "unit": "g"},
+    {"ref": "noix-de-coco-rapee", "quantity": 80, "unit": "g"},
+    {"ref": "amande", "quantity": 60, "unit": "g"},
+    {"ref": "creme-liquide", "quantity": 4, "unit": "cl"},
+    {"ref": "poudre-a-flan", "quantity": 2, "unit": "tbsp", "substitutes": ["fecule-de-mais"]},
+    {"ref": "sucre-glace", "quantity": 250, "unit": "g"},
+    {"ref": "chocolat-noir", "quantity": 120, "unit": "g"},
+    {"ref": "eau", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Chemisez de papier cuisson un moule carré de 20 cm de côté.", "en": "Line a 20 cm square tin with baking paper.", "es": "Forra con papel de horno un molde cuadrado de 20 cm de lado.", "it": "Fodera con carta forno uno stampo quadrato di 20 cm di lato."}},
+    {"text": {"fr": "Dans un bol posé sur une casserole d'eau frémissante, faites fondre 115 g de beurre avec le sucre et le cacao, en remuant.", "en": "In a bowl set over a pan of simmering water, melt 115 g of the butter with the sugar and cocoa, stirring.", "es": "En un bol colocado sobre un cazo con agua a punto de hervir, derrite 115 g de mantequilla con el azúcar y el cacao, removiendo.", "it": "In una ciotola appoggiata su un pentolino d'acqua che sobbolle, fai sciogliere 115 g di burro con lo zucchero e il cacao, mescolando."}, "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez l'œuf battu et faites cuire 2 à 3 minutes sans cesser de remuer, jusqu'à ce que le mélange épaississe.", "en": "Add the beaten egg and cook for 2 to 3 minutes, stirring constantly, until the mixture thickens.", "es": "Añade el huevo batido y cuece de 2 a 3 minutos sin dejar de remover, hasta que la mezcla espese.", "it": "Aggiungi l'uovo sbattuto e cuoci per 2-3 minuti senza smettere di mescolare, finché il composto si addensa."}, "timerMinutes": 3},
+    {"text": {"fr": "Hors du feu, incorporez les biscuits digestifs (ou des graham crackers) réduits en fines miettes, la noix de coco râpée et les amandes finement hachées.", "en": "Off the heat, stir in the digestive biscuits (or graham crackers) crushed to fine crumbs, the desiccated coconut and the finely chopped almonds.", "es": "Fuera del fuego, incorpora las galletas digestive (o graham crackers) trituradas en migas finas, el coco rallado y las almendras finamente picadas.", "it": "Fuori dal fuoco, incorpora i biscotti digestive (o i graham crackers) ridotti in briciole fini, la farina di cocco e le mandorle tritate finemente."}},
+    {"text": {"fr": "Tassez fermement ce mélange au fond du moule et laissez-le raffermir 30 minutes au réfrigérateur.", "en": "Press the mixture firmly into the bottom of the tin and chill for 30 minutes to firm up.", "es": "Aprieta bien la mezcla en el fondo del molde y deja que se afirme 30 minutos en la nevera.", "it": "Pressa bene il composto sul fondo dello stampo e lascialo rassodare 30 minuti in frigorifero."}, "timerMinutes": 30},
+    {"text": {"fr": "Fouettez 115 g de beurre mou avec la crème, la poudre à flan et le sucre glace, jusqu'à obtenir une crème jaune pâle, lisse et légère.", "en": "Beat 115 g of the butter, softened, with the cream, custard powder and icing sugar until pale yellow, smooth and light.", "es": "Bate 115 g de mantequilla blanda con la nata, los polvos para natillas y el azúcar glas, hasta obtener una crema amarillo pálido, lisa y ligera.", "it": "Lavora con le fruste 115 g di burro morbido con la panna, il preparato per budino e lo zucchero a velo, fino a ottenere una crema giallo chiaro, liscia e soffice."}},
+    {"text": {"fr": "Étalez cette crème en couche régulière sur la base et laissez-la prendre 30 minutes au réfrigérateur.", "en": "Spread the cream evenly over the base and chill for 30 minutes to set.", "es": "Extiende la crema en una capa uniforme sobre la base y deja que cuaje 30 minutos en la nevera.", "it": "Stendi la crema in uno strato uniforme sulla base e lasciala rapprendere 30 minuti in frigorifero."}, "timerMinutes": 30},
+    {"text": {"fr": "Au bain-marie, faites fondre le chocolat haché avec les 30 g de beurre restants, puis laissez tiédir quelques minutes : il doit rester fluide.", "en": "In a bowl over simmering water, melt the chopped chocolate with the remaining 30 g of butter, then leave to cool for a few minutes: it should still be runny.", "es": "Al baño maría, derrite el chocolate troceado con los 30 g de mantequilla restantes y deja que se temple unos minutos: debe seguir fluido.", "it": "A bagnomaria fai sciogliere il cioccolato tritato con i 30 g di burro rimasti, poi lascia intiepidire qualche minuto: deve restare fluido."}, "timerMinutes": 10},
+    {"text": {"fr": "Versez le chocolat sur la couche de crème, étalez-le finement à la spatule et laissez-le prendre 1 heure au réfrigérateur.", "en": "Pour the chocolate over the cream layer, spread it thinly with a palette knife and chill for 1 hour to set.", "es": "Vierte el chocolate sobre la capa de crema, extiéndelo en una capa fina con una espátula y deja que se endurezca 1 hora en la nevera.", "it": "Versa il cioccolato sullo strato di crema, stendilo sottile con una spatola e lascialo rapprendere 1 ora in frigorifero."}, "timerMinutes": 60},
+    {"text": {"fr": "Sortez le moule du réfrigérateur 10 minutes avant de servir, puis coupez 24 barres avec un couteau trempé dans l'eau chaude et essuyé, pour que le chocolat ne se fende pas.", "en": "Take the tin out of the fridge 10 minutes before serving, then cut into 24 bars with a knife dipped in hot water and wiped dry, so that the chocolate does not crack.", "es": "Saca el molde de la nevera 10 minutos antes de servir y corta 24 barritas con un cuchillo mojado en agua caliente y bien seco, para que el chocolate no se agriete.", "it": "Togli lo stampo dal frigorifero 10 minuti prima di servire, poi taglia 24 barrette con un coltello immerso nell'acqua calda e asciugato, perché il cioccolato non si crepi."}, "timerMinutes": 10}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-conchas",
+  "title": {"fr": "Conchas", "en": "Conchas", "es": "Conchas", "it": "Conchas"},
+  "summary": {
+    "fr": "Les petits pains briochés mexicains, coiffés d'une croûte sucrée et friable incisée en forme de coquillage.",
+    "en": "Mexico's soft sweet buns, topped with a crumbly sugar crust scored to look like a seashell.",
+    "es": "Los panes dulces mexicanos, tiernos y esponjosos, cubiertos de una costra de azúcar quebradiza marcada en forma de concha.",
+    "it": "I panini dolci messicani, soffici e burrosi, ricoperti da una crosticina di zucchero friabile incisa a forma di conchiglia."
+  },
+  "story": {
+    "fr": "Les conchas sont sans doute les plus populaires des pains sucrés mexicains, le pan dulce, que l'on choisit soi-même à la pince sur les plateaux des panaderías. Leur nom, « coquillages » en espagnol, vient de leur croûte de sucre incisée, qui rappelle une coquille Saint-Jacques. Le pan dulce est né du blé apporté par les Espagnols, puis s'est enrichi au XIXe siècle de l'influence des boulangers français. On mange les conchas au petit-déjeuner ou à la merienda, en fin d'après-midi, trempées dans un chocolat chaud ou un café au lait.",
+    "en": "Conchas are probably the best loved of Mexico's sweet breads, known as pan dulce, which customers pick out for themselves with tongs from the trays in the panaderías. Their name means 'shells' in Spanish, after the scored sugar crust that looks like a scallop shell. Pan dulce grew out of the wheat brought by the Spanish and was later enriched, in the nineteenth century, by the influence of French bakers. Conchas are eaten for breakfast or at merienda, the late-afternoon snack, dunked in hot chocolate or milky coffee.",
+    "es": "Las conchas son seguramente el pan dulce más querido de México, y cada cliente las escoge con pinzas de las bandejas de las panaderías. Su nombre viene de la costra de azúcar marcada, que recuerda la concha de una vieira. El pan dulce nació del trigo que llevaron los españoles y se enriqueció en el siglo XIX con la influencia de los panaderos franceses. Las conchas se comen en el desayuno o en la merienda, mojadas en chocolate caliente o en café con leche.",
+    "it": "Le conchas sono forse i più amati tra i pani dolci messicani, il pan dulce, che i clienti scelgono da soli con le pinze dai vassoi delle panaderías. Il nome, «conchiglie» in spagnolo, viene dalla crosta di zucchero incisa, che ricorda una capasanta. Il pan dulce è nato dal grano portato dagli spagnoli e si è arricchito nell'Ottocento grazie all'influenza dei fornai francesi. Le conchas si mangiano a colazione o a merenda, inzuppate nella cioccolata calda o nel caffellatte."
+  },
+  "region": {"fr": "Mexique", "en": "Mexico", "es": "México", "it": "Messico"},
+  "origin": {"countries": ["MX"]},
+  "category": "dessert",
+  "dessertType": "brioche",
+  "occasions": ["gouter"],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 40,
+  "servings": 12,
+  "heroImage": "images/ds-conchas/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 600, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "lait", "quantity": 18, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "beurre", "quantity": 180, "unit": "g"},
+    {"ref": "sucre-glace", "quantity": 100, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "cacao", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans le bol d'un robot muni du crochet, pétrissez 5 minutes 500 g de farine avec le sucre, la levure sèche de boulanger, le sel, la cannelle si vous le souhaitez, le lait tiède et les œufs, jusqu'à obtenir une pâte souple.", "en": "In the bowl of a stand mixer fitted with the dough hook, knead 500 g of the flour with the sugar, fast-action dried yeast, salt, cinnamon if you like, lukewarm milk and eggs for 5 minutes, until you have a soft dough.", "es": "En el bol de la amasadora con el gancho, amasa durante 5 minutos 500 g de harina con el azúcar, la levadura seca de panadería, la sal, la canela si te apetece, la leche tibia y los huevos, hasta obtener una masa suave.", "it": "Nella ciotola della planetaria con il gancio, impasta per 5 minuti 500 g di farina con lo zucchero, il lievito di birra secco, il sale, la cannella se ti va, il latte tiepido e le uova, fino a ottenere un impasto morbido."}, "timerMinutes": 5},
+    {"text": {"fr": "Incorporez 100 g de beurre mou, morceau par morceau, puis pétrissez encore 10 minutes, jusqu'à ce que la pâte soit lisse, élastique et se décolle des parois.", "en": "Add 100 g of the soft butter a piece at a time, then knead for another 10 minutes, until the dough is smooth and elastic and comes away from the sides of the bowl.", "es": "Incorpora 100 g de mantequilla blanda, trozo a trozo, y amasa 10 minutos más, hasta que la masa esté lisa y elástica y se despegue de las paredes.", "it": "Aggiungi 100 g di burro morbido, un pezzetto alla volta, poi impasta per altri 10 minuti, finché l'impasto è liscio ed elastico e si stacca dalle pareti."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez le bol et laissez lever 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover the bowl and leave to rise somewhere warm for 1½ hours, until doubled in size.", "es": "Tapa el bol y deja levar 1 hora y media en un lugar templado, hasta que la masa doble su volumen.", "it": "Copri la ciotola e lascia lievitare per 1 ora e mezza in un luogo tiepido, finché l'impasto è raddoppiato."}, "timerMinutes": 90},
+    {"text": {"fr": "Pour la coquille, travaillez du bout des doigts le reste de la farine, le sucre glace, le reste du beurre et la vanille jusqu'à obtenir une pâte lisse ; si vous le souhaitez, colorez-en la moitié avec le cacao pour des conchas au chocolat.", "en": "For the shell topping, work the rest of the flour, the icing sugar, the rest of the butter and the vanilla together with your fingertips into a smooth paste; if you like, knead the cocoa into half of it for chocolate conchas.", "es": "Para la cobertura, trabaja con la punta de los dedos el resto de la harina, el azúcar glas, el resto de la mantequilla y la vainilla hasta obtener una pasta lisa; si te apetece, mezcla la mitad con el cacao para hacer conchas de chocolate.", "it": "Per la copertura, lavora con la punta delle dita il resto della farina, lo zucchero a velo, il resto del burro e la vaniglia fino a ottenere una pasta liscia; se ti va, impasta metà con il cacao per avere conchas al cioccolato."}},
+    {"text": {"fr": "Divisez la pâte levée en 12 morceaux d'environ 80 g, façonnez-les en boules lisses et posez-les bien espacées sur deux plaques tapissées de papier cuisson.", "en": "Divide the risen dough into 12 pieces of about 80 g, shape them into smooth balls and set them well apart on two baking trays lined with baking paper.", "es": "Divide la masa levada en 12 porciones de unos 80 g, bolea cada una hasta que quede lisa y colócalas bien separadas en dos bandejas cubiertas con papel de horno.", "it": "Dividi l'impasto lievitato in 12 pezzi da circa 80 g, formali a palline lisce e disponile ben distanziate su due teglie rivestite di carta forno."}},
+    {"text": {"fr": "Partagez la pâte à coquille en 12 boulettes, aplatissez chacune entre deux feuilles de papier cuisson en un disque de 8 cm et posez-le sur une boule de pâte en pressant légèrement.", "en": "Divide the topping into 12 small balls, flatten each between two sheets of baking paper into an 8 cm disc and lay it on top of a dough ball, pressing lightly.", "es": "Reparte la cobertura en 12 bolitas, aplasta cada una entre dos hojas de papel de horno hasta formar un disco de 8 cm y colócalo sobre una bola de masa, presionando ligeramente.", "it": "Dividi la copertura in 12 palline, schiaccia ciascuna tra due fogli di carta forno in un disco di 8 cm e appoggialo su una pallina di impasto, premendo leggermente."}},
+    {"text": {"fr": "Avec la pointe d'un couteau, incisez la coquille de lignes courbes en éventail, sans entamer la pâte en dessous.", "en": "Using the tip of a knife, score the topping with curved lines fanning out like a shell, without cutting into the dough underneath.", "es": "Con la punta de un cuchillo, marca la cobertura con líneas curvas en abanico, como una concha, sin llegar a cortar la masa de debajo.", "it": "Con la punta di un coltello, incidi la copertura con linee curve a ventaglio, come una conchiglia, senza intaccare l'impasto sottostante."}},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 45 minutes.", "en": "Cover with a tea towel and leave to rise for 45 minutes.", "es": "Cúbrelas con un paño y deja levar 45 minutos.", "it": "Coprile con un canovaccio e lascia lievitare per 45 minuti."}, "timerMinutes": 45},
+    {"text": {"fr": "Préchauffez le four à 180 °C ; pendant ce temps, les conchas finissent de lever, jusqu'à avoir presque doublé de volume, et la coquille se craquelle légèrement.", "en": "Preheat the oven to 180 °C; meanwhile the conchas finish rising until almost doubled in size and the topping begins to crack slightly.", "es": "Precalienta el horno a 180 °C; mientras tanto, las conchas terminan de levar hasta casi doblar su volumen y la cobertura empieza a agrietarse un poco.", "it": "Preriscalda il forno a 180 °C; nel frattempo le conchas finiscono di lievitare, finché sono quasi raddoppiate e la copertura comincia a screpolarsi leggermente."}, "timerMinutes": 15},
+    {"text": {"fr": "Faites cuire une plaque à la fois 18 à 20 minutes, jusqu'à ce que la base soit dorée et la coquille encore claire, puis laissez tiédir sur une grille.", "en": "Bake one tray at a time for 18 to 20 minutes, until golden underneath but with the topping still pale, then leave to cool on a wire rack.", "es": "Hornea una bandeja cada vez de 18 a 20 minutos, hasta que la base esté dorada y la cobertura siga clara, y deja que se templen sobre una rejilla.", "it": "Cuoci una teglia alla volta per 18-20 minuti, finché la base è dorata e la copertura ancora chiara, poi lascia intiepidire su una gratella."}, "timerMinutes": 20}
+  ]
+}

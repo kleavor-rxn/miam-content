@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-papanasi",
+  "title": {"fr": "Papanași", "en": "Papanași", "es": "Papanași", "it": "Papanași"},
+  "summary": {
+    "fr": "Des beignets roumains au fromage frais, un anneau doré coiffé d'une petite boule, servis brûlants avec de la crème aigre et de la confiture de griottes.",
+    "en": "Romanian fresh-cheese doughnuts, a golden ring crowned with a little ball, served piping hot with soured cream and morello cherry jam.",
+    "es": "Buñuelos rumanos de queso fresco, un aro dorado coronado por una bolita, que se sirven muy calientes con nata agria y mermelada de guindas.",
+    "it": "Frittelle rumene al formaggio fresco, una ciambella dorata sormontata da una pallina, servite bollenti con panna acida e confettura di amarene."
+  },
+  "story": {
+    "fr": "Les papanași comptent parmi les desserts les plus populaires de Roumanie et figurent à la carte de très nombreux restaurants du pays. Leur pâte, liée d'œufs et d'un peu de farine, repose sur la brânză de vaci, un fromage frais de vache égoutté et granuleux. Frits, ils se servent par deux, un anneau coiffé d'une petite boule, avec de la smântână (crème aigre) et de la dulceață, une confiture de fruits entiers, souvent de griottes ou de myrtilles. Il en existe aussi une version pochée à l'eau, puis roulée dans de la chapelure dorée au beurre.",
+    "en": "Papanași are among Romania's most popular desserts and appear on the menus of a great many restaurants across the country. The dough, bound with eggs and a little flour, is based on brânză de vaci, a drained, crumbly fresh cow's-milk cheese. Fried, they are served in pairs, a ring topped with a small ball, with smântână (soured cream) and dulceață, a whole-fruit preserve, often of morello cherries or blueberries. There is also a version poached in water, then rolled in breadcrumbs toasted in butter.",
+    "es": "Los papanași están entre los postres más populares de Rumanía y figuran en la carta de muchísimos restaurantes del país. Su masa, ligada con huevo y un poco de harina, se basa en la brânză de vaci, un queso fresco de vaca escurrido y granuloso. Fritos, se sirven de dos en dos, un aro coronado por una bolita, con smântână (nata agria) y dulceață, una confitura de fruta entera, a menudo de guindas o de arándanos. También existe una versión cocida en agua y rebozada después en pan rallado tostado con mantequilla.",
+    "it": "I papanași sono tra i dolci più amati della Romania e compaiono nel menu di moltissimi ristoranti del paese. L'impasto, legato con uova e poca farina, si basa sulla brânză de vaci, un formaggio fresco vaccino sgocciolato e granuloso. Fritti, si servono in coppia, una ciambella sormontata da una pallina, con smântână (panna acida) e dulceață, una confettura di frutti interi, spesso di amarene o di mirtilli. Esiste anche una versione lessata in acqua e poi passata nel pangrattato tostato nel burro."
+  },
+  "region": {"fr": "Roumanie", "en": "Romania", "es": "Rumanía", "it": "Romania"},
+  "origin": {"countries": ["RO"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/ds-papanasi/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "tvorog", "quantity": 500, "unit": "g", "substitutes": ["fromage-blanc", "ricotta"]},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "sucre", "quantity": 50, "unit": "g"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "l"},
+    {"ref": "creme-aigre", "quantity": 200, "unit": "g"},
+    {"ref": "confiture-de-griottes", "quantity": 200, "unit": "g"},
+    {"ref": "sucre-glace", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Écrasez la brânză de vaci à la fourchette, ou passez-la au tamis, jusqu'à ce qu'il ne reste plus de gros grains ; si vous la remplacez par du fromage blanc ou de la ricotta, laissez-les d'abord égoutter une nuit dans un linge, au réfrigérateur.", "en": "Mash the brânză de vaci with a fork, or press it through a sieve, until no large curds remain; if you are using fromage blanc or ricotta instead, first leave it to drain overnight in a cloth in the fridge.", "es": "Aplasta la brânză de vaci con un tenedor, o pásala por un tamiz, hasta que no queden grumos grandes; si la sustituyes por queso fresco batido o ricotta, déjalos escurrir antes toda la noche en un paño, en la nevera.", "it": "Schiaccia la brânză de vaci con una forchetta, o passala al setaccio, finché non restano grumi grossi; se la sostituisci con formaggio fresco cremoso o ricotta, lasciali prima sgocciolare per una notte in un telo, in frigorifero."}},
+    {"text": {"fr": "Ajoutez les œufs, le sucre, le zeste râpé du citron, le sel et, si vous le souhaitez, la vanille, puis mélangez bien.", "en": "Add the eggs, sugar, grated lemon zest, salt and, if you like, the vanilla, then mix well.", "es": "Añade los huevos, el azúcar, la ralladura del limón, la sal y, si quieres, la vainilla, y mezcla bien.", "it": "Aggiungi le uova, lo zucchero, la scorza grattugiata del limone, il sale e, se ti va, la vaniglia, poi mescola bene."}},
+    {"text": {"fr": "Délayez le bicarbonate dans 1 cuillerée à soupe de jus du citron et incorporez-le aussitôt à la pâte : elle va mousser légèrement.", "en": "Dissolve the bicarbonate of soda in 1 tablespoon of the lemon juice and stir it straight into the mixture: it will foam a little.", "es": "Disuelve el bicarbonato en 1 cucharada de zumo del limón e incorpóralo enseguida a la mezcla: hará un poco de espuma.", "it": "Sciogli il bicarbonato in 1 cucchiaio di succo del limone e incorporalo subito al composto: farà un po' di schiuma."}},
+    {"text": {"fr": "Incorporez peu à peu 200 g de farine à la cuillère, jusqu'à obtenir une pâte souple, à peine collante.", "en": "Gradually work in 200 g of the flour with a spoon, until you have a soft dough that is only slightly sticky.", "es": "Incorpora poco a poco 200 g de harina con una cuchara, hasta obtener una masa blanda y apenas pegajosa.", "it": "Incorpora poco alla volta 200 g di farina con un cucchiaio, fino a ottenere un impasto morbido, appena appiccicoso."}},
+    {"text": {"fr": "Les mains farinées avec le reste de la farine, partagez la pâte en quatre grosses portions et quatre petites ; aplatissez les grosses en galettes de 2 cm d'épaisseur, percez-les au centre avec le doigt pour former des anneaux, et roulez les petites en boules.", "en": "With your hands dusted in the rest of the flour, divide the dough into four large pieces and four small ones; flatten the large ones into rounds 2 cm thick, push a finger through the centre to make rings, and roll the small ones into balls.", "es": "Con las manos enharinadas con el resto de la harina, divide la masa en cuatro porciones grandes y cuatro pequeñas; aplana las grandes en discos de 2 cm de grosor, agujeréalas en el centro con el dedo para formar aros y haz bolitas con las pequeñas.", "it": "Con le mani infarinate con la farina rimasta, dividi l'impasto in quattro porzioni grandi e quattro piccole; appiattisci quelle grandi in dischi spessi 2 cm, bucali al centro con un dito per formare delle ciambelle e arrotola quelle piccole a pallina."}},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C dans une casserole à bords hauts.", "en": "Heat the oil to 170 °C in a deep saucepan.", "es": "Calienta el aceite a 170 °C en un cazo hondo.", "it": "Scalda l'olio a 170 °C in una casseruola dai bordi alti."}, "timerMinutes": 10},
+    {"text": {"fr": "Faites frire les anneaux et les boules, quelques-uns à la fois, 6 à 8 minutes en les retournant à mi-cuisson, jusqu'à ce qu'ils soient bien dorés et cuits à cœur.", "en": "Fry the rings and balls a few at a time for 6 to 8 minutes, turning them halfway, until deep golden and cooked through.", "es": "Fríe los aros y las bolitas, unos pocos cada vez, de 6 a 8 minutos, dándoles la vuelta a media cocción, hasta que estén bien dorados y hechos por dentro.", "it": "Friggi le ciambelle e le palline, poche alla volta, per 6-8 minuti, girandole a metà cottura, finché sono ben dorate e cotte all'interno."}, "timerMinutes": 8},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant.", "en": "Drain them on kitchen paper.", "es": "Escúrrelos sobre papel absorbente.", "it": "Scolali su carta assorbente."}},
+    {"text": {"fr": "Servez aussitôt : sur chaque assiette, un anneau nappé de crème aigre et de confiture de griottes, coiffé d'une boule ; saupoudrez de sucre glace si vous le souhaitez.", "en": "Serve straight away: on each plate, a ring topped with soured cream and morello cherry jam, crowned with a ball; dust with icing sugar if you like.", "es": "Sírvelos enseguida: en cada plato, un aro cubierto de nata agria y mermelada de guindas, coronado por una bolita; espolvorea con azúcar glas si quieres.", "it": "Servili subito: in ogni piatto una ciambella coperta di panna acida e confettura di amarene, sormontata da una pallina; spolvera di zucchero a velo, se ti va."}}
+  ]
+}

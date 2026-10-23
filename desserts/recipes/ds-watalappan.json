@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-watalappan",
+  "title": {"fr": "Watalappan", "en": "Watalappan", "es": "Watalappan", "it": "Watalappan"},
+  "summary": {
+    "fr": "Le flan sri-lankais au lait de coco et au sucre de palme, parfumé à la cardamome et à la muscade, cuit à la vapeur jusqu'à prendre une texture fondante et légèrement alvéolée.",
+    "en": "Sri Lanka's coconut milk and palm sugar custard, scented with cardamom and nutmeg, steamed until meltingly soft with a lightly honeycombed texture.",
+    "es": "El flan esrilanqués de leche de coco y azúcar de palma, perfumado con cardamomo y nuez moscada, cocido al vapor hasta quedar meloso y ligeramente alveolado.",
+    "it": "Il budino dello Sri Lanka al latte di cocco e zucchero di palma, profumato al cardamomo e alla noce moscata, cotto al vapore fino a diventare morbidissimo e leggermente alveolato."
+  },
+  "story": {
+    "fr": "On attribue généralement le watalappan à la communauté malaise du Sri Lanka, et il reste étroitement associé aux musulmans de l'île, qui le servent à l'Aïd el-Fitr, à la fin du ramadan, ainsi qu'aux mariages. Sa couleur brune et son goût profond viennent du jaggery de kithul, un sucre tiré de la sève du palmier à queue de poisson (Caryota urens). Il s'est peu à peu répandu dans toutes les communautés de l'île et se sert froid, nature ou parsemé de noix de cajou.",
+    "en": "Watalappan is generally credited to Sri Lanka's Malay community, and it remains closely associated with the island's Muslims, who serve it at Eid al-Fitr, at the end of Ramadan, and at weddings. Its brown colour and deep flavour come from kithul jaggery, a sugar made from the sap of the fishtail palm (Caryota urens). It has gradually spread to every community on the island and is served chilled, plain or scattered with cashews.",
+    "es": "El watalappan suele atribuirse a la comunidad malaya de Sri Lanka, y sigue muy ligado a los musulmanes de la isla, que lo sirven en el Eid al-Fitr, al final del ramadán, y en las bodas. Su color tostado y su sabor intenso se deben al jaggery de kithul, un azúcar que se obtiene de la savia de la palmera cola de pez (Caryota urens). Con el tiempo se ha extendido a todas las comunidades de la isla y se sirve frío, solo o con anacardos por encima.",
+    "it": "Il watalappan viene in genere attribuito alla comunità malese dello Sri Lanka, e resta strettamente legato ai musulmani dell'isola, che lo servono per l'Eid al-Fitr, alla fine del Ramadan, e ai matrimoni. Il colore bruno e il sapore intenso vengono dal jaggery di kithul, uno zucchero ricavato dalla linfa della palma coda di pesce (Caryota urens). Col tempo si è diffuso in tutte le comunità dell'isola e si serve freddo, al naturale o cosparso di anacardi."
+  },
+  "region": {"fr": "Sri Lanka", "en": "Sri Lanka", "es": "Sri Lanka", "it": "Sri Lanka"},
+  "origin": {"countries": ["LK"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": ["ramadan-aid"],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 6,
+  "heroImage": "images/ds-watalappan/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "sucre-de-palme", "quantity": 250, "unit": "g", "substitutes": ["cassonade"]},
+    {"ref": "eau", "quantity": 5, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "lait-de-coco", "quantity": 40, "unit": "cl"},
+    {"ref": "cardamome", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.25, "unit": "tsp"},
+    {"ref": "clou-de-girofle", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "noix-de-cajou", "quantity": 30, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une petite casserole, faites fondre à feu doux le sucre de palme râpé (idéalement du jaggery de kithul) avec les 5 cl d'eau, en remuant.", "en": "In a small saucepan, melt the grated palm sugar (ideally kithul jaggery) with the 5 cl of water over a low heat, stirring.", "es": "En un cazo pequeño, derrite a fuego suave el azúcar de palma rallado (a ser posible jaggery de kithul) con los 5 cl de agua, removiendo.", "it": "In un pentolino fai sciogliere a fuoco dolce lo zucchero di palma grattugiato (meglio se jaggery di kithul) con i 5 cl d'acqua, mescolando."}, "timerMinutes": 5},
+    {"text": {"fr": "Passez le sirop au tamis pour retirer les impuretés et laissez-le tiédir.", "en": "Strain the syrup through a sieve to remove any impurities and leave it to cool to lukewarm.", "es": "Pasa el almíbar por un colador para quitar las impurezas y deja que se temple.", "it": "Passa lo sciroppo al colino per eliminare le impurità e lascialo intiepidire."}, "timerMinutes": 15},
+    {"text": {"fr": "Dans un grand bol, battez les œufs à la fourchette, sans les faire mousser.", "en": "In a large bowl, beat the eggs with a fork, without making them frothy.", "es": "En un bol grande, bate los huevos con un tenedor, sin que lleguen a hacer espuma.", "it": "In una ciotola capiente sbatti le uova con una forchetta, senza farle schiumare."}},
+    {"text": {"fr": "Incorporez le sirop tiède, le lait de coco, la cardamome moulue, la muscade râpée, le sel et, si vous le souhaitez, le clou de girofle moulu, en mélangeant doucement.", "en": "Gently stir in the lukewarm syrup, coconut milk, ground cardamom, grated nutmeg, salt and, if you like, the ground clove.", "es": "Incorpora el almíbar templado, la leche de coco, el cardamomo molido, la nuez moscada rallada, la sal y, si quieres, el clavo molido, mezclando con suavidad.", "it": "Incorpora lo sciroppo tiepido, il latte di cocco, il cardamomo in polvere, la noce moscata grattugiata, il sale e, se ti va, il chiodo di garofano in polvere, mescolando delicatamente."}},
+    {"text": {"fr": "Passez l'appareil au chinois dans un plat résistant à la chaleur d'environ 1,2 l, puis couvrez-le hermétiquement de papier d'aluminium.", "en": "Pass the custard through a fine sieve into a heatproof dish of about 1.2 litres, then cover it tightly with foil.", "es": "Pasa la mezcla por un colador fino a una fuente resistente al calor de unos 1,2 l y tápala bien con papel de aluminio.", "it": "Passa il composto al colino in una pirofila di circa 1,2 l, poi coprila ermeticamente con un foglio di alluminio."}},
+    {"text": {"fr": "Faites cuire à la vapeur, au-dessus d'une eau frémissante, pendant 45 minutes environ, jusqu'à ce que le centre soit pris et qu'une lame de couteau en ressorte propre.", "en": "Steam over gently simmering water for about 45 minutes, until the centre is set and a knife blade comes out clean.", "es": "Cuece al vapor, sobre agua a fuego suave, unos 45 minutos, hasta que el centro esté cuajado y la hoja de un cuchillo salga limpia.", "it": "Cuoci a vapore, sopra l'acqua che sobbolle, per circa 45 minuti, finché il centro è rappreso e la lama di un coltello ne esce pulita."}, "timerMinutes": 45},
+    {"text": {"fr": "Retirez le papier d'aluminium et laissez refroidir à température ambiante.", "en": "Remove the foil and leave to cool to room temperature.", "es": "Retira el papel de aluminio y deja que se enfríe a temperatura ambiente.", "it": "Togli il foglio di alluminio e lascia raffreddare a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Placez au réfrigérateur pendant au moins 3 heures.", "en": "Chill in the fridge for at least 3 hours.", "es": "Mételo en la nevera al menos 3 horas.", "it": "Metti in frigorifero per almeno 3 ore."}, "timerMinutes": 180},
+    {"text": {"fr": "Servez froid, à la cuillère, parsemé de noix de cajou grillées et concassées si vous le souhaitez.", "en": "Serve chilled, spooned out of the dish, scattered with toasted, roughly chopped cashews if you like.", "es": "Sírvelo frío, a cucharadas, con anacardos tostados y troceados por encima si quieres.", "it": "Servilo freddo, al cucchiaio, cosparso di anacardi tostati e tritati grossolanamente, se ti va."}}
+  ]
+}

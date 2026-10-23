@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-sufganiyot",
+  "title": {"fr": "Sufganiyot", "en": "Sufganiyot", "es": "Sufganiyot", "it": "Sufganiyot"},
+  "summary": {
+    "fr": "Les beignets de Hanoucca : une pâte levée frite, très moelleuse, garnie de confiture de fraises et poudrée de sucre glace.",
+    "en": "Hanukkah doughnuts: soft fried yeast dough filled with strawberry jam and dusted with icing sugar.",
+    "es": "Los buñuelos de Janucá: una masa levada frita, muy esponjosa, rellena de mermelada de fresa y espolvoreada con azúcar glas.",
+    "it": "I bomboloni di Hanukkah: pasta lievitata fritta, sofficissima, ripiena di confettura di fragole e spolverata di zucchero a velo."
+  },
+  "story": {
+    "fr": "En Israël, les sufganiyot sont la douceur de Hanoucca, la fête des Lumières, pendant laquelle on mange des fritures en souvenir du miracle de l'huile : selon la tradition, une seule fiole aurait suffi à faire brûler huit jours la lampe du Temple de Jérusalem. Ce beignet fourré à la confiture est arrivé avec les Juifs d'Europe centrale et orientale, qui connaissaient les pączki polonais et les Berliner allemands. Le nom sufganiyot vient d'un mot hébreu qui désigne l'éponge, en raison de leur mie légère. Dans les semaines de la fête, les boulangeries du pays en vendent par plateaux entiers, à la confiture ou garnis de crèmes plus modernes.",
+    "en": "In Israel, sufganiyot are the sweet of Hanukkah, the Festival of Lights, when fried foods are eaten in memory of the miracle of the oil: according to tradition, a single small jar was enough to keep the Temple lamp in Jerusalem burning for eight days. The jam doughnut arrived with Jews from Central and Eastern Europe, who knew Polish pączki and German Berliner. The name sufganiyot comes from a Hebrew word meaning sponge, a nod to their light crumb. In the weeks around the festival, bakeries all over the country sell them by the trayful, filled with jam or with more modern creams.",
+    "es": "En Israel, las sufganiyot son el dulce de Janucá, la fiesta de las Luces, en la que se comen fritos en recuerdo del milagro del aceite: según la tradición, una sola vasija bastó para mantener encendida ocho días la lámpara del Templo de Jerusalén. Este buñuelo relleno de mermelada llegó con los judíos de Europa central y oriental, que conocían los pączki polacos y los Berliner alemanes. El nombre sufganiyot procede de una palabra hebrea que significa esponja, por su miga ligera. En las semanas de la fiesta, las pastelerías del país las venden por bandejas, rellenas de mermelada o de cremas más modernas.",
+    "it": "In Israele le sufganiyot sono il dolce di Hanukkah, la festa delle Luci, durante la quale si mangiano fritture in ricordo del miracolo dell'olio: secondo la tradizione, una sola ampolla bastò a tenere accesa per otto giorni la lampada del Tempio di Gerusalemme. Questo bombolone ripieno di confettura è arrivato con gli ebrei dell'Europa centrale e orientale, che conoscevano i pączki polacchi e i Berliner tedeschi. Il nome sufganiyot deriva da una parola ebraica che significa spugna, per la loro mollica leggera. Nelle settimane della festa le pasticcerie del paese le vendono a vassoi interi, ripiene di confettura o di creme più moderne."
+  },
+  "region": {"fr": "Israël", "en": "Israel", "es": "Israel", "it": "Israele"},
+  "origin": {"countries": ["IL"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": ["hanoucca"],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 25,
+  "servings": 8,
+  "heroImage": "images/ds-sufganiyot/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "citron", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "cognac", "quantity": 1, "unit": "tbsp", "optional": true},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "l"},
+    {"ref": "sucre-glace", "quantity": 3, "unit": "tbsp"},
+    {"ref": "confiture-de-fraise", "quantity": 250, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans le bol d'un robot muni du crochet, mélangez la farine, le sucre, la levure sèche de boulanger, le sel et, si vous le souhaitez, le zeste finement râpé du citron.", "en": "In the bowl of a stand mixer fitted with the dough hook, mix the flour, sugar, fast-action dried yeast, salt and, if you like, the finely grated lemon zest.", "es": "En el bol de la amasadora con el gancho, mezcla la harina, el azúcar, la levadura seca de panadería, la sal y, si te apetece, la ralladura fina del limón.", "it": "Nella ciotola della planetaria con il gancio, mescola la farina, lo zucchero, il lievito di birra secco, il sale e, se ti va, la scorza grattugiata finemente del limone."}},
+    {"text": {"fr": "Ajoutez le lait tiède, les œufs et, si vous le souhaitez, le cognac (une astuce répandue pour que les beignets absorbent moins d'huile), puis pétrissez 5 minutes.", "en": "Add the lukewarm milk, the eggs and, if you like, the brandy (a common trick to help the doughnuts absorb less oil), then knead for 5 minutes.", "es": "Añade la leche tibia, los huevos y, si te apetece, el coñac (un truco muy extendido para que los buñuelos absorban menos aceite), y amasa 5 minutos.", "it": "Aggiungi il latte tiepido, le uova e, se ti va, il brandy (un trucco diffuso perché i bomboloni assorbano meno olio), poi impasta per 5 minuti."}, "timerMinutes": 5},
+    {"text": {"fr": "Incorporez le beurre mou en morceaux, puis pétrissez encore 8 minutes, jusqu'à obtenir une pâte lisse, souple et à peine collante.", "en": "Add the soft butter in pieces, then knead for another 8 minutes, until the dough is smooth, supple and only slightly sticky.", "es": "Incorpora la mantequilla blanda en trozos y amasa 8 minutos más, hasta obtener una masa lisa, elástica y apenas pegajosa.", "it": "Aggiungi il burro morbido a pezzetti, poi impasta per altri 8 minuti, fino a ottenere un impasto liscio, elastico e appena appiccicoso."}, "timerMinutes": 8},
+    {"text": {"fr": "Couvrez et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover and leave to rise somewhere warm for 1 hour, until doubled in size.", "es": "Tapa la masa y deja levar 1 hora en un lugar templado, hasta que doble su volumen.", "it": "Copri e lascia lievitare per 1 ora in un luogo tiepido, finché l'impasto è raddoppiato."}, "timerMinutes": 60},
+    {"text": {"fr": "Divisez la pâte en 16 morceaux d'environ 60 g, façonnez-les en boules lisses, posez-les sur une plaque farinée, couvrez et laissez lever 30 minutes.", "en": "Divide the dough into 16 pieces of about 60 g, shape them into smooth balls, set them on a floured tray, cover and leave to rise for 30 minutes.", "es": "Divide la masa en 16 porciones de unos 60 g, bolea cada una hasta que quede lisa, colócalas en una bandeja enharinada, tápalas y deja levar 30 minutos.", "it": "Dividi l'impasto in 16 pezzi da circa 60 g, formali a palline lisce, disponile su una teglia infarinata, coprile e lascia lievitare per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C dans une casserole à bords hauts.", "en": "Heat the oil to 170 °C in a deep, heavy saucepan.", "es": "Calienta el aceite a 170 °C en una cacerola honda.", "it": "Scalda l'olio a 170 °C in una casseruola dai bordi alti."}, "timerMinutes": 10},
+    {"text": {"fr": "Plongez les boules dans l'huile, 3 ou 4 à la fois, et faites-les frire environ 2 minutes de chaque côté, jusqu'à ce qu'elles soient bien dorées, avec une couronne claire à mi-hauteur.", "en": "Lower the balls into the oil 3 or 4 at a time and fry for about 2 minutes on each side, until deep golden with a pale ring around the middle.", "es": "Sumerge las bolas en el aceite, de 3 en 3 o de 4 en 4, y fríelas unos 2 minutos por cada lado, hasta que estén bien doradas, con un anillo claro a media altura.", "it": "Immergi le palline nell'olio, 3 o 4 alla volta, e friggile per circa 2 minuti per lato, finché sono ben dorate, con un anello chiaro a metà altezza."}, "timerMinutes": 4},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et faites frire les autres de la même façon, en maintenant l'huile à 170 °C.", "en": "Drain them on kitchen paper and fry the rest in the same way, keeping the oil at 170 °C.", "es": "Escúrrelas sobre papel absorbente y fríe las demás del mismo modo, manteniendo el aceite a 170 °C.", "it": "Scolale su carta assorbente e friggi le altre allo stesso modo, mantenendo l'olio a 170 °C."}, "timerMinutes": 15},
+    {"text": {"fr": "Quand les beignets sont tièdes, poudrez-les généreusement de sucre glace.", "en": "Once the doughnuts are warm rather than hot, dust them generously with icing sugar.", "es": "Cuando los buñuelos estén templados, espolvoréalos generosamente con azúcar glas.", "it": "Quando i bomboloni sono tiepidi, spolverali generosamente di zucchero a velo."}},
+    {"text": {"fr": "Percez le dessus de chaque beignet avec un couteau fin, garnissez-le d'environ 15 g de confiture de fraises à l'aide d'une poche munie d'une douille fine, puis servez le jour même.", "en": "Pierce the top of each doughnut with a thin knife, pipe in about 15 g of strawberry jam using a piping bag fitted with a thin nozzle, then serve the same day.", "es": "Pincha cada buñuelo por arriba con un cuchillo fino, rellénalo con unos 15 g de mermelada de fresa con una manga pastelera con boquilla fina y sírvelos el mismo día.", "it": "Pratica un foro sulla sommità di ogni bombolone con un coltello sottile, farciscilo con circa 15 g di confettura di fragole usando una tasca da pasticciere con bocchetta sottile, poi servili in giornata."}}
+  ]
+}

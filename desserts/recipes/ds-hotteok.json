@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-hotteok",
+  "title": {"fr": "Hotteok", "en": "Hotteok", "es": "Hotteok", "it": "Hotteok"},
+  "summary": {
+    "fr": "Les galettes des rues coréennes : une pâte levée moelleuse, dorée à la poêle autour d'un cœur fondant de cassonade, de cannelle et de cacahuètes.",
+    "en": "Korea's street-stall pancakes: a soft, chewy yeast dough fried until crisp around a molten filling of brown sugar, cinnamon and peanuts.",
+    "es": "Las tortitas callejeras de Corea: una masa levada tierna, dorada en la sartén alrededor de un relleno fundido de azúcar moreno, canela y cacahuetes.",
+    "it": "Le frittelle di strada coreane: un impasto lievitato morbido, dorato in padella attorno a un ripieno fuso di zucchero di canna, cannella e arachidi."
+  },
+  "story": {
+    "fr": "Le hotteok est l'une des douceurs de rue les plus populaires de Corée du Sud, surtout en hiver, quand les étals le cuisent à la demande sur de grandes plaques huilées. On le dit introduit par des marchands chinois installés en Corée à la fin du XIXe siècle, d'où son nom, formé de ho, qui désignait les étrangers venus de Chine, et de tteok, le gâteau de riz. Il se mange brûlant, plié dans un gobelet en carton, et chaque ville a ses variantes, comme le ssiat hotteok de Busan, ouvert et garni de graines.",
+    "en": "Hotteok is one of South Korea's best-loved street sweets, especially in winter, when stalls cook it to order on large oiled griddles. It is said to have been introduced by Chinese merchants who settled in Korea in the late nineteenth century, hence the name, made up of ho, a word once used for foreigners from China, and tteok, rice cake. It is eaten piping hot, folded into a paper cup, and every city has its own version, such as Busan's ssiat hotteok, split open and stuffed with seeds.",
+    "es": "El hotteok es uno de los dulces callejeros más populares de Corea del Sur, sobre todo en invierno, cuando los puestos lo hacen al momento en grandes planchas engrasadas. Se dice que lo introdujeron los comerciantes chinos que se instalaron en Corea a finales del siglo XIX, de ahí su nombre, formado por ho, palabra con la que se designaba a los extranjeros venidos de China, y tteok, pastel de arroz. Se come muy caliente, doblado dentro de un vaso de papel, y cada ciudad tiene su versión, como el ssiat hotteok de Busan, abierto y relleno de semillas.",
+    "it": "L'hotteok è uno dei dolci di strada più amati della Corea del Sud, soprattutto d'inverno, quando le bancarelle lo cuociono al momento su grandi piastre unte. Si dice che sia stato introdotto dai mercanti cinesi stabilitisi in Corea alla fine dell'Ottocento, da cui il nome, composto da ho, parola con cui si indicavano gli stranieri venuti dalla Cina, e tteok, torta di riso. Si mangia bollente, piegato in un bicchiere di carta, e ogni città ha la sua variante, come il ssiat hotteok di Busan, aperto e farcito di semi."
+  },
+  "region": {"fr": "Corée du Sud", "en": "South Korea", "es": "Corea del Sur", "it": "Corea del Sud"},
+  "origin": {"countries": ["KR"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/ds-hotteok/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "sucre", "quantity": 1, "unit": "tbsp"},
+    {"ref": "levure-boulangere", "quantity": 4, "unit": "g"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "lait", "quantity": 20, "unit": "cl"},
+    {"ref": "huile-de-tournesol", "quantity": 6, "unit": "tbsp"},
+    {"ref": "cassonade", "quantity": 80, "unit": "g"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "cacahuete", "quantity": 40, "unit": "g"},
+    {"ref": "graines-de-sesame", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, mélangez à la spatule pendant 2 minutes la farine, le sucre, la levure sèche de boulanger, le sel, le lait tiède et 1 cuillerée à soupe d'huile, jusqu'à obtenir une pâte molle et très collante.", "en": "In a mixing bowl, stir the flour, sugar, fast-action dried yeast, salt, lukewarm milk and 1 tablespoon of the oil with a spatula for 2 minutes, until you have a soft, very sticky dough.", "es": "En un bol grande, mezcla con una espátula durante 2 minutos la harina, el azúcar, la levadura seca de panadería, la sal, la leche tibia y 1 cucharada de aceite, hasta obtener una masa blanda y muy pegajosa.", "it": "In una ciotola, mescola con una spatola per 2 minuti la farina, lo zucchero, il lievito di birra secco, il sale, il latte tiepido e 1 cucchiaio di olio, fino a ottenere un impasto morbido e molto appiccicoso."}, "timerMinutes": 2},
+    {"text": {"fr": "Couvrez et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume et soit pleine de bulles.", "en": "Cover and leave to rise somewhere warm for 1 hour, until the dough has doubled in size and is full of bubbles.", "es": "Tapa el bol y deja levar 1 hora en un lugar templado, hasta que la masa doble su volumen y esté llena de burbujas.", "it": "Copri e lascia lievitare per 1 ora in un luogo tiepido, finché l'impasto è raddoppiato e pieno di bolle."}, "timerMinutes": 60},
+    {"text": {"fr": "Pendant ce temps, mélangez la cassonade, la cannelle, les cacahuètes grillées non salées concassées et, si vous le souhaitez, les graines de sésame.", "en": "Meanwhile, mix the brown sugar, cinnamon, roughly chopped unsalted roasted peanuts and, if you like, the sesame seeds.", "es": "Mientras tanto, mezcla el azúcar moreno, la canela, los cacahuetes tostados sin sal picados y, si te apetece, las semillas de sésamo.", "it": "Nel frattempo mescola lo zucchero di canna, la cannella, le arachidi tostate non salate tritate grossolanamente e, se ti va, i semi di sesamo."}},
+    {"text": {"fr": "Les mains frottées d'un peu d'huile, prenez un huitième de la pâte (environ 60 g), aplatissez-le dans la paume, déposez au centre une bonne cuillerée à soupe de garniture et pincez les bords pour refermer une boule bien close ; façonnez-en 8.", "en": "With your hands rubbed with a little of the oil, take an eighth of the dough (about 60 g), flatten it in your palm, put a heaped tablespoon of filling in the centre and pinch the edges together to seal it into a tight ball; shape 8 in all.", "es": "Con las manos untadas con un poco de aceite, toma una octava parte de la masa (unos 60 g), aplástala en la palma, pon en el centro una cucharada colmada de relleno y junta los bordes pellizcándolos para cerrar bien la bola; forma 8 en total.", "it": "Con le mani unte con un po' di olio, prendi un ottavo dell'impasto (circa 60 g), schiaccialo nel palmo, metti al centro un cucchiaio colmo di ripieno e pizzica i bordi per chiudere bene la pallina; formane 8 in tutto."}},
+    {"text": {"fr": "Faites chauffer 2 cuillerées à soupe d'huile dans une grande poêle à feu moyen.", "en": "Heat 2 tablespoons of the oil in a large frying pan over a medium heat.", "es": "Calienta 2 cucharadas de aceite en una sartén grande a fuego medio.", "it": "Scalda 2 cucchiai di olio in una padella capiente a fuoco medio."}, "timerMinutes": 2},
+    {"text": {"fr": "Déposez 4 boules, soudure en dessous, et laissez-les dorer 1 minute.", "en": "Put in 4 balls, seam side down, and cook for 1 minute until golden underneath.", "es": "Pon 4 bolas, con el cierre hacia abajo, y deja que se doren 1 minuto.", "it": "Adagia 4 palline, con la chiusura verso il basso, e lasciale dorare per 1 minuto."}, "timerMinutes": 1},
+    {"text": {"fr": "Retournez-les et aplatissez-les aussitôt avec une spatule huilée (ou une presse à hotteok) en galettes d'environ 10 cm, puis laissez dorer 1 minute.", "en": "Turn them over and immediately press them flat with an oiled spatula (or a hotteok press) into rounds about 10 cm across, then cook for 1 minute until golden.", "es": "Dales la vuelta y aplástalas enseguida con una espátula engrasada (o una prensa para hotteok) hasta formar tortitas de unos 10 cm, y deja que se doren 1 minuto.", "it": "Girale e schiacciale subito con una spatola unta (o una pressa per hotteok) fino a formare dischi di circa 10 cm, poi lasciale dorare per 1 minuto."}, "timerMinutes": 1},
+    {"text": {"fr": "Retournez-les encore, baissez le feu, couvrez et laissez cuire 2 minutes, jusqu'à ce que la garniture ait fondu en sirop.", "en": "Turn them once more, lower the heat, cover and cook for 2 minutes, until the filling has melted into a syrup.", "es": "Dales la vuelta otra vez, baja el fuego, tapa y deja cocer 2 minutos, hasta que el relleno se haya fundido en un almíbar.", "it": "Girale ancora, abbassa la fiamma, copri e lascia cuocere per 2 minuti, finché il ripieno si è sciolto in uno sciroppo."}, "timerMinutes": 2},
+    {"text": {"fr": "Faites cuire les 4 autres boules de la même façon dans le reste de l'huile.", "en": "Cook the other 4 balls in the same way in the rest of the oil.", "es": "Haz las otras 4 bolas del mismo modo con el resto del aceite.", "it": "Cuoci le altre 4 palline allo stesso modo con il resto dell'olio."}, "timerMinutes": 6},
+    {"text": {"fr": "Servez les hotteok aussitôt, en prenant garde au sirop brûlant qu'ils renferment.", "en": "Serve the hotteok straight away, taking care with the scalding syrup inside.", "es": "Sirve los hotteok enseguida, teniendo cuidado con el almíbar hirviendo del interior.", "it": "Servi subito gli hotteok, facendo attenzione allo sciroppo bollente all'interno."}}
+  ]
+}

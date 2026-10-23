@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-om-ali",
+  "title": {"fr": "Om Ali", "en": "Om Ali", "es": "Om Ali", "it": "Om Ali"},
+  "summary": {
+    "fr": "Le grand dessert chaud égyptien : de la pâte feuilletée dorée, brisée et mêlée de fruits secs, imbibée de lait chaud sucré puis gratinée au four.",
+    "en": "Egypt's great hot pudding: golden puff pastry broken up and mixed with nuts and raisins, soaked in sweet hot milk and baked until bubbling and browned.",
+    "es": "El gran postre caliente egipcio: hojaldre dorado, desmenuzado y mezclado con frutos secos y pasas, empapado en leche caliente azucarada y gratinado en el horno.",
+    "it": "Il grande dolce caldo egiziano: sfoglia dorata, spezzettata e mescolata con frutta secca e uvetta, inzuppata di latte caldo zuccherato e gratinata in forno."
+  },
+  "story": {
+    "fr": "Om Ali signifie « la mère d'Ali ». Selon la légende la plus répandue, ce dessert serait né au Caire au XIIIe siècle : la première épouse du sultan mamelouk Izz al-Din Aybak, mère de son fils Ali, l'aurait fait préparer et distribuer pour fêter la mort de sa rivale, la sultane Chajar ad-Durr. Autrefois fait de roqaq, un pain très fin et sec, ou de pâte de feteer, il se prépare aujourd'hui le plus souvent avec de la pâte feuilletée, parfois avec des croissants. On le sert brûlant, dans son plat, à la maison comme dans les restaurants et les pâtisseries du pays.",
+    "en": "Om Ali means 'Ali's mother'. According to the most widespread legend, the dessert was born in 13th-century Cairo: the first wife of the Mamluk sultan Izz al-Din Aybak, mother of his son Ali, is said to have had it made and handed out to celebrate the death of her rival, Sultana Shajar al-Durr. Once made with roqaq, a very thin, dry flatbread, or with feteer pastry, it is now most often made with puff pastry, sometimes with croissants. It is served piping hot in its baking dish, at home as well as in the country's restaurants and pastry shops.",
+    "es": "Om Ali significa «la madre de Alí». Según la leyenda más extendida, este postre nació en El Cairo en el siglo XIII: la primera esposa del sultán mameluco Izz al-Din Aybak, madre de su hijo Alí, mandó prepararlo y repartirlo para celebrar la muerte de su rival, la sultana Shajar al-Durr. Antes se hacía con roqaq, un pan muy fino y seco, o con masa de feteer; hoy suele prepararse con hojaldre, a veces con cruasanes. Se sirve muy caliente, en su fuente, tanto en casa como en los restaurantes y pastelerías del país.",
+    "it": "Om Ali significa «la madre di Ali». Secondo la leggenda più diffusa, questo dolce nacque al Cairo nel XIII secolo: la prima moglie del sultano mamelucco Izz al-Din Aybak, madre di suo figlio Ali, lo fece preparare e distribuire per festeggiare la morte della sua rivale, la sultana Shajar al-Durr. Un tempo si faceva con il roqaq, un pane sottilissimo e secco, o con la pasta del feteer; oggi si prepara perlopiù con la pasta sfoglia, a volte con i croissant. Si serve bollente, nella sua pirofila, a casa come nei ristoranti e nelle pasticcerie del paese."
+  },
+  "region": {"fr": "Égypte", "en": "Egypt", "es": "Egipto", "it": "Egitto"},
+  "origin": {"countries": ["EG"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "heroImage": "images/ds-om-ali/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 20, "unit": "g"},
+    {"ref": "pate-feuilletee", "quantity": 500, "unit": "g"},
+    {"ref": "noisette", "quantity": 60, "unit": "g"},
+    {"ref": "pistache", "quantity": 40, "unit": "g"},
+    {"ref": "amande", "quantity": 40, "unit": "g"},
+    {"ref": "raisins-secs", "quantity": 50, "unit": "g"},
+    {"ref": "noix-de-coco-rapee", "quantity": 30, "unit": "g", "optional": true},
+    {"ref": "lait", "quantity": 100, "unit": "cl"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "creme-liquide", "quantity": 20, "unit": "cl"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "cannelle", "quantity": 1, "unit": "pinch", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 200 °C et beurrez un plat à four d'environ 20 × 30 cm.", "en": "Preheat the oven to 200 °C and butter a baking dish about 20 × 30 cm.", "es": "Precalienta el horno a 200 °C y unta con mantequilla una fuente de horno de unos 20 × 30 cm.", "it": "Preriscalda il forno a 200 °C e imburra una pirofila di circa 20 × 30 cm."}},
+    {"text": {"fr": "Posez les deux rouleaux de pâte feuilletée sur deux plaques tapissées de papier cuisson, piquez-les à la fourchette et faites-les cuire 15 à 20 minutes, jusqu'à ce qu'ils soient bien dorés et croustillants.", "en": "Lay the two sheets of puff pastry on two baking trays lined with baking paper, prick them with a fork and bake for 15 to 20 minutes, until deep golden and crisp.", "es": "Coloca las dos láminas de hojaldre en dos bandejas forradas con papel de horno, pínchalas con un tenedor y hornéalas de 15 a 20 minutos, hasta que estén bien doradas y crujientes.", "it": "Adagia i due rotoli di pasta sfoglia su due teglie foderate di carta forno, bucherellali con una forchetta e cuocili per 15-20 minuti, finché sono ben dorati e croccanti."}, "timerMinutes": 20},
+    {"text": {"fr": "Laissez tiédir la pâte 10 minutes, puis brisez-la à la main en morceaux de 3 à 4 cm directement dans le plat.", "en": "Leave the pastry to cool for 10 minutes, then break it by hand into 3–4 cm pieces straight into the dish.", "es": "Deja que el hojaldre se temple 10 minutos y desmenúzalo con las manos en trozos de 3 a 4 cm directamente en la fuente.", "it": "Lascia intiepidire la sfoglia per 10 minuti, poi spezzettala con le mani in pezzi di 3-4 cm direttamente nella pirofila."}, "timerMinutes": 10},
+    {"text": {"fr": "Parsemez la pâte des noisettes, des pistaches et des amandes grossièrement concassées, des raisins secs et, si vous le souhaitez, de la noix de coco, en gardant une poignée de fruits secs pour le décor.", "en": "Scatter the roughly chopped hazelnuts, pistachios and almonds, the raisins and, if you like, the coconut over the pastry, keeping back a handful of nuts for the top.", "es": "Reparte sobre el hojaldre las avellanas, los pistachos y las almendras picados en trozos gruesos, las pasas y, si quieres, el coco, reservando un puñado de frutos secos para decorar.", "it": "Distribuisci sulla sfoglia le nocciole, i pistacchi e le mandorle tritati grossolanamente, l'uvetta e, se ti va, il cocco, tenendo da parte una manciata di frutta secca per la decorazione."}},
+    {"text": {"fr": "Dans une casserole, portez à frémissement le lait avec le sucre, 10 cl de crème et, si vous le souhaitez, la vanille, en remuant pour dissoudre le sucre.", "en": "In a saucepan, bring the milk to a simmer with the sugar, 10 cl of the cream and, if you like, the vanilla, stirring to dissolve the sugar.", "es": "En un cazo, calienta la leche con el azúcar, 10 cl de nata y, si quieres, la vainilla hasta que empiece a hervir, removiendo para que se disuelva el azúcar.", "it": "In una casseruola porta a sobbollire il latte con lo zucchero, 10 cl di panna e, se ti va, la vaniglia, mescolando per far sciogliere lo zucchero."}, "timerMinutes": 5},
+    {"text": {"fr": "Versez le lait chaud sur la pâte et laissez-la s'imbiber 5 minutes.", "en": "Pour the hot milk over the pastry and leave it to soak for 5 minutes.", "es": "Vierte la leche caliente sobre el hojaldre y deja que se empape 5 minutos.", "it": "Versa il latte caldo sulla sfoglia e lasciala inzuppare per 5 minuti."}, "timerMinutes": 5},
+    {"text": {"fr": "Nappez la surface avec les 10 cl de crème restants.", "en": "Spoon the remaining 10 cl of cream over the top.", "es": "Napa la superficie con los 10 cl de nata restantes.", "it": "Vela la superficie con i 10 cl di panna rimasti."}},
+    {"text": {"fr": "Enfournez 20 minutes, jusqu'à ce que le dessus soit doré et bouillonnant.", "en": "Bake for 20 minutes, until the top is golden and bubbling.", "es": "Hornea 20 minutos, hasta que la superficie esté dorada y burbujeante.", "it": "Inforna per 20 minuti, finché la superficie è dorata e sobbolle."}, "timerMinutes": 20},
+    {"text": {"fr": "Parsemez des fruits secs réservés et, si vous le souhaitez, d'une pincée de cannelle, puis servez aussitôt, bien chaud.", "en": "Scatter over the reserved nuts and, if you like, a pinch of cinnamon, then serve straight away, piping hot.", "es": "Esparce por encima los frutos secos reservados y, si quieres, una pizca de canela, y sírvelo enseguida, bien caliente.", "it": "Cospargi con la frutta secca tenuta da parte e, se ti va, con un pizzico di cannella, poi servi subito, ben caldo."}}
+  ]
+}
