@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mandazi",
+  "title": {"fr": "Mandazi", "en": "Mandazi", "es": "Mandazi", "it": "Mandazi"},
+  "summary": {
+    "fr": "Les beignets triangulaires de la côte swahilie : une pâte levée au lait de coco, parfumée à la cardamome, qui gonfle et dore dans l'huile chaude.",
+    "en": "The triangular doughnuts of the Swahili coast: a yeasted dough made with coconut milk and scented with cardamom, which puffs up and turns golden in hot oil.",
+    "es": "Los buñuelos triangulares de la costa suajili: una masa fermentada con leche de coco y perfumada con cardamomo, que se hincha y se dora en el aceite caliente.",
+    "it": "Le frittelle triangolari della costa swahili: un impasto lievitato al latte di cocco e profumato al cardamomo, che si gonfia e si dora nell'olio bollente."
+  },
+  "story": {
+    "fr": "Les mandazi (maandazi au pluriel, en swahili) se mangent dans toute l'Afrique de l'Est, et le Kenya comme la Tanzanie les comptent parmi leurs en-cas du quotidien. Sur la côte swahilie, de Mombasa à Zanzibar, la pâte se fait au lait de coco et à la cardamome, et cette version levée à la levure y porte souvent le nom de mahamri. Vendus dès le matin dans les échoppes et les marchés, ils accompagnent le petit-déjeuner ou la pause avec une tasse de chai, le thé au lait épicé.",
+    "en": "Mandazi (maandazi in the Swahili plural) are eaten all over East Africa, and Kenya and Tanzania alike count them among their everyday snacks. On the Swahili coast, from Mombasa to Zanzibar, the dough is made with coconut milk and cardamom, and this yeasted version is often called mahamri there. Sold from early morning at stalls and markets, they are eaten at breakfast or during a tea break, with a cup of chai, the spiced milky tea.",
+    "es": "Los mandazi (maandazi en plural, en suajili) se comen en toda África oriental, y tanto Kenia como Tanzania los cuentan entre sus tentempiés de diario. En la costa suajili, de Mombasa a Zanzíbar, la masa se hace con leche de coco y cardamomo, y esta versión fermentada con levadura suele llamarse allí mahamri. Se venden desde primera hora en puestos y mercados y acompañan el desayuno o la merienda con una taza de chai, el té con leche especiado.",
+    "it": "I mandazi (maandazi al plurale, in swahili) si mangiano in tutta l'Africa orientale, e sia il Kenya sia la Tanzania li contano tra i loro spuntini di tutti i giorni. Sulla costa swahili, da Mombasa a Zanzibar, l'impasto si fa con latte di cocco e cardamomo, e questa versione lievitata con il lievito di birra lì si chiama spesso mahamri. Venduti fin dal mattino nei chioschi e nei mercati, accompagnano la colazione o la pausa con una tazza di chai, il tè al latte speziato."
+  },
+  "region": {"fr": "Côte swahilie", "en": "Swahili coast", "es": "Costa suajili", "it": "Costa swahili"},
+  "origin": {"countries": ["KE", "TZ"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 30,
+  "servings": 8,
+  "heroImage": "images/ds-mandazi/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "cardamome", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "lait-de-coco", "quantity": 32, "unit": "cl"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "l"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, le sucre, la levure sèche de boulanger, la cardamome moulue et le sel.", "en": "In a large bowl, mix the flour, sugar, dried yeast, ground cardamom and salt.", "es": "En un bol grande, mezcla la harina, el azúcar, la levadura seca de panadería, el cardamomo molido y la sal.", "it": "In una ciotola capiente mescola la farina, lo zucchero, il lievito di birra secco, il cardamomo in polvere e il sale."}},
+    {"text": {"fr": "Versez peu à peu le lait de coco tiédi en mélangeant, puis pétrissez 10 minutes, jusqu'à obtenir une pâte lisse, souple et à peine collante.", "en": "Gradually pour in the warmed coconut milk, mixing as you go, then knead for 10 minutes until you have a smooth, soft dough that is barely sticky.", "es": "Vierte poco a poco la leche de coco templada mientras mezclas y amasa 10 minutos, hasta obtener una masa lisa, blanda y apenas pegajosa.", "it": "Versa poco a poco il latte di cocco intiepidito mescolando, poi impasta per 10 minuti, fino a ottenere un impasto liscio, morbido e appena appiccicoso."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover with a tea towel and leave to rise in a warm place for 1 hour, until doubled in size.", "es": "Cubre con un paño y deja levar 1 hora en un lugar templado, hasta que la masa doble su volumen.", "it": "Copri con un canovaccio e lascia lievitare 1 ora in un luogo tiepido, finché l'impasto è raddoppiato."}, "timerMinutes": 60},
+    {"text": {"fr": "Divisez la pâte en 8 boules et abaissez chacune au rouleau en un disque d'environ 15 cm de diamètre et 5 mm d'épaisseur.", "en": "Divide the dough into 8 balls and roll each one out into a disc about 15 cm across and 5 mm thick.", "es": "Divide la masa en 8 bolas y estira cada una con el rodillo en un disco de unos 15 cm de diámetro y 5 mm de grosor.", "it": "Dividi l'impasto in 8 palline e stendi ciascuna con il mattarello in un disco di circa 15 cm di diametro e 5 mm di spessore."}},
+    {"text": {"fr": "Coupez chaque disque en 4 triangles et posez-les bien à plat sur le plan de travail.", "en": "Cut each disc into 4 triangles and lay them flat on the work surface.", "es": "Corta cada disco en 4 triángulos y colócalos bien planos sobre la encimera.", "it": "Taglia ogni disco in 4 triangoli e disponili ben distesi sul piano di lavoro."}},
+    {"text": {"fr": "Laissez reposer les triangles 15 minutes sous le torchon, jusqu'à ce qu'ils gonflent légèrement.", "en": "Leave the triangles to rest under the tea towel for 15 minutes, until slightly puffed.", "es": "Deja reposar los triángulos 15 minutos bajo el paño, hasta que se hinchen un poco.", "it": "Lascia riposare i triangoli 15 minuti sotto il canovaccio, finché si gonfiano leggermente."}, "timerMinutes": 15},
+    {"text": {"fr": "Faites chauffer l'huile à 170 °C dans une casserole à bords hauts ou une friteuse.", "en": "Heat the oil to 170 °C in a deep saucepan or a deep-fat fryer.", "es": "Calienta el aceite a 170 °C en un cazo hondo o en una freidora.", "it": "Scalda l'olio a 170 °C in una casseruola dai bordi alti o in una friggitrice."}, "timerMinutes": 10},
+    {"text": {"fr": "Faites frire les triangles quatre ou cinq à la fois, 2 minutes de chaque côté, jusqu'à ce qu'ils soient gonflés et bien dorés.", "en": "Fry the triangles four or five at a time for 2 minutes on each side, until puffed up and golden brown.", "es": "Fríe los triángulos de cuatro en cuatro o de cinco en cinco, 2 minutos por cada lado, hasta que estén hinchados y bien dorados.", "it": "Friggi i triangoli quattro o cinque alla volta, 2 minuti per lato, finché sono gonfi e ben dorati."}, "timerMinutes": 4},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et poursuivez avec le reste des triangles, en gardant l'huile à 170 °C.", "en": "Drain on kitchen paper and carry on with the rest of the triangles, keeping the oil at 170 °C.", "es": "Escúrrelos sobre papel absorbente y sigue con el resto de los triángulos, manteniendo el aceite a 170 °C.", "it": "Scolali su carta assorbente e continua con il resto dei triangoli, mantenendo l'olio a 170 °C."}},
+    {"text": {"fr": "Servez les mandazi tièdes ou à température ambiante.", "en": "Serve the mandazi warm or at room temperature.", "es": "Sirve los mandazi templados o a temperatura ambiente.", "it": "Servi i mandazi tiepidi o a temperatura ambiente."}}
+  ]
+}

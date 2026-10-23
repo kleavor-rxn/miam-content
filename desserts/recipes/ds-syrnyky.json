@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-syrnyky",
+  "title": {"fr": "Syrnyky", "en": "Syrnyky", "es": "Syrnyky", "it": "Syrnyky"},
+  "summary": {
+    "fr": "Les petites galettes de fromage blanc d'Europe de l'Est, dorées à la poêle, croustillantes dehors et fondantes dedans, servies avec de la crème aigre.",
+    "en": "Eastern Europe's little curd-cheese pancakes, pan-fried until golden, crisp outside and soft within, served with soured cream.",
+    "es": "Las tortitas de requesón de Europa del Este, doradas en la sartén, crujientes por fuera y tiernas por dentro, servidas con nata agria.",
+    "it": "Le frittelle di formaggio fresco dell'Europa orientale, dorate in padella, croccanti fuori e morbide dentro, servite con panna acida."
+  },
+  "story": {
+    "fr": "Les syrnyky (c'est leur nom ukrainien ; syrniki en russe) se préparent en Ukraine, en Russie et en Biélorussie, et chacun de ces pays les compte parmi ses classiques du petit déjeuner. Leur nom vient de syr, un mot qui, en ukrainien, désigne aussi bien le fromage frais que le fromage affiné et qui, en russe, a longtemps désigné le fromage frais avant de s'appliquer surtout aux fromages affinés. On les fait avec du tvorog, un fromage blanc égoutté en grains, lié d'un peu d'œuf et de farine, et on les mange chauds avec de la smetana (crème aigre), de la confiture ou du miel.",
+    "en": "Syrnyky (their Ukrainian name; syrniki in Russian) are made in Ukraine, Russia and Belarus, and each of these countries counts them among its breakfast classics. The name comes from syr, a word that in Ukrainian covers both fresh curd cheese and aged cheese, and that in Russian long meant fresh curd cheese before coming to refer mainly to aged cheeses. They are made with tvorog, a dry, crumbly curd cheese bound with a little egg and flour, and eaten hot with smetana (soured cream), jam or honey.",
+    "es": "Los syrnyky (es su nombre ucraniano; syrniki en ruso) se preparan en Ucrania, Rusia y Bielorrusia, y cada uno de estos países los cuenta entre sus clásicos del desayuno. Su nombre viene de syr, una palabra que en ucraniano designa tanto el queso fresco como el curado y que en ruso designó durante mucho tiempo el queso fresco, antes de aplicarse sobre todo a los quesos curados. Se hacen con tvorog, un requesón escurrido y granuloso, ligado con un poco de huevo y harina, y se comen calientes con smetana (nata agria), mermelada o miel.",
+    "it": "I syrnyky (è il loro nome ucraino; syrniki in russo) si preparano in Ucraina, Russia e Bielorussia, e ognuno di questi paesi li annovera tra i classici della colazione. Il nome viene da syr, una parola che in ucraino indica sia il formaggio fresco sia quello stagionato e che in russo ha indicato a lungo il formaggio fresco, prima di riferirsi soprattutto ai formaggi stagionati. Si fanno con il tvorog, un formaggio fresco sgocciolato e granuloso, legato con un po' d'uovo e di farina, e si mangiano caldi con la smetana (panna acida), la marmellata o il miele."
+  },
+  "region": {"fr": "Europe de l'Est", "en": "Eastern Europe", "es": "Europa del Este", "it": "Europa orientale"},
+  "origin": {"countries": ["UA", "RU"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "servings": 4,
+  "heroImage": "images/ds-syrnyky/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "tvorog", "quantity": 500, "unit": "g", "substitutes": ["fromage-blanc", "ricotta"]},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "sucre", "quantity": 40, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "farine", "quantity": 90, "unit": "g"},
+    {"ref": "raisins-secs", "quantity": 50, "unit": "g", "optional": true},
+    {"ref": "huile-de-tournesol", "quantity": 4, "unit": "tbsp"},
+    {"ref": "creme-aigre", "quantity": 200, "unit": "g"},
+    {"ref": "confiture", "quantity": 4, "unit": "tbsp", "optional": true},
+    {"ref": "miel", "quantity": 4, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Écrasez le tvorog à la fourchette ou passez-le au tamis, jusqu'à ce qu'il ne reste plus de gros grains : il doit être bien sec (un fromage blanc ou une ricotta doivent d'abord égoutter une nuit dans une mousseline).", "en": "Mash the tvorog with a fork or push it through a sieve until no large curds remain: it should be quite dry (fromage blanc or ricotta needs to drain overnight in muslin first).", "es": "Aplasta el tvorog con un tenedor o pásalo por un tamiz hasta que no queden grumos grandes: debe estar bien seco (el queso fresco batido o la ricotta deben escurrirse antes una noche en una gasa).", "it": "Schiaccia il tvorog con una forchetta o passalo al setaccio finché non restano grumi grossi: deve essere ben asciutto (il formaggio fresco cremoso o la ricotta vanno prima sgocciolati per una notte in una garza)."}},
+    {"text": {"fr": "Incorporez l'œuf, le sucre, le sel et, si vous le souhaitez, la vanille.", "en": "Mix in the egg, sugar, salt and, if you like, the vanilla.", "es": "Incorpora el huevo, el azúcar, la sal y, si quieres, la vainilla.", "it": "Incorpora l'uovo, lo zucchero, il sale e, se ti va, la vaniglia."}},
+    {"text": {"fr": "Ajoutez 60 g de farine et, si vous le souhaitez, les raisins secs, puis mélangez juste assez pour obtenir une pâte souple qui se tient.", "en": "Add 60 g of the flour and, if you like, the raisins, then mix just until you have a soft dough that holds together.", "es": "Añade 60 g de harina y, si quieres, las pasas, y mezcla lo justo para obtener una masa blanda que se sostenga.", "it": "Aggiungi 60 g di farina e, se ti va, l'uvetta, poi mescola quanto basta per ottenere un impasto morbido che stia insieme."}},
+    {"text": {"fr": "Les mains farinées, façonnez la pâte en 12 boules, roulez-les dans les 30 g de farine restants et aplatissez-les en palets d'environ 6 cm de diamètre et 1,5 cm d'épaisseur.", "en": "With floured hands, shape the dough into 12 balls, roll them in the remaining 30 g of flour and flatten them into rounds about 6 cm across and 1.5 cm thick.", "es": "Con las manos enharinadas, forma 12 bolas con la masa, rebózalas en los 30 g de harina restantes y aplánalas en discos de unos 6 cm de diámetro y 1,5 cm de grosor.", "it": "Con le mani infarinate forma 12 palline, passale nei 30 g di farina rimasti e appiattiscile in dischetti di circa 6 cm di diametro e 1,5 cm di spessore."}},
+    {"text": {"fr": "Faites chauffer 2 cuillerées à soupe d'huile dans une grande poêle à feu moyen.", "en": "Heat 2 tablespoons of the oil in a large frying pan over a medium heat.", "es": "Calienta 2 cucharadas de aceite en una sartén grande a fuego medio.", "it": "Scalda 2 cucchiai d'olio in una padella larga a fuoco medio."}, "timerMinutes": 2},
+    {"text": {"fr": "Faites cuire six syrnyky à feu moyen-doux environ 8 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'ils soient bien dorés et cuits à cœur, puis égouttez-les sur du papier absorbant.", "en": "Fry six of the syrnyky over a medium-low heat for about 8 minutes, turning them halfway, until deep golden and cooked through, then drain them on kitchen paper.", "es": "Fríe seis syrnyky a fuego medio-bajo unos 8 minutos, dándoles la vuelta a media cocción, hasta que estén bien dorados y hechos por dentro, y escúrrelos sobre papel absorbente.", "it": "Cuoci sei syrnyky a fuoco medio-basso per circa 8 minuti, girandoli a metà cottura, finché sono ben dorati e cotti all'interno, poi scolali su carta assorbente."}, "timerMinutes": 8},
+    {"text": {"fr": "Ajoutez les 2 cuillerées à soupe d'huile restantes et faites cuire les six autres de la même façon.", "en": "Add the remaining 2 tablespoons of oil and fry the other six in the same way.", "es": "Añade las 2 cucharadas de aceite restantes y fríe los otros seis de la misma manera.", "it": "Aggiungi i 2 cucchiai d'olio rimasti e cuoci gli altri sei allo stesso modo."}, "timerMinutes": 8},
+    {"text": {"fr": "Servez-les chauds avec la crème aigre et, si vous le souhaitez, de la confiture ou du miel.", "en": "Serve hot with the soured cream and, if you like, jam or honey.", "es": "Sírvelos calientes con la nata agria y, si quieres, mermelada o miel.", "it": "Servili caldi con la panna acida e, se ti va, con marmellata o miele."}}
+  ]
+}

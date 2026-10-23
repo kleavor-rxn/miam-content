@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-anzac-biscuits",
+  "title": {"fr": "Anzac biscuits", "en": "Anzac biscuits", "es": "Anzac biscuits", "it": "Anzac biscuits"},
+  "summary": {
+    "fr": "Les biscuits fétiches de l'Australie et de la Nouvelle-Zélande : flocons d'avoine, noix de coco et golden syrup, dorés au bord et moelleux à cœur, sans un seul œuf.",
+    "en": "The much-loved biscuits of Australia and New Zealand: rolled oats, coconut and golden syrup, golden at the edges and chewy in the middle, without a single egg.",
+    "es": "Las galletas emblemáticas de Australia y Nueva Zelanda: copos de avena, coco y golden syrup, doradas por los bordes y tiernas por dentro, sin un solo huevo.",
+    "it": "I biscotti del cuore di Australia e Nuova Zelanda: fiocchi d'avena, cocco e golden syrup, dorati ai bordi e morbidi al centro, senza nemmeno un uovo."
+  },
+  "story": {
+    "fr": "Les Anzac biscuits doivent leur nom à l'ANZAC, l'Australian and New Zealand Army Corps de la Première Guerre mondiale, et les deux pays les partagent comme un symbole commun. Selon une histoire très répandue, les femmes les auraient envoyés aux soldats parce qu'ils se gardaient bien pendant le long voyage en mer ; on la tient le plus souvent pour une légende, car les rations des troupes comportaient surtout un biscuit de mer très dur, et la recette actuelle s'est fixée dans les livres de cuisine des années qui ont suivi la guerre. En Australie, l'usage commercial du mot « Anzac » est protégé par la loi, et l'on en cuit des fournées entières autour de l'Anzac Day, le 25 avril.",
+    "en": "Anzac biscuits take their name from ANZAC, the Australian and New Zealand Army Corps of the First World War, and the two countries share them as a common symbol. A widespread story has it that women sent them to the soldiers because they kept well on the long sea voyage; it is generally regarded as a legend, as the troops' rations mostly included a very hard ship's biscuit, and today's recipe took shape in the cookery books of the years after the war. In Australia the commercial use of the word 'Anzac' is protected by law, and whole batches are baked around Anzac Day, on 25 April.",
+    "es": "Las galletas Anzac deben su nombre al ANZAC, el Australian and New Zealand Army Corps de la Primera Guerra Mundial, y los dos países las comparten como un símbolo común. Según una historia muy extendida, las mujeres se las enviaban a los soldados porque aguantaban bien el largo viaje por mar; suele considerarse una leyenda, porque las raciones de las tropas incluían sobre todo una galleta marinera durísima, y la receta actual se fijó en los libros de cocina de los años que siguieron a la guerra. En Australia, el uso comercial de la palabra «Anzac» está protegido por ley, y se hornean tandas enteras en torno al Anzac Day, el 25 de abril.",
+    "it": "I biscotti Anzac prendono il nome dall'ANZAC, l'Australian and New Zealand Army Corps della Prima guerra mondiale, e i due paesi li condividono come un simbolo comune. Secondo una storia molto diffusa, le donne li avrebbero spediti ai soldati perché si conservavano bene durante il lungo viaggio in mare; la si considera per lo più una leggenda, perché le razioni delle truppe comprendevano soprattutto una galletta durissima, e la ricetta attuale si è fissata nei ricettari degli anni successivi alla guerra. In Australia l'uso commerciale della parola «Anzac» è tutelato dalla legge, e se ne sfornano intere teglie intorno all'Anzac Day, il 25 aprile."
+  },
+  "region": {"fr": "Australie et Nouvelle-Zélande", "en": "Australia and New Zealand", "es": "Australia y Nueva Zelanda", "it": "Australia e Nuova Zelanda"},
+  "origin": {"countries": ["AU", "NZ"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 12,
+  "heroImage": "images/ds-anzac-biscuits/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "flocons-d-avoine", "quantity": 90, "unit": "g"},
+    {"ref": "farine", "quantity": 150, "unit": "g"},
+    {"ref": "sucre", "quantity": 180, "unit": "g"},
+    {"ref": "noix-de-coco-rapee", "quantity": 65, "unit": "g"},
+    {"ref": "beurre", "quantity": 125, "unit": "g"},
+    {"ref": "sirop-de-sucre-inverti", "quantity": 2, "unit": "tbsp", "substitutes": ["miel"]},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "eau", "quantity": 2, "unit": "tbsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 170 °C et chemisez deux plaques de papier cuisson.", "en": "Preheat the oven to 170 °C and line two baking trays with baking paper.", "es": "Precalienta el horno a 170 °C y forra dos bandejas con papel de horno.", "it": "Preriscalda il forno a 170 °C e fodera due teglie con carta forno."}},
+    {"text": {"fr": "Dans un grand saladier, mélangez les flocons d'avoine, la farine, le sucre et la noix de coco râpée.", "en": "In a large bowl, mix the oats, flour, sugar and desiccated coconut.", "es": "En un bol grande, mezcla los copos de avena, la harina, el azúcar y el coco rallado.", "it": "In una ciotola capiente mescola i fiocchi d'avena, la farina, lo zucchero e la farina di cocco."}},
+    {"text": {"fr": "Dans une casserole, faites fondre le beurre avec le golden syrup à feu doux, en remuant, jusqu'à ce que le mélange soit lisse.", "en": "In a saucepan, melt the butter with the golden syrup over a low heat, stirring, until smooth.", "es": "En un cazo, derrite la mantequilla con el golden syrup a fuego suave, removiendo, hasta que la mezcla quede lisa.", "it": "In un pentolino fai sciogliere il burro con il golden syrup a fuoco dolce, mescolando, finché il composto è liscio."}, "timerMinutes": 3},
+    {"text": {"fr": "Hors du feu, délayez le bicarbonate dans les 2 cuillerées à soupe d'eau bouillante et versez-le dans le beurre fondu : le mélange mousse aussitôt.", "en": "Off the heat, dissolve the bicarbonate of soda in the 2 tablespoons of boiling water and stir it into the melted butter: the mixture will froth up straight away.", "es": "Fuera del fuego, disuelve el bicarbonato en las 2 cucharadas de agua hirviendo y viértelo en la mantequilla derretida: la mezcla hará espuma enseguida.", "it": "Fuori dal fuoco, sciogli il bicarbonato nei 2 cucchiai d'acqua bollente e versalo nel burro fuso: il composto farà subito la schiuma."}},
+    {"text": {"fr": "Versez le mélange mousseux sur les ingrédients secs et mélangez à la cuillère en bois jusqu'à ce que tout soit bien humecté.", "en": "Pour the frothy mixture over the dry ingredients and stir with a wooden spoon until everything is evenly moistened.", "es": "Vierte la mezcla espumosa sobre los ingredientes secos y remueve con una cuchara de madera hasta que todo quede bien humedecido.", "it": "Versa il composto spumoso sugli ingredienti secchi e mescola con un cucchiaio di legno finché tutto è ben amalgamato."}},
+    {"text": {"fr": "Roulez la pâte en 24 boules de la taille d'une noix, posez-les sur les plaques en les espaçant de 5 cm et aplatissez-les légèrement du bout des doigts.", "en": "Roll the dough into 24 walnut-sized balls, place them on the trays 5 cm apart and flatten them slightly with your fingertips.", "es": "Forma con la masa 24 bolitas del tamaño de una nuez, colócalas en las bandejas separadas 5 cm y aplánalas un poco con la punta de los dedos.", "it": "Forma con l'impasto 24 palline grandi come una noce, disponile sulle teglie a 5 cm l'una dall'altra e schiacciale leggermente con la punta delle dita."}},
+    {"text": {"fr": "Faites cuire une plaque à la fois 15 minutes environ, jusqu'à ce que les biscuits soient bien dorés : ils sont encore mous à la sortie du four et durcissent en refroidissant.", "en": "Bake one tray at a time for about 15 minutes, until the biscuits are a deep golden brown: they are still soft when they come out of the oven and firm up as they cool.", "es": "Hornea las bandejas de una en una unos 15 minutos, hasta que las galletas estén bien doradas: al salir del horno todavía están blandas y se endurecen al enfriarse.", "it": "Cuoci una teglia alla volta per circa 15 minuti, finché i biscotti sono ben dorati: appena sfornati sono ancora morbidi e si induriscono raffreddandosi."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez-les reposer 5 minutes sur la plaque, puis faites-les glisser sur une grille pour qu'ils refroidissent complètement.", "en": "Leave them on the tray for 5 minutes, then slide them onto a wire rack to cool completely.", "es": "Déjalas reposar 5 minutos en la bandeja y pásalas luego a una rejilla para que se enfríen por completo.", "it": "Lasciali riposare 5 minuti sulla teglia, poi falli scivolare su una gratella a raffreddare completamente."}, "timerMinutes": 5}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-gaufre-de-liege",
+  "title": {"fr": "Gaufre de Liège", "en": "Liège waffle", "es": "Gofre de Lieja", "it": "Waffle di Liegi"},
+  "summary": {
+    "fr": "La gaufre des rues belges : une pâte levée briochée, cuite au gaufrier, dont les grains de sucre perlé caramélisent en surface et restent croquants à cœur.",
+    "en": "Belgium's street waffle: a rich, brioche-like yeasted dough cooked in a waffle iron, its nuggets of pearl sugar caramelising on the outside and staying crunchy within.",
+    "es": "El gofre callejero de Bélgica: una masa fermentada tipo brioche, cocida en la gofrera, cuyos granos de azúcar perlado se caramelizan por fuera y siguen crujientes por dentro.",
+    "it": "Il waffle delle strade belghe: un impasto lievitato simile a una brioche, cotto nella piastra per waffle, con granelli di zucchero che caramellano in superficie e restano croccanti all'interno."
+  },
+  "story": {
+    "fr": "Contrairement à la gaufre de Bruxelles, rectangulaire et faite d'une pâte liquide, la gaufre de Liège naît d'une pâte levée au beurre, ce qui lui donne sa forme irrégulière aux bords arrondis et sa mie dense. Son secret est le sucre perlé, en gros grains, ajouté à la pâte juste avant la cuisson : il caramélise au contact du gaufrier et laisse des éclats croquants dans la mie. Une légende en attribue l'invention au cuisinier d'un prince-évêque de Liège, au XVIIIe siècle. Vendue dans les kiosques et les échoppes de toute la Belgique, elle se mange tiède, à la main, sans rien d'autre.",
+    "en": "Unlike the rectangular Brussels waffle, made from a pourable batter, the Liège waffle starts from a buttery yeasted dough, which gives it its irregular shape with rounded edges and its dense crumb. Its secret is pearl sugar, in large nuggets, worked into the dough just before cooking: it caramelises against the hot iron and leaves crunchy pockets in the crumb. A legend credits its invention to the cook of an eighteenth-century prince-bishop of Liège. Sold from kiosks and stalls all over Belgium, it is eaten warm, in the hand, with nothing on it.",
+    "es": "A diferencia del gofre de Bruselas, rectangular y hecho con una masa líquida, el gofre de Lieja nace de una masa fermentada con mantequilla, lo que le da su forma irregular de bordes redondeados y su miga densa. Su secreto es el azúcar perlado, en granos gruesos, que se añade a la masa justo antes de cocerla: se carameliza al contacto con la gofrera y deja trocitos crujientes en la miga. Una leyenda atribuye su invención al cocinero de un príncipe-obispo de Lieja del siglo XVIII. Se vende en quioscos y puestos de toda Bélgica y se come templado, con las manos y sin nada más.",
+    "it": "A differenza del waffle di Bruxelles, rettangolare e fatto con una pastella liquida, il waffle di Liegi nasce da un impasto lievitato al burro, che gli dà la forma irregolare dai bordi arrotondati e la mollica compatta. Il suo segreto è la granella di zucchero, a grossi chicchi, aggiunta all'impasto appena prima della cottura: caramella a contatto con la piastra e lascia frammenti croccanti nella mollica. Una leggenda ne attribuisce l'invenzione al cuoco di un principe-vescovo di Liegi del Settecento. Venduto nei chioschi e nelle bancarelle di tutto il Belgio, si mangia tiepido, con le mani, senza nient'altro."
+  },
+  "region": {"fr": "Liège", "en": "Liège", "es": "Lieja", "it": "Liegi"},
+  "origin": {"countries": ["BE"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 25,
+  "servings": 12,
+  "heroImage": "images/ds-gaufre-de-liege/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 15, "unit": "cl"},
+    {"ref": "levure-boulangere", "quantity": 10, "unit": "g"},
+    {"ref": "sucre", "quantity": 30, "unit": "g"},
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "beurre", "quantity": 250, "unit": "g"},
+    {"ref": "sucre-perle", "quantity": 250, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Délayez la levure sèche de boulanger et 1 cuillerée à café de sucre dans le lait tiède, puis laissez reposer 10 minutes, jusqu'à ce que le mélange mousse.", "en": "Stir the dried yeast and 1 teaspoon of the sugar into the lukewarm milk, then leave for 10 minutes, until frothy.", "es": "Disuelve la levadura seca de panadería y 1 cucharadita de azúcar en la leche tibia y deja reposar 10 minutos, hasta que haga espuma.", "it": "Sciogli il lievito di birra secco e 1 cucchiaino di zucchero nel latte tiepido, poi lascia riposare 10 minuti, finché fa la schiuma."}, "timerMinutes": 10},
+    {"text": {"fr": "Dans un grand saladier, pétrissez 5 minutes la farine avec le lait à la levure, les œufs, le reste du sucre, la vanille, le sel et, si vous le souhaitez, la cannelle, jusqu'à obtenir une pâte homogène.", "en": "In a large bowl, knead the flour for 5 minutes with the yeasted milk, eggs, the rest of the sugar, the vanilla, the salt and, if you like, the cinnamon, until you have an even dough.", "es": "En un bol grande, amasa 5 minutos la harina con la leche con levadura, los huevos, el resto del azúcar, la vainilla, la sal y, si quieres, la canela, hasta obtener una masa homogénea.", "it": "In una ciotola capiente impasta per 5 minuti la farina con il latte e il lievito, le uova, il resto dello zucchero, la vaniglia, il sale e, se ti va, la cannella, fino a ottenere un impasto omogeneo."}, "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez le beurre bien mou en morceaux et pétrissez encore 10 minutes, jusqu'à ce que la pâte soit lisse, souple et se détache des parois.", "en": "Add the very soft butter in pieces and knead for another 10 minutes, until the dough is smooth, supple and comes away from the sides of the bowl.", "es": "Añade la mantequilla muy blanda en trozos y amasa 10 minutos más, hasta que la masa esté lisa, elástica y se despegue de las paredes.", "it": "Aggiungi il burro morbidissimo a pezzetti e impasta per altri 10 minuti, finché l'impasto è liscio, elastico e si stacca dalle pareti."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover with a tea towel and leave to rise in a warm place for 1 hour, until doubled in size.", "es": "Cubre con un paño y deja levar 1 hora en un lugar templado, hasta que la masa doble su volumen.", "it": "Copri con un canovaccio e lascia lievitare 1 ora in un luogo tiepido, finché l'impasto è raddoppiato."}, "timerMinutes": 60},
+    {"text": {"fr": "Dégazez la pâte et incorporez-y à la main le sucre perlé (de préférence du sucre perlé belge, en gros grains), en le répartissant bien, juste avant la cuisson pour qu'il ne fonde pas.", "en": "Knock back the dough and work in the pearl sugar by hand (ideally Belgian pearl sugar, which has large nuggets), spreading it evenly, just before cooking so that it does not dissolve.", "es": "Desgasifica la masa e incorpora con las manos el azúcar perlado (a ser posible belga, de grano grueso), repartiéndolo bien, justo antes de cocerla para que no se disuelva.", "it": "Sgonfia l'impasto e incorpora a mano la granella di zucchero (meglio quella belga, a chicchi grossi), distribuendola bene, appena prima della cottura perché non si sciolga."}},
+    {"text": {"fr": "Divisez la pâte en 12 pâtons d'environ 100 g, boulez-les et laissez-les reposer 15 minutes sous le torchon.", "en": "Divide the dough into 12 pieces of about 100 g, shape them into balls and leave them to rest under the tea towel for 15 minutes.", "es": "Divide la masa en 12 porciones de unos 100 g, bolea cada una y déjalas reposar 15 minutos bajo el paño.", "it": "Dividi l'impasto in 12 pezzi da circa 100 g, formane delle palline e lasciale riposare 15 minuti sotto il canovaccio."}, "timerMinutes": 15},
+    {"text": {"fr": "Faites chauffer le gaufrier à température moyenne : s'il est trop chaud, le sucre brûlera avant que la pâte ne soit cuite.", "en": "Heat the waffle iron to a medium heat: if it is too hot, the sugar will burn before the dough is cooked through.", "es": "Calienta la gofrera a temperatura media: si está demasiado caliente, el azúcar se quemará antes de que la masa se cueza.", "it": "Scalda la piastra per waffle a temperatura media: se è troppo calda, lo zucchero brucia prima che l'impasto sia cotto."}, "timerMinutes": 5},
+    {"text": {"fr": "Posez un pâton au centre de chaque empreinte, fermez le gaufrier et faites cuire 3 à 4 minutes, jusqu'à ce que la gaufre soit dorée et luisante de caramel.", "en": "Place a ball of dough in the centre of each compartment, close the iron and cook for 3 to 4 minutes, until the waffle is golden and glossy with caramel.", "es": "Coloca una bola de masa en el centro de cada hueco, cierra la gofrera y cuece de 3 a 4 minutos, hasta que el gofre esté dorado y brillante de caramelo.", "it": "Metti una pallina di impasto al centro di ogni scomparto della piastra, chiudi e cuoci per 3-4 minuti, finché il waffle è dorato e lucido di caramello."}, "timerMinutes": 4},
+    {"text": {"fr": "Laissez tiédir les gaufres 5 minutes sur une grille, le temps que le caramel durcisse, et poursuivez avec le reste de la pâte.", "en": "Leave the waffles to cool slightly on a wire rack for 5 minutes, so that the caramel hardens, and carry on with the rest of the dough.", "es": "Deja templar los gofres 5 minutos en una rejilla, mientras el caramelo se endurece, y sigue con el resto de la masa.", "it": "Lascia intiepidire i waffle 5 minuti su una gratella, il tempo che il caramello si indurisca, e continua con il resto dell'impasto."}, "timerMinutes": 5},
+    {"text": {"fr": "Servez les gaufres tièdes, nature.", "en": "Serve the waffles warm, just as they are.", "es": "Sirve los gofres templados, solos.", "it": "Servi i waffle tiepidi, al naturale."}}
+  ]
+}

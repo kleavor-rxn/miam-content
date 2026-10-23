@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-melomakarona",
+  "title": {"fr": "Melomakarona", "en": "Melomakarona", "es": "Melomakarona", "it": "Melomakarona"},
+  "summary": {
+    "fr": "Les biscuits grecs de Noël : une pâte à l'huile d'olive parfumée à l'orange, à la cannelle et au clou de girofle, imbibée de sirop au miel et couverte de noix hachées.",
+    "en": "Greece's Christmas biscuits: an olive-oil dough scented with orange, cinnamon and clove, soaked in honey syrup and topped with chopped walnuts.",
+    "es": "Las galletas griegas de Navidad: una masa con aceite de oliva perfumada con naranja, canela y clavo, empapada en almíbar de miel y cubierta de nueces picadas.",
+    "it": "I biscotti natalizi greci: un impasto all'olio d'oliva profumato all'arancia, alla cannella e ai chiodi di garofano, imbevuto di sciroppo al miele e ricoperto di noci tritate."
+  },
+  "story": {
+    "fr": "Avec les kourabiedes, sablés au beurre roulés dans le sucre glace, les melomakarona sont les biscuits de Noël de toute la Grèce, préparés en grandes fournées dans les maisons et les pâtisseries dès le début de décembre. Leur pâte à l'huile d'olive, sans beurre ni œufs, convient au jeûne orthodoxe qui précède Noël. Encore chauds, ils sont trempés dans un sirop au miel qui les rend tendres et collants, puis couverts de noix hachées ; ils se conservent ensuite plusieurs semaines en boîte.",
+    "en": "Along with kourabiedes, butter shortbreads rolled in icing sugar, melomakarona are the Christmas biscuits of all Greece, baked in large batches in homes and patisseries from the beginning of December. Their olive-oil dough, made without butter or eggs, is suitable for the Orthodox fast that precedes Christmas. Still warm, they are dipped in a honey syrup that makes them tender and sticky, then covered with chopped walnuts; after that they keep for several weeks in a tin.",
+    "es": "Junto con los kourabiedes, pastas de mantequilla rebozadas en azúcar glas, los melomakarona son las galletas navideñas de toda Grecia, que se hornean en grandes tandas en las casas y las pastelerías desde principios de diciembre. Su masa con aceite de oliva, sin mantequilla ni huevo, es apta para el ayuno ortodoxo que precede a la Navidad. Todavía calientes, se bañan en un almíbar de miel que los vuelve tiernos y pegajosos y se cubren de nueces picadas; después se conservan varias semanas en una lata.",
+    "it": "Insieme ai kourabiedes, frollini al burro passati nello zucchero a velo, i melomakarona sono i biscotti di Natale di tutta la Grecia, sfornati in grandi quantità nelle case e nelle pasticcerie fin dai primi di dicembre. Il loro impasto all'olio d'oliva, senza burro né uova, è adatto al digiuno ortodosso che precede il Natale. Ancora caldi, vengono immersi in uno sciroppo al miele che li rende morbidi e appiccicosi, poi ricoperti di noci tritate; si conservano per diverse settimane in una scatola di latta."
+  },
+  "region": {"fr": "Grèce", "en": "Greece", "es": "Grecia", "it": "Grecia"},
+  "origin": {"countries": ["GR"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 50,
+  "servings": 12,
+  "heroImage": "images/ds-melomakarona/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "eau", "quantity": 250, "unit": "ml"},
+    {"ref": "sucre", "quantity": 300, "unit": "g"},
+    {"ref": "orange", "quantity": 2, "unit": "piece"},
+    {"ref": "miel", "quantity": 250, "unit": "g"},
+    {"ref": "huile-d-olive", "quantity": 200, "unit": "ml"},
+    {"ref": "cognac", "quantity": 30, "unit": "ml"},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 2, "unit": "tsp"},
+    {"ref": "clou-de-girofle", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "noix", "quantity": 100, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole, portez à ébullition l'eau, 250 g de sucre et un long ruban d'écorce prélevé à l'économe sur l'une des oranges, puis laissez frémir 5 minutes.", "en": "In a saucepan, combine the water, 250 g of the sugar and a long strip of peel pared from one of the oranges with a peeler, bring to the boil, then simmer for 5 minutes.", "es": "En un cazo, lleva a ebullición el agua, 250 g de azúcar y una tira larga de piel sacada con el pelador de una de las naranjas, y deja hervir suavemente 5 minutos.", "it": "In un pentolino porta a bollore l'acqua, 250 g di zucchero e una lunga striscia di scorza ricavata con il pelapatate da una delle arance, poi lascia sobbollire per 5 minuti."}, "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, incorporez le miel, retirez l'écorce et laissez ce sirop refroidir complètement.", "en": "Off the heat, stir in the honey, lift out the peel and leave the syrup to cool completely.", "es": "Fuera del fuego, incorpora la miel, retira la piel de naranja y deja que el almíbar se enfríe por completo.", "it": "Fuori dal fuoco incorpora il miele, togli la scorza e lascia raffreddare completamente lo sciroppo."}, "timerMinutes": 60},
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Dans un grand saladier, fouettez l'huile d'olive, les 50 g de sucre restants, le zeste râpé de la seconde orange, 100 ml de jus pressé des deux oranges, le cognac et le bicarbonate, jusqu'à ce que le mélange mousse légèrement.", "en": "In a large bowl, whisk the olive oil, the remaining 50 g of sugar, the grated zest of the second orange, 100 ml of juice squeezed from both oranges, the brandy and the bicarbonate of soda until the mixture turns slightly foamy.", "es": "En un bol grande, bate el aceite de oliva, los 50 g de azúcar restantes, la ralladura de la segunda naranja, 100 ml de zumo exprimido de las dos naranjas, el coñac y el bicarbonato, hasta que la mezcla haga un poco de espuma.", "it": "In una ciotola capiente sbatti con la frusta l'olio d'oliva, i 50 g di zucchero rimasti, la scorza grattugiata della seconda arancia, 100 ml di succo spremuto dalle due arance, il brandy e il bicarbonato, finché il composto diventa leggermente spumoso."}},
+    {"text": {"fr": "Mélangez la farine, la levure chimique, 1 cuillerée à café de cannelle et le clou de girofle moulu, puis incorporez-les au mélange à l'huile, sans pétrir, juste jusqu'à obtenir une pâte souple et un peu grasse.", "en": "Mix the flour, baking powder, 1 teaspoon of the cinnamon and the ground clove, then work them into the oil mixture without kneading, just until you have a soft, slightly oily dough.", "es": "Mezcla la harina, la levadura en polvo, 1 cucharadita de canela y el clavo molido, e incorpóralos a la mezcla de aceite sin amasar, solo hasta obtener una masa blanda y algo aceitosa.", "it": "Mescola la farina, il lievito per dolci, 1 cucchiaino di cannella e i chiodi di garofano in polvere, poi incorporali al composto all'olio senza impastare, solo finché ottieni una pasta morbida e un po' unta."}},
+    {"text": {"fr": "Façonnez des ovales d'environ 30 g et 5 cm de long, posez-les sur deux plaques tapissées de papier cuisson et striez le dessus avec les dents d'une fourchette.", "en": "Shape the dough into 5 cm-long ovals of about 30 g each, set them on two trays lined with baking paper and score the tops with the tines of a fork.", "es": "Forma óvalos de unos 30 g y 5 cm de largo, colócalos en dos bandejas cubiertas con papel de horno y marca la superficie con los dientes de un tenedor.", "it": "Forma degli ovali di circa 30 g e 5 cm di lunghezza, disponili su due teglie rivestite di carta forno e riga la superficie con i rebbi di una forchetta."}},
+    {"text": {"fr": "Faites cuire une plaque à la fois 20 à 25 minutes, jusqu'à ce que les biscuits soient bien dorés.", "en": "Bake one tray at a time for 20 to 25 minutes, until the biscuits are a deep golden brown.", "es": "Hornea una bandeja cada vez de 20 a 25 minutos, hasta que las galletas estén bien doradas.", "it": "Inforna una teglia alla volta per 20-25 minuti, finché i biscotti sono ben dorati."}, "timerMinutes": 25},
+    {"text": {"fr": "Pendant la cuisson, hachez finement les noix et mélangez-les avec le reste de la cannelle.", "en": "While they bake, finely chop the walnuts and mix them with the rest of the cinnamon.", "es": "Mientras se hornean, pica finamente las nueces y mézclalas con el resto de la canela.", "it": "Durante la cottura trita finemente le noci e mescolale con la cannella rimasta."}},
+    {"text": {"fr": "À la sortie du four, plongez les biscuits encore chauds dans le sirop froid, cinq ou six à la fois, et laissez-les s'imbiber 1 minute en les retournant à mi-temps.", "en": "As soon as they come out of the oven, dip the hot biscuits into the cold syrup, five or six at a time, and leave them to soak for 1 minute, turning them halfway.", "es": "Al sacarlas del horno, sumerge las galletas aún calientes en el almíbar frío, de cinco en cinco o de seis en seis, y déjalas empaparse 1 minuto, dándoles la vuelta a mitad de tiempo.", "it": "Appena sfornati, immergi i biscotti ancora caldi nello sciroppo freddo, cinque o sei alla volta, e lasciali inzuppare per 1 minuto, girandoli a metà."}, "timerMinutes": 1},
+    {"text": {"fr": "Égouttez-les sur une grille posée au-dessus d'un plat et parsemez-les aussitôt du mélange aux noix.", "en": "Drain them on a wire rack set over a dish and immediately sprinkle with the walnut mixture.", "es": "Escúrrelas sobre una rejilla colocada encima de una fuente y espolvoréalas enseguida con la mezcla de nueces.", "it": "Scolali su una gratella appoggiata su un piatto e cospargili subito con il composto di noci."}}
+  ]
+}

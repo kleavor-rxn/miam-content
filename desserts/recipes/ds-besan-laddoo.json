@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-besan-laddoo",
+  "title": {"fr": "Besan laddoo", "en": "Besan laddoo", "es": "Besan laddoo", "it": "Besan laddoo"},
+  "summary": {
+    "fr": "Des boules fondantes de farine de pois chiches longuement torréfiée au ghee, sucrées et parfumées à la cardamome, incontournables de Diwali.",
+    "en": "Melt-in-the-mouth balls of gram flour slowly roasted in ghee, sweetened and scented with cardamom, a Diwali essential.",
+    "es": "Bolitas que se deshacen en la boca, de harina de garbanzo tostada lentamente en ghee, endulzadas y perfumadas con cardamomo, imprescindibles en Diwali.",
+    "it": "Palline fondenti di farina di ceci tostata a lungo nel ghee, zuccherate e profumate al cardamomo, immancabili a Diwali."
+  },
+  "story": {
+    "fr": "Les laddoos, petites boules sucrées dont le nom vient du sanskrit laḍḍuka, comptent parmi les douceurs les plus répandues en Inde, et le besan laddoo, à la farine de pois chiches, est l'un de ceux que l'on prépare le plus souvent à la maison. On en fait de grandes quantités pour Diwali, la fête des Lumières, pour les offrir aux dieux puis les partager avec la famille et les voisins dans des boîtes de douceurs. Les laddoos font aussi partie des offrandes traditionnelles au dieu Ganesh.",
+    "en": "Laddoos, small sweet balls whose name comes from the Sanskrit laḍḍuka, are among the most widespread sweets in India, and besan laddoo, made with gram flour, is one of those most often made at home. They are prepared in large batches for Diwali, the Festival of Lights, to be offered to the gods and then shared with family and neighbours in boxes of sweets. Laddoos are also among the traditional offerings made to the god Ganesha.",
+    "es": "Los laddoos, bolitas dulces cuyo nombre procede del sánscrito laḍḍuka, están entre los dulces más extendidos de la India, y el besan laddoo, de harina de garbanzo, es uno de los que más se preparan en casa. Se hacen en grandes cantidades para Diwali, la fiesta de las luces, para ofrecerlos a los dioses y compartirlos después con la familia y los vecinos en cajas de dulces. Los laddoos forman parte también de las ofrendas tradicionales al dios Ganesha.",
+    "it": "I laddoo, palline dolci il cui nome deriva dal sanscrito laḍḍuka, sono tra i dolci più diffusi in India, e il besan laddoo, alla farina di ceci, è uno di quelli che si preparano più spesso in casa. Se ne fanno grandi quantità per Diwali, la festa delle luci, per offrirli agli dèi e poi condividerli con la famiglia e i vicini in scatole di dolci. I laddoo fanno parte anche delle offerte tradizionali al dio Ganesha."
+  },
+  "region": {"fr": "Inde", "en": "India", "es": "India", "it": "India"},
+  "origin": {"countries": ["IN"]},
+  "category": "dessert",
+  "dessertType": "confiserie",
+  "occasions": ["diwali"],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 8,
+  "heroImage": "images/ds-besan-laddoo/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "ghee", "quantity": 130, "unit": "g"},
+    {"ref": "farine-de-pois-chiches", "quantity": 250, "unit": "g"},
+    {"ref": "amande", "quantity": 30, "unit": "g", "optional": true},
+    {"ref": "sucre-glace", "quantity": 150, "unit": "g"},
+    {"ref": "cardamome", "quantity": 1, "unit": "tsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une sauteuse à fond épais, faites fondre le ghee à feu doux.", "en": "Melt the ghee in a heavy-based sauté pan over a low heat.", "es": "En una sartén honda de fondo grueso, derrite el ghee a fuego suave.", "it": "In una padella dai bordi alti e dal fondo spesso, sciogli il ghee a fuoco basso."}},
+    {"text": {"fr": "Ajoutez la farine de pois chiches et faites-la torréfier à feu doux 25 à 30 minutes, en remuant sans cesse, jusqu'à ce qu'elle soit dorée, plus fluide et qu'elle sente la noisette grillée.", "en": "Add the gram flour and roast it over a low heat for 25 to 30 minutes, stirring constantly, until golden, looser in texture and smelling of toasted nuts.", "es": "Añade la harina de garbanzo y tuéstala a fuego suave de 25 a 30 minutos, sin dejar de remover, hasta que esté dorada, más suelta y huela a fruto seco tostado.", "it": "Aggiungi la farina di ceci e tostala a fuoco basso per 25-30 minuti, mescolando senza sosta, finché è dorata, più fluida e profuma di frutta secca tostata."}, "timerMinutes": 30},
+    {"text": {"fr": "Si vous le souhaitez, ajoutez les amandes hachées et laissez-les griller 2 minutes en remuant.", "en": "If you like, add the chopped almonds and toast them for 2 minutes, stirring.", "es": "Si te apetece, añade las almendras picadas y deja que se tuesten 2 minutos, removiendo.", "it": "Se ti va, aggiungi le mandorle tritate e lasciale tostare per 2 minuti, mescolando."}, "timerMinutes": 2},
+    {"text": {"fr": "Versez la préparation dans un grand bol et laissez-la tiédir jusqu'à pouvoir la toucher sans vous brûler : trop chaude, elle ferait fondre le sucre.", "en": "Tip the mixture into a large bowl and leave it to cool until you can touch it comfortably: if it is too hot, it will melt the sugar.", "es": "Pasa la mezcla a un bol grande y deja que se temple hasta que puedas tocarla sin quemarte: si está demasiado caliente, fundirá el azúcar.", "it": "Trasferisci il composto in una ciotola capiente e lascialo intiepidire finché puoi toccarlo senza scottarti: se fosse troppo caldo, scioglierebbe lo zucchero."}, "timerMinutes": 20},
+    {"text": {"fr": "Ajoutez le sucre glace tamisé et la cardamome moulue, puis mélangez à la main jusqu'à ce que le tout soit homogène.", "en": "Add the sifted icing sugar and the ground cardamom, then mix with your hands until evenly combined.", "es": "Añade el azúcar glas tamizado y el cardamomo molido y mezcla con las manos hasta que todo quede homogéneo.", "it": "Aggiungi lo zucchero a velo setacciato e il cardamomo in polvere, poi mescola con le mani finché il composto è omogeneo."}},
+    {"text": {"fr": "Prélevez environ 30 g de préparation, serrez-la fermement dans la paume et roulez-la en une boule lisse ; façonnez ainsi environ 18 laddoos.", "en": "Take about 30 g of the mixture, squeeze it firmly in your palm and roll it into a smooth ball; shape about 18 laddoos in this way.", "es": "Toma unos 30 g de mezcla, apriétala con fuerza en la palma y hazla rodar hasta formar una bola lisa; forma así unos 18 laddoos.", "it": "Preleva circa 30 g di composto, stringilo bene nel palmo e fallo rotolare fino a ottenere una pallina liscia; forma così circa 18 laddoo."}},
+    {"text": {"fr": "Laissez les laddoos raffermir 30 minutes à température ambiante avant de servir ; ils se conservent une dizaine de jours dans une boîte hermétique.", "en": "Leave the laddoos to firm up at room temperature for 30 minutes before serving; they keep for about ten days in an airtight tin.", "es": "Deja que los laddoos cojan consistencia 30 minutos a temperatura ambiente antes de servirlos; se conservan unos diez días en un recipiente hermético.", "it": "Lascia rassodare i laddoo per 30 minuti a temperatura ambiente prima di servirli; si conservano una decina di giorni in una scatola ermetica."}, "timerMinutes": 30}
+  ]
+}

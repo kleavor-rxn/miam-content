@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mango-pomelo-sago",
+  "title": {"fr": "Mango pomelo sago", "en": "Mango pomelo sago", "es": "Mango pomelo sago", "it": "Mango pomelo sago"},
+  "summary": {
+    "fr": "Le dessert glacé des boutiques hongkongaises : une crème de mangue au lait de coco, des perles du Japon fondantes et des éclats de pomélo acidulés.",
+    "en": "Hong Kong's chilled dessert-shop classic: a mango and coconut milk cream with soft sago pearls and tangy flakes of pomelo.",
+    "es": "El postre frío de las tiendas de Hong Kong: una crema de mango con leche de coco, perlas de tapioca tiernas y gajos desmenuzados de pomelo chino.",
+    "it": "Il dolce freddo dei locali di Hong Kong: una crema di mango al latte di cocco, morbide perle di tapioca e frammenti aciduli di pomelo."
+  },
+  "story": {
+    "fr": "Ce dessert est né à Hong Kong dans les années 1980, dans les cuisines du restaurant cantonais Lei Garden, avant de gagner toutes les boutiques de desserts de la ville. Son nom cantonais, yeung chi kam lo, signifie « rosée douce de la branche de saule » : il évoque Guanyin, la divinité bouddhiste de la compassion, représentée tenant un rameau de saule et un vase de rosée. On le sert très frais, dans un bol, surtout pendant les chaleurs de l'été.",
+    "en": "This dessert was born in Hong Kong in the 1980s, in the kitchens of the Cantonese restaurant Lei Garden, before spreading to every dessert shop in the city. Its Cantonese name, yeung chi kam lo, means 'sweet dew of the willow branch', a nod to Guanyin, the Buddhist deity of compassion, who is shown holding a willow sprig and a vase of dew. It is served well chilled in a bowl, especially in the heat of summer.",
+    "es": "Este postre nació en Hong Kong en los años ochenta, en las cocinas del restaurante cantonés Lei Garden, y desde allí llegó a todas las tiendas de postres de la ciudad. Su nombre cantonés, yeung chi kam lo, significa «dulce rocío de la rama de sauce» y evoca a Guanyin, la divinidad budista de la compasión, a la que se representa con una rama de sauce y un jarrón de rocío. Se sirve muy frío, en un cuenco, sobre todo con el calor del verano.",
+    "it": "Questo dolce è nato a Hong Kong negli anni Ottanta, nelle cucine del ristorante cantonese Lei Garden, prima di diffondersi in tutti i locali di dolci della città. Il suo nome cantonese, yeung chi kam lo, significa «dolce rugiada del ramo di salice» ed evoca Guanyin, la divinità buddhista della compassione, raffigurata con un ramo di salice e un vaso di rugiada. Si serve ben freddo, in una ciotola, soprattutto nella calura estiva."
+  },
+  "region": {"fr": "Hong Kong", "en": "Hong Kong", "es": "Hong Kong", "it": "Hong Kong"},
+  "origin": {"countries": ["HK"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": ["ete"],
+  "difficulty": 1,
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/ds-mango-pomelo-sago/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "eau", "quantity": 100, "unit": "ml"},
+    {"ref": "perles-de-tapioca", "quantity": 60, "unit": "g"},
+    {"ref": "pomelo", "quantity": 150, "unit": "g"},
+    {"ref": "mangue", "quantity": 3, "unit": "piece"},
+    {"ref": "lait-de-coco", "quantity": 250, "unit": "ml"},
+    {"ref": "lait-concentre-non-sucre", "quantity": 100, "unit": "ml", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une petite casserole, faites chauffer l'eau avec le sucre en remuant jusqu'à ce qu'il soit dissous, puis laissez refroidir ce sirop.", "en": "In a small saucepan, heat the water with the sugar, stirring until it dissolves, then leave this syrup to cool.", "es": "En un cazo pequeño, calienta el agua con el azúcar, removiendo hasta que se disuelva, y deja enfriar este almíbar.", "it": "In un pentolino scalda l'acqua con lo zucchero, mescolando finché si scioglie, poi lascia raffreddare lo sciroppo."}, "timerMinutes": 3},
+    {"text": {"fr": "Portez à ébullition une grande casserole d'eau, versez-y les perles du Japon en pluie et faites-les cuire 10 minutes à petits bouillons, en remuant souvent pour qu'elles n'attachent pas.", "en": "Bring a large pan of water to the boil, sprinkle in the sago pearls and simmer for 10 minutes, stirring often so they don't stick.", "es": "Lleva a ebullición una olla grande de agua, echa las perlas de tapioca en forma de lluvia y cuécelas 10 minutos a fuego suave, removiendo a menudo para que no se peguen.", "it": "Porta a bollore una pentola capiente d'acqua, versaci a pioggia le perle di tapioca e cuocile per 10 minuti a fuoco dolce, mescolando spesso perché non si attacchino."}, "timerMinutes": 10},
+    {"text": {"fr": "Éteignez le feu, couvrez et laissez gonfler 10 minutes, jusqu'à ce que les perles soient entièrement translucides.", "en": "Turn off the heat, cover and leave to swell for 10 minutes, until the pearls are completely translucent.", "es": "Apaga el fuego, tapa y deja que se hinchen 10 minutos, hasta que las perlas estén completamente translúcidas.", "it": "Spegni il fuoco, copri e lascia gonfiare per 10 minuti, finché le perle sono del tutto traslucide."}, "timerMinutes": 10},
+    {"text": {"fr": "Égouttez les perles dans une passoire fine et rincez-les sous l'eau froide pour qu'elles ne collent pas entre elles.", "en": "Drain the pearls in a fine sieve and rinse them under cold water so they don't stick together.", "es": "Escurre las perlas en un colador fino y acláralas con agua fría para que no se peguen entre sí.", "it": "Scola le perle in un colino a maglie fitte e sciacquale sotto l'acqua fredda perché non si attacchino tra loro."}},
+    {"text": {"fr": "Retirez l'épaisse écorce du pomélo, ôtez la peau qui enveloppe chaque quartier et égrenez la pulpe en petits grains : il en faut environ 150 g, soit un quart de fruit (à défaut, un pamplemousse rose fait l'affaire).", "en": "Remove the thick rind from the pomelo, peel the skin off each segment and break the flesh into small juicy flakes: you need about 150 g, roughly a quarter of the fruit (a pink grapefruit will do at a pinch).", "es": "Quita la gruesa cáscara del pomelo chino, retira la piel que envuelve cada gajo y desmenuza la pulpa en granitos: necesitas unos 150 g, más o menos un cuarto de la fruta (si no lo encuentras, sirve un pomelo rosa).", "it": "Togli la spessa buccia del pomelo, elimina la pellicina che avvolge ogni spicchio e sgrana la polpa in piccoli chicchi: ne servono circa 150 g, cioè un quarto del frutto (in mancanza, va bene un pompelmo rosa)."}},
+    {"text": {"fr": "Pelez les mangues, puis coupez la chair de l'une d'elles en dés de 1 cm que vous réservez au frais.", "en": "Peel the mangoes, then cut the flesh of one of them into 1 cm dice and keep it in the fridge.", "es": "Pela los mangos y corta la pulpa de uno de ellos en dados de 1 cm; resérvalos en la nevera.", "it": "Sbuccia i manghi, poi taglia la polpa di uno di essi a dadini di 1 cm e tienila da parte in frigorifero."}},
+    {"text": {"fr": "Mixez la chair des deux autres mangues avec le lait de coco, le sirop refroidi et, si vous le souhaitez, le lait concentré non sucré, jusqu'à obtenir une crème lisse.", "en": "Blend the flesh of the other two mangoes with the coconut milk, the cooled syrup and, if you like, the evaporated milk until smooth.", "es": "Tritura la pulpa de los otros dos mangos con la leche de coco, el almíbar frío y, si quieres, la leche evaporada, hasta obtener una crema lisa.", "it": "Frulla la polpa degli altri due manghi con il latte di cocco, lo sciroppo freddo e, se ti va, il latte evaporato, fino a ottenere una crema liscia."}},
+    {"text": {"fr": "Incorporez les perles égouttées à la crème de mangue, couvrez et laissez rafraîchir 1 heure au réfrigérateur.", "en": "Stir the drained pearls into the mango cream, cover and chill for 1 hour.", "es": "Incorpora las perlas escurridas a la crema de mango, tapa y deja enfriar 1 hora en la nevera.", "it": "Incorpora le perle scolate alla crema di mango, copri e lascia raffreddare in frigorifero per 1 ora."}, "timerMinutes": 60},
+    {"text": {"fr": "Répartissez dans des bols et parsemez de dés de mangue et de pulpe de pomélo juste avant de servir.", "en": "Divide between bowls and scatter over the diced mango and pomelo flakes just before serving.", "es": "Reparte en cuencos y esparce por encima los dados de mango y la pulpa de pomelo justo antes de servir.", "it": "Suddividi nelle ciotole e completa con i dadini di mango e la polpa di pomelo appena prima di servire."}}
+  ]
+}

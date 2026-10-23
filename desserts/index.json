@@ -35,6 +35,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-anzac-biscuits",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "7f1979378d828da2b1dd26e3da376b98b134a2d243758e9232a3ad13d63255e0",
+      "title": {
+        "fr": "Anzac biscuits",
+        "en": "Anzac biscuits",
+        "es": "Anzac biscuits",
+        "it": "Anzac biscuits"
+      },
+      "heroImage": "images/ds-anzac-biscuits/hero.webp",
+      "tags": [],
+      "totalMinutes": 50,
+      "difficulty": 1
+    },
+    {
       "id": "ds-apfelstrudel",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "af2c34ff1fb43cc201880998b626f1adad1f668868800db46b5771ff7c20910a",
@@ -77,6 +92,23 @@
       "heroImage": "images/ds-baklava/hero.webp",
       "tags": [],
       "totalMinutes": 100,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-besan-laddoo",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "9519eb348fb2065bcfde9704c464accb6e2c1f677a8cf2693f3a43c3cba9951f",
+      "title": {
+        "fr": "Besan laddoo",
+        "en": "Besan laddoo",
+        "es": "Besan laddoo",
+        "it": "Besan laddoo"
+      },
+      "heroImage": "images/ds-besan-laddoo/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
       "difficulty": 2
     },
     {
@@ -131,6 +163,40 @@
       "difficulty": 2
     },
     {
+      "id": "ds-che-ba-mau",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "f040eb2a80ee51501424808f3afd1a9150a2f3d3efad5636b7ca8cdb1dfd10bb",
+      "title": {
+        "fr": "Chè ba màu",
+        "en": "Chè ba màu",
+        "es": "Chè ba màu",
+        "it": "Chè ba màu"
+      },
+      "heroImage": "images/ds-che-ba-mau/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 70,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-chebakia",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "0b713f0bc14adcfbf195b61b17e6b3e1809ad90ee8bac637f471decc1b5482b7",
+      "title": {
+        "fr": "Chebakia",
+        "en": "Chebakia",
+        "es": "Chebakia",
+        "it": "Chebakia"
+      },
+      "heroImage": "images/ds-chebakia/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 105,
+      "difficulty": 3
+    },
+    {
       "id": "ds-churros-con-chocolate",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "abdab3d71991495d1e338ddb5d5cac04afbc671dbb3e9f5f85bb8b3f3c2cb995",
@@ -161,6 +227,21 @@
       "tags": [],
       "totalMinutes": 55,
       "difficulty": 1
+    },
+    {
+      "id": "ds-conchas",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "715971459556bf584b8c5fe634ab19ae6523fad5ca1afaa14ad3b3205119f32c",
+      "title": {
+        "fr": "Conchas",
+        "en": "Conchas",
+        "es": "Conchas",
+        "it": "Conchas"
+      },
+      "heroImage": "images/ds-conchas/hero.webp",
+      "tags": [],
+      "totalMinutes": 85,
+      "difficulty": 2
     },
     {
       "id": "ds-cornes-de-gazelle",
@@ -332,6 +413,23 @@
       "difficulty": 3
     },
     {
+      "id": "ds-gaufre-de-liege",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "ca2c52c7674b88d0434bd7a0b17aa7fcdb72e071536df2a07d7e679346d41cf8",
+      "title": {
+        "fr": "Gaufre de Liège",
+        "en": "Liège waffle",
+        "es": "Gofre de Lieja",
+        "it": "Waffle di Liegi"
+      },
+      "heroImage": "images/ds-gaufre-de-liege/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
+    },
+    {
       "id": "ds-gulab-jamun",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "f1fd556e044a7ef727924a3f3ad3cbf053ca1bb096571355c2ef07ca3b2574df",
@@ -364,6 +462,23 @@
       ],
       "totalMinutes": 55,
       "difficulty": 1
+    },
+    {
+      "id": "ds-hotteok",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "446a21615e6c7d7d70d5cc552a4c421181fd6f6e5603cad5d8f90bdf249404e6",
+      "title": {
+        "fr": "Hotteok",
+        "en": "Hotteok",
+        "es": "Hotteok",
+        "it": "Hotteok"
+      },
+      "heroImage": "images/ds-hotteok/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 2
     },
     {
       "id": "ds-kanelbullar",
@@ -511,6 +626,40 @@
       "difficulty": 2
     },
     {
+      "id": "ds-mandazi",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "97f1e4044c0f59c13fc38dcff99ff9fc583be745fc08fa68e78dba1a193e9f31",
+      "title": {
+        "fr": "Mandazi",
+        "en": "Mandazi",
+        "es": "Mandazi",
+        "it": "Mandazi"
+      },
+      "heroImage": "images/ds-mandazi/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 60,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-mango-pomelo-sago",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "1bcbcb26b1e5d81391ca6b3f60dca109b457f5cb59d005241b3359f1ac36cff4",
+      "title": {
+        "fr": "Mango pomelo sago",
+        "en": "Mango pomelo sago",
+        "es": "Mango pomelo sago",
+        "it": "Mango pomelo sago"
+      },
+      "heroImage": "images/ds-mango-pomelo-sago/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 1
+    },
+    {
       "id": "ds-mango-sticky-rice",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "fe9abb03b4ba43b96b57af0444d35390aafd7c3de2c122b58d7380bda1238cef",
@@ -558,6 +707,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-melomakarona",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "93b3bc40b1a85ccacd8c77b42296bb853b92e2c6d3d6a09fc85fb8cf8eac9327",
+      "title": {
+        "fr": "Melomakarona",
+        "en": "Melomakarona",
+        "es": "Melomakarona",
+        "it": "Melomakarona"
+      },
+      "heroImage": "images/ds-melomakarona/hero.webp",
+      "tags": [],
+      "totalMinutes": 90,
+      "difficulty": 2
+    },
+    {
       "id": "ds-mochi",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "f2ead5d49710b7c9798497b8932b99f37eee28f001d1ff0be8bc82129ba1884c",
@@ -592,6 +756,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-nanaimo-bars",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "2a17228ebf057ad3bb19c6aa8ae2ac4e8608a068e864f9798cb576d3ed0f0e12",
+      "title": {
+        "fr": "Nanaimo bars",
+        "en": "Nanaimo bars",
+        "es": "Nanaimo bars",
+        "it": "Nanaimo bars"
+      },
+      "heroImage": "images/ds-nanaimo-bars/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 1
+    },
+    {
       "id": "ds-new-york-cheesecake",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "d0f21975f8deb2aac0d20b4863b2dd6ae9bbe844383acb0fbcdacfafd44da785",
@@ -605,6 +786,53 @@
       "tags": [],
       "totalMinutes": 110,
       "difficulty": 2
+    },
+    {
+      "id": "ds-nian-gao",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "36b7d253560148453951299e4761c31b9173b736a7d8f49f0aa6382d675ef339",
+      "title": {
+        "fr": "Nian gao",
+        "en": "Nian gao",
+        "es": "Nian gao",
+        "it": "Nian gao"
+      },
+      "heroImage": "images/ds-nian-gao/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 150,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-om-ali",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "447a4ae20295f5586ffa67e6d8a4ea8906087cc6221128bcff0e06cfdf5cf443",
+      "title": {
+        "fr": "Om Ali",
+        "en": "Om Ali",
+        "es": "Om Ali",
+        "it": "Om Ali"
+      },
+      "heroImage": "images/ds-om-ali/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-panettone",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "05dd3381342b6e1ddebb70cfe5bd078ffb85c5f0430e3f2d1c5c44a71e08a049",
+      "title": {
+        "fr": "Panettone",
+        "en": "Panettone",
+        "es": "Panettone",
+        "it": "Panettone"
+      },
+      "heroImage": "images/ds-panettone/hero.webp",
+      "tags": [],
+      "totalMinutes": 125,
+      "difficulty": 3
     },
     {
       "id": "ds-panna-cotta",
@@ -624,6 +852,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-papanasi",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "e920986e2c3e934b2cb15e52231450ee5cbd159bd88217f64ed0bff2e2bdfad8",
+      "title": {
+        "fr": "Papanași",
+        "en": "Papanași",
+        "es": "Papanași",
+        "it": "Papanași"
+      },
+      "heroImage": "images/ds-papanasi/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
       "id": "ds-paris-brest",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "0f5de39ad460d95fd844278803e0a45e97540dcb519ebda422270835d731dd0d",
@@ -637,6 +882,23 @@
       "tags": [],
       "totalMinutes": 110,
       "difficulty": 3
+    },
+    {
+      "id": "ds-paskha",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "beb67627d938871b61e54611f5d50f40e02a217364ea1b0d44b50e59689e06d3",
+      "title": {
+        "fr": "Paskha",
+        "en": "Paskha",
+        "es": "Paskha",
+        "it": "Paskha"
+      },
+      "heroImage": "images/ds-paskha/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
     },
     {
       "id": "ds-pasteis-de-nata",
@@ -686,6 +948,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-picarones",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "ec0a69f15e05e4064493c5026b73e749299aacd64484725566baf487a320875c",
+      "title": {
+        "fr": "Picarones",
+        "en": "Picarones",
+        "es": "Picarones",
+        "it": "Picarones"
+      },
+      "heroImage": "images/ds-picarones/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 90,
+      "difficulty": 3
+    },
+    {
       "id": "ds-puff-puff",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "0ec82f6687c1b8f497937c1972d0c969eb683a9ac0294e91f87b08bca61f64d9",
@@ -718,6 +997,40 @@
       ],
       "totalMinutes": 90,
       "difficulty": 3
+    },
+    {
+      "id": "ds-sufganiyot",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "8fcd8d6e1354fc850e3be9f07c22517e25f77a42246f2c13cdfafc6351aa5047",
+      "title": {
+        "fr": "Sufganiyot",
+        "en": "Sufganiyot",
+        "es": "Sufganiyot",
+        "it": "Sufganiyot"
+      },
+      "heroImage": "images/ds-sufganiyot/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-syrnyky",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "dcfd3f7d92a9a9bf1c76a796f70ef5cab2e50981d965568510615cb19c666546",
+      "title": {
+        "fr": "Syrnyky",
+        "en": "Syrnyky",
+        "es": "Syrnyky",
+        "it": "Syrnyky"
+      },
+      "heroImage": "images/ds-syrnyky/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 2
     },
     {
       "id": "ds-tarte-tatin",
@@ -799,10 +1112,27 @@
       ],
       "totalMinutes": 55,
       "difficulty": 3
+    },
+    {
+      "id": "ds-watalappan",
+      "updatedAt": "2026-10-23T18:41:35Z",
+      "contentHash": "3564d7c15ff7ce6ae3d5138226e30f23d68e65179d3aa0506340a755994eb576",
+      "title": {
+        "fr": "Watalappan",
+        "en": "Watalappan",
+        "es": "Watalappan",
+        "it": "Watalappan"
+      },
+      "heroImage": "images/ds-watalappan/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 70,
+      "difficulty": 2
     }
   ],
   "files": {
-    "ingredients.json": "416bb34bd6ea02c00c72ed054b95fbdde7e29c7c178ec0823d89bb5c0e698cb5",
+    "ingredients.json": "397d8fdd456fd2dbcb029bacb6fe88a6f346ece5147360969e6d9183745f0120",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },
