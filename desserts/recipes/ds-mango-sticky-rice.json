@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mango-sticky-rice",
+  "title": {"fr": "Riz gluant à la mangue", "en": "Mango sticky rice", "es": "Arroz glutinoso con mango", "it": "Riso glutinoso al mango"},
+  "summary": {
+    "fr": "Du riz gluant cuit à la vapeur puis imbibé de lait de coco sucré et légèrement salé, servi avec une mangue bien mûre et un filet de sauce coco.",
+    "en": "Steamed sticky rice soaked in sweet, faintly salty coconut milk, served with perfectly ripe mango and a drizzle of coconut sauce.",
+    "es": "Arroz glutinoso cocido al vapor y empapado en leche de coco dulce y ligeramente salada, servido con un mango bien maduro y un hilo de salsa de coco.",
+    "it": "Riso glutinoso cotto al vapore e insaporito con latte di cocco dolce e appena salato, servito con un mango ben maturo e un filo di salsa al cocco."
+  },
+  "story": {
+    "fr": "En thaï, on l'appelle khao niao mamuang, littéralement « riz gluant mangue ». Le riz gluant est l'aliment de base du nord et du nord-est de la Thaïlande, et ce dessert se vend partout dans le pays, dans les marchés et sur les étals de rue, pendant la saison des mangues, au cœur de la saison chaude. On le prépare de préférence avec des mangues nam dok mai, jaunes, très parfumées et sans fibres.",
+    "en": "In Thai it is called khao niao mamuang, literally 'sticky rice mango'. Sticky rice is the staple of northern and north-eastern Thailand, and this dessert is sold all over the country, at markets and street stalls, during mango season, at the height of the hot season. It is best made with nam dok mai mangoes, yellow, highly fragrant and fibre-free.",
+    "es": "En tailandés se llama khao niao mamuang, literalmente «arroz glutinoso mango». El arroz glutinoso es el alimento básico del norte y el noreste de Tailandia, y este postre se vende en todo el país, en mercados y puestos callejeros, durante la temporada del mango, en plena estación cálida. Se prepara preferentemente con mangos nam dok mai, amarillos, muy aromáticos y sin fibras.",
+    "it": "In thailandese si chiama khao niao mamuang, letteralmente «riso glutinoso mango». Il riso glutinoso è l'alimento base del nord e del nord-est della Thailandia, e questo dolce si vende in tutto il paese, nei mercati e sulle bancarelle di strada, durante la stagione dei manghi, nel pieno della stagione calda. Si prepara di preferenza con i manghi nam dok mai, gialli, profumatissimi e senza fibre."
+  },
+  "region": {"fr": "Thaïlande", "en": "Thailand", "es": "Tailandia", "it": "Thailandia"},
+  "origin": {"countries": ["TH"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 4,
+  "heroImage": "images/ds-mango-sticky-rice/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "riz-gluant", "quantity": 300, "unit": "g"},
+    {"ref": "lait-de-coco", "quantity": 400, "unit": "ml"},
+    {"ref": "sucre", "quantity": 110, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "fecule-de-tapioca", "quantity": 1, "unit": "tsp", "substitutes": ["fecule-de-mais"]},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "mangue", "quantity": 2, "unit": "piece"},
+    {"ref": "graines-de-sesame", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Rincez le riz gluant à l'eau froide jusqu'à ce qu'elle soit claire, puis laissez-le tremper dans un grand volume d'eau froide au moins 4 heures, idéalement une nuit.", "en": "Rinse the sticky rice in cold water until it runs clear, then leave it to soak in plenty of cold water for at least 4 hours, ideally overnight.", "es": "Lava el arroz glutinoso con agua fría hasta que salga clara y déjalo en remojo en abundante agua fría al menos 4 horas, idealmente toda la noche.", "it": "Sciacqua il riso glutinoso in acqua fredda finché esce limpida, poi lascialo in ammollo in abbondante acqua fredda per almeno 4 ore, meglio una notte intera."}, "timerMinutes": 240},
+    {"text": {"fr": "Égouttez le riz, étalez-le dans un panier vapeur tapissé d'une mousseline humide et faites-le cuire à la vapeur 25 minutes, jusqu'à ce que les grains soient translucides et tendres.", "en": "Drain the rice, spread it in a steamer basket lined with damp muslin and steam for 25 minutes, until the grains are translucent and tender.", "es": "Escurre el arroz, extiéndelo en una vaporera forrada con un paño de muselina húmedo y cuécelo al vapor 25 minutos, hasta que los granos estén translúcidos y tiernos.", "it": "Scola il riso, distribuiscilo in un cestello per la cottura a vapore foderato con una garza inumidita e cuocilo a vapore per 25 minuti, finché i chicchi sono traslucidi e teneri."}, "timerMinutes": 25},
+    {"text": {"fr": "Pendant ce temps, faites chauffer 250 ml de lait de coco avec 100 g de sucre et une demi-cuillerée à café de sel, en remuant jusqu'à dissolution, sans laisser bouillir.", "en": "Meanwhile, warm 250 ml of the coconut milk with 100 g of sugar and half a teaspoon of salt, stirring until dissolved, without letting it boil.", "es": "Mientras tanto, calienta 250 ml de leche de coco con 100 g de azúcar y media cucharadita de sal, removiendo hasta que se disuelvan, sin dejar que hierva.", "it": "Nel frattempo scalda 250 ml di latte di cocco con 100 g di zucchero e mezzo cucchiaino di sale, mescolando finché si sciolgono, senza far bollire."}, "timerMinutes": 5},
+    {"text": {"fr": "Versez ce lait de coco chaud sur le riz tout juste cuit, mélangez délicatement, couvrez et laissez le riz l'absorber 30 minutes.", "en": "Pour the hot coconut milk over the freshly steamed rice, fold gently, cover and leave the rice to absorb it for 30 minutes.", "es": "Vierte la leche de coco caliente sobre el arroz recién cocido, mezcla con suavidad, tapa y deja que el arroz la absorba durante 30 minutos.", "it": "Versa il latte di cocco caldo sul riso appena cotto, mescola delicatamente, copri e lascia che il riso lo assorba per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Pour la sauce, délayez la fécule de tapioca dans une cuillerée à soupe d'eau, puis ajoutez-la aux 150 ml de lait de coco restants avec 10 g de sucre et une pincée de sel ; faites épaissir à feu doux en remuant.", "en": "For the sauce, slake the tapioca starch in a tablespoon of water, then add it to the remaining 150 ml of coconut milk with 10 g of sugar and a pinch of salt; thicken over a low heat, stirring.", "es": "Para la salsa, disuelve el almidón de tapioca en una cucharada de agua y añádelo a los 150 ml de leche de coco restantes con 10 g de azúcar y una pizca de sal; deja espesar a fuego suave sin dejar de remover.", "it": "Per la salsa, stempera la fecola di tapioca in un cucchiaio d'acqua, poi aggiungila ai 150 ml di latte di cocco rimasti con 10 g di zucchero e un pizzico di sale; fai addensare a fuoco dolce mescolando."}, "timerMinutes": 3},
+    {"text": {"fr": "Épluchez les mangues, détachez les deux joues de part et d'autre du noyau et taillez-les en tranches épaisses.", "en": "Peel the mangoes, cut the two cheeks away from either side of the stone and slice them thickly.", "es": "Pela los mangos, separa las dos mitades carnosas a ambos lados del hueso y córtalas en tajadas gruesas.", "it": "Sbuccia i manghi, stacca le due guance ai lati del nocciolo e tagliale a fette spesse."}},
+    {"text": {"fr": "Dressez un dôme de riz tiède dans chaque assiette, posez les tranches de mangue à côté, nappez le riz de sauce coco et parsemez de graines de sésame grillées.", "en": "Mound the warm rice on each plate, lay the mango slices alongside, spoon the coconut sauce over the rice and scatter with toasted sesame seeds.", "es": "Sirve una montañita de arroz tibio en cada plato, coloca al lado las tajadas de mango, cubre el arroz con la salsa de coco y espolvorea con sésamo tostado.", "it": "Disponi una cupoletta di riso tiepido in ogni piatto, adagia accanto le fette di mango, versa la salsa al cocco sul riso e cospargi di semi di sesamo tostati."}}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-kulfi",
+  "title": {"fr": "Kulfi", "en": "Kulfi", "es": "Kulfi", "it": "Kulfi"},
+  "summary": {
+    "fr": "La glace indienne au lait longuement réduit, dense et crémeuse, parfumée à la cardamome et constellée de pistaches.",
+    "en": "India's slow-reduced milk ice, dense and creamy, scented with cardamom and studded with pistachios.",
+    "es": "El helado indio de leche reducida a fuego lento, denso y cremoso, perfumado con cardamomo y salpicado de pistachos.",
+    "it": "Il gelato indiano di latte ridotto a lungo sul fuoco, denso e cremoso, profumato al cardamomo e punteggiato di pistacchi."
+  },
+  "story": {
+    "fr": "Le kulfi est la glace traditionnelle du sous-continent indien : du lait longuement réduit sur le feu, parfumé puis congelé sans être turbiné, d'où sa texture dense, plus ferme que celle d'une crème glacée. On en fait généralement remonter l'origine à l'Inde moghole, au XVIe siècle. Il prend dans de petits moules coniques en métal ou en terre cuite, et les marchands ambulants, les kulfiwala, le vendent souvent sur un bâtonnet. Dans le nord de l'Inde, on le sert aussi avec du falooda, de fins vermicelles sucrés.",
+    "en": "Kulfi is the traditional ice of the Indian subcontinent: milk reduced slowly over the heat, flavoured and then frozen without churning, which gives it a dense texture, firmer than ice cream. Its origins are generally traced back to Mughal India in the 16th century. It is set in small conical moulds of metal or terracotta, and street vendors, the kulfiwalas, often sell it on a stick. In northern India it is also served with falooda, fine sweetened vermicelli.",
+    "es": "El kulfi es el helado tradicional del subcontinente indio: leche reducida largo rato al fuego, aromatizada y congelada sin mantecar, de ahí su textura densa, más firme que la de un helado cremoso. Su origen suele situarse en la India mogol, en el siglo XVI. Se cuaja en pequeños moldes cónicos de metal o de barro, y los vendedores ambulantes, los kulfiwala, a menudo lo venden con un palito. En el norte de la India también se sirve con falooda, unos finos fideos dulces.",
+    "it": "Il kulfi è il gelato tradizionale del subcontinente indiano: latte ridotto a lungo sul fuoco, aromatizzato e poi congelato senza mantecare, da cui la sua consistenza densa, più compatta di quella di un gelato. Le sue origini si fanno generalmente risalire all'India moghul, nel XVI secolo. Si rapprende in piccoli stampi conici di metallo o di terracotta, e i venditori ambulanti, i kulfiwala, lo vendono spesso su uno stecco. Nel nord dell'India lo si serve anche con il falooda, sottili vermicelli dolci."
+  },
+  "region": {"fr": "Inde du Nord", "en": "Northern India", "es": "Norte de la India", "it": "India settentrionale"},
+  "origin": {"countries": ["IN"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 105,
+  "servings": 6,
+  "heroImage": "images/ds-kulfi/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 1.5, "unit": "l"},
+    {"ref": "sucre", "quantity": 90, "unit": "g"},
+    {"ref": "cardamome", "quantity": 6, "unit": "piece"},
+    {"ref": "pistache", "quantity": 50, "unit": "g"},
+    {"ref": "amande", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "safran", "quantity": 1, "unit": "pinch", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Ouvrez les gousses de cardamome et pilez finement les graines au mortier ; hachez grossièrement les pistaches et les amandes.", "en": "Split the cardamom pods and grind the seeds finely in a mortar; roughly chop the pistachios and almonds.", "es": "Abre las vainas de cardamomo y maja las semillas finamente en el mortero; pica en trozos gruesos los pistachos y las almendras.", "it": "Apri i baccelli di cardamomo e pesta finemente i semi nel mortaio; trita grossolanamente i pistacchi e le mandorle."}},
+    {"text": {"fr": "Portez le lait à ébullition dans une grande casserole large à fond épais, en remuant pour qu'il n'attache pas.", "en": "Bring the milk to the boil in a large, wide, heavy-based pan, stirring so that it does not catch.", "es": "Lleva la leche a ebullición en una cazuela grande, ancha y de fondo grueso, removiendo para que no se pegue.", "it": "Porta il latte a ebollizione in una casseruola grande e larga dal fondo spesso, mescolando perché non attacchi."}, "timerMinutes": 10},
+    {"text": {"fr": "Baissez le feu et laissez réduire le lait des deux tiers à petits frémissements, environ 1 h 30, en remuant souvent : raclez le fond et réincorporez la peau qui se forme sur les bords.", "en": "Lower the heat and let the milk reduce by two thirds at a gentle simmer, about 1½ hours, stirring often: scrape the bottom and stir back in the skin that forms around the sides.", "es": "Baja el fuego y deja que la leche reduzca dos tercios a fuego suave, alrededor de 1 hora y media, removiendo a menudo: raspa el fondo y reincorpora la nata que se forma en las paredes.", "it": "Abbassa la fiamma e lascia ridurre il latte di due terzi a fuoco dolce, circa 1 ora e mezza, mescolando spesso: raschia il fondo e reincorpora la pellicina che si forma sui bordi."}, "timerMinutes": 90},
+    {"text": {"fr": "Ajoutez le sucre et le safran, puis laissez cuire encore 5 minutes en remuant.", "en": "Add the sugar and saffron and cook for 5 more minutes, stirring.", "es": "Añade el azúcar y el azafrán y deja cocer 5 minutos más sin dejar de remover.", "it": "Aggiungi lo zucchero e lo zafferano e lascia cuocere ancora 5 minuti mescolando."}, "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, incorporez la cardamome, les amandes et 40 g de pistaches.", "en": "Off the heat, stir in the cardamom, the almonds and 40 g of the pistachios.", "es": "Fuera del fuego, incorpora el cardamomo, las almendras y 40 g de pistachos.", "it": "Fuori dal fuoco, unisci il cardamomo, le mandorle e 40 g di pistacchi."}},
+    {"text": {"fr": "Laissez refroidir complètement à température ambiante.", "en": "Leave to cool completely at room temperature.", "es": "Deja que se enfríe por completo a temperatura ambiente.", "it": "Lascia raffreddare completamente a temperatura ambiente."}, "timerMinutes": 45},
+    {"text": {"fr": "Répartissez la crème dans six moules à kulfi, petits gobelets ou ramequins, puis couvrez-les de papier aluminium.", "en": "Divide the mixture between six kulfi moulds, small cups or ramekins, then cover them with foil.", "es": "Reparte la crema en seis moldes de kulfi, vasitos o flaneras y cúbrelos con papel de aluminio.", "it": "Distribuisci il composto in sei stampini da kulfi, bicchierini o cocottine, poi coprili con carta stagnola."}},
+    {"text": {"fr": "Faites prendre au congélateur pendant au moins 8 heures.", "en": "Freeze for at least 8 hours until firm.", "es": "Deja que se congelen al menos 8 horas.", "it": "Lascia rassodare in freezer per almeno 8 ore."}, "timerMinutes": 480},
+    {"text": {"fr": "Démoulez en roulant les moules quelques secondes entre vos mains, puis parsemez les kulfis des 10 g de pistaches restantes et servez aussitôt.", "en": "Turn out by rolling the moulds between your palms for a few seconds, then scatter over the remaining 10 g of pistachios and serve at once.", "es": "Desmolda haciendo rodar los moldes unos segundos entre las manos, espolvorea con los 10 g de pistachos restantes y sirve enseguida.", "it": "Sforma facendo rotolare gli stampini qualche secondo tra le mani, poi cospargi con i 10 g di pistacchi rimasti e servi subito."}}
+  ]
+}

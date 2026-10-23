@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-gulab-jamun",
+  "title": {"fr": "Gulab jamun", "en": "Gulab jamun", "es": "Gulab jamun", "it": "Gulab jamun"},
+  "summary": {
+    "fr": "Des boulettes de lait frites jusqu'à un brun profond, puis gorgées d'un sirop tiède parfumé à la cardamome et à l'eau de rose : la douceur des fêtes indiennes.",
+    "en": "Milk dumplings fried to a deep brown, then soaked in a warm syrup scented with cardamom and rose water: the sweet of every Indian celebration.",
+    "es": "Bolitas de leche fritas hasta quedar de un marrón intenso y empapadas después en un almíbar tibio con cardamomo y agua de rosas: el dulce de todas las fiestas indias.",
+    "it": "Palline di latte fritte fino a un bruno intenso, poi lasciate a mollo in uno sciroppo tiepido al cardamomo e acqua di rose: il dolce di tutte le feste indiane."
+  },
+  "story": {
+    "fr": "Son nom associe le persan gulab, « eau de rose », qui parfume le sirop, et le jamun, un petit fruit violet foncé du sous-continent indien dont ces boulettes rappellent la forme et la couleur. Frits puis plongés dans le sirop, les gulab jamun sont de toutes les fêtes en Inde, de Diwali aux mariages, et tout aussi aimés au Pakistan, au Bangladesh et au Népal. La pâte se fait traditionnellement avec du khoya, du lait longuement réduit jusqu'à devenir une pâte ferme ; la version au lait en poudre, plus rapide, est aujourd'hui courante dans les cuisines familiales.",
+    "en": "The name brings together the Persian gulab, 'rose water', which perfumes the syrup, and the jamun, a small dark purple fruit of the Indian subcontinent whose shape and colour the dumplings call to mind. Fried and then plunged into syrup, gulab jamun turn up at every celebration in India, from Diwali to weddings, and are just as loved in Pakistan, Bangladesh and Nepal. The dough is traditionally made with khoya, milk slowly reduced to a firm paste; the quicker milk-powder version is now common in home kitchens.",
+    "es": "Su nombre une el persa gulab, «agua de rosas», que perfuma el almíbar, y el jamun, una pequeña fruta de color morado oscuro del subcontinente indio cuya forma y color recuerdan estas bolitas. Fritos y sumergidos después en almíbar, los gulab jamun están presentes en todas las fiestas de la India, desde Diwali hasta las bodas, y son igual de queridos en Pakistán, Bangladés y Nepal. La masa se hace tradicionalmente con khoya, leche reducida a fuego lento hasta formar una pasta firme; la versión con leche en polvo, más rápida, es hoy habitual en las cocinas familiares.",
+    "it": "Il nome unisce il persiano gulab, «acqua di rose», che profuma lo sciroppo, e il jamun, un piccolo frutto viola scuro del subcontinente indiano di cui queste palline ricordano la forma e il colore. Fritti e poi immersi nello sciroppo, i gulab jamun non mancano a nessuna festa in India, da Diwali ai matrimoni, e sono altrettanto amati in Pakistan, Bangladesh e Nepal. L'impasto si prepara tradizionalmente con il khoya, latte ridotto a lungo fino a diventare una pasta soda; la versione con latte in polvere, più rapida, è oggi diffusa nelle cucine di casa."
+  },
+  "region": {"fr": "Inde", "en": "India", "es": "India", "it": "India"},
+  "origin": {"countries": ["IN"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": ["diwali"],
+  "difficulty": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "servings": 6,
+  "heroImage": "images/ds-gulab-jamun/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait-en-poudre", "quantity": 120, "unit": "g"},
+    {"ref": "farine", "quantity": 30, "unit": "g"},
+    {"ref": "bicarbonate", "quantity": 0.25, "unit": "tsp"},
+    {"ref": "ghee", "quantity": 1, "unit": "tbsp", "substitutes": ["beurre"]},
+    {"ref": "lait", "quantity": 60, "unit": "ml"},
+    {"ref": "huile-de-tournesol", "quantity": 50, "unit": "cl"},
+    {"ref": "sucre", "quantity": 300, "unit": "g"},
+    {"ref": "eau", "quantity": 350, "unit": "ml"},
+    {"ref": "cardamome", "quantity": 5, "unit": "piece"},
+    {"ref": "eau-de-rose", "quantity": 1, "unit": "tbsp"},
+    {"ref": "safran", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "pistache", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Écrasez légèrement les gousses de cardamome, puis faites bouillir le sucre et l'eau avec la cardamome (et le safran) et laissez frémir 5 minutes : le sirop doit être à peine collant, sans faire de fil.", "en": "Lightly crush the cardamom pods, then bring the sugar and water to the boil with the cardamom (and saffron) and simmer for 5 minutes: the syrup should be barely sticky, not stringy.", "es": "Machaca ligeramente las vainas de cardamomo, lleva a ebullición el azúcar y el agua con el cardamomo (y el azafrán) y deja hervir suavemente 5 minutos: el almíbar debe quedar apenas pegajoso, sin hacer hebra.", "it": "Schiaccia leggermente i baccelli di cardamomo, poi porta a bollore lo zucchero e l'acqua con il cardamomo (e lo zafferano) e lascia sobbollire 5 minuti: lo sciroppo deve risultare appena appiccicoso, senza fare il filo."}, "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, ajoutez l'eau de rose au sirop et gardez-le au chaud à couvert.", "en": "Off the heat, stir the rose water into the syrup and keep it warm, covered.", "es": "Fuera del fuego, añade el agua de rosas al almíbar y mantenlo caliente y tapado.", "it": "Fuori dal fuoco, aggiungi l'acqua di rose allo sciroppo e tienilo in caldo, coperto."}},
+    {"text": {"fr": "Dans un saladier, mélangez le lait en poudre, la farine et le bicarbonate, puis sablez du bout des doigts avec le ghee.", "en": "In a mixing bowl, combine the milk powder, flour and bicarbonate of soda, then rub in the ghee with your fingertips.", "es": "En un bol, mezcla la leche en polvo, la harina y el bicarbonato, y después arena la mezcla con el ghee usando la punta de los dedos.", "it": "In una ciotola mescola il latte in polvere, la farina e il bicarbonato, poi sabbia il composto con il ghee lavorandolo con la punta delle dita."}},
+    {"text": {"fr": "Versez le lait petit à petit et rassemblez sans pétrir, jusqu'à obtenir une pâte souple et légèrement collante. Couvrez et laissez reposer 10 minutes.", "en": "Add the milk a little at a time and bring it together without kneading, until you have a soft, slightly sticky dough. Cover and leave to rest for 10 minutes.", "es": "Añade la leche poco a poco y une la masa sin amasar, hasta obtener una masa suave y ligeramente pegajosa. Tápala y déjala reposar 10 minutos.", "it": "Versa il latte poco alla volta e raccogli l'impasto senza lavorarlo, fino a ottenere una pasta morbida e leggermente appiccicosa. Copri e lascia riposare 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Les mains graissées de ghee, façonnez une vingtaine de billes de 2,5 cm, bien lisses et sans la moindre fissure, qui feraient éclater les boulettes à la friture.", "en": "With ghee-greased hands, roll about twenty 2.5 cm balls, perfectly smooth and without a single crack — cracks make them split in the oil.", "es": "Con las manos untadas de ghee, forma unas veinte bolitas de 2,5 cm, bien lisas y sin ninguna grieta, que las haría abrirse al freírlas.", "it": "Con le mani unte di ghee, forma una ventina di palline da 2,5 cm, ben lisce e senza la minima crepa, che le farebbe aprire durante la frittura."}},
+    {"text": {"fr": "Faites chauffer l'huile à feu doux, vers 140 °C : une boulette doit remonter lentement à la surface, en formant de petites bulles.", "en": "Heat the oil over a low heat to about 140 °C: a test ball should rise slowly to the surface, surrounded by small bubbles.", "es": "Calienta el aceite a fuego suave, a unos 140 °C: una bolita de prueba debe subir lentamente a la superficie, rodeada de burbujitas.", "it": "Scalda l'olio a fuoco dolce, intorno ai 140 °C: una pallina di prova deve risalire lentamente in superficie, circondata da piccole bolle."}},
+    {"text": {"fr": "Faites frire les boulettes en deux fournées, en remuant doucement l'huile sans les toucher, jusqu'à ce qu'elles soient brun foncé de tous côtés. Si elles colorent en moins de 5 minutes, l'huile est trop chaude et le cœur restera cru.", "en": "Fry the balls in two batches, gently swirling the oil rather than touching them, until they are deep brown all over. If they colour in under 5 minutes, the oil is too hot and the centres will stay raw.", "es": "Fríe las bolitas en dos tandas, moviendo suavemente el aceite sin tocarlas, hasta que estén de un marrón oscuro por todos lados. Si se doran en menos de 5 minutos, el aceite está demasiado caliente y el centro quedará crudo.", "it": "Friggi le palline in due riprese, smuovendo delicatamente l'olio senza toccarle, finché sono di un bruno scuro su tutti i lati. Se colorano in meno di 5 minuti, l'olio è troppo caldo e il cuore resterà crudo."}, "timerMinutes": 10},
+    {"text": {"fr": "Égouttez-les quelques secondes et plongez-les aussitôt dans le sirop tiède.", "en": "Drain them for a few seconds and drop them straight into the warm syrup.", "es": "Escúrrelas unos segundos y sumérgelas enseguida en el almíbar tibio.", "it": "Scolale per qualche secondo e immergile subito nello sciroppo tiepido."}},
+    {"text": {"fr": "Laissez-les s'imbiber au moins 2 heures : elles gonflent et deviennent moelleuses jusqu'au cœur.", "en": "Leave them to soak for at least 2 hours: they swell and turn soft right through.", "es": "Déjalas empaparse al menos 2 horas: se hinchan y quedan tiernas hasta el centro.", "it": "Lasciale inzuppare per almeno 2 ore: si gonfiano e diventano morbide fino al cuore."}, "timerMinutes": 120},
+    {"text": {"fr": "Servez tiède ou à température ambiante, trois boulettes par personne avec un peu de sirop, parsemées de pistaches hachées.", "en": "Serve warm or at room temperature, three per person with a little syrup, scattered with chopped pistachios.", "es": "Sirve tibio o a temperatura ambiente, tres bolitas por persona con un poco de almíbar y pistachos picados por encima.", "it": "Servi tiepido o a temperatura ambiente, tre palline a testa con un po' di sciroppo, cosparse di pistacchi tritati."}}
+  ]
+}

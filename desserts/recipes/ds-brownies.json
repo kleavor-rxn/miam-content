@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-brownies",
+  "title": {"fr": "Brownies", "en": "Brownies", "es": "Brownies", "it": "Brownies"},
+  "summary": {
+    "fr": "Le carré au chocolat américain : une fine croûte brillante sur le dessus et un cœur dense, fondant, presque truffé.",
+    "en": "America's chocolate square: a thin, shiny crackled top and a dense, fudgy, almost truffle-like middle.",
+    "es": "El cuadrado de chocolate estadounidense: una fina costra brillante por encima y un interior denso, jugoso, casi como una trufa.",
+    "it": "Il quadrotto al cioccolato americano: una sottile crosticina lucida in superficie e un cuore denso, fondente, quasi come un tartufo."
+  },
+  "story": {
+    "fr": "Le Palmer House, grand hôtel de Chicago, revendique l'invention du brownie pour l'Exposition universelle de 1893, sans que l'histoire soit démontrée. Les premières recettes de brownies au chocolat paraissent dans des livres de cuisine américains au début du XXe siècle. Ni tout à fait gâteau ni tout à fait biscuit, il s'est imposé partout aux États-Unis, des boîtes à goûter aux ventes de gâteaux des écoles, en version fondante ou plus moelleuse, nature ou aux noix.",
+    "en": "The Palmer House, a grand hotel in Chicago, claims to have invented the brownie for the 1893 World's Fair, although the story has never been proven. The first recipes for chocolate brownies appeared in American cookbooks in the early 20th century. Neither quite a cake nor quite a cookie, it has become ubiquitous across the United States, from lunchboxes to school bake sales, fudgy or cakey, plain or with nuts.",
+    "es": "El Palmer House, un gran hotel de Chicago, reivindica haber inventado el brownie para la Exposición Universal de 1893, aunque la historia nunca se ha demostrado. Las primeras recetas de brownies de chocolate aparecen en libros de cocina estadounidenses a principios del siglo XX. Ni del todo bizcocho ni del todo galleta, se ha impuesto en todo Estados Unidos, desde las fiambreras hasta las ventas de pasteles de los colegios, en versión jugosa o más esponjosa, sola o con nueces.",
+    "it": "Il Palmer House, grande albergo di Chicago, rivendica l'invenzione del brownie per l'Esposizione universale del 1893, anche se la storia non è mai stata dimostrata. Le prime ricette di brownies al cioccolato compaiono nei ricettari americani all'inizio del Novecento. Né proprio torta né proprio biscotto, si è imposto ovunque negli Stati Uniti, dai cestini della merenda alle vendite di dolci delle scuole, in versione fondente o più soffice, al naturale o con le noci."
+  },
+  "region": {"fr": "États-Unis", "en": "United States", "es": "Estados Unidos", "it": "Stati Uniti"},
+  "origin": {"countries": ["US"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 12,
+  "heroImage": "images/ds-brownies/hero.webp",
+  "tags": ["airFryer"],
+  "airFryerNotes": {
+    "fr": "Répartissez la pâte dans deux moules carrés de 15 cm chemisés de papier cuisson et faites-les cuire l'un après l'autre à 160 °C, 20 à 22 minutes chacun, sans préchauffage prolongé. Si le dessus fonce trop vite, couvrez d'une feuille d'aluminium après 12 minutes. Le centre doit rester légèrement tremblotant : laissez refroidir dans le moule, les brownies finissent de prendre en refroidissant.",
+    "en": "Divide the batter between two 15 cm square tins lined with baking paper and bake them one after the other at 160 °C (320 °F), 20 to 22 minutes each, without a long preheat. If the top darkens too quickly, cover with a sheet of foil after 12 minutes. The centre should still have a slight wobble: let them cool in the tin, as brownies finish setting as they cool.",
+    "es": "Reparte la masa en dos moldes cuadrados de 15 cm forrados con papel de horno y hornéalos uno detrás de otro a 160 °C, de 20 a 22 minutos cada uno, sin precalentar demasiado. Si la superficie se oscurece muy deprisa, cúbrela con papel de aluminio a los 12 minutos. El centro debe quedar ligeramente tembloroso: déjalos enfriar en el molde, los brownies terminan de cuajar al enfriarse.",
+    "it": "Dividi l'impasto in due stampi quadrati da 15 cm foderati di carta forno e cuocili uno dopo l'altro a 160 °C, 20-22 minuti ciascuno, senza preriscaldare a lungo. Se la superficie scurisce troppo in fretta, copri con un foglio di alluminio dopo 12 minuti. Il centro deve restare leggermente tremolante: lasciali raffreddare nello stampo, i brownies finiscono di rapprendersi raffreddandosi."
+  },
+  "ingredients": [
+    {"ref": "chocolat-noir", "quantity": 200, "unit": "g"},
+    {"ref": "beurre", "quantity": 170, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "cassonade", "quantity": 100, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "farine", "quantity": 100, "unit": "g"},
+    {"ref": "cacao", "quantity": 25, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "noix", "quantity": 100, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C et chemisez de papier cuisson un moule carré de 20 cm, en laissant dépasser le papier sur deux côtés.", "en": "Preheat the oven to 180 °C and line a 20 cm square tin with baking paper, leaving it overhanging on two sides.", "es": "Precalienta el horno a 180 °C y forra un molde cuadrado de 20 cm con papel de horno, dejando que sobresalga por dos lados.", "it": "Preriscalda il forno a 180 °C e fodera con carta forno uno stampo quadrato da 20 cm, lasciandola sporgere su due lati."}},
+    {"text": {"fr": "Faites fondre le chocolat haché et le beurre en morceaux au bain-marie, lissez, puis laissez tiédir quelques minutes.", "en": "Melt the chopped chocolate and the butter in pieces in a bowl set over simmering water, stir until smooth, then let it cool for a few minutes.", "es": "Derrite al baño maría el chocolate picado y la mantequilla en trozos, remueve hasta que la mezcla quede lisa y déjala templar unos minutos.", "it": "Fai sciogliere a bagnomaria il cioccolato tritato e il burro a pezzetti, mescola fino a renderli lisci, poi lascia intiepidire qualche minuto."}, "timerMinutes": 5},
+    {"text": {"fr": "Fouettez le sucre et la cassonade dans le chocolat, puis ajoutez les œufs un à un et la vanille, jusqu'à ce que la pâte soit lisse et brillante.", "en": "Whisk both sugars into the chocolate, then add the eggs one at a time and the vanilla, until the batter is smooth and glossy.", "es": "Bate el azúcar y el azúcar moreno con el chocolate, añade los huevos de uno en uno y la vainilla, hasta que la masa quede lisa y brillante.", "it": "Incorpora con la frusta i due zuccheri al cioccolato, poi aggiungi le uova una alla volta e la vaniglia, finché l'impasto è liscio e lucido."}},
+    {"text": {"fr": "Tamisez la farine, le cacao et une pincée de sel au-dessus du saladier et incorporez-les à la spatule, juste assez pour qu'il ne reste plus de traces de farine.", "en": "Sift the flour, cocoa and a pinch of salt over the bowl and fold them in with a spatula, just until no streaks of flour remain.", "es": "Tamiza la harina, el cacao y una pizca de sal sobre el bol e incorpóralos con una espátula, solo hasta que no queden restos de harina.", "it": "Setaccia la farina, il cacao e un pizzico di sale sopra la ciotola e incorporali con una spatola, quel tanto che basta perché non restino tracce di farina."}},
+    {"text": {"fr": "Ajoutez les noix grossièrement hachées si vous en mettez, puis versez la pâte dans le moule et lissez-la.", "en": "Stir in the roughly chopped walnuts if using, then pour the batter into the tin and level it.", "es": "Añade las nueces troceadas si las usas, vierte la masa en el molde y alísala.", "it": "Aggiungi le noci tritate grossolanamente se le usi, poi versa l'impasto nello stampo e livellalo."}},
+    {"text": {"fr": "Enfournez 25 à 30 minutes : les bords doivent être pris et le centre encore légèrement tremblotant ; une pique plantée au milieu ressort avec quelques miettes humides.", "en": "Bake for 25 to 30 minutes: the edges should be set and the centre still slightly wobbly; a skewer pushed into the middle should come out with a few moist crumbs.", "es": "Hornea de 25 a 30 minutos: los bordes deben estar cuajados y el centro aún ligeramente tembloroso; un palillo clavado en el centro debe salir con algunas migas húmedas.", "it": "Inforna per 25-30 minuti: i bordi devono essere rappresi e il centro ancora leggermente tremolante; uno stecchino infilato al centro deve uscire con qualche briciola umida."}, "timerMinutes": 25},
+    {"text": {"fr": "Laissez refroidir complètement dans le moule, au moins 1 heure : tièdes, les brownies se coupent mal.", "en": "Leave to cool completely in the tin, for at least 1 hour: warm brownies won't cut cleanly.", "es": "Deja que se enfríe por completo en el molde, al menos 1 hora: en caliente, los brownies no se cortan bien.", "it": "Lascia raffreddare completamente nello stampo, per almeno 1 ora: da tiepidi i brownies non si tagliano bene."}, "timerMinutes": 60},
+    {"text": {"fr": "Soulevez le gâteau à l'aide du papier et coupez-le en 12 rectangles avec un grand couteau, essuyé entre chaque coupe.", "en": "Lift the slab out using the paper and cut it into 12 bars with a large knife, wiping it between each cut.", "es": "Saca el bloque tirando del papel y córtalo en 12 rectángulos con un cuchillo grande, limpiándolo entre corte y corte.", "it": "Solleva il dolce aiutandoti con la carta e taglialo in 12 rettangoli con un coltello grande, pulendolo tra un taglio e l'altro."}}
+  ]
+}

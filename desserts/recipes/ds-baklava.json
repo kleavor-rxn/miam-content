@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-baklava",
+  "title": {"fr": "Baklava", "en": "Baklava", "es": "Baklava", "it": "Baklava"},
+  "summary": {
+    "fr": "Le baklava à la pistache de Gaziantep : de fines feuilles de pâte filo dorées au ghee, un cœur épais de pistaches vertes et un sirop citronné qui l'imbibe sans le détremper.",
+    "en": "Gaziantep's pistachio baklava: paper-thin sheets of filo baked golden in ghee, a thick heart of green pistachios and a lemony syrup that soaks in without turning it soggy.",
+    "es": "El baklava de pistacho de Gaziantep: finísimas láminas de masa filo doradas con ghee, un corazón generoso de pistachos verdes y un almíbar con limón que lo empapa sin reblandecerlo.",
+    "it": "Il baklava al pistacchio di Gaziantep: sottilissimi fogli di pasta fillo dorati nel ghee, un cuore generoso di pistacchi verdi e uno sciroppo al limone che lo impregna senza renderlo molle."
+  },
+  "story": {
+    "fr": "Plusieurs pays de l'ancien Empire ottoman revendiquent le baklava, la Turquie et la Grèce en tête, et son origine reste partagée ; sa forme actuelle, faite de feuilles de pâte très fines superposées, est généralement associée aux cuisines du palais de Topkapı, à Istanbul. Gaziantep, dans le sud-est de la Turquie, en a fait sa grande spécialité avec les pistaches de sa région, et le baklava de Gaziantep est protégé par une indication géographique européenne depuis 2013. En Grèce, on le garnit plutôt de noix et on le nappe souvent d'un sirop au miel.",
+    "en": "Several countries of the former Ottoman Empire lay claim to baklava, Turkey and Greece first among them, and its origin remains a shared one; its present form, built from layer upon layer of very thin pastry, is generally linked to the kitchens of Topkapı Palace in Istanbul. Gaziantep, in south-eastern Turkey, has made it its great speciality using the pistachios grown in the area, and Gaziantep baklava has been protected by a European geographical indication since 2013. In Greece it is more often filled with walnuts and frequently finished with a honey syrup.",
+    "es": "Varios países del antiguo Imperio otomano reivindican el baklava, con Turquía y Grecia a la cabeza, y su origen sigue siendo compartido; su forma actual, a base de capas superpuestas de masa finísima, suele asociarse a las cocinas del palacio de Topkapı, en Estambul. Gaziantep, en el sureste de Turquía, lo ha convertido en su gran especialidad con los pistachos de la zona, y el baklava de Gaziantep está protegido por una indicación geográfica europea desde 2013. En Grecia se rellena más bien de nueces y a menudo se baña con un almíbar de miel.",
+    "it": "Diversi paesi dell'antico Impero ottomano rivendicano il baklava, Turchia e Grecia in testa, e la sua origine resta condivisa; la forma attuale, fatta di strati sovrapposti di pasta sottilissima, viene di solito associata alle cucine del palazzo di Topkapı, a Istanbul. Gaziantep, nel sud-est della Turchia, ne ha fatto la sua grande specialità con i pistacchi della zona, e il baklava di Gaziantep è tutelato da un'indicazione geografica europea dal 2013. In Grecia lo si farcisce piuttosto con le noci e spesso lo si bagna con uno sciroppo al miele."
+  },
+  "region": {"fr": "Turquie et Grèce", "en": "Turkey and Greece", "es": "Turquía y Grecia", "it": "Turchia e Grecia"},
+  "origin": {"countries": ["TR", "GR"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 55,
+  "servings": 12,
+  "heroImage": "images/ds-baklava/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pate-filo", "quantity": 500, "unit": "g"},
+    {"ref": "pistache", "quantity": 300, "unit": "g"},
+    {"ref": "ghee", "quantity": 250, "unit": "g", "substitutes": ["beurre"]},
+    {"ref": "sucre", "quantity": 400, "unit": "g"},
+    {"ref": "eau", "quantity": 30, "unit": "cl"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece"}
+  ],
+  "steps": [
+    {"text": {"fr": "Portez le sucre et l'eau à ébullition, laissez frémir 10 minutes, ajoutez le jus du demi-citron et laissez refroidir complètement ce sirop.", "en": "Bring the sugar and water to the boil, simmer for 10 minutes, add the juice of the half lemon and leave the syrup to cool completely.", "es": "Lleva el azúcar y el agua a ebullición, deja que hierva suavemente 10 minutos, añade el zumo del medio limón y deja que el almíbar se enfríe por completo.", "it": "Porta a bollore lo zucchero con l'acqua, lascia sobbollire 10 minuti, aggiungi il succo di mezzo limone e lascia raffreddare completamente lo sciroppo."}, "timerMinutes": 10},
+    {"text": {"fr": "Hachez les pistaches très finement, presque en poudre, et réservez-en 2 cuillerées à soupe pour le décor.", "en": "Chop the pistachios very finely, almost to a powder, and set aside 2 tablespoons for decoration.", "es": "Pica los pistachos muy finos, casi en polvo, y reserva 2 cucharadas para decorar.", "it": "Trita i pistacchi finissimi, quasi in polvere, e tienine da parte 2 cucchiai per la decorazione."}},
+    {"text": {"fr": "Préchauffez le four à 180 °C, faites fondre le ghee et badigeonnez-en un plat à four d'environ 30 × 20 cm.", "en": "Preheat the oven to 180 °C, melt the ghee and brush a baking tin of about 30 × 20 cm with it.", "es": "Precalienta el horno a 180 °C, derrite el ghee y pinta con él una bandeja de horno de unos 30 × 20 cm.", "it": "Preriscalda il forno a 180 °C, fai fondere il ghee e spennellane una teglia di circa 30 × 20 cm."}},
+    {"text": {"fr": "Superposez dans le plat la moitié des feuilles de filo, recoupées à sa taille, en badigeonnant chaque feuille de ghee.", "en": "Layer half the filo sheets in the tin, trimmed to fit, brushing each sheet with ghee.", "es": "Coloca en la bandeja la mitad de las láminas de filo, recortadas a su medida, pintando cada lámina con ghee.", "it": "Sovrapponi nella teglia metà dei fogli di fillo, rifilati alla misura, spennellando ogni foglio di ghee."}},
+    {"text": {"fr": "Répartissez les pistaches hachées en une couche régulière sur toute la surface.", "en": "Spread the chopped pistachios in an even layer over the whole surface.", "es": "Reparte los pistachos picados en una capa uniforme por toda la superficie.", "it": "Distribuisci i pistacchi tritati in uno strato uniforme su tutta la superficie."}},
+    {"text": {"fr": "Recouvrez avec le reste des feuilles de filo, en badigeonnant de nouveau chaque feuille de ghee.", "en": "Cover with the remaining filo sheets, again brushing each one with ghee.", "es": "Cubre con el resto de las láminas de filo, pintando de nuevo cada una con ghee.", "it": "Copri con i fogli di fillo rimasti, spennellando di nuovo ogni foglio di ghee."}},
+    {"text": {"fr": "Avec un couteau bien aiguisé, découpez le baklava en losanges jusqu'au fond du plat, puis arrosez-le du ghee restant.", "en": "With a very sharp knife, cut the baklava into diamonds right down to the bottom of the tin, then pour the remaining ghee over the top.", "es": "Con un cuchillo bien afilado, corta el baklava en rombos hasta el fondo de la bandeja y riégalo con el ghee restante.", "it": "Con un coltello ben affilato, taglia il baklava a rombi fino al fondo della teglia, poi irroralo con il ghee rimasto."}},
+    {"text": {"fr": "Enfournez 45 minutes, jusqu'à ce que le dessus soit bien doré et croustillant.", "en": "Bake for 45 minutes, until the top is deep golden and crisp.", "es": "Hornea 45 minutos, hasta que la superficie esté bien dorada y crujiente.", "it": "Inforna per 45 minuti, finché la superficie è ben dorata e croccante."}, "timerMinutes": 45},
+    {"text": {"fr": "Dès la sortie du four, versez lentement le sirop froid sur le baklava brûlant, puis parsemez des pistaches réservées.", "en": "As soon as it comes out of the oven, slowly pour the cold syrup over the piping-hot baklava, then scatter over the reserved pistachios.", "es": "Nada más sacarlo del horno, vierte despacio el almíbar frío sobre el baklava caliente y espolvorea los pistachos reservados.", "it": "Appena sfornato, versa lentamente lo sciroppo freddo sul baklava bollente, poi cospargi con i pistacchi tenuti da parte."}},
+    {"text": {"fr": "Laissez reposer au moins 4 heures à température ambiante, sans couvrir, pour que le sirop soit bien absorbé avant de servir.", "en": "Leave to stand, uncovered, at room temperature for at least 4 hours so the syrup is fully absorbed before serving.", "es": "Deja reposar al menos 4 horas a temperatura ambiente, sin tapar, para que absorba bien el almíbar antes de servir.", "it": "Lascia riposare almeno 4 ore a temperatura ambiente, senza coprire, perché lo sciroppo venga ben assorbito prima di servire."}, "timerMinutes": 240}
+  ]
+}

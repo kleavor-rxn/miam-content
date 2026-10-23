@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-knafeh",
+  "title": {"fr": "Knafeh", "en": "Knafeh", "es": "Knafeh", "it": "Knafeh"},
+  "summary": {
+    "fr": "Le grand dessert du Levant : un fromage fondant sous une croûte de kadaïf dorée au ghee, arrosé de sirop à la fleur d'oranger et parsemé de pistaches.",
+    "en": "The Levant's great sweet: melting cheese under a crust of ghee-golden kataifi, drenched in orange blossom syrup and scattered with pistachios.",
+    "es": "El gran dulce del Levante: queso fundido bajo una costra de kataifi dorada con ghee, bañado en almíbar de azahar y salpicado de pistachos.",
+    "it": "Il grande dolce del Levante: formaggio filante sotto una crosta di kataifi dorata nel ghee, irrorato di sciroppo ai fiori d'arancio e cosparso di pistacchi."
+  },
+  "story": {
+    "fr": "Ce gâteau de fromage fondant sous une croûte de pâte filée, imbibé de sirop, est partagé par tout le Levant, et la Palestine comme le Liban en revendiquent la paternité. Sa version la plus célèbre, la knafeh nabulsieh, doit son nom à Naplouse, ville réputée pour son fromage blanc saumuré et ses pâtisseries. Au Liban, on la mange volontiers au petit-déjeuner, glissée dans un pain rond au sésame. Elle accompagne les fêtes, et tout particulièrement les soirées du ramadan et l'Aïd.",
+    "en": "This dish of melting cheese under a crust of shredded pastry, soaked in syrup, is shared across the Levant, and both Palestine and Lebanon claim it as their own. Its most famous version, knafeh nabulsieh, is named after Nablus, a city renowned for its white brined cheese and its pastries. In Lebanon it is often eaten for breakfast, tucked into a round sesame bread. It is a fixture of celebrations, above all the evenings of Ramadan and Eid.",
+    "es": "Este dulce de queso fundido bajo una costra de masa en hebras, empapado en almíbar, se comparte en todo el Levante, y tanto Palestina como el Líbano reivindican su paternidad. Su versión más famosa, la knafeh nabulsieh, debe su nombre a Nablus, ciudad conocida por su queso blanco en salmuera y por su repostería. En el Líbano se toma a menudo en el desayuno, dentro de un pan redondo con sésamo. Acompaña las fiestas, y muy especialmente las noches de Ramadán y el Eid.",
+    "it": "Questo dolce di formaggio filante sotto una crosta di pasta a fili, imbevuto di sciroppo, è condiviso in tutto il Levante, e sia la Palestina sia il Libano ne rivendicano la paternità. La sua versione più celebre, la knafeh nabulsieh, prende il nome da Nablus, città rinomata per il suo formaggio bianco in salamoia e per la sua pasticceria. In Libano la si mangia volentieri a colazione, infilata in un pane rotondo al sesamo. Accompagna le feste, e soprattutto le serate del Ramadan e l'Eid."
+  },
+  "region": {"fr": "Levant", "en": "The Levant", "es": "Levante", "it": "Levante"},
+  "origin": {"countries": ["PS", "LB"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": ["ramadan-aid"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 40,
+  "servings": 8,
+  "heroImage": "images/ds-knafeh/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "fromage-akkawi", "quantity": 500, "unit": "g", "substitutes": ["mozzarella", "ricotta"]},
+    {"ref": "sucre", "quantity": 300, "unit": "g"},
+    {"ref": "eau", "quantity": 20, "unit": "cl"},
+    {"ref": "citron", "quantity": 0.5, "unit": "piece"},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 1, "unit": "tbsp"},
+    {"ref": "kadaif", "quantity": 400, "unit": "g", "substitutes": ["pate-filo"]},
+    {"ref": "ghee", "quantity": 150, "unit": "g", "substitutes": ["beurre"]},
+    {"ref": "pistache", "quantity": 40, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez le fromage en tranches fines et faites-le tremper 2 heures dans de l'eau froide pour le dessaler, en changeant l'eau toutes les 30 minutes.", "en": "Slice the cheese thinly and soak it in cold water for 2 hours to remove the salt, changing the water every 30 minutes.", "es": "Corta el queso en lonchas finas y déjalo 2 horas en remojo en agua fría para desalarlo, cambiando el agua cada 30 minutos.", "it": "Taglia il formaggio a fette sottili e mettilo a bagno in acqua fredda per 2 ore per dissalarlo, cambiando l'acqua ogni 30 minuti."}, "timerMinutes": 120},
+    {"text": {"fr": "Portez à ébullition le sucre, les 20 cl d'eau et le jus du demi-citron, puis laissez frémir 10 minutes, jusqu'à obtenir un sirop légèrement épais.", "en": "Bring the sugar, the 20 cl of water and the juice of the half lemon to the boil, then simmer for 10 minutes until slightly syrupy.", "es": "Lleva a ebullición el azúcar, los 20 cl de agua y el zumo del medio limón, y deja hervir suavemente 10 minutos, hasta obtener un almíbar ligeramente espeso.", "it": "Porta a bollore lo zucchero, i 20 cl d'acqua e il succo del mezzo limone, poi lascia sobbollire 10 minuti, fino a ottenere uno sciroppo leggermente denso."}, "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, parfumez le sirop à l'eau de fleur d'oranger et laissez-le refroidir complètement.", "en": "Off the heat, flavour the syrup with the orange blossom water and leave it to cool completely.", "es": "Fuera del fuego, perfuma el almíbar con el agua de azahar y deja que se enfríe por completo.", "it": "Fuori dal fuoco, profuma lo sciroppo con l'acqua di fiori d'arancio e lascialo raffreddare completamente."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 200 °C.", "en": "Preheat the oven to 200 °C.", "es": "Precalienta el horno a 200 °C.", "it": "Preriscalda il forno a 200 °C."}},
+    {"text": {"fr": "Effilochez le kadaïf du bout des doigts en brins courts, puis frottez-le avec le ghee fondu jusqu'à ce que chaque brin soit enrobé.", "en": "Pull the kataifi apart with your fingertips into short strands, then rub it with the melted ghee until every strand is coated.", "es": "Deshaz el kataifi con la punta de los dedos en hebras cortas y frótalo con el ghee derretido hasta que todas queden impregnadas.", "it": "Sfilaccia il kataifi con la punta delle dita in fili corti, poi strofinalo con il ghee fuso finché ogni filo ne è avvolto."}},
+    {"text": {"fr": "Tassez fermement le kadaïf au fond d'un moule rond de 28 cm, en une couche régulière d'environ 1 cm.", "en": "Press the kataifi firmly into the bottom of a 28 cm round tin in an even layer about 1 cm thick.", "es": "Presiona bien el kataifi en el fondo de un molde redondo de 28 cm, en una capa uniforme de 1 cm aproximadamente.", "it": "Pressa bene il kataifi sul fondo di uno stampo rotondo da 28 cm, in uno strato uniforme di circa 1 cm."}},
+    {"text": {"fr": "Égouttez le fromage, séchez-le dans un torchon, émiettez-le et répartissez-le sur le kadaïf en laissant 1 cm libre sur le pourtour.", "en": "Drain the cheese, pat it dry in a tea towel, crumble it and spread it over the kataifi, leaving a 1 cm border.", "es": "Escurre el queso, sécalo con un paño, desmenúzalo y repártelo sobre el kataifi dejando libre 1 cm alrededor.", "it": "Scola il formaggio, asciugalo in un canovaccio, sbriciolalo e distribuiscilo sul kataifi lasciando libero 1 cm lungo il bordo."}},
+    {"text": {"fr": "Faites cuire 30 minutes, jusqu'à ce que le fromage soit fondu et que le dessous soit bien doré : vérifiez en soulevant le bord avec une spatule.", "en": "Bake for 30 minutes, until the cheese has melted and the underside is deep golden: check by lifting the edge with a spatula.", "es": "Hornea 30 minutos, hasta que el queso se haya fundido y la base esté bien dorada: compruébalo levantando el borde con una espátula.", "it": "Cuoci per 30 minuti, finché il formaggio è fuso e il fondo ben dorato: controlla sollevando il bordo con una spatola."}, "timerMinutes": 30},
+    {"text": {"fr": "Retournez aussitôt la knafeh sur un plat de service, la croûte dorée vers le haut.", "en": "Immediately turn the knafeh out onto a serving plate, golden crust uppermost.", "es": "Desmolda enseguida la knafeh sobre una fuente, con la costra dorada hacia arriba.", "it": "Capovolgi subito la knafeh su un piatto da portata, con la crosta dorata verso l'alto."}},
+    {"text": {"fr": "Arrosez-la de sirop froid, parsemez de pistaches concassées et servez sans attendre, pendant que le fromage est encore filant.", "en": "Pour over the cold syrup, scatter with crushed pistachios and serve straight away, while the cheese is still stringy.", "es": "Riégala con el almíbar frío, espolvorea con los pistachos picados y sirve sin esperar, mientras el queso todavía hace hebra.", "it": "Irrorala con lo sciroppo freddo, cospargi di pistacchi tritati e servi subito, quando il formaggio è ancora filante."}}
+  ]
+}

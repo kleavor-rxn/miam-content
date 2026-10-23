@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-medovik",
+  "title": {"fr": "Medovik", "en": "Medovik", "es": "Medovik", "it": "Medovik"},
+  "summary": {
+    "fr": "Huit fines couches de biscuit au miel, devenues fondantes après une nuit sous une crème aigre légèrement sucrée : le gâteau de fête des foyers russes.",
+    "en": "Eight thin honey-cake layers that turn meltingly soft after a night beneath lightly sweetened soured cream: the celebration cake of Russian homes.",
+    "es": "Ocho finas capas de bizcocho de miel que se vuelven tiernísimas tras una noche bajo una crema de nata agria ligeramente azucarada: la tarta de fiesta de los hogares rusos.",
+    "it": "Otto sottili strati di pasta al miele che diventano morbidissimi dopo una notte sotto una crema di panna acida appena zuccherata: la torta delle feste nelle case russe."
+  },
+  "story": {
+    "fr": "Son nom vient du russe miod (мёд), le miel. Une légende tenace en attribue l'invention à un jeune cuisinier de la cour d'Alexandre Ier, qui aurait conquis l'impératrice Élisabeth Alexeïevna, pourtant peu amatrice de miel. Incontournable des fêtes de famille à l'époque soviétique, il reste l'un des gâteaux les plus aimés de Russie et des pays voisins, où on le prépare la veille pour que la crème imbibe les couches.",
+    "en": "Its name comes from myod (мёд), the Russian word for honey. A persistent legend credits a young chef at the court of Alexander I with creating it and winning over Empress Elizabeth Alexeievna, who supposedly disliked honey. A fixture of family celebrations in Soviet times, it remains one of the best-loved cakes in Russia and neighbouring countries, where it is made the day before so the cream can soak into the layers.",
+    "es": "Su nombre viene del ruso miod (мёд), «miel». Una leyenda muy extendida atribuye su invención a un joven cocinero de la corte de Alejandro I, que habría conquistado a la emperatriz Isabel Alexéyevna, a quien supuestamente no le gustaba la miel. Imprescindible en las celebraciones familiares de la época soviética, sigue siendo una de las tartas más queridas de Rusia y de los países vecinos, donde se prepara la víspera para que la crema empape las capas.",
+    "it": "Il nome viene dal russo miod (мёд), il miele. Una leggenda molto diffusa ne attribuisce l'invenzione a un giovane cuoco della corte di Alessandro I, che avrebbe conquistato l'imperatrice Elisabetta Alekseevna, a quanto pare poco amante del miele. Immancabile nelle feste di famiglia in epoca sovietica, resta una delle torte più amate in Russia e nei paesi vicini, dove si prepara il giorno prima perché la crema impregni gli strati."
+  },
+  "region": {"fr": "Russie", "en": "Russia", "es": "Rusia", "it": "Russia"},
+  "origin": {"countries": ["RU"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 3,
+  "prepMinutes": 60,
+  "cookMinutes": 50,
+  "servings": 12,
+  "heroImage": "images/ds-medovik/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "miel", "quantity": 120, "unit": "g"},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "beurre", "quantity": 100, "unit": "g"},
+    {"ref": "bicarbonate", "quantity": 1, "unit": "tsp"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "farine", "quantity": 450, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "creme-aigre", "quantity": 800, "unit": "g", "substitutes": ["creme-fraiche"]},
+    {"ref": "sucre-glace", "quantity": 150, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier posé sur une casserole d'eau frémissante, faites fondre le beurre avec le miel et le sucre en remuant.", "en": "In a heatproof bowl set over a pan of simmering water, melt the butter with the honey and sugar, stirring.", "es": "En un bol resistente al calor colocado sobre un cazo con agua a fuego suave, derrite la mantequilla con la miel y el azúcar, removiendo.", "it": "In una ciotola resistente al calore appoggiata su una pentola d'acqua che sobbolle, fai fondere il burro con il miele e lo zucchero, mescolando."}, "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez le bicarbonate et fouettez : le mélange mousse, gonfle et prend une couleur ambrée.", "en": "Add the bicarbonate of soda and whisk: the mixture will foam, swell and turn amber.", "es": "Añade el bicarbonato y bate: la mezcla hace espuma, se hincha y toma un color ámbar.", "it": "Aggiungi il bicarbonato e sbatti con la frusta: il composto fa schiuma, si gonfia e prende un colore ambrato."}, "timerMinutes": 3},
+    {"text": {"fr": "Versez les œufs battus en filet en fouettant sans arrêt, et laissez épaissir 3 minutes au bain-marie.", "en": "Pour in the beaten eggs in a thin stream, whisking constantly, and let the mixture thicken over the water for 3 minutes.", "es": "Vierte los huevos batidos en un hilo fino sin dejar de batir y deja que la mezcla espese 3 minutos al baño maría.", "it": "Versa a filo le uova sbattute senza smettere di mescolare con la frusta e lascia addensare 3 minuti a bagnomaria."}, "timerMinutes": 3},
+    {"text": {"fr": "Hors du feu, incorporez la farine et le sel petit à petit, jusqu'à obtenir une pâte souple, encore un peu collante.", "en": "Off the heat, work in the flour and salt a little at a time until you have a soft, slightly sticky dough.", "es": "Fuera del fuego, incorpora la harina y la sal poco a poco hasta obtener una masa blanda, todavía algo pegajosa.", "it": "Fuori dal fuoco, incorpora poco alla volta la farina e il sale fino a ottenere un impasto morbido, ancora un po' appiccicoso."}},
+    {"text": {"fr": "Préchauffez le four à 180 °C, divisez la pâte en 8 boules et abaissez chacune entre deux feuilles de papier cuisson en un disque très fin de 24 cm.", "en": "Preheat the oven to 180 °C, divide the dough into 8 balls and roll each one out between two sheets of baking parchment into a very thin 24 cm disc.", "es": "Precalienta el horno a 180 °C, divide la masa en 8 bolas y estira cada una entre dos hojas de papel de horno hasta formar un disco muy fino de 24 cm.", "it": "Preriscalda il forno a 180 °C, dividi l'impasto in 8 palline e stendi ciascuna tra due fogli di carta forno in un disco sottilissimo di 24 cm."}},
+    {"text": {"fr": "Faites cuire les disques un par un, 5 minutes chacun, puis, encore chauds, détaillez-les autour d'une assiette de 22 cm en gardant les chutes.", "en": "Bake the discs one at a time for 5 minutes each, then, while they are still warm, trim them around a 22 cm plate, keeping the offcuts.", "es": "Hornea los discos de uno en uno, 5 minutos cada uno, y, todavía calientes, recórtalos alrededor de un plato de 22 cm, guardando los recortes.", "it": "Cuoci i dischi uno alla volta, 5 minuti ciascuno, poi, ancora caldi, rifilali intorno a un piatto di 22 cm conservando i ritagli."}, "timerMinutes": 5},
+    {"text": {"fr": "Fouettez la crème aigre bien froide avec le sucre glace jusqu'à ce qu'elle soit lisse.", "en": "Whisk the well-chilled soured cream with the icing sugar until smooth.", "es": "Bate la nata agria bien fría con el azúcar glas hasta que quede lisa.", "it": "Lavora con la frusta la panna acida ben fredda con lo zucchero a velo finché è liscia."}},
+    {"text": {"fr": "Mixez les chutes refroidies en fines miettes.", "en": "Blitz the cooled offcuts into fine crumbs.", "es": "Tritura los recortes ya fríos hasta obtener unas migas finas.", "it": "Frulla i ritagli raffreddati fino a ridurli in briciole fini."}},
+    {"text": {"fr": "Montez le gâteau en alternant disques et crème, puis masquez généreusement le dessus et les côtés.", "en": "Assemble the cake by alternating discs and cream, then spread a generous coat over the top and sides.", "es": "Monta la tarta alternando discos y crema, y cubre generosamente la parte superior y los laterales.", "it": "Componi la torta alternando dischi e crema, poi ricopri generosamente la superficie e i lati."}},
+    {"text": {"fr": "Couvrez tout le gâteau de miettes et laissez-le reposer au moins 8 heures au réfrigérateur, idéalement une nuit.", "en": "Coat the whole cake with the crumbs and leave it in the fridge for at least 8 hours, ideally overnight.", "es": "Cubre toda la tarta con las migas y déjala reposar en la nevera al menos 8 horas, idealmente toda la noche.", "it": "Ricopri tutta la torta con le briciole e lasciala riposare in frigorifero almeno 8 ore, meglio una notte intera."}, "timerMinutes": 480}
+  ]
+}

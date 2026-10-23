@@ -3,6 +3,72 @@
   "generatedAt": "2026-10-23T18:40:41Z",
   "recipes": [
     {
+      "id": "ds-baklava",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "498bd60d5cbeb6e0be3e76acfaf5ce89cd6af2a38df0e0702847aac59c238dc8",
+      "title": {
+        "fr": "Baklava",
+        "en": "Baklava",
+        "es": "Baklava",
+        "it": "Baklava"
+      },
+      "heroImage": "images/ds-baklava/hero.webp",
+      "tags": [],
+      "totalMinutes": 100,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-brigadeiro",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "92e26a56714735774ad3360affcc1c4e7866959087e679e1456b1f3d12ae5226",
+      "title": {
+        "fr": "Brigadeiro",
+        "en": "Brigadeiro",
+        "es": "Brigadeiro",
+        "it": "Brigadeiro"
+      },
+      "heroImage": "images/ds-brigadeiro/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 42,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-brownies",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "2be1bd22d3b8b5e670de7cd0a4ce1564ba3e509e8abcfb1ff5de426201659da4",
+      "title": {
+        "fr": "Brownies",
+        "en": "Brownies",
+        "es": "Brownies",
+        "it": "Brownies"
+      },
+      "heroImage": "images/ds-brownies/hero.webp",
+      "tags": [
+        "airFryer"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-churros-con-chocolate",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "abdab3d71991495d1e338ddb5d5cac04afbc671dbb3e9f5f85bb8b3f3c2cb995",
+      "title": {
+        "fr": "Churros con chocolate",
+        "en": "Churros con chocolate",
+        "es": "Churros con chocolate",
+        "it": "Churros con chocolate"
+      },
+      "heroImage": "images/ds-churros-con-chocolate/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
       "id": "ds-clafoutis-aux-cerises",
       "updatedAt": "2026-10-18T21:34:08Z",
       "contentHash": "a700512d27eed3a683b29fa36cbf830d05c3e2c59d7fc19314f8563516a4efb2",
@@ -16,6 +82,21 @@
       "tags": [],
       "totalMinutes": 55,
       "difficulty": 1
+    },
+    {
+      "id": "ds-cornes-de-gazelle",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "f495fd06d929ea56c125b2b31998639ee791fd5ac2edc33230f5cb58828c4ea3",
+      "title": {
+        "fr": "Cornes de gazelle",
+        "en": "Gazelle horns",
+        "es": "Cuernos de gacela",
+        "it": "Corna di gazzella"
+      },
+      "heroImage": "images/ds-cornes-de-gazelle/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 3
     },
     {
       "id": "ds-creme-brulee",
@@ -80,6 +161,117 @@
       "difficulty": 1
     },
     {
+      "id": "ds-foret-noire",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "841489ff6e94ebb35fea432661e9b0476206ae205347e7ee08f9967fc93ef07a",
+      "title": {
+        "fr": "Forêt-noire",
+        "en": "Black Forest gateau",
+        "es": "Tarta Selva Negra",
+        "it": "Torta Foresta Nera"
+      },
+      "heroImage": "images/ds-foret-noire/hero.webp",
+      "tags": [],
+      "totalMinutes": 100,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-gateau-de-lune",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "5b97fee0156467902a99b795c820510451b6941139351a1ef62385e8297867a7",
+      "title": {
+        "fr": "Gâteau de lune",
+        "en": "Mooncake",
+        "es": "Pastel de luna",
+        "it": "Torta della luna"
+      },
+      "heroImage": "images/ds-gateau-de-lune/hero.webp",
+      "tags": [],
+      "totalMinutes": 80,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-gulab-jamun",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "266e08314d9833cfca7a0392c16890695b8544847da83e88361fd4f8c7539257",
+      "title": {
+        "fr": "Gulab jamun",
+        "en": "Gulab jamun",
+        "es": "Gulab jamun",
+        "it": "Gulab jamun"
+      },
+      "heroImage": "images/ds-gulab-jamun/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-halo-halo",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "181ac959f655fa49539d329f94ec15103b66326e1089780843505a2bb3cc4bc3",
+      "title": {
+        "fr": "Halo-halo",
+        "en": "Halo-halo",
+        "es": "Halo-halo",
+        "it": "Halo-halo"
+      },
+      "heroImage": "images/ds-halo-halo/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-kanelbullar",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "7354f1037882e230c1a2855f1c9f925368d60456e2470a732facced281449d1d",
+      "title": {
+        "fr": "Kanelbullar",
+        "en": "Kanelbullar",
+        "es": "Kanelbullar",
+        "it": "Kanelbullar"
+      },
+      "heroImage": "images/ds-kanelbullar/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-knafeh",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "a8dbcc56d01b11998a4f2e8cd83d195ee77e6d5e300f08dbddd844dcf3c8398d",
+      "title": {
+        "fr": "Knafeh",
+        "en": "Knafeh",
+        "es": "Knafeh",
+        "it": "Knafeh"
+      },
+      "heroImage": "images/ds-knafeh/hero.webp",
+      "tags": [],
+      "totalMinutes": 70,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-kulfi",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "032236b08907f992a2b026e41ea64223966a8bb72afaec91aa1a01da338021b5",
+      "title": {
+        "fr": "Kulfi",
+        "en": "Kulfi",
+        "es": "Kulfi",
+        "it": "Kulfi"
+      },
+      "heroImage": "images/ds-kulfi/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 120,
+      "difficulty": 2
+    },
+    {
       "id": "ds-madeleines",
       "updatedAt": "2026-10-18T21:31:51Z",
       "contentHash": "dafafd17b3952561a5be217b8fce414eadd914e22002f7e94da354f020d109d3",
@@ -94,6 +286,70 @@
         "airFryer"
       ],
       "totalMinutes": 32,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-mango-sticky-rice",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "0838a8add0c63011c7c2dfd127b418b94c9e6d414ebff0bf283f3b8c6e549384",
+      "title": {
+        "fr": "Riz gluant à la mangue",
+        "en": "Mango sticky rice",
+        "es": "Arroz glutinoso con mango",
+        "it": "Riso glutinoso al mango"
+      },
+      "heroImage": "images/ds-mango-sticky-rice/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-medovik",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "72ca34984c4fffd6f28de54db8ad585df5502820986085ef3235414dbe384fd5",
+      "title": {
+        "fr": "Medovik",
+        "en": "Medovik",
+        "es": "Medovik",
+        "it": "Medovik"
+      },
+      "heroImage": "images/ds-medovik/hero.webp",
+      "tags": [],
+      "totalMinutes": 110,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-melktert",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "2b60e0ea34675f128fda78c2c5f2da9acded6c87fcd16e6ad678ced33f03879b",
+      "title": {
+        "fr": "Melktert",
+        "en": "Melktert",
+        "es": "Melktert",
+        "it": "Melktert"
+      },
+      "heroImage": "images/ds-melktert/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-mochi",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "f2ead5d49710b7c9798497b8932b99f37eee28f001d1ff0be8bc82129ba1884c",
+      "title": {
+        "fr": "Mochi",
+        "en": "Mochi",
+        "es": "Mochi",
+        "it": "Mochi"
+      },
+      "heroImage": "images/ds-mochi/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
       "difficulty": 2
     },
     {
@@ -131,6 +387,51 @@
       "difficulty": 2
     },
     {
+      "id": "ds-paris-brest",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "689a7f5c333a717a11cf06a760b55893879d6f6147869ff91f7e90e35389feff",
+      "title": {
+        "fr": "Paris-Brest",
+        "en": "Paris-Brest",
+        "es": "Paris-Brest",
+        "it": "Paris-Brest"
+      },
+      "heroImage": "images/ds-paris-brest/hero.webp",
+      "tags": [],
+      "totalMinutes": 110,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-pasteis-de-nata",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "37241f86c2c13414fbcb20f857ea463d932389a0b566d144b2df0dd0492842f9",
+      "title": {
+        "fr": "Pastéis de nata",
+        "en": "Pastéis de nata",
+        "es": "Pastéis de nata",
+        "it": "Pastéis de nata"
+      },
+      "heroImage": "images/ds-pasteis-de-nata/hero.webp",
+      "tags": [],
+      "totalMinutes": 60,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-pavlova",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "e3d05babe09826d3a0a0eb8bc4ef4da81202f1ee82d1a770bfe76eb323fd48f6",
+      "title": {
+        "fr": "Pavlova",
+        "en": "Pavlova",
+        "es": "Pavlova",
+        "it": "Pavlova"
+      },
+      "heroImage": "images/ds-pavlova/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 2
+    },
+    {
       "id": "ds-tarte-tatin",
       "updatedAt": "2026-10-18T21:31:51Z",
       "contentHash": "b532cb69b160375d8101d947f801c94f2e15caef607b5c8b8d641c4705b6b4bd",
@@ -161,10 +462,25 @@
       ],
       "totalMinutes": 30,
       "difficulty": 1
+    },
+    {
+      "id": "ds-tres-leches",
+      "updatedAt": "2026-10-23T18:40:41Z",
+      "contentHash": "76f10c1ebec8b8e44a3a7c223a5f745439a45dab4c41b92c53ec86401956dc04",
+      "title": {
+        "fr": "Tres leches",
+        "en": "Tres leches cake",
+        "es": "Pastel de tres leches",
+        "it": "Torta tres leches"
+      },
+      "heroImage": "images/ds-tres-leches/hero.webp",
+      "tags": [],
+      "totalMinutes": 55,
+      "difficulty": 2
     }
   ],
   "files": {
-    "ingredients.json": "21dd55a0f4e84143c1ae5d08da688a886edf226f753775aa0cf3eb2845d6a90a",
+    "ingredients.json": "26fbb6f7406d0bf68860db246dd6a65a86f6d666edeb1bd823b4dbf5b0632916",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },

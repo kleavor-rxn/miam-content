@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-kanelbullar",
+  "title": {"fr": "Kanelbullar", "en": "Kanelbullar", "es": "Kanelbullar", "it": "Kanelbullar"},
+  "summary": {
+    "fr": "Les brioches roulées à la cannelle de la fika suédoise : une pâte parfumée à la cardamome, un cœur beurré à la cannelle et une pluie de sucre perlé.",
+    "en": "The cinnamon buns of the Swedish fika: a cardamom-scented dough, a buttery cinnamon swirl and a scattering of pearl sugar.",
+    "es": "Los bollos de canela de la fika sueca: una masa perfumada con cardamomo, un corazón de mantequilla y canela y una lluvia de azúcar perlado.",
+    "it": "Le girelle alla cannella della fika svedese: un impasto profumato al cardamomo, un cuore di burro e cannella e una pioggia di granella di zucchero."
+  },
+  "story": {
+    "fr": "Les kanelbullar sont le grand classique de la fika, la pause café que les Suédois s'accordent volontiers dans la journée, au bureau comme à la maison. Contrairement aux cinnamon rolls américains, ils ne sont pas glacés : leur pâte est parfumée à la cardamome et ils sont simplement coiffés de sucre perlé. Depuis 1999, le Conseil suédois de la pâtisserie maison (Hembakningsrådet) leur consacre une journée, le Kanelbullens dag, chaque 4 octobre.",
+    "en": "Kanelbullar are the great classic of fika, the coffee break Swedes happily make time for during the day, at work as much as at home. Unlike American cinnamon rolls they are not iced: the dough is scented with cardamom and the buns are simply topped with pearl sugar. Since 1999 the Swedish Home Baking Council (Hembakningsrådet) has given them their own day, Kanelbullens dag, every 4 October.",
+    "es": "Los kanelbullar son el gran clásico de la fika, la pausa para el café que los suecos se toman con gusto a lo largo del día, tanto en la oficina como en casa. A diferencia de los cinnamon rolls estadounidenses, no llevan glaseado: la masa se perfuma con cardamomo y se coronan simplemente con azúcar perlado. Desde 1999, el Consejo Sueco de Repostería Casera (Hembakningsrådet) les dedica un día, el Kanelbullens dag, cada 4 de octubre.",
+    "it": "I kanelbullar sono il grande classico della fika, la pausa caffè che gli svedesi si concedono volentieri durante la giornata, in ufficio come a casa. A differenza dei cinnamon roll americani non sono glassati: l'impasto è profumato al cardamomo e le girelle sono semplicemente cosparse di granella di zucchero. Dal 1999 il Consiglio svedese per la panificazione casalinga (Hembakningsrådet) dedica loro una giornata, il Kanelbullens dag, ogni 4 ottobre."
+  },
+  "region": {"fr": "Suède", "en": "Sweden", "es": "Suecia", "it": "Svezia"},
+  "origin": {"countries": ["SE"]},
+  "category": "dessert",
+  "dessertType": "brioche",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 20,
+  "servings": 12,
+  "heroImage": "images/ds-kanelbullar/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "beurre", "quantity": 175, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 25, "unit": "g"},
+    {"ref": "cardamome", "quantity": 2, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tbsp"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "sucre-perle", "quantity": 3, "unit": "tbsp", "substitutes": ["sucre"]}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre 75 g de beurre dans une casserole, ajoutez le lait et laissez tiédir jusqu'à 37 °C : le mélange doit être à peine tiède au doigt.", "en": "Melt 75 g of the butter in a saucepan, add the milk and let it cool to 37 °C — just lukewarm to the touch.", "es": "Derrite 75 g de mantequilla en un cazo, añade la leche y deja que se temple hasta 37 °C: apenas tibia al tacto.", "it": "Fai fondere 75 g di burro in un pentolino, aggiungi il latte e lascia intiepidire fino a 37 °C: il composto deve essere appena tiepido al tatto."}},
+    {"text": {"fr": "Délayez la levure émiettée dans le lait tiède, puis ajoutez 75 g de sucre, le sel et la cardamome fraîchement écrasée.", "en": "Crumble the yeast into the warm milk and stir until dissolved, then add 75 g of the sugar, the salt and the freshly crushed cardamom.", "es": "Desmenuza la levadura en la leche tibia y disuélvela; añade luego 75 g de azúcar, la sal y el cardamomo recién machacado.", "it": "Sbriciola il lievito nel latte tiepido e scioglilo, poi aggiungi 75 g di zucchero, il sale e il cardamomo appena pestato."}},
+    {"text": {"fr": "Incorporez la farine petit à petit et pétrissez 10 minutes, jusqu'à obtenir une pâte lisse et souple qui se détache du bol.", "en": "Work in the flour a little at a time and knead for 10 minutes, until the dough is smooth and supple and comes away from the bowl.", "es": "Incorpora la harina poco a poco y amasa 10 minutos, hasta obtener una masa lisa y elástica que se despegue del bol.", "it": "Incorpora la farina poco alla volta e impasta per 10 minuti, finché l'impasto è liscio e morbido e si stacca dalla ciotola."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez d'un torchon et laissez lever 45 minutes dans un endroit tiède, jusqu'à ce que la pâte double de volume.", "en": "Cover with a tea towel and leave to rise somewhere warm for 45 minutes, until doubled in size.", "es": "Cubre con un paño y deja levar 45 minutos en un lugar templado, hasta que la masa doble su volumen.", "it": "Copri con un canovaccio e lascia lievitare 45 minuti in un luogo tiepido, finché l'impasto raddoppia di volume."}, "timerMinutes": 45},
+    {"text": {"fr": "Mélangez les 100 g de beurre restants, bien mou, avec les 75 g de sucre restants et la cannelle, jusqu'à obtenir une pâte à tartiner homogène.", "en": "Beat the remaining 100 g of very soft butter with the remaining 75 g of sugar and the cinnamon to a smooth, spreadable paste.", "es": "Mezcla los 100 g de mantequilla restantes, bien blanda, con los 75 g de azúcar restantes y la canela, hasta obtener una pasta untable homogénea.", "it": "Lavora i 100 g di burro rimasti, ben morbido, con i 75 g di zucchero rimasti e la cannella fino a ottenere una crema spalmabile omogenea."}},
+    {"text": {"fr": "Partagez la pâte en deux, abaissez chaque moitié en un rectangle d'environ 25 × 40 cm et étalez-y la garniture à la cannelle jusqu'aux bords.", "en": "Divide the dough in two, roll each half into a rectangle of about 25 × 40 cm and spread the cinnamon filling right to the edges.", "es": "Divide la masa en dos, estira cada mitad en un rectángulo de unos 25 × 40 cm y unta el relleno de canela hasta los bordes.", "it": "Dividi l'impasto in due, stendi ogni metà in un rettangolo di circa 25 × 40 cm e spalma il ripieno alla cannella fino ai bordi."}},
+    {"text": {"fr": "Roulez chaque rectangle en un boudin serré à partir du côté long, taillez-le en 12 tranches et posez-les à plat dans des caissettes en papier, sur deux plaques.", "en": "Roll each rectangle up tightly from the long side, cut it into 12 slices and sit them cut side up in paper cases on two baking trays.", "es": "Enrolla cada rectángulo bien apretado desde el lado largo, córtalo en 12 rodajas y colócalas con el corte hacia arriba en cápsulas de papel, sobre dos bandejas.", "it": "Arrotola ogni rettangolo ben stretto partendo dal lato lungo, taglialo in 12 fette e sistemale con il taglio verso l'alto in pirottini di carta, su due teglie."}},
+    {"text": {"fr": "Couvrez et laissez lever encore 45 minutes ; pendant ce temps, préchauffez le four à 225 °C.", "en": "Cover and leave to prove for another 45 minutes; meanwhile, preheat the oven to 225 °C.", "es": "Cubre y deja levar otros 45 minutos; mientras tanto, precalienta el horno a 225 °C.", "it": "Copri e lascia lievitare altri 45 minuti; nel frattempo, preriscalda il forno a 225 °C."}, "timerMinutes": 45},
+    {"text": {"fr": "Badigeonnez les brioches d'œuf battu et parsemez-les généreusement de sucre perlé.", "en": "Brush the buns with beaten egg and scatter generously with pearl sugar.", "es": "Pinta los bollos con huevo batido y espolvoréalos generosamente con azúcar perlado.", "it": "Spennella le girelle con l'uovo sbattuto e cospargile generosamente di granella di zucchero."}},
+    {"text": {"fr": "Enfournez une plaque à la fois pour 8 à 10 minutes, jusqu'à ce que les brioches soient bien dorées, puis laissez-les refroidir sur une grille sous un torchon.", "en": "Bake one tray at a time for 8 to 10 minutes, until the buns are a deep golden brown, then leave them to cool on a rack under a tea towel.", "es": "Hornea una bandeja cada vez durante 8 a 10 minutos, hasta que los bollos estén bien dorados, y déjalos enfriar sobre una rejilla tapados con un paño.", "it": "Inforna una teglia alla volta per 8-10 minuti, finché le girelle sono ben dorate, poi lasciale raffreddare su una gratella coperte da un canovaccio."}, "timerMinutes": 10}
+  ]
+}
