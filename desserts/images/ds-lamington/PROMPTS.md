@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+Six small square sponge cakes, each about 5 cm across and 4 cm tall, arranged in two neat rows on a plain white plate, with one cake cut in half to show the inside. Every cube is wrapped on all six sides, top included, in a thin, matt, chocolate-brown icing that has soaked slightly into the sponge, and over that icing sits a thick, even coat of fine, dry, white desiccated coconut, so the top and the sides look uniformly shaggy, white and snowy with only hints of brown showing between the shreds. The cut cake reveals a light, airy, pale yellow sponge with a thin dark brown line of chocolate just under the white coconut all the way round. A few loose coconut flakes are scattered on the plate.

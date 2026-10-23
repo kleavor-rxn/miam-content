@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-aebleskiver",
+  "title": {"fr": "Æbleskiver", "en": "Æbleskiver", "es": "Æbleskiver", "it": "Æbleskiver"},
+  "summary": {
+    "fr": "De petites boules de pâte au babeurre et à la cardamome, dorées dans une poêle à alvéoles et retournées à l'aiguille, souvent servies avec de la confiture : la gourmandise danoise de l'Avent.",
+    "en": "Little buttermilk and cardamom batter balls, browned in a special pan and turned with a knitting needle, often served with jam for dipping: Denmark's Advent treat.",
+    "es": "Bolitas de masa con suero de mantequilla y cardamomo, doradas en una sartén especial y giradas con una aguja de punto, que a menudo se sirven con mermelada: el dulce danés del Adviento.",
+    "it": "Palline di pastella al latticello e cardamomo, dorate in una padella speciale e girate con un ferro da maglia, spesso servite con la marmellata: la golosità danese dell'Avvento."
+  },
+  "story": {
+    "fr": "Leur nom signifie « tranches de pomme » en danois : les recettes anciennes cachaient un morceau de pomme au cœur de chaque boule, ce qui est devenu rare. On les cuit dans une poêle en fonte creusée d'alvéoles hémisphériques, en les retournant avec une aiguille à tricoter ou une brochette pour qu'elles s'arrondissent. En décembre, pendant l'Avent, les Danois les mangent saupoudrées de sucre glace et trempées dans la confiture, souvent avec un verre de gløgg, le vin chaud épicé.",
+    "en": "Their name means 'apple slices' in Danish: old recipes hid a piece of apple in the middle of each ball, a custom that has since become rare. They are cooked in a cast-iron pan with hemispherical wells and turned with a knitting needle or a skewer so that they round out. In December, throughout Advent, Danes eat them dusted with icing sugar and dipped in jam, often with a glass of gløgg, spiced mulled wine.",
+    "es": "Su nombre significa «rodajas de manzana» en danés: las recetas antiguas escondían un trozo de manzana en el centro de cada bolita, algo que hoy es raro. Se cuecen en una sartén de hierro fundido con huecos semiesféricos y se giran con una aguja de punto o una brocheta para que queden redondas. En diciembre, durante el Adviento, los daneses las comen espolvoreadas con azúcar glas y mojadas en mermelada, a menudo con un vaso de gløgg, el vino caliente especiado.",
+    "it": "Il nome significa «fette di mela» in danese: le ricette antiche nascondevano un pezzetto di mela al centro di ogni pallina, cosa oggi rara. Si cuociono in una padella di ghisa con incavi semisferici e si girano con un ferro da maglia o uno spiedino perché diventino tonde. A dicembre, durante l'Avvento, i danesi le mangiano spolverate di zucchero a velo e intinte nella marmellata, spesso con un bicchiere di gløgg, il vin brulé nordico."
+  },
+  "region": {"fr": "Danemark", "en": "Denmark", "es": "Dinamarca", "it": "Danimarca"},
+  "origin": {"countries": ["DK"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 6,
+  "heroImage": "images/ds-aebleskiver/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 60, "unit": "g"},
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "sucre", "quantity": 20, "unit": "g"},
+    {"ref": "cardamome", "quantity": 1, "unit": "tsp"},
+    {"ref": "bicarbonate", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "citron", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "babeurre", "quantity": 400, "unit": "ml", "substitutes": ["yaourt-nature"]},
+    {"ref": "pomme", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "sucre-glace", "quantity": 3, "unit": "tbsp"},
+    {"ref": "confiture", "quantity": 150, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre le beurre dans une petite casserole et réservez-le pour la cuisson.", "en": "Melt the butter in a small pan and set it aside for cooking.", "es": "Derrite la mantequilla en un cazo pequeño y resérvala para la cocción.", "it": "Fai sciogliere il burro in un pentolino e tienilo da parte per la cottura."}},
+    {"text": {"fr": "Dans un saladier, mélangez la farine, le sucre, la cardamome moulue, le bicarbonate, la levure, ½ cuillerée à café de sel et, si vous le souhaitez, le zeste râpé du citron.", "en": "In a mixing bowl, combine the flour, sugar, ground cardamom, bicarbonate of soda, baking powder, ½ teaspoon of salt and, if you like, the grated lemon zest.", "es": "En un bol, mezcla la harina, el azúcar, el cardamomo molido, el bicarbonato, la levadura, ½ cucharadita de sal y, si quieres, la ralladura del limón.", "it": "In una ciotola mescola la farina, lo zucchero, il cardamomo in polvere, il bicarbonato, il lievito, ½ cucchiaino di sale e, se ti va, la scorza grattugiata del limone."}},
+    {"text": {"fr": "Fouettez les jaunes des 3 œufs avec le babeurre (réservez les blancs), puis versez sur le mélange de farine et fouettez jusqu'à obtenir une pâte lisse.", "en": "Whisk the yolks of the 3 eggs with the buttermilk (keep the whites), then pour onto the flour mixture and whisk to a smooth batter.", "es": "Bate las yemas de los 3 huevos con el suero de mantequilla (reserva las claras), vierte esta mezcla sobre la de harina y bate hasta obtener una masa lisa.", "it": "Sbatti i tuorli delle 3 uova con il latticello (tieni da parte gli albumi), poi versa il tutto sul composto di farina e mescola con la frusta fino a ottenere una pastella liscia."}},
+    {"text": {"fr": "Montez les blancs en neige ferme.", "en": "Whisk the egg whites to stiff peaks.", "es": "Monta las claras a punto de nieve firme.", "it": "Monta gli albumi a neve ben ferma."}},
+    {"text": {"fr": "Incorporez-les délicatement à la pâte, en soulevant à la spatule.", "en": "Gently fold them into the batter with a spatula.", "es": "Incorpóralas a la masa con cuidado, con movimientos envolventes.", "it": "Incorporali delicatamente alla pastella con una spatola, dal basso verso l'alto."}},
+    {"text": {"fr": "Faites chauffer à feu moyen une poêle à æbleskiver (ou à takoyaki), puis versez un peu de beurre fondu dans chaque alvéole.", "en": "Heat an æbleskiver pan (or a takoyaki pan) over a medium heat, then put a little melted butter in each well.", "es": "Calienta a fuego medio una sartén para æbleskiver (o para takoyaki) y pon un poco de mantequilla derretida en cada hueco.", "it": "Scalda a fuoco medio una padella per æbleskiver (o per takoyaki), poi versa un po' di burro fuso in ogni incavo."}, "timerMinutes": 3},
+    {"text": {"fr": "Remplissez les alvéoles de pâte presque à ras bord, en enfonçant au centre de chacune un petit dé de pomme pelée si vous le souhaitez.", "en": "Fill the wells almost to the brim with batter, pushing a small cube of peeled apple into the centre of each one if you like.", "es": "Llena los huecos de masa casi hasta el borde y, si quieres, hunde un dadito de manzana pelada en el centro de cada uno.", "it": "Riempi gli incavi di pastella quasi fino all'orlo e, se ti va, affonda al centro di ognuno un dadino di mela sbucciata."}},
+    {"text": {"fr": "Dès que le dessous est doré, faites pivoter chaque boule d'un quart de tour avec une aiguille à tricoter ou une brochette, puis continuez à les tourner jusqu'à ce qu'elles soient rondes, dorées de tous côtés et cuites à cœur.", "en": "As soon as the underside is golden, give each ball a quarter turn with a knitting needle or skewer, then keep turning until they are round, golden all over and cooked through.", "es": "En cuanto la base esté dorada, gira cada bolita un cuarto de vuelta con una aguja de punto o una brocheta, y sigue girándolas hasta que estén redondas, doradas por todos lados y hechas por dentro.", "it": "Appena la base è dorata, gira ogni pallina di un quarto di giro con un ferro da maglia o uno spiedino, poi continua a girarle finché sono tonde, dorate da ogni lato e cotte all'interno."}, "timerMinutes": 6},
+    {"text": {"fr": "Gardez-les au chaud sous un torchon propre et poursuivez avec le reste de la pâte, en beurrant les alvéoles à chaque fournée.", "en": "Keep them warm under a clean tea towel and carry on with the rest of the batter, buttering the wells for each batch.", "es": "Mantenlas calientes bajo un paño limpio y sigue con el resto de la masa, untando los huecos con mantequilla en cada tanda.", "it": "Tienile in caldo sotto un canovaccio pulito e prosegui con il resto della pastella, ungendo gli incavi di burro a ogni giro."}},
+    {"text": {"fr": "Servez-les bien chaudes, saupoudrées de sucre glace, avec si vous le souhaitez un bol de confiture pour les y tremper.", "en": "Serve piping hot, dusted with icing sugar, with a bowl of jam for dipping if you like.", "es": "Sírvelas bien calientes, espolvoreadas con azúcar glas y, si quieres, con un cuenco de mermelada para mojarlas.", "it": "Servile ben calde, spolverate di zucchero a velo e, se ti va, con una ciotolina di marmellata per intingerle."}}
+  ]
+}

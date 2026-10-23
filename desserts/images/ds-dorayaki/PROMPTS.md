@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+Two Japanese dorayaki on a small plain white plate, each made of two thin, flat, round pancakes about 8 cm across and 1 cm thick, stacked one on the other like a small sandwich. The pancakes have a smooth, matt, even golden-brown face with a slightly paler edge, and between them lies a smooth, thick, dark purplish-brown layer of sweet azuki bean paste that bulges out slightly at the edge. One dorayaki is cut in half and stands on its side so the cross-section shows two soft, fine-crumbed, pale yellow pancakes with a thick, smooth, dense band of dark red-brown bean paste sandwiched between them. A small plain white cup of green tea sits beside the plate.

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-klepon",
+  "title": {"fr": "Klepon", "en": "Klepon", "es": "Klepon", "it": "Klepon"},
+  "summary": {
+    "fr": "Les petites boules javanaises de riz gluant, vertes et parfumées au pandan, fourrées de sucre de palme qui fond à la cuisson et roulées dans la noix de coco salée.",
+    "en": "Java's little glutinous rice balls, green and fragrant with pandan, hiding a palm-sugar centre that melts as they cook, rolled in lightly salted coconut.",
+    "es": "Las bolitas javanesas de arroz glutinoso, verdes y perfumadas con pandan, rellenas de azúcar de palma que se funde al cocerlas y rebozadas en coco con un toque de sal.",
+    "it": "Le palline giavanesi di riso glutinoso, verdi e profumate al pandan, con un cuore di zucchero di palma che si scioglie in cottura, passate nel cocco leggermente salato."
+  },
+  "story": {
+    "fr": "Le klepon est un jajan pasar, l'une de ces douceurs que l'on achète au marché sur l'île de Java, souvent servies sur un morceau de feuille de bananier. Sa pâte de farine de riz gluant est colorée et parfumée au jus de feuilles de pandan, et son cœur de gula jawa, le sucre de palme javanais, fond pendant la cuisson et s'écoule dès la première bouchée. En Malaisie et à Singapour, une douceur presque identique s'appelle onde-onde.",
+    "en": "Klepon is a jajan pasar, one of the sweet snacks bought at the market on the island of Java, often served on a piece of banana leaf. The glutinous rice dough is coloured and scented with juice pressed from pandan leaves, and its centre of gula jawa, Javanese palm sugar, melts as it cooks and bursts out at the first bite. In Malaysia and Singapore an almost identical sweet is known as onde-onde.",
+    "es": "El klepon es un jajan pasar, uno de esos dulces que se compran en el mercado en la isla de Java, a menudo servidos sobre un trozo de hoja de plátano. Su masa de harina de arroz glutinoso se tiñe y se perfuma con el jugo de las hojas de pandan, y su corazón de gula jawa, el azúcar de palma javanés, se funde durante la cocción y estalla en la boca al primer bocado. En Malasia y Singapur, un dulce casi idéntico se llama onde-onde.",
+    "it": "Il klepon è un jajan pasar, uno di quei dolcetti che si comprano al mercato sull'isola di Giava, spesso serviti su un pezzo di foglia di banano. L'impasto di farina di riso glutinoso è colorato e profumato con il succo delle foglie di pandan, e il cuore di gula jawa, lo zucchero di palma giavanese, si scioglie in cottura e scoppia in bocca al primo morso. In Malesia e a Singapore un dolce quasi identico si chiama onde-onde."
+  },
+  "region": {"fr": "Java", "en": "Java", "es": "Java", "it": "Giava"},
+  "origin": {"countries": ["ID"]},
+  "category": "dessert",
+  "dessertType": "confiserie",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 15,
+  "servings": 6,
+  "heroImage": "images/ds-klepon/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine-de-riz-gluant", "quantity": 200, "unit": "g"},
+    {"ref": "feuille-de-pandan", "quantity": 8, "unit": "piece", "substitutes": ["extrait-de-pandan"]},
+    {"ref": "eau", "quantity": 210, "unit": "ml"},
+    {"ref": "sel", "quantity": 2, "unit": "pinch"},
+    {"ref": "sucre-de-palme", "quantity": 80, "unit": "g", "substitutes": ["cassonade"]},
+    {"ref": "noix-de-coco-rapee", "quantity": 100, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Coupez les feuilles de pandan en tronçons, mixez-les avec 160 ml d'eau chaude, puis filtrez en pressant bien la pulpe pour recueillir un jus vert vif.", "en": "Cut the pandan leaves into short lengths, blend them with 160 ml of hot water, then strain, pressing the pulp hard, to collect a bright green juice.", "es": "Corta las hojas de pandan en trozos, tritúralas con 160 ml de agua caliente y cuela el resultado, presionando bien la pulpa, para obtener un jugo verde intenso.", "it": "Taglia le foglie di pandan a pezzetti, frullale con 160 ml di acqua calda, poi filtra spremendo bene la polpa per ottenere un succo verde brillante."}},
+    {"text": {"fr": "Mélangez la noix de coco râpée avec une pincée de sel et 50 ml d'eau chaude, puis laissez-la se réhydrater 15 minutes.", "en": "Mix the desiccated coconut with a pinch of salt and 50 ml of hot water, then leave it to rehydrate for 15 minutes.", "es": "Mezcla el coco rallado con una pizca de sal y 50 ml de agua caliente, y déjalo hidratarse 15 minutos.", "it": "Mescola la farina di cocco con un pizzico di sale e 50 ml di acqua calda, poi lasciala reidratare per 15 minuti."}, "timerMinutes": 15},
+    {"text": {"fr": "Dans un saladier, mélangez la farine de riz gluant avec une pincée de sel, puis versez peu à peu le jus de pandan tiède en pétrissant jusqu'à obtenir une pâte lisse et souple qui ne colle pas aux doigts ; il se peut que vous n'ayez pas besoin de tout le jus.", "en": "In a bowl, mix the glutinous rice flour with a pinch of salt, then gradually work in the warm pandan juice, kneading until the dough is smooth and supple and no longer sticks to your fingers; you may not need all of the juice.", "es": "En un bol, mezcla la harina de arroz glutinoso con una pizca de sal y ve añadiendo poco a poco el jugo de pandan templado mientras amasas, hasta obtener una masa lisa y flexible que no se pegue a los dedos; puede que no necesites todo el jugo.", "it": "In una ciotola mescola la farina di riso glutinoso con un pizzico di sale, poi aggiungi poco alla volta il succo di pandan tiepido impastando fino a ottenere un impasto liscio ed elastico che non si attacchi alle dita; potrebbe non servirti tutto il succo."}},
+    {"text": {"fr": "Râpez ou hachez finement le sucre de palme.", "en": "Grate or finely chop the palm sugar.", "es": "Ralla o pica muy fino el azúcar de palma.", "it": "Grattugia o trita finemente lo zucchero di palma."}},
+    {"text": {"fr": "Portez une grande casserole d'eau à ébullition.", "en": "Bring a large pan of water to the boil.", "es": "Lleva a ebullición una olla grande de agua.", "it": "Porta a bollore una pentola capiente d'acqua."}, "timerMinutes": 10},
+    {"text": {"fr": "Prélevez environ 15 g de pâte, aplatissez-la en disque dans votre paume, déposez au centre une demi-cuillerée à café bombée de sucre de palme, refermez soigneusement et roulez en boule lisse, sans la moindre fissure. Recommencez avec le reste (environ 24 boules).", "en": "Take about 15 g of dough, flatten it into a disc in your palm, put a heaped half teaspoon of palm sugar in the centre, seal it carefully and roll it into a smooth ball with no cracks at all. Repeat with the rest (about 24 balls).", "es": "Toma unos 15 g de masa, aplánala en forma de disco en la palma de la mano, pon en el centro media cucharadita colmada de azúcar de palma, ciérrala con cuidado y forma una bola lisa, sin ninguna grieta. Repite con el resto (unas 24 bolas).", "it": "Preleva circa 15 g di impasto, appiattiscilo a disco nel palmo, metti al centro mezzo cucchiaino colmo di zucchero di palma, richiudi con cura e forma una pallina liscia, senza la minima crepa. Ripeti con il resto (circa 24 palline)."}},
+    {"text": {"fr": "Plongez les boules dans l'eau bouillante en deux fois ; quand elles remontent à la surface, laissez-les cuire encore 2 minutes.", "en": "Drop the balls into the boiling water in two batches; once they float to the surface, let them cook for 2 more minutes.", "es": "Echa las bolas en el agua hirviendo en dos tandas; cuando suban a la superficie, déjalas cocer 2 minutos más.", "it": "Tuffa le palline nell'acqua bollente in due riprese; quando tornano a galla, lasciale cuocere ancora 2 minuti."}, "timerMinutes": 5},
+    {"text": {"fr": "Sortez-les à l'écumoire, égouttez-les un instant et roulez-les aussitôt dans la noix de coco.", "en": "Lift them out with a slotted spoon, let them drain for a moment and roll them straight away in the coconut.", "es": "Sácalas con una espumadera, escúrrelas un momento y rebózalas enseguida en el coco.", "it": "Scolale con una schiumarola, lasciale sgocciolare un attimo e passale subito nel cocco."}},
+    {"text": {"fr": "Laissez tiédir 10 minutes avant de servir : le sucre fondu à l'intérieur est brûlant. Les klepon se dégustent le jour même.", "en": "Leave to cool for 10 minutes before serving, as the melted sugar inside is scalding. Klepon are best eaten the same day.", "es": "Déjalas templar 10 minutos antes de servir: el azúcar fundido del interior quema. Los klepon se comen el mismo día.", "it": "Lasciale intiepidire 10 minuti prima di servire: lo zucchero fuso all'interno scotta. I klepon vanno gustati in giornata."}, "timerMinutes": 10}
+  ]
+}

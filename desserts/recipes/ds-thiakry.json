@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-thiakry",
+  "title": {"fr": "Thiakry", "en": "Thiakry", "es": "Thiakry", "it": "Thiakry"},
+  "summary": {
+    "fr": "Une crème acidulée et bien fraîche de lait caillé ou de yaourt, adoucie au lait concentré sucré et parfumée à la vanille et à la muscade, dans laquelle gonflent de petits grains de couscous de mil.",
+    "en": "A cool, tangy cream of curdled milk or yoghurt, sweetened with condensed milk and scented with vanilla and nutmeg, in which little grains of millet couscous swell and soften.",
+    "es": "Una crema fresca y ácida de leche cuajada o yogur, endulzada con leche condensada y perfumada con vainilla y nuez moscada, en la que se hinchan pequeños granos de cuscús de mijo.",
+    "it": "Una crema fresca e acidula di latte cagliato o yogurt, addolcita con latte condensato e profumata alla vaniglia e alla noce moscata, in cui si gonfiano piccoli chicchi di couscous di miglio."
+  },
+  "story": {
+    "fr": "Le thiakry (aussi écrit thiakri ou chakery) est un dessert du Sénégal, cousin du dégué du Mali et du Burkina Faso. Il repose sur l'arraw, de petites billes de farine de mil roulées à la main puis cuites à la vapeur, le mil étant l'une des céréales traditionnelles du Sahel. Mélangé au sow, le lait caillé, il se sert bien frais aux baptêmes, aux mariages et aux fêtes de famille.",
+    "en": "Thiakry (also spelt thiakri or chakery) is a Senegalese dessert, a cousin of the dégué of Mali and Burkina Faso. It is built on arraw, small pellets of millet flour rolled by hand and then steamed, millet being one of the traditional grains of the Sahel. Mixed with sow, the local curdled milk, it is served well chilled at naming ceremonies, weddings and family celebrations.",
+    "es": "El thiakry (también escrito thiakri o chakery) es un postre de Senegal, primo del dégué de Malí y Burkina Faso. Se elabora con arraw, pequeñas bolitas de harina de mijo formadas a mano y cocidas al vapor; el mijo es uno de los cereales tradicionales del Sahel. Mezclado con sow, la leche cuajada local, se sirve bien frío en bautizos, bodas y fiestas familiares.",
+    "it": "Il thiakry (scritto anche thiakri o chakery) è un dolce del Senegal, cugino del dégué del Mali e del Burkina Faso. Si prepara con l'arraw, piccole palline di farina di miglio lavorate a mano e poi cotte al vapore: il miglio è uno dei cereali tradizionali del Sahel. Mescolato con il sow, il latte cagliato locale, si serve ben freddo a battesimi, matrimoni e feste di famiglia."
+  },
+  "region": {"fr": "Sénégal", "en": "Senegal", "es": "Senegal", "it": "Senegal"},
+  "origin": {"countries": ["SN"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "servings": 6,
+  "heroImage": "images/ds-thiakry/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "couscous-de-mil", "quantity": 250, "unit": "g", "substitutes": ["semoule-de-ble"]},
+    {"ref": "eau", "quantity": 10, "unit": "cl"},
+    {"ref": "yaourt-nature", "quantity": 800, "unit": "g"},
+    {"ref": "lait-concentre-sucre", "quantity": 200, "unit": "g"},
+    {"ref": "sucre", "quantity": 40, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 1, "unit": "pinch"},
+    {"ref": "beurre", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "raisins-secs", "quantity": 50, "unit": "g", "optional": true},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un grand plat, arrosez le couscous de mil de 10 cl d'eau froide et frottez-le entre vos mains pour bien humidifier tous les grains.", "en": "In a large dish, sprinkle the millet couscous with 10 cl of cold water and rub it between your hands to moisten every grain.", "es": "En una fuente grande, rocía el cuscús de mijo con 10 cl de agua fría y frótalo entre las manos para humedecer bien todos los granos.", "it": "In un'ampia pirofila irrora il couscous di miglio con 10 cl d'acqua fredda e strofinalo tra le mani per inumidire bene tutti i chicchi."}},
+    {"text": {"fr": "Portez de l'eau à ébullition dans le bas d'un couscoussier (ou d'un cuit-vapeur), versez le couscous dans le panier et faites-le cuire à la vapeur 20 minutes à partir du moment où la vapeur traverse les grains.", "en": "Bring some water to the boil in the bottom of a couscoussier (or steamer), tip the couscous into the basket and steam it for 20 minutes from the moment the steam rises through the grains.", "es": "Lleva agua a ebullición en la parte baja de una cuscusera (o de una vaporera), pon el cuscús en la cesta y cuécelo al vapor 20 minutos a partir del momento en que el vapor atraviese los granos.", "it": "Porta a bollore l'acqua nella parte bassa di una couscoussiera (o di una vaporiera), versa il couscous nel cestello e cuocilo al vapore per 20 minuti da quando il vapore attraversa i chicchi."}, "timerMinutes": 20},
+    {"text": {"fr": "Remettez le couscous dans le plat, égrenez-le à la fourchette, avec le beurre si vous le souhaitez, et laissez-le refroidir complètement.", "en": "Tip the couscous back into the dish, fluff it up with a fork, with the butter if you like, and leave it to cool completely.", "es": "Pasa el cuscús a la fuente, desgránalo con un tenedor, con la mantequilla si quieres, y déjalo enfriar por completo.", "it": "Rimetti il couscous nella pirofila, sgranalo con una forchetta, con il burro se ti va, e lascialo raffreddare completamente."}, "timerMinutes": 30},
+    {"text": {"fr": "Dans un saladier, fouettez le yaourt avec le lait concentré sucré, le sucre, la vanille et la pincée de muscade râpée jusqu'à obtenir une crème lisse.", "en": "In a large bowl, whisk the yoghurt with the condensed milk, sugar, vanilla and the pinch of grated nutmeg until smooth.", "es": "En un bol grande, bate el yogur con la leche condensada, el azúcar, la vainilla y la pizca de nuez moscada rallada hasta obtener una crema lisa.", "it": "In una ciotola capiente sbatti lo yogurt con il latte condensato, lo zucchero, la vaniglia e il pizzico di noce moscata grattugiata fino a ottenere una crema liscia."}},
+    {"text": {"fr": "Incorporez le couscous refroidi à la crème, avec les raisins secs et l'eau de fleur d'oranger si vous le souhaitez.", "en": "Stir the cooled couscous into the cream, with the raisins and orange blossom water if you like.", "es": "Incorpora el cuscús frío a la crema, con las pasas y el agua de azahar si quieres.", "it": "Incorpora il couscous freddo alla crema, con l'uvetta e l'acqua di fiori d'arancio se ti va."}},
+    {"text": {"fr": "Couvrez et réfrigérez au moins 2 heures : les grains gonflent et la crème épaissit.", "en": "Cover and chill for at least 2 hours: the grains swell and the cream thickens.", "es": "Tapa y refrigera al menos 2 horas: los granos se hinchan y la crema espesa.", "it": "Copri e metti in frigorifero per almeno 2 ore: i chicchi si gonfiano e la crema si addensa."}, "timerMinutes": 120},
+    {"text": {"fr": "Remuez et servez bien frais, dans des bols ou des verres.", "en": "Give it a stir and serve well chilled, in bowls or glasses.", "es": "Remueve y sírvelo bien frío, en cuencos o vasos.", "it": "Mescola e servi ben freddo, in ciotoline o bicchieri."}}
+  ]
+}

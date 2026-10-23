@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+A long, straight, plump log of Viennese apple strudel, about 30 cm long and 8 cm wide, lying on a plain white rectangular platter. Its crust is deep golden brown, thin, crisp and slightly blistered, with a smooth pastry seam along the bottom edge and a generous dusting of icing sugar over the whole top. Two thick slices have been cut from one end and stand upright beside the log, showing a tightly packed filling of many soft, translucent, pale golden apple slices mixed with dark raisins, flecks of cinnamon and golden toasted crumbs, held in only a few paper-thin wrappings of pastry at the edge. A spoonful of softly whipped cream sits next to the slices.

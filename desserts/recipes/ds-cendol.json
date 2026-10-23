@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-cendol",
+  "title": {"fr": "Cendol", "en": "Cendol", "es": "Cendol", "it": "Cendol"},
+  "summary": {
+    "fr": "De petits vermicelles verts au pandan, du lait de coco salé et un sirop de sucre de palme sur un dôme de glace pilée : le grand rafraîchissement des rues d'Asie du Sud-Est.",
+    "en": "Little green pandan strands, salted coconut milk and palm-sugar syrup over a mound of shaved ice: Southeast Asia's great street-side cooler.",
+    "es": "Fideítos verdes de pandan, leche de coco con un punto de sal y almíbar de azúcar de palma sobre una montaña de hielo picado: el gran postre refrescante de los puestos callejeros del Sudeste Asiático.",
+    "it": "Spaghettini verdi al pandan, latte di cocco salato e sciroppo di zucchero di palma su una montagnola di ghiaccio tritato: il grande dolce rinfrescante di strada del Sud-est asiatico."
+  },
+  "story": {
+    "fr": "Le cendol est revendiqué à la fois par la Malaisie, Singapour et l'Indonésie, et son origine reste disputée. Ses petits vermicelles verts, faits de farine de riz parfumée au pandan, baignent dans du lait de coco et un sirop de sucre de palme, le gula melaka, qui doit son nom à la ville de Malacca. En Malaisie et à Singapour, les marchands ambulants et les hawker centres, ces halles de cuisine de rue, le servent dans un bol, sur un dôme de glace pilée, souvent avec des haricots rouges ; en Indonésie, où on l'appelle aussi dawet à Java, il se boit plutôt dans un grand verre, sous le nom d'es cendol.",
+    "en": "Cendol is shared by Malaysia, Singapore and Indonesia, each of which claims it, and its origin remains disputed. Its little green strands, made from rice flour scented with pandan, swim in coconut milk and a palm-sugar syrup, gula melaka, named after the town of Malacca. In Malaysia and Singapore, street vendors and hawker centres serve it in a bowl over a mound of shaved ice, often with red beans; in Indonesia, where in Java it is also known as dawet, it is more often drunk from a tall glass as es cendol.",
+    "es": "El cendol lo comparten Malasia, Singapur e Indonesia, que lo reivindican por igual, y su origen sigue siendo discutido. Sus fideítos verdes, de harina de arroz perfumada con pandan, se bañan en leche de coco y en un almíbar de azúcar de palma, el gula melaka, que debe su nombre a la ciudad de Malaca. En Malasia y Singapur, los vendedores ambulantes y los puestos de comida callejera lo sirven en un cuenco, sobre una montaña de hielo picado y a menudo con judías rojas; en Indonesia, donde en Java también se llama dawet, se toma más bien como bebida en un vaso alto, con el nombre de es cendol.",
+    "it": "Il cendol è rivendicato al tempo stesso da Malesia, Singapore e Indonesia, e la sua origine resta contesa. I suoi spaghettini verdi, di farina di riso profumata al pandan, sono immersi nel latte di cocco e in uno sciroppo di zucchero di palma, il gula melaka, che prende il nome dalla città di Malacca. In Malesia e a Singapore i venditori ambulanti e gli hawker centre, i mercati coperti del cibo di strada, lo servono in una ciotola, su una montagnola di ghiaccio tritato, spesso con fagioli rossi; in Indonesia, dove a Giava si chiama anche dawet, si beve piuttosto in un bicchiere alto, con il nome di es cendol."
+  },
+  "region": {"fr": "Asie du Sud-Est", "en": "Southeast Asia", "es": "Sudeste Asiático", "it": "Sud-est asiatico"},
+  "origin": {"countries": ["MY", "SG", "ID"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 4,
+  "heroImage": "images/ds-cendol/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "sucre-de-palme", "quantity": 150, "unit": "g", "substitutes": ["cassonade"]},
+    {"ref": "eau", "quantity": 550, "unit": "ml"},
+    {"ref": "feuille-de-pandan", "quantity": 11, "unit": "piece", "substitutes": ["extrait-de-pandan"]},
+    {"ref": "lait-de-coco", "quantity": 400, "unit": "ml"},
+    {"ref": "sel", "quantity": 0.25, "unit": "tsp"},
+    {"ref": "farine-de-riz", "quantity": 70, "unit": "g"},
+    {"ref": "fecule-de-tapioca", "quantity": 30, "unit": "g"},
+    {"ref": "haricot-azuki", "quantity": 120, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une petite casserole, faites fondre le sucre de palme concassé dans 100 ml d'eau, avec, si vous le souhaitez, une des feuilles de pandan nouée, laissez frémir 5 minutes jusqu'à ce que le sirop épaississe légèrement, puis filtrez-le et laissez-le refroidir.", "en": "In a small pan, melt the chopped palm sugar in 100 ml of water, with one of the pandan leaves, knotted, if you like, simmer for 5 minutes until the syrup thickens slightly, then strain it and leave to cool.", "es": "En un cazo pequeño, funde el azúcar de palma troceado en 100 ml de agua, con una de las hojas de pandan anudada si quieres, deja hervir suavemente 5 minutos hasta que el almíbar espese un poco, y después cuélalo y déjalo enfriar.", "it": "In un pentolino fai sciogliere lo zucchero di palma spezzettato in 100 ml d'acqua, con una delle foglie di pandan annodata, se ti va, lascia sobbollire 5 minuti finché lo sciroppo si addensa leggermente, poi filtralo e lascialo raffreddare."}, "timerMinutes": 5},
+    {"text": {"fr": "Faites dissoudre le sel dans le lait de coco, puis gardez-le au réfrigérateur.", "en": "Stir the salt into the coconut milk until dissolved, then keep it in the fridge.", "es": "Disuelve la sal en la leche de coco y guárdala en la nevera.", "it": "Sciogli il sale nel latte di cocco, poi tienilo in frigorifero."}},
+    {"text": {"fr": "Coupez 10 feuilles de pandan en tronçons, mixez-les avec 200 ml d'eau, puis pressez la purée dans une mousseline pour en recueillir le jus vert.", "en": "Cut 10 pandan leaves into short lengths, blend them with 200 ml of water, then squeeze the purée through muslin to collect the green juice.", "es": "Corta 10 hojas de pandan en trozos, tritúralas con 200 ml de agua y exprime el puré en una gasa para recoger el jugo verde.", "it": "Taglia 10 foglie di pandan a pezzetti, frullale con 200 ml d'acqua, poi strizza il frullato in una garza per raccoglierne il succo verde."}},
+    {"text": {"fr": "Dans une casserole, délayez la farine de riz et la fécule de tapioca avec le jus de pandan et les 250 ml d'eau restants, jusqu'à ce qu'il ne reste aucun grumeau.", "en": "In a saucepan, whisk the rice flour and tapioca starch with the pandan juice and the remaining 250 ml of water until there are no lumps left.", "es": "En un cazo, disuelve la harina de arroz y el almidón de tapioca en el jugo de pandan y los 250 ml de agua restantes, hasta que no quede ningún grumo.", "it": "In un pentolino stempera la farina di riso e la fecola di tapioca con il succo di pandan e i 250 ml d'acqua rimasti, finché non resta nessun grumo."}},
+    {"text": {"fr": "Faites cuire à feu moyen sans cesser de remuer, jusqu'à obtenir une pâte épaisse, brillante et translucide.", "en": "Cook over a medium heat, stirring constantly, until it turns into a thick, glossy, translucent paste.", "es": "Cuece a fuego medio sin dejar de remover, hasta obtener una pasta espesa, brillante y translúcida.", "it": "Cuoci a fuoco medio senza smettere di mescolare, fino a ottenere una pasta densa, lucida e traslucida."}, "timerMinutes": 10},
+    {"text": {"fr": "À la spatule, pressez la pâte encore chaude à travers une passoire à gros trous (ou une râpe à spätzle) au-dessus d'un saladier d'eau glacée : elle y tombe en petits vermicelles.", "en": "With a spatula, push the still-hot paste through a colander with large holes (or a spätzle maker) into a bowl of iced water: it drops in as short little strands.", "es": "Con una espátula, presiona la pasta aún caliente a través de un colador de agujeros grandes (o un rallador de spätzle) sobre un bol de agua con hielo: caerá en forma de fideítos cortos.", "it": "Con una spatola, spingi la pasta ancora calda attraverso uno scolapasta a fori larghi (o una grattugia per spätzle) sopra una ciotola d'acqua ghiacciata: cadrà a spaghettini corti."}},
+    {"text": {"fr": "Laissez-les raffermir 10 minutes dans l'eau glacée, puis égouttez-les.", "en": "Leave them to firm up in the iced water for 10 minutes, then drain.", "es": "Déjalos 10 minutos en el agua con hielo para que se afirmen y escúrrelos.", "it": "Lasciali rassodare 10 minuti nell'acqua ghiacciata, poi scolali."}, "timerMinutes": 10},
+    {"text": {"fr": "Répartissez les vermicelles dans quatre bols, avec les haricots azuki sucrés (en conserve, ou cuits et sucrés à l'avance) si vous le souhaitez, puis couvrez d'un dôme de glaçons pilés au mixeur.", "en": "Divide the strands between four bowls, with the sweetened adzuki beans (tinned, or cooked and sweetened ahead) if you like, then top with a mound of ice cubes crushed in a blender.", "es": "Reparte los fideítos en cuatro cuencos, con las judías azuki dulces (de lata, o cocidas y endulzadas de antemano) si quieres, y cúbrelos con una montaña de cubitos de hielo picados en la batidora.", "it": "Dividi gli spaghettini in quattro ciotole, con i fagioli azuki dolci (in scatola, o cotti e zuccherati in anticipo) se ti va, poi coprili con una montagnola di cubetti di ghiaccio tritati nel frullatore."}},
+    {"text": {"fr": "Arrosez de lait de coco, nappez généreusement de sirop de sucre de palme et servez aussitôt.", "en": "Pour over the coconut milk, drizzle generously with the palm-sugar syrup and serve straight away.", "es": "Riega con la leche de coco, napa generosamente con el almíbar de azúcar de palma y sirve enseguida.", "it": "Irrora con il latte di cocco, completa con abbondante sciroppo di zucchero di palma e servi subito."}}
+  ]
+}

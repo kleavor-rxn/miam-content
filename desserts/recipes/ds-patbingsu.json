@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-patbingsu",
+  "title": {"fr": "Patbingsu", "en": "Patbingsu", "es": "Patbingsu", "it": "Patbingsu"},
+  "summary": {
+    "fr": "La glace pilée de l'été coréen : une neige de lait fondante, coiffée de haricots rouges sucrés, de petits gâteaux de riz moelleux et d'un filet de lait concentré.",
+    "en": "Korea's summer shaved ice: a melting snow of frozen milk, crowned with sweet red beans, chewy little rice cakes and a drizzle of condensed milk.",
+    "es": "El hielo raspado del verano coreano: una nieve de leche que se deshace en la boca, coronada con judías rojas dulces, pequeños pasteles de arroz elásticos y un hilo de leche condensada.",
+    "it": "Il ghiaccio tritato dell'estate coreana: una neve di latte che si scioglie in bocca, completata con fagioli rossi dolci, piccoli tortini di riso gommosi e un filo di latte condensato."
+  },
+  "story": {
+    "fr": "Bingsu signifie « glace pilée » en coréen, et pat désigne les haricots rouges. Sous la dynastie Joseon, la glace taillée l'hiver dans les rivières gelées était conservée dans des glacières de pierre, les seokbinggo, dont celle de Gyeongju se visite encore. La version aux haricots rouges sucrés, souvent rapprochée du kakigōri japonais, est devenue le grand dessert de l'été coréen : on la partage dans un grand bol, avec des tteok, du lait concentré et souvent de la farine de soja torréfié. Les cafés la servent aujourd'hui volontiers sur une neige de lait plutôt que de glace d'eau.",
+    "en": "Bingsu means 'shaved ice' in Korean, and pat refers to red beans. Under the Joseon dynasty, ice cut from frozen rivers in winter was kept in stone ice houses called seokbinggo, and the one in Gyeongju can still be visited. The sweet red bean version, often compared with Japanese kakigōri, has become the great dessert of the Korean summer: it is shared from a large bowl, with tteok, condensed milk and often roasted soybean powder. Cafés now tend to serve it on a snow of frozen milk rather than water ice.",
+    "es": "Bingsu significa «hielo raspado» en coreano, y pat designa las judías rojas. Durante la dinastía Joseon, el hielo cortado en invierno en los ríos helados se conservaba en neveras de piedra, los seokbinggo, y la de Gyeongju todavía se puede visitar. La versión con judías rojas dulces, que a menudo se compara con el kakigōri japonés, se ha convertido en el gran postre del verano coreano: se comparte en un bol grande, con tteok, leche condensada y a menudo harina de soja tostada. Hoy las cafeterías suelen servirla sobre una nieve de leche en lugar de hielo de agua.",
+    "it": "Bingsu significa «ghiaccio tritato» in coreano, e pat indica i fagioli rossi. Sotto la dinastia Joseon il ghiaccio tagliato d'inverno nei fiumi gelati veniva conservato in ghiacciaie di pietra, le seokbinggo, e quella di Gyeongju si può ancora visitare. La versione con i fagioli rossi dolci, spesso accostata al kakigōri giapponese, è diventata il grande dolce dell'estate coreana: si condivide in una grande ciotola, con tteok, latte condensato e spesso farina di soia tostata. Oggi i caffè la servono volentieri su una neve di latte invece che di ghiaccio d'acqua."
+  },
+  "region": {"fr": "Corée du Sud", "en": "South Korea", "es": "Corea del Sur", "it": "Corea del Sud"},
+  "origin": {"countries": ["KR"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": ["ete"],
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 5,
+  "servings": 4,
+  "heroImage": "images/ds-patbingsu/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 60, "unit": "cl"},
+    {"ref": "lait-concentre-sucre", "quantity": 12, "unit": "tbsp"},
+    {"ref": "farine-de-riz-gluant", "quantity": 60, "unit": "g"},
+    {"ref": "sucre", "quantity": 10, "unit": "g"},
+    {"ref": "eau", "quantity": 5, "unit": "cl"},
+    {"ref": "pate-de-haricots-rouges", "quantity": 300, "unit": "g", "substitutes": ["haricot-azuki"]},
+    {"ref": "farine-de-soja-grillee", "quantity": 2, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Fouettez le lait avec 4 cuillerées à soupe de lait concentré sucré, versez dans des bacs à glaçons et laissez prendre au congélateur au moins 5 heures, idéalement la veille.", "en": "Whisk the milk with 4 tablespoons of the condensed milk, pour into ice-cube trays and freeze for at least 5 hours, ideally overnight.", "es": "Bate la leche con 4 cucharadas de leche condensada, viértela en cubiteras y deja que se congele al menos 5 horas, idealmente desde el día anterior.", "it": "Sbatti il latte con 4 cucchiai di latte condensato, versalo nelle vaschette del ghiaccio e lascialo congelare per almeno 5 ore, meglio dal giorno prima."}, "timerMinutes": 300},
+    {"text": {"fr": "Mélangez la farine de riz gluant et le sucre, puis ajoutez 5 cl d'eau chaude petit à petit en pétrissant, jusqu'à obtenir une pâte lisse et souple qui ne colle pas.", "en": "Mix the glutinous rice flour and sugar, then gradually knead in 5 cl of hot water until you have a smooth, pliable dough that doesn't stick.", "es": "Mezcla la harina de arroz glutinoso y el azúcar, y añade 5 cl de agua caliente poco a poco mientras amasas, hasta obtener una masa lisa y flexible que no se pegue.", "it": "Mescola la farina di riso glutinoso e lo zucchero, poi aggiungi poco alla volta 5 cl d'acqua calda impastando, fino a ottenere un impasto liscio ed elastico che non si attacchi."}},
+    {"text": {"fr": "Roulez la pâte en petites billes d'environ 1,5 cm.", "en": "Roll the dough into small balls about 1.5 cm across.", "es": "Forma con la masa bolitas de 1,5 cm aproximadamente.", "it": "Forma con l'impasto delle palline di circa 1,5 cm."}},
+    {"text": {"fr": "Portez une grande casserole d'eau à ébullition et faites-y cuire les billes jusqu'à ce qu'elles remontent à la surface, puis 1 minute de plus.", "en": "Bring a large pan of water to the boil and cook the balls until they float to the surface, then for 1 minute more.", "es": "Lleva a ebullición una olla grande de agua y cuece las bolitas hasta que suban a la superficie, y luego 1 minuto más.", "it": "Porta a bollore una pentola capiente d'acqua e cuoci le palline finché salgono a galla, poi ancora 1 minuto."}, "timerMinutes": 3},
+    {"text": {"fr": "Égouttez-les et rafraîchissez-les sous l'eau froide pour qu'elles restent moelleuses et ne collent pas entre elles.", "en": "Drain them and rinse under cold running water so they stay soft and don't stick together.", "es": "Escúrrelas y pásalas por agua fría para que queden tiernas y no se peguen entre sí.", "it": "Scolale e passale sotto l'acqua fredda perché restino morbide e non si attacchino tra loro."}},
+    {"text": {"fr": "Placez quatre bols au congélateur pendant 15 minutes.", "en": "Put four bowls in the freezer for 15 minutes.", "es": "Mete cuatro boles en el congelador durante 15 minutos.", "it": "Metti quattro ciotole in freezer per 15 minuti."}, "timerMinutes": 15},
+    {"text": {"fr": "Réduisez les glaçons de lait en neige fine au mixeur, par petites quantités, ou avec une machine à glace pilée.", "en": "Blitz the milk ice cubes a few at a time in a blender, or use an ice shaver, until they look like fine snow.", "es": "Tritura los cubitos de leche en la batidora, poco a poco, o con una máquina de hielo raspado, hasta convertirlos en nieve fina.", "it": "Riduci i cubetti di latte in neve fine nel frullatore, pochi alla volta, o con una macchina tritaghiaccio."}},
+    {"text": {"fr": "Répartissez la neige de lait en dôme dans les bols glacés.", "en": "Pile the milk snow into domes in the chilled bowls.", "es": "Reparte la nieve de leche en los boles fríos, formando una cúpula.", "it": "Distribuisci la neve di latte a cupola nelle ciotole ghiacciate."}},
+    {"text": {"fr": "Coiffez chaque bol de 75 g de pâte de haricots rouges, de préférence en grains, et de quelques tteok.", "en": "Top each bowl with 75 g of red bean paste, preferably the chunky kind, and a few rice cakes.", "es": "Corona cada bol con 75 g de pasta de judías rojas, mejor con los granos enteros, y unos cuantos tteok.", "it": "Completa ogni ciotola con 75 g di pasta di fagioli rossi, meglio se con i chicchi interi, e qualche tteok."}},
+    {"text": {"fr": "Arrosez chaque bol de 2 cuillerées à soupe de lait concentré sucré, saupoudrez de farine de soja torréfié si vous le souhaitez et servez aussitôt.", "en": "Drizzle each bowl with 2 tablespoons of condensed milk, dust with roasted soybean powder if you like and serve at once.", "es": "Riega cada bol con 2 cucharadas de leche condensada, espolvorea harina de soja tostada si quieres y sirve enseguida.", "it": "Irrora ogni ciotola con 2 cucchiai di latte condensato, spolvera con farina di soia tostata, se ti va, e servi subito."}}
+  ]
+}
