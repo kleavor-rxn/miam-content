@@ -110,6 +110,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-baesuk",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "f6cd8df4f57a48736e017abb50e91e800966b9e397b7e6601dd2ea1df2b7ba77",
+      "title": {
+        "fr": "Baesuk",
+        "en": "Baesuk",
+        "es": "Baesuk",
+        "it": "Baesuk"
+      },
+      "heroImage": "images/ds-baesuk/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
       "id": "ds-baghrir",
       "updatedAt": "2026-10-23T19:26:05Z",
       "contentHash": "1c7e4c2312380fe88ba255ed70e35cc6f3c71afa29f68a123776952b8aee7101",
@@ -223,6 +240,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-bint-al-sahn",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "6e84bbf8d6aa29144f2913005b70f0fb5a725a09aea1b72f4d12a3813ee61a92",
+      "title": {
+        "fr": "Bint al-sahn",
+        "en": "Bint al-sahn",
+        "es": "Bint al-sahn",
+        "it": "Bint al-sahn"
+      },
+      "heroImage": "images/ds-bint-al-sahn/hero.webp",
+      "tags": [],
+      "totalMinutes": 95,
+      "difficulty": 2
+    },
+    {
       "id": "ds-bolo-de-bolacha",
       "updatedAt": "2026-10-23T19:26:05Z",
       "contentHash": "9f62cb459096e6cde3df3a2db4ffc869e6db7810521623d73e7e0e18c510c969",
@@ -289,6 +321,23 @@
       ],
       "totalMinutes": 50,
       "difficulty": 1
+    },
+    {
+      "id": "ds-caramel-apples",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "cabd1527c262ca04f40de280d536095010e3a834dbb1d0405e85007599af2c40",
+      "title": {
+        "fr": "Pommes au caramel",
+        "en": "Caramel apples",
+        "es": "Manzanas con caramelo",
+        "it": "Mele ricoperte di caramello"
+      },
+      "heroImage": "images/ds-caramel-apples/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
     },
     {
       "id": "ds-cascos-de-guayaba",
@@ -641,6 +690,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-gateau-de-kyiv",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "230215be13e964a4763006e20085f93dc8c989d6e91a7367ccd2de0616190df5",
+      "title": {
+        "fr": "Gâteau de Kyiv",
+        "en": "Kyiv cake",
+        "es": "Tarta Kiev",
+        "it": "Torta Kiev"
+      },
+      "heroImage": "images/ds-gateau-de-kyiv/hero.webp",
+      "tags": [],
+      "totalMinutes": 160,
+      "difficulty": 3
+    },
+    {
       "id": "ds-gateau-de-lune",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "b033b112956dd7ddc5351d2c12c926af386649918967bf65c94de7a30e89243a",
@@ -869,6 +933,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-koba",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "83e9429cf97d3d603fca547b93f36dc7d0129052e4edd3673ee58e85ce9f43d0",
+      "title": {
+        "fr": "Koba",
+        "en": "Koba",
+        "es": "Koba",
+        "it": "Koba"
+      },
+      "heroImage": "images/ds-koba/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 220,
+      "difficulty": 2
+    },
+    {
       "id": "ds-kransekake",
       "updatedAt": "2026-10-23T19:26:50Z",
       "contentHash": "191caa7e571e1dc69daf3fc5cb2caf07d2ba71d0a39ddfc07066f2864a432ca9",
@@ -948,6 +1029,21 @@
       "difficulty": 3
     },
     {
+      "id": "ds-linzer-torte",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "4f6342028e1eeaa4f78876eab713623413abec5c6b97af534b5677c0be465752",
+      "title": {
+        "fr": "Linzer Torte",
+        "en": "Linzer torte",
+        "es": "Tarta Linzer",
+        "it": "Linzer Torte"
+      },
+      "heroImage": "images/ds-linzer-torte/hero.webp",
+      "tags": [],
+      "totalMinutes": 95,
+      "difficulty": 2
+    },
+    {
       "id": "ds-loukoum",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "b0558e7648e13006e5d91866d67f9787d8ce1a9c212546be6f6b803232ce0cc5",
@@ -962,6 +1058,21 @@
         "noBake"
       ],
       "totalMinutes": 135,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-love-cake",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "0fc3a0abd48ec5db492e04ba15a2cf32d376f07053e9dd47674ebd30889cf90f",
+      "title": {
+        "fr": "Love cake",
+        "en": "Love cake",
+        "es": "Love cake",
+        "it": "Love cake"
+      },
+      "heroImage": "images/ds-love-cake/hero.webp",
+      "tags": [],
+      "totalMinutes": 125,
       "difficulty": 2
     },
     {
@@ -1287,6 +1398,21 @@
       "difficulty": 1
     },
     {
+      "id": "ds-pain-patate",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "d785b01da35d31f29a02c5391c1ec0e61b34b285d9d00f0cca9b09c914e871e8",
+      "title": {
+        "fr": "Pain patate",
+        "en": "Pain patate",
+        "es": "Pain patate",
+        "it": "Pain patate"
+      },
+      "heroImage": "images/ds-pain-patate/hero.webp",
+      "tags": [],
+      "totalMinutes": 120,
+      "difficulty": 1
+    },
+    {
       "id": "ds-panettone",
       "updatedAt": "2026-10-23T19:26:41Z",
       "contentHash": "eba3d73c2619e335a8d749181bd50949c290c6e506e4ae93d997f15963d57ca3",
@@ -1526,6 +1652,21 @@
       "difficulty": 3
     },
     {
+      "id": "ds-sanwin-makin",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "c9c7d4d53f8b4f1162997ecc778afe1420baa90ad5c3adab08f289351db344f3",
+      "title": {
+        "fr": "Sanwin makin",
+        "en": "Sanwin makin",
+        "es": "Sanwin makin",
+        "it": "Sanwin makin"
+      },
+      "heroImage": "images/ds-sanwin-makin/hero.webp",
+      "tags": [],
+      "totalMinutes": 90,
+      "difficulty": 2
+    },
+    {
       "id": "ds-sel-roti",
       "updatedAt": "2026-10-23T18:49:52Z",
       "contentHash": "6b3ac502194c584bd5888c5d9ae74a812a473d4f476e255799af6d0138176e2c",
@@ -1609,6 +1750,21 @@
       ],
       "totalMinutes": 40,
       "difficulty": 2
+    },
+    {
+      "id": "ds-tarta-de-santiago",
+      "updatedAt": "2026-10-23T19:26:51Z",
+      "contentHash": "1212aeb65829b3d7885db9932a00172c8a83cec76b62c1aedf3c85b5528c0bab",
+      "title": {
+        "fr": "Tarta de Santiago",
+        "en": "Tarta de Santiago",
+        "es": "Tarta de Santiago",
+        "it": "Tarta de Santiago"
+      },
+      "heroImage": "images/ds-tarta-de-santiago/hero.webp",
+      "tags": [],
+      "totalMinutes": 60,
+      "difficulty": 1
     },
     {
       "id": "ds-tarte-tatin",
@@ -1776,7 +1932,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "cfb3a002ac7b03e0abee7b4674650d2523d89fbf941beb0d1cadc65872800853",
+    "ingredients.json": "e557bbf57550d7baf6b30a350dd1a9c5fac5864633b7a33ec96e3a3c0e43e8cc",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },

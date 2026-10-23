@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-tarta-de-santiago",
+  "title": {"fr": "Tarta de Santiago", "en": "Tarta de Santiago", "es": "Tarta de Santiago", "it": "Tarta de Santiago"},
+  "summary": {
+    "fr": "Le gâteau aux amandes de Galice, sans farine, parfumé au zeste de citron et marqué au sucre glace de la croix de Saint-Jacques.",
+    "en": "Galicia's flourless almond cake, scented with lemon zest and marked with the cross of St James in icing sugar.",
+    "es": "La tarta de almendra gallega, sin harina, perfumada con ralladura de limón y marcada con la cruz de Santiago en azúcar glas.",
+    "it": "La torta di mandorle della Galizia, senza farina, profumata alla scorza di limone e segnata con la croce di San Giacomo in zucchero a velo."
+  },
+  "story": {
+    "fr": "La tarta de Santiago est le gâteau aux amandes de Galice, indissociable de Saint-Jacques-de-Compostelle, où s'achève le pèlerinage du même nom. Sa pâte ne contient pas de farine : seulement des amandes, du sucre et des œufs, parfumés de zeste de citron. Dans les années 1920, la pâtisserie Casa Mora, à Compostelle, a commencé à la décorer de la croix de l'ordre de Santiago dessinée au sucre glace, et ce décor est devenu sa signature. Elle bénéficie aujourd'hui d'une indication géographique protégée (IGP) européenne, qui exige au moins un tiers d'amandes.",
+    "en": "Tarta de Santiago is Galicia's almond cake, inseparable from Santiago de Compostela, where the pilgrimage of the same name ends. Its batter contains no flour: just almonds, sugar and eggs, scented with lemon zest. In the 1920s the Casa Mora pastry shop in Santiago began decorating it with the cross of the Order of Santiago in icing sugar, and the design became its signature. It now holds European protected geographical indication (PGI) status, which requires a minimum of one third almonds.",
+    "es": "La tarta de Santiago es la tarta de almendra de Galicia, inseparable de Santiago de Compostela, donde termina el camino que lleva su nombre. Su masa no lleva harina: solo almendra, azúcar y huevos, perfumados con ralladura de limón. En los años veinte, la pastelería Casa Mora, en Compostela, empezó a decorarla con la cruz de la orden de Santiago dibujada en azúcar glas, y ese adorno se convirtió en su seña de identidad. Hoy está amparada por una indicación geográfica protegida (IGP) europea, que exige al menos un tercio de almendra.",
+    "it": "La tarta de Santiago è la torta di mandorle della Galizia, inseparabile da Santiago de Compostela, dove si conclude il celebre cammino. Il suo impasto non contiene farina: solo mandorle, zucchero e uova, profumati alla scorza di limone. Negli anni Venti la pasticceria Casa Mora, a Compostela, cominciò a decorarla con la croce dell'ordine di Santiago disegnata con lo zucchero a velo, e quel decoro è diventato il suo segno distintivo. Oggi è tutelata da un'indicazione geografica protetta (IGP) europea, che impone almeno un terzo di mandorle."
+  },
+  "region": {"fr": "Galice", "en": "Galicia", "es": "Galicia", "it": "Galizia"},
+  "origin": {"countries": ["ES"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 8,
+  "heroImage": "images/ds-tarta-de-santiago/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 10, "unit": "g"},
+    {"ref": "oeuf", "quantity": 5, "unit": "piece"},
+    {"ref": "sucre", "quantity": 250, "unit": "g"},
+    {"ref": "poudre-d-amande", "quantity": 250, "unit": "g"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "cannelle", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "sucre-glace", "quantity": 2, "unit": "tbsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Beurrez un moule rond de 24 cm et tapissez-en le fond d'un disque de papier cuisson.", "en": "Butter a 24 cm round tin and line the base with a disc of baking paper.", "es": "Unta con la mantequilla un molde redondo de 24 cm y forra el fondo con un disco de papel de horno.", "it": "Imburra uno stampo rotondo da 24 cm e foderane il fondo con un disco di carta forno."}},
+    {"text": {"fr": "Dans un grand bol, fouettez les 5 œufs avec le sucre pendant 3 minutes, jusqu'à ce que le mélange blanchisse et devienne mousseux.", "en": "In a large bowl, whisk the 5 eggs with the sugar for 3 minutes, until pale and frothy.", "es": "En un bol grande, bate los 5 huevos con el azúcar durante 3 minutos, hasta que la mezcla blanquee y esté espumosa.", "it": "In una ciotola capiente sbatti le 5 uova con lo zucchero per 3 minuti, finché il composto è chiaro e spumoso."}, "timerMinutes": 3},
+    {"text": {"fr": "Ajoutez la poudre d'amande, le zeste finement râpé du citron et, si vous le souhaitez, la cannelle, puis mélangez à la spatule jusqu'à obtenir une pâte homogène.", "en": "Add the ground almonds, the finely grated lemon zest and the cinnamon, if you like, then stir with a spatula until evenly combined.", "es": "Añade la almendra molida, la ralladura fina del limón y, si quieres, la canela, y mezcla con una espátula hasta obtener una masa homogénea.", "it": "Aggiungi la farina di mandorle, la scorza di limone grattugiata finemente e, se ti va, la cannella, poi mescola con una spatola fino a ottenere un composto omogeneo."}},
+    {"text": {"fr": "Versez la pâte dans le moule et lissez la surface.", "en": "Pour the batter into the tin and smooth the top.", "es": "Vierte la masa en el molde y alisa la superficie.", "it": "Versa il composto nello stampo e livella la superficie."}},
+    {"text": {"fr": "Faites cuire 35 à 40 minutes, jusqu'à ce que le gâteau soit bien doré et qu'une lame plantée au centre ressorte sèche.", "en": "Bake for 35 to 40 minutes, until golden brown and a knife inserted in the centre comes out clean.", "es": "Hornea de 35 a 40 minutos, hasta que la tarta esté bien dorada y un cuchillo clavado en el centro salga limpio.", "it": "Inforna per 35-40 minuti, finché la torta è ben dorata e uno stecchino infilato al centro esce asciutto."}, "timerMinutes": 40},
+    {"text": {"fr": "Laissez refroidir le gâteau dans son moule environ 1 heure, puis démoulez-le sur le plat de service.", "en": "Leave the cake to cool in its tin for about 1 hour, then turn it out onto a serving plate.", "es": "Deja enfriar la tarta en el molde aproximadamente 1 hora y desmóldala sobre la fuente de servir.", "it": "Lascia raffreddare la torta nello stampo per circa 1 ora, poi sformala sul piatto da portata."}, "timerMinutes": 60},
+    {"text": {"fr": "Posez au centre un pochoir en forme de croix de Saint-Jacques découpé dans du papier, saupoudrez toute la surface de sucre glace à travers une petite passoire, puis soulevez délicatement le pochoir.", "en": "Lay a paper stencil of the cross of St James in the centre, dust the whole top with icing sugar through a small sieve, then carefully lift the stencil off.", "es": "Coloca en el centro una plantilla de papel con la forma de la cruz de Santiago, espolvorea toda la superficie con azúcar glas pasándolo por un colador pequeño y retira la plantilla con cuidado.", "it": "Appoggia al centro una mascherina di carta a forma di croce di San Giacomo, spolvera tutta la superficie di zucchero a velo con un colino, poi solleva delicatamente la mascherina."}}
+  ]
+}
