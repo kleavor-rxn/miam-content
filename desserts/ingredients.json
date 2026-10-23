@@ -113,7 +113,23 @@
     {"id": "griotte", "names": {"fr": "Griottes", "en": "Morello cherries", "es": "Guindas", "it": "Amarene"}, "category": "fruits", "staple": false, "substitutes": ["cerise"], "contains": [], "animal": false},
     {"id": "kiwi", "names": {"fr": "Kiwi", "en": "Kiwi fruit", "es": "Kiwi", "it": "Kiwi"}, "category": "fruits", "staple": false, "contains": [], "animal": false},
     {"id": "jacquier", "names": {"fr": "Jacquier au sirop", "en": "Jackfruit in syrup", "es": "Yaca en almíbar", "it": "Jackfruit sciroppato"}, "category": "fruits", "staple": false, "substitutes": ["mangue"], "contains": [], "animal": false},
-    {"id": "banane-plantain", "names": {"fr": "Banane plantain", "en": "Plantain", "es": "Plátano macho", "it": "Banana platano"}, "category": "fruits", "staple": false, "substitutes": ["banane"], "contains": [], "animal": false}
+    {"id": "banane-plantain", "names": {"fr": "Banane plantain", "en": "Plantain", "es": "Plátano macho", "it": "Banana platano"}, "category": "fruits", "staple": false, "substitutes": ["banane"], "contains": [], "animal": false},
+    {"id": "farine-de-riz", "names": {"fr": "Farine de riz", "en": "Rice flour", "es": "Harina de arroz", "it": "Farina di riso"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
+    {"id": "feuille-de-pandan", "names": {"fr": "Feuilles de pandan", "en": "Pandan leaves", "es": "Hojas de pandan", "it": "Foglie di pandan"}, "category": "herbes-epices", "staple": false, "substitutes": ["extrait-de-pandan"], "contains": [], "animal": false},
+    {"id": "extrait-de-pandan", "names": {"fr": "Extrait de pandan", "en": "Pandan extract", "es": "Extracto de pandan", "it": "Estratto di pandan"}, "category": "epicerie", "staple": false, "substitutes": ["feuille-de-pandan"], "contains": [], "animal": false},
+    {"id": "semoule-de-ble", "names": {"fr": "Semoule de blé", "en": "Semolina", "es": "Sémola de trigo", "it": "Semolino"}, "category": "epicerie", "staple": false, "contains": ["gluten"], "animal": false},
+    {"id": "couscous-de-mil", "names": {"fr": "Couscous de mil", "en": "Millet couscous", "es": "Cuscús de mijo", "it": "Couscous di miglio"}, "category": "feculents", "staple": false, "substitutes": ["semoule-de-ble"], "contains": [], "animal": false},
+    {"id": "raisins-secs", "names": {"fr": "Raisins secs", "en": "Raisins", "es": "Pasas", "it": "Uvetta"}, "category": "fruits", "staple": false, "contains": [], "animal": false},
+    {"id": "chapelure", "names": {"fr": "Chapelure", "en": "Breadcrumbs", "es": "Pan rallado", "it": "Pangrattato"}, "category": "boulangerie", "staple": false, "contains": ["gluten"], "animal": false},
+    {"id": "babeurre", "names": {"fr": "Babeurre", "en": "Buttermilk", "es": "Suero de mantequilla", "it": "Latticello"}, "category": "produits-laitiers", "staple": false, "substitutes": ["lait", "yaourt-nature"], "contains": ["lait"], "animal": true},
+    {"id": "chhena", "names": {"fr": "Chhena (caillé frais)", "en": "Chhena (fresh curd cheese)", "es": "Chhena (cuajada fresca)", "it": "Chhena (cagliata fresca)"}, "category": "produits-laitiers", "staple": false, "substitutes": ["ricotta"], "contains": ["lait"], "animal": true},
+    {"id": "noix-de-cajou", "names": {"fr": "Noix de cajou", "en": "Cashew", "es": "Anacardo", "it": "Anacardo"}, "category": "epicerie", "staple": false, "contains": ["fruits-a-coque"], "animal": false},
+    {"id": "farine-de-soja-grillee", "names": {"fr": "Farine de soja torréfié", "en": "Roasted soybean powder", "es": "Harina de soja tostada", "it": "Farina di soia tostata"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
+    {"id": "papier-azyme", "names": {"fr": "Papier azyme", "en": "Edible wafer paper", "es": "Oblea", "it": "Carta ostia"}, "category": "boulangerie", "staple": false, "contains": ["gluten"], "animal": false},
+    {"id": "cognac", "names": {"fr": "Cognac", "en": "Brandy", "es": "Coñac", "it": "Brandy"}, "category": "epicerie", "staple": false, "substitutes": ["rhum"], "contains": [], "animal": false},
+    {"id": "mahaleb", "names": {"fr": "Mahaleb", "en": "Mahlab", "es": "Mahlab", "it": "Mahlab"}, "category": "herbes-epices", "staple": false, "contains": [], "animal": false},
+    {"id": "pate-de-dattes", "names": {"fr": "Pâte de dattes", "en": "Date paste", "es": "Pasta de dátiles", "it": "Pasta di datteri"}, "category": "epicerie", "staple": false, "contains": [], "animal": false},
+    {"id": "cacahuete", "names": {"fr": "Cacahuète", "en": "Peanut", "es": "Cacahuete", "it": "Arachide"}, "category": "epicerie", "staple": false, "contains": ["arachide"], "animal": false}
   ],
   "featured": [
     {"id": "chocolat", "names": {"fr": "Chocolat", "en": "Chocolate", "es": "Chocolate", "it": "Cioccolato"}, "emoji": "🍫", "members": ["chocolat-noir", "chocolat-au-lait", "chocolat-blanc", "cacao", "vermicelles-chocolat"]},
@@ -131,9 +147,9 @@
     {"id": "miel", "names": {"fr": "Miel", "en": "Honey", "es": "Miel", "it": "Miele"}, "emoji": "🍯", "members": ["miel"]},
     {"id": "caramel", "names": {"fr": "Caramel", "en": "Caramel", "es": "Caramelo", "it": "Caramello"}, "emoji": "🍬", "members": ["caramel", "confiture-de-lait", "sucre-pour-caramel"]},
     {"id": "cafe", "names": {"fr": "Café et thé", "en": "Coffee & tea", "es": "Café y té", "it": "Caffè e tè"}, "emoji": "☕", "members": ["cafe", "the", "matcha"]},
-    {"id": "epices", "names": {"fr": "Épices", "en": "Spices", "es": "Especias", "it": "Spezie"}, "emoji": "🫚", "members": ["cannelle", "cardamome", "gingembre", "muscade", "clou-de-girofle", "anis-etoile", "safran"]},
-    {"id": "riz", "names": {"fr": "Riz", "en": "Rice", "es": "Arroz", "it": "Riso"}, "emoji": "🍚", "members": ["riz", "riz-gluant", "farine-de-riz-gluant"]},
-    {"id": "fromage-frais", "names": {"fr": "Fromage frais", "en": "Soft cheese", "es": "Queso fresco", "it": "Formaggio fresco"}, "emoji": "🧀", "members": ["mascarpone", "ricotta", "fromage-blanc", "fromage-frais-a-tartiner"]},
+    {"id": "epices", "names": {"fr": "Épices", "en": "Spices", "es": "Especias", "it": "Spezie"}, "emoji": "🫚", "members": ["cannelle", "cardamome", "gingembre", "muscade", "clou-de-girofle", "anis-etoile", "safran", "mahaleb"]},
+    {"id": "riz", "names": {"fr": "Riz", "en": "Rice", "es": "Arroz", "it": "Riso"}, "emoji": "🍚", "members": ["riz", "riz-gluant", "farine-de-riz-gluant", "farine-de-riz"]},
+    {"id": "fromage-frais", "names": {"fr": "Fromage frais", "en": "Soft cheese", "es": "Queso fresco", "it": "Formaggio fresco"}, "emoji": "🧀", "members": ["mascarpone", "ricotta", "fromage-blanc", "fromage-frais-a-tartiner", "chhena"]},
     {"id": "lait-concentre", "names": {"fr": "Lait concentré", "en": "Condensed milk", "es": "Leche condensada", "it": "Latte condensato"}, "emoji": "🥫", "members": ["lait-concentre-sucre", "lait-concentre-non-sucre"]}
   ]
 }
