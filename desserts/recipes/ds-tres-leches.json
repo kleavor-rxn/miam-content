@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-tres-leches",
+  "title": {"fr": "Tres leches", "en": "Tres leches cake", "es": "Pastel de tres leches", "it": "Torta tres leches"},
+  "summary": {
+    "fr": "Une génoise légère gorgée de trois laits, fraîche et fondante, sous un nuage de crème fouettée.",
+    "en": "A light sponge soaked through with three kinds of milk, cool and meltingly tender under a cloud of whipped cream.",
+    "es": "Un bizcocho ligero empapado en tres leches, fresco y jugoso, bajo una nube de nata montada.",
+    "it": "Un pan di Spagna leggero imbevuto di tre tipi di latte, fresco e morbidissimo sotto una nuvola di panna montata."
+  },
+  "story": {
+    "fr": "Ce gâteau doit son nom aux trois laits dont on l'imbibe : lait concentré sucré, lait concentré non sucré et crème. Son origine est disputée : le Nicaragua en fait l'un de ses desserts emblématiques, le Mexique le revendique aussi, et on le trouve dans toute l'Amérique latine. Sa diffusion est souvent associée aux laits en conserve, devenus courants dans la région au XXe siècle. Selon les pays, on le couvre de crème fouettée ou de meringue.",
+    "en": "The cake takes its name from the three milks it is soaked in: sweetened condensed milk, evaporated milk and cream. Its origin is disputed: Nicaragua counts it among its signature desserts, Mexico claims it too, and it is found all over Latin America. Its spread is often linked to tinned milk, which became widely available in the region during the 20th century. Depending on the country, it is topped with whipped cream or meringue.",
+    "es": "Este pastel debe su nombre a las tres leches con las que se empapa: leche condensada, leche evaporada y nata. Su origen es discutido: Nicaragua lo cuenta entre sus postres emblemáticos, México también lo reivindica y se encuentra en toda América Latina. Su difusión suele asociarse a las leches enlatadas, que se volvieron habituales en la región durante el siglo XX. Según el país, se cubre con nata montada o con merengue.",
+    "it": "Questa torta deve il nome ai tre tipi di latte di cui è imbevuta: latte condensato zuccherato, latte evaporato e panna. La sua origine è contesa: il Nicaragua la annovera tra i suoi dolci simbolo, il Messico la rivendica a sua volta e la si trova in tutta l'America Latina. La sua diffusione viene spesso collegata al latte in scatola, diventato di uso comune nella regione nel corso del Novecento. A seconda del paese, la si ricopre di panna montata o di meringa."
+  },
+  "region": {"fr": "Nicaragua et Mexique", "en": "Nicaragua and Mexico", "es": "Nicaragua y México", "it": "Nicaragua e Messico"},
+  "origin": {"countries": ["NI", "MX"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 25,
+  "servings": 12,
+  "heroImage": "images/ds-tres-leches/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 5, "unit": "piece"},
+    {"ref": "sucre", "quantity": 225, "unit": "g"},
+    {"ref": "lait", "quantity": 8, "unit": "cl"},
+    {"ref": "vanille", "quantity": 2, "unit": "tsp"},
+    {"ref": "farine", "quantity": 125, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 1.5, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "lait-concentre-sucre", "quantity": 400, "unit": "g"},
+    {"ref": "lait-concentre-non-sucre", "quantity": 35, "unit": "cl"},
+    {"ref": "creme-liquide", "quantity": 55, "unit": "cl"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C et chemisez de papier cuisson un moule rectangulaire d'environ 23 × 33 cm.", "en": "Preheat the oven to 180 °C and line a rectangular tin of about 23 × 33 cm with baking paper.", "es": "Precalienta el horno a 180 °C y forra con papel de horno un molde rectangular de unos 23 × 33 cm.", "it": "Preriscalda il forno a 180 °C e fodera con carta forno una teglia rettangolare di circa 23 × 33 cm."}},
+    {"text": {"fr": "Séparez les œufs, puis montez les blancs en neige en ajoutant peu à peu 200 g de sucre, jusqu'à obtenir une meringue ferme et brillante.", "en": "Separate the eggs, then whisk the whites, adding 200 g of sugar a little at a time, until you have a firm, glossy meringue.", "es": "Separa los huevos y monta las claras añadiendo poco a poco 200 g de azúcar, hasta obtener un merengue firme y brillante.", "it": "Separa le uova, poi monta gli albumi aggiungendo poco alla volta 200 g di zucchero, fino a ottenere una meringa soda e lucida."}},
+    {"text": {"fr": "Sans cesser de fouetter, incorporez les jaunes un à un, puis le lait et 1 cuillère à café de vanille.", "en": "Still whisking, add the yolks one at a time, followed by the milk and 1 teaspoon of vanilla.", "es": "Sin dejar de batir, incorpora las yemas de una en una y después la leche y 1 cucharadita de vainilla.", "it": "Senza smettere di sbattere, unisci i tuorli uno alla volta, poi il latte e 1 cucchiaino di vaniglia."}},
+    {"text": {"fr": "Tamisez la farine, la levure et le sel au-dessus de l'appareil et incorporez-les délicatement à la spatule, en soulevant la masse.", "en": "Sift the flour, baking powder and salt over the mixture and fold them in gently with a spatula, lifting from underneath.", "es": "Tamiza la harina, la levadura y la sal sobre la mezcla e incorpóralas suavemente con una espátula, con movimientos envolventes.", "it": "Setaccia la farina, il lievito e il sale sul composto e incorporali delicatamente con una spatola, dal basso verso l'alto."}},
+    {"text": {"fr": "Versez la pâte dans le moule et faites cuire 25 minutes : la génoise doit être dorée et la pointe d'un couteau doit en ressortir sèche.", "en": "Pour the batter into the tin and bake for 25 minutes, until the sponge is golden and a skewer comes out clean.", "es": "Vierte la masa en el molde y hornea 25 minutos: el bizcocho debe quedar dorado y un palillo debe salir limpio.", "it": "Versa l'impasto nella teglia e cuoci per 25 minuti: il pan di Spagna deve essere dorato e uno stecchino deve uscirne asciutto."}, "timerMinutes": 25},
+    {"text": {"fr": "Pendant la cuisson, mélangez le lait concentré sucré, le lait concentré non sucré, 25 cl de crème et le reste de vanille.", "en": "While it bakes, mix the condensed milk, evaporated milk, 25 cl of cream and the rest of the vanilla.", "es": "Mientras se hornea, mezcla la leche condensada, la leche evaporada, 25 cl de nata y el resto de la vainilla.", "it": "Durante la cottura, mescola il latte condensato zuccherato, il latte evaporato, 25 cl di panna e la vaniglia rimasta."}},
+    {"text": {"fr": "Piquez toute la surface de la génoise tiède à la fourchette, puis arrosez-la lentement des trois laits, en plusieurs fois, pour qu'elle les absorbe.", "en": "Prick the warm sponge all over with a fork, then slowly pour over the three milks in several goes so that it soaks them up.", "es": "Pincha toda la superficie del bizcocho tibio con un tenedor y riégalo despacio con las tres leches, en varias veces, para que las absorba.", "it": "Bucherella con una forchetta tutta la superficie del pan di Spagna tiepido, poi versaci sopra lentamente i tre latti, in più riprese, perché li assorba."}},
+    {"text": {"fr": "Couvrez et laissez reposer au moins 4 heures au réfrigérateur, idéalement une nuit.", "en": "Cover and leave to rest in the fridge for at least 4 hours, ideally overnight.", "es": "Cubre y deja reposar en la nevera al menos 4 horas, idealmente toda la noche.", "it": "Copri e lascia riposare in frigorifero per almeno 4 ore, meglio una notte intera."}, "timerMinutes": 240},
+    {"text": {"fr": "Fouettez les 30 cl de crème restants avec les 25 g de sucre restants jusqu'à obtenir une chantilly souple.", "en": "Whip the remaining 30 cl of cream with the remaining 25 g of sugar to soft peaks.", "es": "Monta los 30 cl de nata restantes con los 25 g de azúcar restantes hasta que forme picos suaves.", "it": "Monta i 30 cl di panna rimasti con i 25 g di zucchero rimasti fino a ottenere una chantilly morbida."}},
+    {"text": {"fr": "Étalez la chantilly sur le gâteau, saupoudrez de cannelle si vous le souhaitez et servez bien froid, en carrés, directement dans le moule.", "en": "Spread the cream over the cake, dust with cinnamon if you like and serve well chilled, cut into squares straight from the tin.", "es": "Extiende la nata sobre el pastel, espolvorea con canela si quieres y sírvelo bien frío, en cuadrados, directamente del molde.", "it": "Stendi la panna sulla torta, spolvera di cannella se ti piace e servila ben fredda, a quadrotti, direttamente dalla teglia."}}
+  ]
+}

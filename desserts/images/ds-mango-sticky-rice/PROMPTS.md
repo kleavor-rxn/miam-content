@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+A plain white round plate with a loose, low mound of glossy, slightly translucent white sticky rice, its individual plump grains clearly visible and clinging together in a natural, slightly uneven heap. Beside it lie five or six thick, juicy, curved slices of peeled ripe mango fanned out, bright golden yellow with soft glistening flesh and a fine fibrous texture. A thick, creamy white coconut sauce is spooned in a thin ribbon across the rice, with a small amount soaking into the grains, and a few toasted sesame seeds are scattered on top. Seen from a three-quarter angle, with the mango's bright colour contrasting against the white rice.

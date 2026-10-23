@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-halo-halo",
+  "title": {"fr": "Halo-halo", "en": "Halo-halo", "es": "Halo-halo", "it": "Halo-halo"},
+  "summary": {
+    "fr": "Le grand verre glacé des Philippines : bananes confites, haricots sucrés, fruits et gelées sous la glace pilée, arrosés de lait et coiffés de confiture d'igname violette.",
+    "en": "The Philippines' great iced treat: candied bananas, sweet beans, fruit and jellies under shaved ice, splashed with milk and crowned with purple yam jam.",
+    "es": "El gran vaso helado de Filipinas: plátanos confitados, judías dulces, frutas y gelatinas bajo hielo picado, regados con leche y coronados con mermelada de ñame morado.",
+    "it": "Il grande bicchiere ghiacciato delle Filippine: banane caramellate, fagioli dolci, frutta e gelatine sotto il ghiaccio tritato, irrorati di latte e completati con confettura di igname viola."
+  },
+  "story": {
+    "fr": "Son nom signifie « mélange » en tagalog : on remue tout à la cuillère avant de le manger. Dessert des chaleurs de l'été philippin, il superpose fruits et haricots sucrés, gelées, glace pilée et lait concentré non sucré, avec d'innombrables variantes d'une région à l'autre. On le rattache souvent aux glaces pilées aux haricots sucrés que vendaient des immigrés japonais aux Philippines avant la Seconde Guerre mondiale. Il est fréquemment couronné d'ube halaya, une confiture d'igname violette, et d'une boule de glace.",
+    "en": "Its name means 'mix-mix' in Tagalog: you stir everything together with your spoon before eating it. A treat for the hot Philippine summer, it layers sweetened fruit and beans, jellies, shaved ice and evaporated milk, with countless variations from one region to another. It is often traced back to the shaved ice with sweet beans sold by Japanese immigrants in the Philippines before the Second World War. It is frequently crowned with ube halaya, a purple yam jam, and a scoop of ice cream.",
+    "es": "Su nombre significa «mezcla» en tagalo: se remueve todo con la cuchara antes de comerlo. Postre de los calores del verano filipino, superpone frutas y judías dulces, gelatinas, hielo picado y leche evaporada, con innumerables variantes de una región a otra. Suele relacionarse con el hielo raspado con judías dulces que vendían los inmigrantes japoneses en Filipinas antes de la Segunda Guerra Mundial. A menudo se corona con ube halaya, una mermelada de ñame morado, y una bola de helado.",
+    "it": "Il nome significa «mescolanza» in tagalog: si mescola tutto con il cucchiaio prima di mangiarlo. Dolce dei caldi dell'estate filippina, sovrappone frutta e fagioli dolci, gelatine, ghiaccio tritato e latte evaporato, con innumerevoli varianti da una regione all'altra. Lo si fa spesso risalire al ghiaccio tritato con fagioli dolci venduto dagli immigrati giapponesi nelle Filippine prima della Seconda guerra mondiale. Viene spesso completato con ube halaya, una confettura di igname viola, e una pallina di gelato."
+  },
+  "region": {"fr": "Philippines", "en": "Philippines", "es": "Filipinas", "it": "Filippine"},
+  "origin": {"countries": ["PH"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": ["ete"],
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 25,
+  "servings": 4,
+  "heroImage": "images/ds-halo-halo/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "eau", "quantity": 1, "unit": "l"},
+    {"ref": "banane-plantain", "quantity": 2, "unit": "piece", "substitutes": ["banane"]},
+    {"ref": "cassonade", "quantity": 60, "unit": "g"},
+    {"ref": "haricot-azuki", "quantity": 150, "unit": "g", "substitutes": ["pate-de-haricots-rouges"]},
+    {"ref": "sucre", "quantity": 50, "unit": "g"},
+    {"ref": "jacquier", "quantity": 120, "unit": "g"},
+    {"ref": "nata-de-coco", "quantity": 120, "unit": "g"},
+    {"ref": "lait-concentre-non-sucre", "quantity": 20, "unit": "cl"},
+    {"ref": "ube-halaya", "quantity": 4, "unit": "tbsp"},
+    {"ref": "glace-vanille", "quantity": 4, "unit": "piece", "optional": true},
+    {"ref": "riz-souffle", "quantity": 4, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites prendre 85 cl d'eau en glaçons au congélateur, la veille ou au moins 4 heures à l'avance.", "en": "Freeze 85 cl of water into ice cubes the day before, or at least 4 hours ahead.", "es": "Congela 85 cl de agua en cubitos el día anterior o, como mínimo, con 4 horas de antelación.", "it": "Congela 85 cl d'acqua in cubetti di ghiaccio il giorno prima, o almeno 4 ore in anticipo."}, "timerMinutes": 240},
+    {"text": {"fr": "Pelez les bananes plantains et coupez-les en rondelles d'environ 1,5 cm.", "en": "Peel the plantains and cut them into rounds about 1.5 cm thick.", "es": "Pela los plátanos macho y córtalos en rodajas de 1,5 cm aproximadamente.", "it": "Sbuccia le banane platano e tagliale a rondelle di circa 1,5 cm."}},
+    {"text": {"fr": "Faites-les mijoter à feu doux avec la cassonade et 10 cl d'eau, jusqu'à ce qu'elles soient tendres et nappées d'un sirop brun.", "en": "Simmer them gently with the brown sugar and 10 cl of water until tender and coated in a dark syrup.", "es": "Cuécelas a fuego suave con el azúcar moreno y 10 cl de agua, hasta que estén tiernas y cubiertas de un almíbar oscuro.", "it": "Falle sobbollire a fuoco dolce con lo zucchero di canna e 10 cl d'acqua, finché sono tenere e velate da uno sciroppo scuro."}, "timerMinutes": 15},
+    {"text": {"fr": "Dans une autre casserole, faites mijoter les haricots azuki en conserve (ou cuits à l'avance), égouttés, avec le sucre et 5 cl d'eau, en remuant, jusqu'à ce qu'ils soient enrobés d'un sirop épais.", "en": "In another pan, simmer the tinned (or pre-cooked) adzuki beans, drained, with the sugar and 5 cl of water, stirring, until coated in a thick syrup.", "es": "En otro cazo, cuece las judías azuki de bote (o cocidas con antelación), escurridas, con el azúcar y 5 cl de agua, removiendo, hasta que queden envueltas en un almíbar espeso.", "it": "In un altro pentolino, fai sobbollire i fagioli azuki in scatola (o lessati in anticipo), scolati, con lo zucchero e 5 cl d'acqua, mescolando, finché sono avvolti da uno sciroppo denso."}, "timerMinutes": 10},
+    {"text": {"fr": "Laissez refroidir les bananes et les haricots, puis placez-les au réfrigérateur.", "en": "Let the bananas and beans cool, then chill them in the fridge.", "es": "Deja enfriar los plátanos y las judías y guárdalos en la nevera.", "it": "Lascia raffreddare le banane e i fagioli, poi mettili in frigorifero."}, "timerMinutes": 30},
+    {"text": {"fr": "Au moment de servir, pilez les glaçons très finement au mixeur ou au rabot à glace, jusqu'à obtenir une neige.", "en": "When ready to serve, crush the ice cubes very finely in a blender or ice shaver until they look like snow.", "es": "En el momento de servir, pica los cubitos muy finos con la batidora o una raspadora de hielo, hasta que parezcan nieve.", "it": "Al momento di servire, trita finissimo il ghiaccio nel frullatore o con il tritaghiaccio, fino a ridurlo a neve."}},
+    {"text": {"fr": "Répartissez au fond de quatre grands verres les bananes, les haricots, le jacquier et la nata de coco, en couches.", "en": "Layer the bananas, beans, jackfruit and nata de coco in the bottom of four tall glasses.", "es": "Reparte en el fondo de cuatro vasos altos los plátanos, las judías, la yaca y la nata de coco, en capas.", "it": "Distribuisci a strati sul fondo di quattro bicchieri alti le banane, i fagioli, il jackfruit e la nata de coco."}},
+    {"text": {"fr": "Tassez la glace pilée par-dessus jusqu'en haut des verres, en formant un dôme.", "en": "Pack the shaved ice on top, right up to the rim, mounding it into a dome.", "es": "Coloca encima el hielo picado hasta el borde de los vasos, formando una cúpula.", "it": "Copri con il ghiaccio tritato fino all'orlo dei bicchieri, formando una cupola."}},
+    {"text": {"fr": "Arrosez chaque verre de 5 cl de lait concentré non sucré.", "en": "Pour 5 cl of evaporated milk into each glass.", "es": "Riega cada vaso con 5 cl de leche evaporada.", "it": "Versa 5 cl di latte evaporato in ogni bicchiere."}},
+    {"text": {"fr": "Coiffez d'une cuillerée d'ube halaya et, si vous le souhaitez, d'une boule de glace et d'un peu de riz soufflé, puis servez aussitôt avec une longue cuillère.", "en": "Top with a spoonful of ube halaya and, if you like, a scoop of ice cream and a sprinkling of puffed rice, then serve at once with a long spoon.", "es": "Corona con una cucharada de ube halaya y, si quieres, una bola de helado y un poco de arroz inflado, y sirve enseguida con una cuchara larga.", "it": "Completa con un cucchiaio di ube halaya e, se ti piace, una pallina di gelato e un po' di riso soffiato, poi servi subito con un cucchiaino lungo."}}
+  ]
+}

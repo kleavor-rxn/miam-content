@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-churros-con-chocolate",
+  "title": {"fr": "Churros con chocolate", "en": "Churros con chocolate", "es": "Churros con chocolate", "it": "Churros con chocolate"},
+  "summary": {
+    "fr": "Des bâtonnets de pâte frits, croustillants et cannelés, à tremper dans un chocolat chaud si épais qu'il nappe la cuillère : le petit-déjeuner des grands jours en Espagne.",
+    "en": "Crisp, ridged sticks of fried dough for dunking in a hot chocolate so thick it coats the spoon: Spain's breakfast for special days.",
+    "es": "Bastones de masa fritos, crujientes y estriados, para mojar en un chocolate caliente tan espeso que napa la cuchara: el desayuno de los días señalados en España.",
+    "it": "Bastoncini di pasta fritti, croccanti e scanalati, da intingere in una cioccolata calda così densa da velare il cucchiaio: la colazione dei giorni di festa in Spagna."
+  },
+  "story": {
+    "fr": "Les churros espagnols traditionnels ne contiennent que de la farine, de l'eau et du sel ; la pâte est poussée à travers une douille cannelée directement dans l'huile chaude. On les trempe dans le chocolate a la taza, un chocolat chaud épaissi à l'amidon, servi dans les churrerías et les chocolaterías comme la chocolatería San Ginés de Madrid, ouverte en 1894. Le 1er janvier au petit matin, après la nuit de la Saint-Sylvestre, beaucoup d'Espagnols perpétuent la tradition d'aller en manger.",
+    "en": "Traditional Spanish churros contain nothing but flour, water and salt; the dough is piped through a star-shaped nozzle straight into hot oil. They are dunked in chocolate a la taza, a hot chocolate thickened with starch, served in churrerías and chocolaterías such as Madrid's Chocolatería San Ginés, open since 1894. Many Spaniards keep up the tradition of eating them in the early hours of 1 January, after seeing in the New Year.",
+    "es": "Los churros tradicionales españoles solo llevan harina, agua y sal; la masa se hace pasar por una boquilla de estrella directamente al aceite caliente. Se mojan en chocolate a la taza, espesado con almidón, que se sirve en churrerías y chocolaterías como la Chocolatería San Ginés de Madrid, abierta desde 1894. Muchos españoles mantienen la costumbre de tomarlos de madrugada el 1 de enero, después de la Nochevieja.",
+    "it": "I churros spagnoli tradizionali contengono solo farina, acqua e sale; l'impasto viene spinto attraverso una bocchetta a stella direttamente nell'olio bollente. Si intingono nel chocolate a la taza, una cioccolata calda addensata con amido, servita nelle churrerías e nelle chocolaterías come la Chocolatería San Ginés di Madrid, aperta dal 1894. Molti spagnoli mantengono la tradizione di mangiarli all'alba del 1° gennaio, dopo la notte di Capodanno."
+  },
+  "region": {"fr": "Espagne", "en": "Spain", "es": "España", "it": "Spagna"},
+  "origin": {"countries": ["ES"]},
+  "category": "dessert",
+  "dessertType": "beignet",
+  "occasions": ["nouvel-an"],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 4,
+  "heroImage": "images/ds-churros-con-chocolate/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 50, "unit": "cl"},
+    {"ref": "fecule-de-mais", "quantity": 20, "unit": "g"},
+    {"ref": "chocolat-noir", "quantity": 150, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "eau", "quantity": 25, "unit": "cl"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "huile-de-tournesol", "quantity": 1, "unit": "l"}
+  ],
+  "steps": [
+    {"text": {"fr": "Délayez la fécule de maïs dans 10 cl de lait froid.", "en": "Stir the cornflour into 10 cl of cold milk until smooth.", "es": "Disuelve la maicena en 10 cl de leche fría.", "it": "Stempera l'amido di mais in 10 cl di latte freddo."}},
+    {"text": {"fr": "Faites chauffer les 40 cl de lait restants avec le chocolat haché et 50 g de sucre, en remuant jusqu'à ce que le chocolat soit fondu.", "en": "Heat the remaining 40 cl of milk with the chopped chocolate and 50 g of sugar, stirring until the chocolate has melted.", "es": "Calienta los 40 cl de leche restantes con el chocolate troceado y 50 g de azúcar, removiendo hasta que el chocolate se derrita.", "it": "Scalda i 40 cl di latte rimasti con il cioccolato tritato e 50 g di zucchero, mescolando finché il cioccolato si è sciolto."}, "timerMinutes": 5},
+    {"text": {"fr": "Versez la fécule délayée et laissez épaissir à feu doux sans cesser de remuer, jusqu'à ce que le chocolat nappe la cuillère ; gardez-le au chaud à feu très doux.", "en": "Pour in the cornflour mixture and let it thicken over a low heat, stirring constantly, until the chocolate coats the spoon; keep it warm over the lowest heat.", "es": "Añade la maicena disuelta y deja que espese a fuego suave sin dejar de remover, hasta que el chocolate nape la cuchara; mantenlo caliente a fuego mínimo.", "it": "Versa l'amido stemperato e lascia addensare a fuoco dolce mescolando di continuo, finché la cioccolata vela il cucchiaio; tienila in caldo a fuoco minimo."}, "timerMinutes": 5},
+    {"text": {"fr": "Portez l'eau à ébullition avec le sel dans une casserole.", "en": "Bring the water to the boil with the salt in a saucepan.", "es": "Lleva el agua a ebullición con la sal en un cazo.", "it": "Porta a bollore l'acqua con il sale in un pentolino."}},
+    {"text": {"fr": "Hors du feu, jetez la farine d'un coup et travaillez vivement à la cuillère en bois jusqu'à obtenir une pâte lisse, sans grumeaux.", "en": "Off the heat, tip in all the flour at once and beat hard with a wooden spoon until the dough is smooth and lump-free.", "es": "Fuera del fuego, echa la harina de golpe y trabaja enérgicamente con una cuchara de madera hasta obtener una masa lisa y sin grumos.", "it": "Fuori dal fuoco, versa la farina tutta in una volta e lavora energicamente con un cucchiaio di legno fino a ottenere un impasto liscio e senza grumi."}},
+    {"text": {"fr": "Faites chauffer l'huile à 180 °C dans une sauteuse profonde.", "en": "Heat the oil to 180 °C in a deep pan.", "es": "Calienta el aceite a 180 °C en una sartén honda.", "it": "Scalda l'olio a 180 °C in una padella dai bordi alti."}, "timerMinutes": 10},
+    {"text": {"fr": "Garnissez une churrera, ou une poche munie d'une grosse douille cannelée, avec la pâte encore tiède.", "en": "Fill a churro maker, or a piping bag fitted with a large star nozzle, with the still-warm dough.", "es": "Llena una churrera, o una manga pastelera con una boquilla rizada grande, con la masa todavía templada.", "it": "Riempi una churrera, o una tasca da pasticciere con una grossa bocchetta a stella, con l'impasto ancora tiepido."}},
+    {"text": {"fr": "Poussez des bâtonnets de 12 cm directement dans l'huile, coupez-les aux ciseaux et faites-les frire 2 à 3 minutes en les retournant, jusqu'à ce qu'ils soient dorés.", "en": "Pipe 12 cm lengths straight into the oil, snipping them off with scissors, and fry for 2 to 3 minutes, turning, until golden.", "es": "Forma bastones de 12 cm directamente sobre el aceite, córtalos con unas tijeras y fríelos de 2 a 3 minutos, dándoles la vuelta, hasta que estén dorados.", "it": "Spremi bastoncini di 12 cm direttamente nell'olio, tagliandoli con le forbici, e friggili per 2-3 minuti, girandoli, finché sono dorati."}, "timerMinutes": 3},
+    {"text": {"fr": "Égouttez-les sur du papier absorbant et roulez-les dans les 50 g de sucre restants.", "en": "Drain on kitchen paper and roll them in the remaining 50 g of sugar.", "es": "Escúrrelos sobre papel absorbente y rebózalos en los 50 g de azúcar restantes.", "it": "Scolali su carta assorbente e passali nei 50 g di zucchero rimasti."}},
+    {"text": {"fr": "Servez aussitôt, avec le chocolat chaud en tasses pour y tremper les churros.", "en": "Serve straight away, with the hot chocolate in cups for dunking.", "es": "Sirve enseguida, con el chocolate caliente en tazas para mojar los churros.", "it": "Servi subito, con la cioccolata calda nelle tazze per intingere i churros."}}
+  ]
+}
