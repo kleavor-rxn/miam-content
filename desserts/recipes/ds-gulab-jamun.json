@@ -31,7 +31,7 @@
     {"ref": "bicarbonate", "quantity": 0.25, "unit": "tsp"},
     {"ref": "ghee", "quantity": 1, "unit": "tbsp", "substitutes": ["beurre"]},
     {"ref": "lait", "quantity": 60, "unit": "ml"},
-    {"ref": "huile-de-tournesol", "quantity": 50, "unit": "cl"},
+    {"ref": "huile-de-tournesol", "quantity": 500, "unit": "ml"},
     {"ref": "sucre", "quantity": 300, "unit": "g"},
     {"ref": "eau", "quantity": 350, "unit": "ml"},
     {"ref": "cardamome", "quantity": 5, "unit": "piece"},
@@ -49,6 +49,6 @@
     {"text": {"fr": "Faites frire les boulettes en deux fournées, en remuant doucement l'huile sans les toucher, jusqu'à ce qu'elles soient brun foncé de tous côtés. Si elles colorent en moins de 5 minutes, l'huile est trop chaude et le cœur restera cru.", "en": "Fry the balls in two batches, gently swirling the oil rather than touching them, until they are deep brown all over. If they colour in under 5 minutes, the oil is too hot and the centres will stay raw.", "es": "Fríe las bolitas en dos tandas, moviendo suavemente el aceite sin tocarlas, hasta que estén de un marrón oscuro por todos lados. Si se doran en menos de 5 minutos, el aceite está demasiado caliente y el centro quedará crudo.", "it": "Friggi le palline in due riprese, smuovendo delicatamente l'olio senza toccarle, finché sono di un bruno scuro su tutti i lati. Se colorano in meno di 5 minuti, l'olio è troppo caldo e il cuore resterà crudo."}, "timerMinutes": 10},
     {"text": {"fr": "Égouttez-les quelques secondes et plongez-les aussitôt dans le sirop tiède.", "en": "Drain them for a few seconds and drop them straight into the warm syrup.", "es": "Escúrrelas unos segundos y sumérgelas enseguida en el almíbar tibio.", "it": "Scolale per qualche secondo e immergile subito nello sciroppo tiepido."}},
     {"text": {"fr": "Laissez-les s'imbiber au moins 2 heures : elles gonflent et deviennent moelleuses jusqu'au cœur.", "en": "Leave them to soak for at least 2 hours: they swell and turn soft right through.", "es": "Déjalas empaparse al menos 2 horas: se hinchan y quedan tiernas hasta el centro.", "it": "Lasciale inzuppare per almeno 2 ore: si gonfiano e diventano morbide fino al cuore."}, "timerMinutes": 120},
-    {"text": {"fr": "Servez tiède ou à température ambiante, trois boulettes par personne avec un peu de sirop, parsemées de pistaches hachées.", "en": "Serve warm or at room temperature, three per person with a little syrup, scattered with chopped pistachios.", "es": "Sirve tibio o a temperatura ambiente, tres bolitas por persona con un poco de almíbar y pistachos picados por encima.", "it": "Servi tiepido o a temperatura ambiente, tre palline a testa con un po' di sciroppo, cosparse di pistacchi tritati."}}
+    {"text": {"fr": "Servez tiède ou à température ambiante, trois boulettes par personne avec un peu de sirop, parsemées si vous le souhaitez de pistaches hachées.", "en": "Serve warm or at room temperature, three per person with a little syrup, scattered with chopped pistachios if you like.", "es": "Sirve tibio o a temperatura ambiente, tres bolitas por persona con un poco de almíbar y, si quieres, pistachos picados por encima.", "it": "Servi tiepido o a temperatura ambiente, tre palline a testa con un po' di sciroppo e, se ti piace, una spolverata di pistacchi tritati."}}
   ]
 }

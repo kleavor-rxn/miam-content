@@ -178,7 +178,7 @@
     {
       "id": "ds-gateau-de-lune",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "5b97fee0156467902a99b795c820510451b6941139351a1ef62385e8297867a7",
+      "contentHash": "b033b112956dd7ddc5351d2c12c926af386649918967bf65c94de7a30e89243a",
       "title": {
         "fr": "Gâteau de lune",
         "en": "Mooncake",
@@ -193,7 +193,7 @@
     {
       "id": "ds-gulab-jamun",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "266e08314d9833cfca7a0392c16890695b8544847da83e88361fd4f8c7539257",
+      "contentHash": "f1fd556e044a7ef727924a3f3ad3cbf053ca1bb096571355c2ef07ca3b2574df",
       "title": {
         "fr": "Gulab jamun",
         "en": "Gulab jamun",
@@ -210,7 +210,7 @@
     {
       "id": "ds-halo-halo",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "181ac959f655fa49539d329f94ec15103b66326e1089780843505a2bb3cc4bc3",
+      "contentHash": "f3e51897f1eb7c9a89a085e31eecf7dcd4f25730b6c4bfeb42340ebb67d85732",
       "title": {
         "fr": "Halo-halo",
         "en": "Halo-halo",
@@ -242,7 +242,7 @@
     {
       "id": "ds-knafeh",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "a8dbcc56d01b11998a4f2e8cd83d195ee77e6d5e300f08dbddd844dcf3c8398d",
+      "contentHash": "39e1862403a4a1b8b62be77462fe25c13da86751f08a92e5fe3e1ba0e26ba429",
       "title": {
         "fr": "Knafeh",
         "en": "Knafeh",
@@ -291,7 +291,7 @@
     {
       "id": "ds-mango-sticky-rice",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "0838a8add0c63011c7c2dfd127b418b94c9e6d414ebff0bf283f3b8c6e549384",
+      "contentHash": "fe9abb03b4ba43b96b57af0444d35390aafd7c3de2c122b58d7380bda1238cef",
       "title": {
         "fr": "Riz gluant à la mangue",
         "en": "Mango sticky rice",
@@ -323,7 +323,7 @@
     {
       "id": "ds-melktert",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "2b60e0ea34675f128fda78c2c5f2da9acded6c87fcd16e6ad678ced33f03879b",
+      "contentHash": "5f67709addbf02f84278269c9588767e3e4869aefb251d49aef62690d9253a4a",
       "title": {
         "fr": "Melktert",
         "en": "Melktert",
@@ -389,7 +389,7 @@
     {
       "id": "ds-paris-brest",
       "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "689a7f5c333a717a11cf06a760b55893879d6f6147869ff91f7e90e35389feff",
+      "contentHash": "0f5de39ad460d95fd844278803e0a45e97540dcb519ebda422270835d731dd0d",
       "title": {
         "fr": "Paris-Brest",
         "en": "Paris-Brest",

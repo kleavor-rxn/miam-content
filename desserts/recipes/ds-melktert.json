@@ -31,7 +31,7 @@
     {"ref": "sucre", "quantity": 160, "unit": "g"},
     {"ref": "oeuf", "quantity": 3, "unit": "piece"},
     {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
-    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
     {"ref": "lait", "quantity": 75, "unit": "cl"},
     {"ref": "fecule-de-mais", "quantity": 30, "unit": "g"},
     {"ref": "vanille", "quantity": 1, "unit": "tsp"},
