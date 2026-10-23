@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-baesuk",
+  "title": {"fr": "Baesuk", "en": "Baesuk", "es": "Baesuk", "it": "Baesuk"},
+  "summary": {
+    "fr": "Le dessert coréen à boire et à croquer : des quartiers de poire nashi piqués de grains de poivre noir, pochés dans une eau au gingembre et au miel, servis bien frais.",
+    "en": "Korea's dessert to sip and spoon: wedges of nashi pear studded with black peppercorns, poached in a ginger and honey syrup and served well chilled.",
+    "es": "El postre coreano para beber y para comer: gajos de pera nashi con granos de pimienta negra, escalfados en un almíbar de jengibre y miel y servidos bien fríos.",
+    "it": "Il dolce coreano da bere e da gustare: spicchi di pera nashi punteggiati di grani di pepe nero, cotti in uno sciroppo di zenzero e miele e serviti ben freddi."
+  },
+  "story": {
+    "fr": "Le baesuk appartient aux eumcheong, les boissons et desserts à boire de la cuisine traditionnelle coréenne ; son nom associe bae, la poire, et suk, « cuit ». Des quartiers de poire coréenne, une nashi à la chair croquante et juteuse, sont piqués de grains de poivre noir puis pochés dans une eau au gingembre sucrée au miel, jusqu'à devenir translucides. On le sert froid, dans un bol, avec son sirop et quelques pignons de pin. Une version familiale, la poire entière évidée, garnie de miel et cuite à la vapeur, est un remède traditionnel contre la toux et les maux de gorge.",
+    "en": "Baesuk is one of the eumcheong, the traditional Korean drinks and drinkable desserts; its name combines bae, pear, and suk, 'cooked'. Wedges of Korean pear, a nashi with crisp, juicy flesh, are studded with black peppercorns and poached in ginger water sweetened with honey until translucent. It is served cold in a bowl with its syrup and a few pine nuts. A home version, a whole pear hollowed out, filled with honey and steamed, is a traditional remedy for coughs and sore throats.",
+    "es": "El baesuk forma parte de los eumcheong, las bebidas y postres para beber de la cocina tradicional coreana; su nombre une bae, la pera, y suk, «cocido». Unos gajos de pera coreana, una nashi de carne crujiente y jugosa, se pinchan con granos de pimienta negra y se escalfan en agua de jengibre endulzada con miel hasta que se vuelven translúcidos. Se sirve frío, en un cuenco, con su almíbar y unos piñones. Una versión casera, la pera entera vaciada, rellena de miel y cocida al vapor, es un remedio tradicional contra la tos y el dolor de garganta.",
+    "it": "Il baesuk fa parte degli eumcheong, le bevande e i dolci da bere della cucina tradizionale coreana; il suo nome unisce bae, la pera, e suk, «cotto». Spicchi di pera coreana, una nashi dalla polpa croccante e succosa, vengono punteggiati di grani di pepe nero e cotti in acqua allo zenzero addolcita con il miele finché diventano traslucidi. Si serve freddo, in una ciotola, con il suo sciroppo e qualche pinolo. Una versione casalinga, la pera intera svuotata, riempita di miele e cotta al vapore, è un rimedio tradizionale contro la tosse e il mal di gola."
+  },
+  "region": {"fr": "Corée du Sud", "en": "South Korea", "es": "Corea del Sur", "it": "Corea del Sud"},
+  "origin": {"countries": ["KR"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "servings": 4,
+  "heroImage": "images/ds-baesuk/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "gingembre", "quantity": 50, "unit": "g"},
+    {"ref": "eau", "quantity": 1200, "unit": "ml"},
+    {"ref": "poire-nashi", "quantity": 2, "unit": "piece", "substitutes": ["poire"]},
+    {"ref": "poivre-noir", "quantity": 1, "unit": "tsp"},
+    {"ref": "miel", "quantity": 150, "unit": "g"},
+    {"ref": "pignon-de-pin", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Épluchez le gingembre frais et coupez-le en fines lamelles.", "en": "Peel the fresh ginger and cut it into thin slices.", "es": "Pela el jengibre fresco y córtalo en láminas finas.", "it": "Sbuccia lo zenzero fresco e taglialo a fettine sottili."}},
+    {"text": {"fr": "Portez l'eau à ébullition avec le gingembre, puis laissez frémir 25 minutes à couvert.", "en": "Bring the water to the boil with the ginger, then cover and simmer for 25 minutes.", "es": "Lleva el agua a ebullición con el jengibre y deja que hierva suavemente, tapado, 25 minutos.", "it": "Porta l'acqua a bollore con lo zenzero, poi copri e lascia sobbollire per 25 minuti."}, "timerMinutes": 25},
+    {"text": {"fr": "Pendant ce temps, épluchez les poires nashi, coupez chacune en 8 quartiers et retirez le cœur et les pépins.", "en": "Meanwhile, peel the nashi pears, cut each one into 8 wedges and remove the core and pips.", "es": "Mientras tanto, pela las peras nashi, corta cada una en 8 gajos y quítales el corazón y las pepitas.", "it": "Nel frattempo sbuccia le pere nashi, taglia ciascuna in 8 spicchi ed elimina il torsolo e i semi."}},
+    {"text": {"fr": "Enfoncez 3 grains de poivre noir entiers dans le dos arrondi de chaque quartier, assez profondément pour qu'ils tiennent à la cuisson.", "en": "Push 3 whole black peppercorns into the rounded back of each wedge, deep enough that they stay put during cooking.", "es": "Clava 3 granos enteros de pimienta negra en el lomo redondeado de cada gajo, lo bastante hondo para que no se suelten al cocer.", "it": "Infila 3 grani interi di pepe nero nel dorso arrotondato di ogni spicchio, abbastanza in profondità perché restino al loro posto durante la cottura."}},
+    {"text": {"fr": "Retirez le gingembre de la casserole à l'écumoire et faites fondre le miel dans l'eau chaude.", "en": "Lift the ginger out of the pan with a slotted spoon and stir the honey into the hot water until dissolved.", "es": "Retira el jengibre del cazo con una espumadera y disuelve la miel en el agua caliente.", "it": "Togli lo zenzero dalla pentola con una schiumarola e sciogli il miele nell'acqua calda."}},
+    {"text": {"fr": "Plongez les quartiers de poire dans le sirop et faites-les pocher à petits frémissements environ 15 minutes, jusqu'à ce que leurs bords deviennent translucides ; avec des poires européennes bien fermes, comptez seulement 8 à 10 minutes.", "en": "Slide the pear wedges into the syrup and poach at a gentle simmer for about 15 minutes, until their edges turn translucent; with firm European pears, allow just 8 to 10 minutes.", "es": "Echa los gajos de pera en el almíbar y escálfalos a fuego muy suave unos 15 minutos, hasta que los bordes se vuelvan translúcidos; con peras europeas bien firmes, bastan de 8 a 10 minutos.", "it": "Immergi gli spicchi di pera nello sciroppo e falli cuocere a fuoco bassissimo per circa 15 minuti, finché i bordi diventano traslucidi; con pere europee ben sode bastano 8-10 minuti."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez refroidir les poires dans leur sirop, puis placez-les au moins 3 heures au réfrigérateur.", "en": "Leave the pears to cool in their syrup, then chill for at least 3 hours.", "es": "Deja que las peras se enfríen en su almíbar y mételas en la nevera al menos 3 horas.", "it": "Lascia raffreddare le pere nel loro sciroppo, poi mettile in frigorifero per almeno 3 ore."}, "timerMinutes": 180},
+    {"text": {"fr": "Servez bien frais dans des bols, 4 quartiers par personne nappés de sirop, parsemés de pignons de pin si vous le souhaitez.", "en": "Serve well chilled in bowls, 4 wedges each with plenty of syrup, scattered with pine nuts if you like.", "es": "Sírvelo bien frío en cuencos, 4 gajos por persona cubiertos de almíbar y, si quieres, con unos piñones por encima.", "it": "Servi ben freddo in ciotole, 4 spicchi a testa con abbondante sciroppo e, se ti va, qualche pinolo sopra."}}
+  ]
+}

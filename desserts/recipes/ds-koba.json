@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-koba",
+  "title": {"fr": "Koba", "en": "Koba", "es": "Koba", "it": "Koba"},
+  "summary": {
+    "fr": "La douceur de rue malgache : une pâte de banane mûre, de farine de riz, de cacahuètes et de sucre roux, longuement cuite dans des feuilles de bananier puis coupée en tranches.",
+    "en": "Madagascar's street-side sweet: a paste of ripe banana, rice flour, peanuts and brown sugar, slowly cooked in banana leaves and cut into slices.",
+    "es": "El dulce callejero de Madagascar: una pasta de plátano maduro, harina de arroz, cacahuetes y azúcar moreno, cocida largo rato en hojas de plátano y cortada en rodajas.",
+    "it": "Il dolce di strada malgascio: un impasto di banana matura, farina di riso, arachidi e zucchero di canna, cotto a lungo in foglie di banano e tagliato a fette."
+  },
+  "story": {
+    "fr": "À Madagascar, le koba se vend sur les marchés et au bord des routes, en gros rouleaux enveloppés de feuilles de bananier que le marchand découpe en tranches : c'est le koba ravina, « koba aux feuilles ». La version à la banane s'appelle koba akondro, akondro signifiant banane en malgache. Sa très longue cuisson dans l'eau, au cœur des feuilles, donne à la pâte sa couleur brune et sa texture ferme et fondante.",
+    "en": "In Madagascar, koba is sold at markets and by the roadside in large logs wrapped in banana leaves, which the vendor cuts into slices: this is koba ravina, 'koba in leaves'. The banana version is called koba akondro, akondro being the Malagasy word for banana. Simmered for hours sealed inside its leaves, the paste turns brown and takes on a firm yet melting texture.",
+    "es": "En Madagascar, el koba se vende en los mercados y al borde de las carreteras, en grandes rollos envueltos en hojas de plátano que el vendedor corta en rodajas: es el koba ravina, «koba en hojas». La versión con plátano se llama koba akondro, ya que akondro significa plátano en malgache. Su larguísima cocción en agua, dentro de las hojas, da a la pasta su color marrón y su textura firme y a la vez melosa.",
+    "it": "In Madagascar il koba si vende nei mercati e lungo le strade, in grossi rotoli avvolti in foglie di banano che il venditore taglia a fette: è il koba ravina, «koba nelle foglie». La versione alla banana si chiama koba akondro, perché akondro in malgascio significa banana. La lunghissima cottura in acqua, dentro le foglie, dà all'impasto il suo colore bruno e la sua consistenza soda e fondente."
+  },
+  "region": {"fr": "Madagascar", "en": "Madagascar", "es": "Madagascar", "it": "Madagascar"},
+  "origin": {"countries": ["MG"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 180,
+  "servings": 10,
+  "heroImage": "images/ds-koba/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "cacahuete", "quantity": 200, "unit": "g"},
+    {"ref": "cassonade", "quantity": 150, "unit": "g"},
+    {"ref": "banane", "quantity": 4, "unit": "piece"},
+    {"ref": "vanille", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "miel", "quantity": 2, "unit": "tbsp", "optional": true},
+    {"ref": "farine-de-riz", "quantity": 250, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "feuille-de-bananier", "quantity": 4, "unit": "piece"}
+  ],
+  "steps": [
+    {"text": {"fr": "Au robot, mixez les cacahuètes grillées non salées, débarrassées de leur peau, avec 50 g de cassonade, jusqu'à obtenir une poudre grossière.", "en": "In a food processor, grind the skinned, unsalted roasted peanuts with 50 g of the brown sugar to a coarse powder.", "es": "En el robot, tritura los cacahuetes tostados sin sal y sin piel con 50 g del azúcar moreno hasta obtener un polvo grueso.", "it": "Nel mixer, macina le arachidi tostate non salate e senza pellicina con 50 g dello zucchero di canna fino a ottenere una polvere grossolana."}},
+    {"text": {"fr": "Dans un saladier, écrasez à la fourchette les bananes très mûres avec les 100 g de cassonade restants et, si vous le souhaitez, les graines de la gousse de vanille et le miel, jusqu'à obtenir une purée lisse.", "en": "In a large bowl, mash the very ripe bananas with a fork together with the remaining 100 g of brown sugar and, if you like, the seeds scraped from the vanilla pod and the honey, until smooth.", "es": "En un bol grande, aplasta con un tenedor los plátanos muy maduros con los 100 g restantes de azúcar moreno y, si quieres, las semillas de la vaina de vainilla y la miel, hasta obtener un puré liso.", "it": "In una ciotola capiente, schiaccia con una forchetta le banane molto mature con i 100 g di zucchero di canna rimasti e, se ti va, i semi della bacca di vaniglia e il miele, fino a ottenere una purea liscia."}},
+    {"text": {"fr": "Ajoutez la farine de riz, la poudre de cacahuètes et le sel, et pétrissez à la main jusqu'à obtenir une pâte épaisse et homogène qui se tient.", "en": "Add the rice flour, the ground peanuts and the salt, and knead by hand until you have a thick, even paste that holds its shape.", "es": "Añade la harina de arroz, el polvo de cacahuete y la sal, y amasa con las manos hasta obtener una pasta espesa y homogénea que mantenga la forma.", "it": "Aggiungi la farina di riso, la polvere di arachidi e il sale, e impasta a mano fino a ottenere una pasta densa e omogenea che mantenga la forma."}},
+    {"text": {"fr": "Assouplissez les feuilles de bananier en les passant quelques secondes au-dessus d'une flamme ou en les plongeant 1 minute dans de l'eau bouillante, puis essuyez-les.", "en": "Soften the banana leaves by passing them over a flame for a few seconds or dipping them in boiling water for 1 minute, then wipe them dry.", "es": "Ablanda las hojas de plátano pasándolas unos segundos por encima de una llama o sumergiéndolas 1 minuto en agua hirviendo; después sécalas.", "it": "Ammorbidisci le foglie di banano passandole per qualche secondo sopra una fiamma o immergendole per 1 minuto in acqua bollente, poi asciugale."}, "timerMinutes": 1},
+    {"text": {"fr": "Façonnez la pâte en deux boudins de 5 cm de diamètre, enroulez chacun bien serré dans plusieurs épaisseurs de feuilles et ficelez-les ; à défaut de feuilles de bananier, roulez-les dans du papier sulfurisé puis dans du papier d'aluminium.", "en": "Shape the paste into two logs 5 cm across, wrap each one tightly in several layers of leaves and tie with kitchen string; if you have no banana leaves, roll them in baking paper and then in foil.", "es": "Forma con la pasta dos cilindros de 5 cm de diámetro, envuelve cada uno bien apretado en varias capas de hojas y átalos con cordel de cocina; si no tienes hojas de plátano, envuélvelos en papel de horno y después en papel de aluminio.", "it": "Forma con la pasta due salsicciotti di 5 cm di diametro, avvolgili ben stretti in più strati di foglie e legali con lo spago; se non hai foglie di banano, arrotolali nella carta forno e poi nell'alluminio."}},
+    {"text": {"fr": "Plongez les rouleaux dans une grande marmite d'eau bouillante et laissez frémir à couvert 3 heures, en rajoutant de l'eau bouillante pour qu'ils restent toujours immergés.", "en": "Lower the logs into a large pan of boiling water and simmer, covered, for 3 hours, topping up with boiling water so they stay submerged throughout.", "es": "Sumerge los rollos en una olla grande de agua hirviendo y deja que cuezan a fuego suave, tapados, durante 3 horas, añadiendo agua hirviendo para que siempre queden cubiertos.", "it": "Immergi i rotoli in una pentola capiente di acqua bollente e lascia sobbollire, con il coperchio, per 3 ore, aggiungendo acqua bollente perché restino sempre sommersi."}, "timerMinutes": 180},
+    {"text": {"fr": "Égouttez les rouleaux et laissez-les refroidir complètement dans leurs feuilles : la pâte se raffermit en refroidissant.", "en": "Drain the logs and leave them to cool completely in their leaves: the paste firms up as it cools.", "es": "Escurre los rollos y deja que se enfríen por completo dentro de sus hojas: la pasta toma consistencia al enfriarse.", "it": "Scola i rotoli e lasciali raffreddare completamente nelle loro foglie: l'impasto si rassoda raffreddandosi."}, "timerMinutes": 120},
+    {"text": {"fr": "Déballez les rouleaux et coupez-les en tranches de 1,5 cm ; servez à température ambiante.", "en": "Unwrap the logs and cut them into 1.5 cm slices; serve at room temperature.", "es": "Desenvuelve los rollos y córtalos en rodajas de 1,5 cm y sírvelas a temperatura ambiente.", "it": "Scarta i rotoli e tagliali a fette di 1,5 cm e servile a temperatura ambiente."}}
+  ]
+}

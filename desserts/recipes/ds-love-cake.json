@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-love-cake",
+  "title": {"fr": "Love cake", "en": "Love cake", "es": "Love cake", "it": "Love cake"},
+  "summary": {
+    "fr": "Le gâteau de fête sri-lankais : une pâte de semoule grillée au beurre, de noix de cajou et de courge confite, parfumée au miel, à l'eau de rose, au zeste de citron et aux épices, croustillante dessus et fondante à cœur.",
+    "en": "Sri Lanka's festive cake: butter-toasted semolina, cashews and candied pumpkin, scented with honey, rose water, lemon zest and spices, crisp on top and soft and moist inside.",
+    "es": "El pastel de fiesta de Sri Lanka: sémola tostada en mantequilla, anacardos y calabaza confitada, perfumados con miel, agua de rosas, ralladura de limón y especias, crujiente por encima y tierno por dentro.",
+    "it": "La torta delle feste dello Sri Lanka: semolino tostato nel burro, anacardi e zucca candita, profumati al miele, all'acqua di rose, alla scorza di limone e alle spezie, croccante sopra e morbida dentro."
+  },
+  "story": {
+    "fr": "Le love cake est le gâteau de Noël et des anniversaires au Sri Lanka, particulièrement chez les Burghers, les descendants d'Européens de l'île ; on le rattache généralement à l'héritage portugais, mais l'origine de son nom reste incertaine. Il réunit, dans une pâte de semoule riche en jaunes d'œufs, des produits de l'île : noix de cajou, épices et confiture sèche de courge cireuse (puhul dosi). Cuit lentement dans un moule tapissé de plusieurs couches de papier, il doit rester moelleux, presque humide, sous une fine croûte craquante, et se coupe en petits carrés.",
+    "en": "Love cake is the Christmas and birthday cake of Sri Lanka, especially among the Burghers, the island's community of European descent; it is generally linked to the Portuguese legacy, but the origin of its name remains uncertain. It combines, in a semolina batter rich in egg yolks, the island's own produce: cashews, spices and a dry ash-pumpkin preserve (puhul dosi). Baked slowly in a tin lined with several layers of paper, it should stay soft, almost moist, beneath a thin crackly crust, and is cut into small squares.",
+    "es": "El love cake es el pastel de Navidad y de cumpleaños de Sri Lanka, sobre todo entre los burghers, la comunidad de ascendencia europea de la isla; suele vincularse a la herencia portuguesa, aunque el origen de su nombre sigue siendo incierto. Reúne, en una masa de sémola rica en yemas, productos de la isla: anacardos, especias y una confitura seca de calabaza de cera (puhul dosi). Horneado despacio en un molde forrado con varias capas de papel, debe quedar tierno, casi húmedo, bajo una fina costra crujiente, y se corta en cuadraditos.",
+    "it": "Il love cake è la torta di Natale e dei compleanni dello Sri Lanka, soprattutto tra i burgher, la comunità dell'isola di discendenza europea; lo si fa risalire in genere all'eredità portoghese, ma l'origine del suo nome resta incerta. Riunisce, in un impasto di semolino ricco di tuorli, i prodotti dell'isola: anacardi, spezie e una confettura secca di zucca della cera (puhul dosi). Cotto lentamente in uno stampo foderato con più strati di carta, deve restare morbido, quasi umido, sotto una sottile crosta croccante, e si taglia a quadratini."
+  },
+  "region": {"fr": "Sri Lanka", "en": "Sri Lanka", "es": "Sri Lanka", "it": "Sri Lanka"},
+  "origin": {"countries": ["LK"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 45,
+  "cookMinutes": 80,
+  "servings": 12,
+  "heroImage": "images/ds-love-cake/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 125, "unit": "g"},
+    {"ref": "semoule-de-ble", "quantity": 250, "unit": "g"},
+    {"ref": "noix-de-cajou", "quantity": 250, "unit": "g"},
+    {"ref": "courge-confite", "quantity": 250, "unit": "g", "substitutes": ["ecorces-d-orange-confites", "cedrat-confit"]},
+    {"ref": "oeuf", "quantity": 10, "unit": "piece"},
+    {"ref": "sucre", "quantity": 500, "unit": "g"},
+    {"ref": "miel", "quantity": 2, "unit": "tbsp"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "eau-de-rose", "quantity": 1, "unit": "tbsp"},
+    {"ref": "cardamome", "quantity": 1, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "clou-de-girofle", "quantity": 0.25, "unit": "tsp", "optional": true},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre le beurre dans une grande poêle, ajoutez la semoule et faites-la griller à feu doux pendant 8 minutes en remuant sans cesse, jusqu'à ce qu'elle sente le biscuit et blondisse à peine ; versez-la dans un saladier et laissez-la refroidir.", "en": "Melt the butter in a large frying pan, add the semolina and toast it over a low heat for 8 minutes, stirring constantly, until it smells biscuity and is barely golden; tip it into a large bowl and leave to cool.", "es": "Derrite la mantequilla en una sartén grande, añade la sémola y tuéstala a fuego suave durante 8 minutos sin dejar de remover, hasta que huela a galleta y apenas tome color; pásala a un bol grande y deja que se enfríe.", "it": "Sciogli il burro in una padella capiente, aggiungi il semolino e tostalo a fuoco dolce per 8 minuti mescolando di continuo, finché profuma di biscotto e si colora appena; versalo in una ciotola capiente e lascialo raffreddare."}, "timerMinutes": 8},
+    {"text": {"fr": "Préchauffez le four à 150 °C.", "en": "Preheat the oven to 150 °C.", "es": "Precalienta el horno a 150 °C.", "it": "Preriscalda il forno a 150 °C."}},
+    {"text": {"fr": "Tapissez un moule carré de 23 cm de trois épaisseurs de papier cuisson : elles protègent le gâteau pendant sa longue cuisson et l'empêchent de dessécher.", "en": "Line a 23 cm square tin with three layers of baking paper: they protect the cake during its long bake and stop it drying out.", "es": "Forra un molde cuadrado de 23 cm con tres capas de papel de horno: protegen el pastel durante su larga cocción e impiden que se reseque.", "it": "Fodera uno stampo quadrato di 23 cm con tre strati di carta forno: proteggono la torta durante la lunga cottura e le impediscono di seccarsi."}},
+    {"text": {"fr": "Hachez finement les noix de cajou et la courge confite (puhul dosi).", "en": "Finely chop the cashews and the candied pumpkin (puhul dosi).", "es": "Pica finamente los anacardos y la calabaza confitada (puhul dosi).", "it": "Trita finemente gli anacardi e la zucca candita (puhul dosi)."}},
+    {"text": {"fr": "Séparez les œufs (gardez 5 blancs pour un autre usage), puis fouettez les 10 jaunes avec le sucre pendant 10 minutes, jusqu'à ce que le mélange soit pâle, épais et mousseux.", "en": "Separate the eggs (keep 5 of the whites for another use), then whisk the 10 yolks with the sugar for 10 minutes, until pale, thick and fluffy.", "es": "Separa las claras de las yemas (guarda 5 claras para otro uso) y bate las 10 yemas con el azúcar durante 10 minutos, hasta que la mezcla esté pálida, espesa y espumosa.", "it": "Separa gli albumi dai tuorli (tieni da parte 5 albumi per un altro uso), poi monta i 10 tuorli con lo zucchero per 10 minuti, finché il composto è chiaro, denso e spumoso."}, "timerMinutes": 10},
+    {"text": {"fr": "Incorporez aux jaunes la semoule refroidie, les noix de cajou, la courge confite, le miel, le zeste du citron (ou d'un citron vert), l'eau de rose, la cardamome, la cannelle, la muscade et, si vous le souhaitez, le clou de girofle moulu et l'extrait de vanille.", "en": "Stir the cooled semolina into the yolks along with the cashews, the candied pumpkin, the honey, the lemon zest (or lime zest), the rose water, the cardamom, cinnamon and nutmeg and, if you like, the ground cloves and the vanilla extract.", "es": "Incorpora a las yemas la sémola fría, los anacardos, la calabaza confitada, la miel, la ralladura del limón (o de una lima), el agua de rosas, el cardamomo, la canela, la nuez moscada y, si quieres, el clavo molido y el extracto de vainilla.", "it": "Incorpora ai tuorli il semolino freddo, gli anacardi, la zucca candita, il miele, la scorza grattugiata del limone (o di un lime), l'acqua di rose, il cardamomo, la cannella, la noce moscata e, se ti va, i chiodi di garofano in polvere e l'estratto di vaniglia."}},
+    {"text": {"fr": "Montez les 5 blancs restants en neige ferme.", "en": "Whisk the remaining 5 egg whites to stiff peaks.", "es": "Monta las 5 claras restantes a punto de nieve firme.", "it": "Monta i 5 albumi rimasti a neve ben ferma."}, "timerMinutes": 5},
+    {"text": {"fr": "Incorporez délicatement les blancs à la pâte en trois fois, à la spatule, en soulevant la masse.", "en": "Fold the whites gently into the batter in three goes with a spatula, lifting the mixture as you go.", "es": "Incorpora las claras a la masa en tres veces, con una espátula y movimientos envolventes.", "it": "Incorpora delicatamente gli albumi all'impasto in tre volte, con una spatola, dal basso verso l'alto."}},
+    {"text": {"fr": "Versez la pâte dans le moule, lissez la surface et faites cuire 1 heure 10 environ, jusqu'à ce que le dessus soit doré et craquant ; une pique plantée au centre doit ressortir humide, mais sans pâte crue.", "en": "Pour the batter into the tin, smooth the top and bake for about 1 hour 10 minutes, until the top is golden and crisp; a skewer pushed into the centre should come out moist but with no raw batter.", "es": "Vierte la masa en el molde, alisa la superficie y hornea alrededor de 1 hora y 10 minutos, hasta que la superficie esté dorada y crujiente; un palillo clavado en el centro debe salir húmedo, pero sin masa cruda.", "it": "Versa l'impasto nello stampo, livella la superficie e cuoci per circa 1 ora e 10 minuti, finché la superficie è dorata e croccante; uno stecchino infilato al centro deve uscire umido, ma senza impasto crudo."}, "timerMinutes": 70},
+    {"text": {"fr": "Laissez refroidir complètement le gâteau dans le moule avant de le démouler et de le couper en petits carrés.", "en": "Leave the cake to cool completely in the tin before lifting it out and cutting it into small squares.", "es": "Deja que el pastel se enfríe por completo en el molde antes de desmoldarlo y cortarlo en cuadraditos.", "it": "Lascia raffreddare completamente la torta nello stampo prima di sformarla e tagliarla a quadratini."}, "timerMinutes": 120}
+  ]
+}

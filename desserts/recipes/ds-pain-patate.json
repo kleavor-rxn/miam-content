@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-pain-patate",
+  "title": {"fr": "Pain patate", "en": "Pain patate", "es": "Pain patate", "it": "Pain patate"},
+  "summary": {
+    "fr": "Le gâteau-pudding haïtien à la patate douce râpée et à la banane mûre, cuit longuement dans le lait de coco et le lait concentré non sucré, et parfumé au gingembre, à la cannelle et à la muscade.",
+    "en": "Haiti's sweet potato and ripe banana pudding cake, slowly baked with coconut milk and evaporated milk and spiced with ginger, cinnamon and nutmeg.",
+    "es": "El pastel-pudin haitiano de boniato rallado y plátano maduro, horneado despacio con leche de coco y leche evaporada y especiado con jengibre, canela y nuez moscada.",
+    "it": "Il dolce-budino haitiano di patata dolce grattugiata e banana matura, cotto a lungo con latte di cocco e latte evaporato e speziato con zenzero, cannella e noce moscata."
+  },
+  "story": {
+    "fr": "Le pain patate, pen patat en créole haïtien, est l'un des desserts les plus populaires d'Haïti. Malgré son nom, ce n'est pas un pain : la patate douce râpée crue, la banane mûre, le lait de coco et le lait concentré non sucré y cuisent longuement en un gâteau dense et fondant, proche d'un pudding, épicé de gingembre, de cannelle et de muscade. On le prépare de préférence avec la patate douce blanche, à chair pâle, la plus courante sur l'île. Il se fait à la maison, se vend dans les boulangeries et sur les marchés, et se mange tiède ou froid, coupé en carrés.",
+    "en": "Pain patate, pen patat in Haitian Creole, is one of Haiti's best-loved desserts. Despite its name, it is not a bread: raw grated sweet potato, ripe banana, coconut milk and evaporated milk are baked slowly into a dense, melting, pudding-like cake spiced with ginger, cinnamon and nutmeg. It is ideally made with white-fleshed sweet potato, the most common kind on the island. Made at home and sold in bakeries and at markets, it is eaten warm or cold, cut into squares.",
+    "es": "El pain patate, pen patat en criollo haitiano, es uno de los postres más populares de Haití. Pese a su nombre, no es un pan: el boniato rallado en crudo, el plátano maduro, la leche de coco y la leche evaporada se hornean despacio hasta formar un pastel denso y meloso, parecido a un pudin, especiado con jengibre, canela y nuez moscada. Lo ideal es prepararlo con boniato blanco, de pulpa clara, el más habitual en la isla. Se hace en casa, se vende en panaderías y mercados, y se come templado o frío, cortado en cuadrados.",
+    "it": "Il pain patate, pen patat in creolo haitiano, è uno dei dolci più amati di Haiti. Nonostante il nome, non è un pane: patata dolce grattugiata cruda, banana matura, latte di cocco e latte evaporato cuociono a lungo fino a diventare un dolce denso e morbido, simile a un budino, speziato con zenzero, cannella e noce moscata. L'ideale è prepararlo con la patata dolce a pasta bianca, la più diffusa sull'isola. Si fa in casa, si vende nelle panetterie e nei mercati, e si mangia tiepido o freddo, tagliato a quadrotti."
+  },
+  "region": {"fr": "Haïti", "en": "Haiti", "es": "Haití", "it": "Haiti"},
+  "origin": {"countries": ["HT"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 30,
+  "cookMinutes": 90,
+  "servings": 10,
+  "heroImage": "images/ds-pain-patate/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 100, "unit": "g"},
+    {"ref": "patate-douce", "quantity": 1, "unit": "kg"},
+    {"ref": "banane", "quantity": 3, "unit": "piece", "substitutes": ["banane-plantain"]},
+    {"ref": "lait-de-coco", "quantity": 400, "unit": "ml"},
+    {"ref": "lait-concentre-non-sucre", "quantity": 370, "unit": "ml"},
+    {"ref": "cassonade", "quantity": 220, "unit": "g"},
+    {"ref": "gingembre", "quantity": 20, "unit": "g"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "muscade", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "raisins-secs", "quantity": 80, "unit": "g"},
+    {"ref": "citron-vert", "quantity": 1, "unit": "piece", "optional": true},
+    {"ref": "rhum", "quantity": 30, "unit": "ml", "optional": true},
+    {"ref": "noix-de-coco-rapee", "quantity": 30, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Beurrez un plat à four d'environ 20 × 30 cm avec 10 g du beurre.", "en": "Grease a baking dish of about 20 × 30 cm with 10 g of the butter.", "es": "Unta una fuente de horno de unos 20 × 30 cm con 10 g de la mantequilla.", "it": "Imburra una pirofila di circa 20 × 30 cm con 10 g del burro."}},
+    {"text": {"fr": "Faites fondre les 90 g de beurre restants à feu doux, puis laissez-les tiédir.", "en": "Melt the remaining 90 g of butter over a low heat, then leave it to cool slightly.", "es": "Derrite a fuego suave los 90 g de mantequilla restantes y deja que se temple.", "it": "Fai sciogliere a fuoco dolce i 90 g di burro rimasti, poi lascialo intiepidire."}},
+    {"text": {"fr": "Épluchez les patates douces (de préférence à chair blanche) et râpez-les finement au-dessus d'un grand saladier.", "en": "Peel the sweet potatoes (white-fleshed ones if you can find them) and grate them finely into a large mixing bowl.", "es": "Pela los boniatos (mejor si son de pulpa blanca) y rállalos finamente sobre un bol grande.", "it": "Sbuccia le patate dolci (meglio se a pasta bianca) e grattugiale finemente in una ciotola capiente."}},
+    {"text": {"fr": "Écrasez les bananes bien mûres à la fourchette en purée et ajoutez-les aux patates douces.", "en": "Mash the very ripe bananas to a purée with a fork and add them to the sweet potato.", "es": "Aplasta con un tenedor los plátanos bien maduros hasta hacerlos puré y añádelos al boniato.", "it": "Schiaccia con una forchetta le banane ben mature fino a ridurle in purea e aggiungile alle patate dolci."}},
+    {"text": {"fr": "Versez le lait de coco, le lait concentré non sucré et le beurre fondu, et mélangez bien.", "en": "Pour in the coconut milk, the evaporated milk and the melted butter, and mix well.", "es": "Vierte la leche de coco, la leche evaporada y la mantequilla derretida, y mezcla bien.", "it": "Versa il latte di cocco, il latte evaporato e il burro fuso, e mescola bene."}},
+    {"text": {"fr": "Ajoutez la cassonade, le gingembre frais finement râpé, la cannelle, la muscade, la vanille, le sel et les raisins secs, ainsi que, si vous le souhaitez, le zeste du citron vert et le rhum, puis mélangez jusqu'à ce que le tout soit homogène.", "en": "Add the brown sugar, the finely grated fresh ginger, the cinnamon, nutmeg, vanilla, salt and raisins, plus the lime zest and the rum if you like, then mix until evenly combined.", "es": "Añade el azúcar moreno, el jengibre fresco rallado fino, la canela, la nuez moscada, la vainilla, la sal y las pasas y, si quieres, la ralladura de la lima y el ron, y mezcla hasta que todo quede homogéneo.", "it": "Aggiungi lo zucchero di canna, lo zenzero fresco grattugiato finemente, la cannella, la noce moscata, la vaniglia, il sale e l'uvetta e, se ti va, la scorza del lime e il rum, poi mescola finché il composto è omogeneo."}},
+    {"text": {"fr": "Versez l'appareil dans le plat, lissez la surface et, si vous le souhaitez, parsemez-la de noix de coco râpée.", "en": "Pour the mixture into the dish, smooth the top and scatter over the desiccated coconut, if you like.", "es": "Vierte la mezcla en la fuente, alisa la superficie y, si quieres, espolvoréala con coco rallado.", "it": "Versa il composto nella pirofila, livella la superficie e, se ti va, cospargila di cocco grattugiato."}},
+    {"text": {"fr": "Faites cuire 1 h 15 à 1 h 30, jusqu'à ce que le dessus soit brun foncé et caramélisé sur les bords et que le centre soit pris et ne tremble plus.", "en": "Bake for 1 hour 15 minutes to 1 hour 30 minutes, until the top is deep brown and caramelised at the edges and the centre is set and no longer wobbles.", "es": "Hornea de 1 h 15 min a 1 h 30 min, hasta que la superficie esté bien tostada y caramelizada por los bordes y el centro haya cuajado y ya no tiemble.", "it": "Inforna per un tempo compreso tra 1 ora e 15 minuti e 1 ora e 30 minuti, finché la superficie è bruna e caramellata ai bordi e il centro è rassodato e non trema più."}, "timerMinutes": 90},
+    {"text": {"fr": "Laissez refroidir au moins 2 heures dans le plat pour que le gâteau se raffermisse, puis coupez-le en carrés.", "en": "Leave to cool in the dish for at least 2 hours so the cake firms up, then cut it into squares.", "es": "Deja que se enfríe en la fuente al menos 2 horas para que el pastel se asiente y córtalo en cuadrados.", "it": "Lascia raffreddare nella pirofila per almeno 2 ore, perché il dolce si rassodi, poi taglialo a quadrotti."}, "timerMinutes": 120}
+  ]
+}

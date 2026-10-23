@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-bint-al-sahn",
+  "title": {"fr": "Bint al-sahn", "en": "Bint al-sahn", "es": "Bint al-sahn", "it": "Bint al-sahn"},
+  "summary": {
+    "fr": "Le gâteau de fête yéménite : de fines feuilles de pâte levée aux œufs, empilées et badigeonnées de ghee, dorées au four, parsemées de nigelle et arrosées de miel.",
+    "en": "Yemen's festive bread cake: thin sheets of egg-enriched yeast dough, stacked and brushed with ghee, baked golden, sprinkled with nigella and drenched in honey.",
+    "es": "El pastel de fiesta yemení: finas láminas de masa de levadura con huevo, apiladas y untadas de ghee, doradas al horno, con semillas de neguilla y bañadas en miel.",
+    "it": "Il dolce delle feste yemenita: sottili sfoglie di pasta lievitata all'uovo, sovrapposte e spennellate di ghee, dorate in forno, cosparse di nigella e irrorate di miele."
+  },
+  "story": {
+    "fr": "Le bint al-sahn, « la fille de l'assiette », est l'un des desserts les plus emblématiques du Yémen. Une pâte levée aux œufs y est abaissée en feuilles presque transparentes, empilées et badigeonnées une à une de samn, le beurre clarifié, puis dorée au four et parsemée de graines de nigelle. Il est arrosé de miel à la sortie du four, idéalement de miel de sidr, issu du jujubier, le plus réputé du pays. Il se sert chaud, au centre de la table, lors des réceptions, des mariages et des soirées de ramadan.",
+    "en": "Bint al-sahn, 'daughter of the plate', is one of Yemen's most emblematic desserts. An egg-enriched yeast dough is rolled into almost translucent sheets, stacked and brushed one by one with samn, clarified butter, then baked golden and sprinkled with nigella seeds. It is drenched in honey straight from the oven, ideally sidr honey from the jujube tree, the country's most prized. It is served hot, in the middle of the table, at gatherings and weddings and during Ramadan evenings.",
+    "es": "El bint al-sahn, «la hija del plato», es uno de los postres más emblemáticos de Yemen. Una masa de levadura con huevo se estira en láminas casi transparentes, que se apilan untándolas una a una con samn, la mantequilla clarificada, y después se dora al horno y se espolvorea con semillas de neguilla. Se baña en miel nada más salir del horno, a ser posible miel de sidr, del azufaifo, la más apreciada del país. Se sirve caliente, en el centro de la mesa, en reuniones, bodas y noches de ramadán.",
+    "it": "Il bint al-sahn, «la figlia del piatto», è uno dei dolci più emblematici dello Yemen. Una pasta lievitata all'uovo viene stesa in sfoglie quasi trasparenti, sovrapposte e spennellate una a una di samn, il burro chiarificato, poi dorata in forno e cosparsa di semi di nigella. Appena sfornato si irrora di miele, possibilmente miele di sidr, del giuggiolo, il più pregiato del paese. Si serve caldo, al centro della tavola, durante i ricevimenti, i matrimoni e le serate di ramadan."
+  },
+  "region": {"fr": "Yémen", "en": "Yemen", "es": "Yemen", "it": "Yemen"},
+  "origin": {"countries": ["YE"]},
+  "category": "dessert",
+  "dessertType": "brioche",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 60,
+  "cookMinutes": 35,
+  "servings": 8,
+  "heroImage": "images/ds-bint-al-sahn/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "ghee", "quantity": 250, "unit": "g", "substitutes": ["beurre"]},
+    {"ref": "farine", "quantity": 500, "unit": "g"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "sucre", "quantity": 25, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "lait", "quantity": 170, "unit": "ml"},
+    {"ref": "graines-de-nigelle", "quantity": 1, "unit": "tsp"},
+    {"ref": "graines-de-sesame", "quantity": 1, "unit": "tbsp", "optional": true},
+    {"ref": "miel", "quantity": 180, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites fondre le ghee à feu doux, puis laissez-le tiédir.", "en": "Melt the ghee over a low heat, then leave it to cool slightly.", "es": "Derrite el ghee a fuego suave y deja que se temple.", "it": "Fai sciogliere il ghee a fuoco dolce, poi lascialo intiepidire."}},
+    {"text": {"fr": "Dans un grand saladier, mélangez la farine, la levure de boulanger sèche, le sucre et le sel, ajoutez 3 œufs, 30 g du ghee fondu et le lait à température ambiante, puis pétrissez 10 minutes, jusqu'à obtenir une pâte souple, lisse et légèrement collante.", "en": "In a large bowl, mix the flour, dried yeast, sugar and salt, add 3 of the eggs, 30 g of the melted ghee and the room-temperature milk, then knead for 10 minutes until the dough is soft, smooth and slightly sticky.", "es": "En un bol grande, mezcla la harina, la levadura seca de panadería, el azúcar y la sal, añade 3 huevos, 30 g del ghee derretido y la leche a temperatura ambiente, y amasa 10 minutos, hasta obtener una masa suave, lisa y algo pegajosa.", "it": "In una ciotola capiente mescola la farina, il lievito di birra secco, lo zucchero e il sale, aggiungi 3 uova, 30 g del ghee fuso e il latte a temperatura ambiente, poi impasta per 10 minuti, finché l'impasto è morbido, liscio e leggermente appiccicoso."}, "timerMinutes": 10},
+    {"text": {"fr": "Couvrez et laissez lever 1 heure dans un endroit tiède, jusqu'à ce que la pâte ait doublé de volume.", "en": "Cover and leave to rise in a warm place for 1 hour, until doubled in size.", "es": "Tapa la masa y déjala levar 1 hora en un lugar templado, hasta que doble su volumen.", "it": "Copri e lascia lievitare per 1 ora in un luogo tiepido, finché l'impasto è raddoppiato di volume."}, "timerMinutes": 60},
+    {"text": {"fr": "Divisez la pâte en 12 boules égales, couvrez-les et laissez-les se détendre 15 minutes.", "en": "Divide the dough into 12 equal balls, cover and leave them to relax for 15 minutes.", "es": "Divide la masa en 12 bolas iguales, tápalas y déjalas reposar 15 minutos.", "it": "Dividi l'impasto in 12 palline uguali, coprile e lasciale riposare per 15 minuti."}, "timerMinutes": 15},
+    {"text": {"fr": "Badigeonnez de ghee fondu un moule rond de 26 cm.", "en": "Brush a 26 cm round tin with melted ghee.", "es": "Unta con ghee derretido un molde redondo de 26 cm.", "it": "Spennella di ghee fuso uno stampo rotondo da 26 cm."}},
+    {"text": {"fr": "Sur un plan de travail légèrement graissé de ghee, abaissez une boule au rouleau en un disque de 26 cm, si fin qu'il en devient presque transparent, posez-le dans le moule et badigeonnez-le généreusement de ghee ; recommencez avec les 11 autres boules en empilant les disques.", "en": "On a work surface lightly greased with ghee, roll a ball out into a 26 cm disc so thin it is almost see-through, lay it in the tin and brush it generously with ghee; repeat with the other 11 balls, stacking the discs.", "es": "Sobre la encimera ligeramente untada con ghee, estira una bola con el rodillo en un disco de 26 cm tan fino que quede casi transparente, colócalo en el molde y úntalo generosamente con ghee; repite con las otras 11 bolas, apilando los discos.", "it": "Sul piano di lavoro leggermente unto di ghee, stendi una pallina con il mattarello in un disco di 26 cm così sottile da essere quasi trasparente, adagialo nello stampo e spennellalo generosamente di ghee; ripeti con le altre 11 palline, sovrapponendo i dischi."}},
+    {"text": {"fr": "Préchauffez le four à 180 °C et, pendant ce temps, laissez le gâteau reposer 30 minutes à couvert.", "en": "Preheat the oven to 180 °C and meanwhile leave the cake to rest, covered, for 30 minutes.", "es": "Precalienta el horno a 180 °C mientras dejas reposar el pastel, tapado, 30 minutos.", "it": "Preriscalda il forno a 180 °C e intanto lascia riposare il dolce, coperto, per 30 minuti."}, "timerMinutes": 30},
+    {"text": {"fr": "Battez le dernier œuf, badigeonnez-en le dessus, puis parsemez de graines de nigelle et, si vous le souhaitez, de graines de sésame.", "en": "Beat the last egg and brush it over the top, then sprinkle with the nigella seeds and the sesame seeds, if you like.", "es": "Bate el último huevo, pinta con él la superficie y espolvorea con la neguilla y, si quieres, con el sésamo.", "it": "Sbatti l'ultimo uovo, spennellalo sulla superficie, poi cospargi di semi di nigella e, se ti va, di semi di sesamo."}},
+    {"text": {"fr": "Faites cuire 30 à 35 minutes, jusqu'à ce que le dessus soit bien doré et gonflé.", "en": "Bake for 30 to 35 minutes, until the top is puffed and a deep golden brown.", "es": "Hornea de 30 a 35 minutos, hasta que la superficie esté bien dorada e hinchada.", "it": "Inforna per 30-35 minuti, finché la superficie è gonfia e ben dorata."}, "timerMinutes": 35},
+    {"text": {"fr": "Dès la sortie du four, arrosez le gâteau brûlant de miel liquide et servez aussitôt, coupé en parts.", "en": "As soon as it comes out of the oven, pour the runny honey over the piping-hot cake and serve straight away, cut into wedges.", "es": "Nada más sacarlo del horno, baña el pastel muy caliente con la miel líquida y sírvelo enseguida, cortado en porciones.", "it": "Appena sfornato, irrora il dolce bollente con il miele liquido e servilo subito, tagliato a spicchi."}}
+  ]
+}

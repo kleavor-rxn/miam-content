@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-caramel-apples",
+  "title": {"fr": "Pommes au caramel", "en": "Caramel apples", "es": "Manzanas con caramelo", "it": "Mele ricoperte di caramello"},
+  "summary": {
+    "fr": "La gourmandise américaine d'Halloween : des pommes acidulées piquées sur un bâton et trempées dans un caramel mou à la crème et au beurre.",
+    "en": "America's Halloween treat: tart apples on sticks, dipped in a soft, chewy caramel made with cream and butter.",
+    "es": "El capricho estadounidense de Halloween: manzanas ácidas pinchadas en un palito y bañadas en un caramelo blando de nata y mantequilla.",
+    "it": "La golosità americana di Halloween: mele acidule infilzate su uno stecco e immerse in un caramello morbido alla panna e al burro."
+  },
+  "story": {
+    "fr": "Cousine de la pomme d'amour et de son sucre rouge et dur, la pomme au caramel est enrobée d'un caramel mou et moelleux, cuit avec de la crème et du beurre. Aux États-Unis, c'est une friandise d'automne que l'on trouve dans les fêtes foraines, les vergers à la saison de la cueillette et surtout à Halloween. On la fait avec des pommes petites, croquantes et acidulées, comme la Granny Smith, dont l'acidité équilibre la douceur du caramel, et on la roule volontiers dans des cacahuètes concassées.",
+    "en": "A cousin of the toffee apple with its hard red shell, the caramel apple is coated in a soft, chewy caramel cooked with cream and butter. In the United States it is an autumn treat found at county fairs, at orchards during the apple harvest and above all at Halloween. It is made with small, crisp, tart apples such as Granny Smiths, whose sharpness balances the sweetness of the caramel, and is often rolled in chopped peanuts.",
+    "es": "Prima de la manzana de caramelo, de cobertura roja y dura, la manzana con caramelo va cubierta de un caramelo blando y masticable, cocido con nata y mantequilla. En Estados Unidos es un capricho de otoño que se encuentra en las ferias, en los huertos durante la cosecha de manzanas y, sobre todo, en Halloween. Se hace con manzanas pequeñas, crujientes y ácidas, como la Granny Smith, cuya acidez equilibra el dulzor del caramelo, y a menudo se pasa por cacahuetes picados.",
+    "it": "Cugina della mela caramellata, rossa e dura, la mela ricoperta di caramello è avvolta in un morbido caramello mou, cotto con panna e burro. Negli Stati Uniti è una golosità autunnale che si trova alle fiere di paese, nei frutteti durante la raccolta delle mele e soprattutto ad Halloween. Si prepara con mele piccole, croccanti e acidule, come la Granny Smith, la cui acidità bilancia la dolcezza del caramello, e spesso la si passa nelle arachidi tritate."
+  },
+  "region": {"fr": "États-Unis", "en": "United States", "es": "Estados Unidos", "it": "Stati Uniti"},
+  "origin": {"countries": ["US"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": ["halloween"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 25,
+  "servings": 6,
+  "heroImage": "images/ds-caramel-apples/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "pomme", "quantity": 6, "unit": "piece"},
+    {"ref": "creme-liquide", "quantity": 200, "unit": "ml"},
+    {"ref": "sucre-pour-caramel", "quantity": 200, "unit": "g"},
+    {"ref": "sirop-de-glucose", "quantity": 80, "unit": "g", "substitutes": ["sirop-de-sucre-inverti"]},
+    {"ref": "eau", "quantity": 60, "unit": "ml"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "cacahuete", "quantity": 80, "unit": "g", "optional": true},
+    {"ref": "noix-de-pecan", "quantity": 80, "unit": "g", "optional": true},
+    {"ref": "chocolat-noir", "quantity": 50, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Plongez les pommes quelques secondes dans de l'eau très chaude, frottez-les avec un torchon pour ôter la cire qui empêcherait le caramel d'adhérer, puis séchez-les parfaitement et retirez les queues.", "en": "Dip the apples in very hot water for a few seconds and rub them with a tea towel to remove the wax that would stop the caramel sticking, then dry them thoroughly and pull out the stalks.", "es": "Sumerge las manzanas unos segundos en agua muy caliente y frótalas con un paño para quitarles la cera, que impediría que el caramelo se adhiriera; después sécalas muy bien y quítales el rabillo.", "it": "Immergi le mele per qualche secondo in acqua molto calda e strofinale con un canovaccio per eliminare la cera, che impedirebbe al caramello di aderire, poi asciugale perfettamente ed elimina i piccioli."}},
+    {"text": {"fr": "Enfoncez un bâtonnet en bois au centre de chaque pomme, côté queue, posez-les sur une plaque tapissée de papier cuisson et mettez-les au réfrigérateur : des pommes froides font prendre le caramel plus vite.", "en": "Push a wooden stick into the stalk end of each apple, set them on a tray lined with baking paper and chill them: cold apples help the caramel set faster.", "es": "Clava un palito de madera en el centro de cada manzana, por el lado del rabillo, colócalas en una bandeja cubierta con papel de horno y mételas en la nevera: con las manzanas frías, el caramelo cuaja antes.", "it": "Infila uno stecco di legno al centro di ogni mela, dal lato del picciolo, disponile su una teglia rivestita di carta forno e mettile in frigorifero: con le mele fredde il caramello rapprende più in fretta."}, "timerMinutes": 30},
+    {"text": {"fr": "Faites tiédir la crème dans une petite casserole, sans la faire bouillir, et gardez-la au chaud.", "en": "Warm the cream in a small pan without letting it boil, and keep it warm.", "es": "Calienta la nata en un cazo pequeño sin que llegue a hervir y mantenla caliente.", "it": "Intiepidisci la panna in un pentolino senza farla bollire e tienila in caldo."}, "timerMinutes": 3},
+    {"text": {"fr": "Dans une casserole à fond épais, faites cuire le sucre avec le sirop de glucose et l'eau à feu moyen, sans remuer, jusqu'à obtenir un caramel blond foncé.", "en": "In a heavy-based pan, cook the sugar with the glucose syrup and the water over a medium heat, without stirring, until it turns a deep golden caramel.", "es": "En un cazo de fondo grueso, cuece el azúcar con el jarabe de glucosa y el agua a fuego medio, sin remover, hasta obtener un caramelo dorado oscuro.", "it": "In una casseruola dal fondo spesso, cuoci lo zucchero con lo sciroppo di glucosio e l'acqua a fuoco medio, senza mescolare, fino a ottenere un caramello biondo scuro."}, "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, versez la crème chaude en filet en fouettant (attention aux projections), puis incorporez le beurre en morceaux.", "en": "Off the heat, pour in the warm cream in a thin stream, whisking all the time (watch out, it will splutter), then whisk in the butter in pieces.", "es": "Fuera del fuego, vierte la nata caliente en un hilo sin dejar de batir (cuidado con las salpicaduras) e incorpora después la mantequilla en trozos.", "it": "Fuori dal fuoco, versa la panna calda a filo mescolando con la frusta (attenzione agli schizzi), poi incorpora il burro a pezzetti."}},
+    {"text": {"fr": "Remettez sur feu moyen et faites cuire en remuant sans cesse jusqu'à ce que le caramel atteigne 118 °C au thermomètre.", "en": "Return the pan to a medium heat and cook, stirring constantly, until the caramel reaches 118 °C on a sugar thermometer.", "es": "Vuelve a poner el cazo a fuego medio y cuece sin dejar de remover hasta que el caramelo alcance 118 °C en el termómetro.", "it": "Rimetti su fuoco medio e cuoci mescolando di continuo finché il caramello raggiunge 118 °C al termometro."}, "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, ajoutez le sel et, si vous le souhaitez, l'extrait de vanille, puis laissez le caramel tiédir jusqu'à ce qu'il épaississe et nappe bien la cuillère, à 90 °C environ.", "en": "Off the heat, stir in the salt and, if you like, the vanilla extract, then let the caramel cool until it thickens and coats the spoon well, at about 90 °C.", "es": "Fuera del fuego, añade la sal y, si quieres, el extracto de vainilla, y deja que el caramelo se temple hasta que espese y nape bien la cuchara, a unos 90 °C.", "it": "Fuori dal fuoco, aggiungi il sale e, se ti va, l'estratto di vaniglia, poi lascia intiepidire il caramello finché si addensa e vela bene il cucchiaio, a circa 90 °C."}, "timerMinutes": 10},
+    {"text": {"fr": "Trempez chaque pomme dans le caramel en la faisant tourner, laissez égoutter l'excédent, raclez le dessous sur le bord de la casserole et, si vous le souhaitez, roulez aussitôt la base dans les cacahuètes ou les noix de pécan concassées avant de la reposer sur le papier.", "en": "Dip each apple into the caramel, turning it to coat, let the excess drip off, scrape the base on the edge of the pan and, if you like, roll the bottom straight away in the chopped peanuts or pecans before standing it back on the paper.", "es": "Baña cada manzana en el caramelo haciéndola girar, deja que escurra el exceso, raspa la base contra el borde del cazo y, si quieres, pasa enseguida la base por los cacahuetes o las nueces pecanas picados antes de volver a dejarla sobre el papel.", "it": "Immergi ogni mela nel caramello facendola ruotare, lascia sgocciolare l'eccesso, raschia la base sul bordo della casseruola e, se ti va, passa subito il fondo nelle arachidi o nelle noci pecan tritate prima di rimetterla sulla carta."}},
+    {"text": {"fr": "Laissez prendre le caramel au réfrigérateur.", "en": "Chill the apples until the caramel has set.", "es": "Deja que el caramelo cuaje en la nevera.", "it": "Lascia rapprendere il caramello in frigorifero."}, "timerMinutes": 20},
+    {"text": {"fr": "Si vous le souhaitez, faites fondre le chocolat noir au bain-marie, faites-le couler en fins filets sur les pommes et laissez-le figer avant de servir.", "en": "If you like, melt the dark chocolate in a bowl over simmering water, drizzle it over the apples in thin lines and let it set before serving.", "es": "Si quieres, funde el chocolate negro al baño maría, déjalo caer en hilos finos sobre las manzanas y deja que se endurezca antes de servir.", "it": "Se ti va, sciogli il cioccolato fondente a bagnomaria, fallo colare a fili sottili sulle mele e lascialo rapprendere prima di servire."}, "timerMinutes": 10}
+  ]
+}

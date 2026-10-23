@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+A round, flat almond cake about 24 cm across and 3 cm tall on a plain white round plate, its golden-brown crust fine and slightly cracked at the edges. The whole top is covered with an even layer of snow-white icing sugar, except for a large cross-shaped stencil silhouette in the centre left bare in golden brown: a slender cross whose upper three arms end in curled, flower-like tips and whose lower arm tapers into a long pointed blade. One wedge has been cut out and set beside the cake on a small plain white plate, showing a moist, dense, pale golden crumb with a fine grainy texture of ground almonds. The edges of the cake are bare, with no pastry crust.

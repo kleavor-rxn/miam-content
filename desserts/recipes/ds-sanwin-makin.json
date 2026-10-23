@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-sanwin-makin",
+  "title": {"fr": "Sanwin makin", "en": "Sanwin makin", "es": "Sanwin makin", "it": "Sanwin makin"},
+  "summary": {
+    "fr": "Le gâteau de semoule birman : une semoule cuite au lait de coco, au sucre et au beurre, enrichie d'œufs puis dorée au four sous une pluie de graines de sésame.",
+    "en": "Myanmar's semolina cake: semolina cooked with coconut milk, sugar and butter, enriched with eggs, then baked golden under a scattering of sesame seeds.",
+    "es": "El pastel de sémola birmano: sémola cocida con leche de coco, azúcar y mantequilla, enriquecida con huevos y dorada al horno bajo una lluvia de semillas de sésamo.",
+    "it": "La torta di semolino birmana: semolino cotto con latte di cocco, zucchero e burro, arricchito di uova e poi dorato in forno sotto una pioggia di semi di sesamo."
+  },
+  "story": {
+    "fr": "Le sanwin makin est l'un des en-cas sucrés (mont) les plus répandus de Birmanie : on le vend en parts carrées dans les salons de thé, les pâtisseries et sur les marchés. Il s'apparente aux halvas de semoule d'Asie du Sud, mais le lait de coco lui donne son parfum, et sa cuisson en deux temps, d'abord à la casserole puis au four, lui vaut un intérieur fondant sous un dessus bien doré. On le parsème de graines de sésame ou de pavot.",
+    "en": "Sanwin makin is one of the most popular sweet snacks (mont) in Myanmar, sold in square pieces in tea shops, bakeries and markets. It is related to the semolina halwas of South Asia, but coconut milk gives it its flavour, and its two-stage cooking, first in a pan and then in the oven, gives it a soft, tender inside under a deep golden top. It is scattered with sesame or poppy seeds.",
+    "es": "El sanwin makin es uno de los dulces (mont) más populares de Birmania: se vende en porciones cuadradas en los salones de té, las pastelerías y los mercados. Está emparentado con los halvas de sémola del sur de Asia, pero la leche de coco le da su aroma, y su cocción en dos tiempos, primero en el cazo y luego en el horno, le da un interior tierno bajo una superficie bien dorada. Se cubre con semillas de sésamo o de amapola.",
+    "it": "Il sanwin makin è uno degli spuntini dolci (mont) più diffusi in Birmania: si vende a quadrotti nelle sale da tè, nelle pasticcerie e nei mercati. È parente degli halva di semolino dell'Asia meridionale, ma il latte di cocco gli dà il suo profumo, e la cottura in due tempi, prima in pentola e poi in forno, gli regala un interno morbido sotto una superficie ben dorata. Lo si cosparge di semi di sesamo o di papavero."
+  },
+  "region": {"fr": "Birmanie", "en": "Myanmar", "es": "Birmania", "it": "Birmania"},
+  "origin": {"countries": ["MM"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 70,
+  "servings": 9,
+  "heroImage": "images/ds-sanwin-makin/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 80, "unit": "g", "substitutes": ["ghee"]},
+    {"ref": "semoule-de-ble", "quantity": 200, "unit": "g"},
+    {"ref": "lait-de-coco", "quantity": 400, "unit": "ml"},
+    {"ref": "eau", "quantity": 250, "unit": "ml"},
+    {"ref": "sucre", "quantity": 180, "unit": "g", "substitutes": ["sucre-de-palme"]},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "cardamome", "quantity": 0.5, "unit": "tsp", "optional": true},
+    {"ref": "raisins-secs", "quantity": 50, "unit": "g", "optional": true},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "graines-de-sesame", "quantity": 1, "unit": "tbsp"},
+    {"ref": "graines-de-pavot", "quantity": 1, "unit": "tsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Beurrez un moule carré de 20 cm avec 10 g de beurre.", "en": "Grease a 20 cm square tin with 10 g of the butter.", "es": "Engrasa un molde cuadrado de 20 cm con 10 g de la mantequilla.", "it": "Imburra uno stampo quadrato di 20 cm con 10 g del burro."}},
+    {"text": {"fr": "Dans une grande casserole à fond épais ou un wok, faites griller la semoule à sec à feu moyen-doux pendant 5 minutes, en remuant sans cesse, jusqu'à ce qu'elle soit parfumée, sans la laisser colorer.", "en": "In a large heavy-based pan or a wok, toast the semolina dry over a medium-low heat for 5 minutes, stirring constantly, until fragrant but not coloured.", "es": "En una cazuela grande de fondo grueso o en un wok, tuesta la sémola en seco a fuego medio-bajo durante 5 minutos sin dejar de remover, hasta que desprenda aroma, sin que llegue a tomar color.", "it": "In una casseruola capiente dal fondo spesso o in un wok, tosta il semolino a secco a fuoco medio-basso per 5 minuti mescolando di continuo, finché è profumato ma senza farlo colorire."}, "timerMinutes": 5},
+    {"text": {"fr": "Versez peu à peu le lait de coco et l'eau en fouettant pour éviter les grumeaux, ajoutez le sucre (ou du sucre de palme) et le sel, puis faites cuire en remuant sans arrêt pendant 15 minutes, jusqu'à obtenir une pâte épaisse qui se détache des parois.", "en": "Gradually pour in the coconut milk and water, whisking to prevent lumps, add the sugar (or palm sugar) and the salt, then cook, stirring all the time, for 15 minutes, until you have a thick paste that comes away from the sides of the pan.", "es": "Vierte poco a poco la leche de coco y el agua batiendo para que no se formen grumos, añade el azúcar (o azúcar de palma) y la sal, y cuece sin dejar de remover durante 15 minutos, hasta obtener una pasta espesa que se despegue de las paredes.", "it": "Versa a poco a poco il latte di cocco e l'acqua mescolando con la frusta per evitare i grumi, aggiungi lo zucchero (o lo zucchero di palma) e il sale, poi cuoci mescolando senza sosta per 15 minuti, fino a ottenere una pasta densa che si stacca dalle pareti."}, "timerMinutes": 15},
+    {"text": {"fr": "Incorporez les 70 g de beurre restants petit à petit, ainsi que, si vous le souhaitez, la cardamome moulue et les raisins secs, et remuez encore 5 minutes, jusqu'à ce que la pâte soit lisse et brillante.", "en": "Work in the remaining 70 g of butter a little at a time, along with the ground cardamom and the raisins if you like, and keep stirring for 5 more minutes, until the paste is smooth and glossy.", "es": "Incorpora poco a poco los 70 g de mantequilla restantes y, si quieres, el cardamomo molido y las pasas, y sigue removiendo 5 minutos más, hasta que la pasta esté lisa y brillante.", "it": "Incorpora a poco a poco i 70 g di burro rimasti e, se ti va, il cardamomo in polvere e l'uvetta, e continua a mescolare per altri 5 minuti, finché la pasta è liscia e lucida."}, "timerMinutes": 5},
+    {"text": {"fr": "Retirez du feu et laissez tiédir la pâte, pour que les œufs ne cuisent pas au contact.", "en": "Take off the heat and let the paste cool slightly, so the eggs will not scramble when added.", "es": "Retira del fuego y deja que la pasta se temple, para que los huevos no se cuajen al añadirlos.", "it": "Togli dal fuoco e lascia intiepidire la pasta, perché le uova non si rapprendano al contatto."}, "timerMinutes": 10},
+    {"text": {"fr": "Incorporez les œufs un à un en battant vigoureusement à la cuillère en bois après chaque ajout.", "en": "Add the eggs one at a time, beating hard with a wooden spoon after each addition.", "es": "Incorpora los huevos de uno en uno, batiendo enérgicamente con una cuchara de madera después de cada adición.", "it": "Incorpora le uova una alla volta, sbattendo energicamente con un cucchiaio di legno dopo ogni aggiunta."}},
+    {"text": {"fr": "Étalez la pâte dans le moule, lissez la surface et parsemez-la de graines de sésame (et, si vous le souhaitez, de graines de pavot).", "en": "Spread the paste in the tin, smooth the surface and scatter over the sesame seeds (and the poppy seeds, if you like).", "es": "Extiende la pasta en el molde, alisa la superficie y espolvorea las semillas de sésamo (y, si quieres, las de amapola).", "it": "Stendi la pasta nello stampo, livella la superficie e cospargila di semi di sesamo (e, se ti va, di semi di papavero)."}},
+    {"text": {"fr": "Faites cuire 45 minutes environ, jusqu'à ce que le dessus soit bien doré et ferme au toucher.", "en": "Bake for about 45 minutes, until the top is a deep golden brown and firm to the touch.", "es": "Hornea unos 45 minutos, hasta que la superficie esté bien dorada y firme al tacto.", "it": "Inforna per circa 45 minuti, finché la superficie è ben dorata e soda al tatto."}, "timerMinutes": 45},
+    {"text": {"fr": "Laissez refroidir complètement dans le moule pour que le gâteau se raffermisse, puis coupez-le en 9 carrés.", "en": "Leave to cool completely in the tin so the cake firms up, then cut it into 9 squares.", "es": "Deja que se enfríe por completo en el molde para que el pastel se asiente y córtalo en 9 cuadrados.", "it": "Lascia raffreddare completamente nello stampo perché la torta si rassodi, poi tagliala in 9 quadrotti."}, "timerMinutes": 60}
+  ]
+}
