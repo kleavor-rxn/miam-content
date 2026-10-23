@@ -28,7 +28,6 @@
   "ingredients": [
     {"ref": "sucre-pour-caramel", "quantity": 150, "unit": "g"},
     {"ref": "eau", "quantity": 50, "unit": "ml"},
-    {"ref": "eau", "quantity": null, "unit": null},
     {"ref": "lait-concentre-sucre", "quantity": 397, "unit": "g"},
     {"ref": "lait-concentre-non-sucre", "quantity": 400, "unit": "ml"},
     {"ref": "oeuf", "quantity": 5, "unit": "piece"},

@@ -28,7 +28,6 @@
   "ingredients": [
     {"ref": "couscous-de-mil", "quantity": 250, "unit": "g", "substitutes": ["semoule-de-ble"]},
     {"ref": "eau", "quantity": 10, "unit": "cl"},
-    {"ref": "eau", "quantity": null, "unit": null},
     {"ref": "yaourt-nature", "quantity": 800, "unit": "g"},
     {"ref": "lait-concentre-sucre", "quantity": 200, "unit": "g"},
     {"ref": "sucre", "quantity": 40, "unit": "g"},

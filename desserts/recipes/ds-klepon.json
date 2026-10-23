@@ -29,7 +29,6 @@
     {"ref": "farine-de-riz-gluant", "quantity": 200, "unit": "g"},
     {"ref": "feuille-de-pandan", "quantity": 8, "unit": "piece", "substitutes": ["extrait-de-pandan"]},
     {"ref": "eau", "quantity": 210, "unit": "ml"},
-    {"ref": "eau", "quantity": null, "unit": null},
     {"ref": "sel", "quantity": 2, "unit": "pinch"},
     {"ref": "sucre-de-palme", "quantity": 80, "unit": "g", "substitutes": ["cassonade"]},
     {"ref": "noix-de-coco-rapee", "quantity": 100, "unit": "g"}

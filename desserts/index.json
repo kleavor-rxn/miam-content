@@ -5,7 +5,7 @@
     {
       "id": "ds-aebleskiver",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "a36f92f2249e7c782d327aa9bea26014300e7ad9e7d86f2d0c200c73bbce66af",
+      "contentHash": "1cf8af32844f0d4db102b9947590b77303d40625f85959dd17c216f203506dbd",
       "title": {
         "fr": "Æbleskiver",
         "en": "Æbleskiver",
@@ -22,7 +22,7 @@
     {
       "id": "ds-alfajores",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "b33c4bd942d39c39af062b5bdba7820778a7ac3ab00c444af4fd5ea7e4391f6b",
+      "contentHash": "3c5e4e71af3cd403428ce741a6de6622135cb5c14fe6898b4fd7c62420c3ad4a",
       "title": {
         "fr": "Alfajores",
         "en": "Alfajores",
@@ -116,7 +116,7 @@
     {
       "id": "ds-cendol",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "ee888f8cb9879e9a8deece791016bbeeb88eeadd3391d94c5dc3adb294b26064",
+      "contentHash": "e9447b822e0439f3c17e1d4d370be59c6f4f2a8c7e24b6debe11ebf30e2bd3e7",
       "title": {
         "fr": "Cendol",
         "en": "Cendol",
@@ -227,7 +227,7 @@
     {
       "id": "ds-dobos-torta",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "a5325213993ca79e51b88415c3469b5e945e0a1d5bcd05f9d5e11a0d78b890aa",
+      "contentHash": "04e9f7c8d6488663ea84a491d8d6d2621e475ee97f9db32523dc2d34638bba0e",
       "title": {
         "fr": "Dobos torta",
         "en": "Dobos torte",
@@ -274,7 +274,7 @@
     {
       "id": "ds-flan",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "244f8eb76ef68121d117f54294d0965de6689aada4ab81e862abc28f09e7b8fc",
+      "contentHash": "62efcb4ce0664adc74731915534870251efdf95cd427c541a21ade38d133d888",
       "title": {
         "fr": "Flan",
         "en": "Flan",
@@ -400,7 +400,7 @@
     {
       "id": "ds-klepon",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "39f13716e18e91c946f1d0321259f2dcf5447e26f90a3e5a3c05fb5d8d77f6c2",
+      "contentHash": "25fa0aa9ab335b9f295d18d9c1b47404004fccfc3fe5f2ea918d065997e4c3b6",
       "title": {
         "fr": "Klepon",
         "en": "Klepon",
@@ -449,7 +449,7 @@
     {
       "id": "ds-lamington",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "cde9196573f04736b401fc52a0157da4ba6532ab501a3f0d28a73c22820229ce",
+      "contentHash": "3660b24aa657939cf9a1ece52cd85054e6a864508b9d41e284c57d277c36a5bb",
       "title": {
         "fr": "Lamington",
         "en": "Lamington",
@@ -464,7 +464,7 @@
     {
       "id": "ds-loukoum",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "ed00f52f460bfd9cec9df28cd995a186aeb5f7fa42c96cabf91c516aa6336829",
+      "contentHash": "b0558e7648e13006e5d91866d67f9787d8ce1a9c212546be6f6b803232ce0cc5",
       "title": {
         "fr": "Loukoum",
         "en": "Turkish delight",
@@ -594,7 +594,7 @@
     {
       "id": "ds-new-york-cheesecake",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "77940cf36e2b76ad86d921431e7f663f5c3e2103ddffba23372c72f9acf26697",
+      "contentHash": "d0f21975f8deb2aac0d20b4863b2dd6ae9bbe844383acb0fbcdacfafd44da785",
       "title": {
         "fr": "Cheesecake new-yorkais",
         "en": "New York cheesecake",
@@ -656,7 +656,7 @@
     {
       "id": "ds-patbingsu",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "ceefd04bd7551cf5368352a7c8224b34356056f6325bebcd7ad3c26db524a884",
+      "contentHash": "9fedb1f89750f81789fc7fdbf8cdc33b54392f86e89a5cdd3afc3fad214bec42",
       "title": {
         "fr": "Patbingsu",
         "en": "Patbingsu",
@@ -705,7 +705,7 @@
     {
       "id": "ds-ras-malai",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "7abd4b074ca8306d031378350f4756f850dfcfc70399840a4798608fa776c335",
+      "contentHash": "eb4a33e8336712d75363cfdaf8274909523fd1c0b549c223cc6b4124f85090dd",
       "title": {
         "fr": "Ras malai",
         "en": "Ras malai",
@@ -737,7 +737,7 @@
     {
       "id": "ds-thiakry",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "395b2195c60667609f8a1f03b89dd04c1177a5bcaccf29da61a9363f538b9225",
+      "contentHash": "4852e3d2092ea92a23582f5b351baee204d6320a2e823a4407e78eed6e72f683",
       "title": {
         "fr": "Thiakry",
         "en": "Thiakry",
@@ -786,7 +786,7 @@
     {
       "id": "ds-turron",
       "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "2ca72a14bb16aec26ebed95b0db8ea35853bd8fa9df0de6f97d3758ff140bba4",
+      "contentHash": "269e92803dea1b2941b1878bca5cd459c88f0748a8f68b12b0261982a3eeb65b",
       "title": {
         "fr": "Turrón",
         "en": "Turrón",
