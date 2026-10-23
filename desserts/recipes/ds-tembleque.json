@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-tembleque",
+  "title": {"fr": "Tembleque", "en": "Tembleque", "es": "Tembleque", "it": "Tembleque"},
+  "summary": {
+    "fr": "L'entremets à la noix de coco de Porto Rico : du lait de coco épaissi à la fécule de maïs, pris au froid jusqu'à trembler, démoulé et poudré de cannelle.",
+    "en": "Puerto Rico's coconut pudding: coconut milk thickened with cornflour, chilled until it sets with a wobble, turned out and dusted with cinnamon.",
+    "es": "El postre de coco de Puerto Rico: leche de coco espesada con maicena, cuajada en frío hasta que tiembla, desmoldada y espolvoreada con canela.",
+    "it": "Il budino al cocco di Porto Rico: latte di cocco addensato con amido di mais, rassodato al freddo finché trema, sformato e spolverato di cannella."
+  },
+  "story": {
+    "fr": "Le tembleque doit son nom à l'espagnol temblar, « trembler », pour la façon dont il frémit quand on le démoule. Cet entremets au lait de coco est l'un des desserts de Noël de Porto Rico, servi avec l'arroz con dulce pendant les longues fêtes de fin d'année de l'île. On le faisait autrefois avec du lait pressé à la main à partir de noix de coco fraîchement râpées ; le lait de coco en conserve l'a largement remplacé dans les cuisines d'aujourd'hui.",
+    "en": "Tembleque takes its name from the Spanish temblar, 'to tremble', for the way it quivers when turned out. This coconut milk pudding is one of Puerto Rico's Christmas desserts, served alongside arroz con dulce throughout the island's long festive season. It was once made with milk pressed by hand from freshly grated coconut; tinned coconut milk has largely taken its place in today's kitchens.",
+    "es": "El tembleque debe su nombre al verbo temblar, por cómo se estremece al desmoldarlo. Este postre de leche de coco es uno de los dulces navideños de Puerto Rico, que se sirve junto al arroz con dulce durante las largas fiestas de fin de año de la isla. Antes se hacía con leche exprimida a mano de cocos recién rallados; hoy la leche de coco en lata la ha sustituido en la mayoría de las cocinas.",
+    "it": "Il tembleque deve il nome allo spagnolo temblar, «tremare», per come vibra quando lo si sforma. Questo budino al latte di cocco è uno dei dolci natalizi di Porto Rico, servito insieme all'arroz con dulce durante le lunghe feste di fine anno dell'isola. Un tempo si preparava con il latte spremuto a mano dal cocco appena grattugiato; oggi il latte di cocco in scatola lo ha in gran parte sostituito."
+  },
+  "region": {"fr": "Porto Rico", "en": "Puerto Rico", "es": "Puerto Rico", "it": "Porto Rico"},
+  "origin": {"countries": ["PR"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 6,
+  "heroImage": "images/ds-tembleque/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait-de-coco", "quantity": 800, "unit": "ml"},
+    {"ref": "fecule-de-mais", "quantity": 60, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 1, "unit": "tbsp", "optional": true},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un bol, délayez la fécule de maïs dans 200 ml de lait de coco froid jusqu'à ce qu'il ne reste aucun grumeau.", "en": "In a bowl, whisk the cornflour into 200 ml of the cold coconut milk until there are no lumps left.", "es": "En un bol, disuelve la maicena en 200 ml de leche de coco fría hasta que no quede ningún grumo.", "it": "In una ciotola stempera l'amido di mais in 200 ml di latte di cocco freddo finché non resta nessun grumo."}},
+    {"text": {"fr": "Dans une casserole, faites chauffer les 600 ml de lait de coco restants avec le sucre et le sel, en remuant, jusqu'aux premiers frémissements.", "en": "In a saucepan, heat the remaining 600 ml of coconut milk with the sugar and salt, stirring, until it just starts to simmer.", "es": "En un cazo, calienta los 600 ml de leche de coco restantes con el azúcar y la sal, removiendo, hasta que empiece a hervir suavemente.", "it": "In una casseruola scalda i 600 ml di latte di cocco rimasti con lo zucchero e il sale, mescolando, finché comincia a sobbollire."}, "timerMinutes": 5},
+    {"text": {"fr": "Versez la fécule délayée dans la casserole en fouettant.", "en": "Pour the cornflour mixture into the pan, whisking.", "es": "Vierte la maicena disuelta en el cazo sin dejar de batir.", "it": "Versa l'amido stemperato nella casseruola mescolando con la frusta."}},
+    {"text": {"fr": "Faites cuire à feu moyen 8 à 10 minutes sans cesser de remuer, jusqu'à ce que la crème soit très épaisse et lisse et laisse échapper quelques gros bouillons.", "en": "Cook over a medium heat for 8 to 10 minutes, stirring constantly, until the pudding is very thick and smooth and the odd large bubble bursts on the surface.", "es": "Cuece a fuego medio de 8 a 10 minutos sin dejar de remover, hasta que la crema esté muy espesa y lisa y suelte algún borbotón.", "it": "Cuoci a fuoco medio per 8-10 minuti senza smettere di mescolare, finché la crema è molto densa e liscia e fa qualche grossa bolla."}, "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, ajoutez l'eau de fleur d'oranger si vous le souhaitez.", "en": "Off the heat, stir in the orange blossom water, if you like.", "es": "Fuera del fuego, añade el agua de azahar si quieres.", "it": "Fuori dal fuoco, aggiungi l'acqua di fiori d'arancio, se ti va."}},
+    {"text": {"fr": "Versez aussitôt la crème dans un moule de 1 litre (ou six ramequins) rincé à l'eau froide et lissez la surface.", "en": "Straight away, pour the pudding into a 1-litre mould (or six ramekins) rinsed with cold water and smooth the surface.", "es": "Vierte enseguida la crema en un molde de 1 litro (o seis flaneras) enjuagado con agua fría y alisa la superficie.", "it": "Versa subito la crema in uno stampo da 1 litro (o sei stampini) sciacquato con acqua fredda e livella la superficie."}},
+    {"text": {"fr": "Laissez tiédir 30 minutes à température ambiante.", "en": "Leave to cool for 30 minutes at room temperature.", "es": "Deja que se temple 30 minutos a temperatura ambiente.", "it": "Lascia intiepidire per 30 minuti a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Couvrez et laissez prendre au réfrigérateur au moins 4 heures.", "en": "Cover and chill for at least 4 hours, until set.", "es": "Cubre y deja cuajar en la nevera al menos 4 horas.", "it": "Copri e lascia rassodare in frigorifero per almeno 4 ore."}, "timerMinutes": 240},
+    {"text": {"fr": "Décollez les bords avec la pointe d'un couteau, démoulez sur un plat et saupoudrez généreusement de cannelle moulue.", "en": "Loosen the edges with the tip of a knife, turn out onto a plate and dust generously with the ground cinnamon.", "es": "Despega los bordes con la punta de un cuchillo, desmolda sobre una fuente y espolvorea generosamente con la canela molida.", "it": "Stacca i bordi con la punta di un coltello, sforma su un piatto e spolvera generosamente con la cannella in polvere."}}
+  ]
+}

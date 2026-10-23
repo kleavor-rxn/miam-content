@@ -1,0 +1,4 @@
+Editorial dessert photography, soft natural window light, light wood or linen surface, simple plain tableware, the dessert as served in its country of origin.
+
+## hero.webp
+A long golden-brown baked roll of soft yeasted dough, about thirty centimetres long, lying on a plain white rectangular platter, its top coated with a thin, opaque white sugar glaze that has run slightly down the sides and is sprinkled with small orange cubes of candied peel. The front end has been cut into three thick slices, laid flat in front of the roll, revealing a tight spiral of thin pale cream-coloured dough wound around thick dark blue-grey layers of ground poppy seed filling, flecked with plump raisins and pieces of walnut. The poppy seed layers are much thicker than the dough layers and look moist and dense. The crust is smooth and evenly browned.

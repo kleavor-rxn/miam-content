@@ -65,6 +65,21 @@
       "difficulty": 3
     },
     {
+      "id": "ds-apple-crumble",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "410a98f5670433deed61fd9bdd140e730051253c8104c6962a3e6c745fc4866a",
+      "title": {
+        "fr": "Crumble aux pommes",
+        "en": "Apple crumble",
+        "es": "Crumble de manzana",
+        "it": "Crumble di mele"
+      },
+      "heroImage": "images/ds-apple-crumble/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
       "id": "ds-apple-pie",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "ab919b5034525152d7f37aa42822c998153b52b1c7688e65f2ea6b3b2a37d4e0",
@@ -95,6 +110,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-bastani-sonnati",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "a8b23d41bcc9f2b6b9258af3fa793f0f46beeb547f19401093232d5fc70e5cb9",
+      "title": {
+        "fr": "Bastani sonnati",
+        "en": "Bastani sonnati",
+        "es": "Bastani sonnati",
+        "it": "Bastani sonnati"
+      },
+      "heroImage": "images/ds-bastani-sonnati/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 2
+    },
+    {
       "id": "ds-besan-laddoo",
       "updatedAt": "2026-10-23T18:41:35Z",
       "contentHash": "9519eb348fb2065bcfde9704c464accb6e2c1f677a8cf2693f3a43c3cba9951f",
@@ -108,6 +140,21 @@
       "tags": [
         "noBake"
       ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-bibingka",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "7c1dc42c79dbbaaf2eb1097ffc98b426cc43a2d6f04dfe8431a560f7deb6406e",
+      "title": {
+        "fr": "Bibingka",
+        "en": "Bibingka",
+        "es": "Bibingka",
+        "it": "Bibingka"
+      },
+      "heroImage": "images/ds-bibingka/hero.webp",
+      "tags": [],
       "totalMinutes": 50,
       "difficulty": 2
     },
@@ -197,6 +244,21 @@
       "difficulty": 3
     },
     {
+      "id": "ds-chocolate-chip-cookies",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "5223770d8d121d20143797de47bc45ddbe3e8a387be9c088899d6225e4723ffb",
+      "title": {
+        "fr": "Cookies aux pépites de chocolat",
+        "en": "Chocolate chip cookies",
+        "es": "Galletas con pepitas de chocolate",
+        "it": "Cookies con gocce di cioccolato"
+      },
+      "heroImage": "images/ds-chocolate-chip-cookies/hero.webp",
+      "tags": [],
+      "totalMinutes": 42,
+      "difficulty": 1
+    },
+    {
       "id": "ds-churros-con-chocolate",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "abdab3d71991495d1e338ddb5d5cac04afbc671dbb3e9f5f85bb8b3f3c2cb995",
@@ -227,6 +289,23 @@
       "tags": [],
       "totalMinutes": 55,
       "difficulty": 1
+    },
+    {
+      "id": "ds-cocada-amarela",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "de64a8175e6410e17c4c1aebb3dcab0b59f3cdb427db3b53d960ebe97937af3d",
+      "title": {
+        "fr": "Cocada amarela",
+        "en": "Cocada amarela",
+        "es": "Cocada amarela",
+        "it": "Cocada amarela"
+      },
+      "heroImage": "images/ds-cocada-amarela/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
     },
     {
       "id": "ds-conchas",
@@ -353,6 +432,21 @@
       "difficulty": 1
     },
     {
+      "id": "ds-fengli-su",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "ed71bebf2a90098dc6e11cf5219c6dfe6175bc4e07af4c4504e6f813f1e4d885",
+      "title": {
+        "fr": "Fengli su (gâteau à l'ananas)",
+        "en": "Pineapple cake (fengli su)",
+        "es": "Fengli su (pastelito de piña)",
+        "it": "Fengli su (dolcetto all'ananas)"
+      },
+      "heroImage": "images/ds-fengli-su/hero.webp",
+      "tags": [],
+      "totalMinutes": 130,
+      "difficulty": 2
+    },
+    {
       "id": "ds-flan",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "62efcb4ce0664adc74731915534870251efdf95cd427c541a21ade38d133d888",
@@ -430,6 +524,40 @@
       "difficulty": 2
     },
     {
+      "id": "ds-glace-au-matcha",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "4e9f45ed004af5edbe7537660db2fd8e2d347e50f76b227e602d22dc7192b465",
+      "title": {
+        "fr": "Glace au matcha",
+        "en": "Matcha ice cream",
+        "es": "Helado de matcha",
+        "it": "Gelato al matcha"
+      },
+      "heroImage": "images/ds-glace-au-matcha/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-granita-al-caffe",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "3819fa4dcc9059e9bf5cfdfdec6a037f55fda5b2677132059be72f97fb041307",
+      "title": {
+        "fr": "Granita al caffè",
+        "en": "Granita al caffè",
+        "es": "Granita al caffè",
+        "it": "Granita al caffè"
+      },
+      "heroImage": "images/ds-granita-al-caffe/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 20,
+      "difficulty": 1
+    },
+    {
       "id": "ds-gulab-jamun",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "f1fd556e044a7ef727924a3f3ad3cbf053ca1bb096571355c2ef07ca3b2574df",
@@ -464,6 +592,23 @@
       "difficulty": 1
     },
     {
+      "id": "ds-hokey-pokey",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "bc7c6e3eee673d3163f3ddf27d04d6808f410ee185f81203572bf14ddf83895f",
+      "title": {
+        "fr": "Glace hokey pokey",
+        "en": "Hokey pokey ice cream",
+        "es": "Helado hokey pokey",
+        "it": "Gelato hokey pokey"
+      },
+      "heroImage": "images/ds-hokey-pokey/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
       "id": "ds-hotteok",
       "updatedAt": "2026-10-23T18:41:35Z",
       "contentHash": "446a21615e6c7d7d70d5cc552a4c421181fd6f6e5603cad5d8f90bdf249404e6",
@@ -478,6 +623,21 @@
         "noBake"
       ],
       "totalMinutes": 40,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-kalb-el-louz",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "ad32e617f37e4a3f569cf1c632c076975f1ff0baf00fcb3ca341c0c38b7fc3ae",
+      "title": {
+        "fr": "Kalb el louz",
+        "en": "Kalb el louz",
+        "es": "Kalb el louz",
+        "it": "Kalb el louz"
+      },
+      "heroImage": "images/ds-kalb-el-louz/hero.webp",
+      "tags": [],
+      "totalMinutes": 80,
       "difficulty": 2
     },
     {
@@ -545,6 +705,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-kransekake",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "3688708bc756849b6405d233908923bf15078cb6ae0d53819dbf71b8da559698",
+      "title": {
+        "fr": "Kransekake",
+        "en": "Kransekake",
+        "es": "Kransekake",
+        "it": "Kransekake"
+      },
+      "heroImage": "images/ds-kransekake/hero.webp",
+      "tags": [],
+      "totalMinutes": 111,
+      "difficulty": 3
+    },
+    {
       "id": "ds-kulfi",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "032236b08907f992a2b026e41ea64223966a8bb72afaec91aa1a01da338021b5",
@@ -575,6 +750,21 @@
       "tags": [],
       "totalMinutes": 75,
       "difficulty": 2
+    },
+    {
+      "id": "ds-lapis-legit",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "ef03511f6863863983a07f5dbee627e70068473f191f48738de7bbf42b8b8234",
+      "title": {
+        "fr": "Lapis legit",
+        "en": "Lapis legit",
+        "es": "Lapis legit",
+        "it": "Lapis legit"
+      },
+      "heroImage": "images/ds-lapis-legit/hero.webp",
+      "tags": [],
+      "totalMinutes": 145,
+      "difficulty": 3
     },
     {
       "id": "ds-loukoum",
@@ -623,6 +813,21 @@
         "airFryer"
       ],
       "totalMinutes": 32,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-makowiec",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "4cd2d0840af3d2d0c8e37cd2644423e8771feb8ee26d2097410121fe6e969654",
+      "title": {
+        "fr": "Makowiec",
+        "en": "Makowiec",
+        "es": "Makowiec",
+        "it": "Makowiec"
+      },
+      "heroImage": "images/ds-makowiec/hero.webp",
+      "tags": [],
+      "totalMinutes": 130,
       "difficulty": 2
     },
     {
@@ -756,6 +961,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-mousse-de-maracuja",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "a6d6dd622ca7426ddd769e5b94214c29bd549aa0a5ebaacc9244fe85c76fe67a",
+      "title": {
+        "fr": "Mousse de maracujá",
+        "en": "Mousse de maracujá",
+        "es": "Mousse de maracujá",
+        "it": "Mousse de maracujá"
+      },
+      "heroImage": "images/ds-mousse-de-maracuja/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 25,
+      "difficulty": 1
+    },
+    {
       "id": "ds-nanaimo-bars",
       "updatedAt": "2026-10-23T19:26:41Z",
       "contentHash": "ce587db9b1c988d5193aceaac95affe9cb6755f30c697c5e7345955f37153947",
@@ -771,6 +993,21 @@
       ],
       "totalMinutes": 45,
       "difficulty": 1
+    },
+    {
+      "id": "ds-napolitaines",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "7956363b05b04c9c26bc2139209c2a97c24f15c7985434e4627f768d9ae62cd5",
+      "title": {
+        "fr": "Napolitaines",
+        "en": "Napolitaines",
+        "es": "Napolitaines",
+        "it": "Napolitaines"
+      },
+      "heroImage": "images/ds-napolitaines/hero.webp",
+      "tags": [],
+      "totalMinutes": 70,
+      "difficulty": 2
     },
     {
       "id": "ds-new-york-cheesecake",
@@ -948,6 +1185,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-pecan-pie",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "420f613b75b895c27de4fc99a0bcc0eea0e5e751760e36c27e4746b68b891c67",
+      "title": {
+        "fr": "Tarte aux noix de pécan",
+        "en": "Pecan pie",
+        "es": "Tarta de nueces pecanas",
+        "it": "Pecan pie"
+      },
+      "heroImage": "images/ds-pecan-pie/hero.webp",
+      "tags": [],
+      "totalMinutes": 85,
+      "difficulty": 2
+    },
+    {
       "id": "ds-picarones",
       "updatedAt": "2026-10-23T18:41:35Z",
       "contentHash": "ec0a69f15e05e4064493c5026b73e749299aacd64484725566baf487a320875c",
@@ -963,6 +1215,21 @@
       ],
       "totalMinutes": 90,
       "difficulty": 3
+    },
+    {
+      "id": "ds-prekmurska-gibanica",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "de64cb1af1b3e19ba0fe6af84177ff5bd10157defadeeb3c22a4160d615adeac",
+      "title": {
+        "fr": "Prekmurska gibanica",
+        "en": "Prekmurska gibanica",
+        "es": "Prekmurska gibanica",
+        "it": "Prekmurska gibanica"
+      },
+      "heroImage": "images/ds-prekmurska-gibanica/hero.webp",
+      "tags": [],
+      "totalMinutes": 145,
+      "difficulty": 2
     },
     {
       "id": "ds-puff-puff",
@@ -996,6 +1263,23 @@
         "noBake"
       ],
       "totalMinutes": 90,
+      "difficulty": 3
+    },
+    {
+      "id": "ds-sel-roti",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "6b3ac502194c584bd5888c5d9ae74a812a473d4f476e255799af6d0138176e2c",
+      "title": {
+        "fr": "Sel roti",
+        "en": "Sel roti",
+        "es": "Sel roti",
+        "it": "Sel roti"
+      },
+      "heroImage": "images/ds-sel-roti/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 75,
       "difficulty": 3
     },
     {
@@ -1045,6 +1329,23 @@
       "heroImage": "images/ds-tarte-tatin/hero.webp",
       "tags": [],
       "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-tembleque",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "175db6710a1d4e397129b5673da61626f8c3c2fd4a3f541ba4e087893a67f3b4",
+      "title": {
+        "fr": "Tembleque",
+        "en": "Tembleque",
+        "es": "Tembleque",
+        "it": "Tembleque"
+      },
+      "heroImage": "images/ds-tembleque/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 25,
       "difficulty": 2
     },
     {
@@ -1129,10 +1430,25 @@
       ],
       "totalMinutes": 70,
       "difficulty": 2
+    },
+    {
+      "id": "ds-zuger-kirschtorte",
+      "updatedAt": "2026-10-23T18:49:52Z",
+      "contentHash": "04db0a8c5719707210dbc2257ad6a79f13364995611cea7df909de5a9ffcdba3",
+      "title": {
+        "fr": "Zuger Kirschtorte",
+        "en": "Zuger Kirschtorte",
+        "es": "Zuger Kirschtorte",
+        "it": "Zuger Kirschtorte"
+      },
+      "heroImage": "images/ds-zuger-kirschtorte/hero.webp",
+      "tags": [],
+      "totalMinutes": 105,
+      "difficulty": 3
     }
   ],
   "files": {
-    "ingredients.json": "7ad652241dd19e613b5e5fabf569077095dbb244d108bece099ca5ac7ae974be",
+    "ingredients.json": "ced0896d59fce37509e2a42c51b311ee6bf1517562bbce739daa3b5a37ebc914",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },

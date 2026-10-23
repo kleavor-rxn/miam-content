@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-glace-au-matcha",
+  "title": {"fr": "Glace au matcha", "en": "Matcha ice cream", "es": "Helado de matcha", "it": "Gelato al matcha"},
+  "summary": {
+    "fr": "La glace japonaise au thé vert matcha, d'un vert tendre, crémeuse et délicatement amère, préparée ici sans sorbetière.",
+    "en": "Japan's matcha green tea ice cream, soft green in colour, creamy and gently bitter, made here without an ice-cream maker.",
+    "es": "El helado japonés de té verde matcha, de un verde suave, cremoso y delicadamente amargo, preparado aquí sin heladora.",
+    "it": "Il gelato giapponese al tè verde matcha, di un verde tenue, cremoso e delicatamente amarognolo, preparato qui senza gelatiera."
+  },
+  "story": {
+    "fr": "Le matcha est un thé vert en poudre très fine, obtenu en broyant à la meule des feuilles de thé cultivées à l'ombre ; il est au cœur de la cérémonie du thé japonaise, et la région d'Uji, près de Kyoto, est la plus réputée pour sa production. Au Japon, la glace au matcha est l'un des parfums les plus répandus : on la trouve aussi bien en pot dans les supérettes que dans les salons de thé d'Uji et de Kyoto, souvent en glace à l'italienne. Sa saveur dépend avant tout de la qualité du matcha, dont l'amertume douce équilibre la richesse de la crème.",
+    "en": "Matcha is a very finely powdered green tea, made by stone-grinding tea leaves grown in the shade; it lies at the heart of the Japanese tea ceremony, and the Uji area near Kyoto is the most renowned for producing it. In Japan, matcha is one of the most common ice cream flavours: you find it in tubs in convenience stores as well as in the tea houses of Uji and Kyoto, often as soft-serve. Its flavour depends above all on the quality of the matcha, whose gentle bitterness balances the richness of the cream.",
+    "es": "El matcha es un té verde en polvo muy fino, que se obtiene moliendo a la piedra hojas de té cultivadas a la sombra; es el centro de la ceremonia del té japonesa, y la zona de Uji, cerca de Kioto, es la más famosa por su producción. En Japón, el helado de matcha es uno de los sabores más habituales: se encuentra tanto en tarrinas en las tiendas 24 horas como en las casas de té de Uji y de Kioto, a menudo en forma de helado de máquina. Su sabor depende ante todo de la calidad del matcha, cuyo suave amargor equilibra la riqueza de la nata.",
+    "it": "Il matcha è un tè verde in polvere finissima, ottenuto macinando a pietra foglie di tè coltivate all'ombra; è al centro della cerimonia del tè giapponese, e la zona di Uji, vicino a Kyoto, è la più rinomata per la sua produzione. In Giappone il gelato al matcha è uno dei gusti più diffusi: lo si trova sia in vaschetta nei minimarket sia nelle case da tè di Uji e di Kyoto, spesso in versione soft. Il suo sapore dipende soprattutto dalla qualità del matcha, il cui amaro delicato bilancia la ricchezza della panna."
+  },
+  "region": {"fr": "Japon", "en": "Japan", "es": "Japón", "it": "Giappone"},
+  "origin": {"countries": ["JP"]},
+  "category": "dessert",
+  "dessertType": "glace",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 10,
+  "servings": 6,
+  "heroImage": "images/ds-glace-au-matcha/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 90, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "lait", "quantity": 250, "unit": "ml"},
+    {"ref": "matcha", "quantity": 12, "unit": "g"},
+    {"ref": "creme-liquide", "quantity": 250, "unit": "ml"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un saladier, fouettez les 4 jaunes d'œufs avec le sucre et, si vous le souhaitez, une pincée de sel, jusqu'à ce que le mélange blanchisse (gardez les blancs pour un autre usage).", "en": "In a mixing bowl, whisk the 4 egg yolks with the sugar and, if you like, a pinch of salt until pale (keep the whites for another use).", "es": "En un bol, bate las 4 yemas con el azúcar y, si quieres, una pizca de sal, hasta que blanqueen (guarda las claras para otro uso).", "it": "In una ciotola sbatti i 4 tuorli con lo zucchero e, se ti va, un pizzico di sale, finché il composto diventa chiaro (tieni da parte gli albumi per un altro uso)."}},
+    {"text": {"fr": "Dans une casserole, portez le lait au frémissement.", "en": "In a saucepan, bring the milk to a simmer.", "es": "En un cazo, calienta la leche hasta que empiece a hervir.", "it": "In una casseruola porta il latte a sobbollire."}, "timerMinutes": 5},
+    {"text": {"fr": "Tamisez le matcha dans un bol, puis délayez-le au petit fouet avec 50 ml du lait chaud jusqu'à obtenir une pâte lisse, sans grumeaux.", "en": "Sift the matcha into a small bowl, then whisk it with 50 ml of the hot milk into a smooth, lump-free paste.", "es": "Tamiza el matcha en un cuenco y disuélvelo con unas varillas pequeñas en 50 ml de la leche caliente hasta obtener una pasta lisa, sin grumos.", "it": "Setaccia il matcha in una ciotolina, poi stemperalo con una piccola frusta in 50 ml del latte caldo fino a ottenere una pasta liscia e senza grumi."}},
+    {"text": {"fr": "Versez le reste du lait chaud en mince filet sur les jaunes en fouettant, remettez le tout dans la casserole et faites épaissir à feu doux, sans cesser de remuer et sans faire bouillir, jusqu'à ce que la crème nappe la cuillère.", "en": "Pour the rest of the hot milk over the yolks in a thin stream, whisking, return everything to the pan and cook over a low heat, stirring constantly and without letting it boil, until the custard coats the back of the spoon.", "es": "Vierte el resto de la leche caliente en un hilo fino sobre las yemas sin dejar de batir, devuelve todo al cazo y deja que espese a fuego suave, removiendo sin parar y sin que hierva, hasta que la crema nape la cuchara.", "it": "Versa il resto del latte caldo a filo sui tuorli mescolando con la frusta, rimetti tutto nella casseruola e fai addensare a fuoco dolce, senza smettere di mescolare e senza far bollire, finché la crema vela il cucchiaio."}, "timerMinutes": 6},
+    {"text": {"fr": "Hors du feu, incorporez la pâte de matcha à la crème au fouet, puis passez-la au chinois.", "en": "Off the heat, whisk the matcha paste into the custard, then pass it through a fine sieve.", "es": "Fuera del fuego, incorpora la pasta de matcha a la crema con las varillas y pásala por un colador fino.", "it": "Fuori dal fuoco, incorpora con la frusta la pasta di matcha alla crema, poi passala al colino."}},
+    {"text": {"fr": "Laissez refroidir, puis réfrigérez la crème au moins 2 heures, jusqu'à ce qu'elle soit bien froide.", "en": "Leave to cool, then chill the custard for at least 2 hours, until very cold.", "es": "Deja que se enfríe y refrigera la crema al menos 2 horas, hasta que esté bien fría.", "it": "Lascia raffreddare, poi metti la crema in frigorifero per almeno 2 ore, finché è ben fredda."}, "timerMinutes": 120},
+    {"text": {"fr": "Fouettez la crème liquide bien froide jusqu'à ce qu'elle forme des pics souples.", "en": "Whip the well-chilled cream to soft peaks.", "es": "Monta la nata bien fría hasta que forme picos suaves.", "it": "Monta la panna ben fredda finché forma picchi morbidi."}},
+    {"text": {"fr": "Incorporez délicatement la crème fouettée à la crème au matcha froide, en deux fois, puis versez le mélange dans une boîte d'environ 1 litre et couvrez.", "en": "Gently fold the whipped cream into the cold matcha custard in two additions, then pour the mixture into a container of about 1 litre and cover.", "es": "Incorpora con cuidado la nata montada a la crema de matcha fría, en dos veces, y vierte la mezcla en un recipiente de alrededor de 1 litro; tápalo.", "it": "Incorpora delicatamente la panna montata alla crema al matcha fredda, in due riprese, poi versa il composto in un contenitore da circa 1 litro e copri."}},
+    {"text": {"fr": "Faites prendre la glace au congélateur pendant 4 heures en tout : pendant les 2 premières heures, sortez-la toutes les 30 minutes et fouettez-la vivement à la fourchette pour briser les cristaux.", "en": "Freeze the ice cream for 4 hours in all: for the first 2 hours, take it out every 30 minutes and beat it hard with a fork to break up the ice crystals.", "es": "Deja que el helado cuaje en el congelador 4 horas en total: durante las 2 primeras, sácalo cada 30 minutos y bátelo con energía con un tenedor para romper los cristales.", "it": "Lascia rapprendere il gelato in freezer per 4 ore in tutto: nelle prime 2 ore, tiralo fuori ogni 30 minuti e sbattilo energicamente con una forchetta per rompere i cristalli."}, "timerMinutes": 240},
+    {"text": {"fr": "Sortez la glace 10 minutes avant de servir pour qu'elle s'assouplisse, puis servez-la en boules.", "en": "Take the ice cream out 10 minutes before serving to soften slightly, then serve in scoops.", "es": "Saca el helado 10 minutos antes de servir para que se ablande un poco y sírvelo en bolas.", "it": "Tira fuori il gelato 10 minuti prima di servirlo perché si ammorbidisca, poi servilo a palline."}, "timerMinutes": 10}
+  ]
+}
