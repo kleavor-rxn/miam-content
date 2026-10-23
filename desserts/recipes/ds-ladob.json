@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-ladob",
+  "title": {"fr": "Ladob", "en": "Ladob", "es": "Ladob", "it": "Ladob"},
+  "summary": {
+    "fr": "Le dessert créole des Seychelles : des bananes plantain bien mûres mijotées dans un lait de coco sucré, parfumé à la vanille et à la muscade.",
+    "en": "The Creole dessert of the Seychelles: very ripe plantains simmered in sweetened coconut milk scented with vanilla and nutmeg.",
+    "es": "El postre criollo de las Seychelles: plátanos macho muy maduros cocidos a fuego lento en leche de coco endulzada, perfumada con vainilla y nuez moscada.",
+    "it": "Il dolce creolo delle Seychelles: banane platano molto mature cotte a fuoco lento nel latte di cocco zuccherato, profumato alla vaniglia e alla noce moscata."
+  },
+  "story": {
+    "fr": "Le ladob est l'un des plats les plus familiers de la cuisine créole seychelloise : des légumes ou des fruits cuits doucement dans du lait de coco. La version sucrée se fait le plus souvent avec des bananes plantain, mais aussi avec de la patate douce, du manioc ou du fruit à pain, tandis qu'une version salée accompagne le poisson salé. On la sert chaude ou froide, en dessert comme au goûter, et la vanille et la cannelle qui la parfument ont longtemps compté parmi les cultures d'exportation de l'archipel.",
+    "en": "Ladob is one of the most familiar dishes of Seychellois Creole cooking: vegetables or fruit gently cooked in coconut milk. The sweet version is most often made with plantains, but also with sweet potato, cassava or breadfruit, while a savoury version goes with salted fish. It is served hot or cold, as a dessert or an afternoon snack, and the vanilla and cinnamon that scent it were long among the islands' export crops.",
+    "es": "El ladob es uno de los platos más familiares de la cocina criolla de las Seychelles: verduras o frutas cocidas a fuego lento en leche de coco. La versión dulce se hace casi siempre con plátano macho, pero también con boniato, yuca o fruta del pan, mientras que una versión salada acompaña al pescado salado. Se sirve caliente o frío, de postre o para merendar, y la vainilla y la canela que lo perfuman figuraron durante mucho tiempo entre los cultivos de exportación del archipiélago.",
+    "it": "Il ladob è uno dei piatti più familiari della cucina creola delle Seychelles: verdure o frutta cotte lentamente nel latte di cocco. La versione dolce si fa per lo più con le banane platano, ma anche con patata dolce, manioca o frutto dell'albero del pane, mentre una versione salata accompagna il pesce salato. Si serve caldo o freddo, come dessert o a merenda, e la vaniglia e la cannella che lo profumano sono state a lungo tra le colture d'esportazione dell'arcipelago."
+  },
+  "region": {"fr": "Seychelles", "en": "Seychelles", "es": "Seychelles", "it": "Seychelles"},
+  "origin": {"countries": ["SC"]},
+  "category": "dessert",
+  "dessertType": "fruit",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 6,
+  "heroImage": "images/ds-ladob/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "banane-plantain", "quantity": 4, "unit": "piece", "substitutes": ["banane"]},
+    {"ref": "vanille", "quantity": 1, "unit": "piece"},
+    {"ref": "lait-de-coco", "quantity": 800, "unit": "ml"},
+    {"ref": "sucre", "quantity": 80, "unit": "g"},
+    {"ref": "muscade", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "cannelle", "quantity": 1, "unit": "piece", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Pelez les bananes plantain, bien mûres (peau jaune largement tachée de noir), puis coupez-les en deux dans la longueur et en tronçons d'environ 6 cm.", "en": "Peel the plantains, which should be very ripe (yellow skins heavily spotted with black), halve them lengthways, then cut into pieces about 6 cm long.", "es": "Pela los plátanos macho, bien maduros (con la piel amarilla muy manchada de negro), pártelos por la mitad a lo largo y córtalos en trozos de unos 6 cm.", "it": "Sbuccia le banane platano, ben mature (buccia gialla molto macchiata di nero), tagliale a metà per il lungo, poi a tocchetti di circa 6 cm."}},
+    {"text": {"fr": "Fendez la gousse de vanille en deux et grattez-en les graines.", "en": "Split the vanilla pod and scrape out the seeds.", "es": "Abre la vaina de vainilla a lo largo y raspa las semillas.", "it": "Incidi la bacca di vaniglia per il lungo e raschiane i semi."}},
+    {"text": {"fr": "Dans une sauteuse, mélangez le lait de coco, le sucre, la gousse et les graines de vanille, ½ cuillerée à café de muscade râpée, une pincée de sel et, si vous le souhaitez, le bâton de cannelle, puis portez au frémissement en remuant.", "en": "In a sauté pan, combine the coconut milk, sugar, vanilla pod and seeds, ½ teaspoon of grated nutmeg, a pinch of salt and, if you like, the cinnamon stick, then bring to a simmer, stirring.", "es": "En una cazuela ancha, mezcla la leche de coco, el azúcar, la vaina y las semillas de vainilla, ½ cucharadita de nuez moscada rallada, una pizca de sal y, si quieres, la rama de canela, y llévalo a un hervor suave sin dejar de remover.", "it": "In una padella dai bordi alti unisci il latte di cocco, lo zucchero, la bacca e i semi di vaniglia, ½ cucchiaino di noce moscata grattugiata, un pizzico di sale e, se ti va, la stecca di cannella, poi porta a leggero bollore mescolando."}, "timerMinutes": 5},
+    {"text": {"fr": "Ajoutez les morceaux de plantain en une seule couche et laissez mijoter à feu doux, à découvert, pendant 20 à 25 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'ils soient tendres et que la sauce ait épaissi.", "en": "Add the plantain pieces in a single layer and simmer gently, uncovered, for 20 to 25 minutes, turning them halfway through, until they are tender and the sauce has thickened.", "es": "Añade los trozos de plátano en una sola capa y deja cocer a fuego suave, sin tapar, de 20 a 25 minutos, dándoles la vuelta a media cocción, hasta que estén tiernos y la salsa haya espesado.", "it": "Aggiungi i pezzi di platano in un solo strato e lascia sobbollire a fuoco dolce, senza coperchio, per 20-25 minuti, girandoli a metà cottura, finché sono teneri e la salsa si è addensata."}, "timerMinutes": 25},
+    {"text": {"fr": "Retirez du feu, ôtez la gousse de vanille (et la cannelle, si vous en avez mis) et laissez reposer 10 minutes.", "en": "Take off the heat, remove the vanilla pod (and the cinnamon, if used) and leave to rest for 10 minutes.", "es": "Retira del fuego, saca la vaina de vainilla (y la canela, si la has usado) y deja reposar 10 minutos.", "it": "Togli dal fuoco, elimina la bacca di vaniglia (e la cannella, se l'hai usata) e lascia riposare per 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Servez tiède dans des bols, les plantains nappés de leur sauce coco, ou bien froid, comme on l'aime aussi aux Seychelles.", "en": "Serve warm in bowls, the plantains coated in their coconut sauce, or chilled, as it is also enjoyed in the Seychelles.", "es": "Sírvelo templado en cuencos, con los plátanos bañados en su salsa de coco, o bien frío, como también se toma en las Seychelles.", "it": "Servilo tiepido in ciotole, con i platani velati dalla loro salsa al cocco, oppure freddo, come si gusta anche alle Seychelles."}}
+  ]
+}

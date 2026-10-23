@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mustikkapiirakka",
+  "title": {"fr": "Mustikkapiirakka", "en": "Mustikkapiirakka", "es": "Mustikkapiirakka", "it": "Mustikkapiirakka"},
+  "summary": {
+    "fr": "La tarte aux myrtilles de l'été finlandais : une pâte au beurre moelleuse étalée du bout des doigts, des myrtilles en abondance et une crème aigre sucrée qui prend au four.",
+    "en": "The bilberry pie of the Finnish summer: a soft, buttery base pressed in by hand, heaps of bilberries and a sweetened soured-cream topping that sets in the oven.",
+    "es": "La tarta de arándanos del verano finlandés: una masa tierna de mantequilla extendida a mano, arándanos en abundancia y una crema agria dulce que cuaja en el horno.",
+    "it": "La crostata di mirtilli dell'estate finlandese: una base morbida e burrosa stesa con le dita, tanti mirtilli e una panna acida zuccherata che si rapprende in forno."
+  },
+  "story": {
+    "fr": "Mustikka désigne en finnois la myrtille sauvage, qui tapisse les sous-bois de Finlande et mûrit de fin juillet à août. Grâce au droit d'accès à la nature (jokamiehenoikeus), chacun peut la cueillir librement en forêt, et la tarte aux myrtilles est l'un des desserts emblématiques de l'été, au chalet comme au café. La version la plus répandue à la maison, présentée ici, recouvre les baies d'un mélange de crème aigre, d'œuf et de sucre.",
+    "en": "Mustikka is the Finnish word for the wild bilberry, which carpets Finland's forest floors and ripens from late July into August. Thanks to the right of public access to nature (jokamiehenoikeus), anyone may pick it freely in the woods, and bilberry pie is one of the emblematic desserts of summer, at the summer cottage and in cafés alike. The most common home version, given here, covers the berries with a mixture of soured cream, egg and sugar.",
+    "es": "Mustikka es en finés el arándano silvestre, que tapiza el sotobosque de Finlandia y madura de finales de julio a agosto. Gracias al derecho de acceso a la naturaleza (jokamiehenoikeus), cualquiera puede recogerlo libremente en el bosque, y la tarta de arándanos es uno de los postres emblemáticos del verano, tanto en la casa de campo como en las cafeterías. La versión casera más extendida, la que se da aquí, cubre las bayas con una mezcla de nata agria, huevo y azúcar.",
+    "it": "Mustikka in finlandese è il mirtillo selvatico, che ricopre il sottobosco della Finlandia e matura da fine luglio ad agosto. Grazie al diritto di libero accesso alla natura (jokamiehenoikeus), chiunque può raccoglierlo nei boschi, e la crostata di mirtilli è uno dei dolci simbolo dell'estate, nei cottage come nei caffè. La versione casalinga più diffusa, quella proposta qui, copre i frutti con un composto di panna acida, uovo e zucchero."
+  },
+  "region": {"fr": "Finlande", "en": "Finland", "es": "Finlandia", "it": "Finlandia"},
+  "origin": {"countries": ["FI"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": ["ete"],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 8,
+  "heroImage": "images/ds-mustikkapiirakka/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "beurre", "quantity": 100, "unit": "g"},
+    {"ref": "sucre", "quantity": 140, "unit": "g"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "farine", "quantity": 170, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "myrtille", "quantity": 400, "unit": "g"},
+    {"ref": "fecule-de-pomme-de-terre", "quantity": 1, "unit": "tbsp", "substitutes": ["fecule-de-mais"]},
+    {"ref": "creme-aigre", "quantity": 200, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 200 °C et chemisez de papier cuisson un moule à tarte de 24 cm.", "en": "Preheat the oven to 200 °C and line a 24 cm pie dish with baking paper.", "es": "Precalienta el horno a 200 °C y forra con papel de horno un molde de tarta de 24 cm.", "it": "Preriscalda il forno a 200 °C e fodera con carta forno una teglia da crostata di 24 cm."}},
+    {"text": {"fr": "Fouettez le beurre mou avec 80 g de sucre jusqu'à ce qu'il soit crémeux, puis incorporez 1 œuf.", "en": "Beat the soft butter with 80 g of the sugar until creamy, then beat in 1 egg.", "es": "Bate la mantequilla blanda con 80 g de azúcar hasta que esté cremosa e incorpora 1 huevo.", "it": "Lavora il burro morbido con 80 g di zucchero finché è cremoso, poi incorpora 1 uovo."}},
+    {"text": {"fr": "Ajoutez la farine mélangée à la levure chimique (et, si vous le souhaitez, à une pincée de sel) et mélangez juste assez pour obtenir une pâte souple et un peu collante.", "en": "Add the flour mixed with the baking powder (and a pinch of salt, if you like) and stir just enough to form a soft, slightly sticky dough.", "es": "Añade la harina mezclada con la levadura en polvo (y, si quieres, con una pizca de sal) y mezcla lo justo para obtener una masa blanda y algo pegajosa.", "it": "Aggiungi la farina mescolata con il lievito per dolci (e, se ti va, con un pizzico di sale) e mescola quanto basta per ottenere un impasto morbido e un po' appiccicoso."}},
+    {"text": {"fr": "Étalez la pâte dans le moule du bout des doigts farinés, en la remontant de 2 à 3 cm sur les bords.", "en": "Press the dough into the dish with floured fingertips, bringing it 2 to 3 cm up the sides.", "es": "Extiende la masa en el molde con la punta de los dedos enharinados, subiéndola 2 o 3 cm por los bordes.", "it": "Stendi l'impasto nella teglia con la punta delle dita infarinate, facendolo risalire di 2-3 cm lungo i bordi."}},
+    {"text": {"fr": "Mélangez les myrtilles (sauvages de préférence, mais les myrtilles cultivées conviennent ; si elles sont surgelées, ne les décongelez pas) avec la fécule et 20 g de sucre, puis répartissez-les sur la pâte.", "en": "Toss the berries (wild bilberries ideally, though cultivated blueberries work; if frozen, do not thaw them) with the potato starch and 20 g of the sugar, then spread them over the base.", "es": "Mezcla los arándanos (silvestres si puedes, aunque los cultivados también sirven; si son congelados, no los descongeles) con la fécula y 20 g de azúcar, y repártelos sobre la masa.", "it": "Mescola i mirtilli (selvatici se possibile, ma vanno bene anche quelli coltivati; se surgelati, non scongelarli) con la fecola e 20 g di zucchero, poi distribuiscili sulla base."}},
+    {"text": {"fr": "Fouettez la crème aigre avec le second œuf, les 40 g de sucre restants et, si vous le souhaitez, l'extrait de vanille, puis versez ce mélange sur les myrtilles.", "en": "Whisk the soured cream with the second egg, the remaining 40 g of sugar and the vanilla extract, if you like, then pour it over the berries.", "es": "Bate la nata agria con el segundo huevo, los 40 g de azúcar restantes y, si quieres, el extracto de vainilla, y viértelo sobre los arándanos.", "it": "Sbatti la panna acida con il secondo uovo, i 40 g di zucchero rimasti e, se ti va, l'estratto di vaniglia, poi versa il composto sui mirtilli."}},
+    {"text": {"fr": "Faites cuire 30 minutes environ, jusqu'à ce que les bords soient dorés et que la crème soit prise.", "en": "Bake for about 30 minutes, until the edges are golden and the topping has set.", "es": "Hornea unos 30 minutos, hasta que los bordes estén dorados y la crema haya cuajado.", "it": "Inforna per circa 30 minuti, finché i bordi sono dorati e la crema si è rappresa."}, "timerMinutes": 30},
+    {"text": {"fr": "Laissez tiédir au moins 30 minutes avant de couper : la crème finit de prendre en refroidissant. Servez tiède ou froid.", "en": "Leave to cool for at least 30 minutes before slicing: the topping finishes setting as it cools. Serve warm or cold.", "es": "Deja que se temple al menos 30 minutos antes de cortarla: la crema termina de cuajar al enfriarse. Sírvela templada o fría.", "it": "Lascia intiepidire almeno 30 minuti prima di tagliarla: la crema finisce di rapprendersi raffreddandosi. Servila tiepida o fredda."}, "timerMinutes": 30}
+  ]
+}

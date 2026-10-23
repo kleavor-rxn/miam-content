@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-pouding-chomeur",
+  "title": {"fr": "Pouding chômeur", "en": "Pouding chômeur", "es": "Pouding chômeur", "it": "Pouding chômeur"},
+  "summary": {
+    "fr": "Le grand classique réconfortant du Québec : une pâte à gâteau toute simple versée sur un sirop d'érable à la crème, qui devient au four un gâteau doré posé sur une sauce onctueuse.",
+    "en": "Quebec's great comfort pudding: a plain cake batter baked over maple syrup and cream, which turns in the oven into a golden sponge sitting on a silky sauce.",
+    "es": "El gran postre reconfortante de Quebec: una masa de bizcocho sencillísima horneada sobre sirope de arce con nata, que en el horno se convierte en un bizcocho dorado sobre una salsa untuosa.",
+    "it": "Il grande dolce consolatorio del Québec: un semplice impasto da torta cotto su sciroppo d'acero e panna, che in forno diventa una torta dorata adagiata su una salsa vellutata."
+  },
+  "story": {
+    "fr": "Le pouding chômeur, littéralement « pouding du chômeur », est un pilier de la cuisine familiale québécoise. Selon le récit le plus répandu, il serait apparu pendant la crise économique qui a suivi le krach de 1929, comme un dessert de temps difficiles fait de farine, de cassonade et d'eau. Pendant la cuisson, la pâte remonte à la surface tandis que le sirop se change en sauce au fond du plat. On le prépare aujourd'hui volontiers au sirop d'érable et à la crème, et il figure au menu de nombreuses cabanes à sucre.",
+    "en": "Pouding chômeur, literally 'unemployed man's pudding', is a mainstay of Quebec home cooking. According to the most widely told account, it appeared during the economic crisis that followed the 1929 crash, as a hard-times dessert made from flour, brown sugar and water. As it bakes, the batter rises to the surface while the syrup turns into a sauce at the bottom of the dish. Today it is often made with maple syrup and cream, and it features on the menu of many sugar shacks.",
+    "es": "El pouding chômeur, literalmente «pudin del parado», es un pilar de la cocina familiar quebequense. Según el relato más extendido, habría nacido durante la crisis económica que siguió al crac de 1929, como un postre de tiempos difíciles hecho con harina, azúcar moreno y agua. Durante la cocción, la masa sube a la superficie mientras el almíbar se convierte en salsa en el fondo de la fuente. Hoy se prepara a menudo con sirope de arce y nata, y figura en el menú de muchas cabanes à sucre, las cabañas donde se elabora el sirope de arce.",
+    "it": "Il pouding chômeur, letteralmente «budino del disoccupato», è un caposaldo della cucina casalinga del Québec. Secondo il racconto più diffuso sarebbe nato durante la crisi economica seguita al crollo del 1929, come dolce dei tempi difficili fatto di farina, zucchero di canna e acqua. In cottura l'impasto risale in superficie, mentre lo sciroppo si trasforma in salsa sul fondo della pirofila. Oggi lo si prepara volentieri con sciroppo d'acero e panna, ed è nel menu di molte cabanes à sucre, le capanne dove si fa lo sciroppo d'acero."
+  },
+  "region": {"fr": "Québec", "en": "Quebec", "es": "Quebec", "it": "Québec"},
+  "origin": {"countries": ["CA"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 8,
+  "heroImage": "images/ds-pouding-chomeur/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "sirop-d-erable", "quantity": 375, "unit": "ml", "substitutes": ["cassonade"]},
+    {"ref": "creme-liquide", "quantity": 250, "unit": "ml"},
+    {"ref": "beurre", "quantity": 115, "unit": "g"},
+    {"ref": "sucre", "quantity": 150, "unit": "g"},
+    {"ref": "oeuf", "quantity": 2, "unit": "piece"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "farine", "quantity": 180, "unit": "g"},
+    {"ref": "levure-chimique", "quantity": 2, "unit": "tsp"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "lait", "quantity": 125, "unit": "ml"},
+    {"ref": "glace-vanille", "quantity": 500, "unit": "ml", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C.", "en": "Preheat the oven to 180 °C.", "es": "Precalienta el horno a 180 °C.", "it": "Preriscalda il forno a 180 °C."}},
+    {"text": {"fr": "Dans une casserole, portez à ébullition le sirop d'érable et la crème, puis laissez frémir 2 minutes et réservez au chaud.", "en": "In a saucepan, bring the maple syrup and cream to the boil, then simmer for 2 minutes and keep warm.", "es": "En un cazo, lleva a ebullición el sirope de arce y la nata, deja hervir suavemente 2 minutos y reserva en caliente.", "it": "In un pentolino porta a bollore lo sciroppo d'acero e la panna, poi lascia sobbollire 2 minuti e tieni in caldo."}, "timerMinutes": 2},
+    {"text": {"fr": "Dans un saladier, fouettez le beurre mou avec le sucre pendant 3 minutes, jusqu'à ce que le mélange soit pâle et crémeux.", "en": "In a mixing bowl, beat the soft butter with the sugar for 3 minutes, until pale and creamy.", "es": "En un bol grande, bate la mantequilla blanda con el azúcar durante 3 minutos, hasta que la mezcla esté pálida y cremosa.", "it": "In una ciotola capiente lavora il burro morbido con lo zucchero per 3 minuti, finché il composto è chiaro e cremoso."}, "timerMinutes": 3},
+    {"text": {"fr": "Incorporez les œufs un à un en fouettant bien entre chaque ajout, puis, si vous le souhaitez, la vanille.", "en": "Beat in the eggs one at a time, mixing well after each, then the vanilla if you like.", "es": "Incorpora los huevos de uno en uno, batiendo bien tras cada adición, y después, si quieres, la vainilla.", "it": "Incorpora le uova una alla volta, sbattendo bene dopo ogni aggiunta, poi, se ti va, la vaniglia."}},
+    {"text": {"fr": "Mélangez la farine, la levure chimique et le sel, puis ajoutez-les à la pâte en alternant avec le lait, jusqu'à obtenir une pâte épaisse et lisse.", "en": "Mix the flour, baking powder and salt, then add them to the batter alternately with the milk, until you have a thick, smooth batter.", "es": "Mezcla la harina, la levadura química y la sal, e incorpóralas a la masa alternando con la leche, hasta obtener una masa espesa y lisa.", "it": "Mescola la farina, il lievito per dolci e il sale, poi aggiungili all'impasto alternandoli con il latte, fino a ottenere un composto denso e liscio."}},
+    {"text": {"fr": "Étalez la pâte dans un plat à four d'environ 20 × 20 cm et d'au moins 6 cm de haut.", "en": "Spread the batter in a baking dish about 20 × 20 cm and at least 6 cm deep.", "es": "Extiende la masa en una fuente de horno de unos 20 × 20 cm y al menos 6 cm de altura.", "it": "Stendi l'impasto in una pirofila di circa 20 × 20 cm, alta almeno 6 cm."}},
+    {"text": {"fr": "Versez délicatement le sirop chaud sur la pâte, en le faisant couler sur le dos d'une cuillère, puis posez le plat sur une plaque pour recueillir les débordements.", "en": "Gently pour the hot syrup over the back of a spoon onto the batter, then set the dish on a baking tray to catch any drips.", "es": "Vierte con cuidado el almíbar caliente sobre la masa, deslizándolo por el dorso de una cuchara, y coloca la fuente sobre una bandeja para recoger lo que pueda desbordarse.", "it": "Versa delicatamente lo sciroppo caldo sull'impasto, facendolo scivolare sul dorso di un cucchiaio, poi appoggia la pirofila su una teglia per raccogliere eventuali traboccamenti."}},
+    {"text": {"fr": "Faites cuire 40 minutes, jusqu'à ce que le gâteau soit remonté à la surface, bien doré, et que la sauce bouillonne sur les bords.", "en": "Bake for 40 minutes, until the sponge has risen to the surface and is golden brown, and the sauce is bubbling at the edges.", "es": "Hornea 40 minutos, hasta que el bizcocho haya subido a la superficie y esté bien dorado, y la salsa burbujee por los bordes.", "it": "Cuoci per 40 minuti, finché la torta è risalita in superficie ed è ben dorata e la salsa bolle lungo i bordi."}, "timerMinutes": 40},
+    {"text": {"fr": "Laissez reposer 15 minutes, puis servez chaud ou tiède en nappant chaque part de sauce, avec une boule de glace à la vanille si vous le souhaitez.", "en": "Leave to rest for 15 minutes, then serve hot or warm, spooning the sauce over each portion, with a scoop of vanilla ice cream if you like.", "es": "Deja reposar 15 minutos y sirve caliente o templado, napando cada ración con la salsa y, si quieres, con una bola de helado de vainilla.", "it": "Lascia riposare 15 minuti, poi servi caldo o tiepido, nappando ogni porzione con la salsa e, se ti va, con una pallina di gelato alla vaniglia."}, "timerMinutes": 15}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-sheer-khurma",
+  "title": {"fr": "Sheer khurma", "en": "Sheer khurma", "es": "Sheer khurma", "it": "Sheer khurma"},
+  "summary": {
+    "fr": "Le dessert du matin de l'Aïd au Pakistan : des vermicelles dorés au ghee, mijotés dans du lait réduit avec des dattes, de la cardamome, des pistaches et des amandes.",
+    "en": "Pakistan's Eid morning dessert: vermicelli toasted in ghee and simmered in reduced milk with dates, cardamom, pistachios and almonds.",
+    "es": "El postre de la mañana del Eid en Pakistán: fideos finos dorados en ghee y cocidos en leche reducida con dátiles, cardamomo, pistachos y almendras.",
+    "it": "Il dolce del mattino dell'Eid in Pakistan: vermicelli dorati nel ghee e cotti nel latte ridotto con datteri, cardamomo, pistacchi e mandorle."
+  },
+  "story": {
+    "fr": "Le nom sheer khurma vient du persan et signifie « lait aux dattes » : shir, le lait, et khurma, les dattes. Au Pakistan, comme chez les musulmans d'Inde et du Bangladesh, on prépare ce dessert le matin de l'Aïd al-Fitr, la fête qui clôt le ramadan, pour l'offrir dès le retour de la prière. On le sert, chaud ou froid, tout au long de la journée aux parents et aux voisins venus présenter leurs vœux.",
+    "en": "The name sheer khurma comes from Persian and means 'milk with dates': shir is milk and khurma is dates. In Pakistan, as among Muslims in India and Bangladesh, the dessert is made on the morning of Eid al-Fitr, the festival that ends Ramadan, so that it is ready when the family returns from the Eid prayer. It is then served, hot or cold, throughout the day to the relatives and neighbours who call to exchange greetings.",
+    "es": "El nombre sheer khurma viene del persa y significa «leche con dátiles»: shir es la leche y khurma, los dátiles. En Pakistán, como entre los musulmanes de la India y Bangladés, este postre se prepara la mañana del Eid al-Fitr, la fiesta que cierra el ramadán, para ofrecerlo en cuanto la familia vuelve de la oración. Se sirve, caliente o frío, durante todo el día a los familiares y vecinos que vienen a felicitar la fiesta.",
+    "it": "Il nome sheer khurma viene dal persiano e significa «latte con datteri»: shir è il latte e khurma sono i datteri. In Pakistan, come tra i musulmani di India e Bangladesh, questo dolce si prepara la mattina dell'Eid al-Fitr, la festa che chiude il Ramadan, per offrirlo appena si torna dalla preghiera. Si serve, caldo o freddo, per tutta la giornata a parenti e vicini che passano a fare gli auguri."
+  },
+  "region": {"fr": "Pakistan", "en": "Pakistan", "es": "Pakistán", "it": "Pakistan"},
+  "origin": {"countries": ["PK"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": ["ramadan-aid"],
+  "difficulty": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "heroImage": "images/ds-sheer-khurma/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "datte", "quantity": 8, "unit": "piece"},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "ghee", "quantity": 40, "unit": "g", "substitutes": ["beurre"]},
+    {"ref": "cardamome", "quantity": 5, "unit": "piece"},
+    {"ref": "vermicelles-de-ble", "quantity": 60, "unit": "g"},
+    {"ref": "lait", "quantity": 150, "unit": "cl"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "pistache", "quantity": 30, "unit": "g"},
+    {"ref": "amande", "quantity": 30, "unit": "g"},
+    {"ref": "noix-de-cajou", "quantity": 20, "unit": "g", "optional": true},
+    {"ref": "raisins-secs", "quantity": 30, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Faites tremper les dattes sèches (chhuhara) dans un bol d'eau chaude pendant au moins 4 heures, ou une nuit ; avec des dattes molles, passez directement à l'étape suivante.", "en": "Soak the dried dates (chhuhara) in a bowl of hot water for at least 4 hours, or overnight; if you are using soft dates, go straight to the next step.", "es": "Pon los dátiles secos (chhuhara) en remojo en un bol de agua caliente al menos 4 horas, o toda la noche; si usas dátiles blandos, pasa directamente al paso siguiente.", "it": "Metti in ammollo i datteri secchi (chhuhara) in una ciotola d'acqua calda per almeno 4 ore, o per tutta la notte; se usi datteri morbidi, passa direttamente al passaggio successivo."}, "timerMinutes": 240},
+    {"text": {"fr": "Égouttez les dattes, dénoyautez-les et émincez-les en fines lamelles.", "en": "Drain the dates, stone them and cut them into thin slivers.", "es": "Escurre los dátiles, quítales el hueso y córtalos en láminas finas.", "it": "Scola i datteri, togli il nocciolo e tagliali a listarelle sottili."}},
+    {"text": {"fr": "Dans une grande casserole à fond épais, faites chauffer le ghee avec les gousses de cardamome légèrement écrasées, puis faites-y dorer les vermicelles cassés en tronçons de 5 cm pendant 2 à 3 minutes, en remuant sans cesse.", "en": "In a large heavy-based saucepan, heat the ghee with the lightly crushed cardamom pods, then toast the vermicelli, broken into 5 cm lengths, for 2 to 3 minutes, stirring constantly, until golden.", "es": "En una cazuela grande de fondo grueso, calienta el ghee con las vainas de cardamomo ligeramente machacadas y dora en él los fideos, partidos en trozos de 5 cm, de 2 a 3 minutos sin dejar de remover.", "it": "In una casseruola capiente dal fondo spesso scalda il ghee con i baccelli di cardamomo leggermente schiacciati, poi fai dorare i vermicelli spezzati in pezzi di 5 cm per 2-3 minuti, mescolando di continuo."}, "timerMinutes": 3},
+    {"text": {"fr": "Versez le lait, portez à ébullition, puis laissez réduire à petits frémissements pendant 25 minutes en remuant souvent et en raclant le fond.", "en": "Pour in the milk, bring to the boil, then simmer gently for 25 minutes to reduce, stirring often and scraping the bottom of the pan.", "es": "Vierte la leche, llévala a ebullición y deja que reduzca a fuego suave durante 25 minutos, removiendo a menudo y rascando el fondo.", "it": "Versa il latte, porta a bollore, poi lascia ridurre a fuoco dolce per 25 minuti, mescolando spesso e raschiando il fondo."}, "timerMinutes": 25},
+    {"text": {"fr": "Concassez grossièrement les pistaches et effilez ou hachez les amandes.", "en": "Roughly chop the pistachios and sliver or chop the almonds.", "es": "Pica en trozos grandes los pistachos y corta en láminas o pica las almendras.", "it": "Trita grossolanamente i pistacchi e taglia a lamelle o trita le mandorle."}},
+    {"text": {"fr": "Ajoutez au lait les dattes, le sucre, les deux tiers des pistaches et des amandes, et, si vous le souhaitez, les noix de cajou et les raisins secs, puis poursuivez la cuisson 10 minutes, jusqu'à ce que le lait soit crémeux et nappe la cuillère.", "en": "Add the dates, sugar, two-thirds of the pistachios and almonds and, if you like, the cashews and raisins to the milk, then cook for 10 minutes more, until the milk is creamy and coats the spoon.", "es": "Añade a la leche los dátiles, el azúcar, dos tercios de los pistachos y de las almendras y, si quieres, los anacardos y las pasas, y sigue cociendo 10 minutos, hasta que la leche esté cremosa y cubra la cuchara.", "it": "Aggiungi al latte i datteri, lo zucchero, due terzi dei pistacchi e delle mandorle e, se ti va, gli anacardi e l'uvetta, poi prosegui la cottura per 10 minuti, finché il latte è cremoso e vela il cucchiaio."}, "timerMinutes": 10},
+    {"text": {"fr": "Servez chaud, tiède ou froid dans des bols, parsemé du reste des pistaches et des amandes ; il épaissit en refroidissant.", "en": "Serve hot, warm or cold in bowls, scattered with the rest of the pistachios and almonds; it thickens as it cools.", "es": "Sírvelo caliente, templado o frío en cuencos, con el resto de los pistachos y las almendras por encima; espesa al enfriarse.", "it": "Servilo caldo, tiepido o freddo in ciotole, cosparso con il resto dei pistacchi e delle mandorle; raffreddandosi si addensa."}}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-bolo-de-bolacha",
+  "title": {"fr": "Bolo de bolacha", "en": "Bolo de bolacha", "es": "Bolo de bolacha", "it": "Bolo de bolacha"},
+  "summary": {
+    "fr": "Le gâteau portugais sans cuisson : des biscuits Maria trempés dans le café, montés en couches avec une crème au beurre, sous une couverture de biscuits émiettés.",
+    "en": "Portugal's no-bake cake: Marie biscuits dipped in coffee, layered with buttercream and finished with a coat of biscuit crumbs.",
+    "es": "La tarta portuguesa sin horno: galletas María mojadas en café, montadas en capas con crema de mantequilla, y todo cubierto de galleta desmenuzada.",
+    "it": "La torta portoghese senza cottura: biscotti Maria inzuppati nel caffè, montati a strati con crema al burro, il tutto ricoperto di biscotti sbriciolati."
+  },
+  "story": {
+    "fr": "Bolo de bolacha signifie simplement « gâteau de biscuits ». Il repose sur le biscuit Maria, créé à Londres en 1874 par la biscuiterie Peek Frean à l'occasion du mariage de la grande-duchesse Maria Alexandrovna de Russie avec le duc d'Édimbourg, et devenu un biscuit du quotidien au Portugal comme en Espagne. Sans four ni technique difficile, le bolo de bolacha est un grand classique de la pâtisserie familiale portugaise ; on le trouve aussi dans les vitrines des pastelarias.",
+    "en": "Bolo de bolacha simply means 'biscuit cake'. It is built on the Marie biscuit, created in London in 1874 by the Peek Frean biscuit company to mark the marriage of Grand Duchess Maria Alexandrovna of Russia to the Duke of Edinburgh, which has since become an everyday biscuit in Portugal and Spain alike. Needing no oven and no tricky technique, bolo de bolacha is a classic of Portuguese home baking, and it also features in the windows of pastelarias.",
+    "es": "Bolo de bolacha significa sencillamente «tarta de galletas». Se basa en la galleta María, creada en Londres en 1874 por la fábrica de galletas Peek Frean con motivo de la boda de la gran duquesa María Alexándrovna de Rusia con el duque de Edimburgo, y convertida en una galleta de diario tanto en Portugal como en España. Sin horno ni técnica difícil, el bolo de bolacha es un gran clásico de la repostería casera portuguesa, y también se encuentra en los escaparates de las pastelarias.",
+    "it": "Bolo de bolacha significa semplicemente «torta di biscotti». Si basa sul biscotto Maria, creato a Londra nel 1874 dal biscottificio Peek Frean in occasione del matrimonio della granduchessa Marija Aleksandrovna di Russia con il duca di Edimburgo, e diventato un biscotto di tutti i giorni in Portogallo come in Spagna. Senza forno né tecniche difficili, il bolo de bolacha è un grande classico della pasticceria casalinga portoghese, e si trova anche nelle vetrine delle pastelarias."
+  },
+  "region": {"fr": "Portugal", "en": "Portugal", "es": "Portugal", "it": "Portogallo"},
+  "origin": {"countries": ["PT"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 1,
+  "prepMinutes": 40,
+  "cookMinutes": 0,
+  "servings": 10,
+  "heroImage": "images/ds-bolo-de-bolacha/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "cafe", "quantity": 30, "unit": "cl"},
+    {"ref": "beurre", "quantity": 250, "unit": "g"},
+    {"ref": "sucre-glace", "quantity": 200, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "biscuits-maria", "quantity": 400, "unit": "g", "substitutes": ["biscuits-digestifs"]}
+  ],
+  "steps": [
+    {"text": {"fr": "Préparez 30 cl de café fort et laissez-le refroidir complètement dans une assiette creuse.", "en": "Make 30 cl of strong coffee and leave it to cool completely in a shallow bowl.", "es": "Prepara 30 cl de café fuerte y deja que se enfríe por completo en un plato hondo.", "it": "Prepara 30 cl di caffè forte e lascialo raffreddare completamente in un piatto fondo."}, "timerMinutes": 30},
+    {"text": {"fr": "Battez le beurre bien mou avec le sucre glace pendant 5 minutes, jusqu'à obtenir une crème pâle et mousseuse.", "en": "Beat the very soft butter with the icing sugar for 5 minutes, until pale and fluffy.", "es": "Bate la mantequilla muy blanda con el azúcar glas durante 5 minutos, hasta obtener una crema clara y esponjosa.", "it": "Lavora il burro morbidissimo con lo zucchero a velo per 5 minuti, fino a ottenere una crema chiara e spumosa."}, "timerMinutes": 5},
+    {"text": {"fr": "Incorporez les 3 jaunes d'œufs très frais un à un, en battant bien entre chaque ; gardez les blancs pour un autre usage. Les jaunes restent crus : ce gâteau est déconseillé aux femmes enceintes, aux jeunes enfants et aux personnes âgées ou fragiles.", "en": "Beat in the 3 very fresh egg yolks one at a time, mixing well after each; keep the whites for another use. The yolks stay raw, so this cake is not advised for pregnant women, young children, the elderly or anyone with a weakened immune system.", "es": "Incorpora las 3 yemas de huevos muy frescos de una en una, batiendo bien entre cada una; guarda las claras para otro uso. Las yemas quedan crudas: esta tarta no se recomienda a embarazadas, niños pequeños, personas mayores o con las defensas bajas.", "it": "Incorpora i 3 tuorli di uova freschissime uno alla volta, lavorando bene dopo ognuno; conserva gli albumi per un altro uso. I tuorli restano crudi: questa torta è sconsigliata a donne in gravidanza, bambini piccoli, anziani e persone con difese immunitarie deboli."}},
+    {"text": {"fr": "Mettez 6 biscuits de côté et réduisez-les en fine chapelure entre vos doigts ou au rouleau.", "en": "Set aside 6 biscuits and crush them into fine crumbs with your fingers or a rolling pin.", "es": "Aparta 6 galletas y desmenúzalas finamente con los dedos o con el rodillo.", "it": "Metti da parte 6 biscotti e riducili in briciole fini con le dita o con il mattarello."}},
+    {"text": {"fr": "Trempez rapidement les biscuits un à un dans le café, juste une seconde de chaque côté, et disposez-en 7 en rosace sur le plat de service, un au centre et six autour.", "en": "Dip the biscuits one at a time very briefly in the coffee, just a second on each side, and arrange 7 in a flower shape on the serving plate, one in the middle and six around it.", "es": "Moja las galletas de una en una muy rápidamente en el café, apenas un segundo por cada lado, y coloca 7 en forma de flor en la fuente, una en el centro y seis alrededor.", "it": "Inzuppa i biscotti uno alla volta molto rapidamente nel caffè, appena un secondo per lato, e disponine 7 a fiore sul piatto da portata, uno al centro e sei intorno."}},
+    {"text": {"fr": "Étalez une fine couche de crème au beurre, puis alternez biscuits trempés et crème jusqu'à épuisement des biscuits, sur environ huit couches, en terminant par des biscuits.", "en": "Spread a thin layer of buttercream over them, then keep alternating dipped biscuits and cream until the biscuits are used up, in about eight layers, finishing with biscuits.", "es": "Extiende una capa fina de crema de mantequilla y sigue alternando galletas mojadas y crema hasta terminar las galletas, en unas ocho capas, acabando con galletas.", "it": "Stendi uno strato sottile di crema al burro, poi alterna biscotti inzuppati e crema fino a esaurire i biscotti, per circa otto strati, terminando con i biscotti."}},
+    {"text": {"fr": "Recouvrez entièrement le dessus et les côtés du gâteau avec le reste de la crème et lissez à la spatule.", "en": "Cover the top and sides of the cake completely with the rest of the cream and smooth it with a palette knife.", "es": "Cubre por completo la parte superior y los lados de la tarta con el resto de la crema y alísala con una espátula.", "it": "Ricopri completamente la superficie e i lati della torta con il resto della crema e livellala con una spatola."}},
+    {"text": {"fr": "Parsemez le dessus et les côtés de biscuits émiettés.", "en": "Scatter the biscuit crumbs over the top and press them onto the sides.", "es": "Esparce la galleta desmenuzada por encima y por los lados.", "it": "Cospargi la superficie e i lati con i biscotti sbriciolati."}},
+    {"text": {"fr": "Réfrigérez au moins 4 heures, idéalement une nuit, pour que les biscuits s'attendrissent et que le gâteau se tienne à la découpe.", "en": "Chill for at least 4 hours, ideally overnight, so the biscuits soften and the cake holds together when sliced.", "es": "Refrigera al menos 4 horas, mejor toda la noche, para que las galletas se ablanden y la tarta se mantenga firme al cortarla.", "it": "Fai riposare in frigorifero almeno 4 ore, meglio tutta la notte, perché i biscotti si ammorbidiscano e la torta si tenga al taglio."}, "timerMinutes": 240}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-baghrir",
+  "title": {"fr": "Baghrir", "en": "Baghrir", "es": "Baghrir", "it": "Baghrir"},
+  "summary": {
+    "fr": "Les crêpes mille trous du Maghreb : une pâte de semoule fine levée, cuite d'un seul côté jusqu'à se couvrir de petits trous, puis arrosée de beurre fondu au miel.",
+    "en": "The Maghreb's thousand-hole pancakes: a risen fine-semolina batter cooked on one side only until riddled with tiny holes, then drenched in honey butter.",
+    "es": "Las crepes de mil agujeros del Magreb: una masa fermentada de sémola fina, cocida por un solo lado hasta cubrirse de agujeritos y regada con mantequilla derretida con miel.",
+    "it": "Le crêpe dai mille buchi del Maghreb: una pastella lievitata di semola fine, cotta da un solo lato finché si copre di forellini, poi irrorata di burro fuso al miele."
+  },
+  "story": {
+    "fr": "Le baghrir, que l'on surnomme « crêpe aux mille trous », se prépare dans tout le Maghreb, du Maroc à la Tunisie en passant par l'Algérie, et son origine est commune à toute la région. Sa pâte de semoule levée ne cuit que d'un côté : les bulles qui crèvent en surface laissent une multitude de petits trous qui boivent le beurre fondu et le miel. On le sert au petit déjeuner ou au goûter et, pendant le ramadan, sur la table de la rupture du jeûne comme lors des fêtes de l'Aïd.",
+    "en": "Baghrir, nicknamed the 'thousand-hole pancake', is made throughout the Maghreb, from Morocco through Algeria to Tunisia, and its origins are shared by the whole region. Its risen semolina batter is cooked on one side only: the bubbles bursting on the surface leave countless tiny holes that soak up the melted butter and honey. It is served at breakfast or teatime and, during Ramadan, at the table where the fast is broken, as well as at Eid celebrations.",
+    "es": "El baghrir, apodado «crepe de los mil agujeros», se prepara en todo el Magreb, de Marruecos a Túnez pasando por Argelia, y su origen es común a toda la región. Su masa fermentada de sémola solo se cuece por un lado: las burbujas que revientan en la superficie dejan una multitud de agujeritos que absorben la mantequilla derretida y la miel. Se sirve en el desayuno o la merienda y, durante el ramadán, en la mesa de la ruptura del ayuno y en las fiestas del Eid.",
+    "it": "Il baghrir, soprannominato «crêpe dai mille buchi», si prepara in tutto il Maghreb, dal Marocco alla Tunisia passando per l'Algeria, e la sua origine è comune all'intera regione. La sua pastella lievitata di semola cuoce da un solo lato: le bolle che scoppiano in superficie lasciano una miriade di forellini che assorbono il burro fuso e il miele. Si serve a colazione o a merenda e, durante il Ramadan, sulla tavola della rottura del digiuno come nelle feste dell'Eid."
+  },
+  "region": {"fr": "Maghreb", "en": "Maghreb", "es": "Magreb", "it": "Maghreb"},
+  "origin": {"countries": ["MA", "DZ", "TN"]},
+  "category": "dessert",
+  "dessertType": "crepe",
+  "occasions": ["ramadan-aid"],
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 6,
+  "heroImage": "images/ds-baghrir/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "semoule-de-ble", "quantity": 250, "unit": "g"},
+    {"ref": "farine", "quantity": 60, "unit": "g"},
+    {"ref": "sucre", "quantity": 1, "unit": "tbsp"},
+    {"ref": "sel", "quantity": 0.5, "unit": "tsp"},
+    {"ref": "levure-boulangere", "quantity": 7, "unit": "g"},
+    {"ref": "eau", "quantity": 600, "unit": "ml"},
+    {"ref": "levure-chimique", "quantity": 2, "unit": "tsp"},
+    {"ref": "beurre", "quantity": 80, "unit": "g"},
+    {"ref": "miel", "quantity": 150, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans le bol d'un blender, mettez la semoule fine, la farine, le sucre, le sel, la levure de boulanger sèche et l'eau tiède, puis mixez 2 minutes, jusqu'à obtenir une pâte très lisse, un peu plus épaisse qu'une pâte à crêpes.", "en": "Put the fine semolina, flour, sugar, salt, dried yeast and lukewarm water in a blender and blend for 2 minutes, until very smooth and slightly thicker than a crêpe batter.", "es": "Pon en el vaso de la batidora la sémola fina, la harina, el azúcar, la sal, la levadura de panadería seca y el agua tibia, y tritura 2 minutos, hasta obtener una masa muy lisa, algo más espesa que la de las crepes.", "it": "Metti nel frullatore la semola fine, la farina, lo zucchero, il sale, il lievito di birra secco e l'acqua tiepida, poi frulla per 2 minuti, fino a ottenere una pastella liscissima, un po' più densa di quella delle crêpe."}, "timerMinutes": 2},
+    {"text": {"fr": "Versez la pâte dans un saladier, couvrez et laissez lever 45 minutes dans un endroit tiède, jusqu'à ce que la surface soit couverte de bulles.", "en": "Pour the batter into a large bowl, cover and leave to rise in a warm place for 45 minutes, until the surface is covered with bubbles.", "es": "Vierte la masa en un bol grande, tápala y déjala fermentar 45 minutos en un lugar templado, hasta que la superficie se cubra de burbujas.", "it": "Versa la pastella in una ciotola capiente, copri e lascia lievitare per 45 minuti in un luogo tiepido, finché la superficie è coperta di bollicine."}, "timerMinutes": 45},
+    {"text": {"fr": "Incorporez la levure chimique au fouet, sans trop travailler la pâte, puis laissez-la reposer encore 10 minutes.", "en": "Whisk in the baking powder without overworking the batter, then leave it to rest for another 10 minutes.", "es": "Incorpora la levadura química con las varillas, sin trabajar demasiado la masa, y déjala reposar 10 minutos más.", "it": "Incorpora il lievito per dolci con la frusta, senza lavorare troppo la pastella, poi lasciala riposare altri 10 minuti."}, "timerMinutes": 10},
+    {"text": {"fr": "Faites chauffer à feu moyen une poêle antiadhésive de 15 cm environ, sans matière grasse.", "en": "Heat a non-stick frying pan about 15 cm across over a medium heat, without any fat.", "es": "Calienta a fuego medio una sartén antiadherente de unos 15 cm, sin nada de grasa.", "it": "Scalda a fuoco medio una padella antiaderente di circa 15 cm, senza grassi."}, "timerMinutes": 2},
+    {"text": {"fr": "Versez une petite louche de pâte au centre de la poêle sans la faire tourner : elle s'étale seule en un disque d'environ 12 cm.", "en": "Pour a small ladleful of batter into the centre of the pan without swirling it: it will spread by itself into a disc about 12 cm across.", "es": "Vierte un cucharón pequeño de masa en el centro de la sartén sin moverla: se extenderá sola formando un disco de unos 12 cm.", "it": "Versa un mestolino di pastella al centro della padella senza ruotarla: si allargherà da sola in un disco di circa 12 cm."}},
+    {"text": {"fr": "Laissez cuire d'un seul côté, sans retourner, environ 2 minutes, jusqu'à ce que la surface soit criblée de trous et ne soit plus brillante.", "en": "Cook on one side only, without turning, for about 2 minutes, until the surface is riddled with holes and no longer looks wet.", "es": "Deja que se cueza por un solo lado, sin darle la vuelta, unos 2 minutos, hasta que la superficie esté llena de agujeros y ya no brille.", "it": "Lascia cuocere da un solo lato, senza girarla, per circa 2 minuti, finché la superficie è piena di buchi e non è più lucida."}, "timerMinutes": 2},
+    {"text": {"fr": "Faites glisser chaque baghrir sur un torchon propre, trous vers le haut, sans les superposer tant qu'ils sont chauds, et recommencez avec le reste de la pâte.", "en": "Slide each baghrir onto a clean tea towel, holes facing up, without stacking them while they are hot, and repeat with the rest of the batter.", "es": "Desliza cada baghrir sobre un paño limpio, con los agujeros hacia arriba, sin apilarlos mientras estén calientes, y repite con el resto de la masa.", "it": "Fai scivolare ogni baghrir su un canovaccio pulito, con i buchi verso l'alto, senza sovrapporli finché sono caldi, e ripeti con il resto della pastella."}},
+    {"text": {"fr": "Dans une petite casserole, faites fondre le beurre avec le miel à feu doux, en remuant.", "en": "In a small saucepan, melt the butter with the honey over a low heat, stirring.", "es": "En un cazo pequeño, derrite la mantequilla con la miel a fuego suave, removiendo.", "it": "In un pentolino fai sciogliere il burro con il miele a fuoco dolce, mescolando."}, "timerMinutes": 3},
+    {"text": {"fr": "Disposez les baghrir sur un plat, nappez-les généreusement de beurre au miel chaud et servez aussitôt.", "en": "Arrange the baghrir on a platter, spoon the hot honey butter generously over them and serve straight away.", "es": "Coloca los baghrir en una fuente, riégalos generosamente con la mantequilla con miel caliente y sirve enseguida.", "it": "Disponi i baghrir su un piatto da portata, irrorali generosamente con il burro al miele caldo e servi subito."}}
+  ]
+}

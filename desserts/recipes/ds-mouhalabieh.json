@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mouhalabieh",
+  "title": {"fr": "Mouhalabieh", "en": "Mouhalabieh", "es": "Mouhalabieh", "it": "Mouhalabieh"},
+  "summary": {
+    "fr": "L'entremets au lait libanais : un lait épaissi à la fécule, parfumé à la fleur d'oranger, servi bien froid sous une pluie de pistaches concassées.",
+    "en": "Lebanon's milk pudding: milk thickened with cornflour, scented with orange blossom water and served well chilled under a scattering of chopped pistachios.",
+    "es": "El pudin de leche libanés: leche espesada con maicena, perfumada con agua de azahar y servida bien fría bajo una lluvia de pistachos picados.",
+    "it": "Il budino di latte libanese: latte addensato con l'amido, profumato all'acqua di fiori d'arancio e servito ben freddo sotto una pioggia di pistacchi tritati."
+  },
+  "story": {
+    "fr": "La mouhalabieh (muhallabiyya) est un entremets au lait épaissi à l'amidon que l'on prépare dans tout le monde arabe ; on en trouve déjà des recettes dans les livres de cuisine arabes du Moyen Âge, et une tradition rattache son nom au général omeyyade al-Muhallab. Au Liban, elle se parfume à l'eau de fleur d'oranger ou à l'eau de rose, parfois au mastic, et se couvre de pistaches. On la sert froide, en petites coupes.",
+    "en": "Mouhalabieh (muhallabiyya) is a starch-thickened milk pudding made throughout the Arab world; recipes for it already appear in medieval Arabic cookery books, and tradition links its name to the Umayyad general al-Muhallab. In Lebanon it is scented with orange blossom or rose water, sometimes with mastic, and topped with pistachios. It is served cold, in small bowls.",
+    "es": "La mouhalabieh (muhallabiyya) es un pudin de leche espesado con almidón que se prepara en todo el mundo árabe; ya aparecen recetas en los libros de cocina árabes medievales, y una tradición relaciona su nombre con el general omeya al-Muhallab. En el Líbano se perfuma con agua de azahar o de rosas, a veces con almáciga, y se cubre de pistachos. Se sirve fría, en cuencos pequeños.",
+    "it": "La mouhalabieh (muhallabiyya) è un budino di latte addensato con l'amido che si prepara in tutto il mondo arabo; se ne trovano già ricette nei ricettari arabi medievali, e una tradizione ne lega il nome al generale omayyade al-Muhallab. In Libano si profuma con acqua di fiori d'arancio o di rose, a volte con il mastice, e si ricopre di pistacchi. Si serve fredda, in coppette."
+  },
+  "region": {"fr": "Liban", "en": "Lebanon", "es": "Líbano", "it": "Libano"},
+  "origin": {"countries": ["LB"]},
+  "category": "dessert",
+  "dessertType": "creme",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 6,
+  "heroImage": "images/ds-mouhalabieh/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait", "quantity": 100, "unit": "cl"},
+    {"ref": "fecule-de-mais", "quantity": 60, "unit": "g"},
+    {"ref": "sucre", "quantity": 100, "unit": "g"},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 1, "unit": "tbsp"},
+    {"ref": "mastic", "quantity": 2, "unit": "piece", "optional": true},
+    {"ref": "pistache", "quantity": 40, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans un bol, délayez la fécule de maïs dans 25 cl de lait froid jusqu'à ce qu'il ne reste aucun grumeau.", "en": "In a bowl, whisk the cornflour into 25 cl of the cold milk until there are no lumps left.", "es": "En un bol, disuelve la maicena en 25 cl de leche fría hasta que no quede ningún grumo.", "it": "In una ciotola stempera l'amido di mais in 25 cl di latte freddo finché non resta nessun grumo."}},
+    {"text": {"fr": "Si vous le souhaitez, pilez les 2 larmes de mastic au mortier avec 1 cuillerée à café du sucre, jusqu'à obtenir une poudre fine.", "en": "If you like, grind the 2 pieces of mastic in a mortar with 1 teaspoon of the sugar until you have a fine powder.", "es": "Si quieres, machaca las 2 lágrimas de almáciga en el mortero con 1 cucharadita del azúcar hasta obtener un polvo fino.", "it": "Se ti va, pesta le 2 lacrime di mastice nel mortaio con 1 cucchiaino dello zucchero, fino a ottenere una polvere fine."}},
+    {"text": {"fr": "Dans une casserole à fond épais, faites chauffer les 75 cl de lait restants avec le reste du sucre (et le mastic pilé, si vous l'utilisez) jusqu'aux premiers frémissements, en remuant.", "en": "In a heavy-based saucepan, heat the remaining 75 cl of milk with the rest of the sugar (and the ground mastic, if using), stirring, until it just begins to simmer.", "es": "En un cazo de fondo grueso, calienta los 75 cl de leche restantes con el resto del azúcar (y la almáciga machacada, si la usas), removiendo, hasta que esté a punto de hervir.", "it": "In una casseruola dal fondo spesso scalda i 75 cl di latte rimasti con il resto dello zucchero (e il mastice pestato, se lo usi) fino al primo bollore, mescolando."}, "timerMinutes": 8},
+    {"text": {"fr": "Versez la fécule délayée en fouettant, puis laissez épaissir à feu doux 8 à 10 minutes sans cesser de remuer, jusqu'à ce que la crème soit épaisse et nappe la cuillère.", "en": "Pour in the cornflour mixture, whisking, then cook over a low heat for 8 to 10 minutes, stirring constantly, until the cream thickly coats the spoon.", "es": "Vierte la maicena disuelta batiendo y deja espesar a fuego suave de 8 a 10 minutos sin dejar de remover, hasta que la crema esté espesa y cubra la cuchara.", "it": "Versa l'amido stemperato mescolando con la frusta, poi fai addensare a fuoco dolce per 8-10 minuti senza smettere di mescolare, finché la crema è densa e vela il cucchiaio."}, "timerMinutes": 10},
+    {"text": {"fr": "Hors du feu, incorporez l'eau de fleur d'oranger.", "en": "Off the heat, stir in the orange blossom water.", "es": "Fuera del fuego, incorpora el agua de azahar.", "it": "Fuori dal fuoco, incorpora l'acqua di fiori d'arancio."}},
+    {"text": {"fr": "Répartissez la crème dans six coupes ou ramequins et laissez-la tiédir à température ambiante.", "en": "Divide the cream between six small bowls or ramekins and leave to cool to room temperature.", "es": "Reparte la crema en seis cuencos o moldes y deja que se temple a temperatura ambiente.", "it": "Suddividi la crema in sei coppette o stampini e lasciala intiepidire a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Couvrez et laissez prendre au réfrigérateur pendant au moins 3 heures.", "en": "Cover and chill for at least 3 hours, until set.", "es": "Cubre y deja cuajar en la nevera al menos 3 horas.", "it": "Copri e lascia rassodare in frigorifero per almeno 3 ore."}, "timerMinutes": 180},
+    {"text": {"fr": "Juste avant de servir, concassez les pistaches et parsemez-en chaque coupe.", "en": "Just before serving, roughly chop the pistachios and scatter them over each bowl.", "es": "Justo antes de servir, pica los pistachos y espárcelos sobre cada cuenco.", "it": "Poco prima di servire, trita grossolanamente i pistacchi e cospargine ogni coppetta."}}
+  ]
+}

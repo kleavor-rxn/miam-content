@@ -95,6 +95,38 @@
       "difficulty": 2
     },
     {
+      "id": "ds-baci-di-dama",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "e144c832405e6b0940a2b36958b6672ab4c85a8dc829c6d237c5cda391eb553d",
+      "title": {
+        "fr": "Baci di dama",
+        "en": "Baci di dama",
+        "es": "Baci di dama",
+        "it": "Baci di dama"
+      },
+      "heroImage": "images/ds-baci-di-dama/hero.webp",
+      "tags": [],
+      "totalMinutes": 80,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-baghrir",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "1c7e4c2312380fe88ba255ed70e35cc6f3c71afa29f68a123776952b8aee7101",
+      "title": {
+        "fr": "Baghrir",
+        "en": "Baghrir",
+        "es": "Baghrir",
+        "it": "Baghrir"
+      },
+      "heroImage": "images/ds-baghrir/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
+      "difficulty": 2
+    },
+    {
       "id": "ds-baklava",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "498bd60d5cbeb6e0be3e76acfaf5ce89cd6af2a38df0e0702847aac59c238dc8",
@@ -107,6 +139,21 @@
       "heroImage": "images/ds-baklava/hero.webp",
       "tags": [],
       "totalMinutes": 100,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-barmbrack",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "42dfcc2b884749028f18c31af8629c029dafcb2b04bad28575db912281c97906",
+      "title": {
+        "fr": "Barmbrack",
+        "en": "Barmbrack",
+        "es": "Barmbrack",
+        "it": "Barmbrack"
+      },
+      "heroImage": "images/ds-barmbrack/hero.webp",
+      "tags": [],
+      "totalMinutes": 85,
       "difficulty": 2
     },
     {
@@ -144,6 +191,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-bhapa-pitha",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "0969c05b4ccdb8fabd78db0454d8ce9bb2615f5093f90919086c36eb6618da8e",
+      "title": {
+        "fr": "Bhapa pitha",
+        "en": "Bhapa pitha",
+        "es": "Bhapa pitha",
+        "it": "Bhapa pitha"
+      },
+      "heroImage": "images/ds-bhapa-pitha/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
+    },
+    {
       "id": "ds-bibingka",
       "updatedAt": "2026-10-23T18:49:52Z",
       "contentHash": "7c1dc42c79dbbaaf2eb1097ffc98b426cc43a2d6f04dfe8431a560f7deb6406e",
@@ -156,6 +220,40 @@
       "heroImage": "images/ds-bibingka/hero.webp",
       "tags": [],
       "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-bolo-de-bolacha",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "9f62cb459096e6cde3df3a2db4ffc869e6db7810521623d73e7e0e18c510c969",
+      "title": {
+        "fr": "Bolo de bolacha",
+        "en": "Bolo de bolacha",
+        "es": "Bolo de bolacha",
+        "it": "Bolo de bolacha"
+      },
+      "heroImage": "images/ds-bolo-de-bolacha/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 40,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-boortsog",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "6b6a5f3d5abbf0b2c15ea811830787d3e87e10e056c60566b8f2f932a55fe3a3",
+      "title": {
+        "fr": "Boortsog",
+        "en": "Boortsog",
+        "es": "Boortsog",
+        "it": "Boortsog"
+      },
+      "heroImage": "images/ds-boortsog/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 55,
       "difficulty": 2
     },
     {
@@ -191,6 +289,23 @@
       ],
       "totalMinutes": 50,
       "difficulty": 1
+    },
+    {
+      "id": "ds-cascos-de-guayaba",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "b3f79d6fa8983fcc649c0b0b9657b90fa2c8c6178ea9ef7ce111240b916c984e",
+      "title": {
+        "fr": "Cascos de guayaba con queso",
+        "en": "Cascos de guayaba con queso",
+        "es": "Cascos de guayaba con queso",
+        "it": "Cascos de guayaba con queso"
+      },
+      "heroImage": "images/ds-cascos-de-guayaba/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 75,
+      "difficulty": 2
     },
     {
       "id": "ds-cendol",
@@ -259,6 +374,23 @@
       "difficulty": 1
     },
     {
+      "id": "ds-churchkhela",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "f2d7ccb36b90de2c889085ac0733ac7cd8a8d6ce241bfcbe081c788eab5bfae8",
+      "title": {
+        "fr": "Churchkhela",
+        "en": "Churchkhela",
+        "es": "Churchkhela",
+        "it": "Churchkhela"
+      },
+      "heroImage": "images/ds-churchkhela/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
       "id": "ds-churros-con-chocolate",
       "updatedAt": "2026-10-23T18:40:41Z",
       "contentHash": "abdab3d71991495d1e338ddb5d5cac04afbc671dbb3e9f5f85bb8b3f3c2cb995",
@@ -306,6 +438,23 @@
       ],
       "totalMinutes": 55,
       "difficulty": 2
+    },
+    {
+      "id": "ds-coffee-jelly",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "63171e740c0da129aaf2f5f2ee58a5a25a7cb913f4cf31fb601315db26f39055",
+      "title": {
+        "fr": "Coffee jelly",
+        "en": "Coffee jelly",
+        "es": "Coffee jelly",
+        "it": "Coffee jelly"
+      },
+      "heroImage": "images/ds-coffee-jelly/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 20,
+      "difficulty": 1
     },
     {
       "id": "ds-conchas",
@@ -524,6 +673,21 @@
       "difficulty": 2
     },
     {
+      "id": "ds-gizzada",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "f153c035a1962eba2b1a7b177534cbe2b0fbced7144402f348e2a29bfcc30e81",
+      "title": {
+        "fr": "Gizzada",
+        "en": "Gizzada",
+        "es": "Gizzada",
+        "it": "Gizzada"
+      },
+      "heroImage": "images/ds-gizzada/hero.webp",
+      "tags": [],
+      "totalMinutes": 90,
+      "difficulty": 2
+    },
+    {
       "id": "ds-glace-au-matcha",
       "updatedAt": "2026-10-23T18:49:52Z",
       "contentHash": "4e9f45ed004af5edbe7537660db2fd8e2d347e50f76b227e602d22dc7192b465",
@@ -737,6 +901,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-ladob",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "4b5cc0933a99028d9a528ae6a77c040854588355343beb872cfec3b99ca53dd2",
+      "title": {
+        "fr": "Ladob",
+        "en": "Ladob",
+        "es": "Ladob",
+        "it": "Ladob"
+      },
+      "heroImage": "images/ds-ladob/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 45,
+      "difficulty": 1
+    },
+    {
       "id": "ds-lamington",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "3660b24aa657939cf9a1ece52cd85054e6a864508b9d41e284c57d277c36a5bb",
@@ -944,6 +1125,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-mouhalabieh",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "a4e5f8351f8a62c58bcd49b7fb200cb78871269d29483e81c0b89b647083fc4e",
+      "title": {
+        "fr": "Mouhalabieh",
+        "en": "Mouhalabieh",
+        "es": "Mouhalabieh",
+        "it": "Mouhalabieh"
+      },
+      "heroImage": "images/ds-mouhalabieh/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 35,
+      "difficulty": 2
+    },
+    {
       "id": "ds-mousse-au-chocolat",
       "updatedAt": "2026-10-18T21:24:03Z",
       "contentHash": "e5e67f2b62f7dd011151291a71ed82faaa31de21b47984cf6e1afd00a1d29bea",
@@ -975,6 +1173,21 @@
         "noBake"
       ],
       "totalMinutes": 25,
+      "difficulty": 1
+    },
+    {
+      "id": "ds-mustikkapiirakka",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "347ddc4e7916128e0fd228c556cba56a3ab55788b43e531da232e7da8e583303",
+      "title": {
+        "fr": "Mustikkapiirakka",
+        "en": "Mustikkapiirakka",
+        "es": "Mustikkapiirakka",
+        "it": "Mustikkapiirakka"
+      },
+      "heroImage": "images/ds-mustikkapiirakka/hero.webp",
+      "tags": [],
+      "totalMinutes": 50,
       "difficulty": 1
     },
     {
@@ -1042,6 +1255,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-num-ansom-chek",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "646efe34d3f109cc824e36874305120fa8949fabae6814b5db5ea2f5bda6e96b",
+      "title": {
+        "fr": "Num ansom chek",
+        "en": "Num ansom chek",
+        "es": "Num ansom chek",
+        "it": "Num ansom chek"
+      },
+      "heroImage": "images/ds-num-ansom-chek/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 120,
+      "difficulty": 2
+    },
+    {
       "id": "ds-om-ali",
       "updatedAt": "2026-10-23T18:41:35Z",
       "contentHash": "447a4ae20295f5586ffa67e6d8a4ea8906087cc6221128bcff0e06cfdf5cf443",
@@ -1070,6 +1300,21 @@
       "tags": [],
       "totalMinutes": 125,
       "difficulty": 3
+    },
+    {
+      "id": "ds-panipopo",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "481e4138cca3a17bcf08bdaff072cc1cb97028023bb15770aa2b8e748f2480d2",
+      "title": {
+        "fr": "Panipopo",
+        "en": "Panipopo",
+        "es": "Panipopo",
+        "it": "Panipopo"
+      },
+      "heroImage": "images/ds-panipopo/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 2
     },
     {
       "id": "ds-panna-cotta",
@@ -1217,6 +1462,21 @@
       "difficulty": 3
     },
     {
+      "id": "ds-pouding-chomeur",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "fba1c882b9853a1d14698dac41e3e9018a6032042f6e5090b39f6616fac54cce",
+      "title": {
+        "fr": "Pouding chômeur",
+        "en": "Pouding chômeur",
+        "es": "Pouding chômeur",
+        "it": "Pouding chômeur"
+      },
+      "heroImage": "images/ds-pouding-chomeur/hero.webp",
+      "tags": [],
+      "totalMinutes": 65,
+      "difficulty": 1
+    },
+    {
       "id": "ds-prekmurska-gibanica",
       "updatedAt": "2026-10-23T19:26:50Z",
       "contentHash": "3a2fd8858e9a19a839a14fd4ed60c772788f313c107e9267f2fe50aafa075981",
@@ -1281,6 +1541,40 @@
       ],
       "totalMinutes": 75,
       "difficulty": 3
+    },
+    {
+      "id": "ds-sheer-khurma",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "4f906c838952137aeaa27ee9cd23783918c02d2c1d956ee4e4b2e75364de7856",
+      "title": {
+        "fr": "Sheer khurma",
+        "en": "Sheer khurma",
+        "es": "Sheer khurma",
+        "it": "Sheer khurma"
+      },
+      "heroImage": "images/ds-sheer-khurma/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 65,
+      "difficulty": 2
+    },
+    {
+      "id": "ds-sholeh-zard",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "40be5e9a3b035d33ce032ac96b0463bd64f9f1b43d304eb99ff5ec6ea06ee56c",
+      "title": {
+        "fr": "Sholeh zard",
+        "en": "Sholeh zard",
+        "es": "Sholeh zard",
+        "it": "Sholeh zard"
+      },
+      "heroImage": "images/ds-sholeh-zard/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 110,
+      "difficulty": 2
     },
     {
       "id": "ds-sufganiyot",
@@ -1398,6 +1692,23 @@
       "difficulty": 2
     },
     {
+      "id": "ds-turon",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "a6e37452864bf93fc8b387aada52370742503ce51369029eb45cc631174dc654",
+      "title": {
+        "fr": "Turon",
+        "en": "Turon",
+        "es": "Turon",
+        "it": "Turon"
+      },
+      "heroImage": "images/ds-turon/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 50,
+      "difficulty": 2
+    },
+    {
       "id": "ds-turron",
       "updatedAt": "2026-10-23T17:38:49Z",
       "contentHash": "269e92803dea1b2941b1878bca5cd459c88f0748a8f68b12b0261982a3eeb65b",
@@ -1413,6 +1724,23 @@
       ],
       "totalMinutes": 55,
       "difficulty": 3
+    },
+    {
+      "id": "ds-vakalolo",
+      "updatedAt": "2026-10-23T19:26:05Z",
+      "contentHash": "299a8ce0bae56f21a8e724e908e5154bef836f2b6eea6cbd34f0d90949d8c572",
+      "title": {
+        "fr": "Vakalolo",
+        "en": "Vakalolo",
+        "es": "Vakalolo",
+        "it": "Vakalolo"
+      },
+      "heroImage": "images/ds-vakalolo/hero.webp",
+      "tags": [
+        "noBake"
+      ],
+      "totalMinutes": 115,
+      "difficulty": 2
     },
     {
       "id": "ds-watalappan",
@@ -1448,7 +1776,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "af8d3bd89c16e7d51a2bf57d62a58152651ba12c4d182f88c5ba106df83f756a",
+    "ingredients.json": "125e52a4dea2f567e77a4dc730100d1e9ea7e96b258a241e888270c70b33322b",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },

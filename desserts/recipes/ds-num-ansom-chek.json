@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-num-ansom-chek",
+  "title": {"fr": "Num ansom chek", "en": "Num ansom chek", "es": "Num ansom chek", "it": "Num ansom chek"},
+  "summary": {
+    "fr": "Le gâteau de riz gluant cambodgien : un riz mijoté dans le lait de coco, roulé autour d'une banane bien mûre dans une feuille de bananier, puis cuit longuement à la vapeur jusqu'à devenir fondant.",
+    "en": "Cambodia's sticky rice cake: rice cooked in coconut milk, rolled around a very ripe banana in a banana leaf, then steamed slowly until meltingly soft.",
+    "es": "El pastel camboyano de arroz glutinoso: arroz cocinado en leche de coco, enrollado alrededor de un plátano bien maduro en una hoja de plátano y cocido al vapor durante largo rato hasta quedar meloso.",
+    "it": "Il dolce cambogiano di riso glutinoso: riso cucinato nel latte di cocco, arrotolato attorno a una banana ben matura in una foglia di banano, poi cotto a lungo al vapore finché diventa morbidissimo."
+  },
+  "story": {
+    "fr": "En khmer, l'ansom est un gâteau de riz gluant en forme de cylindre, et chek désigne la banane. Avec sa version salée, l'ansom chrouk, garnie de porc et de haricots mungo, le num ansom chek fait partie des gâteaux que l'on prépare pour Pchum Ben, la fête des ancêtres, et pour le Nouvel An khmer, et que l'on porte en offrande à la pagode. On le trouve aussi toute l'année sur les marchés, où on le mange tiède ou à température ambiante, débarrassé de sa feuille et coupé en tranches.",
+    "en": "In Khmer, an ansom is a cylindrical glutinous rice cake, and chek means banana. Along with its savoury version, ansom chrouk, filled with pork and mung beans, num ansom chek is one of the cakes made for Pchum Ben, the festival of the ancestors, and for Khmer New Year, and taken to the pagoda as offerings. It is also sold all year round at markets, where it is eaten warm or at room temperature, unwrapped and cut into slices.",
+    "es": "En jemer, el ansom es un pastel de arroz glutinoso en forma de cilindro, y chek significa plátano. Junto a su versión salada, el ansom chrouk, relleno de cerdo y judías mungo, el num ansom chek es uno de los pasteles que se preparan para el Pchum Ben, la fiesta de los antepasados, y para el Año Nuevo jemer, y que se llevan como ofrenda a la pagoda. También se encuentra todo el año en los mercados, donde se come templado o a temperatura ambiente, sin la hoja y cortado en rodajas.",
+    "it": "In khmer l'ansom è un dolce di riso glutinoso a forma di cilindro, e chek significa banana. Insieme alla sua versione salata, l'ansom chrouk, ripiena di maiale e fagioli mungo, il num ansom chek è tra i dolci che si preparano per il Pchum Ben, la festa degli antenati, e per il Capodanno khmer, e che si portano in offerta alla pagoda. Si trova anche tutto l'anno nei mercati, dove lo si mangia tiepido o a temperatura ambiente, liberato dalla foglia e tagliato a fette."
+  },
+  "region": {"fr": "Cambodge", "en": "Cambodia", "es": "Camboya", "it": "Cambogia"},
+  "origin": {"countries": ["KH"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 80,
+  "servings": 8,
+  "heroImage": "images/ds-num-ansom-chek/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "riz-gluant", "quantity": 500, "unit": "g"},
+    {"ref": "eau", "quantity": null, "unit": null},
+    {"ref": "lait-de-coco", "quantity": 400, "unit": "ml"},
+    {"ref": "sucre", "quantity": 60, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "tsp"},
+    {"ref": "feuille-de-bananier", "quantity": 8, "unit": "piece"},
+    {"ref": "banane", "quantity": 8, "unit": "piece"}
+  ],
+  "steps": [
+    {"text": {"fr": "Rincez le riz gluant à l'eau froide jusqu'à ce qu'elle soit claire, puis laissez-le tremper dans un grand volume d'eau froide au moins 4 heures (ou une nuit).", "en": "Rinse the glutinous rice in cold water until it runs clear, then leave it to soak in plenty of cold water for at least 4 hours (or overnight).", "es": "Lava el arroz glutinoso con agua fría hasta que el agua salga clara y déjalo en remojo en abundante agua fría al menos 4 horas (o toda la noche).", "it": "Sciacqua il riso glutinoso in acqua fredda finché l'acqua esce limpida, poi lascialo in ammollo in abbondante acqua fredda per almeno 4 ore (o per tutta la notte)."}, "timerMinutes": 240},
+    {"text": {"fr": "Dans un wok ou une grande poêle, faites chauffer le lait de coco avec le sucre et le sel à feu moyen, en remuant jusqu'à ce qu'ils soient dissous.", "en": "In a wok or large frying pan, heat the coconut milk with the sugar and salt over a medium heat, stirring until they dissolve.", "es": "En un wok o una sartén grande, calienta la leche de coco con el azúcar y la sal a fuego medio, removiendo hasta que se disuelvan.", "it": "In un wok o in una padella capiente scalda il latte di cocco con lo zucchero e il sale a fuoco medio, mescolando finché si sciolgono."}, "timerMinutes": 3},
+    {"text": {"fr": "Ajoutez le riz bien égoutté et faites-le cuire à feu moyen-doux en remuant sans cesse, jusqu'à ce qu'il ait absorbé tout le liquide et soit collant mais encore ferme à cœur.", "en": "Add the well-drained rice and cook over a medium-low heat, stirring constantly, until it has absorbed all the liquid and is sticky but still firm in the centre.", "es": "Añade el arroz bien escurrido y cuécelo a fuego medio-bajo sin dejar de remover, hasta que haya absorbido todo el líquido y esté pegajoso, aunque todavía firme por dentro.", "it": "Aggiungi il riso ben scolato e cuocilo a fuoco medio-basso mescolando di continuo, finché ha assorbito tutto il liquido ed è appiccicoso ma ancora sodo al cuore."}, "timerMinutes": 15},
+    {"text": {"fr": "Étalez le riz sur un plateau et laissez-le tiédir.", "en": "Spread the rice out on a tray and leave it to cool until lukewarm.", "es": "Extiende el arroz en una bandeja y deja que se temple.", "it": "Stendi il riso su un vassoio e lascialo intiepidire."}, "timerMinutes": 20},
+    {"text": {"fr": "Passez rapidement les feuilles de bananier (8 rectangles d'environ 25 × 30 cm) au-dessus d'une flamme pour les assouplir, puis essuyez-les.", "en": "Pass the banana leaves (8 rectangles about 25 × 30 cm) quickly over a flame to make them supple, then wipe them clean.", "es": "Pasa rápidamente las hojas de plátano (8 rectángulos de unos 25 × 30 cm) por encima de una llama para ablandarlas y límpialas con un paño.", "it": "Passa velocemente le foglie di banano (8 rettangoli di circa 25 × 30 cm) sopra una fiamma per ammorbidirle, poi puliscile con un panno."}},
+    {"text": {"fr": "Au centre de chaque feuille, étalez un huitième du riz en un rectangle de 12 × 10 cm, posez dessus une petite banane bien mûre épluchée (type nam wah ou banane-figue) et refermez le riz autour pour l'envelopper entièrement.", "en": "In the centre of each leaf, spread an eighth of the rice into a 12 × 10 cm rectangle, lay a peeled, very ripe small banana (such as nam wah or a finger banana) on top and bring the rice up around it to enclose it completely.", "es": "En el centro de cada hoja, extiende una octava parte del arroz en un rectángulo de 12 × 10 cm, coloca encima un plátano pequeño bien maduro y pelado (tipo nam wah o plátano manzano) y cierra el arroz a su alrededor hasta envolverlo por completo.", "it": "Al centro di ogni foglia stendi un ottavo del riso in un rettangolo di 12 × 10 cm, adagiaci sopra una banana piccola ben matura e sbucciata (tipo nam wah o baby banana) e richiudi il riso tutt'attorno fino ad avvolgerla completamente."}},
+    {"text": {"fr": "Roulez la feuille bien serrée autour du boudin, rabattez les extrémités et ficelez chaque rouleau avec de la ficelle de cuisine.", "en": "Roll the leaf up tightly around the log, fold in the ends and tie each parcel with kitchen string.", "es": "Enrolla la hoja bien apretada alrededor del cilindro, dobla los extremos y ata cada rollo con hilo de cocina.", "it": "Arrotola la foglia ben stretta attorno al cilindro, ripiega le estremità e lega ogni involto con lo spago da cucina."}},
+    {"text": {"fr": "Faites cuire les rouleaux à la vapeur pendant 1 heure, en rajoutant de l'eau bouillante dans le cuit-vapeur si besoin, jusqu'à ce que le riz soit translucide et fondant.", "en": "Steam the parcels for 1 hour, topping up the steamer with boiling water as needed, until the rice is translucent and meltingly soft.", "es": "Cuece los rollos al vapor durante 1 hora, añadiendo agua hirviendo a la vaporera si hace falta, hasta que el arroz esté translúcido y meloso.", "it": "Cuoci gli involti al vapore per 1 ora, aggiungendo acqua bollente nella vaporiera se serve, finché il riso è traslucido e morbidissimo."}, "timerMinutes": 60},
+    {"text": {"fr": "Laissez tiédir 10 minutes, puis retirez la ficelle et la feuille et coupez chaque rouleau en tranches épaisses.", "en": "Leave to cool for 10 minutes, then remove the string and leaf and cut each parcel into thick slices.", "es": "Deja templar 10 minutos, retira el hilo y la hoja y corta cada rollo en rodajas gruesas.", "it": "Lascia intiepidire 10 minuti, poi togli lo spago e la foglia e taglia ogni rotolo a fette spesse."}, "timerMinutes": 10}
+  ]
+}
