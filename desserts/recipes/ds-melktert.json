@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-melktert",
+  "title": {"fr": "Melktert", "en": "Melktert", "es": "Melktert", "it": "Melktert"},
+  "summary": {
+    "fr": "La tarte au lait sud-africaine : une pâte sablée croustillante, une crème au lait douce et tremblotante, et un voile de cannelle.",
+    "en": "South Africa's milk tart: a crisp sweet crust, a soft, gently wobbling milk custard and a veil of cinnamon.",
+    "es": "La tarta de leche sudafricana: una masa quebrada crujiente, una crema de leche suave y temblorosa y un velo de canela.",
+    "it": "La torta al latte sudafricana: una frolla croccante, una crema al latte morbida e tremolante e un velo di cannella."
+  },
+  "story": {
+    "fr": "Son nom signifie simplement « tarte au lait » en afrikaans. Elle est née dans la région du Cap, escale de la route des épices, dans la cuisine des colons néerlandais, qui y ont gardé leur goût des tartes à la crème parfumées à la cannelle. Les Sud-Africains la servent à l'heure du thé, aux fêtes de famille et dans les ventes de gâteaux, et lui consacrent même une journée nationale, le 27 février.",
+    "en": "Its name simply means 'milk tart' in Afrikaans. It was born in the Cape, a port of call on the spice route, in the kitchens of the Dutch settlers, who kept their taste for custard tarts scented with cinnamon. South Africans serve it at teatime, at family gatherings and at bake sales, and even give it a national day of its own, on 27 February.",
+    "es": "Su nombre significa sencillamente «tarta de leche» en afrikáans. Nació en la región del Cabo, escala de la ruta de las especias, en la cocina de los colonos neerlandeses, que conservaron allí su gusto por las tartas de crema perfumadas con canela. Los sudafricanos la sirven a la hora del té, en las reuniones familiares y en las ventas benéficas de pasteles, y hasta le dedican un día nacional, el 27 de febrero.",
+    "it": "Il nome significa semplicemente «torta al latte» in afrikaans. È nata nella regione del Capo, scalo sulla rotta delle spezie, nelle cucine dei coloni olandesi, che vi conservarono il gusto per le torte alla crema profumate alla cannella. I sudafricani la servono all'ora del tè, nelle riunioni di famiglia e nelle vendite di dolci di beneficenza, e le dedicano perfino una giornata nazionale, il 27 febbraio."
+  },
+  "region": {"fr": "Cap-Occidental", "en": "Western Cape", "es": "Cabo Occidental", "it": "Capo Occidentale"},
+  "origin": {"countries": ["ZA"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 35,
+  "servings": 8,
+  "heroImage": "images/ds-melktert/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "farine", "quantity": 230, "unit": "g"},
+    {"ref": "beurre", "quantity": 115, "unit": "g"},
+    {"ref": "sucre", "quantity": 160, "unit": "g"},
+    {"ref": "oeuf", "quantity": 3, "unit": "piece"},
+    {"ref": "levure-chimique", "quantity": 1, "unit": "tsp"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "lait", "quantity": 75, "unit": "cl"},
+    {"ref": "fecule-de-mais", "quantity": 30, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp"}
+  ],
+  "steps": [
+    {"text": {"fr": "Pour la pâte, travaillez 100 g de beurre mou avec 60 g de sucre jusqu'à ce que le mélange soit crémeux, puis ajoutez 1 œuf.", "en": "For the pastry, cream 100 g of soft butter with 60 g of sugar until fluffy, then beat in 1 egg.", "es": "Para la masa, bate 100 g de mantequilla blanda con 60 g de azúcar hasta que quede cremosa y añade 1 huevo.", "it": "Per la frolla, lavora 100 g di burro morbido con 60 g di zucchero fino a renderlo cremoso, poi aggiungi 1 uovo."}},
+    {"text": {"fr": "Incorporez 200 g de farine, la levure et une pincée de sel, rassemblez la pâte en boule sans la travailler, filmez-la et laissez-la reposer 30 minutes au réfrigérateur.", "en": "Mix in 200 g of flour, the baking powder and a pinch of salt, gather the dough into a ball without overworking it, wrap and chill for 30 minutes.", "es": "Incorpora 200 g de harina, la levadura y una pizca de sal, forma una bola sin trabajar demasiado la masa, envuélvela en film y déjala reposar 30 minutos en la nevera.", "it": "Unisci 200 g di farina, il lievito e un pizzico di sale, raccogli l'impasto a palla senza lavorarlo troppo, avvolgilo nella pellicola e lascialo riposare 30 minuti in frigorifero."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 180 °C. Étalez la pâte, foncez-en un moule à tarte de 23 cm et piquez le fond à la fourchette.", "en": "Preheat the oven to 180 °C. Roll out the pastry, line a 23 cm pie dish with it and prick the base with a fork.", "es": "Precalienta el horno a 180 °C. Estira la masa, forra con ella un molde de tarta de 23 cm y pincha la base con un tenedor.", "it": "Preriscalda il forno a 180 °C. Stendi la frolla, fodera una tortiera da 23 cm e bucherella il fondo con una forchetta."}},
+    {"text": {"fr": "Faites cuire le fond à blanc 15 minutes sous des billes de cuisson, puis 10 minutes sans, jusqu'à ce qu'il soit doré. Laissez-le refroidir.", "en": "Blind-bake the case for 15 minutes with baking beans, then 10 minutes without, until golden. Leave it to cool.", "es": "Hornea la base en blanco 15 minutos con legumbres o bolas de cerámica encima y 10 minutos más sin ellas, hasta que esté dorada. Déjala enfriar.", "it": "Cuoci il guscio in bianco per 15 minuti con i pesi da cottura, poi 10 minuti senza, finché è dorato. Lascialo raffreddare."}, "timerMinutes": 25},
+    {"text": {"fr": "Portez à frémissement 65 cl de lait avec le reste du beurre (15 g).", "en": "Bring 65 cl of the milk to a simmer with the rest of the butter (15 g).", "es": "Calienta 65 cl de leche con el resto de la mantequilla (15 g) hasta que empiece a hervir suavemente.", "it": "Porta quasi a bollore 65 cl di latte con il burro rimasto (15 g)."}, "timerMinutes": 5},
+    {"text": {"fr": "Dans un saladier, fouettez les 2 œufs restants avec 100 g de sucre, 30 g de farine, la fécule et les 10 cl de lait froid restants, jusqu'à ce qu'il n'y ait plus de grumeaux.", "en": "In a bowl, whisk the remaining 2 eggs with 100 g of sugar, 30 g of flour, the cornflour and the remaining 10 cl of cold milk until there are no lumps.", "es": "En un bol, bate los 2 huevos restantes con 100 g de azúcar, 30 g de harina, la maicena y los 10 cl de leche fría restantes, hasta que no queden grumos.", "it": "In una ciotola sbatti le 2 uova rimaste con 100 g di zucchero, 30 g di farina, l'amido e i 10 cl di latte freddo rimasti, finché non ci sono più grumi."}},
+    {"text": {"fr": "Versez le lait chaud sur ce mélange en fouettant, reversez le tout dans la casserole et faites épaissir à feu doux sans cesser de remuer, 5 minutes après les premiers bouillons.", "en": "Pour the hot milk over this mixture, whisking, return everything to the pan and cook over a low heat, stirring constantly, for 5 minutes once it starts to bubble.", "es": "Vierte la leche caliente sobre esta mezcla batiendo, devuélvelo todo al cazo y deja espesar a fuego suave sin dejar de remover, 5 minutos desde que empiece a hervir.", "it": "Versa il latte caldo su questo composto mescolando con la frusta, rimetti tutto nella casseruola e fai addensare a fuoco dolce senza smettere di mescolare, per 5 minuti dal primo bollore."}, "timerMinutes": 6},
+    {"text": {"fr": "Hors du feu, ajoutez l'extrait de vanille, puis versez la crème chaude dans le fond de tarte et lissez la surface.", "en": "Off the heat, stir in the vanilla extract, then pour the hot custard into the pastry case and smooth the top.", "es": "Fuera del fuego, añade el extracto de vainilla, vierte la crema caliente en la base de tarta y alisa la superficie.", "it": "Fuori dal fuoco aggiungi l'estratto di vaniglia, poi versa la crema calda nel guscio di frolla e livella la superficie."}},
+    {"text": {"fr": "Saupoudrez généreusement de cannelle, laissez refroidir, puis placez au moins 2 heures au réfrigérateur pour que la crème prenne. Servez froid ou à peine frais.", "en": "Dust generously with cinnamon, leave to cool, then chill for at least 2 hours so the custard sets. Serve cold or just cool.", "es": "Espolvorea generosamente con canela, deja enfriar y refrigera al menos 2 horas para que la crema cuaje. Sírvela fría o solo ligeramente fresca.", "it": "Spolvera generosamente di cannella, lascia raffreddare e poi metti in frigorifero per almeno 2 ore perché la crema si rassodi. Servila fredda o solo leggermente fresca."}, "timerMinutes": 120}
+  ]
+}

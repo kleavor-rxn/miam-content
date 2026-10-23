@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-pavlova",
+  "title": {"fr": "Pavlova", "en": "Pavlova", "es": "Pavlova", "it": "Pavlova"},
+  "summary": {
+    "fr": "Une grande meringue croustillante dehors et moelleuse comme une guimauve à cœur, couverte de crème fouettée, de kiwi et de fruit de la passion.",
+    "en": "A large meringue, crisp outside and marshmallow-soft within, crowned with whipped cream, kiwi fruit and passion fruit.",
+    "es": "Un gran merengue crujiente por fuera y tierno como un malvavisco por dentro, cubierto de nata montada, kiwi y maracuyá.",
+    "it": "Una grande meringa croccante fuori e morbida come un marshmallow dentro, ricoperta di panna montata, kiwi e frutto della passione."
+  },
+  "story": {
+    "fr": "Elle porte le nom de la ballerine russe Anna Pavlova, dont les tournées en Australie et en Nouvelle-Zélande, dans les années 1920, firent sensation. Les deux pays s'en disputent l'invention depuis des décennies, sans que les historiens de la cuisine aient tranché : son origine reste partagée. Garnie de fruits frais, elle est devenue, des deux côtés de la mer de Tasman, le dessert des fêtes de fin d'année, qui tombent là-bas en plein été.",
+    "en": "It is named after the Russian ballerina Anna Pavlova, whose tours of Australia and New Zealand in the 1920s caused a sensation. The two countries have argued for decades over which of them invented it, and food historians have never settled the matter: its origin remains shared. Topped with fresh fruit, it has become the dessert of the festive season on both sides of the Tasman Sea, where Christmas falls in high summer.",
+    "es": "Lleva el nombre de la bailarina rusa Anna Pávlova, cuyas giras por Australia y Nueva Zelanda en los años veinte causaron sensación. Ambos países se disputan su invención desde hace décadas sin que los historiadores de la cocina hayan zanjado la cuestión: su origen sigue siendo compartido. Coronada de fruta fresca, se ha convertido a ambos lados del mar de Tasmania en el postre de las fiestas navideñas, que allí caen en pleno verano.",
+    "it": "Porta il nome della ballerina russa Anna Pavlova, le cui tournée in Australia e Nuova Zelanda, negli anni Venti, fecero scalpore. I due paesi se ne contendono l'invenzione da decenni senza che gli storici della cucina abbiano sciolto la questione: l'origine resta condivisa. Guarnita di frutta fresca, è diventata su entrambe le sponde del Mar di Tasman il dolce delle feste natalizie, che laggiù cadono in piena estate."
+  },
+  "region": {"fr": "Nouvelle-Zélande et Australie", "en": "New Zealand and Australia", "es": "Nueva Zelanda y Australia", "it": "Nuova Zelanda e Australia"},
+  "origin": {"countries": ["NZ", "AU"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": ["noel"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 75,
+  "servings": 8,
+  "heroImage": "images/ds-pavlova/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 4, "unit": "piece"},
+    {"ref": "sucre", "quantity": 220, "unit": "g"},
+    {"ref": "fecule-de-mais", "quantity": 2, "unit": "tsp"},
+    {"ref": "vinaigre-blanc", "quantity": 1, "unit": "tsp", "substitutes": ["citron"]},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "creme-liquide", "quantity": 30, "unit": "cl"},
+    {"ref": "kiwi", "quantity": 2, "unit": "piece"},
+    {"ref": "fruit-de-la-passion", "quantity": 3, "unit": "piece"},
+    {"ref": "fraise", "quantity": 200, "unit": "g", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 150 °C et tracez un cercle de 20 cm sur une feuille de papier cuisson, que vous retournez sur la plaque.", "en": "Preheat the oven to 150 °C and draw a 20 cm circle on a sheet of baking parchment, then lay it upside down on the baking tray.", "es": "Precalienta el horno a 150 °C y dibuja un círculo de 20 cm en una hoja de papel de horno; dale la vuelta y colócala sobre la bandeja.", "it": "Preriscalda il forno a 150 °C e traccia un cerchio di 20 cm su un foglio di carta forno, poi capovolgilo sulla teglia."}},
+    {"text": {"fr": "Séparez les œufs et montez les blancs en neige souple dans un bol parfaitement propre et sec.", "en": "Separate the eggs and whisk the whites to soft peaks in a spotlessly clean, dry bowl.", "es": "Separa los huevos y, en un bol perfectamente limpio y seco, monta las claras hasta que formen picos suaves.", "it": "Separa le uova e monta gli albumi a neve morbida in una ciotola perfettamente pulita e asciutta."}},
+    {"text": {"fr": "Ajoutez le sucre cuillerée par cuillerée sans cesser de fouetter, jusqu'à obtenir une meringue ferme et brillante où le sucre ne crisse plus entre les doigts.", "en": "Add the sugar a spoonful at a time, whisking constantly, until the meringue is stiff and glossy and no longer feels gritty between your fingers.", "es": "Añade el azúcar cucharada a cucharada sin dejar de batir, hasta obtener un merengue firme y brillante en el que el azúcar ya no se note entre los dedos.", "it": "Aggiungi lo zucchero un cucchiaio alla volta senza smettere di montare, finché la meringa è soda e lucida e lo zucchero non si sente più tra le dita."}},
+    {"text": {"fr": "Saupoudrez la fécule, versez le vinaigre et la vanille, puis incorporez-les délicatement à la spatule.", "en": "Sprinkle over the cornflour, add the vinegar and vanilla, then fold them in gently with a spatula.", "es": "Espolvorea la maicena, añade el vinagre y la vainilla e incorpóralos suavemente con una espátula.", "it": "Spolvera l'amido di mais, aggiungi l'aceto e la vaniglia, poi incorporali delicatamente con una spatola."}},
+    {"text": {"fr": "Étalez la meringue dans le cercle en relevant les bords et en creusant légèrement le centre pour accueillir la garniture.", "en": "Spread the meringue within the circle, building up the sides and leaving a shallow hollow in the centre for the topping.", "es": "Extiende el merengue dentro del círculo, levantando los bordes y hundiendo ligeramente el centro para alojar la guarnición.", "it": "Stendi la meringa all'interno del cerchio, alzando i bordi e creando un leggero incavo al centro per la guarnizione."}},
+    {"text": {"fr": "Enfournez, baissez aussitôt le four à 120 °C et faites cuire 1 h 15 : la croûte doit être sèche et à peine teintée.", "en": "Put it in the oven, immediately turn the heat down to 120 °C and bake for 1 hour 15 minutes: the shell should be dry and barely coloured.", "es": "Mete la bandeja en el horno, baja enseguida la temperatura a 120 °C y hornea 1 hora y 15 minutos: la costra debe quedar seca y apenas tostada.", "it": "Inforna, abbassa subito il forno a 120 °C e cuoci per 1 ora e 15 minuti: il guscio deve risultare asciutto e appena colorito."}, "timerMinutes": 75},
+    {"text": {"fr": "Éteignez le four et laissez la meringue refroidir complètement à l'intérieur, porte entrouverte.", "en": "Turn off the oven and leave the meringue to cool completely inside, with the door ajar.", "es": "Apaga el horno y deja que el merengue se enfríe por completo dentro, con la puerta entreabierta.", "it": "Spegni il forno e lascia raffreddare completamente la meringa all'interno, con lo sportello socchiuso."}, "timerMinutes": 120},
+    {"text": {"fr": "Fouettez la crème bien froide jusqu'à ce qu'elle forme des pics souples.", "en": "Whip the well-chilled cream to soft peaks.", "es": "Monta la nata bien fría hasta que forme picos suaves.", "it": "Monta la panna ben fredda finché forma picchi morbidi."}},
+    {"text": {"fr": "Au moment de servir, posez la meringue sur un plat, couvrez-la de crème, de rondelles de kiwi et, si vous le souhaitez, de fraises, puis arrosez de la pulpe des fruits de la passion.", "en": "Just before serving, set the meringue on a plate, pile on the cream, the sliced kiwi fruit and the strawberries if using, then spoon over the passion fruit pulp.", "es": "Justo antes de servir, coloca el merengue en una fuente, cúbrelo con la nata, el kiwi en rodajas y, si quieres, las fresas, y riega con la pulpa de los maracuyás.", "it": "Al momento di servire, sistema la meringa su un piatto da portata, coprila con la panna, le rondelle di kiwi e, se ti piacciono, le fragole, poi completa con la polpa dei frutti della passione."}}
+  ]
+}

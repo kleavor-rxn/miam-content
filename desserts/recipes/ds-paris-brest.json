@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-paris-brest",
+  "title": {"fr": "Paris-Brest", "en": "Paris-Brest", "es": "Paris-Brest", "it": "Paris-Brest"},
+  "summary": {
+    "fr": "Une couronne de pâte à choux parsemée d'amandes effilées, garnie d'une généreuse crème mousseline au praliné noisette.",
+    "en": "A ring of choux pastry scattered with flaked almonds and filled with a generous hazelnut praline mousseline cream.",
+    "es": "Una corona de masa choux cubierta de almendra laminada y rellena de una generosa crema muselina de praliné de avellana.",
+    "it": "Una corona di pasta choux cosparsa di mandorle a lamelle e farcita con una generosa crema mousseline al pralinato di nocciole."
+  },
+  "story": {
+    "fr": "Selon l'histoire la plus souvent racontée, le paris-brest a été créé en 1910 par Louis Durand, pâtissier à Maisons-Laffitte, à la demande du journaliste Pierre Giffard, fondateur de la course cycliste Paris-Brest-Paris lancée en 1891. Sa couronne de pâte à choux évoque une roue de bicyclette. Garni de crème au praliné et parsemé d'amandes, il est devenu un grand classique des pâtisseries françaises, en grande couronne à partager ou en version individuelle.",
+    "en": "According to the story most often told, the Paris-Brest was created in 1910 by Louis Durand, a pastry chef in Maisons-Laffitte, at the request of the journalist Pierre Giffard, founder of the Paris–Brest–Paris cycle race first run in 1891. Its ring of choux pastry is meant to recall a bicycle wheel. Filled with praline cream and scattered with almonds, it has become a great classic of French pâtisseries, as a large ring to share or in individual versions.",
+    "es": "Según la historia más repetida, lo creó en 1910 Louis Durand, pastelero de Maisons-Laffitte, a petición del periodista Pierre Giffard, fundador de la carrera ciclista París-Brest-París, disputada por primera vez en 1891. Su corona de masa choux evoca la rueda de una bicicleta. Relleno de crema de praliné y cubierto de almendras, se ha convertido en un gran clásico de las pastelerías francesas, en corona grande para compartir o en versión individual.",
+    "it": "Secondo la storia più raccontata, fu creato nel 1910 da Louis Durand, pasticciere a Maisons-Laffitte, su richiesta del giornalista Pierre Giffard, fondatore della corsa ciclistica Parigi-Brest-Parigi, disputata per la prima volta nel 1891. La sua corona di pasta choux richiama la ruota di una bicicletta. Farcito di crema al pralinato e cosparso di mandorle, è diventato un grande classico delle pasticcerie francesi, in corona grande da dividere o in versione monoporzione."
+  },
+  "region": {"fr": "Île-de-France", "en": "Île-de-France", "es": "Isla de Francia", "it": "Île-de-France"},
+  "origin": {"countries": ["FR"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 3,
+  "prepMinutes": 60,
+  "cookMinutes": 50,
+  "servings": 8,
+  "heroImage": "images/ds-paris-brest/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "eau", "quantity": 125, "unit": "ml"},
+    {"ref": "lait", "quantity": 425, "unit": "ml"},
+    {"ref": "beurre", "quantity": 260, "unit": "g"},
+    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "sucre", "quantity": 75, "unit": "g"},
+    {"ref": "farine", "quantity": 140, "unit": "g"},
+    {"ref": "oeuf", "quantity": 8, "unit": "piece"},
+    {"ref": "amande", "quantity": 30, "unit": "g"},
+    {"ref": "fecule-de-mais", "quantity": 30, "unit": "g"},
+    {"ref": "praline-noisette", "quantity": 150, "unit": "g", "substitutes": ["noisette"]},
+    {"ref": "sucre-glace", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole, portez à ébullition l'eau, 125 ml de lait, 110 g de beurre en morceaux, une pincée de sel et 5 g de sucre.", "en": "In a saucepan, bring the water, 125 ml of the milk, 110 g of the butter in pieces, a pinch of salt and 5 g of sugar to the boil.", "es": "En un cazo, lleva a ebullición el agua, 125 ml de leche, 110 g de mantequilla en trozos, una pizca de sal y 5 g de azúcar.", "it": "In una casseruola porta a bollore l'acqua, 125 ml di latte, 110 g di burro a pezzetti, un pizzico di sale e 5 g di zucchero."}},
+    {"text": {"fr": "Hors du feu, versez la farine d'un coup et mélangez vivement, puis remettez sur feu moyen 2 minutes en remuant pour dessécher la panade, jusqu'à ce qu'elle se détache des parois.", "en": "Off the heat, tip in the flour all at once and beat hard, then return to a medium heat for 2 minutes, stirring to dry out the paste until it comes away from the sides.", "es": "Fuera del fuego, añade la harina de golpe y mezcla enérgicamente; vuelve a poner a fuego medio 2 minutos, removiendo para secar la masa hasta que se despegue de las paredes.", "it": "Fuori dal fuoco versa la farina in un colpo solo e mescola energicamente, poi rimetti su fuoco medio per 2 minuti mescolando per asciugare il composto, finché si stacca dalle pareti."}, "timerMinutes": 2},
+    {"text": {"fr": "Transférez la panade dans un saladier et incorporez 4 œufs battus petit à petit : la pâte doit être lisse, brillante, et retomber de la spatule en formant un V.", "en": "Transfer the paste to a bowl and beat in 4 beaten eggs a little at a time: the dough should be smooth and glossy, and fall from the spatula in a V shape.", "es": "Pasa la masa a un bol e incorpora 4 huevos batidos poco a poco: debe quedar lisa y brillante, y caer de la espátula formando una V.", "it": "Trasferisci il composto in una ciotola e incorpora 4 uova sbattute poco alla volta: la pasta deve essere liscia e lucida, e ricadere dalla spatola formando una V."}},
+    {"text": {"fr": "Préchauffez le four à 180 °C. Sur une plaque recouverte de papier cuisson, pochez à la douille de 16 mm deux cercles accolés de 22 cm de diamètre, puis un troisième par-dessus, à cheval sur les deux.", "en": "Preheat the oven to 180 °C. On a lined baking tray, use a 16 mm nozzle to pipe two touching rings 22 cm across, then a third on top, straddling the join.", "es": "Precalienta el horno a 180 °C. Sobre una bandeja forrada con papel de horno, forma con una boquilla de 16 mm dos aros pegados de 22 cm de diámetro y un tercero encima, entre los dos.", "it": "Preriscalda il forno a 180 °C. Su una teglia rivestita di carta forno, con una bocchetta da 16 mm forma due cerchi accostati di 22 cm di diametro, poi un terzo sopra, a cavallo dei primi due."}},
+    {"text": {"fr": "Badigeonnez la couronne d'un œuf battu et parsemez-la généreusement d'amandes effilées.", "en": "Brush the ring with a beaten egg and scatter it generously with the flaked almonds.", "es": "Pinta la corona con un huevo batido y cúbrela generosamente con la almendra laminada.", "it": "Spennella la corona con un uovo sbattuto e cospargila generosamente di mandorle a lamelle."}},
+    {"text": {"fr": "Enfournez 40 minutes sans jamais ouvrir la porte, jusqu'à ce que la couronne soit bien dorée et sèche, puis laissez-la refroidir sur une grille.", "en": "Bake for 40 minutes without opening the door, until the ring is deep golden and dry, then leave it to cool on a rack.", "es": "Hornea 40 minutos sin abrir la puerta, hasta que la corona esté bien dorada y seca, y déjala enfriar sobre una rejilla.", "it": "Inforna per 40 minuti senza mai aprire lo sportello, finché la corona è ben dorata e asciutta, poi lasciala raffreddare su una gratella."}, "timerMinutes": 40},
+    {"text": {"fr": "Pour la crème, fouettez 3 jaunes avec 70 g de sucre et la fécule, versez dessus 300 ml de lait bouillant, puis remettez sur le feu et laissez épaissir 2 minutes après l'ébullition sans cesser de fouetter.", "en": "For the cream, whisk 3 egg yolks with 70 g of sugar and the cornflour, pour over 300 ml of boiling milk, then return to the heat and cook for 2 minutes once it bubbles, whisking constantly.", "es": "Para la crema, bate 3 yemas con 70 g de azúcar y la maicena, vierte encima 300 ml de leche hirviendo, vuelve a poner al fuego y deja espesar 2 minutos desde que hierva, sin dejar de batir.", "it": "Per la crema, sbatti 3 tuorli con 70 g di zucchero e l'amido, versaci sopra 300 ml di latte bollente, poi rimetti sul fuoco e lascia addensare 2 minuti dal bollore senza smettere di mescolare con la frusta."}, "timerMinutes": 5},
+    {"text": {"fr": "Hors du feu, incorporez 75 g de beurre, filmez au contact et laissez refroidir complètement au réfrigérateur.", "en": "Off the heat, whisk in 75 g of butter, press cling film onto the surface and chill until completely cold.", "es": "Fuera del fuego, incorpora 75 g de mantequilla, cubre con film a ras de la crema y deja que se enfríe por completo en la nevera.", "it": "Fuori dal fuoco incorpora 75 g di burro, copri con pellicola a contatto e lascia raffreddare completamente in frigorifero."}, "timerMinutes": 60},
+    {"text": {"fr": "Fouettez les 75 g de beurre restants, bien pommade, avec le praliné, puis ajoutez la crème froide cuillerée par cuillerée en fouettant jusqu'à obtenir une mousseline lisse et aérienne.", "en": "Beat the remaining 75 g of very soft butter with the praline paste, then add the cold cream a spoonful at a time, whisking until you have a smooth, airy mousseline.", "es": "Bate los 75 g de mantequilla restantes, en pomada, con el praliné, y añade la crema fría cucharada a cucharada, batiendo hasta obtener una muselina lisa y aireada.", "it": "Monta i 75 g di burro rimasti, ben morbido, con il pralinato, poi aggiungi la crema fredda una cucchiaiata alla volta, montando finché ottieni una mousseline liscia e spumosa."}},
+    {"text": {"fr": "Coupez la couronne en deux dans l'épaisseur, garnissez la base de mousseline à la douille cannelée, replacez le chapeau et saupoudrez de sucre glace. Gardez 30 minutes au frais avant de servir.", "en": "Slice the ring in half horizontally, pipe the mousseline onto the base with a star nozzle, replace the top and dust with icing sugar. Chill for 30 minutes before serving.", "es": "Corta la corona por la mitad en horizontal, rellena la base con la muselina usando una boquilla rizada, coloca la tapa y espolvorea con azúcar glas. Guárdalo 30 minutos en la nevera antes de servir.", "it": "Taglia la corona a metà in orizzontale, farcisci la base con la mousseline usando una bocchetta a stella, rimetti sopra il cappello e spolverizza di zucchero a velo. Tieni in frigorifero 30 minuti prima di servire."}, "timerMinutes": 30}
+  ]
+}

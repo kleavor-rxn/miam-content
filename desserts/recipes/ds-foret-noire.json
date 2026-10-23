@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-foret-noire",
+  "title": {"fr": "Forêt-noire", "en": "Black Forest gateau", "es": "Tarta Selva Negra", "it": "Torta Foresta Nera"},
+  "summary": {
+    "fr": "Le grand gâteau allemand : biscuit au cacao imbibé de kirsch, griottes et chantilly, sous des copeaux de chocolat noir.",
+    "en": "Germany's grand gateau: kirsch-soaked cocoa sponge, morello cherries and whipped cream under curls of dark chocolate.",
+    "es": "La gran tarta alemana: bizcocho de cacao empapado en kirsch, guindas y nata montada, bajo virutas de chocolate negro.",
+    "it": "La grande torta tedesca: pan di Spagna al cacao bagnato al kirsch, amarene e panna montata, sotto riccioli di cioccolato fondente."
+  },
+  "story": {
+    "fr": "Son nom allemand, Schwarzwälder Kirschtorte, la rattache à la Forêt-Noire, région du sud-ouest de l'Allemagne réputée pour son kirsch, l'eau-de-vie de cerise qui la parfume. Le pâtissier Josef Keller affirmait l'avoir créée en 1915 au café Agner de Bad Godesberg, près de Bonn, mais la recette n'apparaît par écrit que dans les années 1930. En Allemagne, les lignes directrices officielles de la pâtisserie exigent que le goût du kirsch y soit nettement perceptible.",
+    "en": "Its German name, Schwarzwälder Kirschtorte, ties it to the Black Forest, a region of south-western Germany renowned for its kirsch, the cherry brandy that flavours it. The confectioner Josef Keller claimed to have created it in 1915 at the Café Agner in Bad Godesberg, near Bonn, but the recipe does not appear in print until the 1930s. In Germany, the official guidelines for baked goods require the taste of kirsch to be clearly noticeable.",
+    "es": "Su nombre alemán, Schwarzwälder Kirschtorte, la vincula a la Selva Negra, región del suroeste de Alemania famosa por su kirsch, el aguardiente de cereza que la perfuma. El pastelero Josef Keller afirmaba haberla creado en 1915 en el café Agner de Bad Godesberg, cerca de Bonn, pero la receta no aparece por escrito hasta los años treinta. En Alemania, las directrices oficiales de pastelería exigen que el sabor del kirsch se perciba con claridad.",
+    "it": "Il suo nome tedesco, Schwarzwälder Kirschtorte, la lega alla Foresta Nera, regione della Germania sud-occidentale rinomata per il suo kirsch, l'acquavite di ciliegie che la profuma. Il pasticciere Josef Keller sosteneva di averla creata nel 1915 al caffè Agner di Bad Godesberg, vicino a Bonn, ma la ricetta compare per iscritto solo negli anni Trenta. In Germania, le linee guida ufficiali per i prodotti da forno richiedono che il gusto del kirsch sia chiaramente percepibile."
+  },
+  "region": {"fr": "Allemagne", "en": "Germany", "es": "Alemania", "it": "Germania"},
+  "origin": {"countries": ["DE"]},
+  "category": "dessert",
+  "dessertType": "gateau",
+  "occasions": [],
+  "difficulty": 3,
+  "prepMinutes": 60,
+  "cookMinutes": 40,
+  "servings": 12,
+  "heroImage": "images/ds-foret-noire/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "sucre", "quantity": 240, "unit": "g"},
+    {"ref": "farine", "quantity": 100, "unit": "g"},
+    {"ref": "fecule-de-mais", "quantity": 75, "unit": "g"},
+    {"ref": "cacao", "quantity": 30, "unit": "g"},
+    {"ref": "beurre", "quantity": 50, "unit": "g"},
+    {"ref": "griotte", "quantity": 500, "unit": "g", "substitutes": ["cerise"]},
+    {"ref": "eau", "quantity": 3, "unit": "tbsp"},
+    {"ref": "kirsch", "quantity": 8, "unit": "cl"},
+    {"ref": "creme-liquide", "quantity": 80, "unit": "cl"},
+    {"ref": "sucre-glace", "quantity": 60, "unit": "g"},
+    {"ref": "vanille", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "chocolat-noir", "quantity": 100, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Préchauffez le four à 180 °C et chemisez de papier cuisson le fond d'un moule à charnière de 26 cm.", "en": "Preheat the oven to 180 °C and line the base of a 26 cm springform tin with baking paper.", "es": "Precalienta el horno a 180 °C y forra con papel de horno la base de un molde desmontable de 26 cm.", "it": "Preriscalda il forno a 180 °C e fodera con carta forno il fondo di una tortiera apribile da 26 cm."}},
+    {"text": {"fr": "Fouettez les œufs avec 180 g de sucre pendant 10 minutes, jusqu'à ce que l'appareil ait triplé de volume et forme un ruban.", "en": "Whisk the eggs with 180 g of sugar for 10 minutes, until the mixture has tripled in volume and falls in a thick ribbon.", "es": "Bate los huevos con 180 g de azúcar durante 10 minutos, hasta que la mezcla triplique su volumen y caiga formando una cinta.", "it": "Monta le uova con 180 g di zucchero per 10 minuti, finché il composto triplica di volume e scende a nastro."}, "timerMinutes": 10},
+    {"text": {"fr": "Tamisez la farine, 50 g de fécule et le cacao au-dessus des œufs, incorporez-les délicatement à la spatule, puis ajoutez le beurre fondu et tiédi en filet.", "en": "Sift the flour, 50 g of the cornflour and the cocoa over the eggs, fold them in gently with a spatula, then trickle in the melted, cooled butter.", "es": "Tamiza la harina, 50 g de maicena y el cacao sobre los huevos, incorpóralos suavemente con una espátula y añade en hilo la mantequilla derretida y templada.", "it": "Setaccia la farina, 50 g di amido di mais e il cacao sulle uova, incorporali delicatamente con una spatola, poi aggiungi a filo il burro fuso e intiepidito."}},
+    {"text": {"fr": "Versez dans le moule et faites cuire 35 minutes, jusqu'à ce que la pointe d'un couteau ressorte sèche.", "en": "Pour into the tin and bake for 35 minutes, until a skewer comes out clean.", "es": "Vierte en el molde y hornea 35 minutos, hasta que un palillo salga limpio.", "it": "Versa nella tortiera e cuoci per 35 minuti, finché uno stecchino ne esce asciutto."}, "timerMinutes": 35},
+    {"text": {"fr": "Démoulez le biscuit et laissez-le refroidir complètement sur une grille, puis coupez-le en trois disques égaux.", "en": "Turn out the sponge and leave it to cool completely on a rack, then slice it horizontally into three equal layers.", "es": "Desmolda el bizcocho y deja que se enfríe por completo sobre una rejilla; después córtalo en tres discos iguales.", "it": "Sforma il pan di Spagna e lascialo raffreddare completamente su una gratella, poi taglialo in tre dischi uguali."}, "timerMinutes": 60},
+    {"text": {"fr": "Réservez 12 belles griottes pour le décor, faites chauffer les autres avec 60 g de sucre jusqu'à ce qu'elles rendent leur jus, puis liez avec les 25 g de fécule restants délayés dans l'eau froide et laissez refroidir.", "en": "Set aside 12 of the best cherries for decoration, heat the rest with 60 g of sugar until they release their juice, then thicken with the remaining 25 g of cornflour mixed into the cold water and leave to cool.", "es": "Reserva 12 guindas bonitas para decorar, calienta las demás con 60 g de azúcar hasta que suelten su jugo, espésalas con los 25 g de maicena restantes disueltos en el agua fría y deja que se enfríen.", "it": "Tieni da parte 12 belle amarene per la decorazione, scalda le altre con 60 g di zucchero finché rilasciano il succo, poi addensa con i 25 g di amido rimasti stemperati nell'acqua fredda e lascia raffreddare."}, "timerMinutes": 5},
+    {"text": {"fr": "Fouettez la crème bien froide avec le sucre glace, la vanille et 2 cl de kirsch jusqu'à obtenir une chantilly ferme.", "en": "Whip the well-chilled cream with the icing sugar, the vanilla and 2 cl of kirsch to firm peaks.", "es": "Monta la nata muy fría con el azúcar glas, la vainilla y 2 cl de kirsch hasta que esté firme.", "it": "Monta la panna ben fredda con lo zucchero a velo, la vaniglia e 2 cl di kirsch fino a ottenere una chantilly soda."}},
+    {"text": {"fr": "Montez le gâteau : chaque disque arrosé de 2 cl de kirsch, le premier couvert des griottes et d'une couche de chantilly, le deuxième d'une autre couche de chantilly, le troisième posé par-dessus.", "en": "Build the gateau, drizzling each layer with 2 cl of kirsch: the first covered with the cherries and a layer of cream, the second with another layer of cream, and the third set on top.", "es": "Monta la tarta regando cada disco con 2 cl de kirsch: el primero cubierto con las guindas y una capa de nata, el segundo con otra capa de nata y el tercero encima.", "it": "Componi la torta bagnando ogni disco con 2 cl di kirsch: il primo coperto con le amarene e uno strato di panna, il secondo con un altro strato di panna, il terzo appoggiato sopra."}},
+    {"text": {"fr": "Masquez le dessus et le tour de chantilly, dressez 12 rosaces à la poche, coiffez chacune d'une griotte et couvrez le tour de copeaux de chocolat prélevés à l'économe.", "en": "Cover the top and sides with cream, pipe 12 rosettes, crown each with a cherry and press chocolate curls, shaved with a vegetable peeler, around the sides.", "es": "Cubre la parte superior y los lados con nata, forma 12 rosetas con la manga, corona cada una con una guinda y cubre los lados con virutas de chocolate sacadas con un pelador.", "it": "Ricopri la superficie e i lati con la panna, forma 12 ciuffi con la sac à poche, completa ciascuno con un'amarena e rivesti i lati con riccioli di cioccolato ricavati con il pelapatate."}},
+    {"text": {"fr": "Laissez reposer au moins 2 heures au réfrigérateur avant de servir.", "en": "Chill for at least 2 hours before serving.", "es": "Deja reposar en la nevera al menos 2 horas antes de servir.", "it": "Lascia riposare in frigorifero per almeno 2 ore prima di servire."}, "timerMinutes": 120}
+  ]
+}

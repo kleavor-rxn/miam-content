@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-mochi",
+  "title": {"fr": "Mochi", "en": "Mochi", "es": "Mochi", "it": "Mochi"},
+  "summary": {
+    "fr": "Le daifuku, l'un des mochi les plus populaires du Japon : une pâte de riz gluant moelleuse et élastique qui enveloppe une boule de pâte de haricots rouges sucrée.",
+    "en": "Daifuku, one of Japan's best-loved mochi: soft, stretchy glutinous rice dough wrapped around a ball of sweet red bean paste.",
+    "es": "El daifuku, uno de los mochi más populares de Japón: una masa de arroz glutinoso tierna y elástica que envuelve una bola de pasta dulce de judías azuki.",
+    "it": "Il daifuku, uno dei mochi più amati in Giappone: un impasto di riso glutinoso morbido ed elastico che avvolge una pallina di pasta dolce di fagioli azuki."
+  },
+  "story": {
+    "fr": "Le mochi est une pâte de riz gluant cuit à la vapeur que l'on pile traditionnellement au maillet dans un grand mortier de bois : c'est le mochitsuki, que l'on pratique en famille ou entre voisins à l'approche du Nouvel An. Pendant les fêtes du Nouvel An, on dispose dans les maisons le kagami mochi, deux galettes de mochi superposées, et l'on mange du mochi dans une soupe, le zōni. Le daifuku, dont le nom signifie « grande chance », renferme une pâte de haricots azuki sucrée ; sa variante à la fraise entière, l'ichigo daifuku, est plus récente. À la maison, on le prépare le plus souvent avec de la farine de riz gluant, plus simple que le riz pilé.",
+    "en": "Mochi is steamed glutinous rice traditionally pounded with a mallet in a large wooden mortar: this is mochitsuki, done with family or neighbours in the run-up to New Year. Over the New Year holidays, homes display kagami mochi, two stacked rounds of mochi, and mochi is eaten in a soup called zōni. Daifuku, whose name means 'great luck', holds a filling of sweet adzuki bean paste; the version with a whole strawberry inside, ichigo daifuku, is more recent. At home it is usually made with glutinous rice flour, which is far simpler than pounding rice.",
+    "es": "El mochi es arroz glutinoso cocido al vapor que, tradicionalmente, se machaca con un mazo en un gran mortero de madera: es el mochitsuki, que se hace en familia o entre vecinos cuando se acerca el Año Nuevo. Durante las fiestas de Año Nuevo, en las casas se coloca el kagami mochi, dos discos de mochi superpuestos, y se come mochi en una sopa llamada zōni. El daifuku, cuyo nombre significa «gran fortuna», lleva dentro pasta dulce de judías azuki; su variante con una fresa entera, el ichigo daifuku, es más reciente. En casa se prepara casi siempre con harina de arroz glutinoso, algo mucho más sencillo que machacar el arroz.",
+    "it": "Il mochi è riso glutinoso cotto al vapore che tradizionalmente si pesta con un maglio in un grande mortaio di legno: è il mochitsuki, che si fa in famiglia o tra vicini all'avvicinarsi del Capodanno. Durante le feste di Capodanno si espone in casa il kagami mochi, due dischi di mochi sovrapposti, e si mangia il mochi in una zuppa chiamata zōni. Il daifuku, il cui nome significa «grande fortuna», racchiude una pasta dolce di fagioli azuki; la variante con una fragola intera, l'ichigo daifuku, è più recente. A casa lo si prepara quasi sempre con la farina di riso glutinoso: è molto più semplice che pestare il riso."
+  },
+  "region": {"fr": "Japon", "en": "Japan", "es": "Japón", "it": "Giappone"},
+  "origin": {"countries": ["JP"]},
+  "category": "dessert",
+  "dessertType": "confiserie",
+  "occasions": ["nouvel-an"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "servings": 8,
+  "heroImage": "images/ds-mochi/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "farine-de-riz-gluant", "quantity": 200, "unit": "g"},
+    {"ref": "sucre", "quantity": 50, "unit": "g"},
+    {"ref": "eau", "quantity": 20, "unit": "cl"},
+    {"ref": "pate-de-haricots-rouges", "quantity": 320, "unit": "g", "substitutes": ["haricot-azuki"]},
+    {"ref": "fecule-de-pomme-de-terre", "quantity": 40, "unit": "g", "substitutes": ["fecule-de-mais"]},
+    {"ref": "fraise", "quantity": 8, "unit": "piece", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Partagez la pâte de haricots rouges en 8 boules de 40 g ; pour des ichigo daifuku, enrobez plutôt chaque fraise équeutée de pâte en laissant dépasser la pointe.", "en": "Divide the red bean paste into 8 balls of 40 g; for ichigo daifuku, wrap each hulled strawberry in the paste instead, leaving the tip showing.", "es": "Divide la pasta de judías en 8 bolas de 40 g; para ichigo daifuku, envuelve en cambio cada fresa, sin el rabito, en la pasta, dejando asomar la punta.", "it": "Dividi la pasta di fagioli in 8 palline da 40 g; per gli ichigo daifuku, avvolgi invece ogni fragola senza picciolo nella pasta, lasciando scoperta la punta."}},
+    {"text": {"fr": "Dans un bol résistant à la chaleur, mélangez la farine de riz gluant et le sucre, puis versez l'eau peu à peu en fouettant jusqu'à obtenir une pâte lisse et fluide.", "en": "In a heatproof bowl, mix the glutinous rice flour with the sugar, then whisk in the water a little at a time until you have a smooth, runny batter.", "es": "En un bol resistente al calor, mezcla la harina de arroz glutinoso con el azúcar y añade el agua poco a poco, batiendo, hasta obtener una masa lisa y fluida.", "it": "In una ciotola resistente al calore, mescola la farina di riso glutinoso con lo zucchero, poi versa l'acqua poco alla volta sbattendo fino a ottenere una pastella liscia e fluida."}},
+    {"text": {"fr": "Faites cuire le bol 20 minutes à la vapeur, à feu vif, en remuant la pâte avec une spatule mouillée à mi-cuisson.", "en": "Steam the bowl over a high heat for 20 minutes, stirring the dough with a wet spatula halfway through.", "es": "Cuece el bol al vapor a fuego fuerte durante 20 minutos, removiendo la masa con una espátula mojada a mitad de cocción.", "it": "Cuoci la ciotola al vapore a fuoco vivo per 20 minuti, mescolando l'impasto con una spatola bagnata a metà cottura."}, "timerMinutes": 20},
+    {"text": {"fr": "Travaillez vigoureusement la pâte encore chaude à la spatule mouillée pendant 1 à 2 minutes : elle doit devenir translucide, lisse et très élastique.", "en": "Beat the hot dough vigorously with the wet spatula for 1 to 2 minutes, until it is translucent, smooth and very stretchy.", "es": "Trabaja la masa aún caliente con energía con la espátula mojada durante 1 o 2 minutos: debe quedar translúcida, lisa y muy elástica.", "it": "Lavora energicamente l'impasto ancora caldo con la spatola bagnata per 1-2 minuti: deve diventare traslucido, liscio e molto elastico."}, "timerMinutes": 2},
+    {"text": {"fr": "Saupoudrez généreusement le plan de travail de fécule, déposez-y le mochi et poudrez-en aussi le dessus.", "en": "Dust the work surface generously with potato starch, turn the mochi out onto it and dust the top as well.", "es": "Espolvorea generosamente la encimera con fécula, vuelca encima el mochi y espolvorea también la parte de arriba.", "it": "Spolvera abbondantemente il piano di lavoro con la fecola, rovesciaci sopra il mochi e spolvera anche la superficie."}},
+    {"text": {"fr": "Tant qu'il est chaud, partagez le mochi en 8 morceaux égaux avec un couteau ou des ciseaux passés dans la fécule.", "en": "While it is still warm, divide the mochi into 8 equal pieces with a knife or scissors dipped in starch.", "es": "Mientras aún está caliente, divide el mochi en 8 trozos iguales con un cuchillo o unas tijeras pasados por fécula.", "it": "Finché è caldo, dividi il mochi in 8 pezzi uguali con un coltello o delle forbici passati nella fecola."}},
+    {"text": {"fr": "Aplatissez chaque morceau en un disque de 8 cm, plus fin sur les bords, et posez une boule de pâte de haricots au centre.", "en": "Flatten each piece into an 8 cm disc, thinner at the edges, and set a ball of bean paste in the centre.", "es": "Aplana cada trozo en un disco de 8 cm, más fino en los bordes, y pon una bola de pasta de judías en el centro.", "it": "Appiattisci ogni pezzo in un disco di 8 cm, più sottile sui bordi, e metti al centro una pallina di pasta di fagioli."}},
+    {"text": {"fr": "Ramenez les bords du disque vers le haut et pincez-les pour enfermer la farce, puis posez le daifuku sur sa soudure et ôtez l'excès de fécule au pinceau.", "en": "Draw the edges of the disc up and pinch them together to seal in the filling, then sit the daifuku seam side down and brush off any excess starch.", "es": "Sube los bordes del disco y pellízcalos para cerrar el relleno; coloca el daifuku con el cierre hacia abajo y retira el exceso de fécula con un pincel.", "it": "Solleva i bordi del disco e pizzicali per chiudere il ripieno, poi appoggia il daifuku sulla chiusura ed elimina la fecola in eccesso con un pennello."}},
+    {"text": {"fr": "Dégustez les mochi le jour même, à température ambiante : au réfrigérateur, ils durcissent.", "en": "Eat the mochi the same day, at room temperature: they harden in the fridge.", "es": "Come los mochi el mismo día, a temperatura ambiente: en la nevera se endurecen.", "it": "Gusta i mochi in giornata, a temperatura ambiente: in frigorifero induriscono."}}
+  ]
+}

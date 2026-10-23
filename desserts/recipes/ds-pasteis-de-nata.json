@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-pasteis-de-nata",
+  "title": {"fr": "Pastéis de nata", "en": "Pastéis de nata", "es": "Pastéis de nata", "it": "Pastéis de nata"},
+  "summary": {
+    "fr": "Les petites tartelettes lisboètes : une pâte feuilletée croustillante et une crème aux jaunes d'œufs parfumée au citron et à la cannelle, caramélisée par un four brûlant.",
+    "en": "Lisbon's little custard tarts: crisp, flaky pastry and an egg-yolk custard scented with lemon and cinnamon, blistered in a blazing-hot oven.",
+    "es": "Las pequeñas tartaletas lisboetas: hojaldre crujiente y una crema de yemas perfumada con limón y canela, tostada en un horno muy caliente.",
+    "it": "Le tortine di Lisbona: sfoglia croccante e una crema ai tuorli profumata al limone e alla cannella, caramellata in un forno rovente."
+  },
+  "story": {
+    "fr": "Les pastéis de nata sont nés au monastère des Hiéronymites, à Belém, aux portes de Lisbonne. Après la dissolution des ordres religieux au Portugal, en 1834, la recette a été vendue, et la Fábrica de Pastéis de Belém, qui les cuit depuis 1837 à deux pas du monastère, la garde toujours secrète sous le nom de pastéis de Belém. Partout ailleurs, on les appelle pastéis de nata et on les mange tièdes, saupoudrés de cannelle et parfois de sucre glace, souvent avec un café.",
+    "en": "Pastéis de nata were born at the Jerónimos Monastery in Belém, on the edge of Lisbon. After religious orders were dissolved in Portugal in 1834, the recipe was sold, and the Fábrica de Pastéis de Belém, which has been baking them a stone's throw from the monastery since 1837, still keeps it secret under the name pastéis de Belém. Everywhere else they are called pastéis de nata and are eaten warm, dusted with cinnamon and sometimes icing sugar, often with a coffee.",
+    "es": "Los pastéis de nata nacieron en el monasterio de los Jerónimos, en Belém, a las puertas de Lisboa. Tras la supresión de las órdenes religiosas en Portugal, en 1834, la receta se vendió, y la Fábrica de Pastéis de Belém, que los hornea desde 1837 a dos pasos del monasterio, la sigue guardando en secreto con el nombre de pastéis de Belém. En cualquier otro lugar se llaman pastéis de nata y se comen templados, espolvoreados con canela y a veces con azúcar glas, a menudo con un café.",
+    "it": "I pastéis de nata sono nati nel monastero dei Geronimiti, a Belém, alle porte di Lisbona. Dopo la soppressione degli ordini religiosi in Portogallo, nel 1834, la ricetta fu venduta, e la Fábrica de Pastéis de Belém, che li sforna dal 1837 a due passi dal monastero, la custodisce ancora in segreto con il nome di pastéis de Belém. Altrove si chiamano pastéis de nata e si mangiano tiepidi, spolverati di cannella e talvolta di zucchero a velo, spesso con un caffè."
+  },
+  "region": {"fr": "Lisbonne", "en": "Lisbon", "es": "Lisboa", "it": "Lisbona"},
+  "origin": {"countries": ["PT"]},
+  "category": "dessert",
+  "dessertType": "tarte",
+  "occasions": [],
+  "difficulty": 2,
+  "prepMinutes": 40,
+  "cookMinutes": 20,
+  "servings": 6,
+  "heroImage": "images/ds-pasteis-de-nata/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "pate-feuilletee", "quantity": 250, "unit": "g"},
+    {"ref": "lait", "quantity": 25, "unit": "cl"},
+    {"ref": "farine", "quantity": 25, "unit": "g"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "eau", "quantity": 10, "unit": "cl"},
+    {"ref": "cannelle", "quantity": 1, "unit": "piece"},
+    {"ref": "citron", "quantity": 1, "unit": "piece"},
+    {"ref": "oeuf", "quantity": 6, "unit": "piece"},
+    {"ref": "cannelle", "quantity": 1, "unit": "tsp", "optional": true},
+    {"ref": "sucre-glace", "quantity": 1, "unit": "tbsp", "optional": true}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole, portez à ébullition le sucre et l'eau avec le bâton de cannelle et un long ruban de zeste de citron prélevé à l'économe, puis laissez bouillir 3 minutes sans remuer.", "en": "In a saucepan, bring the sugar and water to the boil with the cinnamon stick and a long strip of lemon zest pared with a peeler, then boil for 3 minutes without stirring.", "es": "En un cazo, lleva a ebullición el azúcar y el agua con la rama de canela y una tira larga de piel de limón sacada con el pelador, y deja hervir 3 minutos sin remover.", "it": "In un pentolino porta a bollore lo zucchero e l'acqua con la stecca di cannella e una lunga striscia di scorza di limone ricavata con il pelapatate, poi lascia bollire 3 minuti senza mescolare."}, "timerMinutes": 3},
+    {"text": {"fr": "Dans un bol, délayez la farine avec 5 cl de lait froid jusqu'à ce qu'il ne reste aucun grumeau.", "en": "In a bowl, whisk the flour with 5 cl of the cold milk until there are no lumps left.", "es": "En un bol, disuelve la harina en 5 cl de leche fría hasta que no quede ningún grumo.", "it": "In una ciotola stempera la farina con 5 cl di latte freddo finché non resta nessun grumo."}},
+    {"text": {"fr": "Portez le reste du lait à frémissement avec le sel, versez la farine délayée et faites épaissir 2 minutes sans cesser de fouetter.", "en": "Bring the rest of the milk to a simmer with the salt, pour in the flour mixture and cook for 2 minutes, whisking constantly, until thickened.", "es": "Calienta el resto de la leche con la sal hasta que empiece a hervir, vierte la harina disuelta y deja espesar 2 minutos sin dejar de batir.", "it": "Porta il resto del latte a sobbollire con il sale, versa la farina stemperata e fai addensare per 2 minuti senza smettere di mescolare con la frusta."}, "timerMinutes": 2},
+    {"text": {"fr": "Retirez la cannelle et le zeste du sirop, puis versez celui-ci en mince filet sur le lait épaissi en fouettant ; laissez tiédir pendant que le four préchauffe à sa température maximale (250 à 280 °C).", "en": "Lift the cinnamon and zest out of the syrup, then pour it in a thin stream into the thickened milk, whisking; leave to cool to lukewarm while the oven preheats to its highest setting (250 to 280 °C).", "es": "Retira la canela y la piel del almíbar y viértelo en un hilo fino sobre la leche espesada, batiendo; deja que se temple mientras el horno se precalienta a su temperatura máxima (250 a 280 °C).", "it": "Togli la cannella e la scorza dallo sciroppo, poi versalo a filo sul latte addensato mescolando con la frusta; lascia intiepidire mentre il forno si preriscalda alla temperatura massima (250-280 °C)."}, "timerMinutes": 15},
+    {"text": {"fr": "Incorporez au fouet les 6 jaunes d'œufs à la crème tiède, puis passez-la au chinois.", "en": "Whisk the 6 egg yolks into the lukewarm custard, then pass it through a fine sieve.", "es": "Incorpora con las varillas las 6 yemas a la crema templada y pásala por un colador fino.", "it": "Incorpora con la frusta i 6 tuorli alla crema tiepida, poi passala al colino."}},
+    {"text": {"fr": "Roulez la pâte feuilletée en un boudin bien serré en partant du côté court, puis taillez-le en 12 tronçons d'environ 2 cm.", "en": "Roll the puff pastry up tightly from the short side into a log, then cut it into 12 rounds about 2 cm thick.", "es": "Enrolla el hojaldre bien apretado desde el lado corto y corta el rollo en 12 rodajas de unos 2 cm.", "it": "Arrotola la pasta sfoglia ben stretta partendo dal lato corto, poi taglia il rotolo in 12 rondelle di circa 2 cm."}},
+    {"text": {"fr": "Posez chaque tronçon à plat, spirale vers le haut, dans un moule à muffins antiadhésif de 12 empreintes, puis étalez la pâte du pouce mouillé, du centre vers les bords, jusqu'à ce qu'elle dépasse légèrement du moule.", "en": "Lay each round flat, spiral facing up, in a 12-hole non-stick muffin tin, then press the pastry out with a wet thumb from the centre up the sides until it rises just above the rim.", "es": "Coloca cada rodaja plana, con la espiral hacia arriba, en un molde antiadherente para 12 magdalenas y extiende la masa con el pulgar mojado, del centro hacia los bordes, hasta que sobresalga un poco del molde.", "it": "Adagia ogni rondella piatta, con la spirale verso l'alto, in uno stampo antiaderente da 12 muffin, poi allarga la pasta con il pollice bagnato, dal centro verso i bordi, finché supera di poco il bordo dello stampo."}},
+    {"text": {"fr": "Remplissez chaque fond de crème aux trois quarts.", "en": "Fill each pastry case three-quarters full with custard.", "es": "Rellena cada base de crema hasta tres cuartos de su altura.", "it": "Riempi ogni guscio di crema per tre quarti."}},
+    {"text": {"fr": "Enfournez 12 à 15 minutes, jusqu'à ce que la pâte soit croustillante et la crème boursouflée et tachetée de brun foncé.", "en": "Bake for 12 to 15 minutes, until the pastry is crisp and the custard has puffed up and is speckled with dark brown patches.", "es": "Hornea de 12 a 15 minutos, hasta que el hojaldre esté crujiente y la crema se haya hinchado y tenga manchas tostadas oscuras.", "it": "Inforna per 12-15 minuti, finché la sfoglia è croccante e la crema si è gonfiata e presenta macchie bruno scuro."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez reposer 10 minutes avant de démouler, puis servez tièdes, saupoudrés de cannelle en poudre et de sucre glace si vous le souhaitez.", "en": "Leave to rest for 10 minutes before turning out, then serve warm, dusted with ground cinnamon and icing sugar if you like.", "es": "Deja reposar 10 minutos antes de desmoldar y sírvelos templados, espolvoreados, si te apetece, con canela molida y azúcar glas.", "it": "Lascia riposare 10 minuti prima di sformare, poi servili tiepidi, spolverati a piacere di cannella in polvere e zucchero a velo."}, "timerMinutes": 10}
+  ]
+}

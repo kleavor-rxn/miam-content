@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-brigadeiro",
+  "title": {"fr": "Brigadeiro", "en": "Brigadeiro", "es": "Brigadeiro", "it": "Brigadeiro"},
+  "summary": {
+    "fr": "La friandise des anniversaires brésiliens : lait concentré sucré et cacao cuits ensemble jusqu'à devenir fondants, puis roulés en billes dans des vermicelles en chocolat.",
+    "en": "The sweet of every Brazilian birthday party: condensed milk and cocoa cooked down until fudgy, then rolled into balls and coated in chocolate sprinkles.",
+    "es": "El dulce de los cumpleaños brasileños: leche condensada y cacao cocidos hasta quedar melosos y luego convertidos en bolitas rebozadas en fideos de chocolate.",
+    "it": "Il dolcetto delle feste di compleanno brasiliane: latte condensato e cacao cotti fino a diventare morbidi e fondenti, poi arrotolati in palline e passati nelle codette di cioccolato."
+  },
+  "story": {
+    "fr": "Au Brésil, pas de fête d'anniversaire sans brigadeiros, présentés dans de petites caissettes en papier à côté du gâteau. Ils doivent leur nom au brigadeiro (général de brigade aérienne) Eduardo Gomes, candidat à l'élection présidentielle de 1945 : selon le récit le plus répandu, ses partisanes les auraient confectionnés pour soutenir sa campagne. La recette tient en trois ingrédients, lait concentré sucré, cacao et beurre, cuits ensemble jusqu'à ce que la pâte se détache du fond de la casserole.",
+    "en": "In Brazil, no birthday party is complete without brigadeiros, set out in little paper cases next to the cake. They take their name from Air Force Brigadier Eduardo Gomes, a candidate in the 1945 presidential election: according to the most widely told story, his supporters made them to back his campaign. The recipe comes down to three ingredients, condensed milk, cocoa and butter, cooked together until the mixture comes away from the bottom of the pan.",
+    "es": "En Brasil no hay fiesta de cumpleaños sin brigadeiros, servidos en cápsulas de papel junto a la tarta. Deben su nombre al brigadier de la Fuerza Aérea Eduardo Gomes, candidato a las elecciones presidenciales de 1945: según el relato más extendido, sus partidarias los preparaban para apoyar su campaña. La receta se reduce a tres ingredientes, leche condensada, cacao y mantequilla, cocidos juntos hasta que la masa se despega del fondo del cazo.",
+    "it": "In Brasile non c'è festa di compleanno senza brigadeiros, serviti in pirottini di carta accanto alla torta. Devono il nome al brigadeiro (generale di brigata aerea) Eduardo Gomes, candidato alle elezioni presidenziali del 1945: secondo il racconto più diffuso, le sue sostenitrici li preparavano per sostenerne la campagna. La ricetta si riduce a tre ingredienti, latte condensato, cacao e burro, cotti insieme finché l'impasto si stacca dal fondo della pentola."
+  },
+  "region": {"fr": "Brésil", "en": "Brazil", "es": "Brasil", "it": "Brasile"},
+  "origin": {"countries": ["BR"]},
+  "category": "dessert",
+  "dessertType": "confiserie",
+  "occasions": ["anniversaire"],
+  "difficulty": 2,
+  "prepMinutes": 30,
+  "cookMinutes": 12,
+  "servings": 12,
+  "heroImage": "images/ds-brigadeiro/hero.webp",
+  "tags": ["noBake"],
+  "ingredients": [
+    {"ref": "lait-concentre-sucre", "quantity": 395, "unit": "g"},
+    {"ref": "cacao", "quantity": 20, "unit": "g"},
+    {"ref": "beurre", "quantity": 25, "unit": "g"},
+    {"ref": "vermicelles-chocolat", "quantity": 100, "unit": "g"}
+  ],
+  "steps": [
+    {"text": {"fr": "Dans une casserole à fond épais, mélangez le lait concentré sucré, le cacao tamisé et 15 g de beurre.", "en": "In a heavy-based saucepan, mix the condensed milk, the sifted cocoa and 15 g of the butter.", "es": "En un cazo de fondo grueso, mezcla la leche condensada, el cacao tamizado y 15 g de mantequilla.", "it": "In una casseruola dal fondo spesso, mescola il latte condensato, il cacao setacciato e 15 g di burro."}},
+    {"text": {"fr": "Faites cuire à feu moyen-doux 10 à 12 minutes en remuant sans arrêt à la spatule et en raclant bien le fond, jusqu'à ce que la pâte, épaisse et brillante, se détache du fond quand on incline la casserole.", "en": "Cook over a medium-low heat for 10 to 12 minutes, stirring constantly with a spatula and scraping the bottom well, until the thick, glossy mixture slides away from the base when you tilt the pan.", "es": "Cuece a fuego medio-bajo de 10 a 12 minutos, removiendo sin parar con una espátula y rascando bien el fondo, hasta que la masa, espesa y brillante, se despegue del fondo al inclinar el cazo.", "it": "Cuoci a fuoco medio-basso per 10-12 minuti, mescolando senza sosta con una spatola e raschiando bene il fondo, finché l'impasto, denso e lucido, si stacca dal fondo quando inclini la casseruola."}, "timerMinutes": 12},
+    {"text": {"fr": "Versez la pâte dans une assiette graissée avec un peu du beurre restant et laissez-la refroidir complètement à température ambiante.", "en": "Tip the mixture onto a plate greased with a little of the remaining butter and leave it to cool completely at room temperature.", "es": "Vierte la masa en un plato engrasado con un poco de la mantequilla restante y deja que se enfríe por completo a temperatura ambiente.", "it": "Versa l'impasto in un piatto unto con un po' del burro rimasto e lascialo raffreddare completamente a temperatura ambiente."}, "timerMinutes": 60},
+    {"text": {"fr": "Beurrez-vous légèrement les mains avec le reste du beurre, prélevez des portions de 15 g et roulez-les en billes.", "en": "Lightly grease your hands with the rest of the butter, take 15 g portions of the mixture and roll them into balls.", "es": "Úntate ligeramente las manos con el resto de la mantequilla, toma porciones de 15 g y forma bolitas.", "it": "Ungiti leggermente le mani con il resto del burro, preleva porzioni da 15 g e forma delle palline."}},
+    {"text": {"fr": "Roulez chaque bille dans les vermicelles en chocolat jusqu'à ce qu'elle en soit entièrement couverte.", "en": "Roll each ball in the chocolate sprinkles until completely coated.", "es": "Reboza cada bolita en los fideos de chocolate hasta cubrirla por completo.", "it": "Passa ogni pallina nelle codette di cioccolato finché è ricoperta completamente."}},
+    {"text": {"fr": "Déposez les brigadeiros dans de petites caissettes en papier et servez-les à température ambiante.", "en": "Sit the brigadeiros in small paper cases and serve at room temperature.", "es": "Coloca los brigadeiros en cápsulas de papel pequeñas y sírvelos a temperatura ambiente.", "it": "Sistema i brigadeiros in piccoli pirottini di carta e servili a temperatura ambiente."}}
+  ]
+}

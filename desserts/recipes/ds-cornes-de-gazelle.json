@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ds-cornes-de-gazelle",
+  "title": {"fr": "Cornes de gazelle", "en": "Gazelle horns", "es": "Cuernos de gacela", "it": "Corna di gazzella"},
+  "summary": {
+    "fr": "Des croissants de pâte fine comme du papier, fourrés d'une pâte d'amande parfumée à la fleur d'oranger : le grand classique des plateaux de pâtisseries marocaines.",
+    "en": "Paper-thin pastry crescents filled with almond paste scented with orange blossom: the great classic of the Moroccan pastry tray.",
+    "es": "Medias lunas de masa fina como el papel, rellenas de pasta de almendra perfumada con agua de azahar: el gran clásico de las bandejas de dulces marroquíes.",
+    "it": "Mezzelune di pasta sottile come carta, ripiene di pasta di mandorle profumata ai fiori d'arancio: il grande classico dei vassoi di dolci marocchini."
+  },
+  "story": {
+    "fr": "En arabe, on les appelle kaab el ghzal, littéralement « cheville de gazelle » ; le français a retenu les cornes, à cause de leur forme recourbée. Pâtisserie fine des villes marocaines, elles accompagnent le thé à la menthe lors des mariages, des fêtes de l'Aïd et de l'accueil des invités. On en trouve aussi des variantes en Algérie et en Tunisie.",
+    "en": "In Arabic they are called kaab el ghzal, literally 'gazelle's ankle'; French and English opted for horns instead, because of their curved shape. A refined pastry of Morocco's cities, they are served with mint tea at weddings, at Eid and whenever guests are welcomed. Variations are also made in Algeria and Tunisia.",
+    "es": "En árabe se llaman kaab el ghzal, literalmente «tobillo de gacela»; el francés y el español se quedaron con los cuernos, por su forma curvada. Dulce refinado de las ciudades marroquíes, acompañan al té a la menta en las bodas, en las fiestas del Aíd y cada vez que se recibe a invitados. También existen variantes en Argelia y Túnez.",
+    "it": "In arabo si chiamano kaab el ghzal, letteralmente «caviglia di gazzella»; il francese e l'italiano hanno preferito le corna, per via della forma ricurva. Dolce raffinato delle città marocchine, accompagnano il tè alla menta ai matrimoni, durante le feste dell'Eid e ogni volta che si accolgono ospiti. Se ne trovano varianti anche in Algeria e in Tunisia."
+  },
+  "region": {"fr": "Maroc", "en": "Morocco", "es": "Marruecos", "it": "Marocco"},
+  "origin": {"countries": ["MA"]},
+  "category": "dessert",
+  "dessertType": "biscuit",
+  "occasions": [],
+  "difficulty": 3,
+  "prepMinutes": 90,
+  "cookMinutes": 15,
+  "servings": 12,
+  "heroImage": "images/ds-cornes-de-gazelle/hero.webp",
+  "tags": [],
+  "ingredients": [
+    {"ref": "poudre-d-amande", "quantity": 400, "unit": "g"},
+    {"ref": "sucre", "quantity": 200, "unit": "g"},
+    {"ref": "beurre", "quantity": 80, "unit": "g"},
+    {"ref": "eau-de-fleur-d-oranger", "quantity": 7, "unit": "tbsp"},
+    {"ref": "cannelle", "quantity": 1, "unit": "pinch", "optional": true},
+    {"ref": "farine", "quantity": 250, "unit": "g"},
+    {"ref": "oeuf", "quantity": 1, "unit": "piece"},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
+    {"ref": "eau", "quantity": null, "unit": null}
+  ],
+  "steps": [
+    {"text": {"fr": "Mélangez la poudre d'amande, le sucre, 40 g de beurre fondu, 4 cuillerées à soupe d'eau de fleur d'oranger et la cannelle, puis pétrissez du bout des doigts jusqu'à obtenir une pâte ferme et homogène.", "en": "Mix the ground almonds, sugar, 40 g of melted butter, 4 tablespoons of orange blossom water and the cinnamon, then knead with your fingertips into a firm, smooth paste.", "es": "Mezcla la almendra molida, el azúcar, 40 g de mantequilla derretida, 4 cucharadas de agua de azahar y la canela, y amasa con la punta de los dedos hasta obtener una pasta firme y homogénea.", "it": "Mescola la farina di mandorle, lo zucchero, 40 g di burro fuso, 4 cucchiai di acqua di fiori d'arancio e la cannella, poi impasta con la punta delle dita fino a ottenere una pasta soda e omogenea."}},
+    {"text": {"fr": "Façonnez la pâte d'amande en une trentaine de petits boudins de 6 cm, plus épais au centre et effilés aux extrémités, et réservez-les sous un linge.", "en": "Shape the almond paste into about thirty small 6 cm logs, thicker in the middle and tapered at the ends, and keep them under a tea towel.", "es": "Forma con la pasta de almendra una treintena de pequeños cilindros de 6 cm, más gruesos en el centro y afilados en las puntas, y resérvalos bajo un paño.", "it": "Modella la pasta di mandorle in una trentina di piccoli cilindri di 6 cm, più spessi al centro e affusolati alle estremità, e tienili da parte sotto un canovaccio."}},
+    {"text": {"fr": "Dans un saladier, mélangez la farine, le sel, l'œuf, les 40 g de beurre fondu restants et 3 cuillerées à soupe d'eau de fleur d'oranger, puis pétrissez 10 minutes en ajoutant de l'eau peu à peu, jusqu'à obtenir une pâte lisse et très élastique.", "en": "In a mixing bowl, combine the flour, salt, egg, the remaining 40 g of melted butter and 3 tablespoons of orange blossom water, then knead for 10 minutes, adding water little by little, until the dough is smooth and very elastic.", "es": "En un bol grande, mezcla la harina, la sal, el huevo, los 40 g restantes de mantequilla derretida y 3 cucharadas de agua de azahar, y amasa 10 minutos añadiendo agua poco a poco, hasta lograr una masa lisa y muy elástica.", "it": "In una ciotola capiente, unisci la farina, il sale, l'uovo, i 40 g di burro fuso rimasti e 3 cucchiai di acqua di fiori d'arancio, poi impasta per 10 minuti aggiungendo acqua poco alla volta, fino a ottenere una pasta liscia e molto elastica."}},
+    {"text": {"fr": "Couvrez la pâte d'un film et laissez-la reposer 30 minutes à température ambiante.", "en": "Cover the dough with cling film and leave it to rest for 30 minutes at room temperature.", "es": "Cubre la masa con film y déjala reposar 30 minutos a temperatura ambiente.", "it": "Copri l'impasto con la pellicola e lascialo riposare 30 minuti a temperatura ambiente."}, "timerMinutes": 30},
+    {"text": {"fr": "Préchauffez le four à 180 °C, puis abaissez la pâte en bandes de 10 cm de large, si finement qu'on devine le plan de travail au travers.", "en": "Preheat the oven to 180 °C, then roll the dough out into 10 cm-wide strips, so thin you can almost see the worktop through them.", "es": "Precalienta el horno a 180 °C y estira la masa en tiras de 10 cm de ancho, tan finas que casi se vea la encimera a través de ellas.", "it": "Preriscalda il forno a 180 °C, poi stendi la pasta in strisce larghe 10 cm, così sottili da intravedere il piano di lavoro."}},
+    {"text": {"fr": "Posez un boudin d'amande près du bord d'une bande, rabattez la pâte par-dessus, chassez l'air en pressant autour de la farce et découpez une demi-lune à la roulette cannelée.", "en": "Lay an almond log near the edge of a strip, fold the pastry over it, press around the filling to push out the air and cut out a half-moon with a fluted pastry wheel.", "es": "Coloca un cilindro de almendra junto al borde de una tira, dobla la masa por encima, presiona alrededor del relleno para sacar el aire y recorta una media luna con la ruedecilla rizada.", "it": "Adagia un cilindro di mandorle vicino al bordo di una striscia, ripiegaci sopra la pasta, premi intorno al ripieno per far uscire l'aria e ritaglia una mezzaluna con la rotella dentellata."}},
+    {"text": {"fr": "Recourbez délicatement chaque pièce en croissant, piquez-la de quelques trous d'aiguille et posez-la sur une plaque tapissée de papier cuisson.", "en": "Gently curve each piece into a crescent, prick it a few times with a needle and place it on a lined baking tray.", "es": "Curva con cuidado cada pieza en forma de media luna, pínchala varias veces con una aguja y colócala en una bandeja cubierta con papel de horno.", "it": "Incurva delicatamente ogni pezzo a mezzaluna, bucherellalo con un ago e sistemalo su una teglia rivestita di carta forno."}},
+    {"text": {"fr": "Faites cuire 12 à 15 minutes : les cornes doivent rester pâles dessus et à peine dorées dessous.", "en": "Bake for 12 to 15 minutes: the horns should stay pale on top and only just golden underneath.", "es": "Hornea de 12 a 15 minutos: los cuernos deben quedar pálidos por encima y apenas dorados por debajo.", "it": "Cuoci per 12-15 minuti: le corna devono restare chiare in superficie e appena dorate sotto."}, "timerMinutes": 15},
+    {"text": {"fr": "Laissez refroidir complètement sur une grille avant de les ranger dans une boîte hermétique.", "en": "Leave to cool completely on a wire rack before storing in an airtight tin.", "es": "Déjalos enfriar por completo sobre una rejilla antes de guardarlos en una caja hermética.", "it": "Lasciale raffreddare completamente su una gratella prima di conservarle in una scatola ermetica."}, "timerMinutes": 30}
+  ]
+}
