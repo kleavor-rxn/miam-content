@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T10:26:46Z",
+  "generatedAt": "2026-10-26T10:42:13Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -498,34 +498,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-08-20",
-      "recipeID": "fr-oeufs-mimosa"
-    },
-    {
-      "date": "2026-08-21",
-      "recipeID": "fr-blanquette-de-veau"
-    },
-    {
-      "date": "2026-08-22",
-      "recipeID": "fr-ratatouille"
-    },
-    {
-      "date": "2026-08-23",
-      "recipeID": "fr-gratin-dauphinois"
-    },
-    {
-      "date": "2026-08-24",
-      "recipeID": "fr-boeuf-bourguignon"
-    },
-    {
-      "date": "2026-08-25",
-      "recipeID": "fr-hachis-parmentier"
-    },
-    {
-      "date": "2026-08-26",
-      "recipeID": "fr-pot-au-feu"
-    },
-    {
       "date": "2026-08-27",
       "recipeID": "fr-tartiflette"
     },
@@ -860,6 +832,34 @@
     {
       "date": "2026-11-18",
       "recipeID": "fr-ratatouille"
+    },
+    {
+      "date": "2026-11-19",
+      "recipeID": "fr-camembert-roti"
+    },
+    {
+      "date": "2026-11-20",
+      "recipeID": "fr-madeleines"
+    },
+    {
+      "date": "2026-11-21",
+      "recipeID": "fr-far-breton"
+    },
+    {
+      "date": "2026-11-22",
+      "recipeID": "fr-poireaux-vinaigrette"
+    },
+    {
+      "date": "2026-11-23",
+      "recipeID": "fr-hachis-parmentier"
+    },
+    {
+      "date": "2026-11-24",
+      "recipeID": "fr-gratin-dauphinois"
+    },
+    {
+      "date": "2026-11-25",
+      "recipeID": "fr-coq-au-vin"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T10:26:46Z",
+  "generatedAt": "2026-10-26T10:42:13Z",
   "recipes": [
     {
       "id": "ds-clafoutis-aux-cerises",
@@ -416,6 +416,34 @@
     {
       "date": "2026-11-18",
       "recipeID": "ds-tiramisu"
+    },
+    {
+      "date": "2026-11-19",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-11-20",
+      "recipeID": "ds-panna-cotta"
+    },
+    {
+      "date": "2026-11-21",
+      "recipeID": "ds-madeleines"
+    },
+    {
+      "date": "2026-11-22",
+      "recipeID": "ds-crostata-di-marmellata"
+    },
+    {
+      "date": "2026-11-23",
+      "recipeID": "ds-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-11-24",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-11-25",
+      "recipeID": "ds-crepes"
     }
   ]
 }
