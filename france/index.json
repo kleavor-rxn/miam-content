@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T10:42:13Z",
+  "generatedAt": "2026-11-02T13:00:56Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -498,34 +498,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-08-27",
-      "recipeID": "fr-tartiflette"
-    },
-    {
-      "date": "2026-08-28",
-      "recipeID": "fr-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-08-29",
-      "recipeID": "fr-salade-nicoise"
-    },
-    {
-      "date": "2026-08-30",
-      "recipeID": "fr-camembert-roti"
-    },
-    {
-      "date": "2026-08-31",
-      "recipeID": "fr-tomates-farcies"
-    },
-    {
-      "date": "2026-09-01",
-      "recipeID": "fr-soupe-a-l-oignon"
-    },
-    {
-      "date": "2026-09-02",
-      "recipeID": "fr-crepes"
-    },
-    {
       "date": "2026-09-03",
       "recipeID": "fr-clafoutis-aux-cerises"
     },
@@ -860,6 +832,34 @@
     {
       "date": "2026-11-25",
       "recipeID": "fr-coq-au-vin"
+    },
+    {
+      "date": "2026-11-26",
+      "recipeID": "fr-tartiflette"
+    },
+    {
+      "date": "2026-11-27",
+      "recipeID": "fr-steak-frites"
+    },
+    {
+      "date": "2026-11-28",
+      "recipeID": "fr-salade-nicoise"
+    },
+    {
+      "date": "2026-11-29",
+      "recipeID": "fr-mousse-au-chocolat"
+    },
+    {
+      "date": "2026-11-30",
+      "recipeID": "fr-poulet-basquaise"
+    },
+    {
+      "date": "2026-12-01",
+      "recipeID": "fr-boeuf-bourguignon"
+    },
+    {
+      "date": "2026-12-02",
+      "recipeID": "fr-soupe-a-l-oignon"
     }
   ]
 }
