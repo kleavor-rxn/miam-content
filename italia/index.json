@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T13:00:56Z",
+  "generatedAt": "2026-11-09T13:32:35Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -504,34 +504,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-09-03",
-      "recipeID": "it-bruschetta-al-pomodoro"
-    },
-    {
-      "date": "2026-09-04",
-      "recipeID": "it-pollo-alla-cacciatora"
-    },
-    {
-      "date": "2026-09-05",
-      "recipeID": "it-risotto-alla-milanese"
-    },
-    {
-      "date": "2026-09-06",
-      "recipeID": "it-pasta-al-pomodoro"
-    },
-    {
-      "date": "2026-09-07",
-      "recipeID": "it-bucatini-all-amatriciana"
-    },
-    {
-      "date": "2026-09-08",
-      "recipeID": "it-pesto-alla-genovese"
-    },
-    {
-      "date": "2026-09-09",
-      "recipeID": "it-piadina-romagnola"
-    },
-    {
       "date": "2026-09-10",
       "recipeID": "it-tiramisu"
     },
@@ -866,6 +838,34 @@
     {
       "date": "2026-12-02",
       "recipeID": "it-spaghetti-cacio-e-pepe"
+    },
+    {
+      "date": "2026-12-03",
+      "recipeID": "it-arancini"
+    },
+    {
+      "date": "2026-12-04",
+      "recipeID": "it-tiramisu"
+    },
+    {
+      "date": "2026-12-05",
+      "recipeID": "it-insalata-caprese"
+    },
+    {
+      "date": "2026-12-06",
+      "recipeID": "it-bruschetta-al-pomodoro"
+    },
+    {
+      "date": "2026-12-07",
+      "recipeID": "it-tagliatelle-al-ragu"
+    },
+    {
+      "date": "2026-12-08",
+      "recipeID": "it-saltimbocca-alla-romana"
+    },
+    {
+      "date": "2026-12-09",
+      "recipeID": "it-pizza-margherita"
     }
   ]
 }
