@@ -23,6 +23,18 @@ def _entry(rid, country="FR", type_="gateau", **kw):
     return e
 
 
+def _un(**kw):
+    """Entrée `written` assortie à la fiche ds-test-un de la fixture."""
+    return _entry("ds-test-un", "FR", "gateau", status="written", featured=["chocolat"],
+                  occasions=["noel", "gouter"], **kw)
+
+
+def _deux(**kw):
+    """Entrée `written` assortie à la fiche ds-test-deux de la fixture."""
+    return _entry("ds-test-deux", "IT", "tarte", status="written", featured=["chocolat"],
+                  occasions=["gouter"], **kw)
+
+
 def _write_catalogue(root, entries):
     (root / "desserts" / "catalogue.json").write_text(
         json.dumps({"schemaVersion": 1, "entries": entries}, ensure_ascii=False))
@@ -36,9 +48,7 @@ def _errors(root, **kw):
 def small_repo(desserts_repo):
     """Collection valide à 2 fiches (ds-test-un FR gateau, ds-test-deux IT tarte) + liste assortie."""
     _write_catalogue(desserts_repo, [
-        _entry("ds-test-un", "FR", "gateau", status="written", featured=["chocolat"],
-               occasions=["noel", "gouter"]),
-        _entry("ds-test-deux", "IT", "tarte", status="written", featured=["chocolat"]),
+        _un(), _deux(),
     ])
     return desserts_repo
 
@@ -107,7 +117,7 @@ def _first(entries, region_prefix, reserve=False):
 
 # --- structure -------------------------------------------------------------
 
-def test_existing_ten_pass_structure():
+def test_real_catalogue_passes_structure():
     assert _errors(REPO) == []
 
 
@@ -116,29 +126,29 @@ def test_small_repo_is_valid(small_repo):
 
 
 def test_duplicate_id_fails(small_repo):
-    _write_catalogue(small_repo, [_entry("ds-test-un", status="written"),
+    _write_catalogue(small_repo, [_un(),
                                   _entry("ds-test-un", "IT", status="written"),
-                                  _entry("ds-test-deux", "IT", status="written")])
+                                  _deux()])
     assert any("id dupliqué : ds-test-un" in m for m in _errors(small_repo))
 
 
 def test_unknown_country_fails(small_repo):
-    _write_catalogue(small_repo, [_entry("ds-test-un", "FR", status="written"),
-                                  _entry("ds-test-deux", "IT", status="written"),
+    _write_catalogue(small_repo, [_un(),
+                                  _deux(),
                                   _entry("ds-pays-inconnu", "JP")])
     assert any("pays inconnu : JP" in m for m in _errors(small_repo))
 
 
 def test_more_than_three_countries_fails(small_repo):
     _write_catalogue(small_repo, [
-        _entry("ds-test-un", "FR", status="written", countries=["FR", "IT", "FR", "IT"]),
-        _entry("ds-test-deux", "IT", status="written")])
+        _un(countries=["FR", "IT", "FR", "IT"]),
+        _deux()])
     assert any("1 à 3 pays" in m or "countries" in m for m in _errors(small_repo))
 
 
 def test_empty_countries_fails(small_repo):
     _write_catalogue(small_repo, [_entry("ds-test-un", status="written", countries=[]),
-                                  _entry("ds-test-deux", "IT", status="written")])
+                                  _deux()])
     assert _errors(small_repo)
 
 
@@ -146,7 +156,7 @@ def test_unknown_type_featured_occasion_fail(small_repo):
     _write_catalogue(small_repo, [
         _entry("ds-test-un", status="written", type="soupe", featured=["truffe"],
                occasions=["diwali"]),
-        _entry("ds-test-deux", "IT", status="written")])
+        _deux()])
     errs = _errors(small_repo)
     assert any("type inconnu : soupe" in m for m in errs)
     assert any("vedette inconnue : truffe" in m for m in errs)
@@ -155,13 +165,13 @@ def test_unknown_type_featured_occasion_fail(small_repo):
 
 def test_id_without_ds_prefix_fails(small_repo):
     _write_catalogue(small_repo, [_entry("fr-test-un", status="written"),
-                                  _entry("ds-test-deux", "IT", status="written")])
-    assert _errors(small_repo)
+                                  _deux()])
+    assert any("entries/0/id" in m and "^ds-" in m for m in _errors(small_repo))
 
 
 def test_rejected_requires_reason(small_repo):
-    entries = [_entry("ds-test-un", status="written"),
-               _entry("ds-test-deux", "IT", status="written"),
+    entries = [_un(),
+               _deux(),
                _entry("ds-rejete", status="rejected")]
     _write_catalogue(small_repo, entries)
     assert any("reason" in m for m in _errors(small_repo))
@@ -171,8 +181,8 @@ def test_rejected_requires_reason(small_repo):
 
 
 def test_lot_accepts_monthly_string_and_rejects_garbage(small_repo):
-    base = [_entry("ds-test-un", status="written"),
-            _entry("ds-test-deux", "IT", status="written")]
+    base = [_un(),
+            _deux()]
     for lot, ok in ((6, True), ("m-2027-03", True), (7, False), ("m-2027-13", False),
                     ("lot-3", False)):
         _write_catalogue(small_repo, base + [_entry("ds-autre", lot=lot)])
@@ -180,8 +190,8 @@ def test_lot_accepts_monthly_string_and_rejects_garbage(small_repo):
 
 
 def test_monthly_lot_label_accepted(small_repo):
-    base = [_entry("ds-test-un", status="written"),
-            _entry("ds-test-deux", "IT", status="written")]
+    base = [_un(),
+            _deux()]
     _write_catalogue(small_repo, base + [_entry("ds-mensuel", "IT", lot="m-2027-03")])
     assert _errors(small_repo) == []
     for bad in ("m-2027-13", "2027-03"):
@@ -195,13 +205,13 @@ def test_written_entry_without_fiche_fails(small_repo):
 
 
 def test_fiche_without_entry_fails(small_repo):
-    _write_catalogue(small_repo, [_entry("ds-test-un", status="written")])
+    _write_catalogue(small_repo, [_un()])
     assert any("ds-test-deux" in m and "entrée" in m for m in _errors(small_repo))
 
 
 def test_planned_entry_needs_no_fiche(small_repo):
-    _write_catalogue(small_repo, [_entry("ds-test-un", status="written"),
-                                  _entry("ds-test-deux", "IT", status="written"),
+    _write_catalogue(small_repo, [_un(),
+                                  _deux(),
                                   _entry("ds-futur", "IT", status="planned")])
     assert _errors(small_repo) == []
 
@@ -224,6 +234,66 @@ def test_missing_catalogue_reports_one_error(small_repo):
     (small_repo / "desserts" / "catalogue.json").unlink()
     issues = check(small_repo)
     assert len(issues) == 1 and "illisible" in issues[0].message
+
+
+def _fiche(root, rid, **changes):
+    p = root / "desserts" / "recipes" / f"{rid}.json"
+    r = json.loads(p.read_text())
+    for k, v in changes.items():
+        if k == "countries":
+            r["origin"]["countries"] = v
+        else:
+            r[k] = v
+    p.write_text(json.dumps(r, ensure_ascii=False))
+
+
+def _entries(**changes_by_id):
+    base = {"ds-test-un": _un(), "ds-test-deux": _deux()}
+    for rid, ch in changes_by_id.items():
+        base[rid].update(ch)
+    return list(base.values())
+
+
+def test_rejected_entry_with_fiche_fails(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"status": "rejected", "reason": "x"}}))
+    assert any("ds-test-un" in m and "rejetée" in m for m in _errors(small_repo))
+
+
+def test_reserve_entry_with_fiche_fails(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"reserve": True}}))
+    assert any("ds-test-un" in m and "réserve" in m for m in _errors(small_repo))
+
+
+def test_duplicate_countries_in_entry_fail(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"countries": ["FR", "FR"]}}))
+    assert any("ds-test-un" in m and "pays en double" in m for m in _errors(small_repo))
+
+
+def test_written_entry_must_match_fiche(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"countries": ["IT"]}}))
+    assert any("ds-test-un" in m and "pays" in m and "fiche" in m for m in _errors(small_repo))
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"type": "tarte"}}))
+    assert any("ds-test-un" in m and "type" in m and "fiche" in m for m in _errors(small_repo))
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"occasions": ["noel"]}}))
+    assert any("ds-test-un" in m and "occasions" in m and "fiche" in m for m in _errors(small_repo))
+
+
+def test_written_entry_country_order_matters(small_repo):
+    _fiche(small_repo, "ds-test-un", countries=["FR", "IT"])
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"countries": ["IT", "FR"]}}))
+    assert any("ds-test-un" in m and "pays" in m for m in _errors(small_repo))
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"countries": ["FR", "IT"]}}))
+    assert _errors(small_repo) == []
+
+
+def test_occasions_compared_as_sets(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"occasions": ["gouter", "noel"]}}))
+    assert _errors(small_repo) == []
+
+
+def test_planned_entry_not_compared_with_fiche(small_repo):
+    _write_catalogue(small_repo, _entries(**{"ds-test-un": {"status": "planned", "type": "tarte"}}))
+    assert _errors(small_repo) == []
 
 
 # --- cibles ----------------------------------------------------------------
@@ -307,8 +377,8 @@ def test_featured_and_type_minimums(balanced):
 
 def test_status_table(small_repo):
     _write_catalogue(small_repo, [
-        _entry("ds-test-un", "FR", status="written"),
-        _entry("ds-test-deux", "IT", status="written"),
+        _un(),
+        _deux(),
         _entry("ds-p1", "IT", lot=2),
         _entry("ds-p2", "IT", lot="m-2027-03"),
         _entry("ds-r1", "FR", reserve=True),
@@ -331,3 +401,9 @@ def test_cli_check_and_status(small_repo, capsys):
     assert "erreur(s)." in capsys.readouterr().out
     assert catalogue.main(["status"], root=small_repo) == 0
     assert "total" in capsys.readouterr().out
+
+
+def test_cli_unknown_option_exits_2(small_repo, capsys):
+    assert catalogue.main(["check", "--target"], root=small_repo) == 2
+    assert "--target" in capsys.readouterr().err
+    assert catalogue.main(["status", "--x"], root=small_repo) == 2

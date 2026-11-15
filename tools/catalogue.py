@@ -76,8 +76,17 @@ def check(root: Path, targets: bool = False) -> list[Issue]:
 
     fiches = {p.stem for p in (cdir / "recipes").glob("*.json")}
     for e in entries:
+        if len(set(e["countries"])) != len(e["countries"]):
+            issues.append(Issue(rel, f"{e['id']} : pays en double : {e['countries']}"))
         if e["status"] == "written" and e["id"] not in fiches:
             issues.append(Issue(rel, f"{e['id']} : statut written mais fiche recipes/{e['id']}.json absente"))
+        if e["id"] in fiches:
+            if e["status"] == "rejected":
+                issues.append(Issue(rel, f"{e['id']} : entrée rejetée mais fiche recipes/{e['id']}.json présente"))
+            if e["reserve"]:
+                issues.append(Issue(rel, f"{e['id']} : entrée en réserve mais fiche recipes/{e['id']}.json présente"))
+        if e["status"] == "written" and e["id"] in fiches:
+            issues += _match_fiche(rel, e, cdir / "recipes" / f"{e['id']}.json")
     listed = set(ids)
     for rid in sorted(fiches - listed):
         issues.append(Issue(rel, f"{rid} : fiche sans entrée dans le catalogue"))
@@ -85,6 +94,19 @@ def check(root: Path, targets: bool = False) -> list[Issue]:
     if targets:
         issues += _targets(rel, entries, country_region, dessert_types, featured_ids)
     return issues
+
+
+def _match_fiche(rel: str, entry: dict, path: Path) -> list[Issue]:
+    """Pays (ordre compris), type et occasions d'une entrée `written` = ceux de sa fiche."""
+    try:
+        fiche = json.loads(path.read_text())
+        pairs = [("pays", entry["countries"], fiche["origin"]["countries"]),
+                 ("type", entry["type"], fiche["dessertType"]),
+                 ("occasions", sorted(entry["occasions"]), sorted(fiche["occasions"]))]
+    except (OSError, ValueError, KeyError, TypeError):
+        return []   # fiche illisible ou incomplète : `validate` s'en charge
+    return [Issue(rel, f"{entry['id']} : {label} {a} diffèrent(s) de la fiche : {b}")
+            for label, a, b in pairs if a != b]
 
 
 def _principal_region(entry: dict, country_region: dict) -> str | None:
@@ -155,6 +177,12 @@ def status(root: Path) -> str:
 
 def main(argv: list[str], root: Path = DEFAULT_ROOT) -> int:
     command = argv[0] if argv else ""
+    allowed = {"check": {"--targets"}, "status": set()}
+    unknown = [a for a in argv[1:] if a not in allowed.get(command, set())]
+    if unknown:
+        print(f"option inconnue : {' '.join(unknown)}", file=sys.stderr)
+        print("usage : python -m tools.catalogue check [--targets] | status", file=sys.stderr)
+        return 2
     if command == "check":
         all_issues = check(root, targets="--targets" in argv[1:])
         errors = [i for i in all_issues if i.severity == "error"]

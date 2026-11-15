@@ -83,6 +83,26 @@ def test_ingredient_without_contains_or_animal(desserts_repo):
     assert any("contains/animal manquant : sucre" in m for m in _errors(desserts_repo))
 
 
+def test_animal_required_when_contains_milk_or_egg(desserts_repo):
+    for allergen in ("lait", "oeuf"):
+        tax = copy.deepcopy(DESSERTS_TAXONOMY)
+        tax["ingredients"][0]["contains"] = [allergen]
+        _rewrite(desserts_repo, "ingredients", tax)
+        assert any("sucre" in m and allergen in m and "animal" in m
+                   for m in _errors(desserts_repo)), allergen
+    tax = copy.deepcopy(DESSERTS_TAXONOMY)
+    tax["ingredients"][2]["animal"] = False
+    _rewrite(desserts_repo, "ingredients", tax)
+    assert any("beurre" in m and "animal" in m for m in _errors(desserts_repo))
+
+
+def test_duplicate_ingredient_id_fails(desserts_repo):
+    tax = copy.deepcopy(DESSERTS_TAXONOMY)
+    tax["ingredients"].append(copy.deepcopy(tax["ingredients"][1]))
+    _rewrite(desserts_repo, "ingredients", tax)
+    assert any("id d'ingrédient en double : chocolat-noir" in m for m in _errors(desserts_repo))
+
+
 def test_window_start_after_end(desserts_repo):
     occ = copy.deepcopy(DESSERTS_OCCASIONS)
     occ["occasions"][0]["windows"][0] = {"start": "2027-12-26", "end": "2027-12-01"}
@@ -135,6 +155,7 @@ def test_occasion_no_warning_from_18_months(desserts_repo):
 def test_occasion_under_12_months_is_error_without_warning(desserts_repo):
     _short_noel(desserts_repo)
     assert _coverage_warnings(desserts_repo) == []
+    assert any("moins de 12 mois" in m for m in _errors(desserts_repo))
 
 
 def test_unused_dated_occasion_is_not_checked(desserts_repo):

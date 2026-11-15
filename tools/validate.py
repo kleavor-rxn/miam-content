@@ -65,6 +65,8 @@ def _desserts_rules(root: Path, cdir: Path, recipes: list, taxonomy: dict,
     for ing in taxonomy["ingredients"]:
         if "contains" not in ing or "animal" not in ing:
             issues.append(Issue(tax_rel, f"contains/animal manquant : {ing['id']}"))
+        elif not ing["animal"] and {"lait", "oeuf"} & set(ing["contains"]):
+            issues.append(Issue(tax_rel, f"animal doit valoir true (contains {ing['contains']}) : {ing['id']}"))
     featured = taxonomy.get("featured", [])
     for group in featured:
         for member in group["members"]:
@@ -169,6 +171,13 @@ def validate_country(root: Path, country: str, release: bool = False,
         # taxonomie invalide : les règles référentielles seraient du bruit
         return [Issue(str(tax_path.relative_to(root)), f"schéma taxonomie : {e.message}") for e in tax_errs]
     known = {i["id"]: i for i in taxonomy["ingredients"]}
+    if len(known) != len(taxonomy["ingredients"]):
+        seen = set()
+        for i in taxonomy["ingredients"]:
+            if i["id"] in seen:
+                issues.append(Issue(str(tax_path.relative_to(root)),
+                                    f"id d'ingrédient en double : {i['id']}"))
+            seen.add(i["id"])
     for ing in known.values():
         for sub in ing.get("substitutes", []):
             if sub not in known:
