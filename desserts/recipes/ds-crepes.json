@@ -24,7 +24,7 @@
   "cookMinutes": 20,
   "servings": 4,
   "heroImage": "images/ds-crepes/hero.webp",
-  "tags": [],
+  "tags": ["noBake"],
   "ingredients": [
     {"ref": "farine", "quantity": 250, "unit": "g"},
     {"ref": "oeuf", "quantity": 3, "unit": "piece"},

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:26:51Z",
+  "generatedAt": "2026-11-15T17:21:14Z",
   "recipes": [
     {
       "id": "ds-aebleskiver",
@@ -36,8 +36,8 @@
     },
     {
       "id": "ds-anzac-biscuits",
-      "updatedAt": "2026-10-23T18:41:35Z",
-      "contentHash": "7f1979378d828da2b1dd26e3da376b98b134a2d243758e9232a3ad13d63255e0",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "4f152c7e416f5f08bb21b7300a9dbb68a1a5e435152ea0bd39fa8de722996e3f",
       "title": {
         "fr": "Anzac biscuits",
         "en": "Anzac biscuits",
@@ -209,8 +209,8 @@
     },
     {
       "id": "ds-bhapa-pitha",
-      "updatedAt": "2026-10-23T19:26:05Z",
-      "contentHash": "0969c05b4ccdb8fabd78db0454d8ce9bb2615f5093f90919086c36eb6618da8e",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "7874f5cfb0f27ef8f24ea0de7bf87fc9b5b566312f9214fbc29d18f15d3f9aba",
       "title": {
         "fr": "Bhapa pitha",
         "en": "Bhapa pitha",
@@ -307,8 +307,8 @@
     },
     {
       "id": "ds-brownies",
-      "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "2be1bd22d3b8b5e670de7cd0a4ce1564ba3e509e8abcfb1ff5de426201659da4",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "82b65427b99811441c1ae3b1f8d7d6898933b3e140832051ae68da8e838df19f",
       "title": {
         "fr": "Brownies",
         "en": "Brownies",
@@ -473,8 +473,8 @@
     },
     {
       "id": "ds-cocada-amarela",
-      "updatedAt": "2026-10-23T18:49:52Z",
-      "contentHash": "de64a8175e6410e17c4c1aebb3dcab0b59f3cdb427db3b53d960ebe97937af3d",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "890229343bd340b25067fd3ecaad533a84ed3ae97f4f6c2621f9ef0a130d5724",
       "title": {
         "fr": "Cocada amarela",
         "en": "Cocada amarela",
@@ -552,8 +552,8 @@
     },
     {
       "id": "ds-crepes",
-      "updatedAt": "2026-10-18T21:24:03Z",
-      "contentHash": "e079d1f6ef6971175575f43b96ffacf0a3ff6f82c51145f1600693cd290ede95",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "cd757b76587a619925d4c6c0289655a23c9518ad8faf17fd2a04f3cefa9ea14e",
       "title": {
         "fr": "Crêpes",
         "en": "French crêpes",
@@ -561,7 +561,9 @@
         "it": "Crêpes"
       },
       "heroImage": "images/ds-crepes/hero.webp",
-      "tags": [],
+      "tags": [
+        "noBake"
+      ],
       "totalMinutes": 30,
       "difficulty": 2
     },
@@ -661,8 +663,8 @@
     },
     {
       "id": "ds-foret-noire",
-      "updatedAt": "2026-10-23T18:40:41Z",
-      "contentHash": "841489ff6e94ebb35fea432661e9b0476206ae205347e7ee08f9967fc93ef07a",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "65b271f01a5e3a47649da11af66742c41efb5ff41d8ec92607f60f52c0f18b98",
       "title": {
         "fr": "Forêt-noire",
         "en": "Black Forest gateau",
@@ -738,8 +740,8 @@
     },
     {
       "id": "ds-gizzada",
-      "updatedAt": "2026-10-23T19:26:05Z",
-      "contentHash": "f153c035a1962eba2b1a7b177534cbe2b0fbced7144402f348e2a29bfcc30e81",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "15f61760f48dfc0f40059fa578e5272650e88e015fbd8f51a18b27dadfc75e69",
       "title": {
         "fr": "Gizzada",
         "en": "Gizzada",
@@ -902,8 +904,8 @@
     },
     {
       "id": "ds-klepon",
-      "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "25fa0aa9ab335b9f295d18d9c1b47404004fccfc3fe5f2ea918d065997e4c3b6",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "dc576cbc7ee3bc1529095dc50541808b9dba1b09bf2ebf4fe43a8195c7b7ae2a",
       "title": {
         "fr": "Klepon",
         "en": "Klepon",
@@ -1000,8 +1002,8 @@
     },
     {
       "id": "ds-lamington",
-      "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "3660b24aa657939cf9a1ece52cd85054e6a864508b9d41e284c57d277c36a5bb",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "e4a7e1e25fb76f7e5cb6f5532013c48df5800bf6c04904cfaba75909cd2bbd2e",
       "title": {
         "fr": "Lamington",
         "en": "Lamington",
@@ -1045,8 +1047,8 @@
     },
     {
       "id": "ds-loukoum",
-      "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "b0558e7648e13006e5d91866d67f9787d8ce1a9c212546be6f6b803232ce0cc5",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "3c6b1d378596443a674f28f6e3417911f5e3c53fbb1db009f4faccb28a1c0509",
       "title": {
         "fr": "Loukoum",
         "en": "Turkish delight",
@@ -1303,8 +1305,8 @@
     },
     {
       "id": "ds-nanaimo-bars",
-      "updatedAt": "2026-10-23T19:26:41Z",
-      "contentHash": "ce587db9b1c988d5193aceaac95affe9cb6755f30c697c5e7345955f37153947",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "b572875861502560f30c6456bb440159760c92354cc016c4c6759334ee830918",
       "title": {
         "fr": "Nanaimo bars",
         "en": "Nanaimo bars",
@@ -1589,8 +1591,8 @@
     },
     {
       "id": "ds-pouding-chomeur",
-      "updatedAt": "2026-10-23T19:26:05Z",
-      "contentHash": "fba1c882b9853a1d14698dac41e3e9018a6032042f6e5090b39f6616fac54cce",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "cbbeb5b0baa6571bf4e5ea27cec40d59991413deec2c9ab5caac926badd9dc28",
       "title": {
         "fr": "Pouding chômeur",
         "en": "Pouding chômeur",
@@ -1800,8 +1802,8 @@
     },
     {
       "id": "ds-thiakry",
-      "updatedAt": "2026-10-23T17:38:49Z",
-      "contentHash": "4852e3d2092ea92a23582f5b351baee204d6320a2e823a4407e78eed6e72f683",
+      "updatedAt": "2026-11-15T17:21:14Z",
+      "contentHash": "93bee77e9dece2d9d00b9983c55ad879ce4e175c7251b176c2f5bd53bea6de10",
       "title": {
         "fr": "Thiakry",
         "en": "Thiakry",
@@ -1932,7 +1934,7 @@
     }
   ],
   "files": {
-    "ingredients.json": "e557bbf57550d7baf6b30a350dd1a9c5fac5864633b7a33ec96e3a3c0e43e8cc",
+    "ingredients.json": "ff76b42d8113608ebf10dd34ff04640faa298e955887f294ff5ff45f95865304",
     "origins.json": "2b6d70734963157cc42ebdde6b49037140da66f91d5f38691def9520dd3ef888",
     "occasions.json": "91c72d6362b3502152b8bfdf1c75b1d4a59e7d8a9e6e75c571d3e86d4e9ff813"
   },
@@ -2180,6 +2182,98 @@
     {
       "date": "2026-11-22",
       "recipeID": "ds-gulab-jamun"
+    },
+    {
+      "date": "2026-11-23",
+      "recipeID": "ds-cascos-de-guayaba"
+    },
+    {
+      "date": "2026-11-24",
+      "recipeID": "ds-bolo-de-bolacha"
+    },
+    {
+      "date": "2026-11-25",
+      "recipeID": "ds-coffee-jelly"
+    },
+    {
+      "date": "2026-11-26",
+      "recipeID": "ds-creme-brulee"
+    },
+    {
+      "date": "2026-11-27",
+      "recipeID": "ds-tres-leches"
+    },
+    {
+      "date": "2026-11-28",
+      "recipeID": "ds-apple-crumble"
+    },
+    {
+      "date": "2026-11-29",
+      "recipeID": "ds-napolitaines"
+    },
+    {
+      "date": "2026-11-30",
+      "recipeID": "ds-glace-au-matcha"
+    },
+    {
+      "date": "2026-12-01",
+      "recipeID": "ds-linzer-torte"
+    },
+    {
+      "date": "2026-12-02",
+      "recipeID": "ds-pain-patate"
+    },
+    {
+      "date": "2026-12-03",
+      "recipeID": "ds-hotteok"
+    },
+    {
+      "date": "2026-12-04",
+      "recipeID": "ds-dobos-torta"
+    },
+    {
+      "date": "2026-12-05",
+      "recipeID": "ds-anzac-biscuits"
+    },
+    {
+      "date": "2026-12-06",
+      "recipeID": "ds-churchkhela"
+    },
+    {
+      "date": "2026-12-07",
+      "recipeID": "ds-thiakry"
+    },
+    {
+      "date": "2026-12-08",
+      "recipeID": "ds-baghrir"
+    },
+    {
+      "date": "2026-12-09",
+      "recipeID": "ds-besan-laddoo"
+    },
+    {
+      "date": "2026-12-10",
+      "recipeID": "ds-pouding-chomeur"
+    },
+    {
+      "date": "2026-12-11",
+      "recipeID": "ds-tarte-tatin"
+    },
+    {
+      "date": "2026-12-12",
+      "recipeID": "ds-koba"
+    },
+    {
+      "date": "2026-12-13",
+      "recipeID": "ds-kransekake"
+    },
+    {
+      "date": "2026-12-14",
+      "recipeID": "ds-panipopo"
+    },
+    {
+      "date": "2026-12-15",
+      "recipeID": "ds-apple-pie"
     }
   ]
 }

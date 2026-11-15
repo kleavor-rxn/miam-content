@@ -40,7 +40,7 @@
     {"ref": "vanille", "quantity": 1, "unit": "tsp"},
     {"ref": "farine", "quantity": 100, "unit": "g"},
     {"ref": "cacao", "quantity": 25, "unit": "g"},
-    {"ref": "sel", "quantity": null, "unit": null},
+    {"ref": "sel", "quantity": 1, "unit": "pinch"},
     {"ref": "noix", "quantity": 100, "unit": "g", "optional": true}
   ],
   "steps": [
