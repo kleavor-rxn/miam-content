@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T18:24:14Z",
+  "generatedAt": "2026-11-16T13:17:58Z",
   "recipes": [
     {
       "id": "ds-aebleskiver",
@@ -2182,6 +2182,10 @@
     {
       "date": "2026-12-15",
       "recipeID": "ds-pavlova"
+    },
+    {
+      "date": "2026-12-16",
+      "recipeID": "ds-besan-laddoo"
     }
   ]
 }

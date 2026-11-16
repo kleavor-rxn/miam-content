@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T13:32:35Z",
+  "generatedAt": "2026-11-16T13:17:58Z",
   "recipes": [
     {
       "id": "fr-blanquette-de-veau",
@@ -498,34 +498,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-09-10",
-      "recipeID": "fr-tarte-tatin"
-    },
-    {
-      "date": "2026-09-11",
-      "recipeID": "fr-flammekueche"
-    },
-    {
-      "date": "2026-09-12",
-      "recipeID": "fr-madeleines"
-    },
-    {
-      "date": "2026-09-13",
-      "recipeID": "fr-mousse-au-chocolat"
-    },
-    {
-      "date": "2026-09-14",
-      "recipeID": "fr-hachis-parmentier"
-    },
-    {
-      "date": "2026-09-15",
-      "recipeID": "fr-tomates-farcies"
-    },
-    {
-      "date": "2026-09-16",
-      "recipeID": "fr-camembert-roti"
-    },
-    {
       "date": "2026-09-17",
       "recipeID": "fr-tartiflette"
     },
@@ -860,6 +832,34 @@
     {
       "date": "2026-12-09",
       "recipeID": "fr-croque-monsieur"
+    },
+    {
+      "date": "2026-12-10",
+      "recipeID": "fr-tomates-farcies"
+    },
+    {
+      "date": "2026-12-11",
+      "recipeID": "fr-veloute-de-potiron"
+    },
+    {
+      "date": "2026-12-12",
+      "recipeID": "fr-clafoutis-aux-cerises"
+    },
+    {
+      "date": "2026-12-13",
+      "recipeID": "fr-crepes"
+    },
+    {
+      "date": "2026-12-14",
+      "recipeID": "fr-poireaux-vinaigrette"
+    },
+    {
+      "date": "2026-12-15",
+      "recipeID": "fr-creme-brulee"
+    },
+    {
+      "date": "2026-12-16",
+      "recipeID": "fr-oeufs-mimosa"
     }
   ]
 }

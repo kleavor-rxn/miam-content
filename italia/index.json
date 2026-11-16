@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T13:32:35Z",
+  "generatedAt": "2026-11-16T13:17:58Z",
   "recipes": [
     {
       "id": "it-arancini",
@@ -504,34 +504,6 @@
   },
   "dailyPicks": [
     {
-      "date": "2026-09-10",
-      "recipeID": "it-tiramisu"
-    },
-    {
-      "date": "2026-09-11",
-      "recipeID": "it-gnocchi-di-patate"
-    },
-    {
-      "date": "2026-09-12",
-      "recipeID": "it-pasta-e-fagioli"
-    },
-    {
-      "date": "2026-09-13",
-      "recipeID": "it-polpette-al-sugo"
-    },
-    {
-      "date": "2026-09-14",
-      "recipeID": "it-insalata-caprese"
-    },
-    {
-      "date": "2026-09-15",
-      "recipeID": "it-pizzette-di-sfoglia"
-    },
-    {
-      "date": "2026-09-16",
-      "recipeID": "it-ossobuco-alla-milanese"
-    },
-    {
       "date": "2026-09-17",
       "recipeID": "it-bruschetta-al-pomodoro"
     },
@@ -866,6 +838,34 @@
     {
       "date": "2026-12-09",
       "recipeID": "it-pizza-margherita"
+    },
+    {
+      "date": "2026-12-10",
+      "recipeID": "it-spaghetti-carbonara"
+    },
+    {
+      "date": "2026-12-11",
+      "recipeID": "it-piadina-romagnola"
+    },
+    {
+      "date": "2026-12-12",
+      "recipeID": "it-polpette-al-sugo"
+    },
+    {
+      "date": "2026-12-13",
+      "recipeID": "it-lasagne-alla-bolognese"
+    },
+    {
+      "date": "2026-12-14",
+      "recipeID": "it-risotto-alla-milanese"
+    },
+    {
+      "date": "2026-12-15",
+      "recipeID": "it-frittata-di-zucchine"
+    },
+    {
+      "date": "2026-12-16",
+      "recipeID": "it-minestrone"
     }
   ]
 }
